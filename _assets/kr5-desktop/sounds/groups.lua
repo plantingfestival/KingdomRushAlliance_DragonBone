@@ -57,8 +57,11 @@ return {
 			"kr4_bolt_release.ogg",
 			"kr4_arrow_release_1.ogg",
 			"kr4_warmonger_mage_attack.ogg",
+			"assassin_gold.ogg",
 			-- customization
 			"kr_voice_spydyr_taunt-select_b.ogg",
+			"kr_voice_sunwukong_4_a.ogg",
+			"kr_voice_CN_wukong_here_comes_your_grandpa_sun_1.ogg",
 			"kra_sfx_easterEgg_interactionTap.ogg",
 			"kr5_sfx_UIgate-close.ogg",
 			"kr5_sfx_UIgate-open_op1.ogg",
@@ -166,7 +169,12 @@ return {
 			"kr_voice_neutralreinforcements_taunt01_a.ogg",
 			"kr_voice_neutralreinforcements_taunt02_a.ogg",
 			"kr_voice_neutralreinforcements_taunt03_a.ogg",
-			"kr5_button_hover_op2.ogg"
+			"kr5_button_hover_op2.ogg",
+			"kr5_sfx_lightning_op1.ogg",
+			"kr5_sfx_lightning_op2.ogg",
+			"kr5_sfx_lightning_op3.ogg",
+			"kr_voice_pandatower_taunt01_f.ogg",
+			"kr_voice_CN_pandas_panda_style_3.ogg"
 		},
 		ids = {}
 	},
@@ -217,6 +225,91 @@ return {
 			"inapp_nuke.ogg",
 			"inapp_nuke_falling.ogg",
 			"Sound_RockElementalDeath.ogg",
+		}
+	},
+	kr2_common = {
+		files = {
+			"GUITransitionClose.ogg",
+			"GUITransitionOpen.ogg",
+			"Sound_CommonAreaHit.ogg",
+			"Sound_EnemyBigDead.ogg",
+			"Sound_EnemyExplode1.ogg",
+			"Sound_EnemyGoblinDead.ogg",
+			"Sound_EnemyHealing.ogg",
+			"Sound_EnemyOrcDead.ogg",
+			"Sound_EnemyPuffDead.ogg",
+			"Sound_EnemySkeletonBreak2.ogg",
+			"Sound_EnemyTrollDead.ogg",
+			"Sound_EngineerShot.ogg",
+			"Sound_FireballHit.ogg",
+			"Sound_FireballUnleash.ogg",
+			"Sound_GUIButtonCommon.ogg",
+			"Sound_GUIBuyUpgrade.ogg",
+			"Sound_GUIMouseOverTowerIcon.ogg",
+			"Sound_GUIOpenTowerMenu.ogg",
+			"Sound_HumanDead1.ogg",
+			"Sound_HumanDead2.ogg",
+			"Sound_HumanDead3.ogg",
+			"Sound_HumanDead4.ogg",
+			"Sound_LooseLife.ogg",
+			"Sound_MageShot.ogg",
+			"Sound_MapNewFlag.ogg",
+			"Sound_MapRoad.ogg",
+			"Sound_NextWaveReady.ogg",
+			"Sound_NotificationClose.ogg",
+			"Sound_NotificationOpen.ogg",
+			"Sound_NotificationPaperOver.ogg",
+			"Sound_NotificationSecondLevel.ogg",
+			"Sound_QuestCompleted.ogg",
+			"Sound_QuestFailed.ogg",
+			"Sound_RallyPointPlaced.ogg",
+			"Sound_RocketLaunt.ogg",
+			"Sound_Shootgun.ogg",
+			"Sound_Shrapnel.ogg",
+			"Sound_Sniper.ogg",
+			"Sound_Sorcerer.ogg",
+			"Sound_SpellRefresh.ogg",
+			"Sound_SpellSelect.ogg",
+			"Sound_SpiderAttack2.ogg",
+			"Sound_TowerBuilding.ogg",
+			"Sound_TowerOpenDoor.ogg",
+			"Sound_TowerSell.ogg",
+			"Sound_WaveIncoming.ogg",
+			"Sound_WinStars.ogg",
+			"Sound_WolfAttack.ogg",
+			"Sound_WolfAttack2.ogg",
+			"blazefang_attack.ogg",
+			"blazefang_death.ogg",
+			"canibal_eating.ogg",
+			"canibal_necromancer.ogg",
+			"canibal_zombie_one.ogg",
+			"canibal_zombie_three.ogg",
+			"canibal_zombie_two.ogg",
+			"darter_teleout.ogg",
+			"inapp_atfreezeend.ogg",
+			"inapp_atfreezestart.ogg",
+			"inapp_cash.ogg",
+			"inapp_chin.ogg",
+			"inapp_freeze.ogg",
+			"inapp_gems.ogg",
+			"inapp_gnome.ogg",
+			"inapp_hearts.ogg",
+			"inapp_nuke.ogg",
+			"inapp_nuke_falling.ogg",
+			"mecromancer_summon.ogg",
+			"myrmidon_bite.ogg",
+			"necromancer_attack.ogg",
+			"nightscale_invisibility.ogg",
+			"sandwraith_coffin.ogg",
+			"saurian_brute_attack.ogg",
+			"savant_attack.ogg",
+			"savant_open_portal.ogg",
+			"savant_portal_loop.ogg",
+			"savant_telein.ogg",
+			"wasp_1.ogg",
+			"wasp_2.ogg",
+			"wasp_3.ogg",
+			"wilhelm_scream.ogg",
 		}
 	},
 	-- customization
@@ -436,6 +529,37 @@ return {
 			"MusicBossFight_30"
 		}
 	},
+	music_stage31 = {
+		sounds = {
+			"MusicBattlePrep_31",
+			"MusicBattle_31"
+		}
+	},
+	music_stage32 = {
+		sounds = {
+			"MusicBattlePrep_32",
+			"MusicBattle_32"
+		}
+	},
+	music_stage33 = {
+		sounds = {
+			"MusicBattlePrep_33",
+			"MusicBattle_33"
+		}
+	},
+	music_stage34 = {
+		sounds = {
+			"MusicBattlePrep_34",
+			"MusicBattle_34"
+		}
+	},
+	music_stage35 = {
+		sounds = {
+			"MusicBattlePrep_35",
+			"MusicBattle_35",
+			"MusicBossFight_35"
+		}
+	},
 	music_stage81 = {
 		sounds = {
 			"MusicBattlePrep_81",
@@ -449,6 +573,13 @@ return {
 		}
 	},
 	-- customization
+	music_stage114 = {
+		sounds = {
+			"MusicBattlePrep_114",
+			"MusicBattle_114",
+			"MusicBossFight"
+		}
+	},
 	music_stage115 = {
 		sounds = {
 			"MusicBattlePrep_115",
@@ -488,10 +619,33 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
-	sounds_stage417 = {
+	music_stage219 = {
 		sounds = {
-			"MusicBattlePrep_417",
-			"MusicBattle_417",
+			"MusicBattlePrep_219",
+			"MusicBattle_219",
+			"MusicHalloweenMoon"
+		}
+	},
+	music_stage220 = {
+		sounds = {
+			"MusicBattlePrep_220",
+			"MusicBattle_220",
+			"MusicHalloweenMoon"
+		}
+	},
+	music_stage221 = {
+		sounds = {
+			"MusicBattlePrep_221",
+			"MusicBattle_221",
+			"MusicHalloweenMoon",
+			"KR2_MusicBossFight"
+		}
+	},
+	music_stage222 = {
+		sounds = {
+			"MusicBattlePrep_222",
+			"MusicBattle_222",
+			"KR2_MusicBossFight"
 		}
 	},
 	sounds_stage426 = {
@@ -555,6 +709,11 @@ return {
 			"kr4_frog_erudite_shot.ogg",
 			"kr4_puff_death.ogg",
 			"kro_sfx_bitteringrancor_screecher-death.ogg",
+			"HeadlessHorseman-03a_WET.ogg",
+			"halloween_headless_sinrisa_conacorde.ogg",
+			"halloween_vampireboss_death.ogg",
+			"halloween_vampireboss_drainlife.ogg",
+			"halloween_vampireboss_gates.ogg",
 		}
 	},
 	-- customization
@@ -965,6 +1124,31 @@ return {
 			"kra_sfx_spiders_heroe_tunneling_out_v1.ogg"
 		}
 	},
+	hero_wukong = {
+		files = {
+			"kr_voice_sunwukong_1_c.ogg",
+			"kr_voice_sunwukong_2_b.ogg",
+			"kr_voice_sunwukong_3_b.ogg",
+			"kr_voice_sunwukong_4_a.ogg",
+			"kr_voice_sunwukong_5_c.ogg",
+			"kr_voice_CN_wukong_are_there_any_peaches_in_your_land_1.ogg",
+			"kr_voice_CN_wukong_grandpa_sun_will_be_right_back_2.ogg",
+			"kr_voice_CN_wukong_here_comes_your_grandpa_sun_1.ogg",
+			"kr_voice_CN_wukong_where_are_you_going_demon_2.ogg",
+			"kr_voice_CN_wukong_vivid_and_monkey-like_2.ogg",
+			"kra_sfx_wukong_hero_death_op3_v1.ogg",
+			"kra_sfx_wukong_hero_hair_clones_v1.ogg",
+			"kra_sfx_wukong_hero_instakill_v2.ogg",
+			"kra_sfx_wukong_hero_melee_fast_hits_v1.ogg",
+			"kra_sfx_wukong_hero_melee_jump_v1.ogg",
+			"kra_sfx_wukong_hero_melee_simple_v1.ogg",
+			"kra_sfx_wukong_hero_melee_spin_v1.ogg",
+			"kra_sfx_wukong_hero_multi_staf_op1_v1.ogg",
+			"kra_sfx_wukong_hero_ultimate_v1.ogg",
+			"kra_sfx_wukong_hero_zhu_smash_v1.ogg",
+			"kra_sfx_spiders_heroe_global_cocoons_v1.ogg",
+		}
+	},
 	-- customization
 	hero_10yr = {
 		files = {
@@ -1327,6 +1511,43 @@ return {
 			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
+	item_hero_monkey_god = {
+		files = {
+			"Saitam-confirm_01b[2].ogg",
+			"Saitam-confirm_02c[2].ogg",
+			"Saitam_confirm-03c.ogg",
+			"Saitam_confirm-04c.ogg",
+			"Saitam_confirm-05c.ogg",
+			"krf_toee_saitam_angrygod[flames-loop].ogg",
+			"krf_toee_saitam_monkeypalm[op1].ogg",
+			"krf_toee_saitam_attack[op1].ogg",
+			"krf_toee_saitam_polespin[loop-end].ogg",
+			"krf_toee_saitam_clouddrop.ogg",
+			"krf_toee_saitam_polespin[loop].ogg",
+			"krf_toee_saitam_cloudtransport.ogg",
+			"krf_toee_saitam_angrygod[scream].ogg",
+			"krf_toee_saitam_tetsubostorm[op1].ogg",
+			"krf_toee_saitam_cloudclimb_v2[op2].ogg",
+			"krf_toee_saitam_attack[op2].ogg",
+			"Saitam-death_01b[2].ogg",
+		}
+	},
+	item_hero_monk = {
+		files = {
+			"Hero_Monk_Hadoken.ogg",
+			"Hero_Monk_Counter.ogg",
+			"Hero_Monk_Multihit_scream_1.ogg",
+			"Hero_Monk_Multihit_scream_2.ogg",
+			"Hero_Monk_Multihit_punch.ogg",
+			"Hero_Monk_Snake_attack.ogg",
+			"Monk_01c.ogg",
+			"Monk_02b.ogg",
+			"Monk_03c.ogg",
+			"Monk_04b.ogg",
+			"Hero_Monk_Firedragon.ogg",
+			"Monk_Death.ogg",
+		}
+	},
 	item_hero_vampiress = {
 		files = {
 			"Vampiress-01c.ogg",
@@ -1377,6 +1598,20 @@ return {
 			"Faustus-confirm_03a2.ogg",
 			"Faustus-confirm_01b2.ogg",
             "kro_sfx_faustus_teleport_v1[sinarpa].ogg",
+		}
+	},
+	item_hero_voodoo_witch = {
+		files = {
+			"Vodoo_01c.ogg",
+			"Vodoo_02b.ogg",
+			"Vodoo_03b.ogg",
+			"Vodoo_04b.ogg",
+			"KRF_sfx_vodoo_kamikazegolpev3.ogg",
+			"Vodoo_05d.ogg",
+			"KRF_sfx_vodoo_kamikazelanza.ogg",
+			"KRF_sfx_vodoo_munieco.ogg",
+			"KRF_sfx_vodoo_calaveraV3_op2.ogg",
+			"KRF_sfx_vodoo_ataqueV3.ogg"
 		}
 	},
 	item_hero_veznan = {
@@ -1515,7 +1750,6 @@ return {
 			"kro_sfx_veznan_teleport_v1.ogg",
 			"kro_sfx_poisonplant_discharge[conacido]_B.ogg",
 			"kro_sfx_poisonplant_ready_v2B.ogg",
-			"assassin_gold.ogg",
 			"Awok_01b.ogg",
         	"Awok_02c.ogg",
 			"kre_sfx_plant_magicmissile.ogg",
@@ -1531,7 +1765,24 @@ return {
 			"GalhadriansBastion-01c.ogg",
 			"GalhadriansBastion-02c.ogg",
 			"kro_sfx_bastion_shot[op1]_modif.ogg",
-			"kra_sfx_stage16_bossFight_overseerTowerTeleport_TowerTeleport_v1.ogg"
+			"kra_sfx_stage16_bossFight_overseerTowerTeleport_TowerTeleport_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_evolve_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_unlock.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_active_vines_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_in.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_kill.ogg",
+			"kra_sfx_wukong_mechanic_stage34_holder_active_summon_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg",
+			"kro_sfx_barezad_firebreath_v2[loop].ogg",
+			"kro_sfx_barezad_firebreath_v2[starter].ogg",
+			"kro_sfx_barezad_firebreath_v2[end].ogg",
+			"kro_sfx_ashbite_confirm_v1[op1].ogg",
+			"kro_sfx_ashbite_confirm_v1[op2].ogg",
+			"hero_dragon_death.ogg",
+			"hero_dragon_fireball_explode.ogg",
+			"hero_dragon_flamethrower.ogg",
+			"hero_dragon_smoke.ogg",
+			"hero_dragon_spit.ogg",
 		}
 	},
 	tower_ignis_altar = {
@@ -1977,7 +2228,6 @@ return {
 			"kra_sfx_tower_duneSentinels_bountyHunt_cast_v1.ogg",
 			"kra_sfx_tower_duneSentinels_whirlingDoom_cast_v1.ogg",
 			-- customization
-			"assassin_gold.ogg",
 			"assassin_sneakattack.ogg",
 			"assassin_taunt_sneak.ogg",
 			"assassin_taunt_gold.ogg",
@@ -2137,6 +2387,43 @@ return {
 			"kra_sfx_spiders_tower_heode_ray_var5_v1.ogg",
 			"kra_sfx_spiders_tower_heode_spike_cast_v1.ogg",
 			"kra_sfx_spiders_tower_heode_spike_sparksLOOP_v1.ogg"
+		}
+	},
+	tower_pandas = {
+		files = {
+			"kr_voice_pandatower_taunt01_f.ogg",
+			"kr_voice_pandatower_taunt02_b.ogg",
+			"kr_voice_pandatower_taunt03_c.ogg",
+			"kr_voice_pandatower_thunderskill_a.ogg",
+			"kr_voice_pandatower_fieryskill_b.ogg",
+			"kr_voice_pandatower_hatskill_a.ogg",
+			"kr_voice_CN_pandas_panda_style_3.ogg",
+			"kr_voice_CN_pandas_no_charge_for_awesome_2.ogg",
+			"kr_voice_CN_pandas_we_know_kung-fu_2.ogg",
+			"kr_voice_CN_pandas_ayumbabayeee_1.ogg",
+			"kr_voice_CN_pandas_watch_and_see_3.ogg",
+			"kr_voice_CN_pandas_get_over_there_2.ogg",
+			"kra_sfx_wukong_tower_pandas_arrival_single_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_arrival_single_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_arrival_single_var3_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_death_generic_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_death_generic_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_death_generic_var3_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_bolt_var3_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_fire_var3_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_ranged_hat_var3_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_skill_bolt_op1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_skill_fire_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_skill_hat_throw_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_melee_var1_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_melee_var2_v1.ogg",
+			"kra_sfx_wukong_tower_pandas_melee_var3_v1.ogg"
 		}
 	},
 	enemies_sea_of_trees = {
@@ -2366,6 +2653,91 @@ return {
 			"kra_sfx_enemy_unblindedPriest_death_var3.ogg"
 		}
 	},
+	enemies_terrain_wukong_1 = {
+		files = {
+			"kra_sfx_wukong_enemy_ash_spirit_death_v1.ogg",
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var1.ogg",
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var2.ogg",
+			"kra_sfx_wukong_enemy_ash_spirit_melee_var3.ogg",
+			"kra_sfx_wukong_enemy_blaze_raider_special_v1.ogg",
+			"kra_sfx_wukong_enemy_burning_treant_death_v1.ogg",
+			"kra_sfx_wukong_enemy_burning_treant_special_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_death_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_fox_melee_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_fire_phoenix_death_wScreech_v1.ogg",
+			"kra_sfx_wukong_enemy_flame_guard_special_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_death_wWhimper_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_double_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_melee_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_teleport_IN_v1.ogg",
+			"kra_sfx_wukong_enemy_nine_tailed_fox_teleport_OUT_v1.ogg",
+			"kra_sfx_wukong_enemy_wuxian_death_v1.ogg",
+			"kra_sfx_wukong_enemy_wuxian_ranged_v1.ogg",
+			"kra_sfx_wukong_enemy_wuxian_special_woVoice_v1.ogg",
+			"kra_sfx_wukong_enemy_wuxian_special_wVoice_v1.ogg",
+			"kra_sfx_enemy_tuskedBrawler_death_op1_var3.ogg",
+			"kra_sfx_crocs_gator_melee_var1_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var2_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var3_v1.ogg",
+		}
+	},
+	enemies_terrain_wukong_2 = {
+		files = {
+			"kra_sfx_wukong_enemy_drakeling_death_v1.ogg",
+			"kra_sfx_wukong_enemy_drakeling_leap_v1.ogg",
+			"kra_sfx_wukong_enemy_qiongqi_ranged_op1_v1.ogg",
+			"kra_sfx_wukong_enemy_qiongqi_death_v1.ogg",
+			"kra_sfx_wukong_enemy_wmaster_special_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_melee_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_ranged_impact_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_death_effect_cast_op1_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_death_effect_stun_v1.ogg",
+			"kra_sfx_wukong_enemy_elemental_death_normal_v1.ogg",
+			"kra_sfx_wukong_enemy_fan_guard_death_op1_v1.ogg",
+			"kra_sfx_wukong_enemy_fan_guard_death_op2_v1.ogg",
+			"kra_sfx_wukong_enemy_fan_guard_special_v1.ogg",
+			"kra_sfx_enemy_tuskedBrawler_death_op1_var3.ogg",
+			"kra_sfx_crocs_gator_melee_var1_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var2_v1.ogg",
+			"kra_sfx_crocs_gator_melee_var3_v1.ogg",
+		}
+	},
+	enemies_terrain_wukong_3 = {
+		files = {
+			"kra_sfx_wukong_enemy_doombringer_stun_v1.ogg",
+			"kra_sfx_wukong_enemy_doombringer_death_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_aura_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_death_op2_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_melee_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_melee_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_melee_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_gebeast_bdksummon_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_charge_stop_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_charge_trample-LOOP_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_charge_warning_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_death_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_minotaur_headbutt_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_death_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_cast_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var2_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_ranged_impact_var3_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_summon_channel_v1.ogg",
+			"kra_sfx_wukong_enemy_warlock_summon_spawn_v1.ogg"
+		}
+	},
 	-- customization
 	enemies_rising_tides = {
 		files = {
@@ -2494,6 +2866,17 @@ return {
 			"kra_sfx_dlc1Ambient_forge_var2_v1.ogg",
 			"kra_sfx_dlc1Ambient_forge_var3_v1.ogg",
 			"kra_sfx_easterEgg_exodiaPart_v1.ogg"
+		}
+	},
+	terrain_wukong_common = {
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_holder_active_vines_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_evolve_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_holder_unlock.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_in.ogg",
+			"kra_sfx_wukong_mechanic_stage2_holder_active_instakill_v1_kill.ogg",
+			"kra_sfx_wukong_mechanic_stage34_holder_active_summon_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_holder_active_steal_op2_v1.ogg"
 		}
 	},
 	stage_01 = {
@@ -2972,6 +3355,107 @@ return {
 			"kra_sfx_spiders_bossfight_range_var2_v1.ogg",
 			"kra_sfx_spiders_bossfight_range_var3_v1.ogg",
 			"kra_sfx_spiders_bossfight_spit_v1.ogg"
+		}
+	},
+	stage_31 = {
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_fountain_refill_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_splash_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_fountain_tapon_var3_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_LOOP_in_faded_martin.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_impact_v2.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_travel-LOOP_v1.ogg"
+		}
+	},
+	stage_32 = {
+		files = {
+			"kra_sfx_wukong_mechanic_stage1_meteorites_LOOP_in_faded_martin.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_impact_v2.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_travel-LOOP_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_samadhi_fire_part1_v2.ogg",
+			"kra_sfx_wukong_stage32_redboy_samadhi_fire_part2_v2.ogg",
+			"kra_sfx_wukong_stage32_redboy_lava_surge_woVoice_v2.ogg",
+			"kra_sfx_wukong_stage32_redboy_explosion_v1.ogg",
+			"kra_sfx_wukong_stage32_dragon_roar_v1.ogg",
+			"kra_sfx_wukong_stage32_dragon_lava_spit_op2_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_transform_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_entrance_op2_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_samadhi_teen_prep_op2_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_death_part1_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_death_part2_v1.ogg"
+		}
+	},
+	stage_33 = {
+		files = {
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_LOOPStart_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_LOOP_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_ambience_distantThunder_var3_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_strike_var3_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_storm_lightning_mark_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage3_boat_drum_op2_v1.ogg"
+		}
+	},
+	stage_34 = {
+		files = {
+			"kra_sfx_wukong_princess_clone_v1.ogg",
+			"kra_sfx_wukong_princess_death_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_channel_v2.ogg",
+			"kra_sfx_wukong_princess_hero_stun_fail_woVoice_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_fail_wVoice_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_success_v2.ogg",
+			"kra_sfx_wukong_princess_melee_area_v1.ogg",
+			"kra_sfx_wukong_princess_melee_var1_v1.ogg",
+			"kra_sfx_wukong_princess_melee_var2_v1.ogg",
+			"kra_sfx_wukong_princess_melee_var3_v1.ogg",
+			"kra_sfx_wukong_princess_mud_pool_transformation_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var1_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var2_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var3_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var4_v1.ogg",
+			"kra_sfx_wukong_princess_mud_summon_var5_v1.ogg",
+			"kra_sfx_wukong_princess_mud_tower_op1_v2.ogg",
+			"kra_sfx_wukong_princess_mud_tower_op2_v2.ogg",
+			"kra_sfx_wukong_princess_ranged_cast_v1.ogg",
+			"kra_sfx_wukong_princess_ranged_impact_var1_v1.ogg",
+			"kra_sfx_wukong_princess_ranged_impact_var2_v1.ogg",
+			"kra_sfx_wukong_princess_teleport-IN_v1.ogg",
+			"kra_sfx_wukong_princess_teleport-OUT_v1.ogg"
+		}
+	},
+	stage_35 = {
+		files = {
+			"kra_sfx_wukong_princess_hero_stun_channel_v2.ogg",
+			"kra_sfx_wukong_princess_hero_stun_fail_woVoice_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_fail_wVoice_v1.ogg",
+			"kra_sfx_wukong_princess_hero_stun_success_v2.ogg",
+			"kra_sfx_wukong_mechanic_stage35_portal_water_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_spawners_v1.ogg",
+			"kra_sfx_wukong_bdk_death_v1.ogg",
+			"kra_sfx_wukong_bdk_intro_eatandgrow_v1.ogg",
+			"kra_sfx_wukong_bdk_intro_jumpToPath_v1.ogg",
+			"kra_sfx_wukong_bdk_intro_stand_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_area_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var1_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var2_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var3_v1.ogg",
+			"kra_sfx_wukong_bdk_melee_var4_v1.ogg",
+			"kra_sfx_wukong_bdk_stun_op1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_LOOP_in_faded_martin.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_impact_v2.ogg",
+			"kra_sfx_wukong_mechanic_stage1_meteorites_travel-LOOP_v1.ogg",
+			"kra_sfx_wukong_stage32_redboy_samadhi_fire_part2_v2.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_3_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_part1_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_part2_v1.ogg",
+			"kra_sfx_wukong_mechanic_stage35_cinematic_4_scream_v2.ogg"
 		}
 	},
 	item_cluster_bomb = {

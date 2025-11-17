@@ -15,6 +15,7 @@ local SH = require("klove.shader_db")
 local E = require("entity_db")
 local P = require("path_db")
 local F = require("klove.font_db")
+local features = require("features")
 local GR = require("grid_db")
 local GS = require("game_settings")
 local S = require("sound_db")
@@ -26,11 +27,12 @@ local LU = require("level_utils")
 local V = require("klua.vector")
 local storage = require("storage")
 local EXO = require("exoskeleton")
+local SSO = require("klove.sso")
 local bit = require("bit")
 local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
-local balance = require("balance/balance")
+local balance = require("data.balance.balance")
 
 require("constants")
 
@@ -44,6 +46,15 @@ end
 
 local function fts(v)
 	return v / FPS
+end
+
+local function prs(x, y, psx, psy, pr)
+	local cp = math.cos(pr)
+	local sp = math.sin(pr)
+	local sx, sy = x * psx, y * psy
+	local rsx, rsy = sx * cp - sy * sp, sx * sp + sy * cp
+
+	return rsx, rsy
 end
 
 local sys = {}
@@ -70,17 +81,21 @@ function sys.level:init(store)
 	GR:load(store.level_name)
 	P:load(store.level_name, store.visible_coords)
 	W:load(store.level_name, store.level_mode, store.current_wave_ss_data)
-	A:load()
+	A:load(I.last_preloaded_group_names)
 	E:load()
 
-	if store.level.data then
-		EXO:load(store.level.data.required_exoskeletons)
+	if I.last_preloaded_group_names then
+		EXO:load_groups(I.last_preloaded_group_names)
+	end
+
+	if store.level.required_exoskeletons then
+		EXO:load(store.level.required_exoskeletons, "required_exoskeletons")
 	end
 
 	if IS_KR5 then
 		for k, v in pairs(slot.items.selected) do
 			if GS.items_required_exoskeletons[v] then
-				EXO:load(GS.items_required_exoskeletons[v])
+				EXO:load(GS.items_required_exoskeletons[v], "required_items")
 			end
 		end
 	end
@@ -93,14 +108,15 @@ function sys.level:init(store)
 			return
 		end
 		files = table.filter(files, function(k, v)
-			return string.match(v, "^" .. prefix .. "[^.]-%.lua$")
+			return string.match(v, "^" .. prefix .. "[^.]-%.lua$") or string.match(v, "^" .. prefix .. "[^.]-%.exo$") or 
+			string.match(v, "^" .. prefix .. "[^.]-%.exo3$") or string.match(v, "^" .. prefix .. "[^.]-%.exo3mp$")
 		end)
 		if not files or #files == 0 then
 			return
 		end
 		for i = 1, #files do
 			local name = files[i]
-			local startPos, endPos = string.find(name, "%.lua$")
+			local startPos, endPos = string.find(name, "%.lua$") or string.find(name, "%.exo$") or string.find(name, "%.exo3$") or string.find(name, "%.exo3mp$")
 			files[i] = string.sub(name, 1, startPos - 1)
 		end
 	
@@ -215,6 +231,15 @@ function sys.level:init(store)
 	log.info("level_idx:%02d, level_mode:%d, level_difficulty:%d", store.level_idx, store.level_mode, store.level_difficulty)
 end
 
+function sys.level:destroy(store)
+	if store.level and store.level.destroy then
+		store.level:destroy(store)
+	end
+
+	EXO:unload_all()
+	A:unload_all()
+end
+
 function sys.level:on_update(dt, ts, store)
 	local function store_hero_xp(slot)
 		if store.level_challenge then
@@ -309,6 +334,16 @@ function sys.level:on_update(dt, ts, store)
 		end
 	elseif not store.main_hero and not store.level.locked_hero and not store.level.manual_hero_insertion then
 		LU.insert_hero(store)
+	end
+
+	if store.ephemeral._had_enemies then
+		if not LU.has_alive_enemies(store) then
+			signal.emit("all_enemies_died")
+
+			store.ephemeral._had_enemies = false
+		end
+	elseif LU.has_alive_enemies(store) then
+		store.ephemeral._had_enemies = true
 	end
 
 	if not store.game_outcome then
@@ -430,6 +465,71 @@ function sys.level:on_update(dt, ts, store)
 	end
 end
 
+sys.sso = {}
+sys.sso.name = "sso"
+
+function sys.sso:on_update(dt, ts, store)
+	SSO:reset(store.entities)
+
+	local vc = store.visible_coords
+	local rx = vc.left
+	local ry = vc.bottom
+	local rw = vc.right - vc.left
+	local rh = vc.top - vc.bottom
+	local st = SSO:create("targets", rx, ry, rw, rh)
+
+	for _, e in pairs(store.entities) do
+		if not e.pending_removal and e.health and e.vis and e.pos then
+			SSO:insert(st, e.pos.x, e.pos.y, e)
+		end
+	end
+end
+
+sys.sso_post = {}
+sys.sso_post.name = "sso_post"
+
+function sys.sso_post:init(store)
+	SSO:reset_p_lists()
+end
+
+function sys.sso_post:destroy(store)
+	SSO:reset_p_lists()
+end
+
+function sys.sso_post:on_insert(entity, store)
+	local e = entity
+
+	if e.main_script and (e.enemy and e.health or e.enemy and e.death_spawns or e.spawner and not e.spawner.eternal or e.picked_enemies or e.tunnel or IS_KR3 and e.template_name == "nav_faerie") then
+		SSO:get_p_list("alive_enemies")[e.id] = e
+	end
+
+	if e.graveyard then
+		SSO:get_p_list("graveyards")[e.id] = e
+	end
+
+	if e.modifier then
+		SSO:get_p_list("modifiers")[e.id] = e
+	end
+
+	return true
+end
+
+function sys.sso_post:on_remove(entity, store)
+	if entity.main_script then
+		SSO:get_p_list("alive_enemies")[entity.id] = nil
+	end
+
+	if entity.graveyard then
+		SSO:get_p_list("graveyards")[entity.id] = nil
+	end
+
+	if entity.modifier then
+		SSO:get_p_list("modifiers")[entity.id] = nil
+	end
+
+	return true
+end
+
 sys.events = {}
 sys.events.name = "events"
 
@@ -541,6 +641,7 @@ function sys.wave_spawn_tsv.cmd_fns.wave(store, cmd)
 
 	local actual_wait_time = store.tick_ts - start_ts
 
+	store.next_wave_group_ready = nil
 	store.wave_group_number = store.wave_group_number + 1
 
 	if store.force_next_wave then
@@ -655,7 +756,8 @@ function sys.wave_spawn_tsv.cmd_fns.spawn(store, cmd, wave_name)
 
 		if store.extra_enemies and store.extra_enemies > 0 then
 			for i = 1, store.extra_enemies do
-				e = E:create_entity(o.enemy)
+				U.y_wait(store, fts(3))
+				local e = E:create_entity(o.enemy)
 				if e then
 					local path = P.paths[o.pi]
 					e.nav_path.pi = o.pi
@@ -667,7 +769,6 @@ function sys.wave_spawn_tsv.cmd_fns.spawn(store, cmd, wave_name)
 					if e.enemy then
 						e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 					end
-					U.y_wait(store, fts(2))
 					queue_insert(store, e)
 				end
 			end
@@ -715,12 +816,17 @@ function sys.wave_spawn_tsv.cmd_fns.wait_signal(store, cmd)
 	store.wait_signal_done = nil
 
 	local function fn(...)
+		log.debug("wait_signal : signal received")
+
 		store.wait_signal_done = "arrived"
 	end
 
 	if signal_name then
+		log.debug("wait_signal: registering signal %s", signal_name)
 		signal.register(signal_name, fn)
 	end
+
+	log.debug("wait_signal: waiting for signal:%s  time:%s", signal_name, cmd.wait_time)
 
 	if cmd.wait_time < 0 then
 		while not store.wait_signal_done and not store.force_next_wave do
@@ -736,6 +842,7 @@ function sys.wave_spawn_tsv.cmd_fns.wait_signal(store, cmd)
 		end)
 	end
 
+	log.debug("wait_signal: deregistering signal %s", signal_name)
 	signal.remove(signal_name, fn)
 end
 
@@ -961,12 +1068,13 @@ local function spawner(store, wave)
 
 				current_count = current_count + 1
 			else
-				log.error("Entity template not found for %s.", s.crep)
+				log.error("Entity template not found for %s.", s.creep)
 			end
 
 			if store.extra_enemies and store.extra_enemies > 0 then
 				for i = 1, store.extra_enemies do
-					e = E:create_entity(current_creep)
+					U.y_wait(store, fts(3))
+					local e = E:create_entity(current_creep)
 					if e then
 						e.nav_path.pi = pi
 						e.nav_path.spi = s.fixed_sub_path == 1 and km.zmod(s.path + i, 3) or math.random(#path)
@@ -978,7 +1086,6 @@ local function spawner(store, wave)
 						if e.enemy then
 							e.enemy.gold = km.round(e.enemy.gold * 0.6 * 0.85 ^ (store.extra_enemies - 1))
 						end
-						U.y_wait(store, fts(2))
 						queue_insert(store, e)
 					end
 				end
@@ -1321,7 +1428,8 @@ function sys.mod_lifecycle:on_insert(entity, store)
 
 	local this = entity
 	local target_id = this.modifier.target_id
-	local modifiers = table.filter(store.entities, function(k, v)
+	local l_entities = SSO and SSO:get_p_list("modifiers") or store.entities
+	local modifiers = table.filter(l_entities, function(k, v)
 		return v.modifier and v.modifier.target_id == target_id
 	end)
 
@@ -1360,7 +1468,7 @@ function sys.mod_lifecycle:on_insert(entity, store)
 	end
 
 	for _, m in pairs(modifiers) do
-		if m.template_name == this.template_name then
+		if m.template_name == this.template_name or m.modifier.level_group and this.modifier.level_group and m.modifier.level_group == this.modifier.level_group then
 			if this.modifier.level == m.modifier.level and this.modifier.allows_duplicates then
 				log.paranoid("adding a duplicate modifier (%s)-%s", this.id, this.template_name)
 
@@ -1417,37 +1525,39 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 				end
 			end
 
-			local th = E:create_entity("tower_holder")
-
-			th.pos = V.vclone(e.pos)
-			th.tower.holder_id = e.tower.holder_id
-			th.tower.flip_x = e.tower.flip_x
-
-			if e.tower.default_rally_pos then
-				th.tower.default_rally_pos = e.tower.default_rally_pos
-			end
-
-			if e.tower.terrain_style then
-				th.tower.terrain_style = e.tower.terrain_style
-				th.render.sprites[1].name = string.format(th.render.sprites[1].name, e.tower.terrain_style)
-
-				if IS_KR5 then
-					th.render.sprites[2].name = string.format(th.render.sprites[2].name, e.tower.terrain_style)
+			if not e.nav_rally then
+				local th = E:create_entity(e.tower.holder_template or "tower_holder")
+	
+				th.pos = V.vclone(e.pos)
+				th.tower.holder_id = e.tower.holder_id
+				th.tower.flip_x = e.tower.flip_x
+	
+				if e.tower.default_rally_pos then
+					th.tower.default_rally_pos = e.tower.default_rally_pos
 				end
+	
+				if e.tower.terrain_style then
+					th.tower.terrain_style = e.tower.terrain_style
+					th.render.sprites[1].name = string.format(th.render.sprites[1].name, e.tower.terrain_style)
+	
+					if IS_KR5 then
+						th.render.sprites[2].name = string.format(th.render.sprites[2].name, e.tower.terrain_style)
+					end
+				end
+	
+				if th.ui and e.ui then
+					th.ui.nav_mesh_id = e.ui.nav_mesh_id
+				end
+				
+				queue_insert(store, th)
+				signal.emit("tower-removed", e, th)
 			end
-
-			if th.ui and e.ui then
-				th.ui.nav_mesh_id = e.ui.nav_mesh_id
-			end
-
-			queue_insert(store, th)
 			queue_remove(store, e)
-			signal.emit("tower-removed", e, th)
 
 			if e.tower.sell then
 				local dust = E:create_entity("fx_tower_sell_dust")
 
-				dust.pos.x, dust.pos.y = th.pos.x, th.pos.y + 35
+				dust.pos.x, dust.pos.y = e.pos.x, e.pos.y + 35
 				dust.render.sprites[1].ts = store.tick_ts
 
 				queue_insert(store, dust)
@@ -1468,31 +1578,45 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 			end
 
 			local ne = E:create_entity(e.tower.upgrade_to)
-
 			ne.pos = e.pos
-			ne.tower.holder_id = e.tower.holder_id
 			ne.tower.flip_x = e.tower.flip_x
-
-			if e.tower.default_rally_pos then
-				ne.tower.default_rally_pos = V.vclone(e.tower.default_rally_pos)
-			end
-
-			if e.tower.terrain_style then
-				ne.tower.terrain_style = e.tower.terrain_style
-				ne.render.sprites[1].name = string.format(ne.render.sprites[1].name, e.tower.terrain_style)
-
-				if IS_KR5 then
-					ne.render.sprites[2].name = string.format(ne.render.sprites[2].name, e.tower.terrain_style)
-				end
-			end
-
-			if ne.ui and e.ui then
-				ne.ui.nav_mesh_id = e.ui.nav_mesh_id
-			end
-
 			queue_insert(store, ne)
 			queue_remove(store, e)
 			signal.emit("tower-upgraded", ne, e)
+
+			if ne.nav_rally and not e.nav_rally then
+				local holder_name = e.tower_holder and not e.tower_holder.blocked and e.template_name or e.tower.holder_template or "tower_holder"
+				local th = E:create_entity(holder_name)
+				th.pos = V.vclone(e.pos)
+				th.tower.holder_id = e.tower.holder_id
+				th.tower.flip_x = e.tower.flip_x
+				if e.tower.default_rally_pos then
+					th.tower.default_rally_pos = e.tower.default_rally_pos
+				end
+				if e.tower.terrain_style then
+					th.tower.terrain_style = e.tower.terrain_style
+					th.render.sprites[1].name = string.format(th.render.sprites[1].name, e.tower.terrain_style)
+					th.render.sprites[2].name = string.format(th.render.sprites[2].name, e.tower.terrain_style)
+				end
+				if th.ui and e.ui then
+					th.ui.nav_mesh_id = e.ui.nav_mesh_id
+				end
+				queue_insert(store, th)
+			else
+				ne.tower.holder_template = e.tower_holder and not e.tower_holder.blocked and e.template_name or e.tower.holder_template
+				ne.tower.holder_id = e.tower.holder_id
+				if e.tower.default_rally_pos then
+					ne.tower.default_rally_pos = V.vclone(e.tower.default_rally_pos)
+				end
+				if e.tower.terrain_style then
+					ne.tower.terrain_style = e.tower.terrain_style
+					ne.render.sprites[1].name = string.format(ne.render.sprites[1].name, e.tower.terrain_style)
+					ne.render.sprites[2].name = string.format(ne.render.sprites[2].name, e.tower.terrain_style)
+				end
+				if ne.ui and e.ui then
+					ne.ui.nav_mesh_id = e.ui.nav_mesh_id
+				end
+			end
 
 			local price = ne.tower.price
 
@@ -1504,6 +1628,11 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 				price = 0
 			elseif e.tower_holder and e.tower_holder.unblock_price > 0 then
 				price = e.tower_holder.unblock_price
+			end
+
+			if e.tower.upgrade_price_multiplier then
+				price = math.ceil(price * e.tower.upgrade_price_multiplier)
+				price = math.floor(price / 10) * 10
 			end
 
 			store.player_gold = store.player_gold - price
@@ -1529,7 +1658,9 @@ function sys.tower_upgrade:on_update(dt, ts, store)
 							U.unblock_target(store, s)
 						else
 							local ns
-							if type(ne.barrack.soldier_type) == "table" then
+							if ne.barrack.solder_upgrade_map then
+								ns = E:create_entity(ne.barrack.solder_upgrade_map[s.template_name])
+							elseif type(ne.barrack.soldier_type) == "table" then
 								ns = E:create_entity(ne.barrack.soldier_type[i])
 							else
 								ns = E:create_entity(ne.barrack.soldier_type)
@@ -1711,19 +1842,23 @@ function sys.main_script:on_update(dt, ts, store)
 		local count = 0
 		for _, e in E:filter_iter(store.entities, "main_script") do
 			local s = e.main_script
-	
+
 			if not s.update then
 				-- block empty
 			else
 				if not s.co and s.runs ~= 0 then
 					s.runs = s.runs - 1
 					s.co = coroutine.create(s.update)
+					s.first_run = true
 				end
-	
-				local resume = false
-				if s.co then
-					if not e.aura and not e.vis or e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) 
-					or count < 512 then
+
+				local resume
+				if s.first_run then
+					s.first_run = nil
+					resume = true
+				elseif s.co then
+					if count < 1024 or not e.aura and not e.vis or e.health and (e.health.dead or e.health.hp <= 0) or 
+					e.vis and (band(e.vis.flags, bor(F_FRIEND, F_ENEMY)) == 0 or band(e.vis.flags, bor(F_HERO, F_BOSS)) ~= 0) then
 						resume = true
 					else
 						local chance = math.random()
@@ -2141,7 +2276,7 @@ function sys.pops:on_update(dt, ts, store)
 			elseif target then
 				pop_entity = target
 			else
-				goto label_63_0
+				goto label_70_0
 			end
 
 			if (not d.pop_chance or math.random() < d.pop_chance) and (not d.pop_conds or band(d.damage_result, d.pop_conds) ~= 0) then
@@ -2168,7 +2303,7 @@ function sys.pops:on_update(dt, ts, store)
 			end
 		end
 
-		::label_63_0::
+		::label_70_0::
 	end
 end
 
@@ -2439,6 +2574,16 @@ function sys.particle_system:on_remove(entity, store)
 	return true
 end
 
+local function removeObjectsFromSequence(sequence, lookup)
+	local result = {}
+	for _, value in ipairs(sequence) do
+		if not lookup[value] then
+			table.insert(result, value)
+		end
+	end
+	return result
+end
+
 function sys.particle_system:on_update(dt, ts, store)
 	local function new_frame(draw_order, z, sort_y_offset, sort_y)
 		local f = {}
@@ -2531,40 +2676,68 @@ function sys.particle_system:on_update(dt, ts, store)
 		end
 	end
 
+	local frames_to_remove = {}
 	for _, e in E:filter_iter(store.entities, "particle_system") do
 		local s = e.particle_system
 		local tl = store.tick_length
-		local to_remove = {}
-		local target, target_rot
+		local particles_to_remove = {}
+		local target, target_rot, ov_x, ov_y, ov_offset_x, ov_offset_y
 		local target_flip_sign = 1
 
 		if s.track_id then
 			target = store.entities[s.track_id]
 
 			if target then
-				if target.render and target.render.sprites[1] then
-					target_rot = target.render.sprites[1].r
-					target_flip_sign = target.render.sprites[1].flip_x and -1 or 1
-				end
+				if target.render and s.track_sprite_id and s.track_attach_point then
+					local trs = target.render.sprites[s.track_sprite_id]
+					local trf = target.render.frames[s.track_sprite_id]
+					local tra_idx = trf.exo_frame and trf.exo_frame.exo.attach_points and trf.exo_frame.exo.attach_idx[s.track_attach_point]
+					local tra_part_idx = tra_idx and trf.exo_frame.a and trf.exo_frame.a[tra_idx]
+					local tra = tra_part_idx and trf.exo_frame[tra_part_idx]
 
-				if not s.last_pos then
-					s.last_pos = V.v(target.pos.x, target.pos.y)
+					if not tra then
+						-- block empty
+					end
+
+					if tra then
+						local ptype, pidx, palpha, ex, ey, esx, esy, er = unpack(tra)
+						local fox, foy = prs(s.emit_offset.x, s.emit_offset.y, esx, esy, er)
+
+						ov_offset_x, ov_offset_y = fox, foy
+						target_rot = (s.emit_rotation or 0) - er
+						e.pos.x, e.pos.y = target.pos.x + ex, target.pos.y - ey
+
+						if not s.last_pos then
+							s.last_pos = V.v(e.pos.x, e.pos.y)
+						end
+					end
+				else
+					if target.render and target.render.sprites[1] then
+						target_rot = target.render.sprites[1].r
+						target_flip_sign = target.render.sprites[1].flip_x and -1 or 1
+					end
+
+					if not s.last_pos then
+						s.last_pos = V.v(target.pos.x, target.pos.y)
+
+						if s.track_offset then
+							s.last_pos = V.v(target.pos.x + s.track_offset.x * target_flip_sign, target.pos.y + s.track_offset.y)
+						end
+					end
+
+					e.pos.x, e.pos.y = target.pos.x, target.pos.y
 
 					if s.track_offset then
-						s.last_pos = V.v(target.pos.x + s.track_offset.x * target_flip_sign, target.pos.y + s.track_offset.y)
+						e.pos.x, e.pos.y = e.pos.x + s.track_offset.x * target_flip_sign, e.pos.y + s.track_offset.y
 					end
-				end
-
-				e.pos.x, e.pos.y = target.pos.x, target.pos.y
-
-				if s.track_offset then
-					e.pos.x, e.pos.y = e.pos.x + s.track_offset.x * target_flip_sign, e.pos.y + s.track_offset.y
 				end
 			else
 				s.emit = false
 				s.source_lifetime = 0
 			end
-		elseif not s.last_pos then
+		end
+
+		if not s.last_pos then
 			s.last_pos = {
 				x = e.pos.x,
 				y = e.pos.y
@@ -2626,14 +2799,26 @@ function sys.particle_system:on_update(dt, ts, store)
 				end
 
 				f.flip_x = s.flip_x
-				if s.emit_offset then
+				if ov_offset_x then
+					p.pos.x = p.pos.x + ov_offset_x
+					p.pos.y = p.pos.y + ov_offset_y
+				elseif s.emit_offset then
 					local flip_sign = s.flip_x and -1 or 1
 					p.pos.x = p.pos.x + s.emit_offset.x * flip_sign
 					p.pos.y = p.pos.y + s.emit_offset.y
 				end
 
+				local emit_r = 0
+
 				if s.emit_speed then
-					p.speed.x, p.speed.y = V.rotate(s.emit_direction + U.frandom(-s.emit_spread, s.emit_spread), U.frandom(s.emit_speed[1], s.emit_speed[2]), 0)
+					local dir = s.emit_direction
+
+					if s.track_direction then
+						dir = dir + target_rot
+					end
+
+					emit_r = U.frandom(-s.emit_spread, s.emit_spread)
+					p.speed.x, p.speed.y = V.rotate(dir + emit_r, U.frandom(s.emit_speed[1], s.emit_speed[2]), 0)
 				end
 
 				if s.emit_rotation then
@@ -2641,7 +2826,7 @@ function sys.particle_system:on_update(dt, ts, store)
 				elseif s.track_rotation and target_rot then
 					p.r = target_rot
 				else
-					p.r = s.emit_direction + U.frandom(-s.emit_rotation_spread, s.emit_rotation_spread)
+					p.r = s.emit_direction + emit_r + U.frandom(-s.emit_rotation_spread, s.emit_rotation_spread)
 				end
 
 				if s.spin then
@@ -2683,9 +2868,11 @@ function sys.particle_system:on_update(dt, ts, store)
 				local phase = (ts - p.ts) / p.lifetime
 
 				if phase >= 1 then
-					table.insert(to_remove, p)
+					-- table.insert(to_remove, p)
+					particles_to_remove[p] = true
+					frames_to_remove[p.f] = true
 
-					goto label_77_0
+					goto label_84_0
 				elseif phase < 0 then
 					phase = 0
 				end
@@ -2720,7 +2907,7 @@ function sys.particle_system:on_update(dt, ts, store)
 					else
 						fn = A:fn(s.name, to, s.loop)
 					end
-				elseif p.name_idx then
+				elseif s.names and p.name_idx then
 					fn = s.names[p.name_idx]
 				else
 					fn = s.name
@@ -2748,26 +2935,118 @@ function sys.particle_system:on_update(dt, ts, store)
 				end
 			end
 
-			::label_77_0::
+			::label_84_0::
 		end
 
-		for _, p in pairs(to_remove) do
-			table.removeobject(s.particles, p)
-			table.removeobject(store.render_frames, p.f)
-		end
+		-- for _, p in pairs(to_remove) do
+		-- 	table.removeobject(s.particles, p)
+		-- 	table.removeobject(store.render_frames, p.f)
+		-- end
 
+		s.particles = removeObjectsFromSequence(s.particles, particles_to_remove)
+		
 		if s.source_lifetime and ts - s.ts > s.source_lifetime then
 			s.emit = false
-
+			
 			if #s.particles == 0 then
 				queue_remove(store, e)
 			end
 		end
 	end
+	store.render_frames = removeObjectsFromSequence(store.render_frames, frames_to_remove)
 end
 
 sys.render = {}
 sys.render.name = "render"
+
+local ffi = require("ffi")
+ffi.cdef[[
+typedef struct {
+	int32_t z;
+	float sort_y;
+	int32_t draw_order;
+	float pos_x;
+	uint32_t lua_index;
+} RenderFrameFFI;
+
+void sort_ffi(RenderFrameFFI* frames, uint32_t len);
+]]
+local PSU = require("platform_services_utils")
+local rendersort = PSU:load_library("rendersort", ffi)
+
+local RenderSorter = {}
+RenderSorter.__index = RenderSorter
+
+function RenderSorter.new(initial_size)
+	local self = setmetatable({}, RenderSorter)
+	
+	self.ffi_array = ffi.new("RenderFrameFFI[?]", initial_size or 16384)
+	self.current_size = initial_size or 16384
+	self.max_observed_size = 0
+	
+	return self
+end
+
+function RenderSorter:ensure_capacity(required_size)
+	if required_size <= self.current_size then return end
+	
+	local new_size = math.max(self.current_size * 2, required_size)
+	self.ffi_array = ffi.new("RenderFrameFFI[?]", new_size)
+	self.current_size = new_size
+end
+
+function RenderSorter:sort(render_frames)
+	local len = #render_frames
+	if len <= 1 then
+		return render_frames
+	end
+	
+	self.max_observed_size = math.max(self.max_observed_size, len)
+	self:ensure_capacity(len)
+	
+	-- 填充FFI数组
+	for i = 1, len do
+		local frame = render_frames[i]
+		local pos = frame.pos
+		local sort_y = frame.sort_y
+		if not sort_y then
+			local sort_y_offset = frame.sort_y_offset or 0
+			sort_y = sort_y_offset + pos.y
+		end
+
+		self.ffi_array[i-1].z = frame.z
+		self.ffi_array[i-1].sort_y = sort_y
+		self.ffi_array[i-1].draw_order = frame.draw_order
+		self.ffi_array[i-1].pos_x = pos.x
+		self.ffi_array[i-1].lua_index = i
+	end
+	
+	-- 调用C排序函数（所有策略判断都在C端完成）
+	rendersort.sort_ffi(self.ffi_array, len)
+
+	-- 构建排序结果
+	local sorted_frames = {}
+	for i = 0, len-1 do
+		local orig_index = self.ffi_array[i].lua_index
+		sorted_frames[i+1] = render_frames[orig_index]
+	end
+	
+	return sorted_frames
+end
+
+-- 获取统计信息
+function RenderSorter:get_stats()
+	return {
+		current_capacity = self.current_size,
+		max_observed_size = self.max_observed_size,
+		memory_usage_bytes = self.current_size * ffi.sizeof("RenderFrameFFI")
+	}
+end
+
+-- 重置排序器
+function RenderSorter:reset()
+	self.max_observed_size = 0
+end
 
 function sys.render:init(store)
 	store.render_frames = {}
@@ -2790,17 +3069,10 @@ function sys.render:init(store)
 		atlas = "white_rectangle"
 	}
 	self._hb_sizes = HEALTH_BAR_SIZES[store.texture_size] or HEALTH_BAR_SIZES.default
-	self._hb_colors = HEALTH_BAR_COLORS
+	self._hb_colors = GS.health_bar_colors or HEALTH_BAR_COLORS
 
-	if KR_GAME == "kr5" then
-		self._hb_colors = HEALTH_BAR_COLORS_KR5
-
-		local features = require("features")
-
-		if features.censored_cn then
-			self._hb_colors = HEALTH_BAR_COLORS_KR5_CENSORED_CN
-		end
-	end
+	-- 创建排序器
+	self.render_sorter = RenderSorter.new(4096)
 end
 
 function sys.render:on_insert(entity, store)
@@ -2980,9 +3252,14 @@ end
 function sys.render:on_update(dt, ts, store)
 	local d = store
 	local entities = d.entities
+	local tracking_entities = {}
 
 	for _, e in E:filter_iter(entities, "render") do
 		for i, s in ipairs(e.render.sprites) do
+			if s.track_id then
+				tracking_entities[e.id] = e
+			end
+
 			local f = e.render.frames[i]
 			local last_runs = s.runs
 			local fn, runs, idx
@@ -3026,14 +3303,18 @@ function sys.render:on_update(dt, ts, store)
 					f.exo = exo_frame.exo
 
 					if s.exo_hide_prefix then
-						for _, p in ipairs(f.exo_frame.parts) do
-							p.hidden = false
+						for _, p in ipairs(f.exo_frame) do
+							if p[1] == 1 then
+								local pname = f.exo.parts[p[2]][1]
 
-							for _, prefix in ipairs(s.exo_hide_prefix) do
-								if string.find(p.name, prefix, 1, true) then
-									p.hidden = true
+								p.hidden = false
 
-									break
+								for _, prefix in ipairs(s.exo_hide_prefix) do
+									if string.find(pname, prefix, 1, true) then
+										p.hidden = true
+
+										break
+									end
 								end
 							end
 						end
@@ -3151,50 +3432,144 @@ function sys.render:on_update(dt, ts, store)
 		end
 	end
 
-	local function insertsort(a)
-		local len = #a
+	for _, e in pairs(tracking_entities) do
+		for i, s in ipairs(e.render.sprites) do
+			local f = e.render.frames[i]
+			local trid = s.track_id
 
-		for i = 2, len do
-			local f1_lte_f2
-			local f1 = a[i]
-			local y1 = f1.sort_y or (f1.sort_y_offset and f1.sort_y_offset or 0) + f1.pos.y
+			if not trid then
+				-- block empty
+			else
+				local tre = entities[trid]
+				local trsid = s.track_sprite_id
 
-			for j = i - 1, 0, -1 do
-				if j == 0 then
-					a[j + 1] = f1
+				if not trsid then
+					f.pos.x, f.pos.y = tre.pos.x, tre.pos.y
+				else
+					local trs = tre.render.sprites[trsid]
 
-					break
-				end
-
-				local f2 = a[j]
-				local y2 = f2.sort_y or (f2.sort_y_offset and f2.sort_y_offset or 0) + f2.pos.y
-
-				if f1.z == f2.z then
-					if y1 == y2 then
-						if f1.draw_order == f2.draw_order then
-							f1_lte_f2 = f1.pos.x < f2.pos.x
-						else
-							f1_lte_f2 = f1.draw_order < f2.draw_order
-						end
+					if not trs then
+						-- block empty
 					else
-						f1_lte_f2 = y2 < y1
+						local trf = tre.render.frames[trsid]
+						local tra_idx = trf.exo_frame and trf.exo_frame.exo.attach_points and trf.exo_frame.exo.attach_idx[s.track_attach_point]
+						local tra_part_idx = tra_idx and trf.exo_frame.a and trf.exo_frame.a[tra_idx]
+						local tra = tra_part_idx and trf.exo_frame[tra_part_idx]
+						local trs_fx_sgn = trs.flip_x and -1 or 1
+						local trs_fy_sgn = trs.flip_y and -1 or 1
+						local fx_sgn = (s.flip_x and -1 or 1) * trs_fx_sgn
+						local fy_sgn = (s.flip_y and -1 or 1) * trs_fy_sgn
+
+						f.flip_x = fx_sgn == -1
+						f.flip_y = fy_sgn == -1
+
+						local trs_sx, trs_sy = 1, 1
+
+						if trs.scale then
+							trs_sx, trs_sy = trs.scale.x, trs.scale.y
+						end
+
+						f.r = s.r
+						f.scale = s.scale and V.vclone(s.scale) or V.vv(1)
+						f.offset = V.vclone(s.offset)
+
+						local tra_alpha = 1
+
+						if tra then
+							local ptype, pidx, palpha, ex, ey, esx, esy, er = unpack(tra)
+							local fox, foy = prs(f.offset.x, f.offset.y, esx, esy, er)
+
+							f.offset.x, f.offset.y = ex + fox, -ey + foy
+							f.r = f.r - er
+							f.scale.x, f.scale.y = f.scale.x * esx, f.scale.y * esy
+							tra_alpha = palpha
+						end
+
+						if trs.pos then
+							f.pos.x, f.pos.y = trs.pos.x, trs.pos.y
+						else
+							f.pos.x, f.pos.y = tre.pos.x, tre.pos.y
+						end
+
+						local oox, ooy = f.offset.x * trs_fx_sgn, f.offset.y * trs_fy_sgn
+						local fox, foy = prs(oox, ooy, trs_sx, trs_sy, trs.r)
+
+						f.offset.x, f.offset.y = trs.offset.x + fox, trs.offset.y + foy
+						f.r = trs_fx_sgn * trs_fy_sgn * f.r + trs.r
+
+						if trs.scale then
+							f.scale.x, f.scale.y = f.scale.x * trs_sx, f.scale.y * trs_sy
+						end
+
+						f.z = s.z or trs.z or Z_OBJECTS
+						f.sort_y = s.sort_y or trs.sort_y
+						f.sort_y_offset = s.sort_y or trs.sort_y_offset
+						f.draw_order = 100000 * (s.draw_order or trs.draw_order or i) + e.id
+						f.alpha = tra_alpha * s.alpha / 255 * trs.alpha / 255 * 255
+
+						local hide_after_runs = s.hide_after_runs or trs.hide_after_runs
+
+						if hide_after_runs and hide_after_runs <= s.runs then
+							s.hidden = true
+						end
+
+						f.hidden = s.hidden or trs.hidden
+
+						if ts < s.ts or ts < trs.ts then
+							f.hidden = true
+						end
 					end
-				else
-					f1_lte_f2 = f1.z < f2.z
-				end
-
-				if f1_lte_f2 then
-					a[j + 1] = a[j]
-				else
-					a[j + 1] = f1
-
-					break
 				end
 			end
 		end
 	end
 
-	insertsort(store.render_frames)
+	-- local function insertsort(a)
+	-- 	local len = #a
+
+	-- 	for i = 2, len do
+	-- 		local f1_lte_f2
+	-- 		local f1 = a[i]
+	-- 		local y1 = f1.sort_y or (f1.sort_y_offset and f1.sort_y_offset or 0) + f1.pos.y
+
+	-- 		for j = i - 1, 0, -1 do
+	-- 			if j == 0 then
+	-- 				a[j + 1] = f1
+
+	-- 				break
+	-- 			end
+
+	-- 			local f2 = a[j]
+	-- 			local y2 = f2.sort_y or (f2.sort_y_offset and f2.sort_y_offset or 0) + f2.pos.y
+
+	-- 			if f1.z == f2.z then
+	-- 				if y1 == y2 then
+	-- 					if f1.draw_order == f2.draw_order then
+	-- 						f1_lte_f2 = f1.pos.x < f2.pos.x
+	-- 					else
+	-- 						f1_lte_f2 = f1.draw_order < f2.draw_order
+	-- 					end
+	-- 				else
+	-- 					f1_lte_f2 = y2 < y1
+	-- 				end
+	-- 			else
+	-- 				f1_lte_f2 = f1.z < f2.z
+	-- 			end
+
+	-- 			if f1_lte_f2 then
+	-- 				a[j + 1] = a[j]
+	-- 			else
+	-- 				a[j + 1] = f1
+
+	-- 				break
+	-- 			end
+	-- 		end
+	-- 	end
+	-- end
+
+	-- insertsort(store.render_frames)
+
+	store.render_frames = self.render_sorter:sort(store.render_frames)
 end
 
 sys.sound_events = {}

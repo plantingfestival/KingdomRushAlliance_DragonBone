@@ -12,12 +12,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -37,12 +37,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -62,12 +62,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -87,12 +87,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -112,12 +112,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -137,12 +137,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -162,12 +162,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -187,12 +187,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -212,12 +212,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -237,12 +237,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -262,12 +262,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -287,12 +287,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -312,12 +312,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -337,12 +337,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -362,12 +362,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -387,12 +387,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -412,12 +412,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -437,12 +437,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -462,12 +462,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -487,12 +487,12 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3039,
+			2377,
+			2366,
 			160,
 			90
 		},
@@ -512,12 +512,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -537,12 +537,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -562,12 +562,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -587,12 +587,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -612,12 +612,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -637,12 +637,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -662,12 +662,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -687,12 +687,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -712,12 +712,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -737,12 +737,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -762,12 +762,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -787,12 +787,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -812,12 +812,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -837,12 +837,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -862,12 +862,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -887,12 +887,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -912,12 +912,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -937,12 +937,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -962,12 +962,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -987,12 +987,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1012,12 +1012,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1037,12 +1037,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1062,12 +1062,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1087,12 +1087,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1112,12 +1112,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1137,12 +1137,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1162,12 +1162,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1187,12 +1187,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1212,12 +1212,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1237,12 +1237,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3050,
+			2333,
+			2458,
 			160,
 			99
 		},
@@ -1259,20 +1259,20 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3122,
+			3132,
+			2119,
 			67,
-			42
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0002"] = {
 		a_name = "go_stage417.dds",
@@ -1287,12 +1287,12 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2357,
-			3122,
+			2742,
+			2413,
 			67,
 			42
 		},
@@ -1308,21 +1308,21 @@ return {
 		trim = {
 			45,
             29,
-            47,
-            29
+            48,
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2596,
-			358,
-			68,
-			42
+			2898,
+			2395,
+			67,
+			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0004"] = {
 		a_name = "go_stage417.dds",
@@ -1334,20 +1334,20 @@ return {
 			45,
             29,
             47,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2556,
-			1415,
+			2880,
+			2535,
 			68,
-			42
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0005"] = {
 		a_name = "go_stage417.dds",
@@ -1362,17 +1362,17 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2401,
-			3122,
+			2885,
+			2578,
 			67,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0006"] = {
 		a_name = "go_stage417.dds",
@@ -1383,21 +1383,21 @@ return {
 		trim = {
 			45,
             29,
-            47,
+            48,
             30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2220,
-			3131,
-			68,
+			2925,
+			2464,
+			67,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0007"] = {
 		a_name = "go_stage417.dds",
@@ -1412,12 +1412,12 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2486,
-			2993,
+			2929,
+			2351,
 			67,
 			42
 		},
@@ -1434,17 +1434,17 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			1987,
+			2968,
+			2464,
 			67,
-			42
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1459,17 +1459,17 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			2056,
+			2985,
+			2395,
 			67,
-			42
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1484,17 +1484,17 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			2125,
+			3011,
+			2464,
 			67,
-			42
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1509,17 +1509,17 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			2194,
+			2998,
+			2325,
 			67,
-			42
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1537,12 +1537,12 @@ return {
             30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			2401,
+			3028,
+			2394,
 			67,
 			41
 		},
@@ -1559,17 +1559,17 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			2263,
+			3054,
+			2463,
 			67,
-			42
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1587,12 +1587,12 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2602,
-			2332,
+			2941,
+			2395,
 			67,
 			42
 		},
@@ -1608,18 +1608,18 @@ return {
 		trim = {
 			45,
             29,
-            47,
-            29
+            48,
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2445,
-			3121,
-			68,
-			42
+			3071,
+			2371,
+			67,
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1637,17 +1637,17 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2618,
-			2509,
+			2954,
+			2578,
 			67,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0017"] = {
 		a_name = "go_stage417.dds",
@@ -1662,17 +1662,17 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2554,
-			2901,
+			3007,
+			2533,
 			67,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0018"] = {
 		a_name = "go_stage417.dds",
@@ -1683,18 +1683,18 @@ return {
 		trim = {
 			45,
             29,
-            47,
-            29
+            48,
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2603,
-			1917,
-			68,
-			42
+			3141,
+			2445,
+			67,
+			41
 		},
 		alias = {},
 		textureRotated = true
@@ -1709,20 +1709,20 @@ return {
 			45,
             29,
             48,
-            29
+            30
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3122,
+			3132,
+			2119,
 			67,
-			42
+			41
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0020"] = {
 		a_name = "go_stage417.dds",
@@ -1737,12 +1737,12 @@ return {
             29
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2357,
-			3122,
+			2742,
+			2413,
 			67,
 			42
 		},
@@ -1762,12 +1762,12 @@ return {
             38
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			3012,
+			1575,
+			2567,
 			75,
 			41
 		},
@@ -1787,12 +1787,12 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1820,
-			3124,
+			3113,
+			2162,
 			74,
 			43
 		},
@@ -1812,12 +1812,12 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2608,
-			1319,
+			2009,
+			2358,
 			76,
 			43
 		},
@@ -1837,17 +1837,17 @@ return {
             38
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2138,
-			3151,
+			2694,
+			1539,
 			79,
 			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0025"] = {
 		a_name = "go_stage417.dds",
@@ -1858,21 +1858,21 @@ return {
 		trim = {
 			40,
             25,
-            39,
+            40,
             38
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			3131,
-			81,
+			2995,
+			2162,
+			80,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0026"] = {
 		a_name = "go_stage417.dds",
@@ -1887,12 +1887,12 @@ return {
             38
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2058,
-			3151,
+			3052,
+			2119,
 			78,
 			38
 		},
@@ -1912,12 +1912,12 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2608,
-			1238,
+			2953,
+			2267,
 			79,
 			40
 		},
@@ -1937,17 +1937,17 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2554,
-			1194,
+			2995,
+			2244,
 			79,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0029"] = {
 		a_name = "go_stage417.dds",
@@ -1962,12 +1962,12 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2565,
-			3031,
+			3097,
+			2445,
 			67,
 			42
 		},
@@ -1987,17 +1987,17 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2570,
-			2679,
+			2880,
+			2464,
 			69,
 			43
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0031"] = {
 		a_name = "go_stage417.dds",
@@ -2012,12 +2012,12 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2570,
-			2632,
+			1887,
+			2569,
 			69,
 			45
 		},
@@ -2033,21 +2033,21 @@ return {
 		trim = {
 			52,
             19,
-            36,
+            37,
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3009,
-			72,
+			1024,
+			2559,
+			71,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0033"] = {
 		a_name = "go_stage417.dds",
@@ -2062,17 +2062,17 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1398,
-			3135,
+			3162,
+			2252,
 			72,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0034"] = {
 		a_name = "go_stage417.dds",
@@ -2087,17 +2087,17 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2569,
-			2596,
+			2742,
+			2339,
 			72,
 			34
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0035"] = {
 		a_name = "go_stage417.dds",
@@ -2112,17 +2112,17 @@ return {
             37
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2528,
-			3037,
+			2319,
+			2595,
 			73,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0036"] = {
 		a_name = "go_stage417.dds",
@@ -2137,12 +2137,12 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1841,
+			2785,
+			2482,
 			73,
 			37
 		},
@@ -2162,17 +2162,17 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1765,
+			3034,
+			2205,
 			74,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0038"] = {
 		a_name = "go_stage417.dds",
@@ -2187,12 +2187,12 @@ return {
             36
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2489,
-			3112,
+			2783,
+			2557,
 			73,
 			39
 		},
@@ -2212,12 +2212,12 @@ return {
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2530,
-			3112,
+			2741,
+			2557,
 			73,
 			40
 		},
@@ -2233,21 +2233,21 @@ return {
 		trim = {
 			49,
             23,
-            37,
+            38,
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2608,
-			1689,
-			74,
+			2854,
+			2351,
+			73,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0041"] = {
 		a_name = "go_stage417.dds",
@@ -2262,12 +2262,12 @@ return {
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2235,
-			3009,
+			2623,
+			2064,
 			76,
 			42
 		},
@@ -2281,23 +2281,23 @@ return {
 			100
 		},
 		trim = {
-			46,
+			47,
             21,
             36,
-            34
+            35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2607,
-			1533,
-			78,
-			45
+			2622,
+			2108,
+			77,
+			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0043"] = {
 		a_name = "go_stage417.dds",
@@ -2309,17 +2309,17 @@ return {
 			47,
             21,
             36,
-            34
+            35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1979,
-			3131,
+			3034,
+			2159,
 			77,
-			45
+			44
 		},
 		alias = {},
 		textureRotated = false
@@ -2334,20 +2334,20 @@ return {
 			45,
             19,
             36,
-            34
+            35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2520,
-			813,
+			2633,
+			2581,
 			79,
-			47
+			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0045"] = {
 		a_name = "go_stage417.dds",
@@ -2362,17 +2362,17 @@ return {
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2559,
-			1334,
+			1806,
+			2569,
 			79,
 			47
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0046"] = {
 		a_name = "go_stage417.dds",
@@ -2387,12 +2387,12 @@ return {
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2569,
-			2513,
+			2730,
+			2256,
 			81,
 			47
 		},
@@ -2412,17 +2412,17 @@ return {
             35
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			728,
+			975,
+			2559,
 			71,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_layer2_0048"] = {
 		a_name = "go_stage417.dds",
@@ -2437,12 +2437,12 @@ return {
             34
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2484,
-			3037,
+			2741,
+			2482,
 			73,
 			42
 		},
@@ -2462,17 +2462,17 @@ return {
             34
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2608,
-			1613,
+			3110,
+			2207,
 			74,
 			43
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_layer2_0050"] = {
 		a_name = "go_stage417.dds",
@@ -2487,12 +2487,12 @@ return {
             34
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1820,
-			3078,
+			2778,
+			2349,
 			74,
 			44
 		},
@@ -2512,12 +2512,12 @@ return {
             13
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2632,
-			777,
+			2523,
+			2597,
 			32,
 			31
 		},
@@ -2537,17 +2537,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2554,
-			1020,
+			2779,
+			2265,
 			82,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0003"] = {
 		a_name = "go_stage417.dds",
@@ -2562,17 +2562,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2554,
-			1107,
+			2866,
+			2267,
 			82,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0004"] = {
 		a_name = "go_stage417.dds",
@@ -2587,17 +2587,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2569,
-			813,
+			2539,
+			2370,
 			97,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_splash_0005"] = {
 		a_name = "go_stage417.dds",
@@ -2608,21 +2608,21 @@ return {
 		trim = {
 			10,
             6,
-            13,
+            14,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2904,
-			97,
+			2622,
+			2268,
+			96,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0006"] = {
 		a_name = "go_stage417.dds",
@@ -2637,12 +2637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2633,
+			2638,
+			2366,
 			102,
 			106
 		},
@@ -2662,17 +2662,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2524,
+			2701,
+			2057,
 			101,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0008"] = {
 		a_name = "go_stage417.dds",
@@ -2687,17 +2687,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1715,
-			3083,
+			2887,
+			2162,
 			103,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0009"] = {
 		a_name = "go_stage417.dds",
@@ -2712,17 +2712,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2461,
-			2307,
+			2810,
+			2057,
 			103,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0010"] = {
 		a_name = "go_stage417.dds",
@@ -2732,22 +2732,22 @@ return {
 		},
 		trim = {
 			8,
-            2,
+            3,
             6,
-            7
+            8
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2461,
-			2416,
+			2779,
+			2162,
 			106,
-			103
+			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_splash_0011"] = {
 		a_name = "go_stage417.dds",
@@ -2762,17 +2762,17 @@ return {
             7
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2741,
+			2919,
+			2057,
 			106,
 			103
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_splash_0012"] = {
 		a_name = "go_stage417.dds",
@@ -2787,17 +2787,17 @@ return {
             6
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1608,
-			3083,
+			2633,
+			2474,
 			106,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["bullywag_spawner_splash_0013"] = {
 		a_name = "go_stage417.dds",
@@ -2812,12 +2812,12 @@ return {
             6
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1500,
-			3083,
+			2622,
+			2160,
 			106,
 			106
 		},
@@ -2837,17 +2837,17 @@ return {
             6
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2554,
-			912,
+			2057,
+			2537,
 			93,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0015"] = {
 		a_name = "go_stage417.dds",
@@ -2862,17 +2862,17 @@ return {
             6
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2461,
-			1399,
+			2165,
+			2537,
 			93,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0016"] = {
 		a_name = "go_stage417.dds",
@@ -2887,12 +2887,12 @@ return {
             17
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2486,
-			2901,
+			2251,
+			2537,
 			90,
 			66
 		},
@@ -2912,12 +2912,12 @@ return {
             17
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2486,
-			2901,
+			2251,
+			2537,
 			90,
 			66
 		},
@@ -2937,17 +2937,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1820,
-			3170,
+			359,
+			2456,
 			87,
 			19
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0019"] = {
 		a_name = "go_stage417.dds",
@@ -2962,17 +2962,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1820,
-			3170,
+			359,
+			2456,
 			87,
 			19
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["bullywag_spawner_splash_0020"] = {
 		a_name = "go_stage417.dds",
@@ -2987,17 +2987,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1820,
-			3170,
+			359,
+			2456,
 			87,
 			19
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["notification_button_ingame_0044"] = {
 		a_name = "go_stage417.dds",
@@ -3012,12 +3012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1787,
+			3057,
+			1989,
 			136,
 			128
 		},
@@ -3037,12 +3037,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2465,
-			1917,
+			2057,
+			2407,
 			136,
 			128
 		},
@@ -3062,12 +3062,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2465,
-			2047,
+			2195,
+			2407,
 			136,
 			128
 		},
@@ -3087,12 +3087,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2465,
-			2177,
+			2495,
+			2467,
 			136,
 			128
 		},
@@ -3112,17 +3112,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
+			2732,
 			1,
 			495,
 			475
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["notification_images_0046"] = {
 		a_name = "go_stage417.dds",
@@ -3137,17 +3137,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			478,
+			2732,
+			498,
 			495,
 			475
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["notification_images_0049"] = {
 		a_name = "go_stage417.dds",
@@ -3162,17 +3162,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			1,
+			2732,
+			995,
 			495,
 			475
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["notification_images_0050"] = {
 		a_name = "go_stage417.dds",
@@ -3187,39 +3187,14 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			955,
+			2732,
+			1492,
 			495,
 			475
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["Stage_417"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			2729,
-			1536
-		},
-		trim = {
-			0,
-            0,
-            0,
-            0
-		},
-		a_size = {
-			2665,
-			3190
-		},
-		f_quad = {
-			1,
-			1,
-			2729,
-			1536
 		},
 		alias = {},
 		textureRotated = true
@@ -3237,17 +3212,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1514,
-			3011,
+			2477,
+			2085,
 			279,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_down_0002"] = {
 		a_name = "go_stage417.dds",
@@ -3262,17 +3237,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1514,
-			3011,
+			2477,
+			2085,
 			279,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_down_0003"] = {
 		a_name = "go_stage417.dds",
@@ -3287,17 +3262,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1514,
-			3011,
+			2477,
+			2085,
 			279,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_down_0004"] = {
 		a_name = "go_stage417.dds",
@@ -3309,17 +3284,17 @@ return {
 			0,
             0,
             0,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1811,
-			2797,
+			2393,
+			2085,
 			279,
-			83
+			82
 		},
 		alias = {},
 		textureRotated = true
@@ -3334,17 +3309,17 @@ return {
 			0,
             0,
             0,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1811,
-			2797,
+			2393,
+			2085,
 			279,
-			83
+			82
 		},
 		alias = {},
 		textureRotated = true
@@ -3359,17 +3334,17 @@ return {
 			0,
             0,
             0,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1811,
-			2797,
+			2393,
+			2085,
 			279,
-			83
+			82
 		},
 		alias = {},
 		textureRotated = true
@@ -3387,12 +3362,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1219,
-			3054,
+			359,
+			2551,
 			279,
 			79
 		},
@@ -3412,12 +3387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1219,
-			3054,
+			359,
+			2551,
 			279,
 			79
 		},
@@ -3437,12 +3412,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1219,
-			3054,
+			359,
+			2551,
 			279,
 			79
 		},
@@ -3462,17 +3437,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1485,
+			1806,
+			2436,
 			151,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0002"] = {
 		a_name = "go_stage417.dds",
@@ -3487,17 +3462,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1485,
+			1806,
+			2436,
 			151,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0003"] = {
 		a_name = "go_stage417.dds",
@@ -3512,17 +3487,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1485,
+			1806,
+			2436,
 			151,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0004"] = {
 		a_name = "go_stage417.dds",
@@ -3537,17 +3512,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2251,
-			2855,
+			1652,
+			2436,
 			152,
 			134
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0005"] = {
 		a_name = "go_stage417.dds",
@@ -3562,17 +3537,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2251,
-			2855,
+			1652,
+			2436,
 			152,
 			134
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0006"] = {
 		a_name = "go_stage417.dds",
@@ -3587,17 +3562,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2251,
-			2855,
+			1652,
+			2436,
 			152,
 			134
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_mid_0007"] = {
 		a_name = "go_stage417.dds",
@@ -3612,12 +3587,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1638,
+			1518,
+			2418,
 			147,
 			132
 		},
@@ -3637,12 +3612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1638,
+			1518,
+			2418,
 			147,
 			132
 		},
@@ -3662,12 +3637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2474,
-			1638,
+			1518,
+			2418,
 			147,
 			132
 		},
@@ -3687,12 +3662,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2609,
-			3031,
+			3114,
+			2408,
 			35,
 			35
 		},
@@ -3712,12 +3687,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2609,
-			3031,
+			3114,
+			2408,
 			35,
 			35
 		},
@@ -3737,12 +3712,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2609,
-			3031,
+			3114,
+			2408,
 			35,
 			35
 		},
@@ -3758,18 +3733,18 @@ return {
 		trim = {
 			1,
             1,
-            0,
-            0
+            1,
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2763,
-			38,
-			36
+			2394,
+			2595,
+			37,
+			35
 		},
 		alias = {},
 		textureRotated = false
@@ -3783,18 +3758,18 @@ return {
 		trim = {
 			1,
             1,
-            0,
-            0
+            1,
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2763,
-			38,
-			36
+			2394,
+			2595,
+			37,
+			35
 		},
 		alias = {},
 		textureRotated = false
@@ -3808,18 +3783,18 @@ return {
 		trim = {
 			1,
             1,
-            0,
-            0
+            1,
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2763,
-			38,
-			36
+			2394,
+			2595,
+			37,
+			35
 		},
 		alias = {},
 		textureRotated = false
@@ -3837,17 +3812,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2724,
+			3076,
+			2532,
 			38,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0008"] = {
 		a_name = "go_stage417.dds",
@@ -3862,17 +3837,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2724,
+			3076,
+			2532,
 			38,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0009"] = {
 		a_name = "go_stage417.dds",
@@ -3887,17 +3862,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2724,
+			3076,
+			2532,
 			38,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0010"] = {
 		a_name = "go_stage417.dds",
@@ -3912,12 +3887,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			2470,
+			2333,
+			2407,
 			39,
 			37
 		},
@@ -3937,12 +3912,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			2470,
+			2333,
+			2407,
 			39,
 			37
 		},
@@ -3962,12 +3937,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			2470,
+			2333,
+			2407,
 			39,
 			37
 		},
@@ -3984,20 +3959,20 @@ return {
 			0,
             0,
             2,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2627,
-			2858,
+			3084,
+			2572,
 			37,
-			37
+			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0014"] = {
 		a_name = "go_stage417.dds",
@@ -4009,20 +3984,20 @@ return {
 			0,
             0,
             2,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2627,
-			2858,
+			3084,
+			2572,
 			37,
-			37
+			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0015"] = {
 		a_name = "go_stage417.dds",
@@ -4034,20 +4009,20 @@ return {
 			0,
             0,
             2,
-            0
+            1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2627,
-			2858,
+			3084,
+			2572,
 			37,
-			37
+			36
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0016"] = {
 		a_name = "go_stage417.dds",
@@ -4062,12 +4037,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2563,
-			2849,
+			3114,
+			2370,
 			35,
 			36
 		},
@@ -4087,12 +4062,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2563,
-			2849,
+			3114,
+			2370,
 			35,
 			36
 		},
@@ -4112,12 +4087,12 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2563,
-			2849,
+			3114,
+			2370,
 			35,
 			36
 		},
@@ -4137,17 +4112,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			777,
+			3115,
+			2514,
 			34,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_small_0020"] = {
 		a_name = "go_stage417.dds",
@@ -4162,17 +4137,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			777,
+			3115,
+			2514,
 			34,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_small_0021"] = {
 		a_name = "go_stage417.dds",
@@ -4187,17 +4162,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			777,
+			3115,
+			2514,
 			34,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_small_0022"] = {
 		a_name = "go_stage417.dds",
@@ -4212,17 +4187,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2598,
-			2897,
+			3151,
+			2514,
 			36,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0023"] = {
 		a_name = "go_stage417.dds",
@@ -4237,17 +4212,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2598,
-			2897,
+			3151,
+			2514,
 			36,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0024"] = {
 		a_name = "go_stage417.dds",
@@ -4262,17 +4237,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2598,
-			2897,
+			3151,
+			2514,
 			36,
 			35
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_foam_small_0025"] = {
 		a_name = "go_stage417.dds",
@@ -4287,12 +4262,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2635,
-			1194,
+			2701,
+			1838,
 			36,
 			29
 		},
@@ -4312,12 +4287,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2635,
-			1194,
+			2701,
+			1838,
 			36,
 			29
 		},
@@ -4337,12 +4312,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2635,
-			1194,
+			2701,
+			1838,
 			36,
 			29
 		},
@@ -4362,17 +4337,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1069,
-			3157,
+			2490,
+			2597,
 			31,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_small_0029"] = {
 		a_name = "go_stage417.dds",
@@ -4387,17 +4362,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1069,
-			3157,
+			2490,
+			2597,
 			31,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_foam_small_0030"] = {
 		a_name = "go_stage417.dds",
@@ -4412,17 +4387,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1069,
-			3157,
+			2490,
+			2597,
 			31,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0001"] = {
 		a_name = "go_stage417.dds",
@@ -4437,17 +4412,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0002"] = {
 		a_name = "go_stage417.dds",
@@ -4462,17 +4437,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0003"] = {
 		a_name = "go_stage417.dds",
@@ -4487,17 +4462,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0004"] = {
 		a_name = "go_stage417.dds",
@@ -4512,17 +4487,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0005"] = {
 		a_name = "go_stage417.dds",
@@ -4537,17 +4512,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3069,
+			1518,
+			2567,
 			55,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0006"] = {
 		a_name = "go_stage417.dds",
@@ -4562,17 +4537,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3069,
+			1518,
+			2567,
 			55,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0007"] = {
 		a_name = "go_stage417.dds",
@@ -4587,12 +4562,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2600,
-			1415,
+			1170,
+			2543,
 			55,
 			64
 		},
@@ -4612,12 +4587,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2600,
-			1415,
+			1170,
+			2543,
 			55,
 			64
 		},
@@ -4637,12 +4612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -4662,12 +4637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -4687,12 +4662,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4712,12 +4687,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4737,12 +4712,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4762,12 +4737,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4787,12 +4762,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4812,12 +4787,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4837,12 +4812,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4862,12 +4837,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4887,12 +4862,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4912,12 +4887,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4937,12 +4912,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4962,12 +4937,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -4987,12 +4962,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5012,12 +4987,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5037,12 +5012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5062,12 +5037,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5087,12 +5062,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5112,12 +5087,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5137,12 +5112,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5162,12 +5137,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -5187,12 +5162,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -5212,12 +5187,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -5237,17 +5212,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2370,
-			3056,
+			3096,
+			2252,
 			55,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0034"] = {
 		a_name = "go_stage417.dds",
@@ -5262,17 +5237,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2370,
-			3056,
+			3096,
+			2252,
 			55,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0035"] = {
 		a_name = "go_stage417.dds",
@@ -5287,12 +5262,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2427,
-			3055,
+			2433,
+			2559,
 			55,
 			64
 		},
@@ -5312,12 +5287,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2427,
-			3055,
+			2433,
+			2559,
 			55,
 			64
 		},
@@ -5337,17 +5312,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2724,
+			3023,
+			2577,
 			53,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0038"] = {
 		a_name = "go_stage417.dds",
@@ -5362,17 +5337,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2724,
+			3023,
+			2577,
 			53,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0039"] = {
 		a_name = "go_stage417.dds",
@@ -5387,12 +5362,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2785,
+			3041,
+			2310,
 			53,
 			59
 		},
@@ -5412,12 +5387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2785,
+			3041,
+			2310,
 			53,
 			59
 		},
@@ -5437,17 +5412,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0042"] = {
 		a_name = "go_stage417.dds",
@@ -5462,17 +5437,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0043"] = {
 		a_name = "go_stage417.dds",
@@ -5487,12 +5462,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5512,12 +5487,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5537,17 +5512,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0046"] = {
 		a_name = "go_stage417.dds",
@@ -5562,17 +5537,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0047"] = {
 		a_name = "go_stage417.dds",
@@ -5587,12 +5562,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5612,12 +5587,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5637,12 +5612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -5662,12 +5637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -5687,17 +5662,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0052"] = {
 		a_name = "go_stage417.dds",
@@ -5712,17 +5687,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0053"] = {
 		a_name = "go_stage417.dds",
@@ -5737,17 +5712,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0054"] = {
 		a_name = "go_stage417.dds",
@@ -5762,17 +5737,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0055"] = {
 		a_name = "go_stage417.dds",
@@ -5787,17 +5762,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0056"] = {
 		a_name = "go_stage417.dds",
@@ -5812,17 +5787,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0057"] = {
 		a_name = "go_stage417.dds",
@@ -5837,17 +5812,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0058"] = {
 		a_name = "go_stage417.dds",
@@ -5862,17 +5837,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0059"] = {
 		a_name = "go_stage417.dds",
@@ -5887,12 +5862,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5912,12 +5887,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -5937,17 +5912,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0062"] = {
 		a_name = "go_stage417.dds",
@@ -5962,17 +5937,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit0063"] = {
 		a_name = "go_stage417.dds",
@@ -5987,12 +5962,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -6012,12 +5987,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -6037,12 +6012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -6062,12 +6037,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -6087,17 +6062,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0068"] = {
 		a_name = "go_stage417.dds",
@@ -6112,17 +6087,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0069"] = {
 		a_name = "go_stage417.dds",
@@ -6137,17 +6112,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0070"] = {
 		a_name = "go_stage417.dds",
@@ -6162,17 +6137,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0071"] = {
 		a_name = "go_stage417.dds",
@@ -6187,17 +6162,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0072"] = {
 		a_name = "go_stage417.dds",
@@ -6212,17 +6187,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit0073"] = {
 		a_name = "go_stage417.dds",
@@ -6237,17 +6212,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0001"] = {
 		a_name = "go_stage417.dds",
@@ -6262,17 +6237,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0002"] = {
 		a_name = "go_stage417.dds",
@@ -6287,17 +6262,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0003"] = {
 		a_name = "go_stage417.dds",
@@ -6312,17 +6287,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0004"] = {
 		a_name = "go_stage417.dds",
@@ -6337,17 +6312,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0005"] = {
 		a_name = "go_stage417.dds",
@@ -6362,17 +6337,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3069,
+			1518,
+			2567,
 			55,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0006"] = {
 		a_name = "go_stage417.dds",
@@ -6387,17 +6362,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3069,
+			1518,
+			2567,
 			55,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0007"] = {
 		a_name = "go_stage417.dds",
@@ -6412,12 +6387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2600,
-			1415,
+			1170,
+			2543,
 			55,
 			64
 		},
@@ -6437,12 +6412,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2600,
-			1415,
+			1170,
+			2543,
 			55,
 			64
 		},
@@ -6462,12 +6437,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -6487,12 +6462,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -6512,12 +6487,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6537,12 +6512,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6562,12 +6537,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6587,12 +6562,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6612,12 +6587,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6637,12 +6612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6662,12 +6637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6687,12 +6662,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6712,12 +6687,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6737,12 +6712,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6762,12 +6737,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6787,12 +6762,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6812,12 +6787,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6837,12 +6812,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6862,12 +6837,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6887,12 +6862,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6912,12 +6887,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6937,12 +6912,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6962,12 +6937,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -6987,12 +6962,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1432,
+			1170,
+			2485,
 			56,
 			64
 		},
@@ -7012,12 +6987,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -7037,12 +7012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2313,
-			3056,
+			3039,
+			2244,
 			55,
 			64
 		},
@@ -7062,17 +7037,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2370,
-			3056,
+			3096,
+			2252,
 			55,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0034"] = {
 		a_name = "go_stage417.dds",
@@ -7087,17 +7062,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2370,
-			3056,
+			3096,
+			2252,
 			55,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0035"] = {
 		a_name = "go_stage417.dds",
@@ -7112,12 +7087,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2427,
-			3055,
+			2433,
+			2559,
 			55,
 			64
 		},
@@ -7137,12 +7112,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2427,
-			3055,
+			2433,
+			2559,
 			55,
 			64
 		},
@@ -7162,17 +7137,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2724,
+			3023,
+			2577,
 			53,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0038"] = {
 		a_name = "go_stage417.dds",
@@ -7187,17 +7162,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2724,
+			3023,
+			2577,
 			53,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0039"] = {
 		a_name = "go_stage417.dds",
@@ -7212,12 +7187,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2785,
+			3041,
+			2310,
 			53,
 			59
 		},
@@ -7237,12 +7212,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2571,
-			2785,
+			3041,
+			2310,
 			53,
 			59
 		},
@@ -7262,17 +7237,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0042"] = {
 		a_name = "go_stage417.dds",
@@ -7287,17 +7262,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1154,
-			3126,
+			2786,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0043"] = {
 		a_name = "go_stage417.dds",
@@ -7312,12 +7287,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7337,12 +7312,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7362,17 +7337,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0046"] = {
 		a_name = "go_stage417.dds",
@@ -7387,17 +7362,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0047"] = {
 		a_name = "go_stage417.dds",
@@ -7412,12 +7387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7437,12 +7412,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7462,12 +7437,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -7487,12 +7462,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -7512,17 +7487,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0052"] = {
 		a_name = "go_stage417.dds",
@@ -7537,17 +7512,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0053"] = {
 		a_name = "go_stage417.dds",
@@ -7562,17 +7537,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0054"] = {
 		a_name = "go_stage417.dds",
@@ -7587,17 +7562,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0055"] = {
 		a_name = "go_stage417.dds",
@@ -7612,17 +7587,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0056"] = {
 		a_name = "go_stage417.dds",
@@ -7637,17 +7612,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0057"] = {
 		a_name = "go_stage417.dds",
@@ -7662,17 +7637,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0058"] = {
 		a_name = "go_stage417.dds",
@@ -7687,17 +7662,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0059"] = {
 		a_name = "go_stage417.dds",
@@ -7712,12 +7687,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7737,12 +7712,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7762,17 +7737,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0062"] = {
 		a_name = "go_stage417.dds",
@@ -7787,17 +7762,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2612,
-			1472,
+			2824,
+			2578,
 			52,
 			59
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["stage_17_kermit_0063"] = {
 		a_name = "go_stage417.dds",
@@ -7812,12 +7787,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7837,12 +7812,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2555,
-			2970,
+			3096,
+			2309,
 			53,
 			59
 		},
@@ -7862,12 +7837,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -7887,12 +7862,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2572,
-			3100,
+			3151,
+			2326,
 			53,
 			59
 		},
@@ -7912,17 +7887,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0068"] = {
 		a_name = "go_stage417.dds",
@@ -7937,17 +7912,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0069"] = {
 		a_name = "go_stage417.dds",
@@ -7962,17 +7937,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0070"] = {
 		a_name = "go_stage417.dds",
@@ -7987,17 +7962,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1276,
-			3135,
+			2824,
+			2456,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0071"] = {
 		a_name = "go_stage417.dds",
@@ -8012,17 +7987,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0072"] = {
 		a_name = "go_stage417.dds",
@@ -8037,17 +8012,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1215,
-			3135,
+			2842,
+			2395,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["stage_17_kermit_0073"] = {
 		a_name = "go_stage417.dds",
@@ -8062,17 +8037,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1337,
-			3135,
+			2824,
+			2517,
 			54,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_mask_0"] = {
 		a_name = "go_stage417.dds",
@@ -8087,12 +8062,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1220,
-			2732,
+			2084,
+			2085,
 			245,
 			307
 		},
@@ -8112,12 +8087,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1529,
-			2797,
+			1236,
+			2418,
 			212,
 			280
 		},
@@ -8137,12 +8112,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			1297,
+			409,
+			1812,
 			423,
 			191
 		},
@@ -8162,12 +8137,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			388,
-			2732,
+			1,
+			1539,
 			406,
 			456
 		},
@@ -8187,12 +8162,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
 			1,
-			2732,
+			1997,
 			385,
 			457
 		},
@@ -8212,12 +8187,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			2855,
+			2529,
+			1539,
 			163,
 			182
 		},
@@ -8237,12 +8212,12 @@ return {
             26
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2461,
-			1238,
+			1959,
+			2436,
 			96,
 			159
 		},
@@ -8259,17 +8234,17 @@ return {
 			0,
             9,
             0,
-            16
+            17
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2287,
-			3053,
+			3027,
+			2057,
 			72,
-			24
+			23
 		},
 		alias = {},
 		textureRotated = true
@@ -8284,17 +8259,17 @@ return {
 			19,
             0,
             0,
-            18
+            19
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1014,
-			3157,
+			1168,
+			2600,
 			53,
-			31
+			30
 		},
 		alias = {},
 		textureRotated = false
@@ -8309,17 +8284,17 @@ return {
 			19,
             0,
             0,
-            18
+            19
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1014,
-			3157,
+			1168,
+			2600,
 			53,
-			31
+			30
 		},
 		alias = {},
 		textureRotated = false
@@ -8334,17 +8309,17 @@ return {
 			19,
             0,
             0,
-            18
+            19
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1014,
-			3157,
+			1168,
+			2600,
 			53,
-			31
+			30
 		},
 		alias = {},
 		textureRotated = false
@@ -8362,12 +8337,12 @@ return {
             5
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			425,
+			1749,
+			2572,
 			55,
 			44
 		},
@@ -8387,12 +8362,12 @@ return {
             5
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			425,
+			1749,
+			2572,
 			55,
 			44
 		},
@@ -8412,12 +8387,12 @@ return {
             5
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			425,
+			1749,
+			2572,
 			55,
 			44
 		},
@@ -8437,17 +8412,17 @@ return {
             10
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2801,
+			3151,
+			2387,
 			55,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0009"] = {
 		a_name = "go_stage417.dds",
@@ -8462,17 +8437,17 @@ return {
             10
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2801,
+			3151,
+			2387,
 			55,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0010"] = {
 		a_name = "go_stage417.dds",
@@ -8487,17 +8462,17 @@ return {
             10
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2626,
-			2801,
+			3151,
+			2387,
 			55,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0011"] = {
 		a_name = "go_stage417.dds",
@@ -8508,21 +8483,21 @@ return {
 		trim = {
 			5,
             6,
-            11,
+            12,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			2797,
-			56,
+			2950,
+			2533,
+			55,
 			43
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0012"] = {
 		a_name = "go_stage417.dds",
@@ -8533,21 +8508,21 @@ return {
 		trim = {
 			5,
             6,
-            11,
+            12,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			2797,
-			56,
+			2950,
+			2533,
+			55,
 			43
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0013"] = {
 		a_name = "go_stage417.dds",
@@ -8558,21 +8533,21 @@ return {
 		trim = {
 			5,
             6,
-            11,
+            12,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1896,
-			2797,
-			56,
+			2950,
+			2533,
+			55,
 			43
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_lake_drops_0014"] = {
 		a_name = "go_stage417.dds",
@@ -8584,17 +8559,17 @@ return {
 			0,
             9,
             0,
-            16
+            17
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2287,
-			3053,
+			3027,
+			2057,
 			72,
-			24
+			23
 		},
 		alias = {},
 		textureRotated = true
@@ -8609,17 +8584,17 @@ return {
 			0,
             9,
             0,
-            16
+            17
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2287,
-			3053,
+			3027,
+			2057,
 			72,
-			24
+			23
 		},
 		alias = {},
 		textureRotated = true
@@ -8637,12 +8612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			478,
+			409,
+			1539,
 			422,
 			271
 		},
@@ -8662,12 +8637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			478,
+			409,
+			1539,
 			422,
 			271
 		},
@@ -8687,12 +8662,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			478,
+			409,
+			1539,
 			422,
 			271
 		},
@@ -8712,12 +8687,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			833,
 			1539,
-			1432,
 			422,
 			271
 		},
@@ -8737,12 +8712,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			833,
 			1539,
-			1432,
 			422,
 			271
 		},
@@ -8762,12 +8737,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			833,
 			1539,
-			1432,
 			422,
 			271
 		},
@@ -8787,12 +8762,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			2732,
+			1257,
+			1539,
 			422,
 			271
 		},
@@ -8812,12 +8787,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			2732,
+			1257,
+			1539,
 			422,
 			271
 		},
@@ -8837,12 +8812,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			2732,
+			1257,
+			1539,
 			422,
 			271
 		},
@@ -8862,12 +8837,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			751,
+			1681,
+			1539,
 			422,
 			271
 		},
@@ -8887,12 +8862,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			751,
+			1681,
+			1539,
 			422,
 			271
 		},
@@ -8912,12 +8887,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			751,
+			1681,
+			1539,
 			422,
 			271
 		},
@@ -8937,12 +8912,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			2105,
 			1539,
-			1705,
 			422,
 			271
 		},
@@ -8962,12 +8937,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			2105,
 			1539,
-			1705,
 			422,
 			271
 		},
@@ -8987,12 +8962,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
+			2105,
 			1539,
-			1705,
 			422,
 			271
 		},
@@ -9012,12 +8987,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			1024,
+			388,
+			2005,
 			422,
 			271
 		},
@@ -9037,12 +9012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			1024,
+			388,
+			2005,
 			422,
 			271
 		},
@@ -9062,12 +9037,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2036,
-			1024,
+			388,
+			2005,
 			422,
 			271
 		},
@@ -9087,12 +9062,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			1978,
+			834,
+			1812,
 			422,
 			271
 		},
@@ -9112,12 +9087,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			1978,
+			834,
+			1812,
 			422,
 			271
 		},
@@ -9137,12 +9112,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			1978,
+			834,
+			1812,
 			422,
 			271
 		},
@@ -9162,12 +9137,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2251,
+			1258,
+			1812,
 			422,
 			271
 		},
@@ -9187,12 +9162,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2251,
+			1258,
+			1812,
 			422,
 			271
 		},
@@ -9212,12 +9187,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2251,
+			1258,
+			1812,
 			422,
 			271
 		},
@@ -9237,12 +9212,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2524,
+			1682,
+			1812,
 			422,
 			271
 		},
@@ -9262,12 +9237,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2524,
+			1682,
+			1812,
 			422,
 			271
 		},
@@ -9287,12 +9262,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1539,
-			2524,
+			1682,
+			1812,
 			422,
 			271
 		},
@@ -9312,12 +9287,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1490,
+			2106,
+			1812,
 			422,
 			271
 		},
@@ -9337,12 +9312,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1490,
+			2106,
+			1812,
 			422,
 			271
 		},
@@ -9362,12 +9337,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1490,
+			2106,
+			1812,
 			422,
 			271
 		},
@@ -9387,12 +9362,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1763,
+			388,
+			2278,
 			422,
 			271
 		},
@@ -9412,12 +9387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1763,
+			388,
+			2278,
 			422,
 			271
 		},
@@ -9437,12 +9412,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			1763,
+			388,
+			2278,
 			422,
 			271
 		},
@@ -9462,12 +9437,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2036,
+			812,
+			2085,
 			422,
 			271
 		},
@@ -9487,12 +9462,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2036,
+			812,
+			2085,
 			422,
 			271
 		},
@@ -9512,12 +9487,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2036,
+			812,
+			2085,
 			422,
 			271
 		},
@@ -9537,12 +9512,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2309,
+			1236,
+			2085,
 			422,
 			271
 		},
@@ -9562,12 +9537,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2309,
+			1236,
+			2085,
 			422,
 			271
 		},
@@ -9587,12 +9562,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2309,
+			1236,
+			2085,
 			422,
 			271
 		},
@@ -9612,12 +9587,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2582,
+			1660,
+			2085,
 			422,
 			271
 		},
@@ -9637,12 +9612,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2582,
+			1660,
+			2085,
 			422,
 			271
 		},
@@ -9662,12 +9637,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1963,
-			2582,
+			1660,
+			2085,
 			422,
 			271
 		},
@@ -9683,21 +9658,21 @@ return {
 		trim = {
 			9,
             4,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1490,
-			85,
+			1,
+			2544,
+			84,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0002"] = {
 		a_name = "go_stage417.dds",
@@ -9708,21 +9683,21 @@ return {
 		trim = {
 			9,
             4,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1490,
-			85,
+			1,
+			2544,
+			84,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0003"] = {
 		a_name = "go_stage417.dds",
@@ -9733,21 +9708,21 @@ return {
 		trim = {
 			9,
             4,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1490,
-			85,
+			1,
+			2544,
+			84,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0004"] = {
 		a_name = "go_stage417.dds",
@@ -9762,17 +9737,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1848,
+			1652,
+			2358,
 			76,
 			355
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0005"] = {
 		a_name = "go_stage417.dds",
@@ -9787,17 +9762,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1848,
+			1652,
+			2358,
 			76,
 			355
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0006"] = {
 		a_name = "go_stage417.dds",
@@ -9812,17 +9787,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			1848,
+			1652,
+			2358,
 			76,
 			355
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_left_0007"] = {
 		a_name = "go_stage417.dds",
@@ -9833,17 +9808,17 @@ return {
 		trim = {
 			17,
             8,
-            3,
+            4,
             13
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2563,
-			77,
+			2623,
+			1723,
+			76,
 			339
 		},
 		alias = {},
@@ -9858,17 +9833,17 @@ return {
 		trim = {
 			17,
             8,
-            3,
+            4,
             13
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2563,
-			77,
+			2623,
+			1723,
+			76,
 			339
 		},
 		alias = {},
@@ -9883,17 +9858,17 @@ return {
 		trim = {
 			17,
             8,
-            3,
+            4,
             13
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2563,
-			77,
+			2623,
+			1723,
+			76,
 			339
 		},
 		alias = {},
@@ -9908,17 +9883,17 @@ return {
 		trim = {
 			2,
             18,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			894,
-			92,
+			2530,
+			1723,
+			91,
 			342
 		},
 		alias = {},
@@ -9933,17 +9908,17 @@ return {
 		trim = {
 			2,
             18,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			894,
-			92,
+			2530,
+			1723,
+			91,
 			342
 		},
 		alias = {},
@@ -9958,17 +9933,17 @@ return {
 		trim = {
 			2,
             18,
-            3,
+            4,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			894,
-			92,
+			2530,
+			1723,
+			91,
 			342
 		},
 		alias = {},
@@ -9987,12 +9962,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3069,
+			1,
+			2456,
 			86,
 			356
 		},
@@ -10012,12 +9987,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3069,
+			1,
+			2456,
 			86,
 			356
 		},
@@ -10037,12 +10012,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3069,
+			1,
+			2456,
 			86,
 			356
 		},
@@ -10062,17 +10037,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2520,
-			478,
+			640,
+			2559,
 			71,
 			333
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0002"] = {
 		a_name = "go_stage417.dds",
@@ -10087,17 +10062,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2520,
-			478,
+			640,
+			2559,
 			71,
 			333
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0003"] = {
 		a_name = "go_stage417.dds",
@@ -10112,17 +10087,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2520,
-			478,
+			640,
+			2559,
 			71,
 			333
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0004"] = {
 		a_name = "go_stage417.dds",
@@ -10137,17 +10112,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2205,
+			812,
+			2485,
 			72,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0005"] = {
 		a_name = "go_stage417.dds",
@@ -10162,17 +10137,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2205,
+			812,
+			2485,
 			72,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0006"] = {
 		a_name = "go_stage417.dds",
@@ -10187,17 +10162,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2387,
-			2205,
+			812,
+			2485,
 			72,
 			356
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0007"] = {
 		a_name = "go_stage417.dds",
@@ -10208,21 +10183,21 @@ return {
 		trim = {
 			7,
             0,
-            1,
-            1
+            2,
+            2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2596,
-			1,
-			67,
-			355
+			2701,
+			1989,
+			66,
+			354
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0008"] = {
 		a_name = "go_stage417.dds",
@@ -10233,21 +10208,21 @@ return {
 		trim = {
 			7,
             0,
-            1,
-            1
+            2,
+            2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2596,
-			1,
-			67,
-			355
+			2701,
+			1989,
+			66,
+			354
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0009"] = {
 		a_name = "go_stage417.dds",
@@ -10258,21 +10233,21 @@ return {
 		trim = {
 			7,
             0,
-            1,
-            1
+            2,
+            2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2596,
-			1,
-			67,
-			355
+			2701,
+			1989,
+			66,
+			354
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_lines_right_0010"] = {
 		a_name = "go_stage417.dds",
@@ -10282,19 +10257,19 @@ return {
 		},
 		trim = {
 			0,
-            64,
+            65,
             2,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1220,
-			2979,
+			2084,
+			2332,
 			73,
-			292
+			291
 		},
 		alias = {},
 		textureRotated = true
@@ -10307,19 +10282,19 @@ return {
 		},
 		trim = {
 			0,
-            64,
+            65,
             2,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1220,
-			2979,
+			2084,
+			2332,
 			73,
-			292
+			291
 		},
 		alias = {},
 		textureRotated = true
@@ -10332,19 +10307,19 @@ return {
 		},
 		trim = {
 			0,
-            64,
+            65,
             2,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			1220,
-			2979,
+			2084,
+			2332,
 			73,
-			292
+			291
 		},
 		alias = {},
 		textureRotated = true
@@ -10362,12 +10337,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			425,
+			2549,
+			2067,
 			71,
 			301
 		},
@@ -10387,12 +10362,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			425,
+			2549,
+			2067,
 			71,
 			301
 		},
@@ -10412,12 +10387,12 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2593,
-			425,
+			2549,
+			2067,
 			71,
 			301
 		},
@@ -10437,17 +10412,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			478,
+			1236,
+			2358,
 			414,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0002"] = {
 		a_name = "go_stage417.dds",
@@ -10462,17 +10437,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			478,
+			1236,
+			2358,
 			414,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0003"] = {
 		a_name = "go_stage417.dds",
@@ -10487,17 +10462,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2460,
-			478,
+			1236,
+			2358,
 			414,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0004"] = {
 		a_name = "go_stage417.dds",
@@ -10512,17 +10487,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			1,
+			812,
+			2358,
 			422,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0005"] = {
 		a_name = "go_stage417.dds",
@@ -10537,17 +10512,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			1,
+			812,
+			2358,
 			422,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0006"] = {
 		a_name = "go_stage417.dds",
@@ -10562,17 +10537,17 @@ return {
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2533,
-			1,
+			812,
+			2358,
 			422,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_mid_0007"] = {
 		a_name = "go_stage417.dds",
@@ -10583,17 +10558,17 @@ return {
 		trim = {
 			2,
             2,
-            4,
+            6,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3005,
-			421,
+			812,
+			2421,
+			419,
 			62
 		},
 		alias = {},
@@ -10608,17 +10583,17 @@ return {
 		trim = {
 			2,
             2,
-            4,
+            6,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3005,
-			421,
+			812,
+			2421,
+			419,
 			62
 		},
 		alias = {},
@@ -10633,17 +10608,17 @@ return {
 		trim = {
 			2,
             2,
-            4,
+            6,
             0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3005,
-			421,
+			812,
+			2421,
+			419,
 			62
 		},
 		alias = {},
@@ -10662,17 +10637,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2307,
+			2319,
+			2559,
 			107,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_left_0002"] = {
 		a_name = "go_stage417.dds",
@@ -10687,17 +10662,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2307,
+			2319,
+			2559,
 			107,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_left_0003"] = {
 		a_name = "go_stage417.dds",
@@ -10712,17 +10687,17 @@ return {
             1
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2307,
+			2319,
+			2559,
 			107,
 			34
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_left_0004"] = {
 		a_name = "go_stage417.dds",
@@ -10734,20 +10709,20 @@ return {
 			0,
             2,
             0,
-            3
+            4
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3157,
+			2701,
+			1620,
 			107,
-			30
+			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_left_0005"] = {
 		a_name = "go_stage417.dds",
@@ -10759,20 +10734,20 @@ return {
 			0,
             2,
             0,
-            3
+            4
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3157,
+			2701,
+			1620,
 			107,
-			30
+			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_left_0006"] = {
 		a_name = "go_stage417.dds",
@@ -10784,20 +10759,20 @@ return {
 			0,
             2,
             0,
-            3
+            4
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			796,
-			3157,
+			2701,
+			1620,
 			107,
-			30
+			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_left_0007"] = {
 		a_name = "go_stage417.dds",
@@ -10812,17 +10787,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			905,
-			3157,
+			2701,
+			1729,
 			107,
 			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_left_0008"] = {
 		a_name = "go_stage417.dds",
@@ -10837,17 +10812,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			905,
-			3157,
+			2701,
+			1729,
 			107,
 			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_left_0009"] = {
 		a_name = "go_stage417.dds",
@@ -10862,17 +10837,17 @@ return {
             2
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			905,
-			3157,
+			2701,
+			1729,
 			107,
 			29
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["Stage_17_waterfall_shine_top_right_0001"] = {
 		a_name = "go_stage417.dds",
@@ -10887,17 +10862,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2416,
+			1652,
+			2572,
 			95,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_right_0002"] = {
 		a_name = "go_stage417.dds",
@@ -10912,17 +10887,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2416,
+			1652,
+			2572,
 			95,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_right_0003"] = {
 		a_name = "go_stage417.dds",
@@ -10937,17 +10912,17 @@ return {
             24
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2566,
-			2416,
+			1652,
+			2572,
 			95,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["Stage_17_waterfall_shine_top_right_0004"] = {
 		a_name = "go_stage417.dds",
@@ -10962,12 +10937,12 @@ return {
             23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2559,
-			1238,
+			2730,
+			2160,
 			94,
 			47
 		},
@@ -10987,12 +10962,12 @@ return {
             23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2559,
-			1238,
+			2730,
+			2160,
 			94,
 			47
 		},
@@ -11012,12 +10987,12 @@ return {
             23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2559,
-			1238,
+			2730,
+			2160,
 			94,
 			47
 		},
@@ -11034,17 +11009,17 @@ return {
 			1,
             14,
             7,
-            22
+            23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2849,
+			1071,
+			2559,
 			95,
-			50
+			49
 		},
 		alias = {},
 		textureRotated = false
@@ -11059,17 +11034,17 @@ return {
 			1,
             14,
             7,
-            22
+            23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2849,
+			1071,
+			2559,
 			95,
-			50
+			49
 		},
 		alias = {},
 		textureRotated = false
@@ -11084,92 +11059,42 @@ return {
 			1,
             14,
             7,
-            22
+            23
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2466,
-			2849,
+			1071,
+			2559,
 			95,
-			50
+			49
 		},
 		alias = {},
 		textureRotated = false
 	},
-	["terrains_0405"] = {
+	["Stage_417"] = {
 		a_name = "go_stage417.dds",
 		size = {
-			188,
-			140
+			2729,
+			1536
 		},
 		trim = {
 			0,
-            21,
             0,
-            18
+            0,
+            0
 		},
 		a_size = {
-			2665,
-			3190
+			3208,
+			2631
 		},
 		f_quad = {
-			2061,
-			2855,
-			188,
-			101
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["terrains_holders_0405"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			188,
-			140
-		},
-		trim = {
-			10,
-            28,
-            6,
-            22
-		},
-		a_size = {
-			2665,
-			3190
-		},
-		f_quad = {
-			2061,
-			2958,
-			172,
-			90
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["terrains_holders_0405_flag"] = {
-		a_name = "go_stage417.dds",
-		size = {
-			188,
-			140
-		},
-		trim = {
-			61,
-            7,
-            62,
-            57
-		},
-		a_size = {
-			2665,
-			3190
-		},
-		f_quad = {
-			2220,
-			3053,
-			65,
-			76
+			1,
+			1,
+			2729,
+			1536
 		},
 		alias = {},
 		textureRotated = false

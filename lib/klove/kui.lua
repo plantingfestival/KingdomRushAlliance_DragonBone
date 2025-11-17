@@ -701,6 +701,8 @@ function KView:initialize(size, image_name)
 	self.scale = V.v(1, 1)
 	self.base_scale = V.v(1, 1)
 	self.r = 0
+	self.update_while_hidden = nil
+	self.update_paused = nil
 	self.hidden = false
 	self.can_drag = false
 	self.elasticity = 10
@@ -743,6 +745,18 @@ function KView:initialize(size, image_name)
 
 	self:set_image(image_name, size)
 	KView.super.initialize(self)
+
+	if self.animation and self.size.x == 0 and self.size.y == 0 then
+		local fn, runs = self:animation_frame(self.animation, 0, false, self.fps)
+
+		if fn then
+			local ss = I:s(fn)
+
+			if ss and ss.size then
+				self.size.x, self.size.y = ss.size[1], ss.size[2]
+			end
+		end
+	end
 end
 
 function KView:deserialize()
@@ -816,6 +830,14 @@ function KView:destroy()
 end
 
 function KView:update(dt)
+	if self.hidden and not self.update_while_hidden then
+		return
+	end
+
+	if self.update_paused then
+		return
+	end
+
 	if not self.animation or not self.animation.paused then
 		self.ts = self.ts + dt
 	end
@@ -1222,6 +1244,13 @@ function KView:get_bounds_rect(only_visible, depth)
 	local right = self.size.x
 	local bottom = self.size.y
 
+	if self.children and #self.children > 0 then
+		left = 1000000000
+		top = 1000000000
+		right = -1000000000
+		bottom = -1000000000
+	end
+
 	for _, c in pairs(self.children) do
 		if not only_visible or not c.hidden then
 			local cr = c:get_bounds_rect(only_visible, depth)
@@ -1239,8 +1268,6 @@ function KView:get_bounds_rect(only_visible, depth)
 	local zx = (right - left) * sx
 	local zy = (bottom - top) * sy
 	local r = V.r(px, py, zx, zy)
-
-	log.paranoid("%s%s id:%s  bounds:%s,%s,%s,%s scale:%s,%s", initial, string.rep(" ", depth), self.id, r.pos.x, r.pos.y, r.size.x, r.size.y, sx, sy)
 
 	return r
 end

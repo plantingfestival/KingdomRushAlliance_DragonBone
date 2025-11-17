@@ -1055,7 +1055,7 @@ return {
 													text = "20 s",
 													class = "GGLabel",
 													id = "respawn",
-													font_name = "numbers_italic",
+													font_name = "hud",
 													pos = v(208, -8),
 													size = v(48, 38.4),
 													colors = {

@@ -12,17 +12,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			278,
-			1238,
+			122,
+			961,
 			157,
 			138
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37,12 +37,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			275,
-			1582,
+			509,
+			1012,
 			157,
 			138
 		},
@@ -62,17 +62,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			117,
-			1238,
+			1395,
+			116,
 			159,
 			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -87,17 +87,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			117,
-			1238,
+			1395,
+			116,
 			159,
 			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0005"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -112,17 +112,17 @@ return {
             20
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			114,
-			1563,
+			1720,
+			111,
 			159,
 			146
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0006"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -137,17 +137,17 @@ return {
             20
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			114,
-			1563,
+			1720,
+			111,
 			159,
 			146
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -162,17 +162,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			588,
+			668,
+			1012,
 			157,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -187,17 +187,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			588,
+			668,
+			1012,
 			157,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -212,12 +212,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			747,
+			820,
+			763,
 			148,
 			132
 		},
@@ -237,12 +237,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			747,
+			820,
+			763,
 			148,
 			132
 		},
@@ -262,17 +262,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			550,
-			1589,
+			827,
+			1012,
 			143,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -287,17 +287,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			550,
-			1589,
+			827,
+			1012,
 			143,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -312,17 +312,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			695,
-			1587,
+			268,
+			2564,
 			135,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -337,17 +337,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			695,
-			1587,
+			268,
+			2564,
 			135,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -362,12 +362,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2220,
-			182,
+			1736,
+			272,
 			130,
 			132
 		},
@@ -387,12 +387,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2220,
-			182,
+			1736,
+			272,
 			130,
 			132
 		},
@@ -412,12 +412,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			823,
-			747,
+			1570,
+			1462,
 			128,
 			125
 		},
@@ -437,12 +437,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			823,
-			747,
+			1570,
+			1462,
 			128,
 			125
 		},
@@ -462,12 +462,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2197,
-			745,
+			443,
+			2857,
 			128,
 			122
 		},
@@ -487,12 +487,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2197,
-			745,
+			443,
+			2857,
 			128,
 			122
 		},
@@ -512,17 +512,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			830,
-			1587,
+			988,
+			492,
 			135,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -537,17 +537,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			830,
-			1587,
+			988,
+			492,
 			135,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -562,17 +562,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3170,
-			262,
+			970,
+			763,
 			140,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0024"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -587,17 +587,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3170,
-			262,
+			970,
+			763,
 			140,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -612,17 +612,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			318,
-			2581,
+			963,
+			1157,
 			145,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -637,17 +637,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			318,
-			2581,
+			963,
+			1157,
 			145,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -662,12 +662,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			264,
-			2030,
+			962,
+			1296,
 			156,
 			138
 		},
@@ -687,12 +687,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			264,
-			2030,
+			962,
+			1296,
 			156,
 			138
 		},
@@ -712,12 +712,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			336,
-			830,
+			1375,
+			411,
 			163,
 			137
 		},
@@ -737,12 +737,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			336,
-			830,
+			1375,
+			411,
 			163,
 			137
 		},
@@ -762,17 +762,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			651,
-			737,
+			1068,
+			120,
 			170,
 			135
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -787,17 +787,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			651,
-			737,
+			1068,
+			120,
 			170,
 			135
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0033"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -812,17 +812,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			418,
-			1238,
+			246,
+			3156,
 			163,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -837,17 +837,17 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			418,
-			1238,
+			246,
+			3156,
 			163,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -862,12 +862,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1041,
-			634,
+			281,
+			974,
 			150,
 			136
 		},
@@ -887,12 +887,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1041,
-			634,
+			281,
+			974,
 			150,
 			136
 		},
@@ -912,17 +912,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1030,
-			1724,
+			471,
+			1526,
 			139,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -937,17 +937,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1030,
-			1724,
+			471,
+			1526,
 			139,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -962,12 +962,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1367,
-			391,
+			1241,
+			487,
 			132,
 			129
 		},
@@ -987,12 +987,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1367,
-			391,
+			1241,
+			487,
 			132,
 			129
 		},
@@ -1012,17 +1012,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1247,
-			2537,
+			983,
+			1905,
 			136,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1037,17 +1037,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1247,
-			2537,
+			983,
+			1905,
 			136,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1062,12 +1062,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			422,
-			2029,
+			762,
+			1515,
 			139,
 			132
 		},
@@ -1087,12 +1087,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			422,
-			2029,
+			762,
+			1515,
 			139,
 			132
 		},
@@ -1112,17 +1112,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1296,
-			1872,
+			1700,
+			1457,
 			140,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1137,17 +1137,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1296,
-			1872,
+			1700,
+			1457,
 			140,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1162,12 +1162,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			980,
-			2148,
+			573,
+			2857,
 			141,
 			122
 		},
@@ -1187,12 +1187,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			980,
-			2148,
+			573,
+			2857,
 			141,
 			122
 		},
@@ -1212,12 +1212,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			953,
-			1569,
+			405,
+			2544,
 			153,
 			121
 		},
@@ -1237,12 +1237,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			953,
-			1569,
+			405,
+			2544,
 			153,
 			121
 		},
@@ -1262,12 +1262,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			559,
-			1238,
+			1563,
+			990,
 			164,
 			132
 		},
@@ -1287,12 +1287,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			559,
-			1238,
+			1563,
+			990,
 			164,
 			132
 		},
@@ -1312,17 +1312,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			881,
+			1850,
+			680,
 			165,
 			135
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1337,17 +1337,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			501,
-			881,
+			1850,
+			680,
 			165,
 			135
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0055"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1362,17 +1362,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1699,
-			111,
+			1120,
+			1296,
 			160,
 			138
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0056"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1387,17 +1387,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1699,
-			111,
+			1120,
+			1296,
 			160,
 			138
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0057"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1412,17 +1412,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			815,
-			1428,
+			1377,
+			277,
 			157,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0058"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1437,17 +1437,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			815,
-			1428,
+			1377,
+			277,
 			157,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1462,12 +1462,12 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			457,
-			2581,
+			1438,
+			1295,
 			157,
 			130
 		},
@@ -1487,12 +1487,12 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			457,
-			2581,
+			1438,
+			1295,
 			157,
 			130
 		},
@@ -1512,17 +1512,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1030,
-			1865,
+			1842,
+			1460,
 			145,
 			129
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1537,17 +1537,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1030,
-			1865,
+			1842,
+			1460,
 			145,
 			129
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0063"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1562,17 +1562,17 @@ return {
             21
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			636,
-			3284,
+			1989,
+			1457,
 			138,
 			129
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0064"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1587,17 +1587,17 @@ return {
             21
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			636,
-			3284,
+			1989,
+			1457,
 			138,
 			129
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1612,17 +1612,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			556,
-			2014,
+			612,
+			1515,
 			148,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1637,17 +1637,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			556,
-			2014,
+			612,
+			1515,
 			148,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0067"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1662,12 +1662,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			340,
-			2981,
+			3962,
+			1,
 			163,
 			129
 		},
@@ -1687,12 +1687,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			340,
-			2981,
+			3962,
+			1,
 			163,
 			129
 		},
@@ -1712,17 +1712,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			693,
-			1238,
+			792,
+			1157,
 			169,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0070"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1737,17 +1737,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			693,
-			1238,
+			792,
+			1157,
 			169,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0071"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -1762,12 +1762,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			416,
-			1403,
+			812,
+			347,
 			176,
 			132
 		},
@@ -1787,12 +1787,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			416,
-			1403,
+			812,
+			347,
 			176,
 			132
 		},
@@ -1812,12 +1812,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1187,
-			1375,
+			1570,
+			1294,
 			166,
 			128
 		},
@@ -1837,12 +1837,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1187,
-			1375,
+			1570,
+			1294,
 			166,
 			128
 		},
@@ -1862,12 +1862,12 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			415,
-			1871,
+			543,
+			2699,
 			156,
 			127
 		},
@@ -1887,12 +1887,12 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			415,
-			1871,
+			543,
+			2699,
 			156,
 			127
 		},
@@ -1912,12 +1912,12 @@ return {
             22
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			375,
-			672,
+			461,
+			2981,
 			156,
 			124
 		},
@@ -1937,12 +1937,12 @@ return {
             22
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			375,
-			672,
+			461,
+			2981,
 			156,
 			124
 		},
@@ -1962,12 +1962,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			444,
-			2423,
+			539,
+			3139,
 			156,
 			131
 		},
@@ -1987,12 +1987,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			444,
-			2423,
+			539,
+			3139,
 			156,
 			131
 		},
@@ -2012,17 +2012,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			694,
-			1864,
+			454,
+			2058,
 			155,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2037,17 +2037,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			694,
-			1864,
+			454,
+			2058,
 			155,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2062,12 +2062,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			402,
-			2287,
+			1697,
+			1158,
 			155,
 			134
 		},
@@ -2087,12 +2087,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			402,
-			2287,
+			1697,
+			1158,
 			155,
 			134
 		},
@@ -2112,17 +2112,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			231,
-			2287,
+			268,
+			2393,
 			169,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0086"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2137,17 +2137,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			231,
-			2287,
+			268,
+			2393,
 			169,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2162,17 +2162,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			550,
-			1404,
+			108,
+			1809,
 			183,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0088"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2187,17 +2187,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			550,
-			1404,
+			108,
+			1809,
 			183,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2212,12 +2212,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			881,
-			120,
+			646,
+			347,
 			164,
 			176
 		},
@@ -2237,12 +2237,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			881,
-			120,
+			646,
+			347,
 			164,
 			176
 		},
@@ -2262,17 +2262,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3748,
-			1,
+			122,
+			766,
 			158,
 			193
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0092"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2287,17 +2287,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3748,
-			1,
+			122,
+			766,
 			158,
 			193
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0093"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2312,17 +2312,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			117,
-			1048,
+			1205,
+			116,
 			158,
 			188
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0094"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2337,17 +2337,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			117,
-			1048,
+			1205,
+			116,
 			158,
 			188
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2362,17 +2362,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			114,
-			1379,
+			1536,
+			111,
 			159,
 			182
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2387,17 +2387,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			114,
-			1379,
+			1536,
+			111,
 			159,
 			182
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0097"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2412,17 +2412,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1,
-			3228,
+			881,
+			120,
 			185,
 			164
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0098"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2437,17 +2437,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1,
-			3228,
+			881,
+			120,
 			185,
 			164
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2462,12 +2462,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			275,
-			1397,
+			1063,
+			292,
 			183,
 			139
 		},
@@ -2487,12 +2487,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			275,
-			1397,
+			1063,
+			292,
 			183,
 			139
 		},
@@ -2512,17 +2512,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			726,
-			874,
+			632,
+			763,
 			186,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0102"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2537,17 +2537,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			726,
-			874,
+			632,
+			763,
 			186,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0103"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2562,17 +2562,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			277,
-			1048,
+			1868,
+			239,
 			188,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0104"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2587,17 +2587,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			277,
-			1048,
+			1868,
+			239,
 			188,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0105"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2612,17 +2612,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0106"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2637,17 +2637,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0107"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2662,17 +2662,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0108"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2687,17 +2687,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0109"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2712,17 +2712,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2737,17 +2737,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0111"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2762,17 +2762,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			825,
-			1237,
+			2138,
+			232,
 			189,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2787,12 +2787,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			378,
+			604,
+			1157,
 			186,
 			125
 		},
@@ -2812,12 +2812,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			378,
+			604,
+			1157,
 			186,
 			125
 		},
@@ -2837,12 +2837,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1839,
-			107,
+			2138,
+			102,
 			184,
 			128
 		},
@@ -2862,12 +2862,12 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1839,
-			107,
+			2138,
+			102,
 			184,
 			128
 		},
@@ -2887,17 +2887,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			231,
-			2287,
+			268,
+			2393,
 			169,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0117"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2912,17 +2912,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			683,
-			1409,
+			293,
+			1526,
 			176,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0118"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2937,17 +2937,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			683,
-			1409,
+			293,
+			1526,
 			176,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Abomination_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2962,17 +2962,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			182,
+			184,
+			1942,
 			179,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -2987,17 +2987,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			182,
+			184,
+			1942,
 			179,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3012,17 +3012,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			122,
-			911,
+			282,
+			766,
 			206,
 			135
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3037,17 +3037,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			122,
-			911,
+			282,
+			766,
 			206,
 			135
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3062,8 +3062,8 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3086,
@@ -3087,8 +3087,8 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3086,
@@ -3112,8 +3112,8 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2853,
@@ -3137,8 +3137,8 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2853,
@@ -3162,8 +3162,8 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			639,
@@ -3187,8 +3187,8 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			639,
@@ -3212,8 +3212,8 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2601,
@@ -3237,8 +3237,8 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2601,
@@ -3262,8 +3262,8 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3287,8 +3287,8 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3312,8 +3312,8 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3337,8 +3337,8 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3362,8 +3362,8 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3387,8 +3387,8 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -3412,8 +3412,8 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			283,
@@ -3437,8 +3437,8 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			283,
@@ -3462,8 +3462,8 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			492,
@@ -3487,8 +3487,8 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			492,
@@ -3512,17 +3512,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1034,
-			487,
+			961,
+			1012,
 			143,
 			145
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0142"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3537,17 +3537,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1034,
-			487,
+			961,
+			1012,
 			143,
 			145
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Abomination_0143"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3562,12 +3562,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			628,
+			854,
+			1783,
 			60,
 			119
 		},
@@ -3587,12 +3587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			628,
+			854,
+			1783,
 			60,
 			119
 		},
@@ -3612,12 +3612,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1375,
-			925,
+			224,
+			2123,
 			92,
 			103
 		},
@@ -3637,12 +3637,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2667,
-			406,
+			2986,
+			386,
 			92,
 			103
 		},
@@ -3662,12 +3662,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2122,
-			991,
+			460,
+			1658,
 			86,
 			103
 		},
@@ -3687,12 +3687,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2122,
-			991,
+			460,
+			1658,
 			86,
 			103
 		},
@@ -3712,12 +3712,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1866,
-			413,
+			1033,
+			2735,
 			89,
 			117
 		},
@@ -3737,12 +3737,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1866,
-			413,
+			1033,
+			2735,
 			89,
 			117
 		},
@@ -3762,12 +3762,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1501,
-			477,
+			1570,
+			1589,
 			105,
 			128
 		},
@@ -3787,12 +3787,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1501,
-			477,
+			1570,
+			1589,
 			105,
 			128
 		},
@@ -3812,17 +3812,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1480,
-			1053,
+			1041,
+			2603,
 			109,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3837,17 +3837,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1480,
-			1053,
+			1041,
+			2603,
 			109,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3862,12 +3862,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			556,
-			2164,
+			2196,
+			355,
 			98,
 			133
 		},
@@ -3887,12 +3887,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			556,
-			2164,
+			2196,
+			355,
 			98,
 			133
 		},
@@ -3912,17 +3912,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			776,
-			3284,
+			1989,
+			1597,
 			129,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3937,17 +3937,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			776,
-			3284,
+			1989,
+			1597,
 			129,
 			133
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -3962,12 +3962,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1862,
-			504,
+			917,
+			2601,
 			107,
 			122
 		},
@@ -3987,12 +3987,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1862,
-			504,
+			917,
+			2601,
 			107,
 			122
 		},
@@ -4012,12 +4012,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2119,
-			1299,
+			999,
+			666,
 			109,
 			95
 		},
@@ -4037,12 +4037,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2119,
-			1299,
+			999,
+			666,
 			109,
 			95
 		},
@@ -4062,12 +4062,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2881,
-			1399,
+			2372,
+			1977,
 			103,
 			96
 		},
@@ -4087,17 +4087,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2986,
-			1393,
+			1756,
+			2057,
 			103,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4112,17 +4112,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2393,
-			2267,
+			2799,
+			1240,
 			102,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4137,17 +4137,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2393,
-			2267,
+			2799,
+			1240,
 			102,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4162,17 +4162,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2417,
-			2371,
+			2889,
+			1428,
 			102,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0024"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4187,17 +4187,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2417,
-			2371,
+			2889,
+			1428,
 			102,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4212,17 +4212,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			403,
+			2802,
+			1138,
 			96,
 			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4237,17 +4237,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			403,
+			2802,
+			1138,
 			96,
 			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4262,17 +4262,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1396,
-			300,
+			3369,
+			927,
 			89,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4287,17 +4287,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1396,
-			300,
+			3369,
+			927,
 			89,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0029"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4312,17 +4312,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2488,
-			2071,
+			883,
+			525,
 			88,
 			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4337,12 +4337,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2485,
-			2176,
+			3004,
+			1346,
 			89,
 			106
 		},
@@ -4362,12 +4362,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2485,
-			2176,
+			3004,
+			1346,
 			89,
 			106
 		},
@@ -4387,12 +4387,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2302,
-			2269,
+			3468,
+			272,
 			89,
 			100
 		},
@@ -4412,12 +4412,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2302,
-			2269,
+			3468,
+			272,
 			89,
 			100
 		},
@@ -4437,17 +4437,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			648,
+			2570,
+			582,
 			91,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4462,17 +4462,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			648,
+			2570,
+			582,
 			91,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4487,12 +4487,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2593,
-			2172,
+			2624,
+			1534,
 			89,
 			97
 		},
@@ -4512,12 +4512,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3118,
-			2089,
+			3460,
+			812,
 			90,
 			104
 		},
@@ -4537,12 +4537,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3118,
-			2089,
+			3460,
+			812,
 			90,
 			104
 		},
@@ -4562,12 +4562,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2684,
-			2277,
+			2986,
+			1437,
 			96,
 			106
 		},
@@ -4587,12 +4587,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2684,
-			2277,
+			2986,
+			1437,
 			96,
 			106
 		},
@@ -4612,17 +4612,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3106,
-			2195,
+			3460,
+			918,
 			96,
 			104
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4637,12 +4637,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3213,
-			2382,
+			3566,
+			374,
 			97,
 			101
 		},
@@ -4662,12 +4662,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3213,
-			2382,
+			3566,
+			374,
 			97,
 			101
 		},
@@ -4687,17 +4687,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1735,
-			2555,
+			3665,
+			473,
 			97,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4712,17 +4712,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1735,
-			2555,
+			3665,
+			473,
 			97,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4737,17 +4737,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2826,
+			3565,
+			1233,
 			95,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4762,17 +4762,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			852,
+			2903,
+			1333,
 			93,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0048"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4787,17 +4787,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			852,
+			2903,
+			1333,
 			93,
 			99
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0049"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4812,17 +4812,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1385,
-			2628,
+			3868,
+			378,
 			86,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0050"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4837,17 +4837,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1385,
-			2628,
+			3868,
+			378,
 			86,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -4862,12 +4862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2766,
-			148,
+			3956,
+			474,
 			85,
 			100
 		},
@@ -4887,12 +4887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			3208,
+			3648,
+			1057,
 			85,
 			103
 		},
@@ -4912,12 +4912,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			3208,
+			3648,
+			1057,
 			85,
 			103
 		},
@@ -4937,12 +4937,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1577,
-			2513,
+			1286,
+			618,
 			87,
 			100
 		},
@@ -4962,12 +4962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1577,
-			2513,
+			1286,
+			618,
 			87,
 			100
 		},
@@ -4987,12 +4987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1867,
-			2858,
+			3753,
+			1057,
 			88,
 			96
 		},
@@ -5012,12 +5012,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1867,
-			2858,
+			3753,
+			1057,
 			88,
 			96
 		},
@@ -5037,12 +5037,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1489,
-			2620,
+			3952,
+			763,
 			87,
 			94
 		},
@@ -5062,12 +5062,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1683,
-			3208,
+			3372,
+			1136,
 			85,
 			100
 		},
@@ -5087,12 +5087,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1683,
-			3208,
+			3372,
+			1136,
 			85,
 			100
 		},
@@ -5112,12 +5112,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1957,
-			2857,
+			3474,
+			1129,
 			85,
 			103
 		},
@@ -5137,12 +5137,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1957,
-			2857,
+			3474,
+			1129,
 			85,
 			103
 		},
@@ -5162,12 +5162,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3092,
-			831,
+			3956,
+			368,
 			85,
 			104
 		},
@@ -5187,17 +5187,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2615,
+			3765,
+			468,
 			87,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5212,17 +5212,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2615,
+			3765,
+			468,
 			87,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5237,12 +5237,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2925,
+			3566,
+			574,
 			90,
 			97
 		},
@@ -5262,12 +5262,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2925,
+			3566,
+			574,
 			90,
 			97
 		},
@@ -5287,17 +5287,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1588,
-			3295,
+			3753,
+			1155,
 			90,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5312,12 +5312,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2821,
+			3474,
+			1234,
 			89,
 			94
 		},
@@ -5337,12 +5337,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2821,
+			3474,
+			1234,
 			89,
 			94
 		},
@@ -5362,12 +5362,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1490,
-			2716,
+			3560,
+			1022,
 			86,
 			103
 		},
@@ -5387,12 +5387,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1490,
-			2716,
+			3560,
+			1022,
 			86,
 			103
 		},
@@ -5412,17 +5412,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1891,
-			3208,
+			2477,
+			2185,
 			85,
 			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0074"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5437,12 +5437,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3104,
-			2293,
+			3112,
+			1348,
 			87,
 			106
 		},
@@ -5462,12 +5462,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3104,
-			2293,
+			3112,
+			1348,
 			87,
 			106
 		},
@@ -5487,17 +5487,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2578,
-			2067,
+			3665,
+			576,
 			88,
 			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0077"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5512,17 +5512,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2578,
-			2067,
+			3665,
+			576,
 			88,
 			103
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5537,17 +5537,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3016,
+			3845,
+			1153,
 			90,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5562,17 +5562,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3016,
+			3845,
+			1153,
 			90,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5587,12 +5587,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3370,
-			829,
+			2479,
+			2616,
 			88,
 			96
 		},
@@ -5612,12 +5612,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2515,
+			3558,
+			917,
 			88,
 			103
 		},
@@ -5637,12 +5637,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2515,
+			3558,
+			917,
 			88,
 			103
 		},
@@ -5662,12 +5662,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2718,
+			3369,
+			712,
 			87,
 			106
 		},
@@ -5687,12 +5687,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			2718,
+			3369,
+			712,
 			87,
 			106
 		},
@@ -5712,12 +5712,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1667,
-			2688,
+			3458,
+			704,
 			85,
 			106
 		},
@@ -5737,12 +5737,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1631,
-			477,
+			3372,
+			1030,
 			87,
 			104
 		},
@@ -5762,12 +5762,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1631,
-			477,
+			3372,
+			1030,
 			87,
 			104
 		},
@@ -5787,17 +5787,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			3017,
+			3843,
+			1051,
 			90,
 			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5812,17 +5812,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			3017,
+			3843,
+			1051,
 			90,
 			100
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5837,12 +5837,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1680,
-			3009,
+			3753,
+			1251,
 			90,
 			98
 		},
@@ -5862,12 +5862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2917,
+			2476,
+			2780,
 			89,
 			97
 		},
@@ -5887,12 +5887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2917,
+			2476,
+			2780,
 			89,
 			97
 		},
@@ -5912,17 +5912,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			864,
-			2865,
+			3138,
+			1076,
 			86,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0094"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5937,17 +5937,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			864,
-			2865,
+			3138,
+			1076,
 			86,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -5962,12 +5962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1612,
-			1049,
+			851,
+			2050,
 			112,
 			123
 		},
@@ -5987,12 +5987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			849,
-			2063,
+			2117,
+			1733,
 			129,
 			117
 		},
@@ -6012,12 +6012,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1607,
-			648,
+			2248,
+			1726,
 			129,
 			117
 		},
@@ -6037,12 +6037,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1349,
-			522,
+			1429,
+			1571,
 			139,
 			117
 		},
@@ -6062,12 +6062,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1349,
-			522,
+			1429,
+			1571,
 			139,
 			117
 		},
@@ -6087,12 +6087,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			627,
-			3132,
+			2073,
+			1279,
 			150,
 			103
 		},
@@ -6112,12 +6112,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			627,
-			3132,
+			2073,
+			1279,
 			150,
 			103
 		},
@@ -6137,12 +6137,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1222,
-			2979,
+			935,
+			615,
 			146,
 			62
 		},
@@ -6162,12 +6162,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1362,
-			3242,
+			2284,
+			1119,
 			146,
 			62
 		},
@@ -6187,12 +6187,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6212,12 +6212,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6237,12 +6237,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6262,12 +6262,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6287,12 +6287,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6312,12 +6312,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6337,12 +6337,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6362,12 +6362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6387,12 +6387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6412,12 +6412,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6437,12 +6437,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6462,12 +6462,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6487,12 +6487,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6512,12 +6512,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1311,
-			846,
+			902,
+			1633,
 			144,
 			62
 		},
@@ -6537,17 +6537,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1490,
-			584,
+			1117,
+			1905,
 			144,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6562,17 +6562,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1490,
-			584,
+			1117,
+			1905,
 			144,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6587,17 +6587,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1490,
-			584,
+			1117,
+			1905,
 			144,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6612,12 +6612,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1176,
-			3270,
+			1360,
+			1012,
 			143,
 			63
 		},
@@ -6637,12 +6637,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1176,
-			3270,
+			1360,
+			1012,
 			143,
 			63
 		},
@@ -6662,12 +6662,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1176,
-			3270,
+			1360,
+			1012,
 			143,
 			63
 		},
@@ -6687,12 +6687,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			941,
-			2417,
+			2279,
+			970,
 			147,
 			64
 		},
@@ -6712,12 +6712,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			941,
-			2417,
+			2279,
+			970,
 			147,
 			64
 		},
@@ -6737,12 +6737,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			941,
-			2417,
+			2279,
+			970,
 			147,
 			64
 		},
@@ -6762,17 +6762,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			749,
+			104,
+			2143,
 			118,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0128"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6787,17 +6787,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			749,
+			104,
+			2143,
 			118,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0129"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6812,17 +6812,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			749,
+			104,
+			2143,
 			118,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0130"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -6837,12 +6837,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1722,
-			862,
+			2068,
+			361,
 			126,
 			83
 		},
@@ -6862,12 +6862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1722,
-			862,
+			2068,
+			361,
 			126,
 			83
 		},
@@ -6887,12 +6887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1722,
-			862,
+			2068,
+			361,
 			126,
 			83
 		},
@@ -6912,12 +6912,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			869,
+			2374,
+			1855,
 			120,
 			98
 		},
@@ -6937,12 +6937,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2123,
-			869,
+			2374,
+			1855,
 			120,
 			98
 		},
@@ -6962,12 +6962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2112,
-			1079,
+			1104,
+			2826,
 			114,
 			114
 		},
@@ -6987,12 +6987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2112,
-			1079,
+			1104,
+			2826,
 			114,
 			114
 		},
@@ -7012,17 +7012,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2100,
-			1195,
+			1082,
+			2051,
 			102,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0138"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7037,17 +7037,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2100,
-			1195,
+			1082,
+			2051,
 			102,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0139"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7062,17 +7062,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2353,
-			869,
+			2584,
+			240,
 			94,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0140"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7087,17 +7087,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2353,
-			869,
+			2584,
+			240,
 			94,
 			134
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0141"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7112,12 +7112,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1718,
-			947,
+			1570,
+			1696,
 			98,
 			128
 		},
@@ -7137,12 +7137,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1718,
-			947,
+			1570,
+			1696,
 			98,
 			128
 		},
@@ -7162,17 +7162,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2574,
-			883,
+			2031,
+			446,
 			99,
 			121
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0144"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7187,17 +7187,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2574,
-			883,
+			2031,
+			446,
 			99,
 			121
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0145"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7212,12 +7212,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3083,
-			1382,
+			2094,
+			2408,
 			96,
 			114
 		},
@@ -7237,12 +7237,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			952,
-			2861,
+			2248,
+			1857,
 			116,
 			124
 		},
@@ -7262,17 +7262,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			839,
-			2290,
+			2474,
+			100,
 			115,
 			125
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0148"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7287,12 +7287,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2228,
-			1078,
+			2331,
+			347,
 			115,
 			124
 		},
@@ -7312,17 +7312,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2354,
-			1078,
+			2477,
+			1976,
 			115,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0150"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7337,12 +7337,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2362,
-			1299,
+			916,
+			1779,
 			115,
 			123
 		},
@@ -7362,17 +7362,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3292,
-			145,
+			3221,
+			355,
 			115,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0152"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7387,12 +7387,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3618,
-			651,
+			965,
+			2050,
 			115,
 			123
 		},
@@ -7412,12 +7412,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3735,
-			767,
+			1559,
+			2533,
 			115,
 			124
 		},
@@ -7437,17 +7437,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3113,
-			1498,
+			934,
+			897,
 			113,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0155"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7462,17 +7462,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1661,
-			1904,
+			1676,
+			2660,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0156"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7487,12 +7487,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1735,
-			1304,
+			1740,
+			2154,
 			116,
 			124
 		},
@@ -7512,12 +7512,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3304,
-			393,
+			1519,
+			2277,
 			116,
 			125
 		},
@@ -7537,12 +7537,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			617,
+			2542,
+			807,
 			114,
 			126
 		},
@@ -7562,12 +7562,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2544,
-			617,
+			1676,
+			2532,
 			114,
 			126
 		},
@@ -7587,12 +7587,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1409,
-			2014,
+			1676,
+			2786,
 			114,
 			126
 		},
@@ -7612,12 +7612,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2569,
-			1006,
+			2375,
+			1399,
 			114,
 			128
 		},
@@ -7637,17 +7637,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2223,
-			431,
+			1080,
+			2180,
 			116,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0163"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7662,12 +7662,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2866,
-			1497,
+			1676,
+			2914,
 			116,
 			124
 		},
@@ -7687,12 +7687,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2603,
-			1136,
+			3211,
+			225,
 			115,
 			128
 		},
@@ -7712,12 +7712,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			416,
-			2170,
+			1437,
+			1454,
 			115,
 			131
 		},
@@ -7737,12 +7737,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2230,
-			1299,
+			1060,
+			897,
 			113,
 			130
 		},
@@ -7762,17 +7762,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2713,
-			1267,
+			2116,
+			1852,
 			113,
 			130
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0168"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7787,17 +7787,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2873,
-			990,
+			2853,
+			269,
 			115,
 			130
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0169"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7812,17 +7812,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			503,
-			3298,
+			2030,
+			547,
 			115,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0170"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7837,17 +7837,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2870,
-			857,
+			2305,
+			464,
 			115,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0171"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7862,12 +7862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3422,
-			393,
+			1198,
+			2180,
 			115,
 			127
 		},
@@ -7887,12 +7887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3618,
-			522,
+			1313,
+			2439,
 			115,
 			127
 		},
@@ -7912,17 +7912,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3735,
-			509,
+			1967,
+			2291,
 			115,
 			127
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0174"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -7937,12 +7937,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3735,
-			638,
+			1430,
+			2404,
 			115,
 			127
 		},
@@ -7962,12 +7962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2809,
-			1137,
+			1188,
+			2309,
 			115,
 			128
 		},
@@ -7987,17 +7987,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2828,
-			1267,
+			1641,
+			1920,
 			115,
 			130
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0177"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8012,17 +8012,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3304,
-			262,
+			1967,
+			1943,
 			115,
 			129
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0178"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8037,12 +8037,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3538,
-			262,
+			1507,
+			2015,
 			115,
 			128
 		},
@@ -8062,17 +8062,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2479,
-			1266,
+			2438,
+			465,
 			115,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0180"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8087,12 +8087,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1850,
-			851,
+			2340,
+			100,
 			113,
 			132
 		},
@@ -8112,12 +8112,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2980,
-			594,
+			1186,
+			2049,
 			113,
 			129
 		},
@@ -8137,17 +8137,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1787,
-			1904,
+			1220,
+			2955,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0183"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8162,17 +8162,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1478,
-			1298,
+			1909,
+			2769,
 			114,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0184"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8187,17 +8187,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1560,
-			1653,
+			1198,
+			2570,
 			113,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0185"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8212,17 +8212,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1779,
-			2030,
+			2036,
+			2524,
 			113,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0186"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8237,12 +8237,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1906,
-			2030,
+			1910,
+			3025,
 			114,
 			125
 		},
@@ -8262,17 +8262,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1688,
-			1661,
+			1794,
+			2906,
 			114,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0188"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8287,12 +8287,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2310,
-			617,
+			1152,
+			2698,
 			116,
 			126
 		},
@@ -8312,12 +8312,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1543,
-			1768,
+			1676,
+			3040,
 			116,
 			124
 		},
@@ -8337,12 +8337,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1895,
-			1778,
+			2152,
+			2651,
 			113,
 			124
 		},
@@ -8362,12 +8362,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1903,
-			1904,
+			2267,
+			2780,
 			113,
 			124
 		},
@@ -8387,12 +8387,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1944,
-			1662,
+			2192,
+			2408,
 			114,
 			124
 		},
@@ -8412,12 +8412,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1947,
-			1546,
+			2686,
+			468,
 			114,
 			124
 		},
@@ -8437,17 +8437,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2010,
-			1778,
+			2669,
+			584,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0195"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8462,12 +8462,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2018,
-			1904,
+			2658,
+			807,
 			114,
 			124
 		},
@@ -8487,12 +8487,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1443,
-			1633,
+			1313,
+			2568,
 			115,
 			124
 		},
@@ -8512,12 +8512,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1778,
-			1778,
+			1559,
+			2659,
 			115,
 			124
 		},
@@ -8537,12 +8537,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2070,
-			1662,
+			2812,
+			478,
 			114,
 			124
 		},
@@ -8562,17 +8562,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2126,
-			1778,
+			2938,
+			480,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0200"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8587,17 +8587,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1525,
-			2020,
+			1313,
+			2694,
 			115,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0201"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8612,17 +8612,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1525,
-			2020,
+			1313,
+			2694,
 			115,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0202"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8637,17 +8637,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1078,
-			2849,
+			2457,
+			341,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0203"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8662,12 +8662,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1606,
-			1174,
+			2418,
+			805,
 			122,
 			128
 		},
@@ -8687,12 +8687,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1854,
-			1184,
+			3338,
+			338,
 			120,
 			128
 		},
@@ -8712,12 +8712,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2223,
-			869,
+			1837,
+			1929,
 			120,
 			128
 		},
@@ -8737,17 +8737,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1730,
-			1174,
+			3091,
+			355,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0207"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8762,12 +8762,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			911,
-			3283,
+			2329,
+			215,
 			122,
 			130
 		},
@@ -8787,17 +8787,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1053,
-			1207,
+			1861,
+			547,
 			167,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0209"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8812,12 +8812,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1054,
-			1376,
+			1415,
+			823,
 			167,
 			131
 		},
@@ -8837,12 +8837,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1076,
-			1545,
+			1548,
+			821,
 			167,
 			131
 		},
@@ -8862,12 +8862,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			824,
-			592,
+			528,
+			2544,
 			153,
 			122
 		},
@@ -8887,12 +8887,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1317,
-			1350,
+			440,
+			1746,
 			153,
 			122
 		},
@@ -8912,17 +8912,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			915,
-			1857,
+			781,
+			897,
 			151,
 			113
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0214"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8937,17 +8937,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2199,
-			316,
+			1192,
+			859,
 			151,
 			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0215"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8962,17 +8962,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			455,
-			2740,
+			1540,
+			511,
 			149,
 			153
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0216"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -8987,12 +8987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			264,
-			1871,
+			1540,
+			352,
 			149,
 			157
 		},
@@ -9012,17 +9012,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1123,
-			2147,
+			411,
+			3154,
 			141,
 			126
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0218"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9037,17 +9037,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1208,
-			3127,
+			759,
+			1656,
 			141,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0219"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9062,12 +9062,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1661,
-			1777,
+			1559,
+			2785,
 			115,
 			125
 		},
@@ -9087,17 +9087,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1652,
-			2020,
+			1559,
+			2912,
 			115,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0221"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9112,12 +9112,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2949,
-			1623,
+			2474,
+			1855,
 			115,
 			119
 		},
@@ -9137,17 +9137,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2918,
-			1855,
+			1559,
+			3039,
 			115,
 			119
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0223"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9162,12 +9162,12 @@ return {
             11
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			729,
+			2299,
+			805,
 			117,
 			131
 		},
@@ -9187,12 +9187,12 @@ return {
             11
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			729,
+			2299,
+			805,
 			117,
 			131
 		},
@@ -9212,12 +9212,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1478,
-			1164,
+			843,
+			2808,
 			126,
 			132
 		},
@@ -9237,12 +9237,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1478,
-			1164,
+			843,
+			2808,
 			126,
 			132
 		},
@@ -9262,12 +9262,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1262,
-			2014,
+			1842,
+			1591,
 			126,
 			145
 		},
@@ -9287,12 +9287,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1097,
-			2275,
+			612,
+			1650,
 			126,
 			145
 		},
@@ -9312,17 +9312,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1469,
-			648,
+			716,
+			2843,
 			125,
 			136
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0230"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9337,12 +9337,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1471,
-			775,
+			763,
+			2667,
 			125,
 			136
 		},
@@ -9362,12 +9362,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			589,
-			2572,
+			784,
+			3138,
 			106,
 			152
 		},
@@ -9387,12 +9387,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			589,
-			2572,
+			784,
+			3138,
 			106,
 			152
 		},
@@ -9412,17 +9412,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			688,
-			2290,
+			2178,
+			1275,
 			125,
 			149
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0234"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9437,17 +9437,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			688,
-			2290,
+			2178,
+			1275,
 			125,
 			149
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0235"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9462,12 +9462,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2363,
-			100,
+			1375,
+			550,
 			105,
 			163
 		},
@@ -9487,12 +9487,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2363,
-			100,
+			1375,
+			550,
 			105,
 			163
 		},
@@ -9512,12 +9512,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			236,
-			2981,
+			1697,
+			990,
 			102,
 			166
 		},
@@ -9537,12 +9537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			236,
-			2981,
+			1697,
+			990,
 			102,
 			166
 		},
@@ -9562,12 +9562,12 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1209,
-			1543,
+			1941,
+			980,
 			107,
 			164
 		},
@@ -9587,12 +9587,12 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1209,
-			1543,
+			1941,
+			980,
 			107,
 			164
 		},
@@ -9612,12 +9612,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			797,
-			1062,
+			163,
+			2477,
 			103,
 			173
 		},
@@ -9637,12 +9637,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			797,
-			1062,
+			163,
+			2477,
 			103,
 			173
 		},
@@ -9662,12 +9662,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			1224,
+			356,
+			2981,
 			103,
 			171
 		},
@@ -9687,12 +9687,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			1224,
+			356,
+			2981,
 			103,
 			171
 		},
@@ -9712,17 +9712,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3370,
-			724,
+			163,
+			2652,
 			103,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0246"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9737,17 +9737,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3370,
-			724,
+			163,
+			2652,
 			103,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0247"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9762,17 +9762,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3104,
-			2382,
+			2547,
+			1746,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0248"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9787,17 +9787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1956,
-			2475,
+			2665,
+			1966,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0249"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9812,17 +9812,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2204,
-			2157,
+			3138,
+			1164,
 			90,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0250"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9837,17 +9837,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2204,
-			2157,
+			3138,
+			1164,
 			90,
 			112
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_0251"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9862,17 +9862,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2313,
-			1677,
+			3292,
+			480,
 			90,
 			115
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0252"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9887,17 +9887,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2313,
-			1677,
+			3292,
+			480,
 			90,
 			115
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0253"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -9912,12 +9912,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2684,
-			2170,
+			2726,
+			700,
 			92,
 			105
 		},
@@ -9937,12 +9937,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1838,
-			2561,
+			2985,
+			1535,
 			92,
 			105
 		},
@@ -9962,12 +9962,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2892,
-			2089,
+			2786,
+			1336,
 			90,
 			111
 		},
@@ -9987,17 +9987,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3005,
-			2089,
+			2547,
+			1633,
 			90,
 			111
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0257"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10012,17 +10012,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0258"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10037,17 +10037,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0259"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10062,17 +10062,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0260"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10087,17 +10087,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0261"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10112,17 +10112,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0262"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10137,17 +10137,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0263"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10162,17 +10162,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0264"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10187,17 +10187,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0265"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10212,17 +10212,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1381,
-			2716,
+			2757,
+			1962,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0266"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10237,12 +10237,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2778,
-			2088,
+			3133,
+			1256,
 			90,
 			112
 		},
@@ -10262,12 +10262,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2778,
-			2088,
+			3133,
+			1256,
 			90,
 			112
 		},
@@ -10287,17 +10287,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3295,
+			2839,
+			1849,
 			90,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_0269"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10312,12 +10312,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1945,
-			2567,
+			3092,
+			1536,
 			90,
 			106
 		},
@@ -10337,17 +10337,17 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1499,
-			111,
+			2058,
+			107,
 			198,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_aura_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10362,12 +10362,12 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1499,
-			191,
+			3086,
+			145,
 			198,
 			78
 		},
@@ -10387,12 +10387,12 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1839,
-			237,
+			1536,
+			272,
 			198,
 			78
 		},
@@ -10412,12 +10412,12 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2072,
-			102,
+			1868,
+			366,
 			198,
 			78
 		},
@@ -10437,8 +10437,8 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			104,
@@ -10462,17 +10462,17 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			184,
-			1943,
+			340,
+			1366,
 			198,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_aura_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10487,12 +10487,12 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1195,
-			298,
+			761,
+			1289,
 			199,
 			78
 		},
@@ -10512,17 +10512,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			167,
-			3196,
+			555,
+			1284,
 			204,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_aura_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10537,17 +10537,17 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			154,
-			2981,
+			340,
+			1284,
 			213,
 			80
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_aura_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10562,8 +10562,8 @@ return {
             23
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			283,
@@ -10587,17 +10587,17 @@ return {
             22
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			298,
+			117,
+			1284,
 			221,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_aura_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10612,12 +10612,12 @@ return {
             20
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			858,
-			347,
+			419,
+			766,
 			229,
 			88
 		},
@@ -10637,12 +10637,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1195,
-			208,
+			646,
+			525,
 			235,
 			88
 		},
@@ -10662,17 +10662,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1195,
-			116,
+			154,
+			2981,
 			241,
 			90
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_aura_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -10687,8 +10687,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			126,
@@ -10712,8 +10712,8 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			308,
@@ -10737,8 +10737,8 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2340,
@@ -10762,8 +10762,8 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			2072,
@@ -10787,8 +10787,8 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -10812,8 +10812,8 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1792,
@@ -10837,8 +10837,8 @@ return {
             11
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -10862,8 +10862,8 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1499,
@@ -10887,8 +10887,8 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -10912,8 +10912,8 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1193,
@@ -10937,8 +10937,8 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -10962,8 +10962,8 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			874,
@@ -10987,8 +10987,8 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -11012,8 +11012,8 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			308,
@@ -11037,8 +11037,8 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -11062,17 +11062,17 @@ return {
             26
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			151,
-			2217,
+			297,
+			1446,
 			198,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_buffed"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11087,17 +11087,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2042,
-			2659,
+			2665,
+			2075,
 			91,
 			31
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_DeathKnight_buffedFx_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11112,12 +11112,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1161,
-			1871,
+			716,
+			2034,
 			139,
 			133
 		},
@@ -11137,12 +11137,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1161,
-			1871,
+			716,
+			2034,
 			139,
 			133
 		},
@@ -11162,17 +11162,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1035,
-			3280,
+			719,
+			2175,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11187,17 +11187,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1035,
-			3280,
+			719,
+			2175,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0005"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11212,17 +11212,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1121,
-			2012,
+			771,
+			2460,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0006"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11237,17 +11237,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1121,
-			2012,
+			771,
+			2460,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11262,12 +11262,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1266,
-			2142,
+			966,
+			1629,
 			139,
 			133
 		},
@@ -11287,12 +11287,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1266,
-			2142,
+			966,
+			1629,
 			139,
 			133
 		},
@@ -11312,17 +11312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			956,
-			2272,
+			854,
+			2175,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11337,17 +11337,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			956,
-			2272,
+			854,
+			2175,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11362,12 +11362,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1111,
-			2403,
+			906,
+			2460,
 			139,
 			133
 		},
@@ -11387,12 +11387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1111,
-			2403,
+			906,
+			2460,
 			139,
 			133
 		},
@@ -11412,12 +11412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			980,
-			2012,
+			710,
+			1898,
 			139,
 			134
 		},
@@ -11437,12 +11437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			980,
-			2012,
+			710,
+			1898,
 			139,
 			134
 		},
@@ -11462,17 +11462,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1246,
-			2402,
+			1033,
+			1764,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_DeathKnight_buffedFx_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11487,17 +11487,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1246,
-			2402,
+			1033,
+			1764,
 			139,
 			133
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11512,17 +11512,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3312,
-			2450,
+			2926,
+			2799,
 			88,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11537,17 +11537,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2695,
+			2926,
+			2889,
 			83,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11562,17 +11562,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2257,
-			2741,
+			2825,
+			2710,
 			85,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11587,12 +11587,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3228,
-			1580,
+			2925,
+			3072,
 			83,
 			42
 		},
@@ -11612,12 +11612,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3313,
-			1580,
+			2141,
+			3107,
 			83,
 			42
 		},
@@ -11637,17 +11637,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1268,
-			992,
+			2193,
+			3151,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11662,17 +11662,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1268,
-			992,
+			2193,
+			3151,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11687,17 +11687,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2183,
-			444,
+			2758,
+			2071,
 			90,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11712,12 +11712,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3589,
-			1745,
+			3019,
+			1891,
 			47,
 			67
 		},
@@ -11737,17 +11737,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			881,
-			298,
+			3854,
+			2807,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11762,17 +11762,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			881,
-			298,
+			3854,
+			2807,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11787,17 +11787,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2739,
+			3937,
+			2527,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11812,17 +11812,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2788,
+			3943,
+			2593,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11837,17 +11837,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3402,
-			2443,
+			3147,
+			1889,
 			47,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11862,17 +11862,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3248,
-			2807,
+			3209,
+			2115,
 			47,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11887,17 +11887,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3592,
-			1814,
+			3284,
+			2158,
 			47,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11912,17 +11912,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3277,
-			2647,
+			3190,
+			1780,
 			47,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -11937,12 +11937,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2636,
-			2482,
+			4043,
+			1717,
 			47,
 			74
 		},
@@ -11962,12 +11962,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2636,
-			2482,
+			4043,
+			1717,
 			47,
 			74
 		},
@@ -11987,17 +11987,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3360,
-			1728,
+			2582,
+			2296,
 			47,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12012,17 +12012,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3620,
-			1972,
+			2141,
+			3058,
 			47,
 			78
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12037,12 +12037,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3496,
-			1973,
+			2944,
+			2537,
 			47,
 			77
 		},
@@ -12062,12 +12062,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3297,
-			2807,
+			4043,
+			827,
 			48,
 			68
 		},
@@ -12087,12 +12087,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2579,
-			2743,
+			3264,
+			1811,
 			47,
 			74
 		},
@@ -12112,12 +12112,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1957,
-			2962,
+			2825,
+			3107,
 			88,
 			42
 		},
@@ -12137,12 +12137,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1957,
-			2962,
+			2825,
+			3107,
 			88,
 			42
 		},
@@ -12162,12 +12162,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3707,
-			2141,
+			2354,
+			2989,
 			85,
 			41
 		},
@@ -12187,12 +12187,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3707,
-			2141,
+			2354,
+			2989,
 			85,
 			41
 		},
@@ -12212,17 +12212,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2344,
-			2737,
+			2997,
+			3160,
 			82,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12237,17 +12237,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2701,
+			3207,
+			2448,
 			82,
 			41
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12262,17 +12262,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3832,
-			1027,
+			2819,
+			2617,
 			91,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12287,12 +12287,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			1476,
+			3247,
+			1256,
 			90,
 			58
 		},
@@ -12312,17 +12312,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1174,
+			2928,
+			1532,
 			95,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12337,17 +12337,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1174,
+			2928,
+			1532,
 			95,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12362,12 +12362,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			108,
-			1894,
+			3371,
+			1223,
 			101,
 			47
 		},
@@ -12387,12 +12387,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			108,
-			1894,
+			3371,
+			1223,
 			101,
 			47
 		},
@@ -12412,12 +12412,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1170,
-			992,
+			2850,
+			2067,
 			96,
 			42
 		},
@@ -12437,12 +12437,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1170,
-			992,
+			2850,
+			2067,
 			96,
 			42
 		},
@@ -12462,12 +12462,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3350,
-			1957,
+			565,
+			1658,
 			92,
 			45
 		},
@@ -12487,12 +12487,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3350,
-			1957,
+			565,
+			1658,
 			92,
 			45
 		},
@@ -12512,12 +12512,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3528,
-			2052,
+			3044,
+			2713,
 			93,
 			44
 		},
@@ -12537,12 +12537,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3528,
-			2052,
+			3044,
+			2713,
 			93,
 			44
 		},
@@ -12562,17 +12562,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2656,
+			2915,
+			3116,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0044"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12587,17 +12587,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2656,
+			2915,
+			3116,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12612,17 +12612,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2656,
+			2915,
+			3116,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12637,17 +12637,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2656,
+			2915,
+			3116,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12662,12 +12662,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1957,
-			2962,
+			2825,
+			3107,
 			88,
 			42
 		},
@@ -12687,17 +12687,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3195,
+			2381,
+			2075,
 			94,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0049"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12712,17 +12712,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3195,
+			2381,
+			2075,
 			94,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Rat_0050"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -12737,12 +12737,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3098,
+			2998,
+			2974,
 			95,
 			51
 		},
@@ -12762,12 +12762,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3098,
+			2998,
+			2974,
 			95,
 			51
 		},
@@ -12787,8 +12787,8 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			563,
@@ -12812,8 +12812,8 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			563,
@@ -12837,12 +12837,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12862,12 +12862,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12887,12 +12887,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12912,12 +12912,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12937,12 +12937,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12962,12 +12962,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1426,
-			3291,
+			3090,
+			2616,
 			93,
 			51
 		},
@@ -12987,17 +12987,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1771,
-			2955,
+			3143,
+			2616,
 			93,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13012,17 +13012,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1771,
-			2955,
+			3143,
+			2616,
 			93,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13037,17 +13037,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1866,
-			2956,
+			4042,
+			958,
 			89,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0063"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13062,17 +13062,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1866,
-			2956,
+			4042,
+			958,
 			89,
 			49
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0064"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13087,12 +13087,12 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2142,
-			2567,
+			2940,
+			2446,
 			89,
 			46
 		},
@@ -13112,17 +13112,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			851,
-			2024,
+			2225,
+			2971,
 			85,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13137,17 +13137,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			851,
-			2024,
+			2225,
+			2971,
 			85,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13162,17 +13162,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3445,
-			712,
+			890,
+			2667,
 			41,
 			22
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0091"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13187,17 +13187,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3445,
-			712,
+			890,
+			2667,
 			41,
 			22
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0092"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13212,12 +13212,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2013,
-			1509,
+			3459,
+			2469,
 			51,
 			35
 		},
@@ -13237,12 +13237,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2013,
-			1509,
+			3459,
+			2469,
 			51,
 			35
 		},
@@ -13262,12 +13262,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3278,
+			1374,
+			1711,
 			53,
 			39
 		},
@@ -13287,12 +13287,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3278,
+			1374,
+			1711,
 			53,
 			39
 		},
@@ -13312,17 +13312,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2145,
-			2749,
+			4043,
+			1515,
 			66,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0097"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13337,17 +13337,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2145,
-			2749,
+			4043,
+			1515,
 			66,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0098"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13362,12 +13362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3524,
-			2645,
+			4043,
+			433,
 			74,
 			48
 		},
@@ -13387,12 +13387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3524,
-			2645,
+			4043,
+			433,
 			74,
 			48
 		},
@@ -13412,12 +13412,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2948,
-			2476,
+			3277,
+			2783,
 			79,
 			46
 		},
@@ -13437,12 +13437,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2948,
-			2476,
+			3277,
+			2783,
 			79,
 			46
 		},
@@ -13462,12 +13462,12 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3168,
-			2474,
+			3067,
+			1629,
 			85,
 			42
 		},
@@ -13487,17 +13487,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1268,
-			992,
+			2193,
+			3151,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0104"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13512,17 +13512,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1268,
-			992,
+			2193,
+			3151,
 			88,
 			42
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Rat_0105"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13537,12 +13537,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2317,
-			1528,
+			3235,
+			2783,
 			40,
 			17
 		},
@@ -13562,12 +13562,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			1027,
+			2476,
+			2879,
 			89,
 			96
 		},
@@ -13587,12 +13587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			1027,
+			2476,
+			2879,
 			89,
 			96
 		},
@@ -13612,12 +13612,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3211,
-			1292,
+			2264,
+			2989,
 			88,
 			85
 		},
@@ -13637,12 +13637,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2994,
-			501,
+			3856,
+			1351,
 			89,
 			91
 		},
@@ -13662,12 +13662,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2994,
-			501,
+			3856,
+			1351,
 			89,
 			91
 		},
@@ -13687,12 +13687,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			1125,
+			3856,
+			1444,
 			91,
 			85
 		},
@@ -13712,12 +13712,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			1125,
+			3856,
+			1444,
 			91,
 			85
 		},
@@ -13737,17 +13737,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3836,
-			1227,
+			3476,
+			1539,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13762,17 +13762,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3836,
-			1227,
+			3476,
+			1539,
 			88,
 			81
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13787,17 +13787,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3460,
-			1023,
+			3220,
+			1348,
 			87,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13812,12 +13812,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3409,
-			1725,
+			3385,
+			1539,
 			89,
 			88
 		},
@@ -13837,12 +13837,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3425,
-			1883,
+			2734,
+			2711,
 			89,
 			88
 		},
@@ -13862,17 +13862,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3474,
-			2440,
+			3768,
+			1427,
 			89,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13887,17 +13887,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3474,
-			2440,
+			3768,
+			1427,
 			89,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -13912,12 +13912,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3741,
-			2492,
+			1346,
+			3040,
 			82,
 			76
 		},
@@ -13937,12 +13937,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3741,
-			2492,
+			1346,
+			3040,
 			82,
 			76
 		},
@@ -13962,12 +13962,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3741,
-			2570,
+			2868,
+			2716,
 			83,
 			81
 		},
@@ -13987,17 +13987,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2223,
-			2470,
+			2953,
+			2714,
 			89,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14012,17 +14012,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2223,
-			2470,
+			2953,
+			2714,
 			89,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14037,12 +14037,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2272,
-			102,
+			1341,
+			3118,
 			89,
 			78
 		},
@@ -14062,12 +14062,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2272,
-			102,
+			1341,
+			3118,
 			89,
 			78
 		},
@@ -14087,12 +14087,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2624,
+			2966,
+			2897,
 			82,
 			75
 		},
@@ -14112,12 +14112,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2624,
+			2966,
+			2897,
 			82,
 			75
 		},
@@ -14137,12 +14137,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3083,
-			2474,
+			2739,
+			3160,
 			83,
 			81
 		},
@@ -14162,12 +14162,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3301,
-			1292,
+			2476,
+			3066,
 			88,
 			85
 		},
@@ -14187,12 +14187,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3301,
-			1292,
+			2476,
+			3066,
 			88,
 			85
 		},
@@ -14212,12 +14212,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2861,
-			2476,
+			2474,
+			1318,
 			85,
 			79
 		},
@@ -14237,12 +14237,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2861,
-			2476,
+			2474,
+			1318,
 			85,
 			79
 		},
@@ -14262,17 +14262,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2427,
+			2732,
+			2970,
 			86,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14287,17 +14287,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2427,
+			2732,
+			2970,
 			86,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14312,17 +14312,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2484,
+			3189,
+			2802,
 			86,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14337,12 +14337,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3533,
-			1477,
+			2382,
+			2878,
 			92,
 			90
 		},
@@ -14362,12 +14362,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3533,
-			1477,
+			2382,
+			2878,
 			92,
 			90
 		},
@@ -14387,17 +14387,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3370,
-			927,
+			3856,
+			1619,
 			91,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14412,17 +14412,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3370,
-			927,
+			3856,
+			1619,
 			91,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14437,12 +14437,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2246,
-			2561,
+			3200,
+			1539,
 			85,
 			88
 		},
@@ -14462,12 +14462,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2246,
-			2561,
+			3200,
+			1539,
 			85,
 			88
 		},
@@ -14487,12 +14487,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3620,
-			2141,
+			3067,
+			3066,
 			85,
 			85
 		},
@@ -14512,17 +14512,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3474,
-			2346,
+			3949,
+			1705,
 			92,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14537,17 +14537,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3474,
-			2346,
+			3949,
+			1705,
 			92,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14562,17 +14562,17 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2308,
-			2467,
+			2988,
+			2446,
 			89,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14587,17 +14587,17 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2308,
-			2467,
+			2988,
+			2446,
 			89,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14612,12 +14612,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2572,
+			2267,
+			2906,
 			88,
 			81
 		},
@@ -14637,12 +14637,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2572,
+			2267,
+			2906,
 			88,
 			81
 		},
@@ -14662,12 +14662,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1754,
-			2654,
+			2569,
+			2615,
 			82,
 			98
 		},
@@ -14687,12 +14687,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1754,
-			2654,
+			2569,
+			2615,
 			82,
 			98
 		},
@@ -14712,12 +14712,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1041,
-			786,
+			151,
+			2397,
 			78,
 			109
 		},
@@ -14737,12 +14737,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1041,
-			786,
+			151,
+			2397,
 			78,
 			109
 		},
@@ -14762,17 +14762,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3183,
-			1624,
+			2900,
+			1066,
 			75,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0050"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14787,17 +14787,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3183,
-			1624,
+			2900,
+			1066,
 			75,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14812,17 +14812,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1657,
-			2255,
+			2685,
+			1146,
 			75,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0052"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -14837,12 +14837,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			845,
-			2182,
+			2672,
+			1424,
 			108,
 			106
 		},
@@ -14862,12 +14862,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			845,
-			2182,
+			2672,
+			1424,
 			108,
 			106
 		},
@@ -14887,12 +14887,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3274,
-			520,
+			3868,
+			584,
 			93,
 			72
 		},
@@ -14912,12 +14912,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3274,
-			520,
+			3868,
+			584,
 			93,
 			72
 		},
@@ -14937,12 +14937,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2723,
+			2948,
+			2041,
 			76,
 			69
 		},
@@ -14962,12 +14962,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2723,
+			2948,
+			2041,
 			76,
 			69
 		},
@@ -14987,12 +14987,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3545,
-			1973,
+			3070,
+			2537,
 			77,
 			73
 		},
@@ -15012,12 +15012,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3545,
-			1973,
+			3070,
+			2537,
 			77,
 			73
 		},
@@ -15037,17 +15037,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			2472,
+			3578,
+			1330,
 			84,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15062,17 +15062,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			2472,
+			3578,
+			1330,
 			84,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15087,12 +15087,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2572,
+			2267,
+			2906,
 			88,
 			81
 		},
@@ -15112,17 +15112,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3535,
-			2147,
+			2855,
+			2206,
 			83,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0064"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15137,17 +15137,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3535,
-			2147,
+			2855,
+			2206,
 			83,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15162,17 +15162,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2296,
+			2503,
+			2415,
 			84,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15187,17 +15187,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2296,
+			2503,
+			2415,
 			84,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0067"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15212,17 +15212,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2049,
-			3109,
+			3557,
+			666,
 			73,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0068"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15237,17 +15237,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2049,
-			3109,
+			3557,
+			666,
 			73,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Ratman_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15262,12 +15262,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3460,
-			829,
+			3664,
+			1233,
 			87,
 			99
 		},
@@ -15287,12 +15287,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3460,
-			829,
+			3664,
+			1233,
 			87,
 			99
 		},
@@ -15312,12 +15312,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3539,
-			1379,
+			2567,
+			2880,
 			88,
 			96
 		},
@@ -15337,17 +15337,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2025,
-			3006,
+			3545,
+			741,
 			101,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0073"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15362,17 +15362,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2025,
-			3006,
+			3545,
+			741,
 			101,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0074"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15387,12 +15387,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3442,
-			594,
+			1152,
+			2574,
 			116,
 			44
 		},
@@ -15412,12 +15412,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3442,
-			594,
+			1152,
+			2574,
 			116,
 			44
 		},
@@ -15437,12 +15437,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2463,
-			566,
+			999,
+			615,
 			115,
 			49
 		},
@@ -15462,12 +15462,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2463,
-			566,
+			999,
+			615,
 			115,
 			49
 		},
@@ -15487,17 +15487,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1986,
-			500,
+			2568,
+			1185,
 			115,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15512,17 +15512,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1986,
-			500,
+			2568,
+			1185,
 			115,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15537,12 +15537,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2359,
-			1514,
+			2774,
+			923,
 			118,
 			46
 		},
@@ -15562,12 +15562,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2359,
-			1514,
+			2774,
+			923,
 			118,
 			46
 		},
@@ -15587,17 +15587,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3039,
-			1855,
+			2774,
+			971,
 			116,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15612,17 +15612,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3039,
-			1855,
+			2774,
+			971,
 			116,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Ratman_0106"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15637,12 +15637,12 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2655,
+			2566,
+			3068,
 			88,
 			85
 		},
@@ -15662,17 +15662,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2352,
-			459,
+			1168,
+			1764,
 			90,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15687,17 +15687,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2352,
-			459,
+			1168,
+			1764,
 			90,
 			139
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15712,17 +15712,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			536,
+			1041,
+			2460,
 			90,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15737,17 +15737,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			536,
+			1041,
+			2460,
 			90,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0005"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15762,12 +15762,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1335,
-			3098,
+			672,
+			2699,
 			89,
 			142
 		},
@@ -15787,12 +15787,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1335,
-			3098,
+			672,
+			2699,
 			89,
 			142
 		},
@@ -15812,17 +15812,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			444,
+			979,
+			2316,
 			90,
 			142
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15837,17 +15837,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			444,
+			979,
+			2316,
 			90,
 			142
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15862,17 +15862,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1628,
-			337,
+			2601,
+			148,
 			90,
 			138
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15887,17 +15887,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1628,
-			337,
+			2601,
+			148,
 			90,
 			138
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -15912,12 +15912,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2634,
-			500,
+			1978,
+			1851,
 			90,
 			136
 		},
@@ -15937,12 +15937,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2634,
-			500,
+			1978,
+			1851,
 			90,
 			136
 		},
@@ -15962,12 +15962,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2768,
-			729,
+			2017,
+			680,
 			90,
 			135
 		},
@@ -15987,12 +15987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2768,
-			729,
+			2017,
+			680,
 			90,
 			135
 		},
@@ -16012,17 +16012,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2764,
-			595,
+			2852,
+			386,
 			90,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16037,17 +16037,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2764,
-			595,
+			2852,
+			386,
 			90,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16062,12 +16062,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2675,
-			863,
+			2109,
+			680,
 			90,
 			135
 		},
@@ -16087,12 +16087,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2675,
-			863,
+			2109,
+			680,
 			90,
 			135
 		},
@@ -16112,17 +16112,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1978,
-			985,
+			2367,
+			1711,
 			62,
 			142
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16137,17 +16137,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1978,
-			985,
+			2367,
+			1711,
 			62,
 			142
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16162,12 +16162,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1412,
-			1161,
+			851,
+			1904,
 			64,
 			144
 		},
@@ -16187,12 +16187,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1412,
-			1161,
+			851,
+			1904,
 			64,
 			144
 		},
@@ -16212,12 +16212,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			951,
-			2713,
+			2305,
+			1267,
 			63,
 			146
 		},
@@ -16237,12 +16237,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			951,
-			2713,
+			2305,
+			1267,
 			63,
 			146
 		},
@@ -16262,17 +16262,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1499,
-			271,
+			2309,
+			1415,
 			64,
 			146
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16287,17 +16287,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1499,
-			271,
+			2309,
+			1415,
 			64,
 			146
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16312,17 +16312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1720,
-			413,
+			917,
+			1904,
 			64,
 			144
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16337,17 +16337,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1720,
-			413,
+			917,
+			1904,
 			64,
 			144
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0029"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16362,12 +16362,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2182,
-			549,
+			1429,
+			1690,
 			64,
 			139
 		},
@@ -16387,12 +16387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2182,
-			549,
+			1429,
+			1690,
 			64,
 			139
 		},
@@ -16412,12 +16412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2323,
-			551,
+			3328,
+			272,
 			64,
 			138
 		},
@@ -16437,12 +16437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2323,
-			551,
+			3328,
+			272,
 			64,
 			138
 		},
@@ -16462,17 +16462,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2479,
-			1399,
+			1133,
+			2440,
 			63,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16487,17 +16487,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2479,
-			1399,
+			1133,
+			2440,
 			63,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16512,12 +16512,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2809,
-			1000,
+			1773,
+			1920,
 			62,
 			135
 		},
@@ -16537,12 +16537,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2809,
-			1000,
+			1773,
+			1920,
 			62,
 			135
 		},
@@ -16562,12 +16562,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			827,
-			3130,
+			896,
+			1480,
 			64,
 			151
 		},
@@ -16587,12 +16587,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			827,
-			3130,
+			896,
+			1480,
 			64,
 			151
 		},
@@ -16612,12 +16612,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			694,
-			1998,
+			1272,
+			1560,
 			63,
 			155
 		},
@@ -16637,12 +16637,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			694,
-			1998,
+			1272,
+			1560,
 			63,
 			155
 		},
@@ -16662,17 +16662,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			851,
-			1864,
+			962,
+			1436,
 			62,
 			158
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16687,17 +16687,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			851,
-			1864,
+			962,
+			1436,
 			62,
 			158
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16712,12 +16712,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			312,
+			1122,
+			1436,
 			64,
 			158
 		},
@@ -16737,12 +16737,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			312,
+			1122,
+			1436,
 			64,
 			158
 		},
@@ -16762,17 +16762,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			782,
+			580,
+			2372,
 			62,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16787,17 +16787,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			782,
+			580,
+			2372,
 			62,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -16812,12 +16812,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			893,
-			3130,
+			2233,
+			817,
 			64,
 			151
 		},
@@ -16837,12 +16837,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			893,
-			3130,
+			2233,
+			817,
 			64,
 			151
 		},
@@ -16862,12 +16862,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			856,
-			2979,
+			2120,
+			1431,
 			62,
 			149
 		},
@@ -16887,12 +16887,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			856,
-			2979,
+			2120,
+			1431,
 			62,
 			149
 		},
@@ -16912,12 +16912,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			378,
+			771,
+			2601,
 			64,
 			144
 		},
@@ -16937,12 +16937,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2039,
-			378,
+			771,
+			2601,
 			64,
 			144
 		},
@@ -16962,12 +16962,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			950,
-			2566,
+			798,
+			2981,
 			64,
 			145
 		},
@@ -16987,12 +16987,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			950,
-			2566,
+			798,
+			2981,
 			64,
 			145
 		},
@@ -17012,12 +17012,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2493,
-			475,
+			1837,
+			1838,
 			89,
 			139
 		},
@@ -17037,12 +17037,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2493,
-			475,
+			1837,
+			1838,
 			89,
 			139
 		},
@@ -17062,12 +17062,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			403,
+			890,
+			2710,
 			96,
 			141
 		},
@@ -17087,12 +17087,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			403,
+			890,
+			2710,
 			96,
 			141
 		},
@@ -17112,12 +17112,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1007,
-			2979,
+			616,
+			2189,
 			101,
 			145
 		},
@@ -17137,12 +17137,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1007,
-			2979,
+			616,
+			2189,
 			101,
 			145
 		},
@@ -17162,17 +17162,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2601,
-			148,
+			397,
+			2217,
 			94,
 			163
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17187,17 +17187,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2601,
-			148,
+			397,
+			2217,
 			94,
 			163
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0063"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17212,17 +17212,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2510,
-			383,
+			706,
+			2981,
 			90,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0064"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17237,17 +17237,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2510,
-			383,
+			706,
+			2981,
 			90,
 			155
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17262,17 +17262,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			171,
-			2891,
+			419,
+			997,
 			88,
 			152
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17287,17 +17287,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			171,
-			2891,
+			419,
+			997,
 			88,
 			152
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0067"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17312,17 +17312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			236,
-			2170,
+			151,
+			2217,
 			115,
 			178
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0068"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17337,17 +17337,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			236,
-			2170,
+			151,
+			2217,
 			115,
 			178
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17362,17 +17362,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2665,
-			729,
+			3921,
+			166,
 			101,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0070"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17387,17 +17387,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2665,
-			729,
+			3921,
+			166,
 			101,
 			132
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0071"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17412,12 +17412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3773,
-			380,
+			1858,
+			2399,
 			105,
 			116
 		},
@@ -17437,12 +17437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3773,
-			380,
+			1858,
+			2399,
 			105,
 			116
 		},
@@ -17462,12 +17462,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1523,
-			2157,
+			3064,
+			480,
 			100,
 			114
 		},
@@ -17487,12 +17487,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1523,
-			2157,
+			3064,
+			480,
 			100,
 			114
 		},
@@ -17512,17 +17512,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2076,
-			2371,
+			2985,
+			273,
 			99,
 			111
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0076"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17537,17 +17537,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2076,
-			2371,
+			2985,
+			273,
 			99,
 			111
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0077"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17562,12 +17562,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3015,
-			1120,
+			2423,
+			1529,
 			89,
 			129
 		},
@@ -17587,12 +17587,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3015,
-			1120,
+			2423,
+			1529,
 			89,
 			129
 		},
@@ -17612,17 +17612,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			601,
-			1723,
+			2429,
+			582,
 			91,
 			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17637,17 +17637,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			601,
-			1723,
+			2429,
+			582,
 			91,
 			139
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0081"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17662,17 +17662,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1976,
-			1299,
+			892,
+			3082,
 			94,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17687,17 +17687,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1976,
-			1299,
+			892,
+			3082,
 			94,
 			141
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17712,12 +17712,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2477,
-			999,
+			2201,
+			680,
 			90,
 			135
 		},
@@ -17737,12 +17737,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2477,
-			999,
+			2201,
+			680,
 			90,
 			135
 		},
@@ -17762,12 +17762,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2945,
-			1259,
+			989,
+			2175,
 			89,
 			132
 		},
@@ -17787,12 +17787,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2945,
-			1259,
+			989,
+			2175,
 			89,
 			132
 		},
@@ -17812,17 +17812,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2613,
-			1399,
+			1301,
+			2034,
 			89,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0088"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17837,17 +17837,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2613,
-			1399,
+			1301,
+			2034,
 			89,
 			132
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17862,17 +17862,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2574,
-			745,
+			2714,
+			377,
 			89,
 			136
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17887,17 +17887,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2574,
-			745,
+			2714,
+			377,
 			89,
 			136
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0091"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17912,12 +17912,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2766,
-			250,
+			1854,
+			1143,
 			85,
 			149
 		},
@@ -17937,12 +17937,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			920,
-			2979,
+			2120,
+			1582,
 			85,
 			149
 		},
@@ -17962,17 +17962,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			638,
-			881,
+			293,
+			1658,
 			86,
 			165
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0094"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -17987,17 +17987,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			638,
-			881,
+			293,
+			1658,
 			86,
 			165
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18012,17 +18012,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1069,
-			866,
+			1861,
+			446,
 			99,
 			168
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18037,17 +18037,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1012,
-			1037,
+			1116,
+			618,
 			99,
 			168
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0097"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18062,12 +18062,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			853,
-			874,
+			171,
+			2727,
 			108,
 			173
 		},
@@ -18087,12 +18087,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			902,
-			1049,
+			246,
+			2981,
 			108,
 			173
 		},
@@ -18112,17 +18112,17 @@ return {
             81
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			389,
-			3309,
+			1861,
+			2051,
 			112,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0100"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18137,17 +18137,17 @@ return {
             81
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			389,
-			3309,
+			1861,
+			2051,
 			112,
 			104
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0101"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18162,12 +18162,12 @@ return {
             80
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2361,
-			1195,
+			3020,
+			848,
 			116,
 			102
 		},
@@ -18187,12 +18187,12 @@ return {
             80
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2361,
-			1195,
+			3020,
+			848,
 			116,
 			102
 		},
@@ -18212,17 +18212,17 @@ return {
             117
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3096,
-			2807,
+			3466,
+			2641,
 			67,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_0104"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18237,17 +18237,17 @@ return {
             117
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3800,
-			1477,
+			3466,
+			2710,
 			67,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_explosion_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18262,17 +18262,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3888,
-			3243,
+			3772,
+			2267,
 			60,
 			57
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18287,17 +18287,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3807,
-			1547,
+			3465,
+			2579,
 			60,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_explosion_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18312,12 +18312,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2791,
-			2827,
+			2562,
+			3243,
 			52,
 			61
 		},
@@ -18337,12 +18337,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2791,
-			2827,
+			2562,
+			3243,
 			52,
 			61
 		},
@@ -18362,12 +18362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3017,
-			2721,
+			2397,
+			2970,
 			77,
 			74
 		},
@@ -18387,17 +18387,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3017,
-			2797,
+			2656,
+			2980,
 			77,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_explosion_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18412,17 +18412,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3437,
-			1295,
+			2237,
+			3151,
 			88,
 			82
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_explosion_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18437,12 +18437,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2344,
-			2647,
+			2321,
+			3151,
 			88,
 			82
 		},
@@ -18462,17 +18462,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3546,
-			2241,
+			2665,
+			2108,
 			91,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18487,17 +18487,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3561,
-			2334,
+			2732,
+			2880,
 			91,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18512,12 +18512,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3627,
-			1477,
+			2752,
+			2445,
 			92,
 			89
 		},
@@ -18537,17 +18537,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3259,
-			1957,
+			2846,
+			2446,
 			92,
 			89
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18562,12 +18562,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3834,
-			1310,
+			3856,
+			1531,
 			91,
 			86
 		},
@@ -18587,12 +18587,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3834,
-			1310,
+			3856,
+			1531,
 			91,
 			86
 		},
@@ -18612,12 +18612,12 @@ return {
             30
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3574,
-			2052,
+			3039,
+			2808,
 			87,
 			61
 		},
@@ -18637,12 +18637,12 @@ return {
             30
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3574,
-			2052,
+			3039,
+			2808,
 			87,
 			61
 		},
@@ -18662,17 +18662,17 @@ return {
             34
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2264,
-			3157,
+			2625,
+			3243,
 			57,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18687,17 +18687,17 @@ return {
             34
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2264,
-			3157,
+			2625,
+			3243,
 			57,
 			52
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_explosion_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18712,12 +18712,12 @@ return {
             88
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			646,
-			737,
+			1735,
+			2275,
 			3,
 			3
 		},
@@ -18737,17 +18737,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2047,
-			2946,
+			4020,
+			2901,
 			58,
 			56
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18762,12 +18762,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3807,
-			1610,
+			4022,
+			2331,
 			58,
 			60
 		},
@@ -18787,12 +18787,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2798,
-			2697,
+			3601,
+			1859,
 			54,
 			60
 		},
@@ -18812,12 +18812,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2798,
-			2697,
+			3601,
+			1859,
 			54,
 			60
 		},
@@ -18837,17 +18837,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3479,
-			2721,
+			2397,
+			3046,
 			77,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0006"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18862,12 +18862,12 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3574,
-			2582,
+			3187,
+			1629,
 			77,
 			71
 		},
@@ -18887,12 +18887,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3636,
-			2228,
+			2141,
+			2970,
 			86,
 			82
 		},
@@ -18912,12 +18912,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3651,
-			2316,
+			2655,
+			3155,
 			86,
 			82
 		},
@@ -18937,12 +18937,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3460,
-			930,
+			3664,
+			1334,
 			91,
 			87
 		},
@@ -18962,17 +18962,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3460,
-			1108,
+			2231,
+			2220,
 			91,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -18987,12 +18987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2053,
-			2567,
+			3051,
+			2974,
 			90,
 			87
 		},
@@ -19012,12 +19012,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2065,
-			2475,
+			3090,
+			2711,
 			90,
 			87
 		},
@@ -19037,12 +19037,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2399,
-			2468,
+			2476,
+			2977,
 			88,
 			87
 		},
@@ -19062,12 +19062,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2399,
-			2468,
+			2476,
+			2977,
 			88,
 			87
 		},
@@ -19087,12 +19087,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1666,
-			2491,
+			3154,
+			3066,
 			85,
 			66
 		},
@@ -19112,12 +19112,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1666,
-			2491,
+			3154,
+			3066,
 			85,
 			66
 		},
@@ -19137,17 +19137,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			2885,
+			3834,
+			2267,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19162,17 +19162,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			2885,
+			3834,
+			2267,
 			57,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19187,12 +19187,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3795,
-			3372,
+			2191,
+			2140,
 			41,
 			38
 		},
@@ -19212,12 +19212,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3795,
-			3372,
+			2191,
+			2140,
 			41,
 			38
 		},
@@ -19237,17 +19237,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1868,
+			1270,
+			2788,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19262,17 +19262,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1868,
+			1270,
+			2788,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19287,12 +19287,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3770,
-			3143,
+			3507,
+			649,
 			48,
 			53
 		},
@@ -19312,12 +19312,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3475,
-			1568,
+			3895,
+			2941,
 			49,
 			55
 		},
@@ -19337,12 +19337,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3475,
-			1568,
+			3895,
+			2941,
 			49,
 			55
 		},
@@ -19362,17 +19362,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2580,
-			566,
+			2324,
+			2267,
 			49,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19387,17 +19387,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2580,
-			566,
+			2324,
+			2267,
 			49,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19412,12 +19412,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1441,
-			1350,
+			4055,
+			2707,
 			47,
 			35
 		},
@@ -19437,12 +19437,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1441,
-			1350,
+			4055,
+			2707,
 			47,
 			35
 		},
@@ -19462,12 +19462,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3835,
-			3372,
+			2434,
+			1209,
 			41,
 			38
 		},
@@ -19487,17 +19487,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1868,
+			1270,
+			2788,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19512,17 +19512,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1868,
+			1270,
+			2788,
 			41,
 			35
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0033"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19537,12 +19537,12 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3770,
-			3143,
+			3507,
+			649,
 			48,
 			53
 		},
@@ -19562,12 +19562,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2491,
-			1994,
+			4041,
+			269,
 			50,
 			75
 		},
@@ -19587,12 +19587,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2491,
-			1994,
+			4041,
+			269,
 			50,
 			75
 		},
@@ -19612,17 +19612,17 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3394,
-			1105,
+			2475,
+			2714,
 			64,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19637,17 +19637,17 @@ return {
             15
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3394,
-			1105,
+			2475,
+			2714,
 			64,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19662,12 +19662,12 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1432,
-			208,
+			3140,
+			2974,
 			65,
 			90
 		},
@@ -19687,12 +19687,12 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1432,
-			208,
+			3140,
+			2974,
 			65,
 			90
 		},
@@ -19712,17 +19712,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3409,
-			1815,
+			3498,
+			468,
 			66,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19737,17 +19737,17 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3409,
-			1815,
+			3498,
+			468,
 			66,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["CB_Witch_frog_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19762,12 +19762,12 @@ return {
             20
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2145,
-			2658,
+			3406,
+			1349,
 			66,
 			89
 		},
@@ -19787,12 +19787,12 @@ return {
             20
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2145,
-			2658,
+			3406,
+			1349,
 			66,
 			89
 		},
@@ -19812,17 +19812,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			161,
+			2381,
+			2713,
 			65,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19837,17 +19837,17 @@ return {
             19
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			161,
+			2381,
+			2713,
 			65,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19862,12 +19862,12 @@ return {
             42
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2780,
+			3953,
+			2062,
 			64,
 			68
 		},
@@ -19887,12 +19887,12 @@ return {
             42
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2780,
+			3953,
+			2062,
 			64,
 			68
 		},
@@ -19912,12 +19912,12 @@ return {
             45
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3217,
-			3086,
+			3815,
+			2675,
 			64,
 			64
 		},
@@ -19937,17 +19937,17 @@ return {
             62
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3707,
-			3134,
+			4041,
+			2581,
 			61,
 			47
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_frog_0050"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19962,17 +19962,17 @@ return {
             64
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			2899,
+			4043,
+			897,
 			56,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["CB_Witch_proy_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -19987,12 +19987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			336,
-			766,
+			3970,
+			3117,
 			37,
 			37
 		},
@@ -20012,12 +20012,12 @@ return {
             86
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2333,
-			2557,
+			2566,
+			2978,
 			88,
 			88
 		},
@@ -20037,12 +20037,12 @@ return {
             86
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2333,
-			2557,
+			2566,
+			2978,
 			88,
 			88
 		},
@@ -20062,12 +20062,12 @@ return {
             79
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			831,
+			2567,
+			2780,
 			82,
 			98
 		},
@@ -20087,12 +20087,12 @@ return {
             79
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			831,
+			2567,
+			2780,
 			82,
 			98
 		},
@@ -20112,12 +20112,12 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2344,
-			1005,
+			2477,
+			2342,
 			102,
 			71
 		},
@@ -20137,12 +20137,12 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2344,
-			1005,
+			2477,
+			2342,
 			102,
 			71
 		},
@@ -20162,17 +20162,17 @@ return {
             104
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1441,
-			1414,
+			1768,
+			2396,
 			121,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20187,17 +20187,17 @@ return {
             104
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1441,
-			1414,
+			1768,
+			2396,
 			121,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20212,12 +20212,12 @@ return {
             98
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2359,
-			1424,
+			3252,
+			1077,
 			88,
 			118
 		},
@@ -20237,12 +20237,12 @@ return {
             98
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2359,
-			1424,
+			3252,
+			1077,
 			88,
 			118
 		},
@@ -20262,17 +20262,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			953,
-			747,
+			3252,
+			1167,
 			86,
 			117
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20287,17 +20287,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			953,
-			747,
+			3252,
+			1167,
 			86,
 			117
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20312,17 +20312,17 @@ return {
             101
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3154,
-			1741,
+			2782,
+			1428,
 			102,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20337,17 +20337,17 @@ return {
             101
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3154,
-			1741,
+			2782,
+			1428,
 			102,
 			105
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20362,17 +20362,17 @@ return {
             81
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3030,
-			1973,
+			2658,
+			933,
 			114,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20387,17 +20387,17 @@ return {
             81
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3030,
-			1973,
+			2658,
+			933,
 			114,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20412,12 +20412,12 @@ return {
             74
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1387,
-			2525,
+			3665,
+			370,
 			101,
 			98
 		},
@@ -20437,12 +20437,12 @@ return {
             74
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1387,
-			2525,
+			3665,
+			370,
 			101,
 			98
 		},
@@ -20462,17 +20462,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			104,
-			2143,
+			2542,
+			675,
 			130,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20487,17 +20487,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			104,
-			2143,
+			2542,
+			675,
 			130,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20512,17 +20512,17 @@ return {
             103
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			459,
-			2891,
+			404,
+			2382,
 			160,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20537,17 +20537,17 @@ return {
             103
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			459,
-			2891,
+			404,
+			2382,
 			160,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20562,12 +20562,12 @@ return {
             98
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2912,
-			1972,
+			2096,
+			2291,
 			115,
 			116
 		},
@@ -20587,12 +20587,12 @@ return {
             98
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2912,
-			1972,
+			2096,
+			2291,
 			115,
 			116
 		},
@@ -20612,17 +20612,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1625,
-			2137,
+			3138,
+			848,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20637,17 +20637,17 @@ return {
             97
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1625,
-			2137,
+			3138,
+			848,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20662,17 +20662,17 @@ return {
             102
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3748,
-			161,
+			1521,
+			2145,
 			130,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20687,17 +20687,17 @@ return {
             102
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3748,
-			161,
+			1521,
+			2145,
 			130,
 			101
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0029"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20712,12 +20712,12 @@ return {
             84
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2227,
-			991,
+			2568,
+			1238,
 			115,
 			85
 		},
@@ -20737,12 +20737,12 @@ return {
             84
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2227,
-			991,
+			2568,
+			1238,
 			115,
 			85
 		},
@@ -20762,17 +20762,17 @@ return {
             77
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3056,
-			1744,
+			2675,
+			1326,
 			109,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20787,17 +20787,17 @@ return {
             77
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3056,
-			1744,
+			2675,
+			1326,
 			109,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0033"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20812,12 +20812,12 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1202,
-			2840,
+			2345,
+			938,
 			137,
 			69
 		},
@@ -20837,12 +20837,12 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1202,
-			2840,
+			2345,
+			938,
 			137,
 			69
 		},
@@ -20862,12 +20862,12 @@ return {
             107
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2678,
-			244,
+			492,
+			2382,
 			160,
 			86
 		},
@@ -20887,12 +20887,12 @@ return {
             107
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2678,
-			244,
+			492,
+			2382,
 			160,
 			86
 		},
@@ -20912,17 +20912,17 @@ return {
             103
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3066,
-			1624,
+			2571,
+			465,
 			115,
 			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20937,17 +20937,17 @@ return {
             103
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3066,
-			1624,
+			2571,
+			465,
 			115,
 			113
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20962,17 +20962,17 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1738,
-			2145,
+			3256,
+			848,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -20987,17 +20987,17 @@ return {
             100
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1738,
-			2145,
+			3256,
+			848,
 			111,
 			116
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21012,12 +21012,12 @@ return {
             104
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2987,
-			857,
+			2348,
+			1077,
 			130,
 			103
 		},
@@ -21037,12 +21037,12 @@ return {
             104
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2987,
-			857,
+			2348,
+			1077,
 			130,
 			103
 		},
@@ -21062,12 +21062,12 @@ return {
             96
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3374,
-			2567,
+			2947,
+			2112,
 			77,
 			74
 		},
@@ -21087,12 +21087,12 @@ return {
             96
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3374,
-			2567,
+			2947,
+			2112,
 			77,
 			74
 		},
@@ -21112,17 +21112,17 @@ return {
             94
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2067,
-			3216,
+			2758,
+			2205,
 			95,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21137,17 +21137,17 @@ return {
             94
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2067,
-			3216,
+			2758,
+			2205,
 			95,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21162,17 +21162,17 @@ return {
             90
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			627,
+			3017,
+			1251,
 			114,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0048"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21187,17 +21187,17 @@ return {
             90
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			627,
+			3017,
+			1251,
 			114,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBat_0049"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21212,12 +21212,12 @@ return {
             83
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2242,
-			1769,
+			1421,
+			2276,
 			126,
 			96
 		},
@@ -21237,12 +21237,12 @@ return {
             83
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2242,
-			1769,
+			1421,
+			2276,
 			126,
 			96
 		},
@@ -21262,17 +21262,17 @@ return {
             78
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2229,
-			1195,
+			2370,
+			1267,
 			130,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0052"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21287,17 +21287,17 @@ return {
             78
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2229,
-			1195,
+			2370,
+			1267,
 			130,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0053"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21312,17 +21312,17 @@ return {
             91
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			325,
-			2891,
+			1315,
+			2168,
 			132,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21337,17 +21337,17 @@ return {
             91
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			325,
-			2891,
+			1315,
+			2168,
 			132,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBat_0055"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21362,12 +21362,12 @@ return {
             90
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			521,
+			2151,
+			2524,
 			125,
 			84
 		},
@@ -21387,12 +21387,12 @@ return {
             90
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			948,
-			521,
+			2151,
+			2524,
 			125,
 			84
 		},
@@ -21412,17 +21412,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2735,
+			3186,
+			3153,
 			56,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21437,17 +21437,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2654,
-			2645,
+			3578,
+			1417,
 			58,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21462,17 +21462,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2654,
-			2645,
+			3578,
+			1417,
 			58,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21487,12 +21487,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3453,
-			2585,
+			2662,
+			2285,
 			58,
 			84
 		},
@@ -21512,12 +21512,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3453,
-			2585,
+			2662,
+			2285,
 			58,
 			84
 		},
@@ -21537,12 +21537,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3096,
-			2721,
+			4034,
+			1126,
 			57,
 			84
 		},
@@ -21562,12 +21562,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3096,
-			2721,
+			4034,
+			1126,
 			57,
 			84
 		},
@@ -21587,12 +21587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2491,
-			1909,
+			1518,
+			1756,
 			50,
 			83
 		},
@@ -21612,12 +21612,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2491,
-			1909,
+			1518,
+			1756,
 			50,
 			83
 		},
@@ -21637,17 +21637,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3479,
-			1619,
+			2684,
+			3243,
 			51,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21662,17 +21662,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3479,
-			1619,
+			2684,
+			3243,
 			51,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21687,17 +21687,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3720,
-			2228,
+			2193,
+			3241,
 			54,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21712,17 +21712,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3720,
-			2228,
+			2193,
+			3241,
 			54,
 			86
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -21737,12 +21737,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3735,
-			2316,
+			3244,
+			3151,
 			61,
 			86
 		},
@@ -21762,12 +21762,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3735,
-			2316,
+			3244,
+			3151,
 			61,
 			86
 		},
@@ -21787,12 +21787,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3737,
-			2404,
+			2999,
+			1803,
 			61,
 			86
 		},
@@ -21812,12 +21812,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3737,
-			2404,
+			2999,
+			1803,
 			61,
 			86
 		},
@@ -21837,12 +21837,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2492,
+			3351,
+			1629,
 			61,
 			86
 		},
@@ -21862,12 +21862,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2492,
+			3351,
+			1629,
 			61,
 			86
 		},
@@ -21887,12 +21887,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2520,
+			2931,
+			1896,
 			60,
 			86
 		},
@@ -21912,12 +21912,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2520,
+			2931,
+			1896,
 			60,
 			86
 		},
@@ -21937,12 +21937,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2555,
+			3439,
+			1629,
 			61,
 			86
 		},
@@ -21962,12 +21962,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2555,
+			3439,
+			1629,
 			61,
 			86
 		},
@@ -21987,17 +21987,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			2475,
+			3065,
+			1716,
 			61,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22012,17 +22012,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			2475,
+			3065,
+			1716,
 			61,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22037,17 +22037,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2793,
+			3083,
+			2039,
 			61,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22062,17 +22062,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2793,
+			3083,
+			2039,
 			61,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22087,12 +22087,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3155,
-			2721,
+			3128,
+			1705,
 			60,
 			84
 		},
@@ -22112,12 +22112,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3155,
-			2721,
+			3128,
+			1705,
 			60,
 			84
 		},
@@ -22137,12 +22137,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2557,
+			3018,
+			1960,
 			55,
 			79
 		},
@@ -22162,12 +22162,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2557,
+			3018,
+			1960,
 			55,
 			79
 		},
@@ -22187,12 +22187,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			2806,
+			3277,
+			2864,
 			56,
 			77
 		},
@@ -22212,12 +22212,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			2806,
+			3277,
+			2864,
 			56,
 			77
 		},
@@ -22237,17 +22237,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3280,
-			2721,
+			2348,
+			1209,
 			56,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22262,17 +22262,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3280,
-			2721,
+			2348,
+			1209,
 			56,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22287,17 +22287,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3730,
-			2653,
+			1374,
+			1625,
 			53,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22312,17 +22312,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3730,
-			2653,
+			1374,
+			1625,
 			53,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22337,17 +22337,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2653,
+			2857,
+			3244,
 			51,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22362,17 +22362,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2653,
+			2857,
+			3244,
 			51,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22387,12 +22387,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1438,
-			116,
+			3089,
+			2209,
 			59,
 			83
 		},
@@ -22412,12 +22412,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1438,
-			116,
+			3089,
+			2209,
 			59,
 			83
 		},
@@ -22437,12 +22437,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3396,
-			1020,
+			3062,
+			1804,
 			62,
 			83
 		},
@@ -22462,12 +22462,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3396,
-			1020,
+			3062,
+			1804,
 			62,
 			83
 		},
@@ -22487,12 +22487,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3721,
-			1549,
+			3243,
+			3239,
 			56,
 			84
 		},
@@ -22512,12 +22512,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3721,
-			1549,
+			3243,
+			3239,
 			56,
 			84
 		},
@@ -22537,17 +22537,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3638,
-			1568,
+			3147,
+			2448,
 			58,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22562,17 +22562,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3638,
-			1568,
+			3147,
+			2448,
 			58,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0048"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22587,12 +22587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2638,
+			3145,
+			2531,
 			55,
 			83
 		},
@@ -22612,12 +22612,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2638,
+			3145,
+			2531,
 			55,
 			83
 		},
@@ -22637,17 +22637,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3086,
-			725,
+			3664,
+			666,
 			104,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22662,12 +22662,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1864,
-			3007,
+			3868,
+			482,
 			100,
 			86
 		},
@@ -22687,12 +22687,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1888,
-			3313,
+			3201,
+			1437,
 			100,
 			84
 		},
@@ -22712,17 +22712,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1684,
-			3295,
+			3648,
+			853,
 			101,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22737,12 +22737,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2267,
+			3559,
+			270,
 			102,
 			97
 		},
@@ -22762,12 +22762,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3108,
+			3770,
+			658,
 			97,
 			97
 		},
@@ -22787,12 +22787,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2790,
-			2376,
+			3869,
+			658,
 			96,
 			97
 		},
@@ -22812,17 +22812,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2792,
-			2277,
+			3846,
+			856,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0058"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22837,17 +22837,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3207,
+			3385,
+			1440,
 			86,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22862,12 +22862,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			621,
-			2880,
+			2825,
+			1532,
 			101,
 			97
 		},
@@ -22887,12 +22887,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1578,
-			3109,
+			3765,
+			369,
 			101,
 			97
 		},
@@ -22912,12 +22912,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1681,
-			3109,
+			3945,
+			859,
 			96,
 			97
 		},
@@ -22937,17 +22937,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1766,
-			2754,
+			3648,
+			956,
 			99,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0063"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -22962,12 +22962,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1844,
-			2376,
+			1268,
+			3198,
 			114,
 			97
 		},
@@ -22987,12 +22987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1960,
-			2376,
+			1384,
+			3198,
 			114,
 			97
 		},
@@ -23012,17 +23012,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3156,
-			1848,
+			2514,
+			1534,
 			108,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23037,12 +23037,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2668,
-			2071,
+			2715,
+			1532,
 			108,
 			97
 		},
@@ -23062,17 +23062,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			2377,
+			3461,
+			1024,
 			103,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0068"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23087,17 +23087,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1388,
-			2808,
+			3763,
+			270,
 			103,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23112,12 +23112,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1779,
-			3109,
+			3852,
+			757,
 			98,
 			97
 		},
@@ -23137,12 +23137,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1879,
-			3109,
+			3839,
+			952,
 			97,
 			97
 		},
@@ -23162,17 +23162,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2792,
-			2277,
+			3846,
+			856,
 			94,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0072"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23187,17 +23187,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1479,
-			3207,
+			3385,
+			1440,
 			86,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0073"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23212,12 +23212,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1838,
-			2655,
+			3939,
+			269,
 			100,
 			97
 		},
@@ -23237,12 +23237,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1940,
-			2659,
+			3648,
+			754,
 			100,
 			97
 		},
@@ -23262,12 +23262,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3273,
-			724,
+			2214,
+			2309,
 			95,
 			97
 		},
@@ -23287,12 +23287,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3174,
-			724,
+			3845,
+			1252,
 			97,
 			97
 		},
@@ -23312,17 +23312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			2181,
+			2728,
+			1631,
 			107,
 			97
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23337,12 +23337,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2997,
-			2279,
+			3094,
+			1437,
 			105,
 			97
 		},
@@ -23362,17 +23362,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1787,
-			3295,
+			3770,
+			557,
 			99,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23387,12 +23387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3179,
-			823,
+			3566,
+			477,
 			97,
 			95
 		},
@@ -23412,12 +23412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3278,
-			823,
+			3949,
+			1413,
 			90,
 			95
 		},
@@ -23437,17 +23437,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3233,
-			2561,
+			3473,
+			1475,
 			62,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23462,17 +23462,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3233,
-			2561,
+			3473,
+			1475,
 			62,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0084"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23487,17 +23487,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2773,
-			2475,
+			3307,
+			1255,
 			62,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0085"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23512,17 +23512,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2773,
-			2475,
+			3307,
+			1255,
 			62,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0086"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23537,17 +23537,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3693,
-			1660,
+			3126,
+			1804,
 			55,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23562,17 +23562,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3693,
-			1660,
+			3126,
+			1804,
 			55,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0088"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23587,17 +23587,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3638,
-			1568,
+			3147,
+			2448,
 			58,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23612,17 +23612,17 @@ return {
             36
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			211,
-			1894,
+			1691,
+			352,
 			39,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23637,17 +23637,17 @@ return {
             36
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			211,
-			1894,
+			1691,
+			352,
 			39,
 			51
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0091"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23662,17 +23662,17 @@ return {
             43
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2746,
+			3340,
+			1811,
 			46,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0092"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23687,17 +23687,17 @@ return {
             43
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2746,
+			3340,
+			1811,
 			46,
 			42
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0093"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23712,17 +23712,17 @@ return {
             39
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1918,
+			4007,
+			3060,
 			44,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0094"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23737,17 +23737,17 @@ return {
             39
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1918,
+			4007,
+			3060,
 			44,
 			39
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23762,17 +23762,17 @@ return {
             40
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			3010,
+			3286,
+			145,
 			55,
 			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23787,17 +23787,17 @@ return {
             40
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			3010,
+			3286,
+			145,
 			55,
 			40
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0097"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23812,17 +23812,17 @@ return {
             25
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3740,
-			3317,
+			3986,
+			2519,
 			39,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0098"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23837,17 +23837,17 @@ return {
             22
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3273,
+			3614,
+			1647,
 			41,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23862,12 +23862,12 @@ return {
             11
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3399,
-			2643,
+			3370,
+			3131,
 			45,
 			76
 		},
@@ -23887,12 +23887,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3721,
-			1607,
+			2943,
+			3244,
 			51,
 			84
 		},
@@ -23912,17 +23912,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2706,
-			2538,
+			2563,
+			2715,
 			63,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0102"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -23937,12 +23937,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1636,
-			583,
+			2670,
+			2446,
 			63,
 			80
 		},
@@ -23962,12 +23962,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			2639,
+			3963,
+			576,
 			74,
 			80
 		},
@@ -23987,12 +23987,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2485,
+			2142,
+			2894,
 			74,
 			83
 		},
@@ -24012,12 +24012,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3297,
-			2490,
+			2949,
+			2369,
 			75,
 			83
 		},
@@ -24037,12 +24037,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3297,
-			2490,
+			2949,
+			2369,
 			75,
 			83
 		},
@@ -24062,12 +24062,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3382,
-			2492,
+			2226,
+			3076,
 			73,
 			83
 		},
@@ -24087,12 +24087,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3382,
-			2492,
+			2226,
+			3076,
 			73,
 			83
 		},
@@ -24112,17 +24112,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2579,
-			2658,
+			2311,
+			3076,
 			73,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24137,17 +24137,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2579,
-			2658,
+			2311,
+			3076,
 			73,
 			83
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0111"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24162,17 +24162,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2557,
+			2994,
+			1629,
 			71,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24187,17 +24187,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3778,
-			1670,
+			3146,
+			1961,
 			56,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24212,17 +24212,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3778,
-			1728,
+			3150,
+			2209,
 			56,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0114"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24237,17 +24237,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3730,
-			2708,
+			4034,
+			1212,
 			57,
 			84
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0115"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24262,12 +24262,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3641,
-			1783,
+			3202,
+			2532,
 			56,
 			83
 		},
@@ -24287,17 +24287,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3693,
-			1717,
+			3147,
+			2124,
 			58,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0117"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24312,17 +24312,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3467,
-			2528,
+			3026,
+			2041,
 			55,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0118"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24337,17 +24337,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3833,
-			1170,
+			2324,
+			2175,
 			55,
 			90
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24362,12 +24362,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2579,
-			2484,
+			3026,
+			2129,
 			55,
 			85
 		},
@@ -24387,12 +24387,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3605,
-			1883,
+			3010,
+			3071,
 			55,
 			87
 		},
@@ -24412,12 +24412,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3863,
-			1754,
+			2058,
+			307,
 			52,
 			78
 		},
@@ -24437,17 +24437,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3857,
-			1808,
+			4039,
+			672,
 			52,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24462,12 +24462,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3106,
-			1198,
+			2770,
+			3244,
 			51,
 			85
 		},
@@ -24487,17 +24487,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3391,
-			1292,
+			3527,
+			1647,
 			44,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0125"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24512,17 +24512,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3391,
-			1292,
+			3527,
+			1647,
 			44,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenBossBitch_0126"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24537,17 +24537,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2742,
+			1270,
+			2698,
 			41,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0127"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24562,17 +24562,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2742,
+			1270,
+			2698,
 			41,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenBossBitch_0128"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24587,17 +24587,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1369,
-			1161,
+			864,
+			3082,
 			41,
 			26
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24612,17 +24612,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3364,
-			1193,
+			497,
+			1446,
 			97,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24637,17 +24637,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3292,
-			920,
+			2850,
+			2291,
 			98,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24662,17 +24662,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1231,
+			2302,
+			2075,
 			98,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0004"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24687,17 +24687,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3818,
-			1398,
+			2582,
+			2196,
 			98,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0005"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24712,12 +24712,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3260,
-			1728,
+			2748,
+			2366,
 			98,
 			77
 		},
@@ -24737,12 +24737,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3633,
-			939,
+			2848,
+			2369,
 			99,
 			75
 		},
@@ -24762,17 +24762,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3527,
-			1302,
+			2671,
+			2511,
 			99,
 			75
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24787,17 +24787,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3211,
-			1189,
+			3371,
+			1272,
 			101,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24812,17 +24812,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3288,
-			1189,
+			3753,
+			1351,
 			101,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24837,12 +24837,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3404,
-			1624,
+			2653,
+			2614,
 			99,
 			73
 		},
@@ -24862,12 +24862,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3628,
-			1304,
+			3657,
+			1501,
 			101,
 			73
 		},
@@ -24887,17 +24887,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3292,
-			1020,
+			2354,
+			2512,
 			102,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24912,17 +24912,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3170,
-			520,
+			2820,
+			700,
 			102,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24937,12 +24937,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3228,
-			1476,
+			2430,
+			2512,
 			102,
 			72
 		},
@@ -24962,17 +24962,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1867,
-			2754,
+			3474,
+			1330,
 			102,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -24987,12 +24987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3098,
-			399,
+			3967,
+			658,
 			103,
 			70
 		},
@@ -25012,17 +25012,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3260,
-			1624,
+			3474,
+			1403,
 			102,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25037,17 +25037,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			100,
+			652,
+			2626,
 			103,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25062,17 +25062,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1952,
-			3007,
+			2098,
+			2056,
 			100,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25087,17 +25087,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3302,
-			1476,
+			3664,
+			1427,
 			102,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25112,17 +25112,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3633,
-			776,
+			2157,
+			2185,
 			100,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25137,17 +25137,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3840,
-			953,
+			2674,
+			2345,
 			99,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25162,17 +25162,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1974,
-			3313,
+			2200,
+			2064,
 			100,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0024"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25187,12 +25187,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2050,
-			3313,
+			2595,
+			2512,
 			100,
 			74
 		},
@@ -25212,17 +25212,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3258,
-			1807,
+			2657,
+			2880,
 			98,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25237,12 +25237,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3255,
-			1882,
+			2825,
+			2955,
 			98,
 			73
 		},
@@ -25262,17 +25262,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2126,
-			3313,
+			2748,
+			2290,
 			100,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25287,12 +25287,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3299,
-			2051,
+			2651,
+			2780,
 			98,
 			75
 		},
@@ -25312,12 +25312,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3306,
-			2151,
+			2868,
+			2616,
 			98,
 			75
 		},
@@ -25337,17 +25337,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3309,
-			2251,
+			2825,
+			3030,
 			98,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25362,17 +25362,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3312,
-			2351,
+			2827,
+			2878,
 			97,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25387,12 +25387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3397,
-			1973,
+			2845,
+			2537,
 			97,
 			77
 		},
@@ -25412,17 +25412,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3574,
-			2655,
+			2406,
+			2309,
 			69,
 			78
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25437,12 +25437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3699,
-			1777,
+			3068,
+			1889,
 			69,
 			77
 		},
@@ -25462,17 +25462,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3778,
-			1786,
+			3075,
+			1960,
 			69,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25487,17 +25487,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3699,
-			1848,
+			3107,
+			2369,
 			68,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25512,12 +25512,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3476,
-			2800,
+			3050,
+			2897,
 			71,
 			75
 		},
@@ -25537,17 +25537,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3723,
-			1476,
+			3034,
+			2369,
 			71,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25562,12 +25562,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3869,
-			1546,
+			3657,
+			1650,
 			71,
 			75
 		},
@@ -25587,17 +25587,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3654,
-			2695,
+			3264,
+			1735,
 			71,
 			74
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25612,12 +25612,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3812,
-			1964,
+			3279,
+			2012,
 			70,
 			74
 		},
@@ -25637,12 +25637,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2096,
-			3006,
+			3272,
+			1860,
 			69,
 			74
 		},
@@ -25662,12 +25662,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3355,
-			1883,
+			3351,
+			2003,
 			68,
 			72
 		},
@@ -25687,17 +25687,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2758,
-			3215,
+			4023,
+			2087,
 			68,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25712,12 +25712,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2647,
-			2793,
+			3516,
+			2326,
 			65,
 			71
 		},
@@ -25737,12 +25737,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2230,
-			3010,
+			3882,
+			1852,
 			65,
 			70
 		},
@@ -25762,12 +25762,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2786,
-			2949,
+			3496,
+			2114,
 			65,
 			70
 		},
@@ -25787,12 +25787,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2990,
+			3423,
+			2114,
 			64,
 			71
 		},
@@ -25812,12 +25812,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3160,
-			3291,
+			3598,
+			2468,
 			65,
 			69
 		},
@@ -25837,12 +25837,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3200,
+			3715,
+			2326,
 			65,
 			71
 		},
@@ -25862,12 +25862,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2614,
-			3287,
+			3568,
+			2114,
 			67,
 			70
 		},
@@ -25887,17 +25887,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2856,
-			3136,
+			4024,
+			1793,
 			67,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0053"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25912,12 +25912,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2858,
-			2927,
+			3282,
+			2207,
 			71,
 			71
 		},
@@ -25937,17 +25937,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3798,
-			2331,
+			3281,
+			2280,
 			71,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0055"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -25962,12 +25962,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2846,
+			3354,
+			2280,
 			71,
 			72
 		},
@@ -25987,12 +25987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3326,
-			2646,
+			3099,
+			2294,
 			71,
 			73
 		},
@@ -26012,12 +26012,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3739,
-			1964,
+			3273,
+			1936,
 			71,
 			74
 		},
@@ -26037,17 +26037,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3869,
-			1619,
+			3329,
+			3210,
 			70,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26062,17 +26062,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2807,
+			3401,
+			3209,
 			69,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0060"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26087,12 +26087,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2856,
+			3734,
+			1687,
 			69,
 			75
 		},
@@ -26112,17 +26112,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3778,
-			1857,
+			3177,
+			2369,
 			66,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26137,17 +26137,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3857,
-			1862,
+			3325,
+			2781,
 			66,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0063"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26162,12 +26162,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3669,
-			1971,
+			3335,
+			2860,
 			68,
 			77
 		},
@@ -26187,12 +26187,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3405,
-			2798,
+			2231,
+			2140,
 			69,
 			78
 		},
@@ -26212,17 +26212,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2638,
-			2866,
+			3343,
+			1855,
 			69,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26237,17 +26237,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2686,
-			3285,
+			3498,
+			2253,
 			68,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0067"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26262,12 +26262,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2931,
-			2999,
+			3496,
+			2041,
 			69,
 			71
 		},
@@ -26287,17 +26287,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2931,
-			2927,
+			3355,
+			2207,
 			71,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26312,17 +26312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3826,
-			2577,
+			3196,
+			1889,
 			74,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0070"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26337,12 +26337,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2564,
-			2863,
+			3805,
+			1903,
 			72,
 			69
 		},
@@ -26362,17 +26362,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2257,
-			2784,
+			3250,
+			2432,
 			74,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0072"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26387,12 +26387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2124,
-			3082,
+			3321,
+			2430,
 			74,
 			70
 		},
@@ -26412,12 +26412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2712,
-			2878,
+			3279,
+			2088,
 			72,
 			68
 		},
@@ -26437,12 +26437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2955,
+			3527,
+			1835,
 			72,
 			68
 		},
@@ -26462,17 +26462,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2438,
+			3172,
+			2294,
 			73,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0076"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26487,12 +26487,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2508,
+			3400,
+			1755,
 			73,
 			67
 		},
@@ -26512,17 +26512,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3078,
-			2946,
+			3583,
+			2326,
 			71,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26537,12 +26537,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2931,
-			3072,
+			3589,
+			2399,
 			69,
 			67
 		},
@@ -26562,17 +26562,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2831,
-			3215,
+			3879,
+			1924,
 			68,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26587,12 +26587,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3151,
-			2946,
+			3879,
+			1993,
 			68,
 			67
 		},
@@ -26612,17 +26612,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2899,
-			3285,
+			3323,
+			2582,
 			68,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26637,12 +26637,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3612,
-			2807,
+			3732,
+			2399,
 			68,
 			67
 		},
@@ -26662,12 +26662,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2637,
-			3075,
+			3711,
+			2129,
 			71,
 			67
 		},
@@ -26687,12 +26687,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2710,
-			3081,
+			3711,
+			2198,
 			71,
 			67
 		},
@@ -26712,12 +26712,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2282,
-			3216,
+			3880,
+			1778,
 			72,
 			67
 		},
@@ -26737,17 +26737,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2351,
-			3216,
+			3657,
+			1862,
 			72,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26762,17 +26762,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2377,
-			3056,
+			3731,
+			1877,
 			72,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0088"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26787,17 +26787,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2638,
-			2937,
+			4023,
+			1939,
 			72,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26812,12 +26812,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2248,
-			2855,
+			3393,
+			2506,
 			74,
 			70
 		},
@@ -26837,12 +26837,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2154,
+			3527,
+			1693,
 			73,
 			69
 		},
@@ -26862,12 +26862,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2225,
+			3527,
+			1764,
 			73,
 			69
 		},
@@ -26887,12 +26887,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2082,
+			3657,
+			1723,
 			73,
 			70
 		},
@@ -26912,12 +26912,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			3177,
+			3496,
+			2181,
 			69,
 			70
 		},
@@ -26937,12 +26937,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2614,
-			3215,
+			3445,
+			2326,
 			69,
 			70
 		},
@@ -26962,17 +26962,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2637,
-			3144,
+			3427,
+			2253,
 			69,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -26987,12 +26987,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2385,
-			3130,
+			3346,
+			1929,
 			69,
 			72
 		},
@@ -27012,12 +27012,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3594,
-			3151,
+			3928,
+			2460,
 			65,
 			49
 		},
@@ -27037,12 +27037,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3594,
-			3151,
+			3928,
+			2460,
 			65,
 			49
 		},
@@ -27062,12 +27062,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3594,
-			3151,
+			3928,
+			2460,
 			65,
 			49
 		},
@@ -27087,17 +27087,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3250,
-			3362,
+			3475,
+			1759,
 			65,
 			50
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0101"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27112,12 +27112,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2342,
-			3356,
+			3638,
+			2267,
 			65,
 			57
 		},
@@ -27137,12 +27137,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2342,
-			3356,
+			3638,
+			2267,
 			65,
 			57
 		},
@@ -27162,12 +27162,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3884,
-			1930,
+			3260,
+			2508,
 			74,
 			61
 		},
@@ -27187,12 +27187,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3884,
-			1930,
+			3260,
+			2508,
 			74,
 			61
 		},
@@ -27212,12 +27212,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3884,
-			2006,
+			3382,
+			2354,
 			74,
 			61
 		},
@@ -27237,12 +27237,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2854,
-			2630,
+			2649,
+			2715,
 			83,
 			63
 		},
@@ -27262,17 +27262,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			255,
+			3266,
+			1629,
 			83,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0108"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27287,12 +27287,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2579,
-			2571,
+			2931,
+			1809,
 			85,
 			66
 		},
@@ -27312,17 +27312,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2075,
-			2659,
+			2581,
+			2345,
 			91,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27337,12 +27337,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			742,
+			2925,
+			1631,
 			87,
 			67
 		},
@@ -27362,17 +27362,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3500,
-			1745,
+			2927,
+			1720,
 			87,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27387,17 +27387,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3503,
-			1814,
+			2996,
+			1714,
 			87,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27412,12 +27412,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3279,
-			1379,
+			3018,
+			2616,
 			95,
 			70
 		},
@@ -27437,12 +27437,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3279,
-			1379,
+			3018,
+			2616,
 			95,
 			70
 		},
@@ -27462,12 +27462,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3194,
-			1017,
+			3559,
+			1574,
 			96,
 			71
 		},
@@ -27487,12 +27487,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3455,
-			2052,
+			2925,
+			2974,
 			96,
 			71
 		},
@@ -27512,12 +27512,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3462,
-			2150,
+			2945,
+			2616,
 			96,
 			71
 		},
@@ -27537,12 +27537,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			2248,
+			2966,
+			2799,
 			96,
 			71
 		},
@@ -27562,17 +27562,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3376,
-			2052,
+			2728,
+			2801,
 			97,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27587,17 +27587,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3383,
-			2151,
+			2827,
+			2799,
 			97,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27612,12 +27612,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2257,
-			2651,
+			3102,
+			2803,
 			85,
 			88
 		},
@@ -27637,17 +27637,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3532,
-			1569,
+			3207,
+			2973,
 			85,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27662,17 +27662,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3532,
-			1656,
+			2656,
+			3059,
 			88,
 			87
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0124"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27687,17 +27687,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3516,
-			1883,
+			2476,
+			3153,
 			88,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0125"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27712,17 +27712,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3723,
-			1384,
+			2855,
+			2111,
 			90,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0126"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27737,17 +27737,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3723,
-			1384,
+			2855,
+			2111,
 			90,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0127"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27762,12 +27762,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3351,
-			1379,
+			3949,
+			1608,
 			95,
 			92
 		},
@@ -27787,17 +27787,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3445,
-			1379,
+			2758,
+			2111,
 			95,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhost_0129"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27812,17 +27812,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1978,
-			3217,
+			2381,
+			2128,
 			87,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0130"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27837,17 +27837,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1978,
-			3217,
+			2381,
+			2128,
 			87,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0131"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27862,12 +27862,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2152,
-			3216,
+			3323,
+			2506,
 			74,
 			68
 		},
@@ -27887,12 +27887,12 @@ return {
             24
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2152,
-			3216,
+			3323,
+			2506,
 			74,
 			68
 		},
@@ -27912,17 +27912,17 @@ return {
             41
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			3214,
+			4019,
+			2775,
 			61,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhost_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27937,17 +27937,17 @@ return {
             41
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			3214,
+			4019,
+			2775,
 			61,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27962,17 +27962,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3162,
-			2877,
+			3422,
+			3069,
 			67,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -27987,12 +27987,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3508,
-			2948,
+			3608,
+			3199,
 			67,
 			55
 		},
@@ -28012,12 +28012,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3508,
-			2948,
+			3608,
+			3199,
 			67,
 			55
 		},
@@ -28037,12 +28037,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			3291,
+			3602,
+			1788,
 			69,
 			53
 		},
@@ -28062,12 +28062,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			3291,
+			3602,
+			1788,
 			69,
 			53
 		},
@@ -28087,17 +28087,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2197,
-			3158,
+			3890,
+			3059,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28112,17 +28112,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2197,
-			3158,
+			3890,
+			3059,
 			65,
 			56
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28137,17 +28137,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2044,
-			2878,
+			3676,
+			2674,
 			66,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28162,17 +28162,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2044,
-			2878,
+			3676,
+			2674,
 			66,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28187,12 +28187,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3283,
-			3086,
+			3815,
+			2741,
 			64,
 			64
 		},
@@ -28212,12 +28212,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3283,
-			3086,
+			3815,
+			2741,
 			64,
 			64
 		},
@@ -28237,17 +28237,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3148,
-			3086,
+			3802,
+			2470,
 			64,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28262,17 +28262,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3148,
-			3086,
+			3802,
+			2470,
 			64,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28287,17 +28287,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3162,
-			2877,
+			3422,
+			3069,
 			67,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28312,12 +28312,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2948,
+			3817,
+			2539,
 			67,
 			61
 		},
@@ -28337,12 +28337,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3831,
-			2952,
+			3628,
+			2991,
 			68,
 			61
 		},
@@ -28362,12 +28362,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3831,
-			2952,
+			3628,
+			2991,
 			68,
 			61
 		},
@@ -28387,12 +28387,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3688,
-			3020,
+			4022,
+			2211,
 			65,
 			55
 		},
@@ -28412,12 +28412,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3688,
-			3020,
+			4022,
+			2211,
 			65,
 			55
 		},
@@ -28437,12 +28437,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2409,
-			3356,
+			3705,
+			2267,
 			65,
 			57
 		},
@@ -28462,12 +28462,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2409,
-			3356,
+			3705,
+			2267,
 			65,
 			57
 		},
@@ -28487,12 +28487,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2900,
-			3218,
+			3815,
+			2608,
 			64,
 			65
 		},
@@ -28512,12 +28512,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2900,
-			3218,
+			3815,
+			2608,
 			64,
 			65
 		},
@@ -28537,17 +28537,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3747,
-			2767,
+			2539,
 			68,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28562,17 +28562,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3747,
-			2767,
+			2539,
 			68,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28587,12 +28587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			3249,
+			3640,
+			2200,
 			69,
 			65
 		},
@@ -28612,12 +28612,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			3249,
+			3640,
+			2200,
 			69,
 			65
 		},
@@ -28637,12 +28637,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3565,
-			2948,
+			3817,
+			2539,
 			67,
 			61
 		},
@@ -28662,17 +28662,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2783,
-			3152,
+			3465,
+			2506,
 			71,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28687,17 +28687,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3628,
-			2948,
+			3393,
+			2582,
 			70,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28712,17 +28712,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3628,
-			2948,
+			3393,
+			2582,
 			70,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28737,17 +28737,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2105,
-			2946,
+			3843,
+			2873,
 			66,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0033"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28762,17 +28762,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2105,
-			2946,
+			3843,
+			2873,
 			66,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28787,12 +28787,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2712,
-			2948,
+			3949,
+			1932,
 			72,
 			61
 		},
@@ -28812,12 +28812,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2712,
-			2948,
+			3949,
+			1932,
 			72,
 			61
 		},
@@ -28837,17 +28837,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3664,
-			2876,
+			3394,
+			2645,
 			70,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28862,17 +28862,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3664,
-			2876,
+			3394,
+			2645,
 			70,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28887,17 +28887,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3147,
-			3152,
+			3405,
+			2854,
 			70,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28912,17 +28912,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3147,
-			3152,
+			3405,
+			2854,
 			70,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -28937,12 +28937,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2423,
-			2557,
+			3393,
+			2430,
 			74,
 			64
 		},
@@ -28962,12 +28962,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2423,
-			2557,
+			3393,
+			2430,
 			74,
 			64
 		},
@@ -28987,17 +28987,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2783,
-			3152,
+			3465,
+			2506,
 			71,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29012,12 +29012,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2274,
-			3291,
+			3675,
+			2737,
 			63,
 			67
 		},
@@ -29037,12 +29037,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3682,
-			2807,
+			3665,
+			3199,
 			63,
 			67
 		},
@@ -29062,12 +29062,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3682,
-			2807,
+			3665,
+			3199,
 			63,
 			67
 		},
@@ -29087,12 +29087,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3762,
-			2952,
+			3605,
+			2605,
 			67,
 			67
 		},
@@ -29112,12 +29112,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3762,
-			2952,
+			3605,
+			2605,
 			67,
 			67
 		},
@@ -29137,12 +29137,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2241,
-			2946,
+			3657,
+			1932,
 			72,
 			62
 		},
@@ -29162,12 +29162,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3072,
-			2639,
+			3259,
+			2617,
 			80,
 			61
 		},
@@ -29187,12 +29187,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2167,
-			3006,
+			3337,
+			1735,
 			74,
 			61
 		},
@@ -29212,12 +29212,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3725,
-			2050,
+			3294,
+			2973,
 			77,
 			55
 		},
@@ -29237,12 +29237,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3750,
-			2129,
+			3296,
+			3052,
 			77,
 			55
 		},
@@ -29262,17 +29262,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3356,
+			3911,
+			3126,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29287,17 +29287,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3356,
+			3911,
+			3126,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0055"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29312,17 +29312,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3227,
-			3291,
+			3605,
+			2674,
 			69,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0056"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29337,17 +29337,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3227,
-			3291,
+			3605,
+			2674,
 			69,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0057"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29362,12 +29362,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3219,
-			3223,
+			3757,
+			2989,
 			66,
 			65
 		},
@@ -29387,12 +29387,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3219,
-			3223,
+			3757,
+			2989,
 			66,
 			65
 		},
@@ -29412,12 +29412,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3682,
-			2807,
+			3665,
+			3199,
 			63,
 			67
 		},
@@ -29437,12 +29437,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3682,
-			2807,
+			3665,
+			3199,
 			63,
 			67
 		},
@@ -29462,12 +29462,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			2807,
+			3515,
+			2779,
 			61,
 			68
 		},
@@ -29487,12 +29487,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3286,
-			3222,
+			3691,
+			2991,
 			64,
 			67
 		},
@@ -29512,12 +29512,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3286,
-			3222,
+			3691,
+			2991,
 			64,
 			67
 		},
@@ -29537,17 +29537,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2173,
-			2946,
+			3868,
+			2464,
 			66,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29562,17 +29562,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2222,
-			3216,
+			3183,
+			1829,
 			73,
 			58
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29587,17 +29587,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3638,
-			1708,
+			2421,
+			3242,
 			73,
 			53
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0067"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29612,12 +29612,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3577,
-			3286,
+			3901,
+			2393,
 			65,
 			55
 		},
@@ -29637,12 +29637,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3577,
-			3286,
+			3901,
+			2393,
 			65,
 			55
 		},
@@ -29662,17 +29662,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3419,
-			3152,
+			3820,
+			3193,
 			66,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0070"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29687,17 +29687,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3419,
-			3152,
+			3820,
+			3193,
 			66,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0071"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29712,12 +29712,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2274,
-			3356,
+			3175,
+			3238,
 			66,
 			57
 		},
@@ -29737,17 +29737,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2798,
-			2759,
+			2353,
+			3241,
 			66,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0073"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29762,12 +29762,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2264,
+			3601,
+			1921,
 			65,
 			54
 		},
@@ -29787,12 +29787,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3755,
-			3021,
+			3353,
+			2151,
 			66,
 			54
 		},
@@ -29812,17 +29812,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3816,
-			2192,
+			2281,
+			3241,
 			70,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0076"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29837,12 +29837,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2202,
-			3356,
+			3103,
+			3238,
 			70,
 			57
 		},
@@ -29862,17 +29862,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3705,
-			3077,
+			4026,
+			2452,
 			63,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29887,17 +29887,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3705,
-			3077,
+			4026,
+			2452,
 			63,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29912,12 +29912,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3552,
-			3017,
+			3888,
+			3193,
 			66,
 			60
 		},
@@ -29937,12 +29937,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3552,
-			3017,
+			3888,
+			3193,
 			66,
 			60
 		},
@@ -29962,17 +29962,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3620,
-			3020,
+			3880,
+			2532,
 			66,
 			55
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -29987,17 +29987,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2756,
-			3355,
+			3903,
+			2869,
 			65,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30012,17 +30012,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2756,
-			3355,
+			3903,
+			2869,
 			65,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0084"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30037,12 +30037,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3643,
-			3077,
+			4022,
+			2268,
 			60,
 			61
 		},
@@ -30062,12 +30062,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3643,
-			3077,
+			4022,
+			2268,
 			60,
 			61
 		},
@@ -30087,12 +30087,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3349,
-			3083,
+			3693,
+			3060,
 			64,
 			67
 		},
@@ -30112,12 +30112,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3349,
-			3083,
+			3693,
+			3060,
 			64,
 			67
 		},
@@ -30137,12 +30137,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2274,
-			3291,
+			3675,
+			2737,
 			63,
 			67
 		},
@@ -30162,12 +30162,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2274,
-			3291,
+			3675,
+			2737,
 			63,
 			67
 		},
@@ -30187,12 +30187,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3654,
-			2618,
+			3111,
+			1628,
 			74,
 			75
 		},
@@ -30212,12 +30212,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3654,
-			2618,
+			3111,
+			1628,
 			74,
 			75
 		},
@@ -30237,12 +30237,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3402,
-			2721,
+			2949,
+			2188,
 			75,
 			75
 		},
@@ -30262,12 +30262,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3402,
-			2721,
+			2949,
+			2188,
 			75,
 			75
 		},
@@ -30287,12 +30287,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3297,
-			2567,
+			2993,
+			2537,
 			75,
 			77
 		},
@@ -30312,12 +30312,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3297,
-			2567,
+			2993,
+			2537,
 			75,
 			77
 		},
@@ -30337,12 +30337,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3800,
-			2404,
+			3310,
+			2354,
 			70,
 			74
 		},
@@ -30362,17 +30362,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3286,
-			3152,
+			3558,
+			3133,
 			64,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0098"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30387,17 +30387,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3882,
-			2858,
+			3959,
+			2261,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30412,17 +30412,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3882,
-			2858,
+			3959,
+			2261,
 			63,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0100"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30437,12 +30437,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2798,
-			2624,
+			540,
+			1366,
 			71,
 			54
 		},
@@ -30462,12 +30462,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2798,
-			2624,
+			540,
+			1366,
 			71,
 			54
 		},
@@ -30487,17 +30487,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			462,
-			969,
+			3266,
+			1696,
 			75,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0103"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30512,17 +30512,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			462,
-			969,
+			3266,
+			1696,
 			75,
 			37
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0104"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30537,12 +30537,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3776,
-			2208,
+			2227,
+			2894,
 			75,
 			38
 		},
@@ -30562,12 +30562,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3776,
-			2208,
+			2227,
+			2894,
 			75,
 			38
 		},
@@ -30587,12 +30587,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3777,
-			1925,
+			3207,
+			2164,
 			75,
 			37
 		},
@@ -30612,12 +30612,12 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3777,
-			1925,
+			3207,
+			2164,
 			75,
 			37
 		},
@@ -30637,17 +30637,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3632,
-			2768,
+			3242,
+			2278,
 			75,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0109"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30662,17 +30662,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3632,
-			2768,
+			3242,
+			2278,
 			75,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30687,17 +30687,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3918,
-			1398,
+			2745,
+			3131,
 			49,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0111"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30712,17 +30712,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3918,
-			1398,
+			2745,
+			3131,
 			49,
 			27
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30737,17 +30737,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3539,
-			2585,
+			3353,
+			3096,
 			50,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30762,17 +30762,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3539,
-			2585,
+			3353,
+			3096,
 			50,
 			33
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0114"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30787,12 +30787,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1336,
-			782,
+			4055,
+			166,
 			57,
 			36
 		},
@@ -30812,12 +30812,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1336,
-			782,
+			4055,
+			166,
 			57,
 			36
 		},
@@ -30837,17 +30837,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0117"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30862,17 +30862,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0118"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30887,17 +30887,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30912,17 +30912,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30937,17 +30937,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30962,17 +30962,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -30987,17 +30987,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31012,17 +31012,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0124"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31037,17 +31037,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0125"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31062,17 +31062,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2528,
-			205,
+			3730,
+			3199,
 			67,
 			37
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0126"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31087,17 +31087,17 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1983,
-			317,
+			2097,
+			2129,
 			92,
 			54
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0127"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31112,12 +31112,12 @@ return {
             1
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1405,
-			2913,
+			2583,
+			2099,
 			95,
 			80
 		},
@@ -31137,12 +31137,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2586,
-			2376,
+			2795,
+			594,
 			104,
 			97
 		},
@@ -31162,17 +31162,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2303,
-			2371,
+			1334,
+			2821,
 			112,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0130"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31187,12 +31187,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2189,
-			2371,
+			2561,
+			1325,
 			112,
 			97
 		},
@@ -31212,12 +31212,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1387,
-			2404,
+			2986,
+			152,
 			119,
 			98
 		},
@@ -31237,12 +31237,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1459,
-			2273,
+			2800,
+			1017,
 			119,
 			98
 		},
@@ -31262,17 +31262,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2767,
-			866,
+			1507,
+			1912,
 			132,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31287,17 +31287,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2767,
-			866,
+			1507,
+			1912,
 			132,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0135"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31312,17 +31312,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2660,
-			592,
+			1700,
+			1816,
 			135,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0136"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31337,17 +31337,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2660,
-			592,
+			1700,
+			1816,
 			135,
 			102
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0137"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31362,12 +31362,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			724,
-			2867,
+			303,
+			2869,
 			138,
 			110
 		},
@@ -31387,12 +31387,12 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			724,
-			2867,
+			303,
+			2869,
 			138,
 			110
 		},
@@ -31412,17 +31412,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1369,
-			1019,
+			1700,
+			1586,
 			140,
 			109
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenGhoul_0140"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31437,17 +31437,17 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1720,
-			479,
+			1277,
+			1892,
 			140,
 			109
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenGhoul_0141"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31462,12 +31462,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1978,
-			3109,
+			3868,
+			270,
 			106,
 			69
 		},
@@ -31487,17 +31487,17 @@ return {
             4
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3882,
-			2789,
+			3785,
+			2807,
 			63,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31512,12 +31512,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2830,
-			3285,
+			3559,
+			2993,
 			67,
 			68
 		},
@@ -31537,12 +31537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2830,
-			3285,
+			3559,
+			2993,
 			67,
 			68
 		},
@@ -31562,12 +31562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2367,
+			3949,
+			1861,
 			69,
 			73
 		},
@@ -31587,12 +31587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2367,
+			3949,
+			1861,
 			69,
 			73
 		},
@@ -31612,12 +31612,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3782,
-			2040,
+			3208,
+			2203,
 			72,
 			73
 		},
@@ -31637,12 +31637,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3782,
-			2040,
+			3208,
+			2203,
 			72,
 			73
 		},
@@ -31662,12 +31662,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2174,
-			2878,
+			3527,
+			1905,
 			66,
 			72
 		},
@@ -31687,17 +31687,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			2704,
+			881,
+			286,
 			59,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31712,17 +31712,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			2704,
+			881,
+			286,
 			59,
 			62
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31737,12 +31737,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3546,
-			3084,
+			3891,
+			2992,
 			55,
 			65
 		},
@@ -31762,12 +31762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3546,
-			3084,
+			3891,
+			2992,
 			55,
 			65
 		},
@@ -31787,17 +31787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3110,
-			3362,
+			3474,
+			1970,
 			51,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31812,17 +31812,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3110,
-			3362,
+			3474,
+			1970,
 			51,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31837,12 +31837,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1918,
+			3029,
+			3244,
 			51,
 			72
 		},
@@ -31862,12 +31862,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3662,
-			1918,
+			3029,
+			3244,
 			51,
 			72
 		},
@@ -31887,17 +31887,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3398,
-			1573,
+			4042,
+			1049,
 			49,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31912,17 +31912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3398,
-			1573,
+			4042,
+			1049,
 			49,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31937,17 +31937,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2510,
-			3025,
+			3731,
+			1947,
 			51,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -31962,12 +31962,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3607,
-			2877,
+			3459,
+			2398,
 			55,
 			69
 		},
@@ -31987,12 +31987,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3607,
-			2877,
+			3459,
+			2398,
 			55,
 			69
 		},
@@ -32012,17 +32012,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2318,
-			3152,
+			3796,
+			3126,
 			62,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32037,17 +32037,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2318,
-			3152,
+			3796,
+			3126,
 			62,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32062,12 +32062,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2786,
-			2881,
+			3472,
+			3199,
 			66,
 			66
 		},
@@ -32087,12 +32087,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2786,
-			2881,
+			3472,
+			3199,
 			66,
 			66
 		},
@@ -32112,17 +32112,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2456,
-			3126,
+			3805,
+			1974,
 			65,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32137,17 +32137,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2456,
-			3126,
+			3805,
+			1974,
 			65,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32162,12 +32162,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2564,
-			2934,
+			3949,
+			1995,
 			65,
 			72
 		},
@@ -32187,12 +32187,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2564,
-			2934,
+			3949,
+			1995,
 			65,
 			72
 		},
@@ -32212,12 +32212,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3002,
-			3142,
+			3660,
+			2399,
 			66,
 			70
 		},
@@ -32237,12 +32237,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3415,
-			3084,
+			3759,
+			3057,
 			66,
 			62
 		},
@@ -32262,12 +32262,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3415,
-			3084,
+			3759,
+			3057,
 			66,
 			62
 		},
@@ -32287,12 +32287,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			340,
+			3192,
+			2617,
 			80,
 			65
 		},
@@ -32312,12 +32312,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			340,
+			3192,
+			2617,
 			80,
 			65
 		},
@@ -32337,12 +32337,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2107,
-			2878,
+			3628,
+			3131,
 			65,
 			66
 		},
@@ -32362,12 +32362,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2107,
-			2878,
+			3628,
+			3131,
 			65,
 			66
 		},
@@ -32387,12 +32387,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3218,
+			3471,
+			2849,
 			66,
 			70
 		},
@@ -32412,12 +32412,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3218,
+			3471,
+			2849,
 			66,
 			70
 		},
@@ -32437,17 +32437,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			422,
+			3657,
+			1795,
 			65,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32462,17 +32462,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3880,
-			422,
+			3657,
+			1795,
 			65,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32487,17 +32487,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3293,
-			2948,
+			3665,
+			2467,
 			65,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32512,12 +32512,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3417,
-			3016,
+			3540,
+			3199,
 			66,
 			66
 		},
@@ -32537,12 +32537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3417,
-			3016,
+			3540,
+			3199,
 			66,
 			66
 		},
@@ -32562,12 +32562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3882,
-			2719,
+			3628,
+			3061,
 			68,
 			63
 		},
@@ -32587,12 +32587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3882,
-			2719,
+			3628,
+			3061,
 			68,
 			63
 		},
@@ -32612,12 +32612,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2710,
-			3150,
+			3713,
+			2064,
 			71,
 			63
 		},
@@ -32637,12 +32637,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2710,
-			3150,
+			3713,
+			2064,
 			71,
 			63
 		},
@@ -32662,12 +32662,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			2633,
+			3414,
+			1824,
 			69,
 			59
 		},
@@ -32687,12 +32687,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			2633,
+			3414,
+			1824,
 			69,
 			59
 		},
@@ -32712,12 +32712,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3148,
-			3015,
+			3422,
+			2998,
 			67,
 			69
 		},
@@ -32737,12 +32737,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3290,
+			3539,
+			2849,
 			66,
 			70
 		},
@@ -32762,12 +32762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3290,
+			3539,
+			2849,
 			66,
 			70
 		},
@@ -32787,17 +32787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3280,
+			3528,
+			2468,
 			68,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0053"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32812,17 +32812,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3280,
+			3528,
+			2468,
 			68,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32837,12 +32837,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3289,
-			3291,
+			3561,
+			3063,
 			68,
 			65
 		},
@@ -32862,12 +32862,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3289,
-			3291,
+			3561,
+			3063,
 			68,
 			65
 		},
@@ -32887,17 +32887,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3352,
-			3222,
+			3774,
+			2872,
 			67,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0057"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32912,17 +32912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3352,
-			3222,
+			3774,
+			2872,
 			67,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0058"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -32937,12 +32937,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			3015,
+			3674,
+			2606,
 			68,
 			66
 		},
@@ -32962,12 +32962,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3347,
-			3015,
+			3674,
+			2606,
 			68,
 			66
 		},
@@ -32987,17 +32987,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3225,
-			2877,
+			3490,
+			2921,
 			67,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33012,12 +33012,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2307,
-			3078,
+			3353,
+			2077,
 			68,
 			72
 		},
@@ -33037,12 +33037,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2307,
-			3078,
+			3353,
+			2077,
 			68,
 			72
 		},
@@ -33062,12 +33062,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			3316,
+			3640,
+			2129,
 			69,
 			69
 		},
@@ -33087,12 +33087,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			3316,
+			3640,
+			2129,
 			69,
 			69
 		},
@@ -33112,12 +33112,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3002,
-			3006,
+			3026,
+			2302,
 			71,
 			65
 		},
@@ -33137,12 +33137,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3002,
-			3006,
+			3026,
+			2302,
 			71,
 			65
 		},
@@ -33162,17 +33162,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3221,
-			2946,
+			3422,
+			2926,
 			66,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0068"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33187,17 +33187,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3221,
-			2946,
+			3422,
+			2926,
 			66,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33212,12 +33212,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2636,
-			3007,
+			3527,
+			1973,
 			66,
 			72
 		},
@@ -33237,12 +33237,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2636,
-			3007,
+			3527,
+			1973,
 			66,
 			72
 		},
@@ -33262,12 +33262,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3727,
-			2888,
+			3744,
+			2675,
 			62,
 			69
 		},
@@ -33287,12 +33287,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3727,
-			2888,
+			3744,
+			2675,
 			62,
 			69
 		},
@@ -33312,17 +33312,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3217,
-			3015,
+			3604,
+			2736,
 			62,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0074"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33337,17 +33337,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3217,
-			3015,
+			3604,
+			2736,
 			62,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0075"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33362,12 +33362,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2647,
-			2558,
+			3507,
+			562,
 			85,
 			57
 		},
@@ -33387,17 +33387,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2744,
+			3235,
+			2699,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0077"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33412,17 +33412,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2714,
-			2744,
+			3235,
+			2699,
 			82,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33437,17 +33437,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2196,
-			3082,
+			3411,
+			1692,
 			74,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33462,17 +33462,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2196,
-			3082,
+			3411,
+			1692,
 			74,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0080"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33487,17 +33487,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2196,
-			3082,
+			3411,
+			1692,
 			74,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0081"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33512,17 +33512,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2428,
-			2768,
+			4018,
+			2391,
 			59,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33537,12 +33537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3481,
-			3151,
+			3881,
+			2668,
 			60,
 			65
 		},
@@ -33562,12 +33562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3481,
-			3151,
+			3881,
+			2668,
 			60,
 			65
 		},
@@ -33587,12 +33587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3820,
-			2837,
+			3881,
+			2600,
 			60,
 			66
 		},
@@ -33612,12 +33612,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3820,
-			2837,
+			3881,
+			2600,
 			60,
 			66
 		},
@@ -33637,17 +33637,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3221,
-			2946,
+			3422,
+			2926,
 			66,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33662,17 +33662,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3437,
-			2948,
+			3491,
+			2992,
 			66,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0088"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33687,17 +33687,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2124,
-			3158,
+			3417,
+			1895,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0089"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33712,17 +33712,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2124,
-			3158,
+			3417,
+			1895,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33737,17 +33737,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2124,
-			3158,
+			3417,
+			1895,
 			56,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0091"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -33762,12 +33762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			2831,
+			3903,
+			2801,
 			56,
 			66
 		},
@@ -33787,12 +33787,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			2831,
+			3903,
+			2801,
 			56,
 			66
 		},
@@ -33812,12 +33812,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3707,
-			3183,
+			4027,
+			2517,
 			55,
 			62
 		},
@@ -33837,12 +33837,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3707,
-			3183,
+			4027,
+			2517,
 			55,
 			62
 		},
@@ -33862,12 +33862,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3764,
-			3198,
+			4020,
+			2959,
 			53,
 			59
 		},
@@ -33887,12 +33887,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3764,
-			3198,
+			4020,
+			2959,
 			53,
 			59
 		},
@@ -33912,12 +33912,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3764,
-			3198,
+			4020,
+			2959,
 			53,
 			59
 		},
@@ -33937,12 +33937,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3764,
-			3198,
+			4020,
+			2959,
 			53,
 			59
 		},
@@ -33962,12 +33962,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3764,
-			3198,
+			4020,
+			2959,
 			53,
 			59
 		},
@@ -33987,17 +33987,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2794,
+			3146,
+			2046,
 			61,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0101"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34012,17 +34012,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2939,
-			2794,
+			3146,
+			2046,
 			61,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0102"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34037,12 +34037,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3833,
-			1076,
+			2728,
+			2617,
 			89,
 			92
 		},
@@ -34062,12 +34062,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3833,
-			1076,
+			2728,
+			2617,
 			89,
 			92
 		},
@@ -34087,12 +34087,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2935,
-			1744,
+			3017,
+			952,
 			119,
 			109
 		},
@@ -34112,12 +34112,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2935,
-			1744,
+			3017,
+			952,
 			119,
 			109
 		},
@@ -34137,12 +34137,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2935,
-			1744,
+			3017,
+			952,
 			119,
 			109
 		},
@@ -34162,17 +34162,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3417,
-			142,
+			2774,
+			807,
 			118,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0108"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34187,17 +34187,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3417,
-			142,
+			2774,
+			807,
 			118,
 			114
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0109"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34212,12 +34212,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1849,
-			2266,
+			2559,
+			1424,
 			111,
 			108
 		},
@@ -34237,12 +34237,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1849,
-			2266,
+			2559,
+			1424,
 			111,
 			108
 		},
@@ -34262,12 +34262,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2074,
-			2268,
+			2685,
+			1223,
 			112,
 			101
 		},
@@ -34287,12 +34287,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2074,
-			2268,
+			2685,
+			1223,
 			112,
 			101
 		},
@@ -34312,17 +34312,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1677,
-			2903,
+			3460,
+			374,
 			104,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0114"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34337,17 +34337,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1677,
-			2903,
+			3460,
+			374,
 			104,
 			92
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0115"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34362,12 +34362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1212,
+			2381,
+			2217,
 			90,
 			94
 		},
@@ -34387,12 +34387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1212,
+			2381,
+			2217,
 			90,
 			94
 		},
@@ -34412,17 +34412,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3542,
-			1212,
+			3944,
+			1217,
 			96,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0118"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34437,17 +34437,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3542,
-			1212,
+			3944,
+			1217,
 			96,
 			88
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34462,12 +34462,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3664,
-			146,
+			1346,
+			2935,
 			103,
 			82
 		},
@@ -34487,12 +34487,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3664,
-			146,
+			1346,
+			2935,
 			103,
 			82
 		},
@@ -34512,17 +34512,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1734,
-			2480,
+			887,
+			1369,
 			109,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34537,17 +34537,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1734,
-			2480,
+			887,
+			1369,
 			109,
 			73
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34562,17 +34562,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3389,
-			2347,
+			3760,
+			1518,
 			94,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0124"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34587,17 +34587,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3389,
-			2347,
+			3760,
+			1518,
 			94,
 			83
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0125"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34612,17 +34612,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3106,
-			1094,
+			3938,
+			958,
 			102,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0126"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34637,17 +34637,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3106,
-			1094,
+			3938,
+			958,
 			102,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0127"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34662,12 +34662,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2588,
-			2271,
+			3552,
+			812,
 			103,
 			94
 		},
@@ -34687,12 +34687,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2588,
-			2271,
+			3552,
+			812,
 			103,
 			94
 		},
@@ -34712,12 +34712,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			2375,
+			3658,
+			270,
 			103,
 			98
 		},
@@ -34737,12 +34737,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			2375,
+			3658,
+			270,
 			103,
 			98
 		},
@@ -34762,12 +34762,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3376,
-			1476,
+			3937,
+			1120,
 			95,
 			95
 		},
@@ -34787,12 +34787,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3376,
-			1476,
+			3937,
+			1120,
 			95,
 			95
 		},
@@ -34812,17 +34812,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1785,
-			3208,
+			3561,
+			1127,
 			104,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34837,17 +34837,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1785,
-			3208,
+			3561,
+			1127,
 			104,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0135"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34862,17 +34862,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2772,
-			498,
+			2748,
+			2536,
 			95,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0136"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34887,17 +34887,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2772,
-			498,
+			2748,
+			2536,
 			95,
 			79
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0137"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34912,12 +34912,12 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			504,
+			2824,
+			3151,
 			83,
 			88
 		},
@@ -34937,12 +34937,12 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			504,
+			2824,
+			3151,
 			83,
 			88
 		},
@@ -34962,17 +34962,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			931,
+			3760,
+			1603,
 			82,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0140"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -34987,17 +34987,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3549,
-			931,
+			3760,
+			1603,
 			82,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0141"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35012,12 +35012,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3196,
-			1090,
+			2311,
+			2309,
 			93,
 			97
 		},
@@ -35037,12 +35037,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3196,
-			1090,
+			2311,
+			2309,
 			93,
 			97
 		},
@@ -35062,17 +35062,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			2280,
+			2830,
+			1740,
 			107,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0144"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35087,17 +35087,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			2280,
+			2830,
+			1740,
 			107,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0145"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35112,12 +35112,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3786,
-			264,
+			2474,
+			1202,
 			114,
 			92
 		},
@@ -35137,12 +35137,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3786,
-			264,
+			2474,
+			1202,
 			114,
 			92
 		},
@@ -35162,17 +35162,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			2475,
+			2659,
+			1855,
 			109,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0148"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35187,17 +35187,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			2475,
+			2659,
+			1855,
 			109,
 			84
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0149"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35212,17 +35212,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3386,
-			2250,
+			2661,
+			2198,
 			95,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0150"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35237,17 +35237,17 @@ return {
             0
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3386,
-			2250,
+			2661,
+			2198,
 			95,
 			85
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0151"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35262,12 +35262,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2771,
-			2539,
+			3103,
+			3153,
 			81,
 			83
 		},
@@ -35287,12 +35287,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2771,
-			2539,
+			3103,
+			3153,
 			81,
 			83
 		},
@@ -35312,12 +35312,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2772,
-			401,
+			2589,
+			2415,
 			79,
 			95
 		},
@@ -35337,12 +35337,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2772,
-			401,
+			2589,
+			2415,
 			79,
 			95
 		},
@@ -35362,12 +35362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3194,
-			920,
+			2405,
+			2415,
 			96,
 			95
 		},
@@ -35387,12 +35387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3194,
-			920,
+			2405,
+			2415,
 			96,
 			95
 		},
@@ -35412,17 +35412,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2993,
-			2378,
+			2736,
+			1740,
 			109,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0158"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35437,17 +35437,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2993,
-			2378,
+			2736,
+			1740,
 			109,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0159"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35462,12 +35462,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			893,
+			2477,
+			2099,
 			104,
 			84
 		},
@@ -35487,12 +35487,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			893,
+			2477,
+			2099,
 			104,
 			84
 		},
@@ -35512,12 +35512,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1772,
-			3004,
+			3747,
+			952,
 			103,
 			90
 		},
@@ -35537,12 +35537,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1772,
-			3004,
+			3747,
+			952,
 			103,
 			90
 		},
@@ -35562,17 +35562,17 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2997,
-			2181,
+			2827,
+			1631,
 			96,
 			107
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0164"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35587,12 +35587,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2188,
-			2271,
+			2903,
+			1233,
 			98,
 			112
 		},
@@ -35612,12 +35612,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2188,
-			2271,
+			2903,
+			1233,
 			98,
 			112
 		},
@@ -35637,12 +35637,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1962,
-			2266,
+			2741,
+			148,
 			108,
 			110
 		},
@@ -35662,17 +35662,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			989,
+			3648,
+			1144,
 			103,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0168"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35687,17 +35687,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			989,
+			3648,
+			1144,
 			103,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0169"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35712,17 +35712,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1771,
-			2853,
+			3750,
+			757,
 			100,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0170"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35737,17 +35737,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1771,
-			2853,
+			3750,
+			757,
 			100,
 			94
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0171"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35762,12 +35762,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2090,
-			2157,
+			3253,
+			966,
 			112,
 			109
 		},
@@ -35787,17 +35787,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2979,
-			725,
+			1624,
+			2037,
 			130,
 			105
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0173"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35812,17 +35812,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			498,
+			1139,
+			3202,
 			127,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0174"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35837,17 +35837,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			498,
+			1139,
+			3202,
 			127,
 			93
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0175"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35862,17 +35862,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2778,
-			2180,
+			2639,
+			1745,
 			108,
 			95
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0176"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35887,12 +35887,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3633,
-			850,
+			3305,
+			1349,
 			99,
 			87
 		},
@@ -35912,12 +35912,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3633,
-			850,
+			3305,
+			1349,
 			99,
 			87
 		},
@@ -35937,17 +35937,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3445,
-			742,
+			2318,
+			2408,
 			102,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0179"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35962,17 +35962,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3445,
-			742,
+			2318,
+			2408,
 			102,
 			85
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0180"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -35987,17 +35987,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2993,
-			2378,
+			2736,
+			1740,
 			109,
 			92
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0181"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36012,12 +36012,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36037,12 +36037,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36062,12 +36062,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36087,12 +36087,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36112,12 +36112,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36137,12 +36137,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3212,
-			2185,
+			2745,
+			1851,
 			109,
 			92
 		},
@@ -36162,17 +36162,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2386,
-			2151,
+			1500,
+			3198,
 			114,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0188"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36187,17 +36187,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2386,
-			2151,
+			1500,
+			3198,
 			114,
 			97
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0189"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36212,12 +36212,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			743,
+			2849,
+			1958,
 			93,
 			107
 		},
@@ -36237,12 +36237,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			743,
+			2849,
+			1958,
 			93,
 			107
 		},
@@ -36262,12 +36262,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3852,
-			743,
+			2849,
+			1958,
 			93,
 			107
 		},
@@ -36287,17 +36287,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3291,
-			1096,
+			2504,
+			2512,
 			89,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0193"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36312,17 +36312,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3291,
-			1096,
+			2504,
+			2512,
 			89,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0194"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36337,17 +36337,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3291,
-			1096,
+			2504,
+			2512,
 			89,
 			101
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0195"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36362,12 +36362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1940,
-			2758,
+			3745,
+			853,
 			99,
 			97
 		},
@@ -36387,12 +36387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1940,
-			2758,
+			3745,
+			853,
 			99,
 			97
 		},
@@ -36412,12 +36412,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1940,
-			2758,
+			3745,
+			853,
 			99,
 			97
 		},
@@ -36437,12 +36437,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3210,
-			2073,
+			2639,
+			1633,
 			110,
 			87
 		},
@@ -36462,12 +36462,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3210,
-			2073,
+			2639,
+			1633,
 			110,
 			87
 		},
@@ -36487,12 +36487,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3210,
-			2073,
+			2639,
+			1633,
 			110,
 			87
 		},
@@ -36512,17 +36512,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2394,
+			3017,
+			1063,
 			119,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0202"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36537,17 +36537,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2394,
+			3017,
+			1063,
 			119,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0203"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36562,17 +36562,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1487,
-			2394,
+			3017,
+			1063,
 			119,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0204"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36587,17 +36587,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2296,
-			2152,
+			2900,
+			1143,
 			115,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0205"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36612,17 +36612,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2296,
-			2152,
+			2900,
+			1143,
 			115,
 			88
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0206"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36637,17 +36637,17 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1577,
-			2394,
+			1432,
+			3109,
 			117,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0207"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36662,17 +36662,17 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1577,
-			2394,
+			1432,
+			3109,
 			117,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0208"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36687,12 +36687,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3120,
-			1972,
+			2591,
+			1855,
 			115,
 			66
 		},
@@ -36712,12 +36712,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3120,
-			1972,
+			2591,
+			1855,
 			115,
 			66
 		},
@@ -36737,12 +36737,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3188,
-			1958,
+			3368,
+			597,
 			113,
 			69
 		},
@@ -36762,12 +36762,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1666,
-			2372,
+			2491,
+			1399,
 			117,
 			66
 		},
@@ -36787,12 +36787,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1666,
-			2372,
+			2491,
+			1399,
 			117,
 			66
 		},
@@ -36812,12 +36812,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			1855,
+			2594,
+			1972,
 			115,
 			69
 		},
@@ -36837,12 +36837,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			1855,
+			2594,
+			1972,
 			115,
 			69
 		},
@@ -36862,12 +36862,12 @@ return {
             2
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3369,
-			522,
+			892,
+			3225,
 			117,
 			70
 		},
@@ -36887,17 +36887,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3365,
-			2948,
+			3559,
+			2921,
 			65,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0217"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36912,17 +36912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3365,
-			2948,
+			3559,
+			2921,
 			65,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0218"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36937,17 +36937,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3691,
-			2952,
+			3536,
+			2676,
 			66,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0219"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36962,17 +36962,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3691,
-			2952,
+			3536,
+			2676,
 			66,
 			69
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0220"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -36987,12 +36987,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3350,
+			3744,
+			2739,
 			63,
 			69
 		},
@@ -37012,12 +37012,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3350,
+			3744,
+			2739,
 			63,
 			69
 		},
@@ -37037,17 +37037,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2202,
-			3292,
+			3782,
+			2326,
 			62,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0223"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37062,17 +37062,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2202,
-			3292,
+			3782,
+			2326,
 			62,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0224"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37087,17 +37087,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2447,
-			3052,
+			3657,
+			1996,
 			61,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0225"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37112,17 +37112,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2447,
-			3052,
+			3657,
+			1996,
 			61,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0226"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37137,17 +37137,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2858,
-			3073,
+			3652,
+			2326,
 			61,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0227"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37162,17 +37162,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2858,
-			3073,
+			3652,
+			2326,
 			61,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenLycan_0228"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37187,12 +37187,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3485,
-			3017,
+			3824,
+			2992,
 			65,
 			65
 		},
@@ -37212,12 +37212,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3485,
-			3017,
+			3824,
+			2992,
 			65,
 			65
 		},
@@ -37237,12 +37237,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2686,
-			3355,
+			3715,
+			2804,
 			68,
 			58
 		},
@@ -37262,12 +37262,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2686,
-			3355,
+			3715,
+			2804,
 			68,
 			58
 		},
@@ -37287,12 +37287,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3296,
-			2877,
+			3607,
+			2849,
 			69,
 			49
 		},
@@ -37312,12 +37312,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3296,
-			2877,
+			3607,
+			2849,
 			69,
 			49
 		},
@@ -37337,17 +37337,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3823,
-			3068,
+			4043,
+			1445,
 			68,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenLycan_0235"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37362,17 +37362,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3823,
-			3068,
+			4043,
+			1445,
 			68,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0001"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37387,12 +37387,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2105,
-			1396,
+			2142,
+			2777,
 			115,
 			123
 		},
@@ -37412,12 +37412,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2022,
-			2030,
+			2025,
+			2769,
 			115,
 			125
 		},
@@ -37437,12 +37437,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2139,
-			2030,
+			2026,
+			3024,
 			113,
 			125
 		},
@@ -37462,17 +37462,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2668,
-			1956,
+			2685,
+			1023,
 			113,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0005"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37487,12 +37487,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1853,
-			1314,
+			1735,
+			2280,
 			114,
 			121
 		},
@@ -37512,17 +37512,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2134,
-			1904,
+			2894,
+			596,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0007"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37537,12 +37537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2327,
-			745,
+			2568,
+			1061,
 			115,
 			122
 		},
@@ -37562,17 +37562,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			1835,
+			3137,
+			723,
 			115,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37587,12 +37587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2417,
-			1793,
+			2894,
+			712,
 			114,
 			124
 		},
@@ -37612,17 +37612,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2371,
-			2025,
+			2894,
+			828,
 			115,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37637,17 +37637,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1543,
-			1894,
+			2026,
+			2651,
 			116,
 			124
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37662,17 +37662,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1606,
-			1304,
+			1547,
+			2404,
 			115,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37687,12 +37687,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1564,
-			1421,
+			1965,
+			2408,
 			114,
 			127
 		},
@@ -37712,12 +37712,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1560,
-			1537,
+			1430,
+			2533,
 			114,
 			127
 		},
@@ -37737,12 +37737,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1693,
 			1430,
+			2649,
 			114,
 			127
 		},
@@ -37762,12 +37762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1822,
 			1430,
+			2765,
 			114,
 			127
 		},
@@ -37787,17 +37787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1689,
-			1546,
+			1792,
+			2519,
 			113,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37812,17 +37812,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2668,
-			1841,
+			3254,
+			723,
 			113,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37837,12 +37837,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3095,
-			594,
+			2431,
+			1660,
 			114,
 			128
 		},
@@ -37862,17 +37862,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3655,
-			264,
+			1125,
+			487,
 			114,
 			129
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37887,12 +37887,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1407,
-			2142,
+			1405,
+			2145,
 			114,
 			129
 		},
@@ -37912,17 +37912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3170,
-			404,
+			1624,
+			2144,
 			114,
 			129
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37937,12 +37937,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3421,
-			262,
+			1071,
+			2309,
 			115,
 			129
 		},
@@ -37962,17 +37962,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2596,
-			1266,
+			2853,
+			152,
 			115,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -37987,17 +37987,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			434,
-			1581,
+			971,
+			2826,
 			114,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38012,17 +38012,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1816,
-			1662,
+			1910,
+			2897,
 			114,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38037,17 +38037,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2189,
-			1528,
+			1733,
+			3166,
 			112,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38062,17 +38062,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1976,
-			1395,
+			1220,
+			2826,
 			112,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0029"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38087,17 +38087,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1818,
-			1546,
+			1792,
+			2648,
 			114,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38112,17 +38112,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3211,
-			594,
+			1967,
+			2060,
 			114,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38137,12 +38137,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3539,
-			392,
+			1305,
+			2309,
 			114,
 			128
 		},
@@ -38162,12 +38162,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2073,
-			1513,
+			1794,
+			3034,
 			114,
 			126
 		},
@@ -38187,12 +38187,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2250,
-			1897,
+			2026,
+			2896,
 			113,
 			126
 		},
@@ -38212,12 +38212,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2990,
-			989,
+			1392,
+			2014,
 			113,
 			129
 		},
@@ -38237,12 +38237,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3036,
-			1251,
+			1198,
+			2439,
 			113,
 			129
 		},
@@ -38262,17 +38262,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3327,
-			594,
+			1967,
+			2176,
 			113,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38287,17 +38287,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2571,
-			1604,
+			3020,
+			596,
 			115,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38312,12 +38312,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1443,
-			1504,
+			1792,
+			2777,
 			115,
 			127
 		},
@@ -38337,12 +38337,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2230,
-			1414,
+			1430,
+			2881,
 			112,
 			127
 		},
@@ -38362,12 +38362,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2479,
-			1464,
+			1430,
+			2995,
 			112,
 			127
 		},
@@ -38387,17 +38387,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2608,
-			1490,
+			2267,
+			2651,
 			112,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38412,17 +38412,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2737,
-			1493,
+			1847,
+			3162,
 			112,
 			127
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38437,12 +38437,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2984,
-			1498,
+			1907,
+			2524,
 			115,
 			127
 		},
@@ -38462,17 +38462,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2697,
-			1607,
+			3020,
+			722,
 			115,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38487,17 +38487,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2823,
-			1623,
+			3254,
+			597,
 			112,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38512,17 +38512,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2557,
-			1721,
+			3384,
+			468,
 			112,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38537,12 +38537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2683,
-			1724,
+			3166,
+			480,
 			115,
 			124
 		},
@@ -38562,12 +38562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2196,
-			1642,
+			2237,
+			2524,
 			115,
 			125
 		},
@@ -38587,12 +38587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2254,
-			2025,
+			1616,
+			3166,
 			115,
 			125
 		},
@@ -38612,17 +38612,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2793,
-			1854,
+			2416,
+			952,
 			115,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38637,17 +38637,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2543,
-			1952,
+			2453,
+			1077,
 			113,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0052"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38662,17 +38662,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2317,
-			1562,
+			1961,
+			3152,
 			113,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0053"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38687,17 +38687,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2444,
-			1578,
+			2076,
+			3151,
 			115,
 			125
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38712,17 +38712,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2809,
-			1737,
+			3137,
+			597,
 			115,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0055"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38737,17 +38737,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2365,
-			1909,
+			2533,
+			935,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0056"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38762,17 +38762,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2365,
-			1909,
+			2533,
+			935,
 			114,
 			124
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0057"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38787,17 +38787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2444,
-			745,
+			3328,
+			142,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0058"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38812,17 +38812,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2856,
-			594,
+			3531,
+			146,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38837,17 +38837,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			1000,
+			3661,
+			146,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0060"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38862,17 +38862,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1598,
-			779,
+			2453,
+			217,
 			122,
 			129
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38887,17 +38887,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2479,
-			1136,
+			3791,
+			146,
 			122,
 			128
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38912,12 +38912,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1976,
-			1168,
+			2293,
+			674,
 			122,
 			129
 		},
@@ -38937,17 +38937,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			505,
+			281,
+			2699,
 			168,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0064"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -38962,12 +38962,12 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			860,
-			1724,
+			1691,
+			406,
 			168,
 			131
 		},
@@ -38987,17 +38987,17 @@ return {
             3
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1113,
-			1036,
+			1691,
+			539,
 			168,
 			131
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39012,12 +39012,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1246,
-			1036,
+			493,
+			2215,
 			155,
 			121
 		},
@@ -39037,17 +39037,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1289,
-			1193,
+			1115,
+			1502,
 			155,
 			121
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0068"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39062,17 +39062,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			691,
-			2182,
+			2030,
+			817,
 			152,
 			106
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0069"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39087,12 +39087,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			610,
-			2726,
+			2050,
+			971,
 			152,
 			108
 		},
@@ -39112,17 +39112,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			471,
-			2979,
+			1282,
+			1296,
 			150,
 			154
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0071"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39137,12 +39137,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			163,
-			2423,
+			262,
+			1126,
 			150,
 			156
 		},
@@ -39162,12 +39162,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			822,
-			2569,
+			588,
+			2045,
 			142,
 			126
 		},
@@ -39187,12 +39187,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1081,
-			3126,
+			756,
+			2316,
 			142,
 			125
 		},
@@ -39212,12 +39212,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1425,
-			1887,
+			1223,
+			3071,
 			116,
 			125
 		},
@@ -39237,12 +39237,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1425,
-			1759,
+			1908,
+			2641,
 			116,
 			126
 		},
@@ -39262,17 +39262,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1856,
-			2157,
+			1858,
+			2165,
 			115,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0077"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39287,17 +39287,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1973,
-			2157,
+			1858,
+			2282,
 			115,
 			107
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39312,12 +39312,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3655,
-			380,
+			1102,
+			2942,
 			116,
 			127
 		},
@@ -39337,12 +39337,12 @@ return {
             5
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3655,
-			380,
+			1102,
+			2942,
 			116,
 			127
 		},
@@ -39362,17 +39362,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			1047,
+			2587,
+			336,
 			125,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0081"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39387,17 +39387,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			1047,
+			2587,
+			336,
 			125,
 			126
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39412,12 +39412,12 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1342,
-			641,
+			1436,
+			1155,
 			125,
 			138
 		},
@@ -39437,17 +39437,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1501,
-			337,
+			1234,
+			1625,
 			125,
 			138
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0084"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39462,12 +39462,12 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2185,
-			615,
+			2417,
+			675,
 			123,
 			128
 		},
@@ -39487,12 +39487,12 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2449,
-			869,
+			3086,
+			225,
 			123,
 			128
 		},
@@ -39512,12 +39512,12 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			623,
-			2979,
+			1307,
+			859,
 			106,
 			151
 		},
@@ -39537,12 +39537,12 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			623,
-			2979,
+			1307,
+			859,
 			106,
 			151
 		},
@@ -39562,12 +39562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1007,
-			2407,
+			2207,
+			1577,
 			102,
 			147
 		},
@@ -39587,12 +39587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1007,
-			2407,
+			2207,
+			1577,
 			102,
 			147
 		},
@@ -39612,12 +39612,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			248,
-			3149,
+			1842,
+			1294,
 			100,
 			164
 		},
@@ -39637,12 +39637,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			248,
-			3149,
+			1842,
+			1294,
 			100,
 			164
 		},
@@ -39662,12 +39662,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1186,
-			1206,
+			1681,
+			821,
 			101,
 			167
 		},
@@ -39687,12 +39687,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1186,
-			1206,
+			1681,
+			821,
 			101,
 			167
 		},
@@ -39712,17 +39712,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			152,
+			1926,
+			817,
 			102,
 			161
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39737,17 +39737,17 @@ return {
             9
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			152,
+			1926,
+			817,
 			102,
 			161
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenPhantom_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39762,17 +39762,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			963,
-			866,
+			1204,
+			381,
 			104,
 			169
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0097"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39787,17 +39787,17 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			963,
-			866,
+			1204,
+			381,
 			104,
 			169
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0098"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39812,17 +39812,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			949,
-			1397,
+			1205,
+			276,
 			103,
 			170
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39837,17 +39837,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			949,
-			1397,
+			1205,
+			276,
 			103,
 			170
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenPhantom_0100"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -39862,12 +39862,12 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3151,
-			1251,
+			2097,
+			2185,
 			104,
 			58
 		},
@@ -39887,12 +39887,12 @@ return {
             7
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3151,
-			1251,
+			2097,
+			2185,
 			104,
 			58
 		},
@@ -39912,12 +39912,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1247,
-			2671,
+			1563,
+			1156,
 			132,
 			136
 		},
@@ -39937,12 +39937,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1247,
-			2671,
+			1563,
+			1156,
 			132,
 			136
 		},
@@ -39962,12 +39962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			689,
-			2417,
+			1108,
+			1012,
 			131,
 			143
 		},
@@ -39987,12 +39987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			689,
-			2417,
+			1108,
+			1012,
 			131,
 			143
 		},
@@ -40012,12 +40012,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1318,
-			1505,
+			329,
+			2063,
 			123,
 			152
 		},
@@ -40037,12 +40037,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1318,
-			1505,
+			329,
+			2063,
 			123,
 			152
 		},
@@ -40062,12 +40062,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			315,
-			2423,
+			414,
+			2699,
 			127,
 			156
 		},
@@ -40087,12 +40087,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			315,
-			2423,
+			414,
+			2699,
 			127,
 			156
 		},
@@ -40112,12 +40112,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1170,
-			846,
+			746,
+			1369,
 			139,
 			144
 		},
@@ -40137,12 +40137,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1170,
-			846,
+			746,
+			1369,
 			139,
 			144
 		},
@@ -40162,17 +40162,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1241,
-			3270,
+			564,
+			1778,
 			119,
 			142
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40187,12 +40187,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1480,
-			913,
+			1260,
+			1752,
 			117,
 			138
 		},
@@ -40212,17 +40212,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1244,
-			2277,
+			585,
+			1899,
 			123,
 			144
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0014"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40237,17 +40237,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			559,
-			2264,
+			962,
+			1500,
 			127,
 			151
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0015"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40262,12 +40262,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1162,
-			1714,
+			451,
+			1901,
 			132,
 			155
 		},
@@ -40287,17 +40287,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3008,
-			262,
+			314,
+			1901,
 			135,
 			160
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40312,12 +40312,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			350,
-			3146,
+			1425,
+			992,
 			136,
 			161
 		},
@@ -40337,17 +40337,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			488,
-			3135,
+			1110,
+			1157,
 			137,
 			161
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40362,17 +40362,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2352,
-			207,
+			1801,
+			980,
 			138,
 			161
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40387,12 +40387,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			171,
-			2728,
+			1700,
+			1294,
 			140,
 			161
 		},
@@ -40412,12 +40412,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			313,
-			2728,
+			1784,
+			817,
 			140,
 			161
 		},
@@ -40437,12 +40437,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2515,
-			244,
+			1273,
+			1157,
 			137,
 			161
 		},
@@ -40462,12 +40462,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1179,
-			638,
+			1687,
+			672,
 			142,
 			161
 		},
@@ -40487,17 +40487,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			163,
-			2581,
+			1540,
+			666,
 			145,
 			153
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40512,17 +40512,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			256,
+			293,
+			1746,
 			145,
 			153
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40537,17 +40537,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			694,
-			1724,
+			1400,
+			657,
 			164,
 			138
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40562,12 +40562,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			432,
-			1723,
+			1112,
+			719,
 			167,
 			138
 		},
@@ -40587,17 +40587,17 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			404,
-			1048,
+			1868,
+			107,
 			188,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0029"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40612,17 +40612,17 @@ return {
             8
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			536,
-			1048,
+			414,
+			1152,
 			188,
 			130
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0030"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40637,17 +40637,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			646,
-			470,
+			509,
+			800,
 			210,
 			120
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40662,17 +40662,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			646,
-			347,
+			509,
+			588,
 			210,
 			121
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40687,8 +40687,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3534,
@@ -40712,12 +40712,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			122,
-			766,
+			3748,
+			1,
 			212,
 			143
 		},
@@ -40737,12 +40737,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			108,
-			1711,
+			117,
+			1101,
 			181,
 			143
 		},
@@ -40762,17 +40762,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1034,
-			304,
+			114,
+			1370,
 			181,
 			143
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40787,17 +40787,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1047,
-			120,
+			632,
+			615,
 			182,
 			146
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40812,17 +40812,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1047,
-			120,
+			632,
+			615,
 			182,
 			146
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0038"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -40837,12 +40837,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			253,
-			1722,
+			114,
+			1515,
 			177,
 			147
 		},
@@ -40862,12 +40862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			253,
-			1722,
+			114,
+			1515,
 			177,
 			147
 		},
@@ -40887,12 +40887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			646,
-			592,
+			108,
+			1664,
 			176,
 			143
 		},
@@ -40912,12 +40912,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			646,
-			592,
+			108,
+			1664,
 			176,
 			143
 		},
@@ -40937,12 +40937,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1720,
-			273,
+			864,
+			2942,
 			117,
 			138
 		},
@@ -40962,12 +40962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1286,
-			2955,
+			652,
+			2483,
 			117,
 			141
 		},
@@ -40987,12 +40987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1016,
-			2704,
+			1241,
+			1012,
 			117,
 			143
 		},
@@ -41012,12 +41012,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1016,
-			2704,
+			1241,
+			1012,
 			117,
 			143
 		},
@@ -41037,17 +41037,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2860,
-			724,
+			2720,
+			258,
 			117,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41062,17 +41062,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2860,
-			724,
+			2720,
+			258,
 			117,
 			131
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0048"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41087,12 +41087,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1016,
-			2556,
+			816,
+			615,
 			117,
 			146
 		},
@@ -41112,12 +41112,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1016,
-			2556,
+			816,
+			615,
 			117,
 			146
 		},
@@ -41137,17 +41137,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			691,
-			2063,
+			587,
+			2981,
 			117,
 			156
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41162,17 +41162,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			691,
-			2063,
+			587,
+			2981,
 			117,
 			156
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0052"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41187,12 +41187,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			822,
-			2417,
+			2160,
+			971,
 			117,
 			150
 		},
@@ -41212,12 +41212,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			822,
-			2417,
+			2160,
+			971,
 			117,
 			150
 		},
@@ -41237,12 +41237,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1599,
-			910,
+			1281,
+			720,
 			117,
 			137
 		},
@@ -41262,12 +41262,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1599,
-			910,
+			1281,
+			720,
 			117,
 			137
 		},
@@ -41287,12 +41287,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			590,
+			1115,
+			1625,
 			117,
 			137
 		},
@@ -41312,12 +41312,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1726,
-			590,
+			1115,
+			1625,
 			117,
 			137
 		},
@@ -41337,17 +41337,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			613,
+			983,
+			2942,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41362,17 +41362,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			613,
+			983,
+			2942,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0060"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41387,17 +41387,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			628,
+			988,
+			3081,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41412,17 +41412,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			628,
+			988,
+			3081,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41437,12 +41437,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			732,
+			1379,
+			1756,
 			117,
 			137
 		},
@@ -41462,12 +41462,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1845,
-			732,
+			1379,
+			1756,
 			117,
 			137
 		},
@@ -41487,17 +41487,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1273,
-			2809,
+			708,
+			1783,
 			113,
 			144
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0065"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41512,17 +41512,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1273,
-			2809,
+			708,
+			1783,
 			113,
 			144
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0066"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41537,12 +41537,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1135,
-			2544,
+			1941,
+			1146,
 			110,
 			146
 		},
@@ -41562,12 +41562,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1135,
-			2544,
+			1941,
+			1146,
 			110,
 			146
 		},
@@ -41587,12 +41587,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1135,
-			2544,
+			1941,
+			1146,
 			110,
 			146
 		},
@@ -41612,12 +41612,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1135,
-			2692,
+			2311,
+			1563,
 			110,
 			146
 		},
@@ -41637,12 +41637,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1135,
-			2692,
+			2311,
+			1563,
 			110,
 			146
 		},
@@ -41662,12 +41662,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1110,
-			2979,
+			644,
+			2336,
 			110,
 			145
 		},
@@ -41687,12 +41687,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1110,
-			2979,
+			644,
+			2336,
 			110,
 			145
 		},
@@ -41712,17 +41712,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2352,
-			347,
+			672,
+			3139,
 			110,
 			156
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0074"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41737,17 +41737,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2352,
-			347,
+			672,
+			3139,
 			110,
 			156
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0075"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41762,12 +41762,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			839,
-			2713,
+			2172,
+			1123,
 			110,
 			150
 		},
@@ -41787,12 +41787,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			839,
-			2713,
+			2172,
+			1123,
 			110,
 			150
 		},
@@ -41812,17 +41812,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			577,
-			2417,
+			1282,
+			1448,
 			110,
 			153
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41837,17 +41837,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			577,
-			2417,
+			1282,
+			1448,
 			110,
 			153
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41862,12 +41862,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			720,
-			2713,
+			2053,
+			1125,
 			117,
 			152
 		},
@@ -41887,12 +41887,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			720,
-			2713,
+			2053,
+			1125,
 			117,
 			152
 		},
@@ -41912,17 +41912,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			747,
+			1388,
+			1875,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0082"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41937,17 +41937,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			747,
+			1388,
+			1875,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0083"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -41962,12 +41962,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			866,
+			1700,
+			1697,
 			117,
 			137
 		},
@@ -41987,12 +41987,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1984,
-			866,
+			1700,
+			1697,
 			117,
 			137
 		},
@@ -42012,17 +42012,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1854,
-			1045,
+			1839,
+			1719,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0086"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42037,17 +42037,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1854,
-			1045,
+			1839,
+			1719,
 			117,
 			137
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42062,12 +42062,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1973,
-			1049,
+			1978,
+			1732,
 			117,
 			137
 		},
@@ -42087,12 +42087,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1973,
-			1049,
+			1978,
+			1732,
 			117,
 			137
 		},
@@ -42112,17 +42112,17 @@ return {
             87
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2404,
+			2909,
+			3160,
 			86,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0090"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42137,17 +42137,17 @@ return {
             87
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3653,
-			2404,
+			2909,
+			3160,
 			86,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0091"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42162,12 +42162,12 @@ return {
             93
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			732,
-			3130,
+			2138,
+			817,
 			152,
 			93
 		},
@@ -42187,12 +42187,12 @@ return {
             93
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			732,
-			3130,
+			2138,
+			817,
 			152,
 			93
 		},
@@ -42212,17 +42212,17 @@ return {
             80
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3086,
-			145,
+			946,
+			286,
 			204,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0094"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42237,17 +42237,17 @@ return {
             80
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3086,
-			145,
+			946,
+			286,
 			204,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42262,8 +42262,8 @@ return {
             64
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3309,
@@ -42287,8 +42287,8 @@ return {
             64
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			3309,
@@ -42312,8 +42312,8 @@ return {
             60
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42337,8 +42337,8 @@ return {
             60
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42362,8 +42362,8 @@ return {
             53
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			126,
@@ -42387,8 +42387,8 @@ return {
             53
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			126,
@@ -42412,8 +42412,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42437,8 +42437,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42462,8 +42462,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42487,8 +42487,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			1,
@@ -42512,8 +42512,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			314,
@@ -42537,8 +42537,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			314,
@@ -42562,8 +42562,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			606,
@@ -42587,8 +42587,8 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			606,
@@ -42612,12 +42612,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			544,
-			1864,
+			596,
+			1365,
 			148,
 			148
 		},
@@ -42637,12 +42637,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			544,
-			1864,
+			596,
+			1365,
 			148,
 			148
 		},
@@ -42662,17 +42662,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			959,
-			3130,
+			631,
+			890,
 			120,
 			148
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42687,17 +42687,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3533,
-			146,
+			1107,
+			3071,
 			129,
 			114
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42712,12 +42712,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3488,
-			522,
+			1570,
+			1796,
 			128,
 			114
 		},
@@ -42737,17 +42737,17 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			697,
-			2562,
+			2154,
+			455,
 			149,
 			123
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0115"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42762,12 +42762,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			731,
-			2979,
+			2184,
+			1426,
 			149,
 			123
 		},
@@ -42787,12 +42787,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1296,
-			1709,
+			1944,
+			1294,
 			161,
 			127
 		},
@@ -42812,12 +42812,12 @@ return {
             18
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			668,
-			1062,
+			268,
+			2217,
 			174,
 			127
 		},
@@ -42837,12 +42837,12 @@ return {
             33
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1734,
-			2258,
+			3138,
+			961,
 			113,
 			113
 		},
@@ -42862,17 +42862,17 @@ return {
             33
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2791,
-			1971,
+			2900,
+			945,
 			119,
 			115
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42887,17 +42887,17 @@ return {
             42
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2430,
-			1695,
+			1637,
+			2275,
 			125,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42912,17 +42912,17 @@ return {
             42
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1559,
-			2273,
+			3017,
+			1153,
 			119,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42937,17 +42937,17 @@ return {
             45
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2720,
-			1130,
+			2098,
+			1967,
 			135,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42962,17 +42962,17 @@ return {
             45
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2926,
-			1122,
+			2235,
+			1975,
 			135,
 			87
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0124"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -42987,12 +42987,12 @@ return {
             47
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1375,
-			781,
+			883,
+			2316,
 			142,
 			94
 		},
@@ -43012,17 +43012,17 @@ return {
             47
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1839,
-			317,
+			1181,
+			1905,
 			142,
 			94
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0126"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43037,12 +43037,12 @@ return {
             51
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			501,
+			2288,
+			581,
 			139,
 			91
 		},
@@ -43062,12 +43062,12 @@ return {
             51
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2853,
-			501,
+			2288,
+			581,
 			139,
 			91
 		},
@@ -43087,12 +43087,12 @@ return {
             69
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			330,
-			969,
+			171,
+			2902,
 			130,
 			77
 		},
@@ -43112,12 +43112,12 @@ return {
             69
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			330,
-			969,
+			171,
+			2902,
 			130,
 			77
 		},
@@ -43137,17 +43137,17 @@ return {
             72
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1848,
-			966,
+			3452,
+			142,
 			128,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0131"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43162,17 +43162,17 @@ return {
             72
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1848,
-			966,
+			3452,
+			142,
 			128,
 			77
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0132"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43187,17 +43187,17 @@ return {
             74
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2340,
-			1769,
+			1011,
+			3220,
 			126,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0133"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43212,17 +43212,17 @@ return {
             74
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2340,
-			1769,
+			1011,
+			3220,
 			126,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43237,17 +43237,17 @@ return {
             84
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1390,
-			2277,
+			1,
+			3228,
 			125,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0135"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43262,17 +43262,17 @@ return {
             84
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1390,
-			2277,
+			1,
+			3228,
 			125,
 			67
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0136"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43287,17 +43287,17 @@ return {
             87
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2521,
-			2371,
+			2431,
+			1790,
 			111,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0137"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43312,17 +43312,17 @@ return {
             87
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2521,
-			2371,
+			2431,
+			1790,
 			111,
 			63
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenRider_0138"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43337,8 +43337,8 @@ return {
             113
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			617,
@@ -43362,8 +43362,8 @@ return {
             113
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
 			617,
@@ -43387,12 +43387,12 @@ return {
             114
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2416,
-			3319,
+			3277,
+			2943,
 			58,
 			28
 		},
@@ -43412,12 +43412,12 @@ return {
             114
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2416,
-			3319,
+			3277,
+			2943,
 			58,
 			28
 		},
@@ -43437,17 +43437,17 @@ return {
             116
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2794,
+			4055,
+			225,
 			42,
 			28
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenRider_0143"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43462,14 +43462,39 @@ return {
             116
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2213,
-			2794,
+			4055,
+			225,
 			42,
 			28
+		},
+		alias = {},
+		textureRotated = true
+	},
+	["HalloweenRider_bomb"] = {
+		a_name = "go_enemies_kr2_halloween.dds",
+		size = {
+			85,
+			81
+		},
+		trim = {
+			15,
+            15,
+            15,
+            8
+		},
+		a_size = {
+			4092,
+			3296
+		},
+		f_quad = {
+			3963,
+			2919,
+			55,
+			58
 		},
 		alias = {},
 		textureRotated = false
@@ -43487,12 +43512,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2920,
+			3567,
+			2183,
 			71,
 			68
 		},
@@ -43512,12 +43537,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2358,
-			2920,
+			3567,
+			2183,
 			71,
 			68
 		},
@@ -43537,12 +43562,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3476,
-			2877,
+			3536,
+			2605,
 			67,
 			69
 		},
@@ -43562,12 +43587,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3476,
-			2877,
+			3536,
+			2605,
 			67,
 			69
 		},
@@ -43587,12 +43612,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2343,
-			3290,
+			3528,
+			2539,
 			64,
 			71
 		},
@@ -43612,12 +43637,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2343,
-			3290,
+			3528,
+			2539,
 			64,
 			71
 		},
@@ -43637,17 +43662,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3863,
-			1691,
+			3040,
+			3160,
 			61,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43662,17 +43687,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3863,
-			1691,
+			3040,
+			3160,
 			61,
 			82
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43687,17 +43712,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2154,
-			2472,
+			128,
+			3228,
 			67,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0010"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43712,17 +43737,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2154,
-			2472,
+			128,
+			3228,
 			67,
 			91
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0011"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43737,12 +43762,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1405,
-			3010,
+			3222,
+			3063,
 			72,
 			86
 		},
@@ -43762,12 +43787,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1405,
-			3010,
+			3222,
+			3063,
 			72,
 			86
 		},
@@ -43787,12 +43812,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1667,
-			2578,
+			3439,
+			594,
 			108,
 			66
 		},
@@ -43812,12 +43837,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1667,
-			2578,
+			3439,
+			594,
 			108,
 			66
 		},
@@ -43837,17 +43862,17 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3332,
-			1624,
+			3938,
+			1048,
 			102,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0016"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43862,17 +43887,17 @@ return {
             14
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3332,
-			1624,
+			3938,
+			1048,
 			102,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0017"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43887,12 +43912,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3731,
-			1310,
+			3657,
+			1576,
 			101,
 			72
 		},
@@ -43912,12 +43937,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3731,
-			1310,
+			3657,
+			1576,
 			101,
 			72
 		},
@@ -43937,17 +43962,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3016,
-			152,
+			2477,
+			2272,
 			103,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0020"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43962,17 +43987,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3075,
-			3015,
+			3568,
+			2253,
 			71,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0021"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -43987,17 +44012,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3199,
-			2647,
+			3190,
+			1702,
 			72,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44012,17 +44037,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3199,
-			2647,
+			3190,
+			1702,
 			72,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44037,17 +44062,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2710,
-			3011,
+			4023,
+			2013,
 			72,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0024"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44062,17 +44087,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2710,
-			3011,
+			4023,
+			2013,
 			72,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44087,12 +44112,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2783,
-			3083,
+			3516,
+			2399,
 			71,
 			67
 		},
@@ -44112,12 +44137,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2783,
-			3083,
+			3516,
+			2399,
 			71,
 			67
 		},
@@ -44137,12 +44162,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3552,
-			2726,
+			2745,
+			3058,
 			71,
 			78
 		},
@@ -44162,12 +44187,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3552,
-			2726,
+			2745,
+			3058,
 			71,
 			78
 		},
@@ -44187,12 +44212,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3001,
+			3807,
+			1778,
 			71,
 			72
 		},
@@ -44212,12 +44237,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3001,
+			3807,
+			1778,
 			71,
 			72
 		},
@@ -44237,12 +44262,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3004,
-			2942,
+			3731,
+			2000,
 			72,
 			62
 		},
@@ -44262,12 +44287,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3004,
-			2942,
+			3731,
+			2000,
 			72,
 			62
 		},
@@ -44287,17 +44312,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2759,
-			3285,
+			3732,
+			2468,
 			69,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44312,17 +44337,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2759,
-			3285,
+			3732,
+			2468,
 			69,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44337,17 +44362,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3165,
-			2807,
+			3078,
+			2448,
 			67,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44362,17 +44387,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3165,
-			2807,
+			3078,
+			2448,
 			67,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0037"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44387,12 +44412,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3008,
-			2873,
+			3854,
+			1709,
 			67,
 			75
 		},
@@ -44412,12 +44437,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3008,
-			2873,
+			3854,
+			1709,
 			67,
 			75
 		},
@@ -44437,17 +44462,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3002,
-			3073,
+			4024,
+			1866,
 			67,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44462,17 +44487,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3002,
-			3073,
+			4024,
+			1866,
 			67,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44487,12 +44512,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3081,
-			2558,
+			3123,
+			2893,
 			67,
 			79
 		},
@@ -44512,12 +44537,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3081,
-			2558,
+			3123,
+			2893,
 			67,
 			79
 		},
@@ -44537,17 +44562,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3869,
-			1477,
+			3353,
+			3018,
 			67,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0044"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44562,17 +44587,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3869,
-			1477,
+			3353,
+			3018,
 			67,
 			76
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44587,17 +44612,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2929,
-			3141,
+			3427,
+			2180,
 			67,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44612,17 +44637,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2929,
-			3141,
+			3427,
+			2180,
 			67,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0047"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44637,17 +44662,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			2877,
+			3204,
+			1961,
 			67,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0048"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44662,17 +44687,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3085,
-			2877,
+			3204,
+			1961,
 			67,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0049"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44687,17 +44712,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2931,
-			2857,
+			3209,
+			2038,
 			68,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0050"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44712,17 +44737,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2931,
-			2857,
+			3209,
+			2038,
 			68,
 			75
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0051"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44737,12 +44762,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3406,
-			2878,
+			3491,
+			3063,
 			68,
 			68
 		},
@@ -44762,12 +44787,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3406,
-			2878,
+			3491,
+			3063,
 			68,
 			68
 		},
@@ -44787,12 +44812,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3479,
-			3084,
+			3823,
+			3059,
 			65,
 			65
 		},
@@ -44812,12 +44837,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3479,
-			3084,
+			3823,
+			3059,
 			65,
 			65
 		},
@@ -44837,12 +44862,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3807,
-			2115,
+			3245,
+			2355,
 			63,
 			75
 		},
@@ -44862,12 +44887,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3807,
-			2115,
+			3245,
+			2355,
 			63,
 			75
 		},
@@ -44887,12 +44912,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2858,
-			3000,
+			3423,
+			2041,
 			71,
 			71
 		},
@@ -44912,12 +44937,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2858,
-			3000,
+			3423,
+			2041,
 			71,
 			71
 		},
@@ -44937,17 +44962,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3352,
-			3152,
+			3417,
+			3132,
 			68,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0060"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44962,17 +44987,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3352,
-			3152,
+			3417,
+			3132,
 			68,
 			65
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -44987,12 +45012,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2784,
-			3016,
+			3805,
+			2041,
 			65,
 			72
 		},
@@ -45012,12 +45037,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2784,
-			3016,
+			3805,
+			2041,
 			65,
 			72
 		},
@@ -45037,12 +45062,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3210,
+			3444,
+			2779,
 			69,
 			68
 		},
@@ -45062,12 +45087,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2966,
-			3210,
+			3444,
+			2779,
 			69,
 			68
 		},
@@ -45087,12 +45112,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3075,
-			3085,
+			3601,
+			2539,
 			64,
 			71
 		},
@@ -45112,12 +45137,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3075,
-			3085,
+			3601,
+			2539,
 			64,
 			71
 		},
@@ -45137,12 +45162,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3622,
-			1628,
+			2405,
+			3119,
 			69,
 			78
 		},
@@ -45162,12 +45187,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3622,
-			1628,
+			2405,
+			3119,
 			69,
 			78
 		},
@@ -45187,12 +45212,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			2558,
+			3192,
+			2892,
 			83,
 			79
 		},
@@ -45212,12 +45237,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2996,
-			2558,
+			3192,
+			2892,
 			83,
 			79
 		},
@@ -45237,17 +45262,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3446,
-			2645,
+			2950,
+			2265,
 			76,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0072"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45262,17 +45287,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3446,
-			2645,
+			2950,
+			2265,
 			76,
 			74
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0073"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45287,12 +45312,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3135,
-			2639,
+			3298,
+			2699,
 			80,
 			62
 		},
@@ -45312,12 +45337,12 @@ return {
             16
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3338,
-			2721,
+			3083,
+			2124,
 			83,
 			62
 		},
@@ -45337,17 +45362,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1318,
-			1659,
+			4043,
+			346,
 			85,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0076"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45362,17 +45387,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1318,
-			1659,
+			4043,
+			346,
 			85,
 			48
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0077"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45387,12 +45412,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1985,
-			411,
+			4039,
+			583,
 			87,
 			52
 		},
@@ -45412,12 +45437,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1985,
-			411,
+			4039,
+			583,
 			87,
 			52
 		},
@@ -45437,12 +45462,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45462,12 +45487,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45487,12 +45512,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45512,12 +45537,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45537,12 +45562,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45562,12 +45587,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45587,12 +45612,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45612,12 +45637,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45637,12 +45662,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45662,12 +45687,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45687,12 +45712,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45712,12 +45737,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45737,12 +45762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2190,
-			2565,
+			3179,
+			2711,
 			89,
 			54
 		},
@@ -45762,12 +45787,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			2946,
+			3961,
+			2791,
 			56,
 			62
 		},
@@ -45787,12 +45812,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2431,
-			2946,
+			3961,
+			2791,
 			56,
 			62
 		},
@@ -45812,12 +45837,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1675,
-			2796,
+			3369,
+			820,
 			105,
 			89
 		},
@@ -45837,12 +45862,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1675,
-			2796,
+			3369,
+			820,
 			105,
 			89
 		},
@@ -45862,12 +45887,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1734,
-			2373,
+			2616,
+			700,
 			108,
 			105
 		},
@@ -45887,12 +45912,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1734,
-			2373,
+			2616,
+			700,
 			108,
 			105
 		},
@@ -45912,17 +45937,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3488,
-			638,
+			1664,
+			2402,
 			128,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45937,17 +45962,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3488,
-			638,
+			1664,
+			2402,
 			128,
 			102
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0100"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -45962,12 +45987,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			248,
-			3315,
+			2147,
+			580,
 			139,
 			98
 		},
@@ -45987,12 +46012,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			248,
-			3315,
+			2147,
+			580,
 			139,
 			98
 		},
@@ -46012,12 +46037,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2747,
-			1399,
+			375,
+			672,
 			132,
 			92
 		},
@@ -46037,12 +46062,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2747,
-			1399,
+			375,
+			672,
 			132,
 			92
 		},
@@ -46062,12 +46087,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1016,
+			2382,
+			2780,
 			92,
 			96
 		},
@@ -46087,12 +46112,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1016,
+			2382,
+			2780,
 			92,
 			96
 		},
@@ -46112,12 +46137,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			979,
+			2381,
+			2616,
 			96,
 			95
 		},
@@ -46137,12 +46162,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			979,
+			2381,
+			2616,
 			96,
 			95
 		},
@@ -46162,17 +46187,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3642,
-			1114,
+			3287,
+			1535,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0109"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46187,17 +46212,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3642,
-			1114,
+			3287,
+			1535,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46212,17 +46237,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1076,
+			3287,
+			1438,
 			96,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0111"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46237,17 +46262,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1076,
+			3287,
+			1438,
 			96,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46262,17 +46287,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3444,
-			1201,
+			3947,
+			1315,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46287,17 +46312,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3444,
-			1201,
+			3947,
+			1315,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0114"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46312,12 +46337,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			1379,
+			3559,
+			1477,
 			96,
 			95
 		},
@@ -46337,12 +46362,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			1379,
+			3559,
+			1477,
 			96,
 			95
 		},
@@ -46362,12 +46387,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3629,
-			1379,
+			3949,
+			1510,
 			92,
 			96
 		},
@@ -46387,12 +46412,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3629,
-			1379,
+			3949,
+			1510,
 			92,
 			96
 		},
@@ -46412,17 +46437,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3637,
-			2052,
+			2566,
+			3155,
 			87,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0119"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46437,17 +46462,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3637,
-			2052,
+			2566,
+			3155,
 			87,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46462,17 +46487,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3637,
-			2052,
+			2566,
+			3155,
 			87,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46487,17 +46512,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3150,
-			2561,
+			2944,
+			1958,
 			72,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46512,17 +46537,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3150,
-			2561,
+			2944,
+			1958,
 			72,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46537,17 +46562,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3150,
-			2561,
+			2944,
+			1958,
 			72,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0124"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46562,12 +46587,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1016,
+			2382,
+			2780,
 			92,
 			96
 		},
@@ -46587,12 +46612,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3640,
-			1016,
+			2382,
+			2780,
 			92,
 			96
 		},
@@ -46612,12 +46637,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			979,
+			2381,
+			2616,
 			96,
 			95
 		},
@@ -46637,12 +46662,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3734,
-			979,
+			2381,
+			2616,
 			96,
 			95
 		},
@@ -46662,17 +46687,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3642,
-			1114,
+			3287,
+			1535,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0129"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46687,17 +46712,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3642,
-			1114,
+			3287,
+			1535,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0130"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46712,17 +46737,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1076,
+			3287,
+			1438,
 			96,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0131"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46737,17 +46762,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3736,
-			1076,
+			3287,
+			1438,
 			96,
 			95
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0132"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46762,17 +46787,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3444,
-			1201,
+			3947,
+			1315,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0133"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46787,17 +46812,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3444,
-			1201,
+			3947,
+			1315,
 			92,
 			96
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46812,12 +46837,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			1379,
+			3559,
+			1477,
 			96,
 			95
 		},
@@ -46837,12 +46862,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			1379,
+			3559,
+			1477,
 			96,
 			95
 		},
@@ -46862,12 +46887,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3629,
-			1379,
+			3949,
+			1510,
 			92,
 			96
 		},
@@ -46887,12 +46912,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3629,
-			1379,
+			3949,
+			1510,
 			92,
 			96
 		},
@@ -46912,17 +46937,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3637,
-			2052,
+			2566,
+			3155,
 			87,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0139"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46937,17 +46962,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3637,
-			2052,
+			2566,
+			3155,
 			87,
 			86
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0140"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46962,17 +46987,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3150,
-			2561,
+			2944,
+			1958,
 			72,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0141"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -46987,17 +47012,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3150,
-			2561,
+			2944,
+			1958,
 			72,
 			81
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0142"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47012,17 +47037,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1647,
-			273,
+			3362,
+			2708,
 			62,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0143"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47037,17 +47062,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1647,
-			273,
+			3362,
+			2708,
 			62,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenWerewolf_0144"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47062,17 +47087,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3219,
-			3152,
+			3744,
+			2608,
 			65,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0145"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47087,17 +47112,17 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3219,
-			3152,
+			3744,
+			2608,
 			65,
 			69
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenWerewolf_0146"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47112,12 +47137,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			3215,
+			3640,
+			2059,
 			71,
 			68
 		},
@@ -47137,12 +47162,12 @@ return {
             17
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2685,
-			3215,
+			3640,
+			2059,
 			71,
 			68
 		},
@@ -47162,17 +47187,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3797,
-			3260,
+			3601,
+			1988,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0002"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47187,17 +47212,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3797,
-			3260,
+			3601,
+			1988,
 			54,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0003"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47212,12 +47237,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			3360,
+			2496,
+			3242,
 			53,
 			64
 		},
@@ -47237,12 +47262,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			3360,
+			2496,
+			3242,
 			53,
 			64
 		},
@@ -47262,12 +47287,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3416,
-			3222,
+			3769,
+			3199,
 			49,
 			67
 		},
@@ -47287,12 +47312,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3416,
-			3222,
+			3769,
+			3199,
 			49,
 			67
 		},
@@ -47312,17 +47337,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3516,
-			3218,
+			4023,
+			2160,
 			49,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0008"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47337,17 +47362,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3516,
-			3218,
+			4023,
+			2160,
 			49,
 			67
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0009"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47362,12 +47387,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3894,
-			2990,
+			3970,
+			2128,
 			51,
 			65
 		},
@@ -47387,12 +47412,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3894,
-			2990,
+			3970,
+			2128,
 			51,
 			65
 		},
@@ -47412,17 +47437,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3733,
-			3358,
+			3956,
+			3193,
 			55,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0012"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47437,17 +47462,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3733,
-			3358,
+			3956,
+			3193,
 			55,
 			60
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0013"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47462,12 +47487,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3804,
-			3316,
+			3784,
+			2211,
 			54,
 			62
 		},
@@ -47487,12 +47512,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3804,
-			3316,
+			3784,
+			2211,
 			54,
 			62
 		},
@@ -47512,12 +47537,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			3362,
+			3756,
+			2936,
 			51,
 			67
 		},
@@ -47537,12 +47562,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3181,
-			3362,
+			3756,
+			2936,
 			51,
 			67
 		},
@@ -47562,17 +47587,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3422,
-			3291,
+			3825,
+			2941,
 			49,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0018"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47587,17 +47612,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3422,
-			3291,
+			3825,
+			2941,
 			49,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0019"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47612,12 +47637,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3894,
-			2921,
+			3846,
+			2326,
 			51,
 			67
 		},
@@ -47637,12 +47662,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3894,
-			2921,
+			3846,
+			2326,
 			51,
 			67
 		},
@@ -47662,17 +47687,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3645,
-			3140,
+			3848,
+			2211,
 			54,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0022"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47687,17 +47712,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3645,
-			3140,
+			3848,
+			2211,
 			54,
 			64
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0023"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47712,17 +47737,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2655,
-			2731,
+			3897,
+			2267,
 			57,
 			60
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0024"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47737,17 +47762,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3898,
-			2649,
+			3578,
+			2800,
 			47,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0025"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47762,17 +47787,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3898,
-			2649,
+			3578,
+			2800,
 			47,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0026"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47787,17 +47812,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2042,
-			2752,
+			3475,
+			1826,
 			50,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0027"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47812,17 +47837,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2042,
-			2752,
+			3475,
+			1826,
 			50,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0028"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47837,12 +47862,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			3218,
+			4041,
+			1372,
 			50,
 			71
 		},
@@ -47862,12 +47887,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3105,
-			3218,
+			4041,
+			1372,
 			50,
 			71
 		},
@@ -47887,17 +47912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3092,
-			937,
+			4041,
+			752,
 			50,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0031"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47912,17 +47937,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3092,
-			937,
+			4041,
+			752,
 			50,
 			73
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0032"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47937,17 +47962,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3075,
+			4043,
+			509,
 			48,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0033"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47962,17 +47987,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3075,
+			4043,
+			509,
 			48,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0034"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -47987,17 +48012,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3898,
-			2577,
+			3322,
+			2649,
 			47,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0035"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48012,17 +48037,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3898,
-			2577,
+			3322,
+			2649,
 			47,
 			70
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0036"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48037,12 +48062,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3467,
-			3220,
+			3747,
+			3129,
 			47,
 			68
 		},
@@ -48062,12 +48087,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3467,
-			3220,
+			3747,
+			3129,
 			47,
 			68
 		},
@@ -48087,17 +48112,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2041,
-			2804,
+			3475,
+			1898,
 			50,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0039"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48112,17 +48137,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2041,
-			2804,
+			3475,
+			1898,
 			50,
 			70
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0040"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48137,17 +48162,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3747,
-			2837,
+			3393,
+			2781,
 			49,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0041"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48162,17 +48187,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3747,
-			2837,
+			3393,
+			2781,
 			49,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0042"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48187,17 +48212,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3125,
+			4041,
+			1298,
 			50,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0043"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48212,17 +48237,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2563,
-			3125,
+			4041,
+			1298,
 			50,
 			72
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0044"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48237,17 +48262,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2025,
-			107,
+			3879,
+			2062,
 			45,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0045"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48262,17 +48287,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2025,
-			107,
+			3879,
+			2062,
 			45,
 			72
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0046"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48287,12 +48312,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			2480,
+			3802,
+			2398,
 			45,
 			70
 		},
@@ -48312,12 +48337,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			2480,
+			3802,
+			2398,
 			45,
 			70
 		},
@@ -48337,12 +48362,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3660,
-			3206,
+			3979,
+			2453,
 			45,
 			64
 		},
@@ -48362,12 +48387,12 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3660,
-			3206,
+			3979,
+			2453,
 			45,
 			64
 		},
@@ -48387,12 +48412,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3798,
-			2905,
+			3648,
+			2802,
 			45,
 			65
 		},
@@ -48412,12 +48437,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3798,
-			2905,
+			3648,
+			2802,
 			45,
 			65
 		},
@@ -48437,17 +48462,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3317,
-			3361,
+			1518,
+			1841,
 			50,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0053"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48462,17 +48487,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3317,
-			3361,
+			1518,
+			1841,
 			50,
 			68
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0054"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48487,12 +48512,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3543,
-			3151,
+			3860,
+			3126,
 			49,
 			65
 		},
@@ -48512,12 +48537,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3543,
-			3151,
+			3860,
+			3126,
 			49,
 			65
 		},
@@ -48537,17 +48562,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3387,
-			3361,
+			3970,
+			2195,
 			50,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0057"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48562,17 +48587,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3387,
-			3361,
+			3970,
+			2195,
 			50,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0058"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48587,17 +48612,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3875,
-			3361,
+			3992,
+			2583,
 			47,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0059"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48612,17 +48637,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3875,
-			3361,
+			3992,
+			2583,
 			47,
 			62
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0060"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48637,17 +48662,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3822,
-			3118,
+			3943,
+			2659,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0061"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48662,17 +48687,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3822,
-			3118,
+			3943,
+			2659,
 			47,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0062"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -48687,12 +48712,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3610,
-			3218,
+			4043,
+			1583,
 			48,
 			65
 		},
@@ -48712,12 +48737,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3610,
-			3218,
+			4043,
+			1583,
 			48,
 			65
 		},
@@ -48737,12 +48762,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			3290,
+			3695,
+			3129,
 			50,
 			68
 		},
@@ -48762,12 +48787,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3473,
-			3290,
+			3695,
+			3129,
 			50,
 			68
 		},
@@ -48787,12 +48812,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3525,
-			3287,
+			3849,
+			2395,
 			50,
 			67
 		},
@@ -48812,12 +48837,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3525,
-			3287,
+			3849,
+			2395,
 			50,
 			67
 		},
@@ -48837,12 +48862,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3770,
-			3077,
+			3944,
+			2725,
 			50,
 			64
 		},
@@ -48862,12 +48887,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3770,
-			3077,
+			3944,
+			2725,
 			50,
 			64
 		},
@@ -48887,12 +48912,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2113,
-			2804,
+			3992,
+			2647,
 			47,
 			62
 		},
@@ -48912,12 +48937,12 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2113,
-			2804,
+			3992,
+			2647,
 			47,
 			62
 		},
@@ -48937,12 +48962,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3740,
-			3253,
+			3963,
+			2855,
 			55,
 			62
 		},
@@ -48962,12 +48987,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3740,
-			3253,
+			3963,
+			2855,
 			55,
 			62
 		},
@@ -48987,12 +49012,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3684,
-			3272,
+			3914,
+			2128,
 			54,
 			64
 		},
@@ -49012,12 +49037,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3634,
-			3285,
+			4043,
+			1650,
 			48,
 			65
 		},
@@ -49037,12 +49062,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3634,
-			3285,
+			4043,
+			1650,
 			48,
 			65
 		},
@@ -49062,17 +49087,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3362,
+			3421,
+			1968,
 			51,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0078"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49087,17 +49112,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3037,
-			3362,
+			3421,
+			1968,
 			51,
 			71
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0079"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49112,12 +49137,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3204,
+			3602,
+			1714,
 			53,
 			72
 		},
@@ -49137,12 +49162,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3204,
+			3602,
+			1714,
 			53,
 			72
 		},
@@ -49162,12 +49187,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3204,
+			3602,
+			1714,
 			53,
 			72
 		},
@@ -49187,12 +49212,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2421,
-			3204,
+			3602,
+			1714,
 			53,
 			72
 		},
@@ -49212,17 +49237,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3667,
-			3352,
+			3881,
+			2735,
 			64,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0084"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49237,17 +49262,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3667,
-			3352,
+			3881,
+			2735,
 			64,
 			61
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0085"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49262,17 +49287,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2823,
-			3355,
+			3958,
+			2388,
 			63,
 			58
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0086"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49287,17 +49312,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3539,
-			3356,
+			3996,
+			2711,
 			62,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0087"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49312,12 +49337,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3603,
-			3353,
+			3958,
+			2326,
 			62,
 			60
 		},
@@ -49337,12 +49362,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3888,
-			3181,
+			3948,
+			3055,
 			57,
 			60
 		},
@@ -49362,12 +49387,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3888,
-			3181,
+			3948,
+			3055,
 			57,
 			60
 		},
@@ -49387,12 +49412,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3888,
-			3181,
+			3948,
+			3055,
 			57,
 			60
 		},
@@ -49412,17 +49437,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			3355,
+			4020,
+			2838,
 			58,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0092"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49437,17 +49462,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2888,
-			3355,
+			4020,
+			2838,
 			58,
 			61
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0093"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49462,12 +49487,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3888,
-			3118,
+			3948,
+			2992,
 			57,
 			61
 		},
@@ -49487,17 +49512,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2785,
+			3307,
+			3131,
 			61,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0095"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49512,17 +49537,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2785,
+			3307,
+			3131,
 			61,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0096"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49537,12 +49562,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3217,
-			2721,
+			3026,
+			2216,
 			61,
 			84
 		},
@@ -49562,12 +49587,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3217,
-			2721,
+			3026,
+			2216,
 			61,
 			84
 		},
@@ -49587,17 +49612,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2568,
-			2792,
+			3351,
+			2939,
 			69,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0099"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49612,17 +49637,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2568,
-			2792,
+			3351,
+			2939,
 			69,
 			77
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0100"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49637,12 +49662,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3074,
-			3151,
+			3674,
+			2539,
 			65,
 			71
 		},
@@ -49662,17 +49687,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3356,
-			3291,
+			3704,
+			2864,
 			64,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0102"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49687,17 +49712,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3356,
-			3291,
+			3704,
+			2864,
 			64,
 			68
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0103"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49712,12 +49737,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3545,
-			2877,
+			3626,
+			2920,
 			60,
 			69
 		},
@@ -49737,12 +49762,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3545,
-			2877,
+			3626,
+			2920,
 			60,
 			69
 		},
@@ -49762,17 +49787,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3157,
-			3218,
+			3567,
+			2052,
 			60,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0106"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49787,17 +49812,17 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3157,
-			3218,
+			3567,
+			2052,
 			60,
 			71
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0107"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49812,12 +49837,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1412,
-			1307,
+			3351,
+			1692,
 			58,
 			41
 		},
@@ -49837,12 +49862,12 @@ return {
             13
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1412,
-			1307,
+			3351,
+			1692,
 			58,
 			41
 		},
@@ -49862,17 +49887,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			3167,
+			4041,
+			2644,
 			61,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0110"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49887,17 +49912,17 @@ return {
             12
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3825,
-			3167,
+			4041,
+			2644,
 			61,
 			45
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0111"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49912,17 +49937,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2162,
-			2799,
+			4007,
+			3014,
 			60,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0112"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49937,17 +49962,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2162,
-			2799,
+			4007,
+			3014,
 			60,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0113"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49962,17 +49987,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2162,
-			2799,
+			4007,
+			3014,
 			60,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0114"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -49987,17 +50012,17 @@ return {
             10
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2162,
-			2799,
+			4007,
+			3014,
 			60,
 			44
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0115"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50012,17 +50037,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3316,
+			3487,
+			1692,
 			65,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0116"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50037,17 +50062,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2476,
-			3316,
+			3487,
+			1692,
 			65,
 			38
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0117"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50062,12 +50087,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2315,
-			2931,
+			297,
+			1370,
 			66,
 			41
 		},
@@ -50087,12 +50112,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2315,
-			2931,
+			297,
+			1370,
 			66,
 			41
 		},
@@ -50112,17 +50137,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2523,
-			3099,
+			2405,
+			3199,
 			69,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0120"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50137,17 +50162,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2523,
-			3099,
+			2405,
+			3199,
 			69,
 			38
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0121"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50162,17 +50187,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2320,
-			2855,
+			1112,
+			859,
 			73,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0122"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50187,17 +50212,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2320,
-			2855,
+			1112,
+			859,
 			73,
 			36
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0123"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50212,12 +50237,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2917,
+			763,
+			2805,
 			73,
 			36
 		},
@@ -50237,12 +50262,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2917,
+			763,
+			2805,
 			73,
 			36
 		},
@@ -50262,12 +50287,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1951,
-			1509,
+			1551,
+			3160,
 			60,
 			35
 		},
@@ -50287,12 +50312,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			1951,
-			1509,
+			1551,
+			3160,
 			60,
 			35
 		},
@@ -50312,12 +50337,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3603,
-			3079,
+			3426,
+			2708,
 			65,
 			38
 		},
@@ -50337,12 +50362,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3603,
-			3079,
+			3426,
+			2708,
 			65,
 			38
 		},
@@ -50362,12 +50387,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3567,
-			3218,
+			3811,
+			1687,
 			66,
 			41
 		},
@@ -50387,12 +50412,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3567,
-			3218,
+			3811,
+			1687,
 			66,
 			41
 		},
@@ -50412,17 +50437,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3823,
-			3022,
+			3658,
+			2849,
 			69,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0132"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50437,17 +50462,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3823,
-			3022,
+			3658,
+			2849,
 			69,
 			44
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0133"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50462,17 +50487,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2259,
-			3082,
+			3732,
+			1829,
 			73,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0134"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50487,17 +50512,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2259,
-			3082,
+			3732,
+			1829,
 			73,
 			46
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0135"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50512,17 +50537,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3358,
-			1808,
+			3807,
+			1852,
 			73,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0136"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50537,17 +50562,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3358,
-			1808,
+			3807,
+			1852,
 			73,
 			49
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0137"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50562,17 +50587,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3868,
-			3305,
+			3914,
+			2194,
 			60,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0138"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50587,17 +50612,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3868,
-			3305,
+			3914,
+			2194,
 			60,
 			54
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0139"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50612,17 +50637,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2614,
-			3356,
+			3899,
+			2326,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0140"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50637,17 +50662,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2614,
-			3356,
+			3899,
+			2326,
 			65,
 			57
 		},
 		alias = {},
-		textureRotated = false
+		textureRotated = true
 	},
 	["HalloweenZombie_0141"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50662,17 +50687,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2297,
-			3010,
+			3688,
+			2930,
 			66,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0142"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50687,17 +50712,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2297,
-			3010,
+			3688,
+			2930,
 			66,
 			59
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0143"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50712,17 +50737,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3281,
-			3015,
+			3487,
+			3133,
 			69,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0144"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50737,17 +50762,17 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3281,
-			3015,
+			3487,
+			3133,
 			69,
 			64
 		},
 		alias = {},
-		textureRotated = true
+		textureRotated = false
 	},
 	["HalloweenZombie_0145"] = {
 		a_name = "go_enemies_kr2_halloween.dds",
@@ -50762,12 +50787,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2848,
+			3949,
+			1792,
 			73,
 			67
 		},
@@ -50787,12 +50812,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			2489,
-			2848,
+			3949,
+			1792,
 			73,
 			67
 		},
@@ -50812,12 +50837,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2296,
+			3732,
+			1758,
 			73,
 			69
 		},
@@ -50837,12 +50862,12 @@ return {
             6
 		},
 		a_size = {
-			3946,
-			3414
+			4092,
+			3296
 		},
 		f_quad = {
-			3872,
-			2296,
+			3732,
+			1758,
 			73,
 			69
 		},

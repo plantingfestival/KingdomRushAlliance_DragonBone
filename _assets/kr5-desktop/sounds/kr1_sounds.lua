@@ -879,6 +879,25 @@ return {
 		gain = 0.2,
 		loop = false,
 	},
+	KR1_MusicBossFight = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg",
+			"MusicBossFight.ogg"
+		}
+	},
+	MusicBattlePrep_114 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
 	MusicBattlePrep_115 = {
 		source_group = "MUSIC",
 		gain = 0.9,
@@ -888,15 +907,6 @@ return {
 			"MusicBattlePreparationsWastelands.ogg"
 		}
 	},
-	MusicBattle_115 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBattleUnderAttackWastelands.ogg"
-		}
-	},
 	MusicBattlePrep_122 = {
 		source_group = "MUSIC",
 		gain = 0.9,
@@ -904,6 +914,60 @@ return {
 		stream = true,
 		files = {
 			"MusicBattlePreparationsWastelands.ogg"
+		}
+	},
+	MusicBattlePrep_123 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_124 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_125 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattlePrep_126 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattle_114 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
+	MusicBattle_115 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackWastelands.ogg"
 		}
 	},
 	MusicBattle_122 = {
@@ -949,51 +1013,6 @@ return {
 		stream = true,
 		files = {
 			"CB_Battle.ogg"
-		}
-	},
-	MusicBattlePrep_123 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"CB_PreBattle.ogg"
-		}
-	},
-	MusicBattlePrep_124 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"CB_PreBattle.ogg"
-		}
-	},
-	MusicBattlePrep_125 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"CB_PreBattle.ogg"
-		}
-	},
-	MusicBattlePrep_126 = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"CB_PreBattle.ogg"
-		}
-	},
-	KR1_MusicBossFight = {
-		source_group = "MUSIC",
-		gain = 0.7,
-		loop = true,
-		stream = true,
-		files = {
-			"MusicBossFight.ogg"
 		}
 	},
 }

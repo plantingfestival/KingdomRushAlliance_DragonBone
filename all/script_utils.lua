@@ -144,6 +144,26 @@ local function unit_dodges(store, this, ranged_attack, attack, source)
 	return false
 end
 
+local function show_dodge_pop(store, this)
+	local pop = E:create_entity(this.dodge.pop or "pop_miss")
+
+	pop.pos = V.v(this.pos.x, this.pos.y)
+
+	if this.unit and this.unit.pop_offset then
+		pop.pos.y = pop.pos.y + this.unit.pop_offset.y
+	end
+
+	pop.pos.y = pop.pos.y + pop.pop_y_offset
+	pop.render.sprites[1].r = math.random(-21, 21) * math.pi / 180
+	pop.render.sprites[1].ts = store.tick_ts
+
+	queue_insert(store, pop)
+
+	if this.dodge.silent and not this.dodge.animation then
+		this.dodge.active = false
+	end
+end
+
 local function stun_inc(this)
 	if this and this.unit and not this.unit.ignore_stun then
 		local u = this.unit
@@ -567,7 +587,7 @@ local function y_hero_walk_waypoints(store, this, animation)
 		local an, af = U.animation_name_facing_point(this, animation, this.motion.dest)
 		local new_af = af
 
-		if x_to_flip > math.abs(this.pos.x - this.motion.dest.x) then
+		if last_af and x_to_flip > math.abs(this.pos.x - this.motion.dest.x) then
 			new_af = last_af
 		end
 
@@ -1317,8 +1337,8 @@ local function y_soldier_new_rally(store, this)
 		if r.delay_max then
 			U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop)
 
-			if y_soldier_wait(store, this, math.random() * r.delay_max) then
-				goto label_59_0
+			if y_soldier_wait(store, this, r.delay_min + (r.delay_max - r.delay_min) * math.random()) then
+				goto label_60_0
 			end
 		end
 
@@ -1346,7 +1366,7 @@ local function y_soldier_new_rally(store, this)
 		end
 	end
 
-	::label_59_0::
+	::label_60_0::
 
 	this.vis.bans = vis_bans
 	this.health.immune_to = prev_immune
@@ -1519,11 +1539,11 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 		for si, st in pairs(attack.shoot_times) do
 			while st > store.tick_ts - U.get_animation_ts(this, attack.sprite_group) do
 				if this.unit.is_stunned then
-					goto label_62_0
+					goto label_63_0
 				end
 
 				if this.health.dead or this.nav_rally and this.nav_rally.new then
-					goto label_62_1
+					goto label_63_1
 				end
 
 				coroutine.yield()
@@ -1556,7 +1576,12 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 			end
 
 			b.bullet.from = V.vclone(b.pos)
-			b.bullet.to = V.v(final_target.pos.x + final_target.unit.hit_offset.x, final_target.pos.y + final_target.unit.hit_offset.y)
+			b.bullet.to = V.v(final_target.pos.x, final_target.pos.y)
+			if not attack.ignore_hit_offset and final_target.unit.hit_offset and final_target.render then
+				local flip_sign = final_target.render.sprites[1].flip_x and -1 or 1
+				b.bullet.to.x = b.bullet.to.x + final_target.unit.hit_offset.x * flip_sign
+				b.bullet.to.y = b.bullet.to.y + final_target.unit.hit_offset.y
+			end
 			b.bullet.target_id = final_target.id
 			b.bullet.shot_index = si
 			b.bullet.loop_index = i
@@ -1565,6 +1590,16 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 
 			if IS_KR5 and attack.level then
 				b.bullet.level = attack.level
+			end
+
+			if b.bullet.use_unit_damage_factor then
+				b.bullet.damage_factor = this.unit.damage_factor
+			end
+			if b.bullet.vis_bans and U.flag_has(b.bullet.vis_bans, F_ENEMY) then
+				b.bullet.vis_bans = bor(U.flag_clear(b.bullet.vis_bans, F_ENEMY), F_FRIEND)
+			end
+			if b.bullet.damage_bans and U.flag_has(b.bullet.damage_bans, F_ENEMY) then
+				b.bullet.damage_bans = bor(U.flag_clear(b.bullet.damage_bans, F_ENEMY), F_FRIEND)
 			end
 
 			queue_insert(store, b)
@@ -1578,18 +1613,18 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 
 		while not U.animation_finished_group(this, attack.sprite_group) do
 			if this.unit.is_stunned then
-				goto label_62_0
+				goto label_63_0
 			end
 
 			if this.health.dead or this.nav_rally and this.nav_rally.new then
-				goto label_62_1
+				goto label_63_1
 			end
 
 			coroutine.yield()
 		end
 	end
 
-	::label_62_0::
+	::label_63_0::
 
 	if attack.animations[3] then
 		an, af, ai = U.animation_name_facing_point(this, attack.animations[3], final_target.pos)
@@ -1605,7 +1640,7 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 		end
 	end
 
-	::label_62_1::
+	::label_63_1::
 
 	if attack_done and attack.xp_from_skill_once then
 		hero_gain_xp_from_skill(this, this.hero.skills[attack.xp_from_skill_once])
@@ -1627,7 +1662,7 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 
 	while store.tick_ts - start_ts < attack.shoot_time do
 		if this.unit.is_stunned or this.health.dead or this.nav_rally and this.nav_rally.new then
-			goto label_63_0
+			goto label_64_0
 		end
 
 		coroutine.yield()
@@ -1652,8 +1687,9 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 		bullet.bullet.from = V.vclone(bullet.pos)
 		bullet.bullet.to = V.vclone(bullet_to)
 
-		if not attack.ignore_hit_offset then
-			bullet.bullet.to.x = bullet.bullet.to.x + target.unit.hit_offset.x
+		if not attack.ignore_hit_offset and target.unit.hit_offset and target.render then
+			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+			bullet.bullet.to.x = bullet.bullet.to.x + target.unit.hit_offset.x * flip_sign
 			bullet.bullet.to.y = bullet.bullet.to.y + target.unit.hit_offset.y
 		end
 
@@ -1664,6 +1700,12 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 
 		if bullet.bullet.use_unit_damage_factor then
 			bullet.bullet.damage_factor = this.unit.damage_factor
+		end
+		if bullet.bullet.vis_bans and U.flag_has(bullet.bullet.vis_bans, F_ENEMY) then
+			bullet.bullet.vis_bans = bor(U.flag_clear(bullet.bullet.vis_bans, F_ENEMY), F_FRIEND)
+		end
+		if bullet.bullet.damage_bans and U.flag_has(bullet.bullet.damage_bans, F_ENEMY) then
+			bullet.bullet.damage_bans = bor(U.flag_clear(bullet.bullet.damage_bans, F_ENEMY), F_FRIEND)
 		end
 
 		queue_insert(store, bullet)
@@ -1683,7 +1725,7 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 		end
 	end
 
-	::label_63_0::
+	::label_64_0::
 
 	return attack_done
 end
@@ -1849,7 +1891,7 @@ local function y_soldier_do_timed_attack(store, this, target, attack)
 
 	while store.tick_ts - start_ts < attack.cast_time do
 		if this.health.dead or this.unit.is_stunned or this.nav_rally and this.nav_rally.new then
-			goto label_68_0
+			goto label_69_0
 		end
 
 		coroutine.yield()
@@ -1872,7 +1914,7 @@ local function y_soldier_do_timed_attack(store, this, target, attack)
 		coroutine.yield()
 	end
 
-	::label_68_0::
+	::label_69_0::
 
 	S:stop(attack.sound)
 
@@ -1890,7 +1932,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 
 	while store.tick_ts - start_ts < attack.hit_time do
 		if this.health.dead or this.unit.is_stunned or this.dodge and this.dodge.active and not this.dodge.silent or this.nav_rally and this.nav_rally.new then
-			goto label_70_0
+			goto label_71_0
 		end
 
 		coroutine.yield()
@@ -2027,7 +2069,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 		coroutine.yield()
 	end
 
-	::label_70_0::
+	::label_71_0::
 
 	S:stop(attack.sound)
 
@@ -2051,7 +2093,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 		if attack.interrupt_loop_on_dead_target and target.health.dead then
 			log.debug("interrupt_loop_on_dead_target")
 
-			goto label_73_1
+			goto label_74_1
 		end
 
 		local loop_ts = store.tick_ts
@@ -2069,17 +2111,17 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 		for _, ht in pairs(hit_times) do
 			while ht > store.tick_ts - loop_ts do
 				if this.unit.is_stunned then
-					goto label_73_0
+					goto label_74_0
 				end
 
 				if attack.interrupt_on_dead_target and target.health.dead then
 					log.debug("interrupt_on_dead_target")
 
-					goto label_73_1
+					goto label_74_1
 				end
 
 				if this.health.dead or this.nav_rally and this.nav_rally.new then
-					goto label_73_1
+					goto label_74_1
 				end
 
 				coroutine.yield()
@@ -2109,14 +2151,14 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				end
 			end
 
+			local hit_pos = V.vclone(this.pos)
+
+			if attack.hit_offset then
+				hit_pos.x = hit_pos.x + (af and -1 or 1) * attack.hit_offset.x
+				hit_pos.y = hit_pos.y + attack.hit_offset.y
+			end
+
 			if attack.type == "area" then
-				local hit_pos = V.vclone(this.pos)
-
-				if attack.hit_offset then
-					hit_pos.x = hit_pos.x + (af and -1 or 1) * attack.hit_offset.x
-					hit_pos.y = hit_pos.y + attack.hit_offset.y
-				end
-
 				local targets = table.filter(store.entities, function(k, v)
 					return v.enemy and v.vis and v.health and not v.health.dead and band(v.vis.flags, attack.damage_bans) == 0 and band(v.vis.bans, attack.damage_flags) == 0 and U.is_inside_ellipse(v.pos, hit_pos, attack.damage_radius)
 				end)
@@ -2227,6 +2269,30 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 						queue_insert(store, m)
 					end
 				end
+
+				if attack.hit_fx then
+					local fx = E:create_entity(attack.hit_fx)
+
+					fx.pos = V.vclone(hit_pos)
+
+					for i = 1, #fx.render.sprites do
+						fx.render.sprites[i].ts = store.tick_ts
+					end
+
+					queue_insert(store, fx)
+				end
+
+				if attack.hit_decal then
+					local fx = E:create_entity(attack.hit_decal)
+
+					fx.pos = V.vclone(hit_pos)
+
+					for i = 1, #fx.render.sprites do
+						fx.render.sprites[i].ts = store.tick_ts
+					end
+
+					queue_insert(store, fx)
+				end
 			end
 
 			attack_done = true
@@ -2234,11 +2300,11 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 
 		while not U.animation_finished(this) do
 			if this.unit.is_stunned then
-				goto label_73_0
+				goto label_74_0
 			end
 
 			if this.health.dead or this.nav_rally and this.nav_rally.new then
-				goto label_73_1
+				goto label_74_1
 			end
 
 			coroutine.yield()
@@ -2249,7 +2315,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 		signal.emit("soldier-attack", this, attack, attack.signal)
 	end
 
-	::label_73_0::
+	::label_74_0::
 
 	S:queue(attack.sound_end)
 
@@ -2267,7 +2333,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 		end
 	end
 
-	::label_73_1::
+	::label_74_1::
 
 	S:stop(attack.sound)
 
@@ -2284,7 +2350,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 
 	while store.tick_ts - start_ts < attack.hit_time do
 		if this.health.dead or this.unit.is_stunned or this.dodge and this.dodge.active and not this.dodge.silent or not attack.ignore_rally_change and this.nav_rally and this.nav_rally.new then
-			goto label_75_0
+			goto label_76_0
 		end
 
 		coroutine.yield()
@@ -2444,7 +2510,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 		coroutine.yield()
 	end
 
-	::label_75_0::
+	::label_76_0::
 
 	S:stop(attack.sound)
 
@@ -2552,7 +2618,7 @@ local function soldier_pick_melee_attack(store, this, target)
 							local targets = U.find_enemies_in_range(store.entities, this.pos, 0, a.damage_radius, a.vis_flags, a.vis_bans)
 
 							if not targets or #targets < a.min_count then
-								goto label_81_0
+								goto label_82_0
 							end
 						end
 
@@ -2566,7 +2632,7 @@ local function soldier_pick_melee_attack(store, this, target)
 				end
 			end
 
-			::label_81_0::
+			::label_82_0::
 		end
 	end
 
@@ -3579,11 +3645,11 @@ local function y_enemy_do_loopable_ranged_attack(store, this, target, attack)
 		for si, st in pairs(shoot_times) do
 			while st > store.tick_ts - this.render.sprites[1].ts do
 				if this.unit.is_stunned and not attack.ignore_stun then
-					goto label_111_0
+					goto label_112_0
 				end
 
 				if this.health.dead then
-					goto label_111_1
+					goto label_112_1
 				end
 
 				coroutine.yield()
@@ -3614,18 +3680,18 @@ local function y_enemy_do_loopable_ranged_attack(store, this, target, attack)
 
 		while not U.animation_finished(this) do
 			if this.unit.is_stunned and not attack.ignore_stun then
-				goto label_111_0
+				goto label_112_0
 			end
 
 			if this.health.dead then
-				goto label_111_1
+				goto label_112_1
 			end
 
 			coroutine.yield()
 		end
 	end
 
-	::label_111_0::
+	::label_112_0::
 
 	an, af, ai = U.animation_name_facing_point(this, attack.animations[3], target.pos)
 
@@ -3639,7 +3705,7 @@ local function y_enemy_do_loopable_ranged_attack(store, this, target, attack)
 		coroutine.yield()
 	end
 
-	::label_111_1::
+	::label_112_1::
 
 	return attack_done
 end
@@ -3776,7 +3842,10 @@ local function y_enemy_melee_attacks(store, this, target)
 							queue_damage(store, d)
 						elseif ma.damage_min then
 							d.damage_type = ma.damage_type
-							d.value = math.ceil(this.unit.damage_factor * math.random(ma.damage_min, ma.damage_max))
+
+							local hit_factor = ma.hit_damage_factor and ma.hit_damage_factor[i] or 1
+
+							d.value = math.ceil(this.unit.damage_factor * hit_factor * math.random(ma.damage_min, ma.damage_max))
 
 							queue_damage(store, d)
 						end
@@ -4693,6 +4762,22 @@ local function check_create_payload(store, source_id, target_id, a, origin)
 	return created_entities
 end
 
+local function set_entity_nav_rally(entity, rallyCenter, rallyPos, squadId)
+	if entity.nav_rally then
+		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
+		if rallyPos then
+			entity.nav_rally.pos = rallyPos
+			entity.nav_rally.new = true
+		else
+			entity.nav_rally.pos = V.vclone(entity.pos)
+			entity.nav_rally.new = false
+		end
+	end
+	if entity.reinforcement and squadId then
+		entity.reinforcement.squad_id = squadId
+	end
+end
+
 local function hide_shadow(this, isHidden)
 	for _, sprite in pairs(this.render.sprites) do
 		if sprite.is_shadow then
@@ -5127,15 +5212,6 @@ local function entity_casts_spawner(store, this, a)
 		return false
 	end
 
-	local function set_entity_nav_rally(entity)
-		if entity.nav_rally and entity.pos then
-			local npos = V.vclone(entity.pos)
-			entity.nav_rally.center = npos
-			entity.nav_rally.pos = npos
-			entity.nav_rally.new = false
-		end
-	end
-
 	if a.custom_spawn_points and type(a.custom_spawn_points) == "table" then
 		local start_ts = store.tick_ts
 		S:queue(a.sound, a.sound_args)
@@ -5266,18 +5342,27 @@ local function entity_casts_range_unit(store, this, a)
 	local prediction_time = a.node_prediction or 0
 	local filter_fn, origin
 
-	local function get_target(prediction_time)
+	local function get_target(prediction_time, filter_fn)
 		return find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
 	end
 
-	local function check_target(prediction_time)
+	local function check_target(prediction_time, af)
 		if a.target_id then
 			return
 		end
 		local oldTarget = target
 		target = store.entities[target.id]
 		if not target or target.health.dead then
-			local newTarget, newTargets, newPredPos = get_target(prediction_time)
+			local newTarget, newTargets, newPredPos
+			if not a.ignore_flip_x then
+				local new_filter_fn = function(v, origin)
+					return (af and v.pos.x < origin.x or not af and v.pos.x >= origin.x) and 
+					(not filter_fn or filter_fn and filter_fn(v, origin))
+				end
+				newTarget, newTargets, newPredPos = get_target(prediction_time, new_filter_fn)
+			else
+				newTarget, newTargets, newPredPos = get_target(prediction_time, filter_fn)
+			end
 			if newTarget then
 				target = newTarget
 				targets = newTargets
@@ -5296,7 +5381,7 @@ local function entity_casts_range_unit(store, this, a)
 		for i = 1, max_bullets do
 			if i > 1 and not a.same_target then
 				target = targets[km.zmod(i, #targets)]
-				check_target(prediction_time)
+				check_target(prediction_time, af)
 			end
 			local tpi, tspi, tni
 			if target.nav_path then
@@ -5455,7 +5540,7 @@ local function entity_casts_range_unit(store, this, a)
 
 	filter_fn = get_attack_filter_function(a, this)
 	origin = get_entity_range_origin(this)
-	target, targets, pred_pos = get_target(a.cast_time + prediction_time)
+	target, targets, pred_pos = get_target(a.cast_time + prediction_time, filter_fn)
 
 	::label_start::
 	if target then
@@ -5490,7 +5575,7 @@ local function entity_casts_range_unit(store, this, a)
 					if i > 1 and a.different_targets then
 						target = targets[km.zmod(i, #targets)]
 					end
-					check_target(prediction_time)
+					check_target(prediction_time, af)
 					shoot_bullets(af, ai)
 				end
 				if y_entity_animation_wait(this) then
@@ -5513,7 +5598,7 @@ local function entity_casts_range_unit(store, this, a)
 		end
 		U.animation_start(this, an, af, store.tick_ts)
 		if not y_entity_wait(store, this, a.cast_time) then
-			check_target(prediction_time)
+			check_target(prediction_time, af)
 			shoot_bullets(af, ai)
 			a.ts = start_ts
 			if a.xp_from_skill then
@@ -5729,6 +5814,7 @@ local function entity_casts_object_on_target(store, this, a)
 				set_entity_pos(target)
 			end
 			set_entity_level(e, a.level)
+			set_entity_nav_rally(e)
 			if e.aura then
 				e.aura.target_id = target.id
 				e.aura.source_id = this.id
@@ -6299,6 +6385,7 @@ local SU = {
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
+	set_entity_nav_rally = set_entity_nav_rally,
 	hide_shadow = hide_shadow,
 	entity_interrupted = entity_interrupted,
 	entity_play_sound = entity_play_sound,

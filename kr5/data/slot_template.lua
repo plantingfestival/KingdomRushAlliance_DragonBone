@@ -194,6 +194,16 @@ return {
 					ultimate = 1
 				}
 			},
+			hero_wukong = {
+				xp = 0,
+				skills = {
+					giant_staff = 0,
+					pole_ranged = 0,
+					zhu_apprentice = 0,
+					hair_clones = 0,
+					ultimate = 1
+				}
+			},
 			hero_dracolich = {
 				xp = 0,
 				skills = {
@@ -272,6 +282,7 @@ return {
 			hermit_toad = {},
 			dwarf = {},
 			sparking_geode = {},
+			pandas = {},
 			rock_thrower = {},
 			warmongers_barrack = {},
 			ignis_altar = {},
@@ -315,6 +326,8 @@ return {
 			kr4_hero_alleria = 1,
 			hero_dragon = 1,
 			hero_wizard = 1,
+			hero_monk = 1,
+			hero_monkey_god = 1,
 			hero_dwarf = 1,
 			hero_vampiress = 1,
 			hero_elves_archer = 1,

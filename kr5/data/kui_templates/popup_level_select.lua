@@ -910,6 +910,66 @@ return {
 					}
 				},
 				{
+					vertical_align = "middle-caps",
+					text_align = "center",
+					font_size = 40,
+					line_height_extra = "2",
+					fit_size = true,
+					text = "heart of the forest",
+					text_key = "POPUP_label_title_options",
+					class = "GG5ShaderLabel",
+					id = "label_title_9",
+					font_name = "fla_h",
+					pos = v(-366.35, -335.9),
+					scale = v(0.9999, 0.9999),
+					size = v(702.9, 51.15),
+					colors = {
+						text = {
+							200,
+							254,
+							66
+						}
+					},
+					shaders = {
+						"p_bands",
+						"p_outline_tint"
+					},
+					shader_args = {
+						{
+							margin = 1,
+							p1 = 0.5,
+							p2 = 0.99,
+							c1 = {
+								0.9804,
+								0.9961,
+								0.2588,
+								1
+							},
+							c2 = {
+								0.8902,
+								0.6745,
+								0.1412,
+								1
+							},
+							c3 = {
+								0.8902,
+								0.6745,
+								0.1412,
+								1
+							}
+						},
+						{
+							thickness = 2.916666666666667,
+							outline_color = {
+								0.251,
+								0.0745,
+								0.0471,
+								1
+							}
+						}
+					}
+				},
+				{
 					id = "button_close_popup",
 					focus_image_name = "level_select_button_ui_level_select_close_0003",
 					class = "GG5Button",

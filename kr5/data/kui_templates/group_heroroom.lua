@@ -1190,6 +1190,13 @@ return {
 							class = "KImageView",
 							pos = v(-0.05, 211.95),
 							anchor = v(68, 66.9)
+						},
+						{
+							id = "button_hero_roster_23",
+							image_name = "hero_room_image_roster_thumb_empty_",
+							class = "KImageView",
+							pos = v(151.75, 211.95),
+							anchor = v(68, 66.9)
 						}
 					}
 				}

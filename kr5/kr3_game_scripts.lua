@@ -1,7 +1,5 @@
 local log = require("klua.log"):new("game_scripts")
 
-require("klua.table")
-
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local AC = require("achievements")
@@ -21,9 +19,10 @@ local band = bit.band
 local bor = bit.bor
 local bnot = bit.bnot
 
-require("i18n")
-
+package.loaded.scripts = nil
 local scripts = require("scripts")
+
+table.insert(__CHAINED_SCRIPTS, "kr3_game_scripts")
 
 local function queue_insert(store, e)
 	simulation:queue_insert_entity(e)
@@ -2120,57 +2119,57 @@ function scripts.tower_bastion.update(this, store)
 			this.ui.can_select = true
 		end
 	end
+	
+	local function tower_walk_waypoints(store, this, animation)
+		local animation = animation or "walk"
+		local r = this.nav_rally
+		local n = this.nav_grid
+		local dest = r.pos
+	
+		while not V.veq(this.pos, dest) do
+			local w = table.remove(n.waypoints, 1) or dest
+			local unsnap = #n.waypoints > 0
+	
+			U.set_destination(this, w)
+			-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
+
+			while not this.motion.arrived do
+				if r.new then
+					return false
+				end
+	
+				U.walk(this, store.tick_length, nil, unsnap)
+
+				coroutine.yield()
+	
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+			end
+		end
+	end
+
+	local function tower_new_rally(store, this)
+		local r = this.nav_rally
+
+		if r.new then
+			r.new = false
+
+			if this.sound_events and this.sound_events.change_rally_point then
+				S:queue(this.sound_events.change_rally_point)
+			end
+
+			local vis_bans = this.vis.bans
+			this.vis.bans = F_ALL
+
+			local out = tower_walk_waypoints(store, this, "idle")
+
+			this.vis.bans = vis_bans
+
+			return out
+		end
+	end
 
 	while true do
 		local skip
-		local function tower_walk_waypoints(store, this, animation)
-			local animation = animation or "walk"
-			local r = this.nav_rally
-			local n = this.nav_grid
-			local dest = r.pos
-		
-			while not V.veq(this.pos, dest) do
-				local w = table.remove(n.waypoints, 1) or dest
-				local unsnap = #n.waypoints > 0
-		
-				U.set_destination(this, w)
-				-- U.animation_start_group(this, animation, nil, store.tick_ts, true, animation_group)
-
-				while not this.motion.arrived do
-					if r.new then
-						return false
-					end
-		
-					U.walk(this, store.tick_length, nil, unsnap)
-
-					coroutine.yield()
-		
-					this.motion.speed.x, this.motion.speed.y = 0, 0
-				end
-			end
-		end
-
-		local function tower_new_rally(store, this)
-			local r = this.nav_rally
-
-			if r.new then
-				r.new = false
-
-				if this.sound_events and this.sound_events.change_rally_point then
-					S:queue(this.sound_events.change_rally_point)
-				end
-
-				local vis_bans = this.vis.bans
-				this.vis.bans = F_ALL
-
-				local out = tower_walk_waypoints(store, this, "idle")
-
-				this.vis.bans = vis_bans
-
-				return out
-			end
-		end
-
 		check_change_mode()
 
 		if this.tower.blocked then
@@ -2180,21 +2179,21 @@ function scripts.tower_bastion.update(this, store)
                 if tower_new_rally(store, this) then
                     skip = true
 				end
-				local available_paths = {}
-				for k, v in pairs(P.paths) do
-					table.insert(available_paths, k)
-				end
-				if store.level.ignore_walk_backwards_paths then
-					available_paths = table.filter(available_paths, function(k, v)
-						return not table.contains(store.level.ignore_walk_backwards_paths, v)
-					end)
-				end
-				local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
-				if #nodes > 0 then
-					local pi, spi, ni = unpack(nodes[1])
-					this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
-				end
             end
+			local available_paths = {}
+			for k, v in pairs(P.paths) do
+				table.insert(available_paths, k)
+			end
+			if store.level.ignore_walk_backwards_paths then
+				available_paths = table.filter(available_paths, function(k, v)
+					return not table.contains(store.level.ignore_walk_backwards_paths, v)
+				end)
+			end
+			local nodes = P:nearest_nodes(this.pos.x, this.pos.y, available_paths, nil, nil, NF_RALLY)
+			if #nodes > 0 then
+				local pi, spi, ni = unpack(nodes[1])
+				this.tower.default_rally_pos = P:node_pos(pi, spi, ni)
+			end
 		end
 
 		if not skip then
@@ -2948,6 +2947,24 @@ function scripts.soldier_drow.update(this, store)
 		this.vis._bans = nil
 	end
 
+	local function check_tower_damage_factor()
+		local tower = store.entities[this.soldier.tower_id]
+		if tower then
+			for _, a in ipairs(this.melee.attacks) do
+				if not a._original_damage_min then
+					a._original_damage_min = a.damage_min
+				end
+
+				if not a._original_damage_max then
+					a._original_damage_max = a.damage_max
+				end
+
+				a.damage_min = a._original_damage_min * tower.tower.damage_factor
+				a.damage_max = a._original_damage_max * tower.tower.damage_factor
+			end
+		end
+	end
+
 	while true do
 		if this.powers then
 			for pn, p in pairs(this.powers) do
@@ -2990,6 +3007,8 @@ function scripts.soldier_drow.update(this, store)
 					goto label_61_1
 				end
 			end
+
+			check_tower_damage_factor()
 
 			brk, sta = SU.y_soldier_melee_block_and_attacks(store, this)
 
@@ -3415,8 +3434,9 @@ function scripts.hero_elves_denas_ultimate.update(this, store)
 			local e = E:create_entity(this.guards_template)
 
 			e.pos = p
-			e.nav_rally.center = V.vclone(e.pos)
+			e.nav_rally.center = pos
 			e.nav_rally.pos = V.vclone(e.pos)
+			e.reinforcement.squad_id = this.id
 			-- e.melee.attacks[1].xp_dest_id = this.owner.id
 			-- e.melee.attacks[2].xp_dest_id = this.owner.id
 
@@ -22926,6 +22946,35 @@ function scripts.tower_black_baby_dragon.update(this, store)
 	end
 end
 
+scripts.kr5_tower_black_baby_dragon = {}
+function scripts.kr5_tower_black_baby_dragon.update(this, store)
+	local e = E:create_entity(this.dragon)
+	e.pos.x, e.pos.y = this.pos.x, this.pos.y + this.render.sprites[1].offset.y
+	e.sleep_pos = V.vclone(e.pos)
+	this.dragon = e
+	queue_insert(store, e)
+
+	while true do
+		this.ui.can_select = not e.attack_requested
+
+		if this.user_selection.arg and not e.attack_requested then
+			this.user_selection.arg = nil
+
+			local attack = this.attacks.list[1]
+
+			store.player_gold = store.player_gold - attack.price
+			e.attack_requested = true
+		end
+
+		coroutine.yield()
+	end
+end
+
+function scripts.kr5_tower_black_baby_dragon.remove(this, store)
+	queue_remove(store, this.dragon)
+	return true
+end
+
 scripts.decal_black_baby_dragon = {}
 
 function scripts.decal_black_baby_dragon.update(this, store)
@@ -23145,6 +23194,256 @@ function scripts.decal_black_baby_dragon.update(this, store)
 	end
 end
 
+scripts.kr5_decal_black_baby_dragon = {}
+scripts.kr5_decal_black_baby_dragon.attack_paths = {}
+function scripts.kr5_decal_black_baby_dragon.update(this, store)
+	local image_x = 128
+	local shadow_ref_height = 150
+	local shadow_offset = 0
+	local dragon_offset = V.v(-120, 40)
+	local dragon_sort_offset = -80
+	local ps_flame_offset = V.v(30, 66)
+	local s = this.render.sprites[1]
+	local zzz = this.render.sprites[2]
+	local shadow = this.render.sprites[3]
+	local attack = this.attacks.list[1]
+	local attack_paths = scripts.kr5_decal_black_baby_dragon.attack_paths
+
+	local function find_enemy()
+		local enemy = U.find_enemy_with_search_type(store.entities, this.pos, 0, attack.range, 0, attack.vis_flags, attack.vis_bans, nil, nil, U.search_type.custom, 
+		nil, nil, function(e1, e2)
+			local p1 = e1.nav_path
+			local p2 = e2.nav_path
+
+			if not attack_paths[p1.pi] then
+				if not attack_paths[p2.pi] then
+					return P:nodes_to_goal(p1.pi, p1.spi, p1.ni) < P:nodes_to_goal(p2.pi, p2.spi, p2.ni)
+				else
+					return true
+				end
+			elseif attack_paths[p2.pi] then
+				return P:nodes_to_goal(p1.pi, p1.spi, p1.ni) < P:nodes_to_goal(p2.pi, p2.spi, p2.ni)
+			end
+			return false
+		end)
+		return enemy
+	end
+
+	local function find_enemy_again(origin)
+		local enemy = U.find_enemy_with_search_type(store.entities, origin, 0, attack.range, 0, attack.vis_flags, attack.vis_bans, nil, nil, U.search_type.nearest)
+		return enemy
+	end
+
+	local function back_to_sleep()
+		U.animation_start(this, "fly", nil, store.tick_ts, true, 1)
+		this.motion.arrived = nil
+		while not this.motion.arrived do
+			s.flip_x = this.sleep_pos.x < this.pos.x
+			U.set_destination(this, this.sleep_pos)
+			U.walk(this, store.tick_length)
+			coroutine.yield()
+		end
+		this.motion.speed.x, this.motion.speed.y = 0, 0
+		s.flip_x = nil
+		
+		local land_duration = 1
+		U.y_ease_keys(store, {
+			s.offset
+		}, {
+			"y"
+		}, {
+			s.offset.y
+		}, {
+			s.offset.y - dragon_offset.y
+		}, land_duration, {
+			"linear"
+		})
+
+		U.y_animation_play(this, "land", false, store.tick_ts, 1, 1)
+		shadow.hidden = true
+		s.sort_y_offset = -13
+		s.z = Z_OBJECTS
+		U.animation_start(this, "idle", nil, store.tick_ts, true, 1)
+		this.attack_requested = nil
+	end
+
+	shadow.scale = V.v(1, 1)
+
+	local wakeup_ts = 0
+	local wakeup_cooldown = math.random(this.wakeup_cooldown_min, this.wakeup_cooldown_max)
+	local ps_flame = E:create_entity("ps_baby_black_dragon_flame")
+
+	ps_flame.particle_system.track_id = this.id
+	ps_flame.particle_system.emit = false
+	ps_flame.particle_system.track_offset = V.vclone(ps_flame_offset)
+	ps_flame.particle_system.sort_y_offset = -20
+
+	queue_insert(store, ps_flame)
+
+	while true do
+		if this.attack_requested then
+			S:queue(this.sound_events.wakeup, {
+				delay = fts(13)
+			})
+			U.y_animation_play(this, "wakeUp", false, store.tick_ts, 1, 1)
+
+			s.sort_y_offset = dragon_sort_offset
+			s.z = Z_FLYING_HEROES
+			shadow.hidden = nil
+			U.animation_start(this, "fly", nil, store.tick_ts, true, 1)
+			local takeoff_duration = 1
+			U.y_ease_keys(store, {
+				s.offset
+			}, {
+				"y"
+			}, {
+				s.offset.y
+			}, {
+				s.offset.y + dragon_offset.y
+			}, takeoff_duration, {
+				"linear"
+			})
+
+			local attack_start_ts = store.tick_ts
+			::label_find_enemy::
+			for p, t in pairs(attack_paths) do
+				if store.tick_ts - t > 12 then
+					attack_paths[p] = nil
+				end
+			end
+			local expired = nil
+			local enemy = find_enemy()
+			while not enemy do
+				U.y_wait(store, 0.1)
+				if store.tick_ts - attack_start_ts > this.attack_duration then
+					expired = true
+					break
+				end
+				enemy = find_enemy()
+			end
+			if not expired then
+				attack_paths[enemy.nav_path.pi] = store.tick_ts
+				this.motion.arrived = nil
+				local old_flip_sign
+				while not this.motion.arrived do
+					local old_enemy = enemy
+					local enemy = store.entities[enemy.id]
+					if not enemy or enemy.health and (enemy.health.dead or enemy.health.hp <= 0) then
+						enemy = find_enemy_again(old_enemy.pos)
+					end
+					if not enemy then
+						enemy = old_enemy
+					end
+					local flip_sign
+					if enemy.motion.speed.x < 0 then
+						flip_sign = -1
+					elseif enemy.motion.speed.x > 0 then
+						flip_sign = 1
+					elseif old_flip_sign then
+						flip_sign = old_flip_sign
+					elseif enemy.pos.x < this.pos.x then
+						flip_sign = -1
+					else
+						flip_sign = 1
+					end
+					local dest = V.v(enemy.pos.x + flip_sign * dragon_offset.x, enemy.pos.y)
+					s.flip_x = dest.x < this.pos.x
+					U.set_destination(this, dest)
+					U.walk(this, store.tick_length)
+					coroutine.yield()
+				end
+				this.motion.speed.x, this.motion.speed.y = 0, 0
+
+				s.flip_x = enemy.pos.x < this.pos.x
+				local flip_sign = s.flip_x and -1 or 1
+				ps_flame.particle_system.emit_direction = (s.flip_x and -5 or -1) * math.pi / 6
+				ps_flame.particle_system.scales_x = {
+					flip_sign,
+					flip_sign
+				}
+				S:queue(this.sound_events.fire_start)
+				S:queue(this.sound_events.fire_loop)
+				U.animation_start(this, "attack", nil, store.tick_ts, true, 1)
+				ps_flame.particle_system.emit = true
+				attack.ts = store.tick_ts
+				U.y_wait(store, attack.cast_time)
+				local hit_pos = V.v(this.pos.x - flip_sign * dragon_offset.x, this.pos.y)
+				local aura = E:create_entity(attack.aura)
+				aura.pos = hit_pos
+				aura.render.sprites[2].flip_x = true
+				queue_insert(store, aura)
+				local fx = E:create_entity(attack.hit_fx)
+				fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
+				fx.tween.ts = store.tick_ts
+				queue_insert(store, fx)
+				local controller1 = E:create_entity(attack.hit_payload)
+				controller1.pos.x, controller1.pos.y = hit_pos.x, hit_pos.y
+				controller1.path_index = enemy.nav_path.pi
+				local controller2 = E:create_entity(attack.hit_payload)
+				controller2.pos.x, controller2.pos.y = hit_pos.x, hit_pos.y
+				controller2.exclude_first_position = true
+				controller2.direction = -1
+				controller2.max_entities = controller2.max_entities - 1
+				controller2.path_index = enemy.nav_path.pi
+				local delay_controller = E:create_entity("entities_delay_controller")
+				delay_controller.start_ts = store.tick_ts
+				delay_controller.entities = { controller1, controller2 }
+				delay_controller.delays = { fts(2), 0.1 }
+				queue_insert(store, delay_controller)
+				local d = E:create_entity("damage")
+				d.source_id = this.id
+				d.target_id = enemy.id
+				d.value = math.random(attack.damage_min, attack.damage_max)
+				d.damage_type = attack.damage_type
+				queue_damage(store, d)
+				U.y_wait(store, attack.duration - attack.cast_time)
+				S:stop(this.sound_events.fire_loop)
+				S:queue(this.sound_events.fire_stop)
+				ps_flame.particle_system.emit = false
+				U.animation_start(this, "fly", nil, store.tick_ts, true, 1)
+				U.y_wait(store, attack.ts + attack.cooldown - store.tick_ts)
+				if store.tick_ts - attack_start_ts > this.attack_duration then
+					-- expired = true
+				else
+					goto label_find_enemy
+				end
+			end
+			back_to_sleep()
+		elseif wakeup_cooldown < store.tick_ts - wakeup_ts then
+			S:queue(this.sound_events.wakeup, {
+				delay = fts(13)
+			})
+			U.y_animation_play(this, "sneeze", nil, store.tick_ts, 1, 1)
+
+			wakeup_cooldown = math.random(this.wakeup_cooldown_min, this.wakeup_cooldown_max)
+			wakeup_ts = store.tick_ts
+		else
+			zzz.hidden = false
+			zzz.alpha = 255
+
+			U.animation_start(this, "zzz", nil, store.tick_ts, false, 2)
+
+			while not U.animation_finished(this, 2) do
+				if this.attack_requested then
+					this.tween.disabled = false
+					this.tween.props[1].time_offset = zzz.ts - store.tick_ts
+
+					U.y_wait(store, this.tween.props[1].keys[2][1])
+
+					this.tween.disabled = true
+					break
+				end
+
+				coroutine.yield()
+			end
+
+			zzz.hidden = true
+		end
+
+		coroutine.yield()
+	end
+end
+
 scripts.mod_black_baby_dragon = {}
 
 function scripts.mod_black_baby_dragon.insert(this, store)
@@ -23244,17 +23543,17 @@ end
 scripts.soldier_baby_ashbite = {}
 
 function scripts.soldier_baby_ashbite.ranged_filter_fn(e, origin)
-	local pp = P:predict_enemy_pos(e, fts(12))
-	local allow = math.abs(pp.x - origin.x) > 30
+	-- local pp = P:predict_enemy_pos(e, fts(12))
+	-- local allow = math.abs(pp.x - origin.x) > 30
 
-	return allow
+	return true
 end
 
 function scripts.soldier_baby_ashbite.blazing_breath_filter_fn(e, origin)
-	local pp = P:predict_enemy_pos(e, 0.33 + fts(9))
-	local allow = math.abs(pp.x - origin.x) > 30 and math.abs(pp.x - origin.x) < 150 and math.abs(pp.y - origin.y) < 120
+	-- local pp = P:predict_enemy_pos(e, 0.33 + fts(9))
+	-- local allow = math.abs(pp.x - origin.x) > 30 and math.abs(pp.x - origin.x) < 150 and math.abs(pp.y - origin.y) < 120
 
-	return allow
+	return true
 end
 
 function scripts.soldier_baby_ashbite.get_info(this)
@@ -23265,8 +23564,8 @@ function scripts.soldier_baby_ashbite.get_info(this)
 		type = STATS_TYPE_SOLDIER,
 		hp = this.health.hp,
 		hp_max = this.health.hp_max,
-		damage_min = min,
-		damage_max = max,
+		damage_min = math.ceil(min * this.unit.damage_factor),
+		damage_max = math.ceil(max * this.unit.damage_factor),
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
 		respawn = this.health.dead_lifetime
@@ -23318,6 +23617,11 @@ function scripts.soldier_baby_ashbite.update(this, store)
 
 		if this.health.dead then
 			SU.y_hero_death_and_respawn(store, this)
+		end
+
+		if this.unit.is_stunned then
+			SU.soldier_idle(store, this)
+			goto label_590_0
 		end
 
 		while this.nav_rally.new do

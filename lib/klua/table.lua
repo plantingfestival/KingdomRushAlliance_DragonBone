@@ -48,17 +48,122 @@ function table.clone(t)
 	return t2
 end
 
-function table.deepclone(t)
-	if type(t) == "table" then
-		local out = {}
+-- function table.deepclone(t)
+-- 	if type(t) == "table" then
+-- 		local out = {}
 
-		for k, v in pairs(t) do
-			out[k] = table.deepclone(v)
+-- 		for k, v in pairs(t) do
+-- 			out[k] = table.deepclone(v)
+-- 		end
+
+-- 		return out
+-- 	else
+-- 		return t
+-- 	end
+-- end
+
+function table.deepclone(t)
+	if type(t) ~= "table" then
+		return t
+	end
+
+	-- 将全局函数局部化，减少哈希查找成本
+	local type = type
+	local getmetatable = getmetatable
+	local setmetatable = setmetatable
+	-- local rawget = rawget
+	local next = next  -- 比 pairs 快 5~10%，且不产生闭包
+
+	local visited = {}
+	local stack_o = {}  -- original 栈
+	local stack_c = {}  -- copy 栈
+	local top = 1
+
+	local root = {}
+	visited[t] = root
+	stack_o[1] = t
+	stack_c[1] = root
+
+	while top > 0 do
+		local original = stack_o[top]
+		local copy = stack_c[top]
+		top = top - 1
+
+		local k = next(original)
+		while k ~= nil do
+			local v = original[k]
+
+			-- === 深拷贝键 ===
+			local newKey = k
+			if type(k) == "table" then
+				local cached = visited[k]
+				if cached then
+					newKey = cached
+				else
+					newKey = {}
+					visited[k] = newKey
+					top = top + 1
+					stack_o[top] = k
+					stack_c[top] = newKey
+
+					local keyMt = getmetatable(k)
+					if keyMt then
+						setmetatable(newKey, keyMt)
+					end
+				end
+			end
+
+			-- === 深拷贝值 ===
+			if type(v) == "table" then
+				local cached = visited[v]
+				if cached then
+					copy[newKey] = cached
+				else
+					local newTable = {}
+					copy[newKey] = newTable
+					visited[v] = newTable
+					top = top + 1
+					stack_o[top] = v
+					stack_c[top] = newTable
+
+					local subMt = getmetatable(v)
+					if subMt then
+						setmetatable(newTable, subMt)
+					end
+				end
+			else
+				copy[newKey] = v
+			end
+
+			k = next(original, k)
+		end
+	end
+
+	local rootMt = getmetatable(t)
+	if rootMt then
+		setmetatable(root, rootMt)
+	end
+
+	return root
+end
+
+function table.equals(t1, t2)
+	if type(t1) == "table" and type(t2) == "table" then
+		for k1, v1 in pairs(t1) do
+			if not table.equals(v1, t2[k1]) then
+				return false
+			end
 		end
 
-		return out
+		for k2, v2 in pairs(t2) do
+			if not t1[k2] then
+				return false
+			end
+		end
+
+		return true
 	else
-		return t
+		return t1 == t2
 	end
 end
 
@@ -236,6 +341,16 @@ function table.slice(t, i1, i2)
 	end
 
 	return out
+end
+
+function table.insert_mt(t, o)
+	local mt = getmetatable(t)
+
+	if mt then
+		t[#mt + 1] = o
+	else
+		table.insert(t, o)
+	end
 end
 
 function table.removeobject(t, o)

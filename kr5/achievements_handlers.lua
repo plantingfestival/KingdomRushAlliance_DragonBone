@@ -91,6 +91,7 @@ function ah:register_handlers(A)
 	reg("spiders-into-the-ogreverse", ah.h_into_the_ogreverse)
 	reg("spiders-a-coon-of-surprises", ah.h_a_coon_of_surprises)
 	reg("spiders-lucas-spider", ah.h_lucas_spider)
+	reg("saitam-dlc2", ah.h_saitam_dlc2)
 end
 
 function ah:h_custom_event(event)
@@ -128,6 +129,12 @@ function ah:h_boss_killed(entity)
 		self.A:got("DLC1_WIN_BOSS")
 	elseif entity.template_name == "boss_spider_queen" then
 		self.A:got("ARACHNED")
+	elseif entity.template_name == "boss_redboy_teen" then
+		self.A:got("DLC2_WIN_BOSS_REDBOY")
+	elseif entity.template_name == "boss_princess_iron_fan" then
+		self.A:got("DLC2_WIN_BOSS_PRINCESS")
+	elseif entity.template_name == "boss_bull_king" then
+		self.A:got("DLC2_WIN_BOSS_KING")
 	end
 end
 
@@ -212,9 +219,9 @@ function ah:h_entity_killed(entity, damage)
 				self.A:inc_check("NATURES_WRATH")
 				log.info("KILLED WITH HEART")
 			elseif entity.enemy then
-				if s.template_name == "bolt_plant_magic_blossom" then
-					self.A:inc_check("GATHERING_MAGIC")
-				end
+				-- if s.template_name == "bolt_plant_magic_blossom" then
+					-- self.A:inc_check("GATHERING_MAGIC")
+				-- end
 
 				-- if s.template_name == "mod_plant_poison_pumpkin" then
 					-- self.A:inc_check("KILLER_TOMATOES")
@@ -224,17 +231,17 @@ function ah:h_entity_killed(entity, damage)
 					self.A:inc_check("CALL_ME_PIG")
 				end
 
-				if s.template_name == "fireball_baby_ashbite" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "fireball_baby_ashbite" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
-				if s.template_name == "aura_breath_baby_ashbite" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "aura_breath_baby_ashbite" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
-				if s.template_name == "mod_black_baby_dragon" then
-					self.A:inc_check("DND")
-				end
+				-- if s.template_name == "mod_black_baby_dragon" then
+				-- 	self.A:inc_check("DND")
+				-- end
 
 				if s.template_name == "power_thunder_control" then
 					self.A:inc_check("LIGHTNING_KILL")
@@ -252,9 +259,9 @@ function ah:h_entity_killed(entity, damage)
 				-- 	self.A:inc_check("KILLTACULAR")
 				-- end
 
-				if U.flag_has(entity.vis.flags, F_FLYING) and (s.template_name == "arrow_arcane_burst" or s.template_name == "aura_arcane_burst") then
-					self.A:inc_check("ARCANE_BURST")
-				end
+				-- if U.flag_has(entity.vis.flags, F_FLYING) and (s.template_name == "arrow_arcane_burst" or s.template_name == "aura_arcane_burst") then
+				-- 	self.A:inc_check("ARCANE_BURST")
+				-- end
 
 				if table.contains({
 					"soldier_drow",
@@ -808,8 +815,10 @@ function ah:h_head_stage27(entity)
 	self.A:got("SHUT_YOUR_MOUTH")
 end
 
-function ah:h_kermit_stage417(entity)
-	self.A:got("KERMIT")
+function ah:h_saitam_dlc2(level)
+	local current_saitam = self.A:get_count("DLC2_SAITAM")
+
+	self.A:flag_check("DLC2_SAITAM", bit.bor(current_saitam, 2^level))
 end
 
 return ah

@@ -52,6 +52,18 @@ if KR_TARGET == "dynamic" then
 	print("DYNAMIC TARGET SOLVED TO ", KR_TARGET)
 end
 
+for i = 1, 19 do
+	_G["IS_KR" .. i] = KR_GAME == "kr" .. i
+end
+
+IS_TRILOGY = IS_KR1 or IS_KR2 or IS_KR3
+IS_SEQUEL = not IS_TRILOGY
+IS_PHONE = KR_TARGET == "phone"
+IS_TABLET = KR_TARGET == "tablet"
+IS_DESKTOP = KR_TARGET == "desktop"
+IS_CONSOLE = KR_TARGET == "console"
+IS_MOBILE = IS_PHONE or IS_TABLET
+
 local base_dir = love.filesystem.getSourceBaseDirectory()
 local work_dir = love.filesystem.getWorkingDirectory()
 local ppref
@@ -69,6 +81,7 @@ end
 local apref = ppref .. "_assets/"
 local rel_ppref = ""
 local rel_apref = "_assets/"
+local shared_dir = IS_TRILOGY and "trilogy" or "sequels"
 local jpref = "joint_apk"
 
 if love.filesystem.isFused() and KR_PLATFORM == "android" and love.filesystem.isDirectory(jpref) then
@@ -87,6 +100,8 @@ local additional_paths = {
 	string.format("%s?.lua", ppref),
 	string.format("%s%s-%s/?.lua", ppref, KR_GAME, KR_TARGET),
 	string.format("%s%s/?.lua", ppref, KR_GAME),
+	string.format("%s%s-%s/?.lua", ppref, shared_dir, KR_TARGET),
+	string.format("%s%s/?.lua", ppref, shared_dir),
 	string.format("%sall-%s/?.lua", ppref, KR_TARGET),
 	string.format("%sall/?.lua", ppref),
 	string.format("%slib/?.lua", ppref),
@@ -193,10 +208,13 @@ setmetatable(nil_handler, nil_handler_mt)
 main = {}
 main.handler = nil
 main.profiler = nil
-main.profiler_displayed = false
 main.draw_stats = nil
-main.draw_stats_displayed = false
 main.log_output = nil
+
+local _draw_stats
+local _draw_stats_displayed = false
+local _profiler
+local _profiler_displayed = false
 
 function main:set_locale(locale)
 	if features.forced_locale then
@@ -435,15 +453,18 @@ function love.load(arg)
 
 	if main.params.profiler then
 		main.profiler = require("klove.profiler")
+		_profiler = main.profiler
 	end
 
 	if main.params.draw_stats then
 		log.error("---- LOADING DRAW STATS ----")
 
 		main.draw_stats = require("klove.draw_stats")
-		main.draw_stats_displayed = true
 
 		main.draw_stats:init(main.params.width, main.params.height)
+
+		_draw_stats = main.draw_stats
+		_draw_stats_displayed = _draw_stats:cycle_display(true)
 	end
 
 	if DEBUG then
@@ -508,12 +529,12 @@ end
 function love.draw()
 	main.handler:draw()
 
-	if main.profiler and main.profiler_displayed then
-		main.profiler.draw(main.params.width, main.params.height, F:f("DroidSansMono", 14))
+	if _profiler and _profiler_displayed then
+		_profiler.draw(main.params.width, main.params.height, F:f("DroidSansMono", 14))
 	end
 
-	if main.draw_stats and main.draw_stats_displayed then
-		main.draw_stats:draw(main.params.width, main.params.height)
+	if _draw_stats and _draw_stats_displayed then
+		_draw_stats:draw(main.params.width, main.params.height)
 	end
 end
 
@@ -524,7 +545,7 @@ function love.keypressed(key, scancode, isrepeat)
 		elseif key == "f2" then
 			main.profiler.stop()
 		elseif key == "f3" then
-			main.profiler_displayed = not main.profiler_displayed
+			_profiler_displayed = not _profiler_displayed
 		elseif key == "f4" then
 			main.profiler.flag_l2_shown = not main.profiler.flag_l2_shown
 			main.profiler.flag_dirty = true
@@ -532,7 +553,7 @@ function love.keypressed(key, scancode, isrepeat)
 	end
 
 	if main.draw_stats and key == "f" then
-		main.draw_stats_displayed = not main.draw_stats_displayed
+		_draw_stats_displayed = _draw_stats:cycle_display()
 	end
 
 	if custom_script and custom_script.keypressed then
@@ -689,15 +710,16 @@ function love.run()
 
 	local dt = 0
 	local starti, updatei, updatef, presi, presf, drawi, drawf
-	local sleep_delay = KR_PLATFORM == "xbox" and 0 or 0.001
+	local sleep_delay = (KR_PLATFORM == "xbox" or KR_PLATFORM == "nx") and 0 or 0.001
 	local nx, nx_on = love.nx
+	local is_xbox = KR_OS == "GDK Xbox"
 
 	while true do
 		if love.timer then
 			starti = love.timer.getTime()
 		end
 
-		if main.profiler and nx and nx.isProfiling() then
+		if _profiler and nx and nx.isProfiling() then
 			nx_on = true
 		end
 
@@ -723,7 +745,11 @@ function love.run()
 			dt = love.timer.getDelta()
 		end
 
-		if main.draw_stats then
+		if love.nx then
+			collectgarbage("stop")
+		end
+
+		if _draw_stats then
 			updatei = love.timer.getTime()
 		end
 
@@ -739,10 +765,10 @@ function love.run()
 			nx.profilerExitCodeBlock("update")
 		end
 
-		if main.draw_stats then
+		if _draw_stats then
 			updatef = love.timer.getTime()
 
-			main.draw_stats:update_lap(dt, updatei, updatef)
+			_draw_stats:update_lap(dt, updatei, updatef)
 		end
 
 		if love.window and love.graphics and love.window.isCreated() and love.graphics.isActive() then
@@ -758,7 +784,7 @@ function love.run()
 			end
 
 			if love.draw then
-				if main.draw_stats then
+				if _draw_stats then
 					drawi = love.timer.getTime()
 				end
 
@@ -772,16 +798,14 @@ function love.run()
 					nx.profilerExitCodeBlock("draw")
 				end
 
-				if main.draw_stats then
+				if _draw_stats then
 					drawf = love.timer.getTime()
 
-					main.draw_stats:draw_lap(drawi, drawf)
+					_draw_stats:draw_lap(drawi, drawf)
 				end
 			end
 
-			collectgarbage("step")
-
-			if main.draw_stats then
+			if _draw_stats then
 				presi = love.timer.getTime()
 			end
 
@@ -795,10 +819,16 @@ function love.run()
 				nx.profilerExitCodeBlock("present")
 			end
 
-			if main.draw_stats then
+			if love.nx then
+				collectgarbage("restart")
+			end
+
+			collectgarbage("step")
+
+			if _draw_stats then
 				presf = love.timer.getTime()
 
-				main.draw_stats:present_lap(presi, presf)
+				_draw_stats:present_lap(presi, presf)
 			end
 
 			if main.handler.limit_fps then
@@ -818,7 +848,7 @@ function love.run()
 			love.timer.sleep(sleep_delay)
 		end
 
-		if KR_OS == "GDK Xbox" then
+		if is_xbox then
 			while love.graphics and not love.graphics.isActive() do
 				log.info("suspended ...")
 				love.timer.sleep(0.1)
