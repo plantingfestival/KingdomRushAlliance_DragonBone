@@ -5908,8 +5908,8 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*10
-	this.health.hp_max = initial_hp*10
+	this.health.hp = initial_hp*3
+	this.health.hp_max = initial_hp*3
 	this.health_bar.offset = this.demon.health_bar_offset
 	this.health_bar.frames[1].bar_width = this.health_bar.frames[1].bar_width * this.demon.health_bar_scale
 	this.health_bar.frames[2].bar_width = this.health_bar.frames[2].bar_width * this.demon.health_bar_scale
@@ -5924,7 +5924,6 @@ function scripts.eb_veznan.update(this, store)
 	this.unit.hit_offset = this.demon.unit_hit_offset
 	this.unit.mod_offset = this.demon.unit_mod_offset
 	this.unit.size = this.demon.unit_size
-	this.sprites_scale = this.demon.sprites_scale
 	this.info.portrait = this.demon.info_portrait
 	this.health_bar.hidden = nil
 	this.vis.bans = U.flag_clear(this.vis.bans, F_ALL)
@@ -6262,6 +6261,7 @@ function scripts.eb_greenmuck.update(this, store)
 	while true do
 		if this.health.dead then
 			U.y_animation_play(this, "death", nil, store.tick_ts)
+			LU.kill_all_enemies(store, true)
 			signal.emit("boss-killed", this)
 			SU.fade_out_entity(store, this, this.unit.fade_time_after_death)
 
@@ -6642,9 +6642,36 @@ function scripts.eb_moloch.update(this, store)
 
 	::label_176_0::
 
-	while true do
-		if this.health.dead then
+    while true do
+	    if this.health.dead then
 			game.store.force_next_wave = true
+		    if not this.is_second_phase then
+		    this.ui.can_click = false
+		    this.health_bar_hidden = true
+
+			U.animation_start(this, "death", nil, store.tick_ts, false)
+
+			U.y_wait(store, this.second_phase.wait_time)
+
+			this.ui.can_click = true
+		    this.health_bar_hidden = false
+			this.is_second_phase = true
+			this.health.dead = false
+
+			this.health.hp_max = math.ceil(this.health.hp_max * this.second_phase.hp_factor)
+			this.health.hp = this.health.hp_max
+			this.health.armor = this.second_phase.armor
+			this.health.magic_armor = this.second_phase.magic_armor
+			this.motion.max_speed = this.second_phase.max_speed
+			this.timed_attacks.list[1].cooldown = this.second_phase.cooldown
+				this.timed_attacks.list[1].damage_radius = this.second_phase.damage_radius
+			this.render.sprites[1].prefix = this.second.sprites_prefix
+			this.render.sprites[1].scale = this.second.sprites_scale
+			
+
+			goto label_176_0
+		end
+
 			this.phase = "dead"
 
 			LU.kill_all_enemies(store, true)
@@ -6957,9 +6984,12 @@ function scripts.eb_blackburn.update(this, store)
 			this.health.hp = this.health.hp_max
 			this.health.armor = this.second_life_armor
 			this.health.magic_armor = this.second_life_magic_armor
+			this.melee.attacks[1].damage_max = this.second_life_damage_max
+			this.melee.attacks[1].damage_min = this.second_life_damage_min
+			this.motion.max_speed = this.second_life_max_speed
 			this.health.ignore_damage = nil
-			this.vis.bans = this.vis._original_bans
-			this.vis._original_bans = nil
+			this.render.sprites[1].prefix = this.second.sprites_prefix
+			this.render.sprites[1].scale = this.second.sprites_scale
 			sa.damage_max = sa.second_life_damage_max
 			sa.damage_min = sa.second_life_damage_min
 			this.ui.can_click = true

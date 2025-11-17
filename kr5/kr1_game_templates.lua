@@ -6992,10 +6992,11 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 108, 84
-tt.enemy.gold = 100
+tt.enemy.gold = 450
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(25, 0)
 tt.health.hp_max = 10000
+tt.health.armor = 0.9
 tt.health_bar.offset = v(0, 62)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0037"
@@ -7003,7 +7004,7 @@ tt.info.i18n_key = "ENEMY_LAVA_ELEMENTAL"
 tt.info.enc_icon = 30
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].count = 10
+tt.melee.attacks[1].count = 15
 tt.melee.attacks[1].damage_max = 350
 tt.melee.attacks[1].damage_min = 150
 tt.melee.attacks[1].damage_radius = 50
@@ -7016,6 +7017,7 @@ tt.melee.attacks[1].sound_hit = "AreaAttack"
 tt.motion.max_speed = 0.5 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_lava_elemental"
+tt.render.sprites[1].scale = vv(2.5)
 tt.sound_events.death = "RockElementalDeath"
 tt.ui.click_rect.size = v(50, 56)
 tt.ui.click_rect.pos.x = -25
@@ -7025,6 +7027,7 @@ tt.unit.hit_offset = v(0, 24)
 tt.unit.mod_offset = v(adx(53), ady(38))
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_POISON)
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_sarelgaz_small", "enemy_KR5")
 
 AC(tt, "melee")
@@ -7647,11 +7650,11 @@ tt.death_spawns.name = "aura_demon_cerberus_death"
 tt.death_spawns.delay = 0.11
 tt.dodge.chance = 0.7
 tt.dodge.silent = true
-tt.enemy.gold = 1600
+tt.enemy.gold = 2400
 tt.enemy.lives_cost = 10
 tt.enemy.melee_slot = v(41, 0)
 tt.health.armor = 0.95
-tt.health.hp_max = 28000
+tt.health.hp_max = 30000
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, 57)
 tt.info.i18n_key = "ENEMY_DEMON_CERBERUS"
@@ -7684,7 +7687,7 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 16)
 tt.unit.show_blood_pool = false
 tt.unit.size = UNIT_SIZE_LARGE
-tt.vis.bans = bor(F_STUN, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED, F_INSTAKILL)
+tt.vis.bans = bor(F_STUN, F_POISON, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED, F_INSTAKILL)
 tt.vis.flags = bor(F_ENEMY, F_BOSS, F_MINIBOSS)
 tt = RT("enemy_witch", "enemy_KR5")
 
@@ -8042,11 +8045,7 @@ image_x, image_y = 214, 194
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = {
-	533333,
-	666666,
-	799999
-}
+tt.health.hp_max = 200000
 tt.health.on_damage = kr1_scripts.eb_veznan.on_damage
 tt.health.ignore_damage = true
 tt.health_bar.hidden = true
@@ -8111,7 +8110,6 @@ tt.taunts.sets.pre_battle.start_idx = 30
 tt.taunts.sets.pre_battle.end_idx = 30
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].count = 8
 tt.melee.attacks[1].damage_min = 666
 tt.melee.attacks[1].damage_max = 999
 tt.melee.attacks[1].damage_radius = 75
@@ -8290,7 +8288,7 @@ tt.demon.health_bar_scale = 1.8
 tt.demon.melee_slot = v(50, 0)
 tt.demon.speed = 0.6 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
-tt.demon.sprites_scale = vv(8)
+tt.demon.sprites_scale = vv(5)
 tt.demon.transform_sound = "VeznanToDemon"
 tt.demon.ui_click_rect = r(-25, -5, 50, 110)
 tt.demon.unit_hit_offset = v(0, 55)
@@ -8615,13 +8613,14 @@ AC(tt, "melee", "timed_attacks")
 
 anchor_x, anchor_y = 0.5, 0.105
 image_x, image_y = 282, 282
+tt.first_death = false
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(33, 0)
 tt.health.dead_lifetime = 100
 tt.health.ignore_damage = true
 tt.health.armor = 0.5
-tt.health.hp_max = 1350000
+tt.health.hp_max = 150000
 tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, 125)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
@@ -8629,12 +8628,13 @@ tt.info.i18n_key = "ENEMY_DEMON_MOLOCH"
 tt.info.enc_icon = 57
 tt.info.fn = kr1_scripts.eb_moloch.get_info
 tt.info.portrait = "bottom_info_image_enemies_0098" 
+tt.health.on_damage = kr1_scripts.eb_moloch.on_damage
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_moloch.update
 tt.motion.max_speed = 0.3 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "eb_moloch"
-tt.render.sprites[1].scale = vv(7.5)
+tt.render.sprites[1].scale = vv(1.2)
 tt.render.sprites[1].angles_stickiness = {
 	walk = 10
 }
@@ -8670,6 +8670,14 @@ tt.melee.attacks[1].hit_time = fts(15)
 tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
 tt.melee.attacks[1].hit_fx = "fx_moloch_ring"
 tt.melee.attacks[1].sound_hit = "EnemyInfernoStomp"
+tt.second_phase = {}
+tt.second_phase.wait_time = 5
+tt.second_phase.hp_factor = 12
+tt.second_phase.armor = 0.9
+tt.second_phase.magic_armor = 0.9
+tt.second_phase.max_speed = 5
+tt.second_phase.cooldown = 30
+tt.second_phase.damage_radius = 9999
 tt.timed_attacks.list[1] = CC("area_attack")
 tt.timed_attacks.list[1].cooldown = 3
 tt.timed_attacks.list[1].animation = "horn_attack"
@@ -8722,6 +8730,9 @@ tt.timed_attacks.list[1].sound = "EnemyInfernoHorns"
 tt.timed_attacks.list[1].sound_args = {
 	delay = fts(5)
 }
+tt.second = {}
+tt.second.sprites_prefix = "eb_moloch"
+tt.second.sprites_scale = vv(10)
 tt = RT("eb_myconid", "boss")
 
 AC(tt, "melee", "timed_attacks")
@@ -8807,9 +8818,12 @@ image_x, image_y = 314, 308
 tt.first_death = false
 tt.first_death_duration = 3
 tt.second_life = false
-tt.second_life_hp_factor = 1.5
+tt.second_life_hp_factor = 10
 tt.second_life_armor = 0.75
 tt.second_life_magic_armor = 0.75
+tt.second_life_damage_max = 1000
+tt.second_life_damage_min = 500
+tt.second_life_max_speed = 3
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
@@ -8866,8 +8880,8 @@ tt.timed_attacks.list[1].cooldown = fts(300)
 tt.timed_attacks.list[1].after_cooldown = fts(150)
 tt.timed_attacks.list[1].damage_max = 50
 tt.timed_attacks.list[1].damage_min = 10
-tt.timed_attacks.list[1].second_life_damage_max = 100
-tt.timed_attacks.list[1].second_life_damage_min = 50
+tt.timed_attacks.list[1].second_life_damage_max = 200
+tt.timed_attacks.list[1].second_life_damage_min = 100
 tt.timed_attacks.list[1].second_life_entity = "enemy_fallen_knight"
 tt.timed_attacks.list[1].entity_node_offset = -5
 tt.timed_attacks.list[1].damage_type = DAMAGE_PHYSICAL
@@ -8885,6 +8899,9 @@ tt.timed_attacks.list[1].sound_args = {
 	delay = fts(13)
 }
 tt.timed_attacks.list[1].vis_flags = bor(F_MOD)
+tt.second = {}
+tt.second.sprites_prefix = "eb_blackburn"
+tt.second.sprites_scale = vv(8)
 tt = E:register_t("eb_elder_shaman", "decal_scripted")
 
 E:add_comps(tt, "attacks")
