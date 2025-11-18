@@ -6463,6 +6463,7 @@ function scripts.eb_kingpin.update(this, store)
 		if this.health.dead then
 			S:queue(this.sound_events.death)
 			U.y_animation_play(this, "death", nil, store.tick_ts)
+			LU.kill_all_enemies(store, true)
 			signal.emit("boss-killed", this)
 			SU.fade_out_entity(store, this, this.unit.fade_time_after_death)
 
@@ -6553,6 +6554,7 @@ function scripts.eb_ulgukhai.update(this, store)
 		if this.health.dead then
 			S:queue(this.sound_events.death)
 			U.y_animation_play(this, "death", nil, store.tick_ts)
+			LU.kill_all_enemies(store, true)
 			signal.emit("boss-killed", this)
 			SU.fade_out_entity(store, this, this.unit.fade_time_after_death)
 
@@ -6664,7 +6666,7 @@ function scripts.eb_moloch.update(this, store)
 			this.health.magic_armor = this.second_phase.magic_armor
 			this.motion.max_speed = this.second_phase.max_speed
 			this.timed_attacks.list[1].cooldown = this.second_phase.cooldown
-				this.timed_attacks.list[1].damage_radius = this.second_phase.damage_radius
+			this.timed_attacks.list[1].damage_radius = this.second_phase.damage_radius
 			this.render.sprites[1].prefix = this.second.sprites_prefix
 			this.render.sprites[1].scale = this.second.sprites_scale
 			
@@ -6816,11 +6818,41 @@ function scripts.eb_myconid.update(this, store)
 	::label_179_0::
 
 	while true do
-		if this.health.dead then
-			S:queue(this.sound_events.death)
+        if this.health.dead then
+		    if not this.is_second_phase then
+			this.ui.can_click = false
+			this.health_bar_hidden = true
+
 			U.animation_start(this, "death", nil, store.tick_ts, false)
 			U.y_wait(store, this.on_death_spawn_wait)
 			spawn_mushrooms(this.on_death_spawn_count, nil)
+			U.y_wait(store, this.second_phase.wait_time)
+
+			this.ui.can_click = true
+			this.health_bar_hidden = false
+			this.is_second_phase = true
+			this.health.dead = false
+
+			this.health.hp_max = math.ceil(this.health.hp_max * this.second_phase.hp_factor)
+			this.health.hp = this.health.hp_max
+			this.health.armor = this.second_phase.armor
+			this.health.magic_armor = this.second_phase.magic_armor
+		    this.melee.attacks[1].cooldown = this.second_phase.cooldown
+			this.melee.attacks[1].damage_max = this.second_phase.damage_max
+			this.melee.attacks[1].damage_min = this.second_phase.damage_min
+			this.timed_attacks.list[1].summon_counts = this.second_phase.summon_counts
+			this.timed_attacks.list[1].radius = this.second_phase.radius
+			this.render.sprites[1].prefix = this.second.sprites_prefix
+			this.render.sprites[1].scale = this.second.sprites_scale
+
+			goto label_179_0
+		end
+
+			this.phase = "dead"
+
+			LU.kill_all_enemies(store, true)
+			U.animation_start(this, "death", nil, store.tick_ts)
+			S:queue(this.sound_events.death)
 			signal.emit("boss-killed", this)
 			SU.fade_out_entity(store, this, this.unit.fade_time_after_death)
 

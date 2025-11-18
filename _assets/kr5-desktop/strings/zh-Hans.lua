@@ -1489,7 +1489,7 @@ return {
 	ENEMY_MUNRA_NAME = "沙漠幽魂",
 	SOLDIER_TEMPLAR_RANDOM_20_NAME = "威廉",
 	ENEMY_GOLDEN_EYED_EXTRA = "- 小BOSS\n- 提高周围敌方单位的移动速度",
-	ENEMY_ROTTEN_MYCONID_NAME = "蘑菇人",
+	ENEMY_ROTTEN_MYCONID_NAME = "麦柯尼德",
 	TOWER_STAGE_20_ARBOREAN_OLDTREE_NAME = "古树",
 	POPUP_label_error_msg2 = "哎呀！出错了。",
 	ITEM_HERO_BOLVERK_DESC = "瓦尔族曾是一个强大的族群，但现在他们的血脉几近断绝。而波尔维克正是这个为数不多的族群最后的狂战士。",

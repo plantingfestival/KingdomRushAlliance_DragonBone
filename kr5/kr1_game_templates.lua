@@ -8775,8 +8775,27 @@ tt.unit.mod_offset = v(0, 33)
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_TELEPORT, F_THORN, F_POLYMORPH, F_EAT, F_DISINTEGRATED, F_INSTAKILL, F_STUN)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
+tt.second_phase = {}
+tt.second_phase.wait_time = 5
+tt.second_phase.hp_factor = 10
+tt.second_phase.armor = 0.9
+tt.second_phase.magic_armor = 0.9
+tt.second_phase.cooldown = 1
+tt.second_phase.damage_max = 750
+tt.second_phase.damage_min = 350
+tt.second_phase.summon_counts = {
+	4,
+	6,
+	6,
+	8,
+	8,
+	8,
+	8,
+	10
+}
+tt.second_phase.radius = 300
 tt.spawner_entity = "myconid_spawner"
-tt.on_death_spawn_count = 12
+tt.on_death_spawn_count = 18
 tt.on_death_spawn_wait = fts(40)
 tt.melee.attacks[1].cooldown = 2
 tt.melee.attacks[1].damage_max = 350
@@ -8809,6 +8828,9 @@ tt.timed_attacks.list[1].wait_times = {
 	fts(3),
 	fts(6)
 }
+tt.second = {}
+tt.second.sprites_prefix = "eb_myconid"
+tt.second.sprites_scale = vv(3)
 tt = RT("eb_blackburn", "boss")
 
 AC(tt, "melee", "timed_attacks", "auras")
