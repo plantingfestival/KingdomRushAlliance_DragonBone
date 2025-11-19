@@ -401,4 +401,159 @@ function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
 	queue_remove(store, this)
 end
 
+scripts.infuser_cast_shield_mod = {}
+function scripts.infuser_cast_shield_mod.insert(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target or target.health.dead then
+		return false
+	end
+
+	m.ts = store.tick_ts
+	target._shield_mod = this
+	target.health._origin_on_damage = target.health.on_damage
+	target.health.on_damage = scripts.infuser_cast_shield_mod.on_damage
+	this._hit_sources = {}
+	this._blood_color = target.unit.blood_color
+	target.unit.blood_color = BLOOD_NONE
+	this.health.hp = this.modifier.shield_hp
+	this.health.hp_max = this.modifier.shield_hp
+
+	return true
+end
+
+function scripts.infuser_cast_shield_mod.update(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+	m.ts = store.tick_ts
+	local s = this.render.sprites[1]
+
+	if not target or not target.pos then
+		queue_remove(store, this)
+
+		return
+	end
+
+	this.pos = target.pos
+
+	local flip_sign = 1
+
+	if target.render then
+		flip_sign = target.render.sprites[1].flip_x and -1 or 1
+	end
+
+	if m.health_bar_offset and target.health_bar then
+		local hb = target.health_bar.offset
+		local hbo = m.health_bar_offset
+
+		s.offset.x, s.offset.y = hb.x + hbo.x * flip_sign, hb.y + hbo.y
+	elseif m.use_mod_offset and target.unit.mod_offset then
+		s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
+	end
+
+	U.y_animation_play(this, this.animations[1], nil, store.tick_ts)
+
+	while true do
+		if not target or target.health.dead then
+			U.y_animation_play(this, this.animations[3], nil, store.tick_ts)
+			queue_remove(store, this)
+
+			return
+		end
+
+		local flip_sign = 1
+
+		if target.render then
+			flip_sign = target.render.sprites[1].flip_x and -1 or 1
+		end
+
+		if m.health_bar_offset and target.health_bar then
+			local hb = target.health_bar.offset
+			local hbo = m.health_bar_offset
+
+			s.offset.x, s.offset.y = hb.x + hbo.x * flip_sign, hb.y + hbo.y
+		elseif m.use_mod_offset and target.unit.mod_offset then
+			s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
+		end
+
+		U.y_animation_play(this, this.animations[2], nil, store.tick_ts)
+
+		if this.ready_removed then
+			U.y_animation_play(this, this.animations[3], nil, store.tick_ts)
+
+			queue_remove(store, this)
+		end
+
+		coroutine.yield()
+	end
+end
+
+function scripts.infuser_cast_shield_mod.remove(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if target then
+		target.health.on_damage = target.health._origin_on_damage
+		target._shield_mod = nil
+		target.unit.blood_color = this._blood_color
+	end
+
+	return true
+end
+
+function scripts.infuser_cast_shield_mod.on_damage(this, store, damage)
+	local mod = this._shield_mod
+
+	if not mod then
+		log.error("infuser_cast_shield_mod.on_damage for enemy %s has no mod pointer", this.id)
+
+		return true
+	end
+
+	local pd = U.predict_damage(this, damage)
+
+	if pd >= this.health.hp then
+		mod.ready_removed = true
+
+		return false
+	end
+
+	mod.health.hp = mod.health.hp - pd
+
+	return false
+end
+
+scripts.infuser_cast_speed_mod = {}
+function scripts.infuser_cast_speed_mod.insert(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if scripts.mod_slow.insert(this, store, script) then
+		if not (target.render and target.render.sprites[1].angles) then
+			return false
+		end
+
+		this.origin_walk_animations = target.render.sprites[1].angles.walk
+		target.render.sprites[1].angles.walk = this.walk_animations
+
+		return true
+	end
+
+	return false
+end
+
+function scripts.infuser_cast_speed_mod.remove(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if scripts.mod_slow.remove(this, store, script) then
+		target.render.sprites[1].angles.walk = this.origin_walk_animations
+
+		return true
+	end
+
+	return false
+end
+
 return scripts

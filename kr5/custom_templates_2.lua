@@ -1068,8 +1068,8 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "chaser_shadow"
-tt.render.sprites[2].anchor = v(0.5, 0.213)
-tt.render.sprites[2].offset = v(0, 5)
+tt.render.sprites[2].anchor = v(0.5, 0.137)
+tt.render.sprites[2].offset = v(0, 0)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_GREEN
 tt.unit.hit_offset = v(0, 18)
@@ -1134,7 +1134,7 @@ tt.melee.attacks[1].hit_time = fts(13)
 tt.melee.attacks[1].basic_attack = true
 tt.melee.attacks[1].animation = "hit"
 tt.melee.attacks[1].vis_bans = bor(F_ENEMY, F_FLYING)
-tt.render.sprites[1].anchor = v(0.5, 0.166)
+tt.render.sprites[1].anchor = v(0.5, 0.15)
 tt.render.sprites[1].prefix = "warden"
 tt.render.sprites[1].angles.walk = {
 	"walk",
@@ -1146,7 +1146,7 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "warden_shadow"
-tt.render.sprites[2].anchor = v(0.5, 0.134)
+tt.render.sprites[2].anchor = v(0.5, 0.174)
 tt.render.sprites[2].offset = v(0, 0)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_GREEN
@@ -1223,7 +1223,7 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "bullywags_golem_shadow"
-tt.render.sprites[2].anchor = v(0.5, 0.106)
+tt.render.sprites[2].anchor = v(0.5, 0.219)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_RED
 tt.unit.hit_offset = v(0, 10)
@@ -1268,8 +1268,10 @@ tt.ranged.attacks[1].animation = "ranged"
 tt.ranged.attacks[1].shoot_time = fts(9)
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[1].skill = "range_unit"
+tt.timed_attacks.list[1].skill_id = 1
+tt.timed_attacks.list[1].extra_cooldowns = { { 2, 5 } }
 tt.timed_attacks.list[1].cooldown = 5
-tt.timed_attacks.list[1].bullet = "infuser_cast_ray_warden"
+tt.timed_attacks.list[1].bullet = "infuser_cast_ray_shield"
 tt.timed_attacks.list[1].bullet_start_offset = {
 	v(-13, 42.5),
 	v(13, 42.5)
@@ -1283,9 +1285,10 @@ tt.timed_attacks.list[1].animation = "cast"
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND)
 tt.timed_attacks.list[1].can_be_silenced = true
 tt.timed_attacks.list[1].allowed_templates = { "enemy_warden" }
-tt.timed_attacks.list[1].chance = 0.33
 tt.timed_attacks.list[2] = table.deepclone(tt.timed_attacks.list[1])
-tt.timed_attacks.list[2].bullet = "infuser_cast_ray_amphiptere"
+tt.timed_attacks.list[2].skill_id = 2
+tt.timed_attacks.list[2].extra_cooldowns = { { 1, 5 } }
+tt.timed_attacks.list[2].bullet = "infuser_cast_ray_speed"
 tt.timed_attacks.list[2].allowed_templates = { "enemy_amphiptere" }
 tt.render.sprites[1].anchor = v(0.5, 0.106)
 tt.render.sprites[1].offset = v(0, 3)
@@ -1300,12 +1303,12 @@ tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].is_shadow = true
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "chaser_shadow"
-tt.render.sprites[2].anchor = v(0.5, 0.142)
+tt.render.sprites[2].anchor = v(0.5, 0.127)
 tt.render.sprites[2].offset = v(0, 1)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_GREEN
-tt.unit.hit_offset = v(0, 10)
-tt.unit.mod_offset = v(0, 25)
+tt.unit.hit_offset = v(0, 12)
+tt.unit.mod_offset = v(0, 12)
 tt.unit.head_offset = v(0, 40)
 tt.ui.click_rect = r(-18, -3, 32, 36)
 tt.vis.flags = bor(F_ENEMY)
@@ -1322,7 +1325,7 @@ tt = RT("enemy_infuser_bolt_hit_fx", "fx")
 tt.render.sprites[1].prefix = "infuser_bolt"
 tt.render.sprites[1].name = "hit"
 
-tt = RT("infuser_cast_ray_warden", "bullet")
+tt = RT("infuser_cast_ray_shield", "bullet")
 tt.render.sprites[1].prefix = "infuser_cast_ray"
 tt.render.sprites[1].name = "flying"
 tt.render.sprites[1].loop = false
@@ -1331,14 +1334,36 @@ tt.bullet.flight_time = fts(2)
 tt.bullet.hit_time = fts(3)
 tt.image_width = 100
 tt.main_script.update = scripts.ray_simple.update
-tt.bullet.mod = "infuser_cast_ray_mod_warden"
+tt.bullet.mod = "infuser_cast_shield_mod"
 
-tt = RT("infuser_cast_ray_amphiptere", "bullet")
-tt.bullet.mod = "infuser_cast_ray_mod_amphiptere"
+tt = RT("infuser_cast_ray_speed", "infuser_cast_ray_shield")
+tt.bullet.mod = "infuser_cast_speed_mod"
 
-tt = RT("infuser_cast_ray_mod_warden", "modifier")
+tt = RT("infuser_cast_shield_mod", "modifier")
+AC(tt, "render", "health")
+tt.render.sprites[1].prefix = "warden_shield"
+tt.render.sprites[1].loop = false
+tt.animations = {
+	"in",
+	"loop",
+	"out"
+}
+tt.main_script.insert = scripts.infuser_cast_shield_mod.insert
+tt.main_script.update = scripts.infuser_cast_shield_mod.update
+tt.main_script.remove = scripts.infuser_cast_shield_mod.remove
+tt.modifier.shield_hp = 200
+tt.modifier.duration = -1
 
-tt = RT("infuser_cast_ray_mod_amphiptere", "infuser_cast_ray_mod_warden")
+tt = RT("infuser_cast_speed_mod", "mod_slow")
+tt.main_script.insert = scripts.infuser_cast_speed_mod.insert
+tt.main_script.remove = scripts.infuser_cast_speed_mod.remove
+tt.slow.factor = 3
+tt.modifier.duration = 2
+tt.walk_animations = {
+	"speedWalk",
+	"speedWalkUp",
+	"speedWalkDown"
+}
 
 tt = RT("bullywag_spawner", "decal_scripted")
 AC(tt, "spawner", "editor")
