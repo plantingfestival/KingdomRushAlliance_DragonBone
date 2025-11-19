@@ -38,6 +38,13 @@ local function fts(v)
 	return v / FPS
 end
 
+local function v(v1, v2)
+	return {
+		x = v1,
+		y = v2
+	}
+end
+
 local function ui_click_proxy_add(proxy, dest)
 	if not proxy.ui then
 		log.error("cannot proxy. entity has no ui component: (%s)%s", proxy.id, proxy.template_name)
@@ -4209,6 +4216,47 @@ end
 	customization
 --]]
 
+---设定mod精灵偏移
+---@param mod table modifier
+---@param target table 目标
+---@param sprite_idx integer 精灵索引
+---@return boolean 是否成功, integer 是否镜像, table 血条偏移造成的偏移, table unit.mod_offset造成的偏移
+local function set_mod_offset(mod, target, sprite_idx)
+	sprite_idx = sprite_idx or 1
+	local m = mod.modifier
+	local s = mod.render.sprites[sprite_idx]
+	local mod_offset, health_bar_offset = v(0, 0), v(0, 0)
+
+	local flip_sign = 1
+
+	if not mod or not target then
+		return false, flip_sign, mod_offset, health_bar_offset
+	end
+
+	if target.render then
+		flip_sign = target.render.sprites[1].flip_x and -1 or 1
+	end
+
+	if m.health_bar_offset and target.health_bar then
+		local hb = target.health_bar.offset
+		local hbo = m.health_bar_offset
+		local offset_x = hb.x + hbo.x * flip_sign
+		local offset_y = hb.y + hbo.y
+
+		s.offset.x, s.offset.y = offset_x, offset_y
+
+		health_bar_offset = v(offset_x, offset_y)
+	elseif m.use_mod_offset and target.unit.mod_offset then
+		local offset_x = target.unit.mod_offset.x * flip_sign
+		local offset_y = target.unit.mod_offset.y
+		s.offset.x, s.offset.y = offset_x, offset_y
+	
+		mod_offset = v(offset_x, offset_y)
+	end
+
+	return true, flip_sign, mod_offset, health_bar_offset
+end
+
 ---计算线段初速度
 ---@param from table 起点坐标
 ---@param to table 终点坐标
@@ -6364,6 +6412,7 @@ local SU = {
 		customization
 	--]]
 
+	set_mod_offset = set_mod_offset,
 	create_insert_attack_damage = create_insert_attack_damage,
 	create_mods = create_mods,
 	initial_linear_speed = initial_linear_speed,

@@ -437,20 +437,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 
 	this.pos = target.pos
 
-	local flip_sign = 1
-
-	if target.render then
-		flip_sign = target.render.sprites[1].flip_x and -1 or 1
-	end
-
-	if m.health_bar_offset and target.health_bar then
-		local hb = target.health_bar.offset
-		local hbo = m.health_bar_offset
-
-		s.offset.x, s.offset.y = hb.x + hbo.x * flip_sign, hb.y + hbo.y
-	elseif m.use_mod_offset and target.unit.mod_offset then
-		s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
-	end
+	SU.set_mod_offset(this, target)
 
 	U.y_animation_play(this, this.animations[1], nil, store.tick_ts)
 
@@ -462,20 +449,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 			return
 		end
 
-		local flip_sign = 1
-
-		if target.render then
-			flip_sign = target.render.sprites[1].flip_x and -1 or 1
-		end
-
-		if m.health_bar_offset and target.health_bar then
-			local hb = target.health_bar.offset
-			local hbo = m.health_bar_offset
-
-			s.offset.x, s.offset.y = hb.x + hbo.x * flip_sign, hb.y + hbo.y
-		elseif m.use_mod_offset and target.unit.mod_offset then
-			s.offset.x, s.offset.y = target.unit.mod_offset.x * flip_sign, target.unit.mod_offset.y
-		end
+		SU.set_mod_offset(this, target)
 
 		U.y_animation_play(this, this.animations[2], nil, store.tick_ts)
 

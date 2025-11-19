@@ -1073,7 +1073,7 @@ tt.render.sprites[2].offset = v(0, 0)
 tt.render.sprites[2].z = Z_DECALS + 1
 tt.unit.blood_color = BLOOD_GREEN
 tt.unit.hit_offset = v(0, 18)
-tt.unit.mod_offset = v(0, 4)
+tt.unit.mod_offset = v(0, 15)
 tt.unit.head_offset = v(0, 40)
 tt.ui.click_rect = r(-30, -8, 45, 30)
 tt.vis.flags = bor(F_ENEMY)
@@ -1332,7 +1332,7 @@ tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0.008, 0.54)
 tt.bullet.flight_time = fts(2)
 tt.bullet.hit_time = fts(3)
-tt.image_width = 100
+tt.image_width = 110
 tt.main_script.update = scripts.ray_simple.update
 tt.bullet.mod = "infuser_cast_shield_mod"
 
