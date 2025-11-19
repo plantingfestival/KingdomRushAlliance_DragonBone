@@ -2411,7 +2411,9 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 	local walk_break_fn = function(store, this)
 		if this.timed_attacks then
 			for i, a in ipairs(this.timed_attacks.list) do
-				return check_unit_attack(store, this, a)
+				if check_unit_attack(store, this, a) then
+					return true
+				end
 			end
 		end
 		return false
