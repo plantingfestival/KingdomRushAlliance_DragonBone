@@ -9989,7 +9989,7 @@ return {
 		},
 		alias = {}
 	},
-	Stage_18 = {
+	Stage_418 = {
 		a_name = "go_stage418-1.dds",
 		size = {
 			2729,

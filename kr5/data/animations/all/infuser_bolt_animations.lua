@@ -1,5 +1,5 @@
 return {
-	infuser_bolt_travel = {
+	infuser_bolt_flying = {
 		prefix = "infuser_bolt",
 		to = 1,
 		from = 1
