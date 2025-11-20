@@ -1048,7 +1048,11 @@ tt.timed_attacks.list[1].animations = {
 	"loop",
 	"jumpOut"
 }
-tt.timed_attacks.list[1].sounds = "frog_chaser_jump"
+tt.timed_attacks.list[1].sounds = {
+	nil,
+	nil,
+	"frog_chaser_jump"
+}
 tt.timed_attacks.list[1].hit_fx = {
 	"chaser_jump_hit_fx",
 	"chaser_jump_effect"
@@ -1285,11 +1289,16 @@ tt.timed_attacks.list[1].animation = "cast"
 tt.timed_attacks.list[1].vis_bans = bor(F_FRIEND)
 tt.timed_attacks.list[1].can_be_silenced = true
 tt.timed_attacks.list[1].allowed_templates = { "enemy_warden" }
+tt.timed_attacks.list[1].sound = "frog_infuser_shield-complete"
+tt.timed_attacks.list[1].sound_args = {
+	delay = fts(8)
+}
 tt.timed_attacks.list[2] = table.deepclone(tt.timed_attacks.list[1])
 tt.timed_attacks.list[2].skill_id = 2
 tt.timed_attacks.list[2].extra_cooldowns = { { 1, 5 } }
 tt.timed_attacks.list[2].bullet = "infuser_cast_ray_speed"
 tt.timed_attacks.list[2].allowed_templates = { "enemy_amphiptere" }
+tt.timed_attacks.list[2].sound = nil
 tt.render.sprites[1].anchor = v(0.5, 0.106)
 tt.render.sprites[1].offset = v(0, 3)
 tt.render.sprites[1].prefix = "infuser"

@@ -522,6 +522,10 @@ function scripts.infuser_cast_speed_mod.remove(this, store, script)
 	local target = store.entities[m.target_id]
 
 	if scripts.mod_slow.remove(this, store, script) then
+		if not target or target.health.dead then
+			return false
+		end
+		
 		target.render.sprites[1].angles.walk = this.origin_walk_animations
 
 		return true

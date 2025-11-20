@@ -4865,7 +4865,7 @@ local function entity_play_sound(sounds, sounds_args, idx)
 		end
 	end
 
-	if sounds then
+	if name then
 		S:queue(name, args)
 
 		return true
