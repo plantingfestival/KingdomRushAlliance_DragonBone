@@ -594,6 +594,51 @@ return {
 			"MusicBattle_82"
 		}
 	},
+	VeznanAttack = {
+		sounds = {
+			"VeznanAttack"
+		}
+	},
+	VeznanEffects = {
+		sounds = {
+			"VeznanEffects"
+		}
+	},
+	VeznanDemonFire = {
+		sounds = {
+			"VeznanDemonFire"
+		}
+	},
+	VeznanPortalSummon = {
+		sounds = {
+			"VeznanPortalSummon"
+		}
+	},
+	VeznanHoldHit = {
+		sounds = {
+			"VeznanHoldHit"
+		}
+	},
+	VeznanHoldTrap = {
+		sounds = {
+			"VeznanHoldTrap"
+		}
+	},
+	VeznanToDemon = {
+		sounds = {
+			"VeznanToDemon"
+		}
+	},
+	VeznanHoldDissipate = {
+		sounds = {
+			"VeznanHoldDissipate"
+		}
+	},
+	ElvesHeroVeznanSoulBurn = {
+		sounds = {
+			"ElvesHeroVeznanSoulBurn"
+		}
+	},
 	music_stage112 = {
 		sounds = {
 			"MusicBattlePrep_112",

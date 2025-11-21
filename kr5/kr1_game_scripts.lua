@@ -1057,6 +1057,33 @@ function scripts.tower_bfg.update(this, store, script)
 	end
 end
 
+scripts.aura_bomb_tower = {
+	update = function(this, store)
+		local towers = table.filter(store.towers, function(_, e)
+			return e.tower.can_be_mod and U.is_inside_ellipse(e.pos, this.pos, this.aura.radius)
+		end)
+
+		if #towers > 0 then
+			for _, t in pairs(towers) do
+				local m = E:create_entity("mod_veznan_v3_tower")
+				m.modifier.source_id = this.id
+				m.modifier.target_id = t.id
+
+				queue_insert(store, m)
+			end
+		end
+
+		local fx = E:create_entity(this.explode_fx)
+		fx.pos = V.vclone(this.pos)
+		fx.render.sprites[1].ts = store.tick_ts
+
+		queue_insert(store, fx)
+
+		queue_remove(store, this)
+		return
+	end
+}
+
 scripts.tower_tesla = {}
 
 function scripts.tower_tesla.get_info(this)
@@ -5679,6 +5706,8 @@ end
 function scripts.eb_veznan.update(this, store)
 	local ba = this.timed_attacks.list[1]
 	local pa = this.timed_attacks.list[2]
+	local ca = this.timed_attacks.list[3]
+	local sa = this.timed_attacks.list[4]
 	local taunt_ts
 	local portals = LU.list_entities(store.entities, pa.portal_name)
 	local initial_hp = this.health.hp_max
@@ -5688,6 +5717,117 @@ function scripts.eb_veznan.update(this, store)
 		SU.y_show_taunt_set(store, this.taunts, set or this.phase, idx, nil, nil, true)
 		U.y_animation_wait(this)
 		U.animation_start(this, "idleDown", nil, store.tick_ts, true)
+	end
+
+	local function y_soulburn()
+		local soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, sa.range, sa.vis_flags, sa.vis_bans)
+
+		if not soldiers or #soldiers == 0 then
+			SU.delay_attack(store, sa, 0.5)
+
+			return 
+		end
+		
+		U.animation_start(this, sa.animation[1], nil, store.tick_ts, false)
+		
+		if not SU.y_enemy_wait(store, this, sa.cast_time) then
+			soldiers = U.find_soldiers_in_range(store.entities, this.pos, 0, sa.range*1.05, sa.vis_flags, sa.vis_bans)
+			
+			if not soldiers or #soldiers == 0 then
+				SU.delay_attack(store, sa, 0.5)
+
+				return 
+			end
+			
+			local balls = {}
+			local af = (this.render.sprites[1].flip_x and -1) or 1
+			
+			S:queue(sa.sound)
+			sa.ts = store.tick_ts
+			
+			for _, target in pairs(soldiers) do
+				local d = E:create_entity("damage")
+				d.damage_type = DAMAGE_EAT
+				d.target_id = target.id
+				d.source_id = this.id
+
+				queue_damage(store, d)
+				
+				local fx = E:create_entity(sa.hit_fx)
+				fx.pos.y = target.pos.y
+				fx.pos.x = target.pos.x
+				fx.render.sprites[1].name = fx.render.sprites[1].size_names[target.unit.size]
+				fx.render.sprites[1].ts = store.tick_ts
+
+				queue_insert(store, fx)
+				
+				local b = E:create_entity(sa.balls)
+				b.from = V.v(target.pos.x + target.unit.mod_offset.x, target.pos.y + target.unit.mod_offset.y)
+				b.to = V.v(this.pos.x + sa.balls_dest_offset.x*af, this.pos.y + sa.balls_dest_offset.y)
+				b.pos = V.vclone(b.from)
+				b.target = target
+
+				queue_insert(store, b)
+				
+				table.insert(balls, b)
+			end
+			
+			U.y_animation_wait(this)
+			U.animation_start(this, sa.animation[2], nil, store.tick_ts, true)
+			
+			while true do
+				local arrived = true
+
+				for _, ball in pairs(balls) do
+					arrived = arrived and ball.arrived
+				end
+
+				if arrived then
+					break
+				end
+				
+				coroutine.yield()
+			end
+			
+			U.animation_start(this, sa.animation[3], nil, store.tick_ts, false)
+			U.y_animation_wait(this)
+		end
+		
+		return 
+	end
+
+	local function y_destroy_tower()
+		local towers = table.filter(store.entities, function(_, e)
+			return e.tower and e.tower.can_be_mod and not e.tower.blocked and not table.contains(ca.excluded_templates, e.template_name) and math.abs(e.pos.x - this.pos.x) > 45 and U.is_inside_ellipse(e.pos, this.pos, ca.max_range)
+		end)
+
+		local start_ts = store.tick_ts
+		ca.ts = store.tick_ts
+
+		if #towers < 1 then
+			return
+		end
+
+		local tower = table.random(towers)
+
+		S:queue(ca.sound)
+
+		local af = tower.pos.x < this.pos.x
+
+		U.y_animation_play(this, ca.animations, af, store.tick_ts)
+		U.y_wait(store, ca.shoot_time - (store.tick_ts - start_ts))
+
+		local o = ca.bullet_start_offset[1]
+		local b = E:create_entity(ca.bullet)
+
+		b.bullet.from = V.v(this.pos.x + (af and -1 or 1) * o.x, this.pos.y + o.y)
+		b.bullet.to = V.v(tower.pos.x, tower.pos.y + 8)
+		b.bullet.source_id = this.id
+		b.bullet.target_id = tower.id
+		b.pos = V.vclone(b.bullet.from)
+
+		queue_insert(store, b)
+		U.y_animation_wait(this)
 	end
 
 	local function y_block_towers()
@@ -5775,8 +5915,20 @@ function scripts.eb_veznan.update(this, store)
 		return not pa.disabled and store.tick_ts - pa.ts >= pa.cooldown and pa.count < pa.max_count
 	end
 
+	local function ready_to_soulburn()
+		return not sa.disabled and store.tick_ts - sa.ts >= sa.cooldown
+	end
+
+	local function ready_to_shoot()
+		return not ca.disabled and store.tick_ts - ca.ts >= ca.cooldown
+	end
+
 	local function can_break_battle_walk()
-		return ready_to_block() or ready_to_portal() or this.phase_signal
+		return ready_to_block() or ready_to_portal() or ready_to_soulburn() or this.phase_signal
+	end
+
+	local function can_break_walk()
+		return ready_to_shoot() or this.phase_signal
 	end
 
 	this.phase_signal = nil
@@ -5873,6 +6025,7 @@ function scripts.eb_veznan.update(this, store)
 	this.pos = P:node_pos(this.nav_path)
 	pa.ts = store.tick_ts
 	ba.ts = store.tick_ts
+	sa.ts = store.tick_ts
 	this.vis.bans = U.flag_clear(this.vis.bans, F_ALL)
 	this.health.ignore_damage = false
 	this.health_bar.hidden = nil
@@ -5892,6 +6045,10 @@ function scripts.eb_veznan.update(this, store)
 				y_portal()
 			end
 
+			if ready_to_soulburn() and not this.phase_signal then
+				y_soulburn()
+			end
+
 			if not SU.y_enemy_mixed_walk_melee_ranged(store, this, false, can_break_battle_walk, can_break_battle_walk) then
 				-- block empty
 			else
@@ -5908,8 +6065,10 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*3
-	this.health.hp_max = initial_hp*3
+	this.health.hp = initial_hp*15
+	this.health.hp_max = initial_hp*15
+	this.health.armor = this.demon.armor
+	this.health.magic_armor = this.demon.magic_armor
 	this.health_bar.offset = this.demon.health_bar_offset
 	this.health_bar.frames[1].bar_width = this.health_bar.frames[1].bar_width * this.demon.health_bar_scale
 	this.health_bar.frames[2].bar_width = this.health_bar.frames[2].bar_width * this.demon.health_bar_scale
@@ -5920,6 +6079,7 @@ function scripts.eb_veznan.update(this, store)
 	this.motion.max_speed = this.demon.speed
 	this.render.sprites[1].prefix = this.demon.sprites_prefix
 	this.render.sprites[1].scale = this.demon.sprites_scale
+	this.timed_attacks.list[3].disabled = false
 	this.ui.click_rect = this.demon.ui_click_rect
 	this.unit.hit_offset = this.demon.unit_hit_offset
 	this.unit.mod_offset = this.demon.unit_mod_offset
@@ -5934,12 +6094,17 @@ function scripts.eb_veznan.update(this, store)
 		if this.unit.is_stunned then
 			U.animation_start(this, "idle", nil, store.tick_ts, -1)
 			coroutine.yield()
-		elseif not SU.y_enemy_mixed_walk_melee_ranged(store, this, false, signal_ready, signal_ready) then
-			-- block empty
 		else
+			if ready_to_shoot() and not this.phase_signal then
+				y_destroy_tower()
+			end
+
+			if not SU.y_enemy_mixed_walk_melee_ranged(store, this, false, can_break_walk, can_break_walk) then
+			-- block empty
 			coroutine.yield()
 		end
 	end
+end
 
 	this.phase = "death"
 	this.health_bar.hidden = true

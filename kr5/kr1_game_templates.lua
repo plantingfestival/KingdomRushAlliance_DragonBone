@@ -4716,6 +4716,8 @@ tt.render.sprites[1].name = "fx_blackburn_smash"
 tt.render.sprites[1].anchor.y = 0.1588785046728972
 tt = RT("fx_veznan_demon_fire", "fx")
 tt.render.sprites[1].name = "fx_veznan_demon_fire"
+tt.render.sprites[1].scale = vv(6)
+tt.render.sprites[1].anchor = v(0, 0.5)
 tt = E:register_t("fx_explosion_rotten_shot", "fx")
 tt.render.sprites[1].name = "explosion_rotten_shot"
 tt.render.sprites[1].anchor = v(0.5, 0.33783783783783783)
@@ -6992,10 +6994,11 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 108, 84
-tt.enemy.gold = 1000
+tt.enemy.gold = 1500
 tt.enemy.lives_cost = 10
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = 40000
+tt.health.immune_to = DAMAGE_PHYSICAL
+tt.health.hp_max = 42000
 tt.health.armor = 1
 tt.health_bar.offset = v(0, 62)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -7003,7 +7006,7 @@ tt.info.portrait = "bottom_info_image_enemies_0037"
 tt.info.i18n_key = "ENEMY_LAVA_ELEMENTAL"
 tt.info.enc_icon = 30
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].cooldown = 1.5
 tt.melee.attacks[1].count = 15
 tt.melee.attacks[1].damage_max = 400
 tt.melee.attacks[1].damage_min = 250
@@ -7027,7 +7030,7 @@ tt.unit.hit_offset = v(0, 24)
 tt.unit.mod_offset = v(adx(53), ady(38))
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_POISON)
-tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
+tt.vis.flags = bor(F_ENEMY, F_BOSS, F_MINIBOSS)
 tt = RT("enemy_sarelgaz_small", "enemy_KR5")
 
 AC(tt, "melee")
@@ -8118,9 +8121,12 @@ tt.melee.attacks[1].hit_offset = v(-10, -2)
 tt.melee.attacks[1].hit_time = fts(17)
 tt.melee.attacks[1].hit_decal = "decal_veznan_strike"
 tt.melee.attacks[1].sound_hit = "VeznanAttack"
-tt.melee.attacks[2] = table.deepclone(tt.melee.attacks[1])
+tt.melee.attacks[2] = CC("area_attack")
 tt.melee.attacks[2].cooldown = 1
-tt.melee.attacks[2].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[2].damage_min = 666
+tt.melee.attacks[2].damage_max = 999
+tt.melee.attacks[2].damage_radius = 475
+tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].hit_decal = nil
 tt.melee.attacks[2].hit_fx = "fx_veznan_demon_fire"
@@ -8180,7 +8186,7 @@ tt.timed_attacks.list[1].data = {
 }
 tt.timed_attacks.list[2] = CC("custom_attack")
 tt.timed_attacks.list[2].animation = "spellDown"
-tt.timed_attacks.list[2].cooldown = 15
+tt.timed_attacks.list[2].cooldown = 10
 tt.timed_attacks.list[2].hit_time = fts(14)
 tt.timed_attacks.list[2].portal_name = "veznan_portal"
 tt.timed_attacks.list[2].sound = "VeznanPortalSummon"
@@ -8253,7 +8259,7 @@ tt.timed_attacks.list[2].data = {
 		15,
 		3,
 		{
-			0,
+			1,
 			0,
 			1
 		}
@@ -8277,15 +8283,46 @@ tt.timed_attacks.list[2].data = {
 		}
 	}
 }
+tt.timed_attacks.list[3] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[3].animation = "idle"
+tt.timed_attacks.list[3].bullet = "ray_eb_veznan_tower"
+tt.timed_attacks.list[3].max_range = 1600
+tt.timed_attacks.list[3].excluded_templates = {
+	"mod_denas_tower",
+	"mod_veznan_tower"
+}
+tt.timed_attacks.list[3].shoot_time = fts(8)
+tt.timed_attacks.list[3].cooldown = 30
+tt.timed_attacks.list[3].disabled = true
+tt.timed_attacks.list[3].bullet_start_offset = {
+	v(19, 42)
+}
 tt.battle = {}
 tt.battle.ba_animation = "spell"
 tt.battle.pa_animation = "spell"
 tt.battle.pa_cooldown = 10
 tt.battle.pa_max_count = 40
+tt.timed_attacks.list[4] = CC("custom_attack")
+tt.timed_attacks.list[4].cooldown = 5
+tt.timed_attacks.list[4].range = 245
+tt.timed_attacks.list[4].vis_flags = F_RANGED
+tt.timed_attacks.list[4].vis_bans = F_ENEMY
+tt.timed_attacks.list[4].cast_time = fts(9)
+tt.timed_attacks.list[4].animation = {
+	"soulburnStart",
+	"soulburnCast",
+	"soulburnEnd"
+}
+tt.timed_attacks.list[4].balls = "decal_veznan_soulburn_ball"
+tt.timed_attacks.list[4].balls_dest_offset = v(19, 20)
+tt.timed_attacks.list[4].hit_fx = "fx_veznan_soulburn_desintegrate"
+tt.timed_attacks.list[4].sound = "ElvesHeroVeznanSoulBurn"
 tt.demon = {}
 tt.demon.health_bar_offset = v(0, 118)
 tt.demon.health_bar_scale = 1.8
 tt.demon.melee_slot = v(50, 0)
+tt.demon.armor = 0.99
+tt.demon.magic_armor = 0.99
 tt.demon.speed = 0.6 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
 tt.demon.sprites_scale = vv(5)
@@ -8295,6 +8332,83 @@ tt.demon.unit_hit_offset = v(0, 55)
 tt.demon.unit_mod_offset = v(0, 45)
 tt.demon.unit_size = UNIT_SIZE_LARGE
 tt.demon.info_portrait = "bottom_info_image_enemies_0127"
+tt = RT("ray_eb_veznan_tower", "ray_eb_spider")
+tt.bullet.damage_radius = 0
+tt.bullet.damage_type = DAMAGE_NONE
+tt.bullet.hit_fx = nil
+tt.bullet.mod = "mod_eb_veznan_tower_remove"
+tt.image_width = 230
+tt.render.sprites[1].name = "ray_eb_spider_tower"
+tt.sound_events.insert = "PolymorphSound"
+tt = RT("mod_eb_veznan_tower_remove", "modifier")
+AC(tt, "render", "tween")
+tt.main_script.update = kr1_scripts.mod_tower_remove.update
+tt.modifier.hide_time = fts(27)
+tt.render.sprites[1].name = "mod_eb_spider_tower_remove_explosion"
+tt.render.sprites[1].scale = vv(1.25)
+tt.render.sprites[1].anchor.y = 0.375
+tt.render.sprites[1].z = Z_OBJECTS + 1
+tt.render.sprites[2] = CC("sprite")
+tt.render.sprites[2].name = "spiderQueen_towerExplosion_ring"
+tt.render.sprites[2].animated = false
+tt.render.sprites[2].z = Z_DECALS
+tt.tween.remove = false
+tt.tween.props[1].keys = {
+	{
+		fts(23),
+		0
+	},
+	{
+		fts(24),
+		255
+	},
+	{
+		fts(28),
+		255
+	},
+	{
+		fts(35),
+		0
+	}
+}
+tt.tween.props[1].sprite_id = 2
+tt.tween.props[2] = CC("tween_prop")
+tt.tween.props[2].name = "scale"
+tt.tween.props[2].keys = {
+	{
+		fts(24),
+		vv(0.24)
+	},
+	{
+		fts(28),
+		vv(1)
+	},
+	{
+		fts(35),
+		vv(1.2)
+	}
+}
+tt.tween.props[2].sprite_id = 2
+tt = RT("fx_veznan_soulburn_desintegrate", "decal_tween")
+tt.render.sprites[1].prefix = "veznan_hero_soulBurn_desintegrate"
+tt.render.sprites[1].name = "small"
+tt.render.sprites[1].loop = false
+tt.render.sprites[1].size_names = {
+	"small",
+	"big",
+	"big"
+}
+tt.render.sprites[1].anchor.y = 0.15217391304347827
+tt.tween.props[1].keys = {
+	{
+		0.5,
+		255
+	},
+	{
+		1,
+		0
+	}
+}
 tt = RT("eb_sarelgaz", "boss")
 
 AC(tt, "melee", "timed_attacks")

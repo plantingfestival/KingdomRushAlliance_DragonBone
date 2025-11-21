@@ -848,6 +848,38 @@ return {
 			"MusicBossFight.ogg"
 		}
 	},
+	VeznanPortalSummon = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Sound_DemonPortal_Summon.ogg"
+		}
+	},
+	VeznanHoldHit = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Sound_SpellTowerHold_Hit.ogg"
+		}
+	},
+	VeznanHoldTrap = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Sound_SpellTowerHold_Trap.ogg"
+		}
+	},
+	VeznanHoldDissipate = {
+		loop = false,
+		gain = 1,
+		source_group = "BULLETS",
+		files = {
+			"Sound_SpellTowerHold_Dissipate.ogg"
+		}
+	},
 	VeznanEffects = {
 		loop = false,
 		gain = 1,
@@ -858,11 +890,7 @@ return {
 			"Sound_EnemyVeznan_demonFire.ogg",
 			"Sound_SpellTowerHold_Cast.ogg",
 			"Sound_SpellTowerHold_Dissipate.ogg",
-			"Sound_DemonPortal_Telein.ogg",
-			"Sound_DemonPortal_Summon.ogg",
-			"Sound_SpellTowerHold_Hit.ogg",
-			"Sound_SpellTowerHold_Trap.ogg",
-			"Sound_SpellTowerHold_Dissipate.ogg"
+			"Sound_DemonPortal_Telein.ogg"
 		}
 	},
 	MusicBattlePrep_112 = {

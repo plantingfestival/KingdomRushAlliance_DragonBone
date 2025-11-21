@@ -580,12 +580,20 @@ return {
 		"music_stage112",
 		"VeznanAttack",
 		"VeznanDemonFire",
+		"VeznanToDemon",
+		"VeznanHoldHit",
+		"VeznanHoldDissipate",
+		"VeznanHoldTrap",
+		"ElvesHeroVeznanSoulBurn",
+		"VeznanPortalSummon",
 		"VeznanEffects"
 	},
 	required_textures = {
 		"kr1_enemies_common",
 		"go_enemies_wastelands",
 		"go_stage112",
-		"go_stage112_bg"
+		"go_stage112_bg",
+		"go_items_hero_veznan",
+		"go_stage315"
 	}
 }

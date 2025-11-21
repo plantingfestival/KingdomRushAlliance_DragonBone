@@ -695,6 +695,15 @@ return {
 							path = 2
 						},
 						{
+							interval = 60,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_munra",
+							max_same = 0,
+							interval_next = 30,
+							path = 3
+						},
+						{
 							interval = 0,
 							max = 1,
 							fixed_sub_path = 1,
@@ -716,10 +725,10 @@ return {
 							interval = 0,
 							max = 1,
 							fixed_sub_path = 1,
-							creep = "enemy_desert_raider",
+							creep = "enemy_executioner",
 							max_same = 0,
 							interval_next = 0,
-							path = 2
+							path = 1
 						},
 						{
 							interval = 0,
@@ -727,7 +736,25 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_desert_raider",
 							max_same = 0,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 60,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_desert_raider",
+							max_same = 0,
 							interval_next = 100,
+							path = 3
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_executioner",
+							max_same = 0,
+							interval_next = 0,
 							path = 3
 						},
 						{
@@ -938,6 +965,15 @@ return {
 						},
 						{
 							interval = 20,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_munra",
+							max_same = 0,
+							interval_next = 30,
+							path = 2
+						},
+						{
+							interval = 20,
 							max = 5,
 							fixed_sub_path = 0,
 							creep = "enemy_desert_wolf",
@@ -1141,6 +1177,15 @@ return {
 							max_same = 0,
 							interval_next = 30,
 							path = 3
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_executioner",
+							max_same = 0,
+							interval_next = 0,
+							path = 2
 						},
 						{
 							interval = 0,
@@ -2009,7 +2054,52 @@ return {
 							interval = 0,
 							max = 1,
 							fixed_sub_path = 1,
-							creep = "enemy_desert_archer",
+							creep = "enemy_executioner",
+							max_same = 0,
+							interval_next = 0,
+							path = 3
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_executioner",
+							max_same = 0,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_executioner",
+							max_same = 0,
+							interval_next = 0,
+							path = 1
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_munra",
+							max_same = 0,
+							interval_next = 30,
+							path = 1
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_munra",
+							max_same = 0,
+							interval_next = 30,
+							path = 2
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_munra",
 							max_same = 0,
 							interval_next = 30,
 							path = 3
@@ -2730,6 +2820,24 @@ return {
 							max = 1,
 							fixed_sub_path = 1,
 							creep = "enemy_immortal",
+							max_same = 0,
+							interval_next = 40,
+							path = 1
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_immortal",
+							max_same = 0,
+							interval_next = 0,
+							path = 2
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_executioner",
 							max_same = 0,
 							interval_next = 40,
 							path = 3
