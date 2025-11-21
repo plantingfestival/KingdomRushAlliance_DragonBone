@@ -3205,6 +3205,7 @@ tt = E:register_t("fx_crocs_hydra_heads_transform", "fx")
 E:add_comps(tt, "tween")
 
 tt.render.sprites[1].prefix = "hydra_death1_headsDef"
+tt.render.sprites[1].scale = vv(2.7)
 tt.render.sprites[1].name = "transform1"
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].loop = false
@@ -3231,6 +3232,7 @@ tt.tween.props[1].keys = {
 }
 tt = E:register_t("fx_crocs_hydra_heads_death", "fx_crocs_hydra_heads_transform")
 tt.render.sprites[1].prefix = "hydra_death_threeheadsDef"
+tt.render.sprites[1].scale = vv(2.8)
 tt.render.sprites[1].name = "death2"
 tt.tween.props[1].keys = {
 	{
@@ -30367,7 +30369,7 @@ tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_hydra_regen"
 tt.auras.list[1].cooldown = 0
 tt.render.sprites[1].prefix = "hydra_unitDef"
-tt.render.sprites[1].scale = vv(2.7)
+tt.render.sprites[1].scale = vv(3)
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].angles.walk = {
 	"walk"
