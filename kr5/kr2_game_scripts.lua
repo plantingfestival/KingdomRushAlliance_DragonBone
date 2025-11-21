@@ -9510,7 +9510,7 @@ function scripts.eb_umbra.update(this, store, script)
 	show_taunt(3, 2)
 	U.y_wait(store, 2)
 
-	this.health_bar.hidden = false
+	this.health_bar.hidden = true
 	this.phase = "loop"
 
 	update_cooldowns()
@@ -9579,7 +9579,7 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = recovered_hp + hp_per_piece
+						recovered_hp = this.health.hp_max/ pieces_alive*10
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")
@@ -9592,13 +9592,13 @@ function scripts.eb_umbra.update(this, store, script)
 							end
 
 							this.render.sprites[1].hidden = false
-							this.render.sprites[1].scale = V.v(0.5, 0.5)
+							this.render.sprites[1].scale = V.v(2, 2)
 
 							U.animation_start(this, "ball_idle", nil, store.tick_ts, true)
 						elseif #pieces_returned > 2 then
 							local scale = this.render.sprites[1].scale.x
 
-							scale = km.clamp(0.5, 1, scale + 0.1)
+							scale = km.clamp(2, 4, scale + 0.5)
 							this.render.sprites[1].scale.x = scale
 							this.render.sprites[1].scale.y = scale
 							p.recovered = true
@@ -9616,8 +9616,8 @@ function scripts.eb_umbra.update(this, store, script)
 			log.debug("transform")
 			S:queue("FrontiersFinalBossRespawn")
 
-			this.render.sprites[1].scale.x = 1
-			this.render.sprites[1].scale.y = 1
+			this.render.sprites[1].scale.x = 4
+			this.render.sprites[1].scale.y = 4
 
 			U.y_animation_play(this, "transform", nil, store.tick_ts, 1)
 
@@ -9626,7 +9626,7 @@ function scripts.eb_umbra.update(this, store, script)
 			this.health.hp_max = recovered_hp
 			this.health.dead = false
 			this.health.immune_to = DAMAGE_NONE
-			this.health_bar.hidden = false
+			this.health_bar.hidden = true
 			this.vis.bans = this.vis.bans_at_home
 			is_in_pieces = false
 
@@ -9968,7 +9968,7 @@ function scripts.eb_umbra.update(this, store, script)
 
 					U.y_animation_play(this, "teleport_in", nil, store.tick_ts, 1, body_sid)
 
-					this.health_bar.hidden = false
+					this.health_bar.hidden = true
 					this.health.ignore_damage = is_at_home
 
 					update_cooldowns()
