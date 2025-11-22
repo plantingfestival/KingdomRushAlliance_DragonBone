@@ -123,6 +123,9 @@ regen.last_hit_ts = 0
 regen.is_idle = nil
 regen.ts = 0
 
+local death = E:register_c("death")
+death.death_fn = nil
+
 local damage = E:register_c("damage")
 
 damage.damage_type = DAMAGE_TRUE
