@@ -4489,10 +4489,10 @@ local function get_entity_names_for_conditions(t, basic_key, is_hit, pos)
 		hit_water = false
 	}
 	local basic = t[basic_key]
-	local hit_water = t["hit" .. basic_key .. "water"]
-	local hit = t["hit" .. basic_key]
-	local miss_water = t["miss" .. basic_key .. "water"]
-	local miss = t["miss" .. basic_key]
+	local hit_water = t["hit_" .. basic_key .. "_water"]
+	local hit = t["hit_" .. basic_key]
+	local miss_water = t["miss_" .. basic_key .. "_water"]
+	local miss = t["miss_" .. basic_key]
 
 	local function cell_is_water()
 		if not pos then
@@ -4545,6 +4545,12 @@ local function basic_create_entities(store, name, source_id, target_id, flip_x, 
 	origin = get_entity_range_origin(store.entities[source_id])
 	
 	local e = E:create_entity(name)
+
+	if not e then
+		log.error("Not found template: %s", name)
+		return
+	end
+	
 	e.pos.x, e.pos.y = origin.x, origin.y
 	if e.nav_rally and e.pos then
 		local npos = V.vclone(e.pos)
@@ -4554,10 +4560,8 @@ local function basic_create_entities(store, name, source_id, target_id, flip_x, 
 	end
 
 	for _, s in pairs(e.render.sprites) do
-		if not t.ignore_flip_x then
-			s.flip_x = flip_x
-			s.ts = store.tick_ts
-		end
+		s.flip_x = flip_x
+		s.ts = store.tick_ts
 	end
 	if e.tween and not e.tween.disabled then
 		e.tween.ts = store.tick_ts
@@ -4679,16 +4683,14 @@ local function create_bullet_hit_decal(this, store, flip_x)
 	end
 end
 
-local function create_entity_decal(store, t, source_id, target_id, flip_x, custom, is_hit, not_insert_queue)
-	local created_entities
+local function create_entity_decal(store, t, source_id, target_id, flip_x, is_hit, custom, not_insert_queue)
+	local created_entities = {}
 	local names, status = get_entity_names_for_conditions(t, "decal", is_hit)
 
 	for i = 1, #names do
 		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-		if not_insert_queue then
-			-- block empty
-		else
+		if not not_insert_queue then
 			queue_insert(store, e)
 		end
 
@@ -4699,15 +4701,13 @@ local function create_entity_decal(store, t, source_id, target_id, flip_x, custo
 end
 
 local function create_entity_fx(store, t, source_id, target_id, flip_x, is_hit, custom, not_insert_queue)
-	local created_entities
+	local created_entities = {}
 	local names, status = get_entity_names_for_conditions(t, "fx", is_hit)
 
 	for i = 1, #names do
 		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-		if not_insert_queue then
-			-- block empty
-		else
+		if not not_insert_queue then
 			queue_insert(store, e)
 		end
 
