@@ -71,10 +71,7 @@ function level:update(store)
 		while self.boss.phase ~= "death-end" do
 			coroutine.yield()
 		end
-
-		store.custom_game_outcome = {
-			next_item_name = "kr1_end"
-		}
+		
 	else
 		while store.wave_group_number < 1 do
 			coroutine.yield()

@@ -6065,8 +6065,8 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*15
-	this.health.hp_max = initial_hp*15
+	this.health.hp = initial_hp*30
+	this.health.hp_max = initial_hp*30
 	this.health.armor = this.demon.armor
 	this.health.magic_armor = this.demon.magic_armor
 	this.health_bar.offset = this.demon.health_bar_offset
@@ -6076,6 +6076,8 @@ function scripts.eb_veznan.update(this, store)
 	this.health_bar.frames[2].scale.x = this.health_bar.frames[2].scale.x * this.demon.health_bar_scale
 	this.melee.attacks[1].disabled = true
 	this.melee.attacks[2].disabled = false
+	this.melee.attacks[1].damage_max = this.melee.attacks[2].damage_max
+	this.melee.attacks[1].damage_min = this.melee.attacks[2].damage_min
 	this.motion.max_speed = this.demon.speed
 	this.render.sprites[1].prefix = this.demon.sprites_prefix
 	this.render.sprites[1].scale = this.demon.sprites_scale
@@ -6830,6 +6832,8 @@ function scripts.eb_moloch.update(this, store)
 			this.health.armor = this.second_phase.armor
 			this.health.magic_armor = this.second_phase.magic_armor
 			this.motion.max_speed = this.second_phase.max_speed
+			this.melee.attacks[1].damage_max = this.second_phase.damage_max
+			this.melee.attacks[1].damage_min = this.second_phase.damage_min
 			this.timed_attacks.list[1].cooldown = this.second_phase.cooldown
 			this.timed_attacks.list[1].damage_radius = this.second_phase.damage_radius
 			this.render.sprites[1].prefix = this.second.sprites_prefix

@@ -4716,7 +4716,7 @@ tt.render.sprites[1].name = "fx_blackburn_smash"
 tt.render.sprites[1].anchor.y = 0.1588785046728972
 tt = RT("fx_veznan_demon_fire", "fx")
 tt.render.sprites[1].name = "fx_veznan_demon_fire"
-tt.render.sprites[1].scale = vv(6)
+tt.render.sprites[1].scale = vv(15)
 tt.render.sprites[1].anchor = v(0, 0.5)
 tt = E:register_t("fx_explosion_rotten_shot", "fx")
 tt.render.sprites[1].name = "explosion_rotten_shot"
@@ -4841,9 +4841,9 @@ tt.spawn_groups = {
 			0.5,
 			{
 				{
-					4,
-					7,
-					"enemy_demon"
+					1,
+					1,
+					"enemy_demon_cerberus"
 				}
 			}
 		},
@@ -4861,8 +4861,8 @@ tt.spawn_groups = {
 			1,
 			{
 				{
-					5,
-					5,
+					10,
+					10,
 					"enemy_demon"
 				},
 				{
@@ -4878,9 +4878,9 @@ tt.spawn_groups = {
 			0.5,
 			{
 				{
-					2,
 					5,
-					"enemy_demon"
+					8,
+					"enemy_demon_flareon"
 				}
 			}
 		},
@@ -4888,8 +4888,8 @@ tt.spawn_groups = {
 			0.8,
 			{
 				{
-					2,
-					2,
+					3,
+					3,
 					"enemy_demon_wolf"
 				}
 			}
@@ -4900,7 +4900,7 @@ tt.spawn_groups = {
 				{
 					3,
 					3,
-					"enemy_demon"
+					"enemy_demon_legion"
 				}
 			}
 		}
@@ -4910,9 +4910,9 @@ tt.spawn_groups = {
 			1,
 			{
 				{
-					3,
-					3,
-					"enemy_demon"
+					1,
+					1,
+					"enemy_demon_gulaemon"
 				}
 			}
 		}
@@ -7020,7 +7020,7 @@ tt.melee.attacks[1].sound_hit = "AreaAttack"
 tt.motion.max_speed = 0.5 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_lava_elemental"
-tt.render.sprites[1].scale = vv(3)
+tt.render.sprites[1].scale = vv(3.5)
 tt.sound_events.death = "RockElementalDeath"
 tt.ui.click_rect.size = v(50, 56)
 tt.ui.click_rect.pos.x = -25
@@ -7745,7 +7745,7 @@ tt.auras.list[1].name = "aura_spectral_knight"
 tt.enemy.gold = 40
 tt.enemy.melee_slot = v(26, 0)
 tt.health.armor = 1
-tt.health.hp_max = 500
+tt.health.hp_max = 800
 tt.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
 tt.health_bar.offset = v(0, 61)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -7852,25 +7852,28 @@ tt.skate.walk_angles = {
 }
 tt = RT("enemy_hobgoblin", "enemy_KR5")
 
-AC(tt, "melee", "death_spawns")
+AC(tt, "melee", "auras", "death_spawns")
 
 anchor_x, anchor_y = 0.5, 0.17532467532467533
 image_x, image_y = 224, 154
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.name = "fx_coin_shower"
 tt.death_spawns.offset = v(0, 60)
-tt.enemy.gold = 250
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "aura_hobgoblin_regen"
+tt.auras.list[1].cooldown = 0
+tt.enemy.gold = 1250
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
-tt.health.hp_max = 150000
-tt.health.armor = 0.5
+tt.health.hp_max = 250000
+tt.health.armor = 0.95
 tt.health_bar.offset = v(0, 82)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.i18n_key = "ENEMY_ENDLESS_MINIBOSS_ORC"
 tt.info.portrait = "bottom_info_image_enemies_0099"
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].count = 10
+tt.melee.attacks[1].count = 25
 tt.melee.attacks[1].damage_max = 900
 tt.melee.attacks[1].damage_min = 400
 tt.melee.attacks[1].damage_radius = 120
@@ -7886,7 +7889,7 @@ tt.melee.attacks[1].sound_args = {
 tt.motion.max_speed = 0.7 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_hobgoblin"
-tt.render.sprites[1].scale = vv(3.6)
+tt.render.sprites[1].scale = vv(7.5)
 tt.sound_events.death = "DeathJuggernaut"
 tt.ui.click_rect = r(-30, 0, 60, 70)
 tt.unit.can_explode = false
@@ -8048,7 +8051,7 @@ image_x, image_y = 214, 194
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = 200000
+tt.health.hp_max = 300000
 tt.health.on_damage = kr1_scripts.eb_veznan.on_damage
 tt.health.ignore_damage = true
 tt.health_bar.hidden = true
@@ -8123,9 +8126,9 @@ tt.melee.attacks[1].hit_decal = "decal_veznan_strike"
 tt.melee.attacks[1].sound_hit = "VeznanAttack"
 tt.melee.attacks[2] = CC("area_attack")
 tt.melee.attacks[2].cooldown = 1
-tt.melee.attacks[2].damage_min = 666
-tt.melee.attacks[2].damage_max = 999
-tt.melee.attacks[2].damage_radius = 475
+tt.melee.attacks[2].damage_min = 6666
+tt.melee.attacks[2].damage_max = 9999
+tt.melee.attacks[2].damage_radius = 525
 tt.melee.attacks[2].damage_type = DAMAGE_TRUE
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].hit_decal = nil
@@ -8286,13 +8289,13 @@ tt.timed_attacks.list[2].data = {
 tt.timed_attacks.list[3] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[3].animation = "idle"
 tt.timed_attacks.list[3].bullet = "ray_eb_veznan_tower"
-tt.timed_attacks.list[3].max_range = 1600
+tt.timed_attacks.list[3].max_range = 3000
 tt.timed_attacks.list[3].excluded_templates = {
 	"mod_denas_tower",
 	"mod_veznan_tower"
 }
 tt.timed_attacks.list[3].shoot_time = fts(8)
-tt.timed_attacks.list[3].cooldown = 30
+tt.timed_attacks.list[3].cooldown = 12
 tt.timed_attacks.list[3].disabled = true
 tt.timed_attacks.list[3].bullet_start_offset = {
 	v(19, 42)
@@ -8323,9 +8326,9 @@ tt.demon.health_bar_scale = 1.8
 tt.demon.melee_slot = v(50, 0)
 tt.demon.armor = 0.99
 tt.demon.magic_armor = 0.99
-tt.demon.speed = 0.6 * FPS
+tt.demon.speed = 0.1 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
-tt.demon.sprites_scale = vv(5)
+tt.demon.sprites_scale = vv(13)
 tt.demon.transform_sound = "VeznanToDemon"
 tt.demon.ui_click_rect = r(-25, -5, 50, 110)
 tt.demon.unit_hit_offset = v(0, 55)
@@ -8785,11 +8788,13 @@ tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
 tt.melee.attacks[1].hit_fx = "fx_moloch_ring"
 tt.melee.attacks[1].sound_hit = "EnemyInfernoStomp"
 tt.second_phase = {}
+tt.second_phase.damage_max = 1800
+tt.second_phase.damage_min = 600
 tt.second_phase.wait_time = 5
-tt.second_phase.hp_factor = 12
+tt.second_phase.hp_factor = 20
 tt.second_phase.armor = 0.9
 tt.second_phase.magic_armor = 0.9
-tt.second_phase.max_speed = 5
+tt.second_phase.max_speed = 20
 tt.second_phase.cooldown = 30
 tt.second_phase.damage_radius = 9999
 tt.timed_attacks.list[1] = CC("area_attack")
@@ -8846,7 +8851,7 @@ tt.timed_attacks.list[1].sound_args = {
 }
 tt.second = {}
 tt.second.sprites_prefix = "eb_moloch"
-tt.second.sprites_scale = vv(10)
+tt.second.sprites_scale = vv(9)
 tt = RT("eb_myconid", "boss")
 
 AC(tt, "melee", "timed_attacks")
@@ -9663,6 +9668,14 @@ AC(tt, "regen")
 tt.main_script.update = kr1_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(6)
 tt.regen.health = 4
+tt = E:register_t("aura_hobgoblin_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = kr1_scripts.aura_unit_regen.update
+tt.regen.cooldown = fts(3)
+tt.regen.health = 50
+tt.regen.ignore_mods = true
 tt = E:register_t("aura_ulgukhai_regen", "aura")
 
 AC(tt, "regen")

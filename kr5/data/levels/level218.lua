@@ -50,8 +50,8 @@ function level:init(store)
 
 	if store.level_mode == GAME_MODE_IRON then
 		self.available_towers = {
-			"tower_build_archer",
-			"tower_build_barrack"
+			"tower_build_pandas",
+			"tower_build_ray"
 		}
 	end
 end
@@ -97,7 +97,7 @@ function level:load(store)
 		if store.level_mode == GAME_MODE_CAMPAIGN and h.id == "3" then
 			LU.insert_tower(store, "tower_neptune_holder", h.style, h.pos, h.rally_pos, nil, h.id)
 		elseif store.level_mode == GAME_MODE_HEROIC and h.id == "3" then
-			local t = LU.insert_tower(store, "tower_archmage", h.style, h.pos, h.rally_pos, nil, h.id)
+			local t = LU.insert_tower(store, "tower_neptune_holder", h.style, h.pos, h.rally_pos, nil, h.id)
 
 			t.tower.can_be_sold = false
 		elseif store.level_mode == GAME_MODE_IRON and table.contains({

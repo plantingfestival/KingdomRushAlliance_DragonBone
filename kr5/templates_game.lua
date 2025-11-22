@@ -21324,7 +21324,7 @@ E:add_comps(tt, "sound_events")
 
 tt.main_script.update = scripts.multi_sprite_fx.update
 tt.render.sprites[1].name = "hero_wukong_dragon_ultimate_dragon"
-tt.render.sprites[1].scale = vv(1)
+tt.render.sprites[1].scale = vv(5)
 tt.render.sprites[1].z = Z_OBJECTS
 tt.render.sprites[1].sort_y_offset = -10
 tt.sound_events.insert = "HeroWukongUltimate"

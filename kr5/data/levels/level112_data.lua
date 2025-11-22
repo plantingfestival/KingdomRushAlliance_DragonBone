@@ -591,6 +591,7 @@ return {
 	required_textures = {
 		"kr1_enemies_common",
 		"go_enemies_wastelands",
+		"go_enemies_torment",
 		"go_stage112",
 		"go_stage112_bg",
 		"go_items_hero_veznan",

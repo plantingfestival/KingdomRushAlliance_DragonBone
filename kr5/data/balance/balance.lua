@@ -5676,7 +5676,7 @@ hero_wukong = {
 		speed = 80,
 		tp_duration = 1,
 		regen_cooldown = 1,
-		flywalk_speed_mult = 2.2,
+		flywalk_speed_mult = 4.2,
 		tp_delay = 0.4,
 		dead_lifetime = 20,
 		teleport_min_distance = 250,
@@ -5689,27 +5689,27 @@ hero_wukong = {
 		},
 		armor = {
 			0,
-			0.03,
-			0.07,
 			0.1,
-			0.13,
-			0.17,
+			0.15,
 			0.2,
-			0.23,
-			0.27,
-			0.3
+			0.25,
+			0.3,
+			0.35,
+			0.4,
+			0.45,
+			0.5
 		},
 		hp_max = {
-			200,
-			220,
-			240,
-			260,
-			280,
+			250,
 			300,
-			320,
 			350,
-			380,
-			420
+		    400,
+			450,
+			500,
+			550,
+			600,
+			650,
+			750
 		},
 		regen_health = {
 			13,
@@ -5894,9 +5894,9 @@ hero_wukong = {
 					160
 				},
 				duration = {
-					9,
-					12,
-					15
+					15,
+					20,
+					25
 				},
 				melee_attack = {
 					cooldown = 1,
@@ -5961,9 +5961,9 @@ hero_wukong = {
 		},
 		giant_staff = {
 			cooldown = {
-				53,
-				50,
-				46
+				40,
+				35,
+				30
 			},
 			xp_gain = {
 				20,
@@ -5972,32 +5972,32 @@ hero_wukong = {
 			},
 			area_damage = {
 				max_targets = 64,
-				damage_radius = 70,
+				damage_radius = 100,
 				damage_type = DAMAGE_TRUE,
 				damage_max = {
-					100,
 					200,
-					300
+					300,
+					400
 				},
 				damage_min = {
-					90,
-					180,
-					270
+					200,
+					300,
+					400
 				}
 			}
 		},
 		ultimate = {
 			cooldown = {
-				53,
-				43,
-				38,
-				33
+				45,
+				40,
+				35,
+				25
 			},
 			damage_total = {
-				400,
-				600,
-				800,
-				1000
+				1200,
+				1800,
+				2400,
+				5000
 			},
 			damage_type = DAMAGE_TRUE,
 			slow_duration = {
@@ -6204,12 +6204,12 @@ hero_wukong = {
 		},
 		cold_fury = {
 			max_range = 300,
-			damage_min = 150,
+			damage_min = 200,
 			min_range = 190,
-			damage_max = 200
+			damage_max = 400
 		},
 		ice_ball = {
-			max_range = 160,
+			max_range = 500,
 			min_range = 25,
 			damage_min = 90,
 			damage_max = 135,
@@ -7511,7 +7511,7 @@ local enemies = {
 			}
 		},
 		crocs_hydra = {
-			gold = 2500,
+			gold = 3500,
 			magic_armor = 1.2,
 			speed = {
 				20,
@@ -7522,8 +7522,8 @@ local enemies = {
 			armor = 0.98,
 			lives_cost = 10,
 			hp = {
-				22800,
-				33600
+				30000,
+				42000
 			},
 			water_fixed_speed = {
 				[9000] = 30,

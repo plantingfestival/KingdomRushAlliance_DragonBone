@@ -150,12 +150,12 @@ tt = E:register_t("enemy_bloodshell", "enemy_KR5")
 E:add_comps(tt, "melee", "water")
 
 anchor_y = 0.26
-tt.enemy.gold = 150
+tt.enemy.gold = 250
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(34, 0)
 tt.enemy.valid_terrains = bor(TERRAIN_LAND, TERRAIN_WATER)
 tt.health.armor = 0.95
-tt.health.hp_max = 4500
+tt.health.hp_max = 4800
 tt.health.immune_to = bor(DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL)
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, 57)
