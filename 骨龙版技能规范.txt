@@ -1,4 +1,7 @@
 规则：
+dead组件专用键值对
+dead_fn：类型function。表示死亡后调用的函数。
+
 entity_attacks函数负责实现所有具有普适性的主动技能。
 该函数返回的第一个参数，为true代表必须跳过entity之后的逻辑，为false代表可继续，为nil代表可跳可不跳。
 返回的第二个参数，没有合适的目标时返回A_NO_TARGET，技能已施放时返回A_DONE。其他情况返回nil。
@@ -136,7 +139,7 @@ animations：类型table或string。表示按顺序播放的动画表，格式�
 		times = 1 播放次数，可选，默认为1。
 	},
 	...-- 可播放多个动画。
-}-- 注：不能在中途出现 nil。
+}
 facing_point：类型vector。表示目标点。用于根据朝目标点的角度确定播放的动画。
 ignore_flip_x：类型boolean。表示是否禁止镜像。
 sounds：类型table。表示播放索引所对应的动画播放的声音，格式：

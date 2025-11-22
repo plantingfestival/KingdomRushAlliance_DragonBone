@@ -1197,7 +1197,7 @@ tt.vis.flags = bor(F_ENEMY, F_FLYING)
 
 tt = RT("enemy_crystal_demolisher", "enemy")
 
-AC(tt, "melee")
+AC(tt, "melee", "death")
 
 tt.enemy.gold = 80
 tt.enemy.lives_cost = 2
@@ -1236,6 +1236,14 @@ tt.unit.head_offset = v(0, 40)
 tt.ui.click_rect = r(-12, 12, 53, 65)
 tt.vis.flags = bor(F_ENEMY)
 tt.main_script.update = scripts.kr4_enemy_mixed.update
+tt.death.death_fn = scripts.enemy_crystal_demolisher.death_fn
+tt.death.damage = 300
+tt.death.damage_type = DAMAGE_PHYSICAL
+tt.death.min_range = 0
+tt.death.max_range = 60
+tt.death.count = 5
+tt.death.vis_flags = 0
+tt.death.vis_ban = 0
 
 tt = RT("enemy_infuser", "enemy")
 
@@ -1390,18 +1398,16 @@ tt.render.sprites[3].offset = v(0, 0)
 tt.render.sprites[3].animated = true
 tt.spawner.animations = {
 	{
+		name = "idle",
+		group = 1
+	},
+	{
 		name = "active",
 		group = 1
 	},
 	{
 		name = "end",
 		sprite = 3
-	}
-}
-tt.spawner.initial_spawn_animation = {
-	{
-		name = "idle",
-		group = 1
 	}
 }
 tt.main_script.update = scripts.basic_spawner.update

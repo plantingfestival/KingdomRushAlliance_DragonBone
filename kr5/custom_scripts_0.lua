@@ -227,15 +227,19 @@ function scripts.basic_spawner.update(this, store, script)
 	local sp = this.spawner
 
 	while true do
+		SU.mixed_entity_play_animation(this, sp.animations[1], store.tick_ts,
+		sp.facing_point, true)
+
 		if sp.spawn_data then
 			sp.spawn_data = nil
 
-			SU.entity_all_animations_and_sounds_play(store, this, sp.animations, sp.sounds, sp.sounds_args,
-				sp.animations_times, sp.facing_point, sp.ignore_flip_x)
+			SU.mixed_entity_play_animation(this, sp.animations[2], store.tick_ts,
+				sp.facing_point)
+			SU.mixed_entity_play_animation(this, sp.animations[3], store.tick_ts,
+				sp.facing_point)
+		else
+			SU.mixed_entity_animation_wait(this, sp.animations[1])
 		end
-
-		SU.mixed_entity_play_animation(this, sp.initial_spawn_animation, store.tick_ts, 1,
-		sp.facing_point, sp.ignore_flip_x)
 
 		coroutine.yield()
 	end
@@ -2511,8 +2515,14 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 					p.particle_system.emit = nil
 				end
 			end
+
 			SU.hide_shadow(this, true)
 			SU.y_enemy_death(store, this)
+
+			if this.deadth_fn then
+				this.deadth_fn(this, store, script)
+			end
+
 			return
 		end
 
@@ -2520,11 +2530,13 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 			SU.y_enemy_stun(store, this)
 		else
 			SU.y_enemy_mixed_walk_melee_ranged(store, this, false, walk_break_fn, melee_break_fn, ranged_break_fn)
+			
 			if ps and this.render then
 				for i, p in ipairs(ps) do
 					p.particle_system.flip_x = this.render.sprites[1].flip_x
 				end
 			end
+
 			coroutine.yield()
 		end
 	end

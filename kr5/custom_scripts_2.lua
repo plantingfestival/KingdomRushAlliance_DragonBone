@@ -401,6 +401,29 @@ function scripts.decal_spider_rotten_egg_shooter.update(this, store, script)
 	queue_remove(store, this)
 end
 
+scripts.enemy_crystal_demolisher = {}
+function scripts.enemy_crystal_demolisher.death_fn(this, store, script)
+	local death = this.death
+	local targets = U.find_enemies_in_range(store.entities, this.pos, death.min_range, death.max_range, death.vis_flags, death.vis_bans)
+
+	if targets then
+		for i, t in pairs(targets) do
+			if death.count and i > death.count then
+				break
+			end
+
+			local d = E:create_entity("damage")
+
+			d.source_id = this.id
+			d.target_id = t.id
+			d.damage_type = death.damage_type
+			d.value = math.ceil(this.unit.damage_factor * death.damage)
+
+			queue_damage(store, d)
+		end
+	end
+end
+
 scripts.infuser_cast_shield_mod = {}
 function scripts.infuser_cast_shield_mod.insert(this, store, script)
 	local m = this.modifier
@@ -437,7 +460,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 
 	this.pos = target.pos
 
-	SU.set_mod_offset(this, target)
+	SU.set_mod_offset(this, m.target_id)
 
 	U.y_animation_play(this, this.animations[1], nil, store.tick_ts)
 
@@ -449,7 +472,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 			return
 		end
 
-		SU.set_mod_offset(this, target)
+		SU.set_mod_offset(this, m.target_id)
 
 		U.y_animation_play(this, this.animations[2], nil, store.tick_ts)
 

@@ -6626,24 +6626,22 @@ function scripts.kermit_stage417.update(this, store, script)
 		return SU.entity_play_sound(c.sounds, c.sounds_args, idx)
 	end
 
-	local function play_animation(idx, pos, ignore_flip_x, not_wayt)
-		return SU.mixed_entity_play_animation(this, c.animations, store.tick_ts, idx, pos, ignore_flip_x, not_wayt)
-	end
-
 	while true do
+		play_sound(1)
+		SU.mixed_entity_play_animation(this, c.animations[1], store.tick_ts, nil, true)
+
 		if this.ui.clicked then
 			play_sound(2)
-			play_animation(2)
+			SU.mixed_entity_play_animation(this, c.animations[2], store.tick_ts)
 
 			play_sound(3)
-			play_animation(3)
+			SU.mixed_entity_play_animation(this, c.animations[3], store.tick_ts)
 
 			signal.emit("h_kermit_stage417")
 			this.ui.clicked = nil
+		else
+			SU.mixed_entity_animation_wait(this, c.animations[1])
 		end
-
-		play_sound(1)
-		play_animation(1)
 
 		coroutine.yield()
 	end
