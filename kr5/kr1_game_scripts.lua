@@ -6065,8 +6065,8 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*30
-	this.health.hp_max = initial_hp*30
+	this.health.hp = initial_hp*100
+	this.health.hp_max = initial_hp*100
 	this.health.armor = this.demon.armor
 	this.health.magic_armor = this.demon.magic_armor
 	this.health_bar.offset = this.demon.health_bar_offset
@@ -6796,6 +6796,17 @@ function scripts.eb_moloch.update(this, store)
 	this.phase_signal = nil
 	this.health_bar.hidden = true
 
+	local ta = this.timed_attacks.list[2]
+
+	ta.ts = store.tick_ts
+	ta.cooldown = U.frandom(ta.min_cooldown, ta.max_cooldown)
+
+	local eggs_count = 0
+
+	local function ready_to_lay()
+		return store.tick_ts - ta.ts > ta.cooldown and eggs_count < ta.max_count and not U.get_blocker(store, this)
+	end
+
 	while not this.phase_signal do
 		coroutine.yield()
 	end
@@ -6836,6 +6847,8 @@ function scripts.eb_moloch.update(this, store)
 			this.melee.attacks[1].damage_min = this.second_phase.damage_min
 			this.timed_attacks.list[1].cooldown = this.second_phase.cooldown
 			this.timed_attacks.list[1].damage_radius = this.second_phase.damage_radius
+			this.timed_attacks.list[2].disabled = false
+			this.timed_attacks.list[2].max_count = this.second_phase.max_count
 			this.render.sprites[1].prefix = this.second.sprites_prefix
 			this.render.sprites[1].scale = this.second.sprites_scale
 			
@@ -6855,11 +6868,32 @@ function scripts.eb_moloch.update(this, store)
 
 			return
 		end
-
+     
 		if this.unit.is_stunned then
 			U.animation_start(this, "idle", nil, store.tick_ts, -1)
 			coroutine.yield()
 		else
+			if ready_to_lay() then
+				ta.ts = store.tick_ts
+				eggs_count = eggs_count + 2
+
+				local pi, spi, ni = this.nav_path.pi, this.nav_path.spi, this.nav_path.ni
+				local e = E:create_entity(ta.bullet)
+
+				e.pos.x, e.pos.y = this.pos.x, this.pos.y
+				e.spawner.pi = pi
+				e.spawner.spi = spi
+				e.spawner.ni = ni
+
+				queue_insert(store, e)
+			end
+
+			if not SU.y_enemy_mixed_walk_melee_ranged(store, this, false, ready_to_lay, nil, nil) then
+				-- block empty
+			else
+				coroutine.yield()
+			end
+
 			if ready_to_horn() then
 				local dest = V.vclone(this.pos)
 				local af = this.render.sprites[1].flip_x and -1 or 1

@@ -3293,13 +3293,13 @@ image_y = 68
 anchor_y = 15 / image_y
 tt.dodge.animation = "dodge"
 tt.dodge.chance = 0
-tt.dodge.chance_inc = 0.1
+tt.dodge.chance_inc = 0.2
 tt.dodge.counter_attack = E:clone_c("area_attack")
 tt.dodge.counter_attack.animation = "perfect_parry"
 tt.dodge.counter_attack.duration = 2
 tt.dodge.counter_attack.damage_every = fts(5)
-tt.dodge.counter_attack.damage_max = 3
-tt.dodge.counter_attack.damage_min = 3
+tt.dodge.counter_attack.damage_max = 5
+tt.dodge.counter_attack.damage_min = 5
 tt.dodge.counter_attack.damage_radius = 50
 tt.dodge.counter_attack.damage_type = DAMAGE_TRUE
 tt.dodge.counter_attack.hit_time = fts(5)
@@ -3318,8 +3318,8 @@ tt.melee.attacks[1].animation = "attack1"
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 16
 tt.melee.attacks[1].damage_min = 11
-tt.melee.attacks[1].damage_inc = 10
-tt.melee.attacks[1].cooldown_inc = -0.2
+tt.melee.attacks[1].damage_inc = 20
+tt.melee.attacks[1].cooldown_inc = -0.5
 tt.melee.attacks[1].pop = {
 	"pop_bladesinger"
 }
@@ -7594,22 +7594,28 @@ tt = E:register_t("decal_crystal_arcane_freeze_2", "decal_crystal_arcane_freeze_
 tt.render.sprites[1].name = "decal_crystal_arcane_freeze_2"
 tt = E:register_t("tower_holder_elven_woods", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_ELVEN_WOODS
-tt.render.sprites[1].name = "build_terrain_0001"
+tt.render.sprites[1].name = "terrains_holders_0301"
+tt.render.sprites[2].name = "terrains_holders_0301_flag"
 tt = E:register_t("tower_holder_faerie_grove", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_FAERIE_GROVE
-tt.render.sprites[1].name = "build_terrain_0002"
+tt.render.sprites[1].name = "terrains_holders_0302"
+tt.render.sprites[2].name = "terrains_holders_0302_flag"
 tt = E:register_t("tower_holder_ancient_metropolis", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_ANCIENT_METROPOLIS
-tt.render.sprites[1].name = "build_terrain_0003"
+tt.render.sprites[1].name = "terrains_holders_0303"
+tt.render.sprites[2].name = "terrains_holders_0303_flag"
 tt = E:register_t("tower_holder_hulking_rage", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_HULKING_RAGE
-tt.render.sprites[1].name = "build_terrain_0004"
+tt.render.sprites[1].name = "terrains_holders_0304"
+tt.render.sprites[2].name = "terrains_holders_0304_flag"
 tt = E:register_t("tower_holder_bittering_rancor", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_BITTERING_RANCOR
-tt.render.sprites[1].name = "build_terrain_0005"
+tt.render.sprites[1].name = "terrains_holders_0305"
+tt.render.sprites[2].name = "terrains_holders_0305_flag"
 tt = E:register_t("tower_holder_forgotten_treasures", "tower_holder")
 tt.tower.terrain_style = TERRAIN_STYLE_FORGOTTEN_TREASURES
-tt.render.sprites[1].name = "build_terrain_0006"
+tt.render.sprites[1].name = "terrains_holders_0306"
+tt.render.sprites[2].name = "terrains_holders_0306_flag"
 tt = E:register_t("tower_build_archer", "tower_build")
 tt.build_name = "tower_archer_1"
 tt.render.sprites[1].name = "terrains_%04i"
@@ -12938,7 +12944,7 @@ tt.health.hp_max = {
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(38))
 tt.info.enc_icon = 1
-tt.info.portrait = "portraits_sc_0004"
+tt.info.portrait = "bottom_info_image_enemies_0128"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -12966,7 +12972,7 @@ tt = E:register_t("enemy_gnoll_burner", "enemy")
 E:add_comps(tt, "melee", "ranged")
 
 tt.info.enc_icon = 2
-tt.info.portrait = "portraits_sc_0006"
+tt.info.portrait = "bottom_info_image_enemies_0129"
 tt.enemy.gold = 5
 tt.enemy.melee_slot = v(27, 0)
 tt.health.hp_max = {
@@ -13015,7 +13021,7 @@ tt = E:register_t("enemy_gnoll_gnawer", "enemy")
 E:add_comps(tt, "melee", "auras")
 
 tt.info.enc_icon = 3
-tt.info.portrait = "portraits_sc_0005"
+tt.info.portrait = "bottom_info_image_enemies_0130"
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_gnoll_gnawer"
 tt.auras.list[1].cooldown = 0
@@ -13027,12 +13033,7 @@ tt.health.armor = {
 	0.4,
 	0.6
 }
-tt.health.hp_max = {
-	200,
-	250,
-	300,
-	300
-}
+tt.health.hp_max = 300
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13054,16 +13055,11 @@ tt = E:register_t("enemy_gnoll_blighter", "enemy")
 
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
 
-tt.info.portrait = "portraits_sc_0019"
+tt.info.portrait = "bottom_info_image_enemies_0133"
 tt.info.enc_icon = 4
 tt.enemy.gold = 50
 tt.enemy.melee_slot = v(30, 0)
-tt.health.hp_max = {
-	500,
-	700,
-	750,
-	850
-}
+tt.health.hp_max = 875
 tt.health.magic_armor = {
 	0.75,
 	0.75,
@@ -13109,7 +13105,7 @@ tt = E:register_t("enemy_hyena", "enemy")
 E:add_comps(tt, "melee")
 
 tt.info.enc_icon = 7
-tt.info.portrait = "portraits_sc_0008"
+tt.info.portrait = "bottom_info_image_enemies_0131"
 tt.enemy.gold = 10
 tt.enemy.melee_slot = v(10, 0)
 tt.health.hp_max = {
@@ -13150,7 +13146,7 @@ tt = E:register_t("enemy_ettin", "enemy")
 
 E:add_comps(tt, "melee", "auras", "endless")
 
-tt.info.portrait = "portraits_sc_0014"
+tt.info.portrait = "bottom_info_image_enemies_0134"
 tt.info.enc_icon = 5
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_ettin_regen"
@@ -13168,18 +13164,13 @@ tt.endless.factor_map = {
 	}
 }
 tt.enemy.gold = 70
-tt.enemy.lives_cost = {
-	2,
-	2,
-	2,
-	4
-}
+tt.enemy.lives_cost = 2
 tt.enemy.melee_slot = v(35, 0)
 tt.health.hp_max = {
 	700,
 	900,
-	1000,
-	1500
+	1125,
+	2000
 }
 tt.health_bar.offset = v(0, 72)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -13218,13 +13209,9 @@ tt.insane.hit_time = fts(28)
 tt.ui.click_rect = r(-25, -5, 50, 60)
 tt = E:register_t("enemy_perython", "enemy")
 tt.info.enc_icon = 6
-tt.info.portrait = "portraits_sc_0009"
+tt.info.portrait = "bottom_info_image_enemies_0132"
 tt.enemy.gold = 18
-tt.health.hp_max = {
-	90,
-	120,
-	120
-}
+tt.health.hp_max = 120
 tt.health_bar.offset = v(0, 90)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13235,14 +13222,15 @@ tt.motion.max_speed = {
 	1.8 * FPS,
 	2.4 * FPS
 }
-tt.render.sprites[1].anchor = v(0.5, 0.058823529411764705)
+tt.render.sprites[1].anchor = v(0.5, -0.958823529411764705)
 tt.render.sprites[1].prefix = "perython"
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "decal_flying_shadow"
 tt.render.sprites[2].offset = v(0, 0)
 tt.sound_events.death = "DeathPuff"
-tt.ui.click_rect = r(-15, 50, 30, 25)
+tt.ui.can_click = true
+tt.ui.click_rect = r(-25, -5, 50, 60)
 tt.unit.can_explode = false
 tt.unit.hide_after_death = true
 tt.unit.hit_offset = v(0, 65)
@@ -13259,7 +13247,7 @@ E:add_comps(tt, "death_spawns")
 tt.info.i18n_key = "ENEMY_PERYTHON"
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].prefix = "gnoll_gnawer_flying"
-tt.render.sprites[3].anchor = v(0.5, 0.25)
+tt.render.sprites[3].anchor = v(0.5, -0.2)
 tt.death_spawns.name = "enemy_gnoll_gnawer"
 tt.death_spawns.concurrent_with_death = false
 tt.main_script.update = kr3_scripts.enemy_perython_carrier.update
@@ -13269,7 +13257,7 @@ tt = E:register_t("enemy_twilight_elf_harasser", "enemy")
 E:add_comps(tt, "melee", "ranged", "dodge")
 
 tt.info.enc_icon = 8
-tt.info.portrait = "portraits_sc_0021"
+tt.info.portrait = "bottom_info_image_enemies_0137"
 tt.dodge.ranged = false
 tt.dodge.cooldown = 7
 tt.dodge.chance = 1
@@ -13285,11 +13273,7 @@ tt.health.armor = {
 	0.3,
 	0.5
 }
-tt.health.hp_max = {
-	220,
-	275,
-	325
-}
+tt.health.hp_max = 325
 tt.health_bar.offset = v(0, 34)
 tt.info.enc_icon = 8
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13408,14 +13392,9 @@ E:add_comps(tt, "melee", "timed_attacks")
 tt.info.enc_icon = 16
 tt.info.portrait = "portraits_sc_0012"
 tt.enemy.gold = 300
-tt.enemy.lives_cost = 2
+tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(42, 0)
-tt.health.hp_max = {
-	2500,
-	3000,
-	3500,
-	4500
-}
+tt.health.hp_max = 3500
 tt.health_bar.offset = v(0, 63)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.melee.attacks[1] = E:clone_c("area_attack")
@@ -13777,12 +13756,7 @@ tt.health.armor = {
 	0.5,
 	0.75
 }
-tt.health.hp_max = {
-	450,
-	600,
-	700,
-	1000
-}
+tt.health.hp_max = 750
 tt.health_bar.offset = v(0, 49)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13840,15 +13814,11 @@ tt = E:register_t("enemy_twilight_avenger", "enemy")
 E:add_comps(tt, "melee", "timed_attacks")
 
 tt.info.enc_icon = 9
-tt.info.portrait = "portraits_sc_0032"
+tt.info.portrait = "bottom_info_image_enemies_0145"
 tt.enemy.gold = 30
 tt.enemy.melee_slot = v(30, 0)
-tt.health.armor = 0.5
-tt.health.hp_max = {
-	900,
-	1100,
-	1300
-}
+tt.health.armor = 0.6
+tt.health.hp_max = 1400
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13858,13 +13828,13 @@ tt.melee.attacks[1].damage_max = {
 	75,
 	75,
 	75,
-	125
+	100
 }
 tt.melee.attacks[1].damage_min = {
 	50,
 	50,
 	50,
-	100
+	50
 }
 tt.melee.attacks[1].hit_time = fts(24)
 tt.timed_attacks.list[1] = E:clone_c("mod_attack")
@@ -13894,18 +13864,13 @@ tt = E:register_t("enemy_twilight_scourger", "enemy")
 E:add_comps(tt, "melee", "death_spawns", "timed_attacks")
 
 tt.info.enc_icon = 11
-tt.info.portrait = "portraits_sc_0027"
+tt.info.portrait = "bottom_info_image_enemies_0138"
 tt.death_spawns.name = "enemy_twilight_scourger_banshee"
 tt.death_spawns.delay = fts(5)
 tt.death_spawns.quantity = 1
-tt.enemy.gold = 40
+tt.enemy.gold = 70
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = {
-	360,
-	400,
-	550,
-	650
-}
+tt.health.hp_max = 900
 tt.health.magic_armor = {
 	0.8,
 	0.8,
@@ -13917,8 +13882,18 @@ tt.health.dead_lifetime = 2.5
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_twilight_scourger.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 35
-tt.melee.attacks[1].damage_min = 15
+tt.melee.attacks[1].damage_max = {
+	95,
+	95,
+	125,
+	165
+}
+tt.melee.attacks[1].damage_min = {
+	35,
+	35,
+	55,
+	95
+}
 tt.melee.attacks[1].hit_time = fts(23)
 tt.timed_attacks.list[1] = E:clone_c("custom_attack")
 tt.timed_attacks.list[1].animation = "special"
@@ -13937,9 +13912,7 @@ tt.timed_attacks.list[1].cooldown = {
 tt.timed_attacks.list[1].damage_type = DAMAGE_PHYSICAL
 tt.timed_attacks.list[1].damage_min = 5
 tt.timed_attacks.list[1].damage_max = 10
-tt.timed_attacks.list[1].vis_bans = bor(F_BOSS)
 tt.timed_attacks.list[1].excluded_templates = {
-	"enemy_twilight_scourger",
 	"enemy_twilight_scourger_banshee"
 }
 tt.timed_attacks.list[1].max_range = 75
@@ -13962,7 +13935,7 @@ tt = E:register_t("enemy_twilight_scourger_banshee", "enemy")
 
 E:add_comps(tt, "mod_attack", "tween")
 
-tt.info.portrait = "portraits_sc_0028"
+tt.info.portrait = "bottom_info_image_enemies_0138"
 tt.mod_attack.cooldown = 1
 tt.mod_attack.mod = "mod_twilight_scourger_banshee"
 tt.mod_attack.max_range = 180
@@ -14015,14 +13988,10 @@ tt = E:register_t("enemy_webspitting_spider", "enemy")
 E:add_comps(tt, "melee", "timed_attacks")
 
 tt.info.enc_icon = 18
-tt.info.portrait = "portraits_sc_0035"
+tt.info.portrait = "bottom_info_image_enemies_0141"
 tt.enemy.gold = 60
 tt.enemy.melee_slot = v(36, 0)
-tt.health.hp_max = {
-	400,
-	550,
-	700
-}
+tt.health.hp_max = 700
 tt.health.magic_armor = 0.85
 tt.health.poison_armor = 0.5
 tt.health_bar.offset = v(0, 40)
@@ -14060,15 +14029,10 @@ tt = E:register_t("enemy_sword_spider", "enemy")
 E:add_comps(tt, "melee")
 
 tt.info.enc_icon = 10
-tt.info.portrait = "portraits_sc_0007"
+tt.info.portrait = "bottom_info_image_enemies_0140"
 tt.enemy.gold = 16
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = {
-	100,
-	130,
-	180,
-	200
-}
+tt.health.hp_max = 160
 tt.health.magic_armor = {
 	0.75,
 	0.75,
@@ -14146,16 +14110,11 @@ tt = E:register_t("enemy_drider", "enemy")
 
 E:add_comps(tt, "melee")
 
-tt.info.portrait = "portraits_sc_0053"
+tt.info.portrait = "bottom_info_image_enemies_0144"
 tt.info.enc_icon = 20
 tt.enemy.gold = 50
 tt.enemy.melee_slot = v(28, 0)
-tt.health.hp_max = {
-	400,
-	500,
-	600,
-	700
-}
+tt.health.hp_max = 550
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.motion.max_speed = 1.7 * FPS
@@ -14192,7 +14151,7 @@ tt = E:register_t("enemy_razorboar", "enemy")
 E:add_comps(tt, "melee", "timed_attacks", "auras")
 
 tt.info.enc_icon = 23
-tt.info.portrait = "portraits_sc_0052"
+tt.info.portrait = "bottom_info_image_enemies_0146"
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_razorboar_rage"
 tt.auras.list[1].cooldown = 0
@@ -14204,11 +14163,7 @@ tt.health.armor = {
 	0.6,
 	0.75
 }
-tt.health.hp_max = {
-	1000,
-	1250,
-	1500
-}
+tt.health.hp_max = 1400
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.motion.max_speed = 1.1 * FPS
@@ -14263,7 +14218,7 @@ tt = E:register_t("enemy_arachnomancer", "enemy")
 
 E:add_comps(tt, "melee", "timed_attacks", "death_spawns")
 
-tt.info.portrait = "portraits_sc_0010"
+tt.info.portrait = "bottom_info_image_enemies_0142"
 tt.info.enc_icon = 22
 tt.death_spawns.name = "bullet_arachnomancer_spawn"
 tt.death_spawns.delay = fts(26)
@@ -14273,11 +14228,7 @@ tt.death_spawns.quantity = 3
 tt.enemy.gold = 110
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(22, 0)
-tt.health.hp_max = {
-	750,
-	900,
-	1100
-}
+tt.health.hp_max = 1050
 tt.health_bar.offset = v(0, 33)
 tt.motion.max_speed = 1.3 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.13636363636363635)
@@ -14346,14 +14297,10 @@ E:add_comps(tt, "melee")
 
 tt.enemy.gold = 15
 tt.enemy.melee_slot = v(20, 0)
-tt.health.hp_max = {
-	80,
-	100,
-	100
-}
-tt.health.magic_armor = 0.5
+tt.health.hp_max = 80
+tt.health.magic_armor = 0.3
 tt.health_bar.offset = v(0, 21)
-tt.info.portrait = "portraits_sc_0054"
+tt.info.portrait = "bottom_info_image_enemies_0143"
 tt.info.i18n_key = "ENEMY_ARACHNOMANCER_SPIDER"
 tt.info.enc_icon = 30
 tt.motion.max_speed = 2.4 * FPS
@@ -14407,15 +14354,11 @@ tt = E:register_t("enemy_spider_son_of_mactans", "enemy")
 
 E:add_comps(tt, "melee")
 
-tt.info.portrait = "portraits_sc_0031"
+tt.info.portrait = "bottom_info_image_enemies_0147"
 tt.info.enc_icon = 29
 tt.enemy.gold = 35
 tt.enemy.melee_slot = v(32, 0)
-tt.health.hp_max = {
-	240,
-	325,
-	375
-}
+tt.health.hp_max = 375
 tt.health.magic_armor = 0.9
 tt.health_bar.offset = v(0, 32)
 tt.info.i18n_key = "ENEMY_SON_OF_MACTANS"
@@ -14565,7 +14508,7 @@ tt.info.i18n_key = "ENEMY_PERYTHON"
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].prefix = "perython_rock"
 tt.render.sprites[3].name = "flySide"
-tt.render.sprites[3].anchor = v(0.5, 0.5)
+tt.render.sprites[3].anchor = v(0.5, -0.7)
 tt.render.sprites[3].offset.y = 10
 tt.death_spawns.name = "rock_perython"
 tt.death_spawns.concurrent_with_death = true
@@ -14586,25 +14529,16 @@ tt.auras.list[2] = CC("aura_attack")
 tt.auras.list[2].name = "aura_ogre_magi_regen"
 tt.auras.list[2].cooldown = 0
 tt.info.enc_icon = 36
-tt.info.portrait = "portraits_sc_0050"
-tt.enemy.gold = 100
-tt.enemy.lives_cost = {
-	2,
-	2,
-	2,
-	3
-}
+tt.info.portrait = "bottom_info_image_enemies_0135"
+tt.enemy.gold = 250
+tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(38, 0)
-tt.health.hp_max = {
-	1500,
-	2000,
-	2500
-}
+tt.health.hp_max = 5600
 tt.health.magic_armor = {
-	0.75,
-	0.75,
-	0.75,
-	0.8
+	0.8,
+	0.8,
+	0.8,
+	0.9
 }
 tt.health_bar.offset = v(0, 63)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -14612,25 +14546,27 @@ tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_ogre_magi.update
 tt.ranged.attacks[1].cooldown = 1.5
 tt.ranged.attacks[1].animation = "attack"
-tt.ranged.attacks[1].damage_max = 72
-tt.ranged.attacks[1].damage_min = 48
+tt.ranged.attacks[1].damage_max = 128
+tt.ranged.attacks[1].damage_min = 72
 tt.ranged.attacks[1].shoot_time = fts(17)
 tt.ranged.attacks[1].bullet = "bolt_ogre_magi"
-tt.ranged.attacks[1].max_range = 125
+tt.ranged.attacks[1].max_range = 150
 tt.ranged.attacks[1].min_range = 50
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(-25, 53)
 }
-tt.motion.max_speed = 1 * FPS
+tt.motion.max_speed = 1.2 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.17777777777777778)
 tt.render.sprites[1].prefix = "ogre_mage"
+tt.render.sprites[1].scale = vv(1.35)
 tt.sound_events.death = "DeathBig"
 tt.ui.click_rect = r(-20, 0, 40, 45)
 tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 25)
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_ogre_magi_custody_ettin", "enemy_ettin")
 tt.motion.max_speed = 1 * FPS
 tt.info.i18n_key = "ENEMY_ETTIN"
@@ -14646,14 +14582,10 @@ E:add_comps(tt, "melee")
 
 tt.enemy.gold = 20
 tt.enemy.melee_slot = v(30, 0)
-tt.health.hp_max = {
-	100,
-	200,
-	300
-}
+tt.health.hp_max = 250
 tt.health_bar.offset = v(0, 30)
 tt.info.enc_icon = 39
-tt.info.portrait = "portraits_sc_0073"
+tt.info.portrait = "bottom_info_image_enemies_0148"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -14689,11 +14621,7 @@ tt.death_spawns.offset = v(0, 7)
 tt.enemy.gold = 60
 tt.enemy.lives_cost = 2
 tt.enemy.melee_slot = v(35, 0)
-tt.health.hp_max = {
-	1000,
-	1200,
-	1400
-}
+tt.health.hp_max = 1400
 tt.health.magic_armor = {
 	0.5,
 	0.5,
@@ -14703,7 +14631,7 @@ tt.health.magic_armor = {
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, 65)
 tt.info.enc_icon = 40
-tt.info.portrait = "portraits_sc_0074"
+tt.info.portrait = "bottom_info_image_enemies_0149"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -14746,15 +14674,10 @@ tt.health.armor = {
 	0.5,
 	0.8
 }
-tt.health.hp_max = {
-	600,
-	800,
-	1000,
-	1100
-}
+tt.health.hp_max = 1200
 tt.health_bar.offset = v(0, 53)
 tt.info.enc_icon = 45
-tt.info.portrait = "portraits_sc_0080"
+tt.info.portrait = "bottom_info_image_enemies_0153"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -14786,15 +14709,10 @@ AC(tt, "melee")
 
 tt.enemy.gold = 20
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = {
-	200,
-	350,
-	450,
-	500
-}
+tt.health.hp_max = 450
 tt.health_bar.offset = v(0, 34)
 tt.info.enc_icon = 44
-tt.info.portrait = "portraits_sc_0079"
+tt.info.portrait = "bottom_info_image_enemies_0151"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -14829,14 +14747,10 @@ tt.health.armor = {
 	0.3,
 	0.6
 }
-tt.health.hp_max = {
-	500,
-	600,
-	700
-}
+tt.health.hp_max = 750
 tt.health_bar.offset = v(0, 42)
 tt.info.enc_icon = 46
-tt.info.portrait = "portraits_sc_0081"
+tt.info.portrait = "bottom_info_image_enemies_0152"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_grim_devourers.update
 tt.melee.attacks[1].cooldown = 1
@@ -14872,17 +14786,12 @@ tt.death_spawns.no_spawn_damage_types = bor(DAMAGE_EXPLOSION, DAMAGE_FX_EXPLODE)
 tt.enemy.gold = 140
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(40, 0)
-tt.health.armor = 0.9
-tt.health.hp_max = {
-	2200,
-	2500,
-	2800,
-	3000
-}
+tt.health.armor = 0.95
+tt.health.hp_max = 3000
 tt.health_bar.offset = v(0, 55)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.enc_icon = 47
-tt.info.portrait = "portraits_sc_0082"
+tt.info.portrait = "bottom_info_image_enemies_0154"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1] = CC("area_attack")
@@ -14905,7 +14814,7 @@ tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 27)
 tt.unit.size = UNIT_SIZE_MEDIUM
-tt.vis.bans = F_INSTAKILL
+tt.vis.bans = bor(F_INSTAKILL, DAMAGE_TRUE)
 tt = RT("enemy_gnoll_warleader", "enemy")
 
 AC(tt, "melee", "death_spawns")
@@ -14991,16 +14900,11 @@ tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "gnoll_boss_aura"
 tt.auras.list[1].cooldown = 0
 tt.enemy.gold = 1
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
 tt.health.armor = 0.6
 tt.health.dead_lifetime = 100
-tt.health.hp_max = {
-	5000,
-	7000,
-	8000,
-	12000
-}
+tt.health.hp_max = 10000
 tt.health_bar.offset = v(0, 100)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.enc_icon = 26
@@ -15146,33 +15050,29 @@ tt.info.enc_icon = 27
 tt.info.i18n_key = "ENEMY_BOSS_DROW_QUEEN"
 tt.info.portrait = "portraits_sc_0062"
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = {
-	6000,
-	9000,
-	11000
-}
+tt.health.hp_max = 36000
 tt.health.hp_max_rounds = {
 	{
-		6000,
-		4000,
-		2000
+		18000,
+		12000,
+		6000
 	},
 	{
-		9000,
-		6000,
-		3000
+		27000,
+		18000,
+		9000
 	},
 	{
-		11000,
-		7500,
-		4000
+		33000,
+		22500,
+		12000
 	},
 	{
-		11000,
-		7500,
-		4000
+		44550,
+		30375,
+		16200
 	}
 }
 tt.health.on_damage = kr3_scripts.eb_drow_queen.on_damage
@@ -15186,12 +15086,12 @@ tt.melee.attacks[1] = E:clone_c("area_attack")
 tt.melee.attacks[1].cooldown = 1.2
 tt.melee.attacks[1].damage_radius = 30
 tt.melee.attacks[1].damage_max = {
-	120,
-	120,
-	120,
+	250,
+	250,
+	250,
 	500
 }
-tt.melee.attacks[1].damage_min = 120
+tt.melee.attacks[1].damage_min = 250
 tt.melee.attacks[1].damage_type = bor(DAMAGE_TRUE, DAMAGE_NO_DODGE)
 tt.melee.attacks[1].hit_offset = v(29, 0)
 tt.melee.attacks[1].hit_time = fts(24)
@@ -15521,38 +15421,34 @@ tt = RT("eb_spider", "boss")
 AC(tt, "ranged", "timed_attacks", "taunts")
 
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(53, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = {
-	12000,
-	15000,
-	18000
-}
+tt.health.hp_max = 90000
 tt.health.hp_max_rounds = {
 	{
-		12000,
-		9000,
-		6000,
-		3000
+		60000,
+		45000,
+		30000,
+		15000
 	},
 	{
-		15000,
-		11000,
-		7000,
-		3000
+		60000,
+		55000,
+		35000,
+		15000
 	},
 	{
-		18000,
-		14000,
-		10000,
-		6000
+		90000,
+		70000,
+		50000,
+		30000
 	},
 	{
-		18000,
-		14000,
-		10000,
-		6000
+		121500,
+		94500,
+		67500,
+		40500
 	}
 }
 tt.health.magic_armor = 0.5
@@ -15890,29 +15786,29 @@ tt.texts.list[1].size = v(158, 56)
 tt.texts.list[1].fit_height = true
 tt = RT("eb_bram", "boss")
 
-AC(tt, "melee", "timed_attacks", "taunts")
+AC(tt, "melee", "timed_attacks", "auras", "taunts")
 
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
+tt.auras.list[1] = CC("aura_attack")
+tt.auras.list[1].name = "aura_bram_regen"
+tt.auras.list[1].cooldown = 0
 tt.health.dead_lifetime = 100
-tt.health.hp_max = {
-	7500,
-	10000,
-	13000,
-	16000
-}
+tt.health.hp_max = 18000
+tt.health.magic_armor = 1
 tt.health_bar.offset = v(0, 98)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.health_bar.hidden = true
 tt.info.enc_icon = 38
-tt.info.portrait = "portraits_sc_0072"
+tt.info.portrait = "bottom_info_image_enemies_0136"
 tt.info.i18n_key = "ENEMY_BOSS_BRAM"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.eb_bram.update
 tt.motion.max_speed = 1 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.24691358024691357)
 tt.render.sprites[1].prefix = "eb_bram"
+tt.render.sprites[1].scale = vv(1.35)
 tt.render.sprites[1].name = "sitting"
 tt.render.sprites[1].flip_x = true
 tt.render.sprites[1].angles = {}
@@ -16006,6 +15902,20 @@ tt.timed_attacks.list[1].min_count = 3
 tt.timed_attacks.list[1].nodes_limit = 0
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_MOD)
 tt.timed_attacks.list[1].sound = "ElvesBossBramGroundStomp"
+tt.second_phase = {}
+tt.second_phase.damage_max = 800
+tt.second_phase.damage_min = 300
+tt.second_phase.armor = 1
+tt.second_phase.magic_armor = 0
+tt.second_phase.wait_time = 5
+tt.second_phase.hp_factor = 30
+tt.second_phase.max_speed = 10
+tt.second_phase.max_range = 350
+tt.second_phase.max_count = 30
+tt.second_phase.min_count = 6
+tt.bram = {}
+tt.bram.sprites_prefix = "eb_bram"
+tt.bram.sprites_scale = vv(7.5)
 tt.taunts.delay_min = 15
 tt.taunts.delay_max = 20
 tt.taunts.duration = 3.7
@@ -16036,23 +15946,18 @@ tt.enemy.lives_cost = 20
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 100
 tt.health.magic_armor = {
-	0,
-	0,
-	0,
-	0.5
+	0.5,
+	0.5,
+	0.5,
+	0.8
 }
-tt.health.hp_max = {
-	7500,
-	10000,
-	13000,
-	15000
-}
+tt.health.hp_max = 30000
 tt.health.on_damage = kr3_scripts.eb_bajnimen.on_damage
 tt.health_bar.offset = v(-15, 145)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.enc_icon = 42
 tt.info.i18n_key = "ENEMY_BOSS_BAJNIMEN"
-tt.info.portrait = "portraits_sc_0076"
+tt.info.portrait = "bottom_info_image_enemies_0150"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.eb_bajnimen.update
 tt.motion.max_speed = 1.2 * FPS
@@ -16064,6 +15969,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_bajnimen"
+tt.render.sprites[1].scale = vv(1.5)
 tt.sound_events.death = "ElvesBajNimenBossDeath"
 tt.ui.click_rect = r(-35, 0, 70, 130)
 tt.unit.can_explode = false
@@ -16075,16 +15981,16 @@ tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_SKELETON, F_POLYMORPH)
 tt.melee.attacks[1].cooldown = 1.5
 tt.melee.attacks[1].damage_max = {
-	150,
-	150,
-	150,
-	250
+	250,
+	250,
+	250,
+	450
 }
 tt.melee.attacks[1].damage_min = {
-	120,
-	120,
-	120,
-	200
+	200,
+	200,
+	200,
+	300
 }
 tt.melee.attacks[1].hit_time = fts(20)
 tt.melee.attacks[1].sound = "ElvesBajNimenBossTail"
@@ -16126,12 +16032,12 @@ tt.timed_attacks.list[2].steps = {
 	{},
 	{}
 }
-tt.timed_attacks.list[2].steps[1].hp_threshold = 0.8
-tt.timed_attacks.list[2].steps[1].hp_heal = 30
-tt.timed_attacks.list[2].steps[2].hp_threshold = 0.5
-tt.timed_attacks.list[2].steps[2].hp_heal = 40
-tt.timed_attacks.list[2].steps[3].hp_threshold = 0.2
-tt.timed_attacks.list[2].steps[3].hp_heal = 50
+tt.timed_attacks.list[2].steps[1].hp_threshold = 0.25
+tt.timed_attacks.list[2].steps[1].hp_heal = 300
+tt.timed_attacks.list[2].steps[2].hp_threshold = 0.25
+tt.timed_attacks.list[2].steps[2].hp_heal = 400
+tt.timed_attacks.list[2].steps[3].hp_threshold = 0.25
+tt.timed_attacks.list[2].steps[3].hp_heal = 500
 tt.timed_attacks.list[2].heal_every = fts(3)
 tt.timed_attacks.list[2].duration = 3
 tt.timed_attacks.list[2].sound = "ElvesBajNimenBossHeal"
@@ -16145,16 +16051,16 @@ tt.bullet.mod = nil
 tt.bullet.damage_bans = F_ENEMY
 tt.bullet.damage_type = DAMAGE_PHYSICAL
 tt.bullet.damage_max = {
-	80,
-	80,
-	80,
-	200
+	120,
+	120,
+	120,
+	3000
 }
 tt.bullet.damage_min = {
-	80,
-	80,
-	80,
-	120
+	120,
+	120,
+	120,
+	240
 }
 tt.render.sprites[1].name = "bajnimen_boss_storm_meteor"
 tt.sound_events.insert = "ElvesBajNimenBossShadowTravel"
@@ -16194,23 +16100,19 @@ tt = RT("eb_balrog", "boss")
 AC(tt, "melee", "timed_attacks")
 
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = {
-	8000,
-	12000,
-	15000,
-	15000
-}
+tt.health.hp_max = 1200000
+tt.health.armor = 1.6
 tt.health_bar.offset = v(0, 100)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.info.enc_icon = 48
 tt.info.i18n_key = "ENEMY_BOSS_BALROG"
-tt.info.portrait = "portraits_sc_0083"
+tt.info.portrait = "bottom_info_image_enemies_0155"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.eb_balrog.update
-tt.motion.max_speed = 0.8 * FPS
+tt.motion.max_speed = 0.12 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.13)
 tt.render.sprites[1].angles = {}
 tt.render.sprites[1].angles.walk = {
@@ -16219,6 +16121,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_balrog"
+tt.render.sprites[1].scale = vv(9)
 tt.sound_events.death = "ElvesBalrogDeath"
 tt.ui.click_rect = r(-35, 0, 70, 80)
 tt.unit.blood_color = BLOOD_ORANGE
@@ -16231,11 +16134,11 @@ tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_SKELETON, F_POLYMORPH)
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1.5
-tt.melee.attacks[1].damage_max = 250
-tt.melee.attacks[1].damage_min = 200
+tt.melee.attacks[1].damage_max = 1250
+tt.melee.attacks[1].damage_min = 500
 tt.melee.attacks[1].damage_radius = 45
-tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
-tt.melee.attacks[1].count = 10
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
+tt.melee.attacks[1].count = 99
 tt.melee.attacks[1].hit_time = fts(14)
 tt.melee.attacks[1].hit_offset = v(60, -2)
 tt.melee.attacks[1].sound = "ElvesBalrogAttack"
@@ -16976,8 +16879,8 @@ tt.bullet.hit_fx = "fx_rock_explosion"
 tt.bullet.hit_decal = "decal_rock_crater"
 tt.sound_events.hit = "TowerStoneDruidBoulderExplote"
 tt = E:register_t("bolt_ogre_magi", "bolt_enemy")
-tt.bullet.damage_max = 72
-tt.bullet.damage_min = 48
+tt.bullet.damage_max = 128
+tt.bullet.damage_min = 72
 tt.bullet.align_with_trajectory = true
 tt.bullet.hit_fx = "fx_bolt_ogre_magi_hit"
 tt.bullet.hit_fx_ignore_offset = true
@@ -17005,8 +16908,10 @@ tt.render.sprites[1].name = "dark_spitters_proy"
 tt.render.sprites[1].animated = true
 tt.sound_events.insert = "ElvesDarkSpitterSpit"
 tt = RT("bullet_balrog", "bomb")
+tt.bullet.damage_max = 400
+tt.bullet.damage_min = 200
 tt.bullet.align_with_trajectory = true
-tt.bullet.damage_type = DAMAGE_NONE
+tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.damage_bans = bor(F_ENEMY, F_FRIEND)
 tt.bullet.hit_fx = "fx_bullet_balrog_hit"
 tt.bullet.hit_decal = "aura_bullet_balrog"
@@ -17443,7 +17348,7 @@ tt = RT("aura_ogre_magi_regen", "aura")
 AC(tt, "regen")
 
 tt.main_script.update = kr3_scripts.aura_unit_regen.update
-tt.regen.cooldown = fts(5)
+tt.regen.cooldown = fts(3)
 tt.regen.health = 5
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = false
@@ -17476,6 +17381,15 @@ tt.render.sprites[2] = CC("sprite")
 tt.render.sprites[2].name = "ogre_mage_aura"
 tt.render.sprites[2].z = Z_DECALS
 tt.render.sprites[2].loop = false
+tt = RT("aura_bram_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = kr3_scripts.aura_unit_regen.update
+tt.regen.cooldown = fts(3)
+tt.regen.health = 20
+tt.regen.ignore_stun = true
+tt.regen.ignore_freeze = false
 tt = RT("aura_shadow_champion_death", "aura")
 tt.main_script.update = kr3_scripts.aura_shadow_champion_death.update
 tt.aura.radius = 80
@@ -17492,9 +17406,9 @@ tt = RT("aura_bullet_balrog", "aura")
 AC(tt, "render", "tween")
 
 tt.aura.cycle_time = fts(10)
-tt.aura.duration = 10
+tt.aura.duration = 20
 tt.aura.mod = "mod_balrog"
-tt.aura.radius = 50
+tt.aura.radius = 150
 tt.aura.vis_bans = bor(F_ENEMY, F_FLYING)
 tt.aura.vis_flags = bor(F_MOD)
 tt.main_script.insert = kr3_scripts.aura_apply_mod.insert

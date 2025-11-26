@@ -854,7 +854,7 @@ return {
 							creep = "enemy_demon",
 							path = 1,
 							interval_next = 100,
-							max = 6
+							max = 12
 						},
 						{
 							interval = 51,
@@ -863,7 +863,7 @@ return {
 							creep = "enemy_demon",
 							path = 1,
 							interval_next = 100,
-							max = 6
+							max = 12
 						},
 						{
 							interval = 51,
@@ -872,7 +872,7 @@ return {
 							creep = "enemy_demon",
 							path = 1,
 							interval_next = 100,
-							max = 6
+							max = 12
 						},
 						{
 							interval = 51,
@@ -881,7 +881,7 @@ return {
 							creep = "enemy_demon",
 							path = 1,
 							interval_next = 100,
-							max = 6
+							max = 12
 						}
 					}
 				},
@@ -896,7 +896,7 @@ return {
 							creep = "enemy_dark_knight",
 							path = 1,
 							interval_next = 100,
-							max = 4
+							max = 12
 						},
 						{
 							interval = 51,
@@ -905,7 +905,7 @@ return {
 							creep = "enemy_shadow_archer",
 							path = 1,
 							interval_next = 100,
-							max = 6
+							max = 12
 						},
 						{
 							interval = 128,
@@ -913,8 +913,8 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_necromancer",
 							path = 1,
-							interval_next = 100,
-							max = 2
+							interval_next = 50,
+							max = 6
 						},
 						{
 							interval = 51,
@@ -922,8 +922,8 @@ return {
 							fixed_sub_path = 0,
 							creep = "enemy_dark_knight",
 							path = 1,
-							interval_next = 100,
-							max = 4
+							interval_next = 20,
+							max = 12
 						}
 					}
 				}
@@ -958,11 +958,20 @@ return {
 							interval = 384,
 							max_same = 0,
 							fixed_sub_path = 1,
+							creep = "enemy_demon_cerberus",
+							path = 1,
+							interval_next = 150,
+							max = 4
+						},
+						{
+							interval = 384,
+							max_same = 0,
+							fixed_sub_path = 1,
 							creep = "enemy_lava_elemental",
 							path = 1,
 							interval_next = 150,
 							max = 3
-						}
+						},
 					}
 				},
 				{
@@ -991,11 +1000,20 @@ return {
 							interval = 384,
 							max_same = 0,
 							fixed_sub_path = 1,
+							creep = "enemy_demon_cerberus",
+							path = 1,
+							interval_next = 150,
+							max = 4
+						},
+						{
+							interval = 384,
+							max_same = 0,
+							fixed_sub_path = 1,
 							creep = "enemy_lava_elemental",
 							path = 1,
 							interval_next = 150,
 							max = 3
-						}
+						},
 					}
 				}
 			}

@@ -35,8 +35,8 @@ level.custom_spawn_pos = {
 	},
 	{
 		pos = {
-			x = 809,
-			y = 94
+			x = 869,
+			y = 294
 		}
 	}
 }
@@ -50,8 +50,8 @@ function level:init(store)
 
 	if store.level_mode == GAME_MODE_IRON then
 		self.available_towers = {
-			"tower_build_pandas",
-			"tower_build_ray"
+			"tower_build_archer",
+			"tower_build_barrack"
 		}
 	end
 end

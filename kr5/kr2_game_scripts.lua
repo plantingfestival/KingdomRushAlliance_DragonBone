@@ -9579,7 +9579,7 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = this.health.hp_max/ pieces_alive*25
+						recovered_hp = this.health.hp_max/ pieces_alive*50
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")

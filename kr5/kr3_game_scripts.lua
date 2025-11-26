@@ -13345,6 +13345,7 @@ scripts.enemy_ogre_magi = {}
 
 function scripts.enemy_ogre_magi.update(this, store)
 	local a = this.ranged.attacks[1]
+	local min, max = a.damage_min, a.damage_max
 	local cont, blocker, ranged
 
 	::label_330_0::
@@ -13380,7 +13381,7 @@ function scripts.enemy_ogre_magi.update(this, store)
 					SU.y_enemy_range_attacks(store, this, ranged)
 				end
 
-				coroutine.yield()
+		    coroutine.yield()
 			end
 		end
 	end
@@ -14823,6 +14824,36 @@ function scripts.eb_bram.update(this, store)
 
 	while true do
 		if this.health.dead then
+			game.store.force_next_wave = true
+			if not this.is_second_phase then
+				this.ui.can_click = false
+				this.health_bar_hidden = true
+
+				U.animation_start(this, "death", nil, store.tick_ts, false)
+
+				U.y_wait(store, this.second_phase.wait_time)
+
+				this.ui.can_click = true
+				this.health_bar_hidden = false
+				this.is_second_phase = true
+				this.health.dead = false
+
+				this.health.hp_max = math.ceil(this.health.hp_max * this.second_phase.hp_factor)
+				this.health.hp = this.health.hp_max
+				this.health.armor = this.second_phase.armor
+				this.health.magic_armor = this.second_phase.magic_armor
+				this.motion.max_speed = this.second_phase.max_speed
+				this.melee.attacks[1].damage_max = this.second_phase.damage_max
+				this.melee.attacks[1].damage_min = this.second_phase.damage_min
+				this.timed_attacks.list[1].max_range = this.second_phase.max_range
+				this.timed_attacks.list[1].max_count = this.second_phase.max_count
+				this.timed_attacks.list[1].min_count = this.second_phase.min_count
+				this.render.sprites[1].prefix = this.bram.sprites_prefix
+				this.render.sprites[1].scale = this.bram.sprites_scale
+
+				goto label_382_0
+			end
+
 			this.phase = "dead"
 
 			LU.kill_all_enemies(store, true)

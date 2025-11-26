@@ -1169,6 +1169,8 @@ return {
 		"kr1_enemies_common",
 		"go_enemies_wastelands",
 		"go_enemies_torment",
+		"go_stage112",
+		"go_stages_rotten_torment",
 		"go_towers_elven_stargazers",
 		"go_stage121",
 		"go_stage121_bg"

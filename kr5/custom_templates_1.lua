@@ -4005,7 +4005,7 @@ tt.shooters = {
 }
 tt.powers.burning_elemental = E:clone_c("power")
 tt.powers.burning_elemental.price = {
-	300
+	1200
 }
 tt.powers.burning_elemental.max_level = 1
 tt.powers.burning_elemental.sound = "dinos_ignis_altar_summon_elemental"
@@ -4039,9 +4039,9 @@ tt = E:register_t("tower_ignis_altar_ablaze_elemental", "soldier_militia")
 
 E:add_comps(tt, "nav_grid")
 
-tt.health.armor = 0.15
+tt.health.armor = 0.99
 tt.health.dead_lifetime = 10
-tt.health.hp_max = 450
+tt.health.hp_max = 9000
 tt.health_bar.offset = v(0, 60)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.idle_flip.chance = 0.4
@@ -4053,21 +4053,33 @@ tt.info.random_name_format = nil
 tt.main_script.insert = scripts.soldier_barrack.insert
 tt.main_script.remove = scripts.soldier_barrack.remove
 tt.main_script.update = scripts.tower_ignis_altar_ablaze_elemental.update
+tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_min = 19
-tt.melee.attacks[1].damage_max = 43
-tt.melee.attacks[1].hit_time = 0.3
+tt.melee.attacks[1].damage_min = 190
+tt.melee.attacks[1].damage_max = 430
+tt.melee.attacks[1].damage_radius = 50
+tt.melee.attacks[1].dodge_time = fts(7)
+tt.melee.attacks[1].hit_decal = "decal_ground_hit"
+tt.melee.attacks[1].hit_fx = "fx_ground_hit"
+tt.melee.attacks[1].hit_offset = v(35, 0)
+tt.melee.attacks[1].hit_time = fts(14)
+tt.melee.attacks[1].pop = {
+	"pop_whaam",
+	"pop_kapow"
+}
+tt.melee.attacks[1].pop_chance = 0.3
 tt.melee.attacks[1].mod_prefix = "mod_ignis_altar_burning_elemental_"
 tt.melee.attacks[1].vis_bans = bor(F_CLIFF)
 tt.melee.attacks[1].vis_flags = F_BLOCK
 tt.melee.range = 70
 tt.motion.max_speed = 30
 tt.regen.cooldown = 2
-tt.regen.health = 30
+tt.regen.health = 500
 tt.raise_animation = "spawn"
 tt.respawn_animation = "respawn"
 tt.render.sprites[1] = E:clone_c("sprite")
 tt.render.sprites[1].prefix = "ignis_altar_lava_golem"
+tt.render.sprites[1].scale = vv(3)
 tt.render.sprites[1].name = tt.respawn_animation
 tt.render.sprites[1].exo = true
 tt.render.sprites[1].anchor = v(0.5, 0.0881)
@@ -4089,8 +4101,8 @@ tt.unit.mod_offset = v(0, 21)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.fade_time_after_death = nil
 tt.unit.blood_color = BLOOD_ORANGE
-tt.unit.size = UNIT_SIZE_MEDIUM
-tt.vis.bans = bor(F_SKELETON, F_LYCAN)
+tt.unit.size = UNIT_SIZE_LARGE
+tt.vis.bans = bor(F_SKELETON, F_LYCAN, F_STUN, F_POISON, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED, F_INSTAKILL)
 tt.ui.click_rect = r(-25, -2, 50, 52)
 tt.sound_events.insert = nil
 tt.sound_events.insert_args = nil

@@ -7249,32 +7249,32 @@ local a = {
 		prefix = "wisps_4_layer2",
 		from = 1
 	},
-	decal_wisp_5_play = {
+	decal_wisp_5 = {
 		to = 58,
 		prefix = "wisps_5",
 		from = 1
 	},
-	decal_wisp_6_play = {
+	decal_wisp_6 = {
 		to = 26,
 		prefix = "wisps_6",
 		from = 1
 	},
-	decal_wisp_7_play = {
+	decal_wisp_7 = {
 		to = 40,
 		prefix = "wisps_7",
 		from = 1
 	},
-	decal_wisp_8_play = {
+	decal_wisp_8 = {
 		to = 26,
 		prefix = "wisps_8",
 		from = 1
 	},
-	decal_wisp_9_play = {
+	decal_wisp_9 = {
 		to = 22,
 		prefix = "wisps_9",
 		from = 1
 	},
-	decal_wisp_10_play = {
+	decal_wisp_10 = {
 		to = 24,
 		prefix = "wisps_10",
 		from = 1

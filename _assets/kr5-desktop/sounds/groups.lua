@@ -795,6 +795,51 @@ return {
 			"KR2_MusicBossFight"
 		}
 	},
+	music_stage316 = {
+		sounds = {
+			"MusicBattlePrep_316",
+			"MusicBattle_316"
+		}
+	},
+	music_stage317 = {
+		sounds = {
+			"MusicBattlePrep_317",
+			"MusicBattle_317"
+		}
+	},
+	music_stage318 = {
+		sounds = {
+			"MusicBattlePrep_318",
+			"MusicBattle_318",
+			"KR3_MusicBossFight"
+		}
+	},
+	music_stage319 = {
+		sounds = {
+			"MusicBattlePrep_319",
+			"MusicBattle_319"
+		}
+	},
+	music_stage320 = {
+		sounds = {
+			"MusicBattlePrep_320",
+			"MusicBattle_320",
+			"KR3_MusicBossFight"
+		}
+	},
+	music_stage321 = {
+		sounds = {
+			"MusicBattlePrep_321",
+			"MusicBattle_321"
+		}
+	},
+	music_stage322 = {
+		sounds = {
+			"MusicBattlePrep_322",
+			"MusicBattle_322",
+			"KR3_MusicBossFight"
+		}
+	},
 	sounds_stage426 = {
 		sounds = {
 			"MusicBattlePrep_426",
@@ -2933,6 +2978,136 @@ return {
 			"KRF_sfx_saurianboss_martillo_1t.ogg",
 			"KRF_sfx_saurianboss_temblor.ogg",
 			"KRF_sfx_saurianboss_op1.ogg"
+		}
+	},
+	ElvenWoodsAmbienceSounds = {
+		files = {
+			"kre_sfx_ambience_singlebirdandstream.ogg"
+		}
+	},
+	ElvesLevelHRSounds = {
+		files = {
+			"kr3_sfx_tree_path_explosion.ogg",
+			"kro_sfx_crystallizedgnoll_v2.ogg",
+			"kro_sfx_crystalskull_touch[conrisa].ogg",
+			"kro_sfx_gnoll_outofbush_modif.ogg",
+			"kro_sfx_hulkingrage_mining_v2[op1].ogg",
+			"kro_sfx_hulkingrage_mining_v2[op2].ogg",
+			"kro_sfx_unstablecrystal_crystallize[op1].ogg"
+		}
+	},
+	ElvenWoodsAmbienceSounds = {
+		files = {
+			"kre_sfx_ambience_singlebirdandstream.ogg"
+		}
+	},
+	ElvesCreepHyena = {
+		files = {
+			"kre_sfx_hyena_ambience_v4[op1_heavysnors].ogg",
+			"kre_sfx_hyena_ambience_v4[op2_consnors].ogg"
+		}
+	},
+	ElvesCreepServant = {
+		files = {
+			"kro_sfx_bitteringrancor_servant-death[op2].ogg"
+		}
+	},
+	MetropolisAmbienceSounds = {
+		files = {
+			"kro_sfx_ambience_winds[op1].ogg",
+			"kro_sfx_ambience_winds[op2].ogg"
+		}
+	},
+	ElvesCreepEvoker = {
+		files = {
+			"kro_sfx_evoker_heal[sinshaker].ogg"
+		}
+	},
+	ElvesCreepGolem = {
+		files = {
+			"kro_sfx_elemental_areaattack.ogg",
+			"kro_sfx_elemental_death.ogg"
+		}
+	},
+	ElvesScourger = {
+		files = {
+			"kre_sfx_scourger_death.ogg"
+		}
+	},
+	ElvesCreepAvenger = {
+		files = {
+			"kro_sfx_avenger_lastservice_v2[op2].ogg"
+		}
+	},
+	ElvesCreepMountedAvenger = {
+		files = {
+			"kro_sfx_bitteringrancor_mountedavanger-death[conexplo].ogg"
+		}
+	},
+	ElvesCreepScreecher = {
+		files = {
+			"kro_sfx_bitteringrancor_screecher-death.ogg",
+			"kro_sfx_bitteringrancor_screecher-scream[op5].ogg"
+		}
+	},
+	ElvesBajNimenBossSounds = {
+		files = {
+			"kro_sfx_bitteringrancor_boss-death[conriser].ogg",
+			"kro_sfx_bitteringrancor_boss-heal.ogg",
+			"kro_sfx_bitteringrancor_boss-rangedattack[op2].ogg",
+			"kro_sfx_bitteringrancor_boss-shadowstorm[cast].ogg",
+			"kro_sfx_bitteringrancor_boss-shadowstorm[impact].ogg",
+			"kro_sfx_bitteringrancor_boss-shadowstorm[travel].ogg",
+			"kro_sfx_bitteringrancor_boss-tailwhip.ogg"
+		}
+	},
+	ElvesForgottenTreasureAmbienceSounds = {
+		files = {
+			"kro_sfx_bubblinglava-AMB.ogg",
+			"kro_sfx_dripping[conbichos]-AMB.ogg",
+			"kro_sfx_wingflaps-AMB.ogg"
+		}
+	},
+	ElvesForgottenTreasureShadowSpawnSounds = {
+		files = {
+			"kro_sfx_shadowspawn_death[op1].ogg",
+			"kro_sfx_shadowspawn_spawn[op2].ogg"
+		}
+	},
+	ElvesForgottenTreasureDarkSpitterSounds = {
+		files = {
+			"krf_sfx_darkspitter_spit.ogg",
+			"kro_sfx_darkspitter_death[op2-sincaida].ogg"
+		}
+	},
+	ElvesForgottenTreasureGrimDevourerSounds = {
+		files = {
+			"kro_sfx_grimdevourer_consume.ogg",
+			"kro_sfx_grimdevourer_death.ogg"
+		}
+	},
+	ElvesForgottenTreasureShadowChampionSounds = {
+		files = {
+			"kro_sfx_shadowchampion_attack[confuego].ogg",
+			"kro_sfx_shadowchampion_death.ogg"
+		}
+	},
+	ElvesForgottenTreasureBalrogSounds = {
+		files = {
+			"kro_sfx_godieth_attack.ogg",
+			"kro_sfx_godieth_bloodpool.ogg",
+			"kro_sfx_godieth_death[op2].ogg",
+			"kro_sfx_godieth_spit.ogg"
+		}
+	},
+	ElvesTowerBastionSounds = {
+		files = {
+			"kro_sfx_bastion_shot[op1]_modif.ogg"
+		}
+	},
+	ElvesMalikSpecialSounds = {
+		files = {
+			"kro_sfx_malik_hammer[concaida].ogg"
 		}
 	},
 	terrain_1_common = {
