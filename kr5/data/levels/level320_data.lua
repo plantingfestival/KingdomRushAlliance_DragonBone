@@ -37,7 +37,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 856,
+				x = 848,
 				y = 166
 			}
 		},
@@ -54,7 +54,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 993,
+				x = 988,
 				y = 216
 			}
 		},
@@ -64,7 +64,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 985,
+				x = 980,
 				y = 281
 			}
 		},
@@ -74,7 +74,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 993,
+				x = 988,
 				y = 508
 			}
 		},
@@ -84,7 +84,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 985,
+				x = 980,
 				y = 572
 			}
 		},
@@ -93,27 +93,8 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s20_flame",
 			pos = {
-				x = 206,
+				x = 216,
 				y = 607
-			}
-		},
-		{
-			["render.sprites[1].sort_y"] = 699,
-			template = "decal",
-			["render.sprites[1].random_ts"] = 0.5,
-			["render.sprites[1].name"] = "decal_s20_flame",
-			pos = {
-				x = 996,
-				y = 776
-			}
-		},
-		{
-			template = "decal",
-			["render.sprites[1].random_ts"] = 0.5,
-			["render.sprites[1].name"] = "decal_s20_flame",
-			pos = {
-				x = 464,
-				y = 788
 			}
 		},
 		{

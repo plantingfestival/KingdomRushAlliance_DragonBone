@@ -30,8 +30,8 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 869,
-				y = 145
+				x = 860,
+				y = 138
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 31,
-				y = 210
+				x = 46,
+				y = 200
 			}
 		},
 		{
@@ -48,8 +48,8 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 146,
-				y = 484
+				x = 158,
+				y = 478
 			}
 		},
 		{
@@ -66,8 +66,8 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 375,
-				y = 710
+				x = 380,
+				y = 704
 			}
 		},
 		{
@@ -76,8 +76,8 @@ return {
 			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "Stage21_0003",
 			pos = {
-				x = 512,
-				y = 384
+				x = 518,
+				y = 374
 			}
 		},
 		{
@@ -85,8 +85,8 @@ return {
 			["render.sprites[1].z"] = 1000,
 			["render.sprites[1].name"] = "Stage21_0001",
 			pos = {
-				x = 512,
-				y = 384
+				x = 514,
+				y = 372
 			}
 		},
 		{
@@ -95,8 +95,8 @@ return {
 			["render.sprites[1].z"] = 3000,
 			["render.sprites[1].name"] = "Stage21_0002",
 			pos = {
-				x = 512,
-				y = 384
+				x = 536,
+				y = 374
 			}
 		},
 		{

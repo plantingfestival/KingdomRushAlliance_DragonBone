@@ -30,7 +30,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 952,
+				x = 938,
 				y = 179
 			}
 		},
@@ -49,7 +49,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 324,
+				x = 330,
 				y = 311
 			}
 		},
@@ -58,7 +58,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 992,
+				x = 976,
 				y = 481
 			}
 		},
@@ -67,7 +67,7 @@ return {
 			["render.sprites[1].random_ts"] = 0.5,
 			["render.sprites[1].name"] = "decal_s21_white_flame",
 			pos = {
-				x = 244,
+				x = 250,
 				y = 705
 			}
 		},
@@ -587,7 +587,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 344,
+				x = 350,
 				y = 87
 			},
 			["render.sprites[1].scale"] = {
@@ -601,7 +601,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 451,
+				x = 457,
 				y = 97
 			},
 			["render.sprites[1].scale"] = {
@@ -615,7 +615,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 386,
+				x = 391,
 				y = 134
 			},
 			["render.sprites[1].scale"] = {
@@ -629,7 +629,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 252,
+				x = 258,
 				y = 235
 			},
 			["render.sprites[1].scale"] = {
@@ -643,7 +643,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 555,
+				x = 552,
 				y = 592
 			},
 			["render.sprites[1].scale"] = {
@@ -657,7 +657,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 171,
+				x = 183,
 				y = 699
 			},
 			["render.sprites[1].scale"] = {
@@ -671,7 +671,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 186,
+				x = 198,
 				y = 721
 			},
 			["render.sprites[1].scale"] = {
@@ -685,7 +685,7 @@ return {
 			template = "decal_s22_lava_hole",
 			["delayed_play.max_delay"] = 2,
 			pos = {
-				x = 112,
+				x = 124,
 				y = 758
 			},
 			["render.sprites[1].scale"] = {
