@@ -106,15 +106,16 @@ AC(tt, "melee", "timed_attacks")
 
 tt.info.portrait = "bottom_info_image_enemies_0004"
 tt.enemy.gold = 50
+tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(37, 0)
-tt.health.hp_max = 2100
+tt.health.hp_max = 2200
 tt.health.magic_armor = 0.75
 tt.health_bar.offset = v(0, 58)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_bloodsydian_warlock.update
 tt.melee.attacks[1].cooldown = 1.5
-tt.melee.attacks[1].damage_max = 85
+tt.melee.attacks[1].damage_max = 95
 tt.melee.attacks[1].damage_min = 55
 tt.melee.attacks[1].hit_time = fts(27)
 tt.motion.max_speed = 1 * FPS
@@ -389,11 +390,11 @@ tt = E:register_t("enemy_twilight_heretic", "enemy_KR5")
 E:add_comps(tt, "melee", "ranged", "timed_attacks")
 
 tt.info.portrait = "bottom_info_image_enemies_0007"
-tt.enemy.gold = 150
-tt.enemy.lives_cost = 2
+tt.enemy.gold = 160
+tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(23, 0)
 tt.health.dead_lifetime = 3
-tt.health.hp_max = 2250
+tt.health.hp_max = 2750
 tt.health.magic_armor = 0.9
 tt.health_bar.offset = v(0, 40)
 tt.motion.max_speed = 1.1 * FPS
@@ -409,7 +410,7 @@ tt.vis.flags = bor(tt.vis.flags, F_DARK_ELF, F_SPELLCASTER)
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_twilight_heretic.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 50
+tt.melee.attacks[1].damage_max = 70
 tt.melee.attacks[1].damage_min = 40
 tt.melee.attacks[1].hit_time = fts(14)
 tt.ranged.attacks[1].bullet = "bullet_twilight_heretic"

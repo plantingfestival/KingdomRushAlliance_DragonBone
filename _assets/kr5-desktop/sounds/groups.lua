@@ -2686,6 +2686,25 @@ return {
 			"kra_sfx_enemy_sheep_death_var3_v1.ogg"
 		}
 	},
+	ElvesBossBramSounds = {
+		files = {
+			"kro_sfx_bram_death[conexplo].ogg",
+			"kro_sfx_bram_fistcharge.ogg",
+			"kro_sfx_bram_groundstomp.ogg",
+			"kro_sfx_bram_sopapo[conwhoosh].ogg"
+		}
+	},
+	ElvesRoadRunnerSpecialSounds = {
+		files = {
+			"kro_sfx_roadrunner_meepmeep_modif.ogg"
+		}
+	},
+	ElvesUnstableCrystalSounds = {
+		files = {
+			"kro_sfx_unstablecrystal_healing_modif.ogg",
+			"kro_sfx_unstablecrystal_ready[op4]_modif.ogg"
+		}
+	},
 	enemies_terrain_3 = {
 		files = {
 			"kra_sfx_enemy_voidBlinker_teleport_v1.ogg",

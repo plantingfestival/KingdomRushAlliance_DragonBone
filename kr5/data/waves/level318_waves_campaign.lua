@@ -828,6 +828,24 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
 							creep = "enemy_ogre_magi_custody_gnoll_gnawer",
 							path = 3,
 							interval_next = 30,
@@ -3191,7 +3209,25 @@ return {
 							path = 3,
 							interval_next = 400,
 							max = 6
-						}
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 100,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 2,
+							interval_next = 200,
+							max = 4
+						},
 					}
 				},
 				{
@@ -3224,6 +3260,24 @@ return {
 							path = 2,
 							interval_next = 250,
 							max = 8
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 100,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 4
 						}
 					}
 				}
@@ -3237,13 +3291,13 @@ return {
 					path_index = 1,
 					spawns = {
 						{
-							interval = 0,
+							interval = 10,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_gnoll_burner",
 							path = 2,
 							interval_next = 350,
-							max = 0
+							max = 10
 						},
 						{
 							interval = 20,
@@ -3261,7 +3315,7 @@ return {
 							creep = "enemy_gnoll_burner",
 							path = 2,
 							interval_next = 600,
-							max = 5
+							max = 10
 						},
 						{
 							interval = 20,
@@ -3270,7 +3324,7 @@ return {
 							creep = "enemy_gnoll_burner",
 							path = 2,
 							interval_next = 600,
-							max = 5
+							max = 20
 						}
 					}
 				},
@@ -3304,6 +3358,24 @@ return {
 							path = 2,
 							interval_next = 100,
 							max = 1
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 50,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 5
 						}
 					}
 				},
@@ -3330,13 +3402,13 @@ return {
 							max = 6
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_ogre_magi",
 							path = 1,
 							interval_next = 50,
-							max = 1
+							max = 3
 						},
 						{
 							interval = 0,
@@ -3414,10 +3486,28 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 1
+						},
+						{
+							interval = 100,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_razorboar",
+							path = 3,
+							interval_next = 200,
+							max = 3
+						},
+						{
+							interval = 100,
+							max_same = 0,
+							fixed_sub_path = 1,
 							creep = "enemy_ogre_magi",
 							path = 1,
 							interval_next = 50,
-							max = 1
+							max = 3
 						},
 						{
 							interval = 0,

@@ -855,7 +855,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_ogre_magi",
+							creep = "enemy_gnoll_bloodsydian",
 							path = 2,
 							interval_next = 300,
 							max = 1
@@ -936,7 +936,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_ogre_magi",
+							creep = "enemy_gnoll_bloodsydian",
 							path = 1,
 							interval_next = 200,
 							max = 1

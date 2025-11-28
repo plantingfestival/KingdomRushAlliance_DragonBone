@@ -14530,10 +14530,10 @@ tt.auras.list[2].name = "aura_ogre_magi_regen"
 tt.auras.list[2].cooldown = 0
 tt.info.enc_icon = 36
 tt.info.portrait = "bottom_info_image_enemies_0135"
-tt.enemy.gold = 250
+tt.enemy.gold = 400
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(38, 0)
-tt.health.hp_max = 5600
+tt.health.hp_max = 9600
 tt.health.magic_armor = {
 	0.8,
 	0.8,
@@ -14546,25 +14546,25 @@ tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_ogre_magi.update
 tt.ranged.attacks[1].cooldown = 1.5
 tt.ranged.attacks[1].animation = "attack"
-tt.ranged.attacks[1].damage_max = 128
-tt.ranged.attacks[1].damage_min = 72
+tt.ranged.attacks[1].damage_max = 216
+tt.ranged.attacks[1].damage_min = 128
 tt.ranged.attacks[1].shoot_time = fts(17)
 tt.ranged.attacks[1].bullet = "bolt_ogre_magi"
-tt.ranged.attacks[1].max_range = 150
+tt.ranged.attacks[1].max_range = 125
 tt.ranged.attacks[1].min_range = 50
 tt.ranged.attacks[1].bullet_start_offset = {
 	v(-25, 53)
 }
-tt.motion.max_speed = 1.2 * FPS
+tt.motion.max_speed = 1 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.17777777777777778)
 tt.render.sprites[1].prefix = "ogre_mage"
-tt.render.sprites[1].scale = vv(1.35)
+tt.render.sprites[1].scale = vv(1.5)
 tt.sound_events.death = "DeathBig"
 tt.ui.click_rect = r(-20, 0, 40, 45)
 tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 25)
-tt.unit.size = UNIT_SIZE_LARGE
+tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_ogre_magi_custody_ettin", "enemy_ettin")
@@ -15851,7 +15851,7 @@ tt.spawn_wave_names = {
 	"Boss_Path_3",
 	"Boss_Path_4"
 }
-tt.melee.cooldown = 1.5
+tt.melee.cooldown = 1
 tt.melee.attacks[1].animation = "attack"
 tt.melee.attacks[1].damage_max = {
 	150,
@@ -15896,26 +15896,26 @@ tt.timed_attacks.list[1].cooldown = {
 	7,
 	5
 }
-tt.timed_attacks.list[1].max_range = 150
-tt.timed_attacks.list[1].max_count = 10
-tt.timed_attacks.list[1].min_count = 3
+tt.timed_attacks.list[1].max_range = 400
+tt.timed_attacks.list[1].max_count = 15
+tt.timed_attacks.list[1].min_count = 4
 tt.timed_attacks.list[1].nodes_limit = 0
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_MOD)
 tt.timed_attacks.list[1].sound = "ElvesBossBramGroundStomp"
 tt.second_phase = {}
-tt.second_phase.damage_max = 800
-tt.second_phase.damage_min = 300
+tt.second_phase.damage_max = 4500
+tt.second_phase.damage_min = 1000
 tt.second_phase.armor = 1
 tt.second_phase.magic_armor = 0
 tt.second_phase.wait_time = 5
-tt.second_phase.hp_factor = 30
+tt.second_phase.hp_factor = 200
 tt.second_phase.max_speed = 10
 tt.second_phase.max_range = 350
-tt.second_phase.max_count = 30
-tt.second_phase.min_count = 6
+tt.second_phase.max_count = 100
+tt.second_phase.min_count = 10
 tt.bram = {}
 tt.bram.sprites_prefix = "eb_bram"
-tt.bram.sprites_scale = vv(7.5)
+tt.bram.sprites_scale = vv(18)
 tt.taunts.delay_min = 15
 tt.taunts.delay_max = 20
 tt.taunts.duration = 3.7
@@ -15942,7 +15942,7 @@ tt = RT("eb_bajnimen", "boss")
 AC(tt, "melee", "ranged", "timed_attacks")
 
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 100
 tt.health.magic_armor = {
@@ -16039,7 +16039,7 @@ tt.timed_attacks.list[2].steps[2].hp_heal = 400
 tt.timed_attacks.list[2].steps[3].hp_threshold = 0.25
 tt.timed_attacks.list[2].steps[3].hp_heal = 500
 tt.timed_attacks.list[2].heal_every = fts(3)
-tt.timed_attacks.list[2].duration = 3
+tt.timed_attacks.list[2].duration = 6
 tt.timed_attacks.list[2].sound = "ElvesBajNimenBossHeal"
 tt.timed_attacks.list[2].hit_offset = v(0, 40)
 tt.timed_attacks.list[2].mod_offset = v(0, 35)
@@ -16103,7 +16103,7 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = 1200000
+tt.health.hp_max = 800000
 tt.health.armor = 1.6
 tt.health_bar.offset = v(0, 100)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
@@ -16112,7 +16112,7 @@ tt.info.i18n_key = "ENEMY_BOSS_BALROG"
 tt.info.portrait = "bottom_info_image_enemies_0155"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.eb_balrog.update
-tt.motion.max_speed = 0.12 * FPS
+tt.motion.max_speed = 0.2 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.13)
 tt.render.sprites[1].angles = {}
 tt.render.sprites[1].angles.walk = {
@@ -16121,7 +16121,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_balrog"
-tt.render.sprites[1].scale = vv(9)
+tt.render.sprites[1].scale = vv(5.5)
 tt.sound_events.death = "ElvesBalrogDeath"
 tt.ui.click_rect = r(-35, 0, 70, 80)
 tt.unit.blood_color = BLOOD_ORANGE
@@ -16879,8 +16879,8 @@ tt.bullet.hit_fx = "fx_rock_explosion"
 tt.bullet.hit_decal = "decal_rock_crater"
 tt.sound_events.hit = "TowerStoneDruidBoulderExplote"
 tt = E:register_t("bolt_ogre_magi", "bolt_enemy")
-tt.bullet.damage_max = 128
-tt.bullet.damage_min = 72
+tt.bullet.damage_max = 216
+tt.bullet.damage_min = 128
 tt.bullet.align_with_trajectory = true
 tt.bullet.hit_fx = "fx_bolt_ogre_magi_hit"
 tt.bullet.hit_fx_ignore_offset = true
@@ -17349,7 +17349,7 @@ AC(tt, "regen")
 
 tt.main_script.update = kr3_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(3)
-tt.regen.health = 5
+tt.regen.health = 10
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = false
 tt = RT("aura_ogre_magi_shield", "aura")
@@ -17365,7 +17365,7 @@ tt.aura.radius = 100
 tt.aura.requires_magic = true
 tt.aura.source_vis_flags = F_RANGED
 tt.aura.track_source = true
-tt.aura.vis_bans = bor(F_BOSS, F_FRIEND)
+tt.aura.vis_bans = F_FRIEND
 tt.aura.vis_flags = bor(F_RANGED, F_MOD)
 tt.aura.excluded_templates = {
 	"enemy_ogre_magi"
@@ -17387,7 +17387,7 @@ AC(tt, "regen")
 
 tt.main_script.update = kr3_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(3)
-tt.regen.health = 20
+tt.regen.health = 50
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = false
 tt = RT("aura_shadow_champion_death", "aura")

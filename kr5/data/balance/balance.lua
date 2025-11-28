@@ -5688,44 +5688,44 @@ hero_wukong = {
 			damage = 5
 		},
 		armor = {
-			0,
 			0.1,
 			0.15,
 			0.2,
 			0.25,
 			0.3,
-			0.35,
-			0.4,
-			0.45,
-			0.5
+			0.36,
+			0.42,
+			0.48,
+			0.6,
+			0.75
 		},
 		hp_max = {
-			250,
-			300,
 			350,
-		    400,
+			400,
 			450,
-			500,
+		    500,
 			550,
 			600,
-			650,
-			750
+			680,
+			760,
+			840,
+			980
 		},
 		regen_health = {
-			13,
-			16,
-			19,
 			22,
-			25,
-			28,
-			31,
-			34,
-			37,
-			40
+			30,
+			38,
+			46,
+			54,
+			62,
+			70,
+			78,
+			86,
+			104
 		},
 		melee_attacks = {
 			can_repeat_attack = false,
-			cooldown = 1,
+			cooldown = 0.5,
 			spin = {
 				xp_gain_factor = 1.55,
 				damage_type = DAMAGE_TRUE,
@@ -5951,7 +5951,7 @@ hero_wukong = {
 					70,
 					105
 				},
-				damage_type = DAMAGE_PHYSICAL,
+				damage_type = DAMAGE_TRUE,
 				chance = {
 					0.3,
 					0.4,
@@ -5961,9 +5961,9 @@ hero_wukong = {
 		},
 		giant_staff = {
 			cooldown = {
-				40,
-				35,
-				30
+				30,
+				25,
+				20
 			},
 			xp_gain = {
 				20,
@@ -5988,16 +5988,16 @@ hero_wukong = {
 		},
 		ultimate = {
 			cooldown = {
-				45,
-				40,
-				35,
-				25
+				50,
+				50,
+				50,
+				50
 			},
 			damage_total = {
-				4000,
+				3000,
+				4500,
 				6000,
-				8000,
-				20000
+				16000
 			},
 			damage_type = DAMAGE_TRUE,
 			slow_duration = {
@@ -6361,13 +6361,13 @@ local enemies = {
 		hog_invader = {
 			speed = 36,
 			armor = 0,
-			hp = 20,
+			hp = 40,
 			gold = 5,
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 1,
-				damage_min = 1,
-				damage_max = 2
+				damage_min = 2,
+				damage_max = 4
 			}
 		},
 		tusked_brawler = {
@@ -6379,7 +6379,7 @@ local enemies = {
 			basic_attack = {
 				cooldown = 1,
 				damage_min = 4,
-				damage_max = 6
+				damage_max = 7
 			}
 		},
 		turtle_shaman = {
@@ -6413,14 +6413,14 @@ local enemies = {
 		bear_vanguard = {
 			speed = 20,
 			armor = 0.6,
-			hp = 600,
+			hp = 720,
 			gold = 30,
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 12,
+				damage_min = 18,
 				damage_radius = 35,
-				damage_max = 20,
+				damage_max = 30,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			wrath_of_the_fallen = {
@@ -6431,15 +6431,15 @@ local enemies = {
 		},
 		bear_woodcutter = {
 			speed = 20,
-			armor = 0.4,
-			hp = 900,
+			armor = 0.7,
+			hp = 1050,
 			gold = 50,
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 12,
+				damage_min = 18,
 				damage_radius = 35,
-				damage_max = 20,
+				damage_max = 30,
 				damage_type = DAMAGE_PHYSICAL
 			},
 			wrath_of_the_fallen = {
@@ -6555,13 +6555,13 @@ local enemies = {
 			gold = 80,
 			magic_armor = 0,
 			speed = 20,
-			armor = 0.3,
-			hp = 2000,
+			armor = 0.5,
+			hp = 2200,
 			lives_cost = 5,
 			basic_attack = {
-				cooldown = 2,
+				cooldown = 1.5,
 				damage_min = 54,
-				damage_max = 72
+				damage_max = 86
 			},
 			instakill = {
 				cooldown = 5,
@@ -6586,12 +6586,12 @@ local enemies = {
 		},
 		boss = {
 			speed = 16,
-			armor = 0.55,
-			hp = 8000,
+			armor = 0.75,
+			hp = 10000,
 			melee_attack = {
 				cooldown = 1,
-				damage_min = 120,
-				damage_max = 160,
+				damage_min = 140,
+				damage_max = 200,
 				damage_radius = 60
 			},
 			fall = {
@@ -6633,7 +6633,7 @@ local enemies = {
 			magic_armor = 0.6,
 			speed = 28,
 			armor = 0,
-			hp = 600,
+			hp = 650,
 			crooked_souls = {
 				max_range = 300,
 				max_total = 10,
@@ -6687,7 +6687,7 @@ local enemies = {
 			magic_armor = 0.9,
 			speed = 28,
 			armor = 0,
-			hp = 400,
+			hp = 450,
 			transformation_time = 4,
 			basic_attack = {
 				cooldown = 1,
@@ -6706,8 +6706,8 @@ local enemies = {
 				gold = 30,
 				magic_armor = 0,
 				speed = 20,
-				armor = 0.5,
-				hp = 900,
+				armor = 0.6,
+				hp = 950,
 				lives_cost = 2,
 				melee_attack = {
 					cooldown = 2,
@@ -6725,8 +6725,8 @@ local enemies = {
 		},
 		abomination_stage_8 = {
 			speed = 0,
-			armor = 0,
-			hp = 1000,
+			armor = 0.6,
+			hp = 1400,
 			regen_cooldown = 0.8,
 			gold = 0,
 			regen_health = 60,
@@ -6791,22 +6791,22 @@ local enemies = {
 		crystal_golem = {
 			speed = 20,
 			armor = 0.9,
-			hp = 3200,
+			hp = 4000,
 			gold = 200,
 			magic_armor = 0,
 			lives_cost = 5,
 			basic_attack = {
 				cooldown = 2,
-				damage_min = 50,
+				damage_min = 54,
 				damage_radius = 35,
-				damage_max = 68,
+				damage_max = 72,
 				damage_type = DAMAGE_PHYSICAL
 			}
 		},
 		boss_corrupted_denas = {
 			speed = 16,
 			armor = 0.5,
-			hp = 13800,
+			hp = 16800,
 			magic_armor = 0.5,
 			melee_attack = {
 				damage_radius = 60,
@@ -6876,7 +6876,7 @@ local enemies = {
 		mindless_husk = {
 			speed = 36,
 			armor = 0,
-			hp = 300,
+			hp = 350,
 			gold = 20,
 			magic_armor = 0,
 			basic_attack = {
@@ -6897,8 +6897,8 @@ local enemies = {
 		vile_spawner = {
 			speed = 28,
 			armor = 0,
-			hp = 1200,
-			gold = 75,
+			hp = 1350,
+			gold = 80,
 			magic_armor = 0.3,
 			basic_attack = {
 				cooldown = 1.5,
@@ -6916,7 +6916,7 @@ local enemies = {
 			},
 			glare = {
 				lesser_spawn_cooldown = 6,
-				regen_hp = 10
+				regen_hp = 20
 			}
 		},
 		lesser_eye = {
@@ -6934,7 +6934,7 @@ local enemies = {
 			magic_armor = 0,
 			speed = 36,
 			armor = 0,
-			hp = 600,
+			hp = 800,
 			basic_attack = {
 				cooldown = 1,
 				damage_min = 9,
@@ -6966,12 +6966,12 @@ local enemies = {
 		},
 		hardened_horror = {
 			speed = 36,
-			armor = 0,
-			hp = 1200,
+			armor = 0.3,
+			hp = 1400,
 			gold = 80,
 			magic_armor = 0,
 			basic_attack = {
-				cooldown = 2,
+				cooldown = 1,
 				damage_min = 28,
 				damage_radius = 40,
 				damage_max = 42,
@@ -7096,7 +7096,7 @@ local enemies = {
 	undying_hatred = {
 		corrupted_elf = {
 			speed = 36,
-			armor = 0.25,
+			armor = 0.5,
 			hp = 450,
 			gold = 30,
 			spawn_nodes_limit = 60,
@@ -7141,9 +7141,9 @@ local enemies = {
 		bane_wolf = {
 			speed = 50,
 			armor = 0,
-			hp = 250,
+			hp = 275,
 			max_speed_mult = 2.2,
-			gold = 10,
+			gold = 12,
 			magic_armor = 0,
 			lives_cost = 1,
 			basic_attack = {
@@ -7156,7 +7156,7 @@ local enemies = {
 		deathwood = {
 			speed = 20,
 			armor = 0.85,
-			hp = 4960,
+			hp = 5400,
 			gold = 350,
 			magic_armor = 0,
 			lives_cost = 5,
@@ -7178,7 +7178,7 @@ local enemies = {
 			}
 		},
 		animated_armor = {
-			hp = 1600,
+			hp = 1800,
 			armor = 0.9,
 			gold = 120,
 			magic_armor = 0,
@@ -7199,7 +7199,7 @@ local enemies = {
 			magic_armor = 0.8,
 			speed = 28,
 			armor = 0,
-			hp = 900,
+			hp = 1000,
 			melee_attack = {
 				cooldown = 1.5,
 				damage_min = 10,
@@ -7231,7 +7231,7 @@ local enemies = {
 		revenant_harvester = {
 			speed = 36,
 			armor = 0,
-			hp = 600,
+			hp = 700,
 			gold = 30,
 			magic_armor = 0.25,
 			melee_attack = {
@@ -7776,12 +7776,12 @@ local enemies = {
 					60
 				},
 				poison_damage_min = {
-					80,
-					800
+					160,
+					1600
 				},
 				poison_damage_max = {
-					160,
-					1200
+					400,
+					2400
 				},
 				poison_decal_duration = {
 					6,
@@ -7794,7 +7794,7 @@ local enemies = {
 				damage_type = DAMAGE_TRUE
 			},
 			stomper = {
-				damage_every = 0.05,
+				damage_every = 0.01,
 				range = 1600,
 				damage_soldiers_min = 800,
 				damage_soldiers_max = 800,
@@ -11790,9 +11790,9 @@ local towers = {
 	flamespitter = {
 		turn_speed = 8,
 		stats = {
-			cooldown = 3,
-			range = 5,
-			damage = 5
+			cooldown = 2,
+			range = 6,
+			damage = 8
 		},
 		price = {
 			130,
@@ -11801,8 +11801,8 @@ local towers = {
 			370
 		},
 		burning = {
-			cycle_time = 0.25,
 			duration = 3,
+			cycle_time = 0.25,
 			damage = {
 				1,
 				2,
@@ -11815,16 +11815,16 @@ local towers = {
 			cooldown = 3,
 			cycle_time = 0.3,
 			damage_min = {
-				4,
-				10,
-				24,
-				32
+				2,
+				7,
+				14,
+				23
 			},
 			damage_max = {
-				6,
-				20,
-				32,
-				60
+				3,
+				10,
+				19,
+				30
 			},
 			range = {
 				180,
@@ -11836,10 +11836,10 @@ local towers = {
 		},
 		skill_bomb = {
 			max_range = 300,
+			damage_radius = 60,
 			min_targets = 3,
-			node_prediction = 40,
 			min_range = 100,
-			damage_radius = 50,
+			node_prediction = 40,
 			price = {
 				150,
 				150,
@@ -11865,47 +11865,54 @@ local towers = {
 				160,
 				280
 			},
-			damage_type = DAMAGE_PHYSICAL,
+			damage_type = DAMAGE_EXPLOSION,
 			burning = {
-				damage = 4,
-				duration = 5,
 				s_damage = 16,
+				duration = 5,
+				damage = 4,
 				cycle_time = 0.25
 			}
 		},
 		skill_columns = {
 			max_range = 150,
 			min_targets = 2,
-			radius_out = 50,
-			columns = 6,
-			stun_time = 30,
-			s_stun = 1,
+			radius_out = 60,
 			min_range = 0,
-			radius_in = 25,
+			radius_in = 30,
+			columns = {
+				6,
+				7,
+				8
+			},
 			price = {
 				200,
 				200,
 				200
 			},
 			cooldown = {
-				25,
-				25,
-				25
+				20,
+				20,
+				20
+			},
+			stun = {
+				1,
+				2,
+				3
 			},
 			damage_in_max = {
-				70,
-				180,
-				300
+				100,
+				220,
+				400
 			},
 			damage_in_min = {
-				70,
-				180,
-				300
+				100,
+				220,
+				400
 			},
 			s_damage_in = {
-				70,
-				180,
-				300
+				100,
+				220,
+				400
 			},
 			damage_in_type = DAMAGE_DISINTEGRATE,
 			damage_out_max = {

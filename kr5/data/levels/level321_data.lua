@@ -497,7 +497,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "13",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "13",
@@ -512,7 +512,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "14",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "14",
@@ -527,7 +527,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "11",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "11",
@@ -542,7 +542,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "12",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "12",
@@ -557,7 +557,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "09",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "09",
@@ -572,7 +572,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "06",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "06",
@@ -587,7 +587,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "10",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "10",
@@ -602,7 +602,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "03",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "03",
@@ -617,7 +617,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "04",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "04",
@@ -632,7 +632,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "02",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "02",
@@ -647,7 +647,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "05",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "05",
@@ -662,7 +662,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "01",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "01",
@@ -677,7 +677,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "07",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "07",
@@ -692,7 +692,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "08",
-			["tower.terrain_style"] = 6,
+			["tower.terrain_style"] = 306,
 			template = "tower_holder_forgotten_treasures",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "08",
