@@ -6647,4 +6647,48 @@ function scripts.kermit_stage417.update(this, store, script)
 	end
 end
 
+scripts.hypnotoad_stage418 = {}
+
+function scripts.hypnotoad_stage418.update(this, store, script)
+	local s = this.render.sprites[1]
+	local c = this.click_play
+
+	while true do
+		SU.mixed_entity_play_animation(this, c.animations[1], store.tick_ts, nil, true)
+
+		if this.ui.clicked then
+			this.ui.clicked = nil
+			SU.mixed_entity_play_animation(this, c.animations[2], store.tick_ts)
+
+			local all_entities = E:filter(store.entities, "unit")
+
+			for ei = 1, #all_entities do
+				local e = all_entities[ei]
+
+				if not e.hero then
+					local m = E:create_entity(c.mod)
+					m.modifier.target_id = e.id
+					m.modifier.source_id = this.id
+
+					queue_insert(store, m)
+				end
+			end
+
+			for i = 1, 2 do
+				SU.mixed_entity_play_animation(this, c.animations[3], store.tick_ts)
+			end
+
+			SU.mixed_entity_play_animation(this, c.animations[4], store.tick_ts)
+
+			signal.emit("h_hypnotoad_stage418")
+
+			queue_remove(store, this)
+		else
+			SU.mixed_entity_animation_wait(this, c.animations[1])
+		end
+
+		coroutine.yield()
+	end
+end
+
 return scripts

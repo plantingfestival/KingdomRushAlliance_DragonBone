@@ -5779,3 +5779,20 @@ tt.main_script.update = scripts.kermit_stage417.update
 tt.ui.can_click = true
 tt.ui.can_select = false
 tt.ui.click_rect = r(-10, -6, 18, 30)
+
+tt = RT("hypnotoad_stage418", "decal_click_play")
+tt.render.sprites[1].prefix = "stage_18_hypnotoad"
+tt.render.sprites[1].anchor = v(0.5, 0.411)
+tt.click_play.animations = {
+	"idle",
+	"toLoop",
+	"loop",
+	"death"
+}
+tt.click_play.mod = "hypnotoad_stage418_stun_mod"
+tt.main_script.update = scripts.hypnotoad_stage418.update
+tt.ui.can_click = true
+tt.ui.can_select = false
+tt.ui.click_rect = r(-10, -6, 18, 30)
+
+tt = RT("hypnotoad_stage418_stun_mod", "mod_stun")

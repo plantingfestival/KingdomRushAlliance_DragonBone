@@ -21,7 +21,7 @@ return {
 		gain = 0.15,
 		loop = true,
 		files = {
-			"Sapos_Exploracion_Variacion.ogg"
+			"Sapos_Exploracion.ogg"
 		}
 	},
 	MusicBattle_418 = {
@@ -29,7 +29,7 @@ return {
 		gain = 0.15,
 		loop = true,
 		files = {
-			"Sapos_Guerra_Variacion.ogg"
+			"Sapos_Guerra.ogg"
 		}
 	},
 	MusicBattlePrep_419 = {
@@ -37,7 +37,7 @@ return {
 		gain = 0.15,
 		loop = true,
 		files = {
-			"Sapos_Exploracion_Variacion.ogg"
+			"Sapos_Exploracion.ogg"
 		}
 	},
 	MusicBattle_419 = {
@@ -45,7 +45,7 @@ return {
 		gain = 0.15,
 		loop = true,
 		files = {
-			"Sapos_Guerra_Variacion.ogg"
+			"Sapos_Guerra.ogg"
 		}
 	},
 	MusicBattlePrep_426 = {

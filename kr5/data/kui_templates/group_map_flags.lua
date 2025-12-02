@@ -275,19 +275,19 @@ return {
 			id = "flag_417",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1138, 420)
+			pos = v(1138, 500)
 		},
 		{
 			id = "flag_418",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1138, 400)
+			pos = v(1138, 460)
 		},
 		{
 			id = "flag_419",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1138, 380)
+			pos = v(1138, 420)
 		},
 		{
 			id = "flag_426",

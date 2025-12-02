@@ -527,8 +527,12 @@ return {
 		}
 	},
 	invalid_path_ranges = {},
-	required_sounds = {},
+	required_sounds = {
+		"sounds_stage419",
+		"enemies_sapos"
+	},
 	required_textures = {
-		"go_stage419"
+		"go_stage419",
+		"go_enemies_sapos"
 	}
 }

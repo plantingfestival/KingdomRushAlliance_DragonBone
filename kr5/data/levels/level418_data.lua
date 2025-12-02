@@ -229,7 +229,7 @@ return {
 			random_shift = true
 		},
 		{
-			template = "hypnotoad",
+			template = "hypnotoad_stage418",
 			pos = {
 				x = 562,
 				y = 375
@@ -540,8 +540,12 @@ return {
 		}
 	},
 	invalid_path_ranges = {},
-	required_sounds = {},
+	required_sounds = {
+		"sounds_stage418",
+		"enemies_sapos"
+	},
 	required_textures = {
-		"go_stage418"
+		"go_stage418",
+		"go_enemies_sapos"
 	}
 }
