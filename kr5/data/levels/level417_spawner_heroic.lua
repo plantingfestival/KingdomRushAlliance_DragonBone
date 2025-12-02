@@ -1,31 +1,4 @@
 return {
-	entities_list = {
-		{
-			template = "bullywag_spawner",
-			pos = {
-				x = 260,
-				y = 147
-			},
-			["spawner.pi"] = 1,
-			["spawner.name"] = "object1",
-			["editor.game_mode"] = 2,
-		},
-		{
-			template = "bullywag_spawner",
-			pos = {
-				x = 700,
-				y = 455
-			},
-			["spawner.pi"] = 1,
-			["spawner.name"] = "object2",
-			["editor.game_mode"] = 2,
-		},
-		{
-			template = "mega_spawner",
-			load_file = "level417heroic_spawner",
-			["editor.game_mode"] = 2,
-		},
-	},
 	groups = {
 		{
 			1
@@ -38,7 +11,7 @@ return {
 		},
 		som2 = {
 			"object2",
-		},
+		}
 	},
 	points = {
 		{
@@ -62,10 +35,10 @@ return {
 				x = 700,
 				y = 455
 			}
-		},
+		}
 	},
 	waves = {
-		[2] = {
+		{
 			[2] = {
 				{
 					5,
@@ -566,7 +539,7 @@ return {
 					6,
 					6,
 					"enemy_chaser"
-				},
+				}
 			},
 			[3] = {
 				{
@@ -818,8 +791,8 @@ return {
 					3.5,
 					3.5,
 					"enemy_amphiptere"
-				},
-			},
-		},
-	},
+				}
+			}
+		}
+	}
 }

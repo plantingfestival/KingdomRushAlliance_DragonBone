@@ -10,12 +10,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 12,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 80,
-							max = 12
+							interval_next = 80
 						}
 					}
 				},
@@ -25,12 +25,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				}
@@ -45,12 +45,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_warden",
+							max = 3,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 3
+							interval_next = 0
 						}
 					}
 				},
@@ -60,12 +60,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_infuser",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				},
@@ -75,12 +75,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				}
@@ -95,12 +95,12 @@ return {
 					spawns = {
 						{
 							interval = 300,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				},
@@ -110,12 +110,12 @@ return {
 					spawns = {
 						{
 							interval = 300,
+							creep = "enemy_infuser",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				},
@@ -125,12 +125,12 @@ return {
 					spawns = {
 						{
 							interval = 100,
+							creep = "enemy_amphiptere",
+							max = 15,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 15
+							interval_next = 0
 						}
 					}
 				},
@@ -140,12 +140,12 @@ return {
 					spawns = {
 						{
 							interval = 100,
+							creep = "enemy_chaser",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				}
@@ -160,12 +160,12 @@ return {
 					spawns = {
 						{
 							interval = 300,
+							creep = "enemy_infuser",
+							max = 3,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 3
+							interval_next = 0
 						}
 					}
 				},
@@ -175,12 +175,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				},
@@ -190,12 +190,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_bullywags_erudite",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				}
@@ -210,12 +210,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_bullywags_erudite",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 8
+							interval_next = 0
 						}
 					}
 				},
@@ -225,12 +225,12 @@ return {
 					spawns = {
 						{
 							interval = 400,
+							creep = "enemy_bullywags_channeler",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				}
@@ -245,39 +245,39 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 200,
-							max = 2
+							interval_next = 200
 						},
 						{
 							interval = 120,
+							creep = "enemy_infuser",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 200,
-							max = 2
+							interval_next = 200
 						},
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 200,
-							max = 2
+							interval_next = 200
 						},
 						{
 							interval = 0,
+							creep = "enemy_infuser",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 1
+							interval_next = 0
 						}
 					}
 				},
@@ -287,39 +287,39 @@ return {
 					spawns = {
 						{
 							interval = 0,
+							creep = "enemy_bullywags_golem",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 300
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 300
 						},
 						{
 							interval = 0,
+							creep = "enemy_bullywags_golem",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 300,
-							max = 1
+							interval_next = 300
 						},
 						{
 							interval = 100,
+							creep = "enemy_bullywags_channeler",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				},
@@ -329,12 +329,12 @@ return {
 					spawns = {
 						{
 							interval = 300,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 2
+							interval_next = 0
 						}
 					}
 				},
@@ -344,12 +344,12 @@ return {
 					spawns = {
 						{
 							interval = 90,
+							creep = "enemy_chaser",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				}
@@ -364,12 +364,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_amphiptere",
+							max = 30,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 30
+							interval_next = 0
 						}
 					}
 				},
@@ -379,21 +379,21 @@ return {
 					spawns = {
 						{
 							interval = 0,
+							creep = "enemy_bullywags_golem",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 400,
-							max = 1
+							interval_next = 400
 						},
 						{
 							interval = 100,
+							creep = "enemy_bullywags_erudite",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				},
@@ -403,12 +403,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_amphiptere",
+							max = 30,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 30
+							interval_next = 0
 						}
 					}
 				}
@@ -423,12 +423,12 @@ return {
 					spawns = {
 						{
 							interval = 70,
+							creep = "enemy_amphiptere",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				},
@@ -438,12 +438,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_infuser",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				},
@@ -453,12 +453,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_amphiptere",
+							max = 25,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 25
+							interval_next = 0
 						}
 					}
 				},
@@ -468,12 +468,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_amphiptere",
+							max = 25,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 25
+							interval_next = 0
 						}
 					}
 				},
@@ -483,12 +483,12 @@ return {
 					spawns = {
 						{
 							interval = 70,
+							creep = "enemy_amphiptere",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				}
@@ -503,12 +503,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_bullywags_golem",
+							max = 7,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 0,
-							max = 7
+							interval_next = 0
 						}
 					}
 				},
@@ -518,12 +518,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 15,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 15
+							interval_next = 0
 						}
 					}
 				}
@@ -538,12 +538,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_chaser",
 							path = 1,
-							interval_next = 0,
-							max = 6
+							interval_next = 0
 						}
 					}
 				},
@@ -553,12 +553,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_chaser",
 							path = 2,
-							interval_next = 0,
-							max = 6
+							interval_next = 0
 						}
 					}
 				},
@@ -568,12 +568,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 6
+							interval_next = 0
 						}
 					}
 				},
@@ -583,12 +583,12 @@ return {
 					spawns = {
 						{
 							interval = 120,
+							creep = "enemy_warden",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 8
+							interval_next = 0
 						}
 					}
 				},
@@ -598,12 +598,12 @@ return {
 					spawns = {
 						{
 							interval = 240,
+							creep = "enemy_infuser",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				}
@@ -618,12 +618,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_bullywags_erudite",
+							max = 3,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 3
+							interval_next = 0
 						}
 					}
 				},
@@ -633,75 +633,75 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
+							creep = "enemy_bullywags_channeler",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						}
 					}
 				},
@@ -711,75 +711,75 @@ return {
 					spawns = {
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_golem",
+							max = 1,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						},
 						{
 							interval = 0,
+							creep = "enemy_bullywags_channeler",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 200,
-							max = 1
+							interval_next = 200
 						}
 					}
 				}
@@ -794,12 +794,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_bullywags_channeler",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				},
@@ -809,12 +809,12 @@ return {
 					spawns = {
 						{
 							interval = 120,
+							creep = "enemy_bullywags_erudite",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 8
+							interval_next = 0
 						}
 					}
 				},
@@ -824,12 +824,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_chaser",
+							max = 18,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 18
+							interval_next = 0
 						}
 					}
 				}
@@ -844,12 +844,12 @@ return {
 					spawns = {
 						{
 							interval = 65,
+							creep = "enemy_chaser",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				},
@@ -859,12 +859,12 @@ return {
 					spawns = {
 						{
 							interval = 50,
+							creep = "enemy_chaser",
+							max = 15,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 15
+							interval_next = 0
 						}
 					}
 				},
@@ -874,12 +874,12 @@ return {
 					spawns = {
 						{
 							interval = 50,
+							creep = "enemy_chaser",
+							max = 15,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 15
+							interval_next = 0
 						}
 					}
 				},
@@ -889,12 +889,12 @@ return {
 					spawns = {
 						{
 							interval = 65,
+							creep = "enemy_chaser",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				}
@@ -909,12 +909,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_warden",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 6
+							interval_next = 0
 						}
 					}
 				},
@@ -924,12 +924,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_infuser",
+							max = 4,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 4
+							interval_next = 0
 						}
 					}
 				},
@@ -939,12 +939,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_bullywags_erudite",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -954,12 +954,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_bullywags_channeler",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				}
@@ -974,12 +974,12 @@ return {
 					spawns = {
 						{
 							interval = 100,
+							creep = "enemy_bullywags_channeler",
+							max = 7,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 7
+							interval_next = 0
 						}
 					}
 				},
@@ -989,12 +989,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_bullywags_golem",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -1004,12 +1004,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_bullywags_golem",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -1019,12 +1019,12 @@ return {
 					spawns = {
 						{
 							interval = 100,
+							creep = "enemy_bullywags_channeler",
+							max = 7,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_channeler",
 							path = 3,
-							interval_next = 0,
-							max = 7
+							interval_next = 0
 						}
 					}
 				}
@@ -1039,39 +1039,39 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_warden",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 400,
-							max = 6
+							interval_next = 400
 						},
 						{
 							interval = 60,
+							creep = "enemy_warden",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 60,
-							max = 6
+							interval_next = 60
 						},
 						{
 							interval = 60,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_infuser",
+							max = 4,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 300,
-							max = 4
+							interval_next = 300
 						},
 						{
 							interval = 120,
+							creep = "enemy_bullywags_golem",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_golem",
 							path = 3,
-							interval_next = 0,
-							max = 8
+							interval_next = 0
 						}
 					}
 				},
@@ -1081,48 +1081,48 @@ return {
 					spawns = {
 						{
 							interval = 35,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 400,
-							max = 6
+							interval_next = 400
 						},
 						{
 							interval = 35,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 400,
-							max = 6
+							interval_next = 400
 						},
 						{
 							interval = 35,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 400,
-							max = 6
+							interval_next = 400
 						},
 						{
 							interval = 35,
+							creep = "enemy_chaser",
+							max = 6,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 400,
-							max = 6
+							interval_next = 400
 						},
 						{
 							interval = 70,
+							creep = "enemy_warden",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 400,
-							max = 8
+							interval_next = 400
 						}
 					}
 				},
@@ -1132,57 +1132,57 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_bullywags_erudite",
+							max = 8,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 600,
-							max = 8
+							interval_next = 600
 						},
 						{
 							interval = 60,
+							creep = "enemy_bullywags_erudite",
+							max = 3,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_bullywags_erudite",
 							path = 3,
-							interval_next = 60,
-							max = 3
+							interval_next = 60
 						},
 						{
 							interval = 60,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 5,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 800,
-							max = 5
+							interval_next = 800
 						},
 						{
 							interval = 60,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_erudite",
+							max = 3,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 120,
-							max = 3
+							interval_next = 120
 						},
 						{
 							interval = 60,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_erudite",
+							max = 3,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 30,
-							max = 3
+							interval_next = 30
 						},
 						{
 							interval = 60,
-							max_same = 0,
-							fixed_sub_path = 0,
 							creep = "enemy_bullywags_channeler",
+							max = 5,
+							max_same = 0,
+							fixed_sub_path = 0,
 							path = 3,
-							interval_next = 800,
-							max = 5
+							interval_next = 800
 						}
 					}
 				},
@@ -1192,12 +1192,12 @@ return {
 					spawns = {
 						{
 							interval = 90,
+							creep = "enemy_amphiptere",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				}

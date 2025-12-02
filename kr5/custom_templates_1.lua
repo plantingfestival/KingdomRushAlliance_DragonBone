@@ -5778,5 +5778,4 @@ tt.click_play.animations = {
 tt.main_script.update = scripts.kermit_stage417.update
 tt.ui.can_click = true
 tt.ui.can_select = false
-tt.ui.click_rect.pos.x = -12
-tt.ui.click_rect.size.x = 23
+tt.ui.click_rect = r(-10, -6, 18, 30)

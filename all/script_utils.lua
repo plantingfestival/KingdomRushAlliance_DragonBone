@@ -4938,11 +4938,12 @@ local function entity_play_sound(sound)
 	elseif type(sounds) == "table" then
 		name = sound.name
 
-		for k = 1, #keys do
+		for i = 1, #keys do
+			local k = keys[i]
 			local v = sound[k]
 
 			if v then
-				table.insert(args, v)
+				args[k] = v
 			end
 		end
 	end
@@ -5107,17 +5108,18 @@ local function mixed_entity_play_animation(e, animation, ts, t_pos, not_wait)
 		name = animation
 	elseif type(animation) == "table" then
 		name = animation.name
-
-		for k = 1, #keys do
+		
+		for i = 1, #keys do
+			local k = keys[i]
 			local v = animation[k]
 
 			if v then
-				table.insert(args, v)
+				args[k] = v
 			end
 		end
 	end
 
-	if group then
+	if args.group then
 		return y_entity_animation_play_group(e, name, ts, t_pos, args.ignore_flip_x, not_wait, args.times, args.group),
 			args
 	else

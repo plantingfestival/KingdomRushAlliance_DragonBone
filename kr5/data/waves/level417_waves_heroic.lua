@@ -1,5 +1,5 @@
 return {
-	cash = 1700.0,
+	cash = 1700,
 	groups = {
 		{
 			interval = 800,
@@ -10,12 +10,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				},
@@ -25,12 +25,12 @@ return {
 					spawns = {
 						{
 							interval = 80,
+							creep = "enemy_chaser",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				}
@@ -45,12 +45,12 @@ return {
 					spawns = {
 						{
 							interval = 70,
+							creep = "enemy_amphiptere",
+							max = 30,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 30
+							interval_next = 0
 						}
 					}
 				},
@@ -60,12 +60,12 @@ return {
 					spawns = {
 						{
 							interval = 70,
+							creep = "enemy_amphiptere",
+							max = 30,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 30
+							interval_next = 0
 						}
 					}
 				}
@@ -80,12 +80,12 @@ return {
 					spawns = {
 						{
 							interval = 50,
+							creep = "enemy_amphiptere",
+							max = 20,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_amphiptere",
 							path = 3,
-							interval_next = 0,
-							max = 20
+							interval_next = 0
 						}
 					}
 				},
@@ -95,12 +95,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -110,12 +110,12 @@ return {
 					spawns = {
 						{
 							interval = 70,
+							creep = "enemy_chaser",
+							max = 24,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 24
+							interval_next = 0
 						}
 					}
 				}
@@ -130,12 +130,12 @@ return {
 					spawns = {
 						{
 							interval = 120,
+							creep = "enemy_warden",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				},
@@ -145,12 +145,12 @@ return {
 					spawns = {
 						{
 							interval = 120,
+							creep = "enemy_warden",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				}
@@ -165,48 +165,48 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 100,
-							max = 2
+							interval_next = 100
 						},
 						{
 							interval = 0,
+							creep = "enemy_infuser",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 100,
-							max = 1
+							interval_next = 100
 						},
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 2,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 100,
-							max = 2
+							interval_next = 100
 						},
 						{
 							interval = 0,
+							creep = "enemy_infuser",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 100,
-							max = 1
+							interval_next = 100
 						},
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 1,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 100,
-							max = 1
+							interval_next = 100
 						}
 					}
 				},
@@ -216,12 +216,12 @@ return {
 					spawns = {
 						{
 							interval = 350,
+							creep = "enemy_warden",
+							max = 3,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 3
+							interval_next = 0
 						}
 					}
 				},
@@ -231,12 +231,12 @@ return {
 					spawns = {
 						{
 							interval = 60,
+							creep = "enemy_chaser",
+							max = 40,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_chaser",
 							path = 3,
-							interval_next = 0,
-							max = 40
+							interval_next = 0
 						}
 					}
 				}
@@ -251,12 +251,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_warden",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -266,12 +266,12 @@ return {
 					spawns = {
 						{
 							interval = 150,
+							creep = "enemy_infuser",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_infuser",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				},
@@ -281,12 +281,12 @@ return {
 					spawns = {
 						{
 							interval = 250,
+							creep = "enemy_warden",
+							max = 5,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 5
+							interval_next = 0
 						}
 					}
 				},
@@ -296,12 +296,12 @@ return {
 					spawns = {
 						{
 							interval = 200,
+							creep = "enemy_warden",
+							max = 10,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_warden",
 							path = 3,
-							interval_next = 0,
-							max = 10
+							interval_next = 0
 						}
 					}
 				}

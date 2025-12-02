@@ -460,7 +460,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 
 	this.pos = target.pos
 
-	SU.set_mod_offset(this, m.target_id)
+	SU.set_mod_offset(store, this, m.target_id)
 
 	U.y_animation_play(this, this.animations[1], nil, store.tick_ts)
 
@@ -472,7 +472,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 			return
 		end
 
-		SU.set_mod_offset(this, m.target_id)
+		SU.set_mod_offset(store, this, m.target_id)
 
 		U.y_animation_play(this, this.animations[2], nil, store.tick_ts)
 
