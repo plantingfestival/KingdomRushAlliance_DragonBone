@@ -394,6 +394,20 @@ return {
 			}
 		}
 	},
+	holder_blocked_jungle = {
+		{
+			{
+				check = "main_icons_0019",
+				action = "tw_unblock",
+				action_arg = "tower_holder",
+				halo = "glow_ico_main",
+				image = "main_icons_0015",
+				place = 12,
+				tt_title = _("SPECIAL_REPAIR_HOLDER_SEA_OF_TREES_NAME"),
+				tt_desc = _("SPECIAL_REPAIR_HOLDER_SEA_OF_TREES_DESCRIPTION")
+			}
+		}
+	},
 	holder_blocked_underground = {
 		{
 			{

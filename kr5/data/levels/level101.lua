@@ -25,10 +25,6 @@ function level:update(store)
 		signal.emit("show-balloon", "TB_BUILD")
 		signal.emit("wave-notification", "view", "TUTORIAL_1")
 
-		if store.selected_hero then
-			LU.insert_hero(store)
-		end
-
 		while store.wave_group_number < 1 do
 			coroutine.yield()
 		end

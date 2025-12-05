@@ -1,7 +1,7 @@
 ﻿-- chunkname: @./kr3/data/waves/level16_waves_campaign.lua
 
 return {
-	cash = 450,
+	cash = 300,
 	groups = {
 		{
 			interval = 800,

@@ -7,14 +7,14 @@ return {
 	custom_spawn_pos = {
 		{
 			pos = {
-				x = 71,
-				y = 404
+				x = 496,
+				y = 704
 			}
 		},
 		{
 			pos = {
-				x = 110,
-				y = 404
+				x = 490,
+				y = 584
 			}
 		}
 	},
@@ -22,7 +22,7 @@ return {
 		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
-			["render.sprites[1].name"] = "stage_11",
+			["render.sprites[1].name"] = "stage_111",
 			pos = {
 				x = 512,
 				y = 384

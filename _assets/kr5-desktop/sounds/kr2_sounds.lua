@@ -2317,6 +2317,132 @@ return {
 			"Finalboss_fight.ogg"
 		}
 	},
+	MusicBattlePrep_201 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_202 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_203 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_204 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_205 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_206 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_207 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_jungle_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_208 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Jungle_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_209 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_jungle_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_210 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Jungle_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_211 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_jungle_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_212 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_underground_preparation.ogg"
+		}
+	},
+	MusicBattlePrep_213 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"Underground_Prep.ogg"
+		}
+	},
+	MusicBattlePrep_214 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_underground_preparation.ogg"
+		}
+	},
 	MusicBattlePrep_215 = {
 		gain = 0.6,
 		loop = true,
@@ -2387,6 +2513,132 @@ return {
 		source_group = "MUSIC",
 		files = {
 			"Underground_Prep.ogg"
+		}
+	},
+	MusicBattle_201 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_battle.ogg"
+		}
+	},
+	MusicBattle_202 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Battle.ogg"
+		}
+	},
+	MusicBattle_203 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_battle.ogg"
+		}
+	},
+	MusicBattle_204 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Battle.ogg"
+		}
+	},
+	MusicBattle_205 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_desert_battle.ogg"
+		}
+	},
+	MusicBattle_206 = {
+		source_group = "MUSIC",
+		gain = 0.4,
+		loop = true,
+		stream = true,
+		files = {
+			"Desert_Battle.ogg"
+		}
+	},
+	MusicBattle_207 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Jungle_Battle.ogg"
+		}
+	},
+	MusicBattle_208 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_jungle_battle.ogg"
+		}
+	},
+	MusicBattle_209 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Jungle_Battle.ogg"
+		}
+	},
+	MusicBattle_210 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_jungle_battle.ogg"
+		}
+	},
+	MusicBattle_211 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"Jungle_Battle.ogg"
+		}
+	},
+	MusicBattle_212 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_underground_battle.ogg"
+		}
+	},
+	MusicBattle_213 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"Underground_Battle.ogg"
+		}
+	},
+	MusicBattle_214 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"savage_music_underground_battle.ogg"
 		}
 	},
 	MusicBattle_215 = {

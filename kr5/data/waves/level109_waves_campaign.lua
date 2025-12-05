@@ -1038,7 +1038,7 @@ return {
 			}
 		},
 		{
-			interval = 3000,
+			interval = 1000,
 			waves = {
 				{
 					delay = 0,
@@ -1048,10 +1048,10 @@ return {
 							interval = 51,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "eb_jt",
+							creep = "enemy_yeti",
 							path = 1,
-							interval_next = 150,
-							max = 1
+							interval_next = 30,
+							max = 20
 						}
 					}
 				}

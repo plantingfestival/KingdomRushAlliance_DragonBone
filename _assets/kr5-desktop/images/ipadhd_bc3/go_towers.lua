@@ -31299,7 +31299,7 @@
 		alias = {},
 		textureRotated = true
 	},
-	["terrains_holders_0205_blocked.png"] = {
+	["terrains_holders_0205_blocked"] = {
 		a_name = "go_towers-2.dds",
 		size = {
 			1,

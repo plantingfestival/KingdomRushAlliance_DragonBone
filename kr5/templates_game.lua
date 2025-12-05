@@ -8932,7 +8932,7 @@ tt = E:register_t("taunts_s15_controller")
 
 E:add_comps(tt, "main_script", "taunts", "editor")
 
-tt.load_file = "level15_taunts"
+tt.load_file = "level315_taunts"
 tt.main_script.insert = scripts.taunts_controller.insert
 tt.taunts.delay_min = 10
 tt.taunts.delay_max = 20

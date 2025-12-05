@@ -7,20 +7,16 @@ return {
 	custom_spawn_pos = {
 		{
 			pos = {
-				x = 71,
-				y = 404
+				x = 67,
+				y = 184
 			}
 		},
 		{
 			pos = {
-				x = 110,
-				y = 404
+				x = 150,
+				y = 204
 			}
 		}
-	},
-	custom_spawn_pos = {
-		x = 170,
-		y = 371
 	},
 	entities_list = {
 		{
@@ -40,7 +36,7 @@ return {
 		{
 			template = "decal_background",
 			["render.sprites[1].z"] = 1000,
-			["render.sprites[1].name"] = "stage_8",
+			["render.sprites[1].name"] = "stage_108",
 			pos = {
 				x = 512,
 				y = 384
@@ -163,7 +159,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "11",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "11",
@@ -178,7 +174,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "07",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "07",
@@ -193,7 +189,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "08",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "08",
@@ -208,7 +204,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "09",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "09",
@@ -223,7 +219,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "10",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "10",
@@ -238,7 +234,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "06",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "06",
@@ -253,7 +249,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "03",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "03",
@@ -268,7 +264,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "05",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "05",
@@ -283,7 +279,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "04",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "04",
@@ -298,7 +294,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "02",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "02",
@@ -313,7 +309,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "01",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "01",
@@ -328,7 +324,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "20",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 1,
 			["ui.nav_mesh_id"] = "20",
@@ -343,7 +339,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "20",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_holder_snow",
 			["editor.game_mode"] = 2,
 			["ui.nav_mesh_id"] = "20",
@@ -358,7 +354,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "20",
-			["tower.terrain_style"] = 2,
+			["tower.terrain_style"] = 102,
 			template = "tower_mage_2",
 			["editor.game_mode"] = 3,
 			["ui.nav_mesh_id"] = "20",
@@ -515,7 +511,7 @@ return {
 	},
 	required_sounds = {
 		"kr1_common",
-		"music_stage08"
+		"music_stage108"
 	},
 	required_textures = {
 		"kr1_enemies_common",

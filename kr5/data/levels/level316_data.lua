@@ -373,7 +373,7 @@ return {
 		{
 			["tower.holder_id"] = "16",
 			["tower.terrain_style"] = 301,
-			template = "tower_bastion_holder",
+			template = "tower_bastion",
 			["editor.game_mode"] = 0,
 			["ui.nav_mesh_id"] = "16",
 			pos = {

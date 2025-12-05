@@ -13263,8 +13263,6 @@ local towers = {
 			"tower_ewok",-- 阿渥克小屋
 			"tower_stage_28_priests_barrack",-- 无明教会
 			"tower_barrack_pirates",-- 海盗酒馆(雇佣海盗)
-			"tower_barrack_pirates_w_flamer",-- 海盗酒馆(雇佣海盗水手)
-			"tower_barrack_pirates_w_anchor",-- 海盗酒馆(雇佣水手长)
 			"tower_barrack_mercenaries",-- 佣兵营地(雇佣巨灵)
 			"tower_sunray",-- 日光之塔
 			"tower_bastion",-- 刀片堡垒

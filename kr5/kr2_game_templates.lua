@@ -878,15 +878,15 @@ b = balance.heroes.hero_dragon
 tt.attack_filter = b.attack_filter
 tt.hero.level_stats.hp_max = {
 	420,
-	440,
-	460,
+	450,
 	480,
-	500,
-	520,
+	510,
 	540,
-	560,
-	580,
-	600
+	570,
+	600,
+	630,
+	660,
+	700
 }
 tt.hero.level_stats.regen_health = {
 	21,
@@ -2838,8 +2838,6 @@ tower_crossbow.attacks.list[3].excluded_templates = {
 	"tower_warmongers_barrack_lvl4",
 	"tower_barrack_amazonas",
 	"tower_barrack_pirates",
-	"tower_barrack_pirates_w_flamer",
-	"tower_barrack_pirates_w_anchor",
 	"tower_stage_28_priests_barrack",
 	"tower_ewok"
 }
@@ -3561,9 +3559,9 @@ tt = E:register_t("soldier_djinn", "soldier_militia")
 
 E:add_comps(tt, "timed_attacks", "nav_grid")
 
-tt.health.armor = 0
+tt.health.armor = 0.5
 tt.health.dead_lifetime = 20
-tt.health.hp_max = 350
+tt.health.hp_max = 450
 tt.health_bar.offset = v(0, 50)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_soldiers_0042"
@@ -3574,7 +3572,7 @@ tt.melee.attacks[1].damage_min = 20
 tt.melee.range = 64
 tt.motion.max_speed = 2.5 * FPS
 tt.regen.cooldown = 0.5
-tt.regen.health = 20
+tt.regen.health = 40
 tt.render.sprites[1].prefix = "soldierdjinn"
 tt.render.sprites[1].anchor.y = 0.14
 tt.soldier.melee_slot_offset = v(10, 0)
@@ -10655,15 +10653,15 @@ E:add_comps(tt, "melee")
 
 anchor_y = 0.11
 image_y = 64
-tt.enemy.gold = 20
+tt.enemy.gold = 0
 tt.enemy.lives_cost = 2
 tt.enemy.melee_slot = v(24, 0)
 tt.health.armor = 0
-tt.health.hp_max = 250
+tt.health.hp_max = 400
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(62))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0039" or "info_portraits_enemies_0014"
+tt.info.portrait = "bottom_info_image_enemies_0181"
 tt.info.enc_icon = 15
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -10699,7 +10697,7 @@ tt.health.armor = 0
 tt.health.hp_max = 250
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(44))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0044" or "info_portraits_enemies_0019"
+tt.info.portrait = "bottom_info_image_enemies_0168"
 tt.info.enc_icon = 18
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_cannibal.update
@@ -10730,7 +10728,7 @@ tt.health.armor = 0
 tt.health.hp_max = 150
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(46))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0045" or "info_portraits_enemies_0020"
+tt.info.portrait = "bottom_info_image_enemies_0169"
 tt.info.enc_icon = 19
 tt.main_script.insert = kr2_scripts.enemy_hunter.insert
 tt.main_script.update = kr2_scripts.enemy_mixed_water.update
@@ -10787,7 +10785,7 @@ tt.health.armor = 0
 tt.health.hp_max = 600
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(50))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0046" or "info_portraits_enemies_0021"
+tt.info.portrait = "bottom_info_image_enemies_0170"
 tt.info.enc_icon = 20
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -10813,7 +10811,7 @@ tt.aura.radius = 128
 tt.aura.requires_magic = true
 tt.aura.track_source = true
 tt.aura.targets_per_cycle = 10
-tt.aura.vis_bans = bor(F_FRIEND, F_HERO, F_BOSS)
+tt.aura.vis_bans = bor(F_FRIEND, F_HERO)
 tt.aura.vis_flags = F_MOD
 tt.aura.hide_source_fx = true
 tt.main_script.insert = kr2_scripts.aura_apply_mod.insert
@@ -10853,7 +10851,7 @@ tt.health.armor = 0
 tt.health.hp_max = 600
 tt.health.magic_armor = 0.9
 tt.health_bar.offset = v(0, ady(50))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0048" or "info_portraits_enemies_0023"
+tt.info.portrait = "bottom_info_image_enemies_0172"
 tt.info.enc_icon = 22
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -10913,11 +10911,11 @@ tt.auras.list[1].name = "shaman_shield_aura"
 tt.auras.list[1].cooldown = 0
 tt.enemy.gold = 50
 tt.enemy.melee_slot = v(20, 0)
-tt.health.armor = 0.8
+tt.health.armor = 0.9
 tt.health.hp_max = 600
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(47))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0047" or "info_portraits_enemies_0022"
+tt.info.portrait = "bottom_info_image_enemies_0171"
 tt.info.enc_icon = 21
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -10978,16 +10976,16 @@ image_y = 58
 tt.enemy.gold = 50
 tt.enemy.melee_slot = v(21, 0)
 tt.health.armor = 0
-tt.health.hp_max = 800
+tt.health.hp_max = 900
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(51))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0049" or "info_portraits_enemies_0024"
+tt.info.portrait = "bottom_info_image_enemies_0173"
 tt.info.enc_icon = 23
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_shaman_necro.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 30
-tt.melee.attacks[1].damage_min = 15
+tt.melee.attacks[1].damage_max = 40
+tt.melee.attacks[1].damage_min = 25
 tt.melee.attacks[1].hit_time = fts(12)
 tt.motion.max_speed = 1.1520000000000001 * FPS
 tt.ranged.attacks[1].bullet = "bolt_shaman_necro"
@@ -11043,7 +11041,7 @@ tt.health.armor = 0
 tt.health.hp_max = 500
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(42))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0056" or "info_portraits_enemies_0028"
+tt.info.portrait = "bottom_info_image_enemies_0174"
 tt.info.enc_icon = 24
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -11068,14 +11066,10 @@ image_y = 32
 tt.enemy.gold = 0
 tt.enemy.melee_slot = v(20, 0)
 tt.health.armor = 0
-tt.health.hp_max = {
-	15,
-	20,
-	25
-}
+tt.health.hp_max = 20
 tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, ady(24))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0043" or "info_portraits_enemies_0018"
+tt.info.portrait = "bottom_info_image_enemies_0176"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
 tt.melee.attacks[1].cooldown = 1
@@ -11109,7 +11103,7 @@ tt.health.armor = 0
 tt.health.hp_max = 100
 tt.health.magic_armor = 0.65
 tt.health_bar.offset = v(0, ady(35))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0041" or "info_portraits_enemies_0016"
+tt.info.portrait = "bottom_info_image_enemies_0175"
 tt.info.enc_icon = 16
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -11146,7 +11140,7 @@ tt.health.hp_max = 500
 tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, ady(49))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0042" or "info_portraits_enemies_0017"
+tt.info.portrait = "bottom_info_image_enemies_0176"
 tt.info.enc_icon = 17
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_spider_big.update
@@ -11208,15 +11202,15 @@ E:add_comps(tt, "melee", "timed_attacks")
 
 anchor_y = 0.12
 image_y = 108
-tt.enemy.gold = 160
-tt.enemy.lives_cost = 5
+tt.enemy.gold = 100
+tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(29, 0)
 tt.health.armor = 0
 tt.health.hp_max = 2800
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(93))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0050" or "info_portraits_enemies_0025"
+tt.info.portrait = "bottom_info_image_enemies_0180"
 tt.info.enc_icon = 25
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -11269,7 +11263,7 @@ tt.health.armor = 0
 tt.health.hp_max = 140
 tt.health.magic_armor = 0.6
 tt.health_bar.offset = v(0, ady(30))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0053" or "info_portraits_enemies_0053"
+tt.info.portrait = "bottom_info_image_enemies_0177"
 tt.info.enc_icon = 27
 tt.info.fn = kr2_scripts.enemy_alien_breeder.get_info
 tt.main_script.insert = kr2_scripts.enemy_alien_breeder.insert
@@ -11327,7 +11321,7 @@ tt.health.hp_max = 500
 tt.health.magic_armor = 0.6
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, ady(50))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0054" or "info_portraits_enemies_0054"
+tt.info.portrait = "bottom_info_image_enemies_0178"
 tt.info.enc_icon = 28
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
@@ -11354,7 +11348,7 @@ tt.health.armor = 0
 tt.health.hp_max = 150
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(84))
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0052" or "info_portraits_enemies_0057"
+tt.info.portrait = "bottom_info_image_enemies_0179"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_passive.update
 tt.motion.max_speed = 2.56 * FPS
@@ -11380,7 +11374,7 @@ E:add_comps(tt, "ranged", "death_spawns")
 
 anchor_y = 0
 image_y = 112
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0051" or "info_portraits_enemies_0026"
+tt.info.portrait = "bottom_info_image_enemies_0179"
 tt.info.enc_icon = 26
 tt.death_spawns.name = "enemy_savage_bird"
 tt.death_spawns.concurrent_with_death = true
@@ -11769,8 +11763,8 @@ tt.attacks.list[2].min_range = 0
 tt.attacks.list[3] = E:clone_c("mod_attack")
 tt.attacks.list[3].animation = "attack_sand"
 tt.attacks.list[3].chance = 0.3
-tt.attacks.list[3].max_count = 3
-tt.attacks.list[3].max_range = 192
+tt.attacks.list[3].max_count = 5
+tt.attacks.list[3].max_range = 312
 tt.attacks.list[3].mod = "mod_efreeti"
 tt.attacks.list[3].shoot_time = fts(19)
 tt.attacks.list[4] = E:clone_c("spawn_attack")
@@ -11783,21 +11777,17 @@ tt.attacks.list[4].coords = {
 }
 tt.attacks.list[4].entity = "enemy_efreeti_small"
 tt.attacks.list[4].health_threshold = 3000
-tt.attacks.list[4].max_count = 2
+tt.attacks.list[4].max_count = 6
 tt.attacks.list[4].spawn_time = fts(13)
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(50, 0)
 tt.health.dead_lifetime = fts(200)
-tt.health.hp_max = {
-	7000,
-	8000,
-	8000
-}
+tt.health.hp_max = 18000
 tt.health_bar.offset = v(0, ady(195))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr2_scripts.eb_efreeti.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0040" or "info_portraits_enemies_0015"
+tt.info.portrait = "bottom_info_image_enemies_0182"
 tt.info.enc_icon = 14
 tt.main_script.insert = kr2_scripts.eb_efreeti.insert
 tt.main_script.update = kr2_scripts.eb_efreeti.update
@@ -11812,6 +11802,7 @@ tt.render.sprites[1].angles.walk = {
 }
 tt.render.sprites[1].loop_forced = true
 tt.render.sprites[1].prefix = "eb_efreeti_legs"
+tt.render.sprites[1].scale = vv(1.2)
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].anchor.y = anchor_y
 tt.render.sprites[2].angles = {}
@@ -11821,6 +11812,7 @@ tt.render.sprites[2].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[2].prefix = "eb_efreeti"
+tt.render.sprites[2].scale = vv(1.2)
 tt.render.sprites[3] = E:clone_c("sprite")
 tt.render.sprites[3].anchor.y = anchor_y
 tt.render.sprites[3].angles = {}
@@ -11938,7 +11930,7 @@ tt.attacks.list[1].spawn_node_ranges = {
 }
 tt.attacks.list[2] = E:clone_c("custom_attack")
 tt.attacks.list[2].cooldown = 10
-tt.attacks.list[2].points = 500
+tt.attacks.list[2].points = 1500
 tt.attacks.list[2].sound = "EnemyHealing"
 tt.attacks.list[3] = E:clone_c("bullet_attack")
 tt.attacks.list[3].animation = "throw_barrel"
@@ -11952,20 +11944,17 @@ tt.attacks.list[3].min_range = 50
 tt.attacks.list[3].shoot_time = fts(9)
 tt.attacks.list[3].vis_bans = bor(F_FLYING, F_ENEMY)
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(50, 0)
 tt.health.dead_lifetime = fts(300)
-tt.health.hp_max = {
-	8000,
-	12000,
-	12000
-}
+tt.health.hp_max = 16000
+tt.health.armor = 0.75
 tt.health_bar.offset = v(0, ady(160))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.idle_flip.chance = 1
 tt.idle_flip.cooldown = 5
 tt.info.fn = kr2_scripts.eb_gorilla.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0068" or "info_portraits_enemies_0039"
+tt.info.portrait = "bottom_info_image_enemies_0184"
 tt.info.enc_icon = 38
 tt.main_script.insert = kr2_scripts.eb_gorilla.insert
 tt.main_script.update = kr2_scripts.eb_gorilla.update
@@ -11991,6 +11980,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_gorilla"
+tt.render.sprites[1].scale = vv(1.25)
 tt.sound_events.death = "BossMonkeyDeath"
 tt.sound_events.insert = "KR2_MusicBossFight"
 tt.sound_events.jump_to_tower = "BossMonkeyJumpToTotem"
@@ -12013,8 +12003,8 @@ tt.bullet.flight_time_base = fts(30)
 tt.bullet.flight_time_factor = fts(0.025)
 tt.bullet.g = -0.85 / (fts(1) * fts(1))
 tt.bullet.warp_time = 2
-tt.bullet.damage_min = 100
-tt.bullet.damage_max = 150
+tt.bullet.damage_min = 150
+tt.bullet.damage_max = 250
 tt.bullet.damage_radius = 51.2
 tt.bullet.damage_bans = F_ENEMY
 tt.bullet.damage_flags = F_AREA
@@ -12037,7 +12027,7 @@ tt.health.hp_max = 1200
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(64))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0067" or "info_portraits_enemies_0038"
+tt.info.portrait = "bottom_info_image_enemies_0183"
 tt.info.enc_icon = 39
 tt.main_script.insert = kr2_scripts.enemy_gorilla_small.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update

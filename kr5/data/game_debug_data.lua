@@ -232,6 +232,7 @@ return {
 			"enemy_fallen_knight",
 			"enemy_spectral_knight",
 			"enemy_witch",
+			"enemy_blackburn_guard",
 			"eb_blackburn"
 		},
 		{

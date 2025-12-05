@@ -5820,7 +5820,7 @@ tt.dodge.ranged = true
 tt.dodge.time_before_hit = 0
 tt.health.armor = 0
 tt.health.dead_lifetime = 13
-tt.health.hp_max = 150
+tt.health.hp_max = 200
 tt.health_bar.offset = v(0, 29)
 tt.health_bar.type = HEALTH_BAR_SIZE_SMALL
 tt.idle_flip.chance = 0.4
@@ -5832,8 +5832,8 @@ tt.main_script.insert = kr3_scripts.soldier_barrack.insert
 tt.main_script.remove = kr3_scripts.soldier_barrack.remove
 tt.main_script.update = kr3_scripts.soldier_ewok.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 7
-tt.melee.attacks[1].damage_min = 3
+tt.melee.attacks[1].damage_max = 10
+tt.melee.attacks[1].damage_min = 4
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].pop = {
 	"pop_ewoks"
@@ -13333,16 +13333,12 @@ tt.duration = nil
 tt.enemy.gold = 100
 tt.enemy.melee_slot = v(40, -10)
 tt.enemy.remove_at_goal_line = false
-tt.health.hp_max = {
-	160,
-	200,
-	240
-}
+tt.health.hp_max = 240
 tt.health.dead_lifetime = 3
 tt.health_bar.offset = v(0, 60)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_GNOLL_CATAPULT"
-tt.info.portrait = "portraits_sc_0051"
+tt.info.portrait = "bottom_info_image_enemies_0128"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_catapult.update
 tt.motion.max_speed = 45
@@ -13390,7 +13386,7 @@ tt = E:register_t("enemy_bandersnatch", "enemy")
 E:add_comps(tt, "melee", "timed_attacks")
 
 tt.info.enc_icon = 16
-tt.info.portrait = "portraits_sc_0012"
+tt.info.portrait = "bottom_info_image_enemies_0162"
 tt.enemy.gold = 300
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(42, 0)
@@ -13438,16 +13434,12 @@ tt = E:register_t("enemy_boomshrooms", "enemy")
 E:add_comps(tt, "death_spawns")
 
 tt.info.enc_icon = 32
-tt.info.portrait = "portraits_sc_0017"
+tt.info.portrait = "bottom_info_image_enemies_0159"
 tt.death_spawns.concurrent_with_death = true
 tt.death_spawns.name = "aura_boomshrooms_death"
 tt.enemy.gold = 6
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = {
-	60,
-	75,
-	90
-}
+tt.health.hp_max = 80
 tt.health.poison_armor = 0.5
 tt.health_bar.offset = v(0, 25)
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13473,7 +13465,7 @@ tt = E:register_t("enemy_munchshrooms", "enemy")
 E:add_comps(tt, "melee", "death_spawns")
 
 tt.info.enc_icon = 31
-tt.info.portrait = "portraits_sc_0016"
+tt.info.portrait = "bottom_info_image_enemies_0160"
 tt.death_spawns.name = "enemy_boomshrooms"
 tt.death_spawns.delay = 0.93
 tt.death_spawns.quantity = {
@@ -13486,11 +13478,7 @@ tt.death_spawns.spread_nodes = 2
 tt.enemy.gold = 12
 tt.enemy.lives_cost = 2
 tt.enemy.melee_slot = v(23, 0)
-tt.health.hp_max = {
-	160,
-	200,
-	250
-}
+tt.health.hp_max = 240
 tt.health.poison_armor = 0.5
 tt.health_bar.offset = v(0, 40)
 tt.melee.attacks[1].cooldown = 1
@@ -13520,7 +13508,7 @@ tt = E:register_t("enemy_shroom_breeder", "enemy")
 E:add_comps(tt, "melee", "death_spawns", "timed_attacks")
 
 tt.info.enc_icon = 15
-tt.info.portrait = "portraits_sc_0015"
+tt.info.portrait = "bottom_info_image_enemies_0161"
 tt.death_spawns.name = "enemy_munchshrooms"
 tt.death_spawns.delay = 0.5
 tt.death_spawns.quantity = {
@@ -13576,7 +13564,7 @@ tt = E:register_t("enemy_gloomy", "enemy")
 E:add_comps(tt, "melee", "timed_attacks", "count_group")
 
 tt.info.enc_icon = 17
-tt.info.portrait = "portraits_sc_0018"
+tt.info.portrait = "bottom_info_image_enemies_0157"
 tt.count_group.name = "enemy_gloomy"
 tt.count_group.type = COUNT_GROUP_CONCURRENT
 tt.enemy.gold = 5
@@ -13634,14 +13622,10 @@ tt = E:register_t("enemy_redcap", "enemy")
 E:add_comps(tt, "melee")
 
 tt.info.enc_icon = 14
-tt.info.portrait = "portraits_sc_0024"
+tt.info.portrait = "bottom_info_image_enemies_0158"
 tt.enemy.gold = 12
 tt.enemy.melee_slot = v(27, 0)
-tt.health.hp_max = {
-	100,
-	125,
-	150
-}
+tt.health.hp_max = 150
 tt.health_bar.offset = v(0, 28)
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
@@ -13691,15 +13675,10 @@ tt = E:register_t("enemy_satyr_cutthroat", "enemy")
 E:add_comps(tt, "melee", "ranged")
 
 tt.info.enc_icon = 12
-tt.info.portrait = "portraits_sc_0025"
+tt.info.portrait = "bottom_info_image_enemies_0163"
 tt.enemy.gold = 15
 tt.enemy.melee_slot = v(25, 0)
-tt.health.hp_max = {
-	120,
-	150,
-	180,
-	200
-}
+tt.health.hp_max = 180
 tt.health_bar.offset = v(0, 35)
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
@@ -13747,7 +13726,7 @@ tt = E:register_t("enemy_satyr_hoplite", "enemy")
 E:add_comps(tt, "melee", "timed_attacks")
 
 tt.info.enc_icon = 13
-tt.info.portrait = "portraits_sc_0026"
+tt.info.portrait = "bottom_info_image_enemies_0156"
 tt.enemy.gold = 60
 tt.enemy.melee_slot = v(32, 0)
 tt.health.armor = {
@@ -14065,7 +14044,7 @@ tt.enemy.lives_cost = 0
 tt.enemy.melee_slot = v(25, 0)
 tt.health.hp_max = 0
 tt.health_bar.offset = v(0, 36)
-tt.info.portrait = "portraits_sc_0063"
+tt.info.portrait = "bottom_info_image_enemies_0165"
 tt.info.i18n_key = "ENEMY_BOSS_DROW_QUEEN_ZEALOT"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_zealot.update
@@ -14564,7 +14543,7 @@ tt.ui.click_rect = r(-20, 0, 40, 45)
 tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 25)
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_ogre_magi_custody_ettin", "enemy_ettin")
@@ -14909,7 +14888,7 @@ tt.health_bar.offset = v(0, 100)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.enc_icon = 26
 tt.info.i18n_key = "ENEMY_BOSS_GNOLL"
-tt.info.portrait = "portraits_sc_0013"
+tt.info.portrait = "bottom_info_image_enemies_0164"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.eb_gnoll.update
 tt.motion.max_speed = 1 * FPS
@@ -15048,7 +15027,7 @@ E:add_comps(tt, "melee", "taunts", "tween")
 
 tt.info.enc_icon = 27
 tt.info.i18n_key = "ENEMY_BOSS_DROW_QUEEN"
-tt.info.portrait = "portraits_sc_0062"
+tt.info.portrait = "bottom_info_image_enemies_0166"
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(25, 0)
@@ -15455,7 +15434,7 @@ tt.health.magic_armor = 0.5
 tt.health_bar.offset = v(0, 106)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.enc_icon = 33
-tt.info.portrait = "portraits_sc_0067"
+tt.info.portrait = "bottom_info_image_enemies_0167"
 tt.info.i18n_key = "ENEMY_BOSS_SPIDER"
 tt.info.fn = kr3_scripts.eb_spider.get_info
 tt.main_script.update = kr3_scripts.eb_spider.update
@@ -17368,7 +17347,7 @@ tt.aura.track_source = true
 tt.aura.vis_bans = F_FRIEND
 tt.aura.vis_flags = bor(F_RANGED, F_MOD)
 tt.aura.excluded_templates = {
-	"enemy_ogre_magi"
+	"enemy_gnoll_reaver"
 }
 tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
 tt.main_script.update = kr3_scripts.aura_apply_mod.update
@@ -17387,7 +17366,7 @@ AC(tt, "regen")
 
 tt.main_script.update = kr3_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(3)
-tt.regen.health = 50
+tt.regen.health = 75
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = false
 tt = RT("aura_shadow_champion_death", "aura")
@@ -22274,7 +22253,7 @@ tt = RT("kr3_taunts_s15_controller")
 
 AC(tt, "main_script", "taunts", "editor")
 
-tt.load_file = "level15_taunts"
+tt.load_file = "level315_taunts"
 tt.main_script.insert = kr3_scripts.taunts_controller.insert
 tt.main_script.update = kr3_scripts.taunts_controller.update
 tt.taunts.delay_min = 10

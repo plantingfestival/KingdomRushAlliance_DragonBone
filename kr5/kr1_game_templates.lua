@@ -1252,14 +1252,14 @@ tt.hero.skills.waterball.hr_cost = {
 tt.hero.skills.waterball.hr_order = 2
 tt.hero.skills.waterball.hr_available = true
 tt.hero.skills.waterball.damage_min = {
-	60,
 	120,
-	180
+	240,
+	400
 }
 tt.hero.skills.waterball.damage_max = {
-	90,
-	180,
-	300
+	120,
+	240,
+	400
 }
 tt.hero.skills.waterball.key = "WATERBALL"
 tt.hero.skills.buffed = CC("hero_skill")
@@ -1334,7 +1334,7 @@ tt.hero.skills.ultimate = E:clone_c("hero_skill")
 tt.hero.skills.ultimate.controller_name = "hero_10yr_ultimate"
 tt.hero.skills.ultimate.hr_order = 5
 tt.hero.skills.ultimate.hr_cost = {
-	1,
+	4,
 	4,
 	4,
 	4
@@ -1455,7 +1455,7 @@ tt.melee.attacks[3].sound = "TenShiBuffedSpinAttack"
 tt.melee.attacks[3].vis_flags = F_BLOCK
 tt.melee.attacks[3].xp_gain_factor = 1.5
 tt.ranged.attacks[1].animation = "attack2"
-tt.ranged.attacks[1].cooldown = 4
+tt.ranged.attacks[1].cooldown = 2
 tt.ranged.attacks[1].shoot_time = fts(26)
 tt.ranged.attacks[1].bullet = "hero_10yr_waterball"
 tt.ranged.attacks[1].bullet_start_offset = {
@@ -5258,13 +5258,13 @@ tt.tower.can_be_mod = false
 tt.main_script.update = kr1_scripts.tower_sasquash_holder.update
 tt.info.i18n_key = "SPECIAL_SASQUASH_REPAIR"
 tt.info.fn = kr1_scripts.tower_barrack_mercenaries.get_info
-tt.info.portrait = (IS_PHONE_OR_TABLET and "portraits_towers" or "info_portraits_towers") .. "_0014"
+tt.info.portrait = "gui_bottom_info_image_soldiers_0106"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "sasquash_frozen_0001"
 tt.render.sprites[1].offset = v(-9, 13)
 tt.render.sprites[1].z = Z_TOWER_BASES - 2
 tt.ui.click_rect = r(-40, -30, 80, 90)
-tt.unfreeze_radius = 60
+tt.unfreeze_radius = 120
 tt.unfreeze_fx = "fx_tower_sasquash_unfreeze"
 tt.unfreeze_upgrade_to = "tower_sasquash"
 tt.unfreeze_rect = r(290, 480, 120, 90)
@@ -5351,15 +5351,15 @@ tt.health_bar.offset = v(0, ady(73))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health.dead_lifetime = 3
 tt.info.fn = kr1_scripts.soldier_mercenary.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0034" or "info_portraits_sc_0034"
+tt.info.portrait = "gui_bottom_info_image_soldiers_0106"
 tt.info.i18n_key = "SOLDIER_SASQUASH"
 tt.info.random_name_format = nil
 tt.main_script.insert = kr1_scripts.soldier_sasquash.insert
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2.5
 tt.melee.attacks[1].count = 10
-tt.melee.attacks[1].damage_max = 110
-tt.melee.attacks[1].damage_min = 50
+tt.melee.attacks[1].damage_max = 150
+tt.melee.attacks[1].damage_min = 75
 tt.melee.attacks[1].damage_radius = 35
 tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
 tt.melee.attacks[1].hit_decal = "decal_ground_hit"
@@ -5390,12 +5390,12 @@ AC(tt, "editor")
 
 anchor_x, anchor_y = 0.5, 0.15
 image_x, image_y = 58, 41
-tt.health.armor = 0.4
+tt.health.armor = 0.8
 tt.health.dead_lifetime = 3
-tt.health.hp_max = 250
+tt.health.hp_max = 350
 tt.health_bar.offset = v(adx(28), ady(40))
 tt.info.fn = kr1_scripts.soldier_mercenary.get_info
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0026" or "info_portraits_sc_0026"
+tt.info.portrait = "gui_bottom_info_image_soldiers_0107"
 tt.info.random_name_count = 20
 tt.info.random_name_format = "SOLDIER_PALADIN_RANDOM_%i_NAME"
 tt.melee.attacks[1].damage_max = 30
@@ -6635,10 +6635,10 @@ AC(tt, "melee")
 
 anchor_x, anchor_y = 0.5, 0.23
 image_x, image_y = 154, 118
-tt.enemy.gold = 100
+tt.enemy.gold = 150
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(33, 0)
-tt.health.hp_max = 3200
+tt.health.hp_max = 4000
 tt.health.magic_armor = 0.9
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, 61)
@@ -6657,6 +6657,7 @@ tt.melee.attacks[1].hit_time = fts(14)
 tt.motion.max_speed = 0.7 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_pillager"
+tt.render.sprites[1].scale = vv(1.2)
 tt.sound_events.death = "DeathBig"
 tt.ui.click_rect.size = v(44, 58)
 tt.ui.click_rect.pos.x = -22
@@ -7002,10 +7003,9 @@ image_x, image_y = 108, 84
 tt.enemy.gold = 3500
 tt.enemy.lives_cost = 10
 tt.enemy.melee_slot = v(25, 0)
-tt.health.immune_to = DAMAGE_PHYSICAL
 tt.health.hp_max = 72000
-tt.health.armor = 1
-tt.health.magic_armor = 0.99
+tt.health.armor = 1.6
+tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, 62)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.portrait = "bottom_info_image_enemies_0037"
@@ -7111,17 +7111,17 @@ image_x, image_y = 108, 87
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "aura_swamp_thing_regen"
 tt.auras.list[1].cooldown = 0
-tt.enemy.gold = 200
+tt.enemy.gold = 250
 tt.enemy.lives_cost = 5
 tt.enemy.melee_slot = v(40, 0)
-tt.health.hp_max = 3000
+tt.health.hp_max = 4200
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.health_bar.offset = v(0, 69)
 tt.info.i18n_key = "ENEMY_SWAMP_THING"
 tt.info.enc_icon = 44
 tt.info.portrait = "bottom_info_image_enemies_0029"
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 2.5
+tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].count = 10
 tt.melee.attacks[1].damage_max = 100
 tt.melee.attacks[1].damage_min = 40
@@ -7145,6 +7145,7 @@ tt.ranged.attacks[1].min_range = 110
 tt.ranged.attacks[1].shoot_time = fts(13)
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_swamp_thing"
+tt.render.sprites[1].scale = vv(1.2)
 tt.sound_events.death = "DeathBig"
 tt.ui.click_rect.size = v(50, 54)
 tt.ui.click_rect.pos.x = -25
@@ -7152,6 +7153,7 @@ tt.unit.can_explode = false
 tt.unit.hit_offset = v(0, 30)
 tt.unit.mod_offset = v(0, 24)
 tt.unit.size = UNIT_SIZE_LARGE
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_spider_rotten", "enemy_KR5")
 
 AC(tt, "melee", "timed_attacks")
@@ -7364,6 +7366,48 @@ tt.unit.hit_offset = v(0, 18)
 tt.unit.mod_offset = v(adx(30), ady(22))
 tt.vis.bans = bor(F_SKELETON, F_POISON, F_POLYMORPH)
 tt.unit.show_blood_pool = false
+tt = RT("enemy_blackburn_guard", "enemy_KR5")
+
+AC(tt, "melee")
+
+anchor_x, anchor_y = 0.5, 0.19
+image_x, image_y = 108, 84
+tt.enemy.gold = 3500
+tt.enemy.lives_cost = 10
+tt.enemy.melee_slot = v(25, 0)
+tt.health.immune_to = DAMAGE_PHYSICAL
+tt.health.hp_max = 80000
+tt.health.magic_armor = 0.95
+tt.health_bar.offset = v(0, 62)
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
+tt.info.portrait = "gui_bottom_info_image_soldiers_0044"
+tt.info.i18n_key = "ENEMY_BLACKBURN_GUARD"
+tt.info.enc_icon = 30
+tt.melee.attacks[1] = CC("area_attack")
+tt.melee.attacks[1].cooldown = 1.25
+tt.melee.attacks[1].count = 99
+tt.melee.attacks[1].damage_max = 500
+tt.melee.attacks[1].damage_min = 250
+tt.melee.attacks[1].damage_radius = 50
+tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].hit_decal = "decal_ground_hit"
+tt.melee.attacks[1].hit_fx = "fx_ground_hit"
+tt.melee.attacks[1].hit_offset = v(30, 0)
+tt.melee.attacks[1].hit_time = fts(15)
+tt.melee.attacks[1].sound_hit = "AreaAttack"
+tt.motion.max_speed = 0.5 * FPS
+tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
+tt.render.sprites[1].prefix = "eb_blackburn"
+tt.render.sprites[1].scale = vv(3)
+tt.ui.click_rect.size = v(50, 56)
+tt.ui.click_rect.pos.x = -25
+tt.unit.blood_color = BLOOD_GRAY
+tt.unit.can_explode = false
+tt.unit.hit_offset = v(0, 24)
+tt.unit.mod_offset = v(adx(53), ady(38))
+tt.unit.size = UNIT_SIZE_LARGE
+tt.vis.bans = bor(F_STUN, F_POISON, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED, F_INSTAKILL)
+tt.vis.flags = bor(F_ENEMY, F_BOSS, F_MINIBOSS)
 tt = RT("enemy_zombie", "enemy_KR5")
 
 AC(tt, "melee")
@@ -7913,10 +7957,11 @@ AC(tt, "melee", "timed_attacks")
 anchor_x, anchor_y = 0.5, 0.08
 image_x, image_y = 144, 128
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
 tt.health.dead_lifetime = 10
 tt.health.hp_max = 10000
+tt.health.armor = 0.95
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.offset = v(0, ady(120))
 tt.info.fn = kr1_scripts.eb_juggernaut.get_info
@@ -7979,11 +8024,14 @@ image_x, image_y = 260, 200
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "jt_spawner_aura"
 tt.auras.list[1].cooldown = 0
+tt.auras.list[2] = E:clone_c("aura_attack")
+tt.auras.list[2].name = "aura_troll_regen"
+tt.auras.list[2].cooldown = 0
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 20
+tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(55, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = 110000
+tt.health.hp_max = 3000000
 tt.health.on_damage = kr1_scripts.eb_jt.on_damage
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.offset = v(0, ady(172))
@@ -7993,7 +8041,7 @@ tt.info.enc_icon = 33
 tt.info.portrait = "bottom_info_image_enemies_0125"
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_jt.update
-tt.motion.max_speed = 0.4 * FPS
+tt.motion.max_speed = 0.3 * FPS
 tt.render.sprites[1].anchor = v(0.5, 0.08)
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].angles_stickiness = {
@@ -8006,6 +8054,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_jt"
+tt.render.sprites[1].scale = vv(9)
 tt.tap_decal = "decal_jt_tap"
 tt.tap_timeout = 1.5
 tt.sound_events.death = "JtDeath"
@@ -8020,10 +8069,10 @@ tt.vis.bans = bor(F_TELEPORT, F_THORN, F_POLYMORPH)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 2
-tt.melee.attacks[1].count = 5
+tt.melee.attacks[1].count = 10
 tt.melee.attacks[1].damage_max = 9999
 tt.melee.attacks[1].damage_min = 9999
-tt.melee.attacks[1].damage_radius = 45
+tt.melee.attacks[1].damage_radius = 80
 tt.melee.attacks[1].damage_type = DAMAGE_EAT
 tt.melee.attacks[1].hit_offset = tt.enemy.melee_slot
 tt.melee.attacks[1].hit_time = fts(15)
@@ -8032,9 +8081,9 @@ tt.melee.attacks[1].sound_args = {
 	delay = fts(6)
 }
 tt.timed_attacks.list[1] = CC("custom_attack")
-tt.timed_attacks.list[1].cooldown = 10 + fts(29)
-tt.timed_attacks.list[1].count = 4
-tt.timed_attacks.list[1].exhausted_duration = 4
+tt.timed_attacks.list[1].cooldown = 8 + fts(29)
+tt.timed_attacks.list[1].count = 20
+tt.timed_attacks.list[1].exhausted_duration = 2
 tt.timed_attacks.list[1].exhausted_sound = "JtRest"
 tt.timed_attacks.list[1].exhausted_sound_args = {
 	delay = fts(34)
@@ -8042,7 +8091,7 @@ tt.timed_attacks.list[1].exhausted_sound_args = {
 tt.timed_attacks.list[1].hit_decal = "decal_jt_ground_hit"
 tt.timed_attacks.list[1].hit_offset = v(80, -10)
 tt.timed_attacks.list[1].hit_time = fts(16)
-tt.timed_attacks.list[1].max_range = 192
+tt.timed_attacks.list[1].max_range = 512
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].mod = "mod_jt_tower"
 tt.timed_attacks.list[1].sound = "JtAttack"
@@ -8912,7 +8961,7 @@ tt.vis.bans = bor(F_TELEPORT, F_THORN, F_POLYMORPH, F_EAT, F_DISINTEGRATED, F_IN
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.second_phase = {}
 tt.second_phase.wait_time = 5
-tt.second_phase.hp_factor = 10
+tt.second_phase.hp_factor = 15
 tt.second_phase.armor = 0.9
 tt.second_phase.magic_armor = 0.9
 tt.second_phase.cooldown = 1
@@ -8965,28 +9014,40 @@ tt.timed_attacks.list[1].wait_times = {
 }
 tt.second = {}
 tt.second.sprites_prefix = "eb_myconid"
-tt.second.sprites_scale = vv(3)
+tt.second.sprites_scale = vv(4)
 tt = RT("eb_blackburn", "boss")
 
 AC(tt, "melee", "timed_attacks", "auras")
 
 anchor_x, anchor_y = 0.5, 0.16993464052287582
 image_x, image_y = 314, 308
+tt.auras.list[1] = E:clone_c("aura_attack")
+tt.auras.list[1].name = "blackburn_spawner_aura"
+tt.auras.list[1].cooldown = 0
 tt.first_death = false
 tt.first_death_duration = 3
 tt.second_life = false
 tt.second_life_hp_factor = 10
 tt.second_life_armor = 0.75
 tt.second_life_magic_armor = 0.75
-tt.second_life_damage_max = 1000
-tt.second_life_damage_min = 500
+tt.second_life_damage_max = 2000
+tt.second_life_damage_min = 800
 tt.second_life_max_speed = 3
+tt.second_death = false
+tt.second_death_duration = 5
+tt.third_life = false
+tt.third_life_hp_factor = 1000
+tt.third_life_armor = 0.99
+tt.third_life_magic_armor = 1.6
+tt.third_life_damage_max = 9999
+tt.third_life_damage_min = 6666
+tt.third_life_max_speed = 1
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
 tt.health.dead_lifetime = 100
 tt.health.armor = 0.75
-tt.health.hp_max = 60000
+tt.health.hp_max = 100000
 tt.health_bar.offset = v(0, 125)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr1_scripts.eb_blackburn.get_info
@@ -8995,10 +9056,10 @@ tt.info.portrait = "gui_bottom_info_image_soldiers_0044"
 tt.health.on_damage = kr1_scripts.eb_blackburn.on_damage
 tt.main_script.insert = kr1_scripts.enemy_basic.insert
 tt.main_script.update = kr1_scripts.eb_blackburn.update
-tt.motion.max_speed = 0.5540780141843972 * FPS
+tt.motion.max_speed = 0.4540780141843972 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "eb_blackburn"
-tt.render.sprites[1].scale = vv(3.5)
+tt.render.sprites[1].scale = vv(3.75)
 tt.render.sprites[1].angles_stickiness = {
 	walk = 10
 }
@@ -9017,9 +9078,9 @@ tt.unit.mod_offset = v(0, ady(115))
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_TELEPORT, F_THORN, F_POLYMORPH, F_STUN, F_EAT, F_DISINTEGRATED, F_INSTAKILL, F_SKELETON)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
-tt.auras.list[1] = E:clone_c("aura_attack")
-tt.auras.list[1].name = "blackburn_aura"
-tt.auras.list[1].cooldown = 0
+tt.auras.list[2] = E:clone_c("aura_attack")
+tt.auras.list[2].name = "blackburn_aura"
+tt.auras.list[2].cooldown = 0
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1.3 + fts(40)
 tt.melee.attacks[1].damage_max = 200
@@ -9034,21 +9095,26 @@ tt.timed_attacks.list[1].after_hit_wait = fts(20)
 tt.timed_attacks.list[1].animation = "smash"
 tt.timed_attacks.list[1].aura_shake = "aura_screen_shake"
 tt.timed_attacks.list[1].cooldown = fts(300)
-tt.timed_attacks.list[1].after_cooldown = fts(150)
+tt.timed_attacks.list[1].after_cooldown = fts(450)
 tt.timed_attacks.list[1].damage_max = 50
 tt.timed_attacks.list[1].damage_min = 10
 tt.timed_attacks.list[1].second_life_damage_max = 200
 tt.timed_attacks.list[1].second_life_damage_min = 100
+tt.timed_attacks.list[1].third_life_damage_max = 9999
+tt.timed_attacks.list[1].third_life_damage_min = 6666
 tt.timed_attacks.list[1].second_life_entity = "enemy_fallen_knight"
+tt.timed_attacks.list[1].third_life_entity = "enemy_blackburn_guard"
 tt.timed_attacks.list[1].entity_node_offset = -5
-tt.timed_attacks.list[1].damage_type = DAMAGE_PHYSICAL
+tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].damage_radius = 106.38297872340426
+tt.timed_attacks.list[1].third_life_damage_radius = 3500
 tt.timed_attacks.list[1].fx = "fx_blackburn_smash"
 tt.timed_attacks.list[1].fx_offset = v(26, 7)
 tt.timed_attacks.list[1].hit_decal = "decal_blackburn_smash_ground"
 tt.timed_attacks.list[1].hit_time = fts(24)
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 283.68794326241135
+tt.timed_attacks.list[1].third_life_max_range = 3500
 tt.timed_attacks.list[1].mod = "mod_blackburn_stun"
 tt.timed_attacks.list[1].mod_towers = "mod_blackburn_tower"
 tt.timed_attacks.list[1].sound = "EnemyBlackburnBossSpecialStomp"
@@ -9058,7 +9124,10 @@ tt.timed_attacks.list[1].sound_args = {
 tt.timed_attacks.list[1].vis_flags = bor(F_MOD)
 tt.second = {}
 tt.second.sprites_prefix = "eb_blackburn"
-tt.second.sprites_scale = vv(8)
+tt.second.sprites_scale = vv(7)
+tt.third = {}
+tt.third.sprites_prefix = "eb_blackburn"
+tt.third.sprites_scale = vv(16)
 tt = E:register_t("eb_elder_shaman", "decal_scripted")
 
 E:add_comps(tt, "attacks")
@@ -9733,6 +9802,14 @@ tt.main_script.update = kr1_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(3)
 tt.regen.health = 30
 tt.regen.ignore_mods = true
+tt = E:register_t("aura_jt_regen", "aura")
+
+AC(tt, "regen")
+
+tt.main_script.update = kr1_scripts.aura_unit_regen.update
+tt.regen.cooldown = fts(3)
+tt.regen.health = 100
+tt.regen.ignore_mods = true
 tt = E:register_t("aura_goblin_zapper_death", "aura")
 tt.aura.cycles = 1
 tt.aura.damage_min = 50
@@ -9775,7 +9852,7 @@ AC(tt, "regen")
 
 tt.main_script.update = kr1_scripts.aura_unit_regen.update
 tt.regen.cooldown = fts(3)
-tt.regen.health = 2
+tt.regen.health = 3
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = true
 tt = E:register_t("aura_flareon_death", "aura_demon_death")
@@ -9989,6 +10066,81 @@ tt.spawn_data = {
 		19,
 		0,
 		3,
+		1
+	}
+}
+tt = RT("blackburn_spawner_aura", "aura")
+tt.main_script.update = kr1_scripts.blackburn_spawner_aura.update
+tt.aura.track_source = true
+tt.spawn_data = {
+	{
+		"enemy_halloween_zombie",
+		2,
+		fts(10),
+		8,
+		1
+	},
+	{
+		"enemy_halloween_zombie",
+		2,
+		fts(10),
+		8,
+		2
+	},
+	{
+		"enemy_halloween_zombie",
+		2,
+		fts(10),
+		8,
+		3
+	},
+	{
+		"enemy_fallen_knight",
+		8,
+		0,
+		2,
+		1
+	},
+	{
+		"enemy_fallen_knight",
+		6,
+		0,
+		2,
+		2
+	},
+	{
+		"enemy_abomination",
+		8,
+		fts(40),
+		2,
+		2
+	},
+	{
+		"enemy_werewolf",
+		8,
+		fts(40),
+		5,
+		2
+	},
+	{
+		"enemy_lycan",
+		14,
+		0,
+		9,
+		1
+	},
+	{
+		"enemy_wererat",
+		10,
+		0,
+		9,
+		2
+	},
+	{
+		"enemy_witch",
+		21,
+		0,
+		7,
 		1
 	}
 }
@@ -10459,7 +10611,7 @@ tt = E:register_t("mod_jt_tower", "modifier")
 E:add_comps(tt, "render", "tween", "ui")
 
 tt.main_script.update = kr1_scripts.mod_jt_tower.update
-tt.render.sprites[1].draw_order = 10
+tt.render.sprites[1].draw_order = 16
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].name = "start"
 tt.render.sprites[1].offset.y = 36
@@ -10546,15 +10698,15 @@ tt.dps.damage_min = 4
 tt.modifier.duration = 5
 tt.render.sprites[1].prefix = "poison_violet"
 tt = RT("mod_blackburn_stun", "mod_stun")
-tt.modifier.duration = 4
-tt.modifier.duration_heroes = 2
+tt.modifier.duration = 5
+tt.modifier.duration_heroes = 2.5
 tt = RT("mod_blackburn_tower", "modifier")
 
 AC(tt, "render", "tween", "main_script")
 
 tt.main_script.update = kr1_scripts.mod_blackburn_tower.update
-tt.modifier.duration = 4
-tt.render.sprites[1].draw_order = 10
+tt.modifier.duration = 5
+tt.render.sprites[1].draw_order = 20
 tt.render.sprites[1].loop = true
 tt.render.sprites[1].offset.y = 36
 tt.render.sprites[1].name = "mod_blackburn_tower"
@@ -10579,10 +10731,10 @@ if IS_CONSOLE then
 	E:add_comps(tt, "tween")
 end
 
-tt.click_time = 4
-tt.duration = 6
+tt.click_time = 16
+tt.duration = 4
 tt.main_script.update = kr1_scripts.mod_veznan_tower.update
-tt.render.sprites[1].draw_order = 10
+tt.render.sprites[1].draw_order = 20
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].name = "start"
 tt.render.sprites[1].offset.y = 36

@@ -600,9 +600,9 @@ tt.hero.skills.ice_peaks.hr_cost = {
 tt.hero.skills.ice_peaks.hr_order = 4
 tt.hero.skills.ice_peaks.hr_available = true
 tt.hero.skills.ice_peaks.hp_damage_factor = {
-	0.1,
 	0.2,
-	0.3
+	0.4,
+	0.6
 }
 tt.hero.skills.ice_peaks.damage_boss = b.ice_peaks.damage_boss
 tt.hero.skills.ice_peaks.key = "ICE_PEAKS"
@@ -5487,7 +5487,7 @@ tt.idle_flip.cooldown_max = 8
 tt.idle_flip.isKR4 = true
 tt.health.armor = 0
 tt.health.dead_lifetime = 10
-tt.health.hp_max = 450
+tt.health.hp_max = 600
 tt.health_bar.offset = v(0, 49)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.unit.hit_offset = v(0, 16)
@@ -5539,13 +5539,13 @@ tt = E:register_t("pirates_soldier_ogre_cook_lvl2", "pirates_soldier_ogre_cook_l
 E:add_comps(tt, "powers")
 
 tt.powers.better_crew = E:clone_c("power")
-tt.health.hp_max = 585
+tt.health.hp_max = 785
 tt.health.armor_inc = 0.3
 tt.health.armor_power_name = "better_crew"
 tt.melee.attacks[1].damage_min = 52
-tt.melee.attacks[1].damage_max = 78
-tt.melee.attacks[1].damage_min_inc = 18
-tt.melee.attacks[1].damage_max_inc = 18
+tt.melee.attacks[1].damage_max = 85
+tt.melee.attacks[1].damage_min_inc = 20
+tt.melee.attacks[1].damage_max_inc = 20
 tt.melee.attacks[1].level = 0
 tt.melee.attacks[1].power_name = "better_crew"
 tt = E:register_t("pirates_soldier_goblin_deckhand_lvl2", "soldier_in_barrack")

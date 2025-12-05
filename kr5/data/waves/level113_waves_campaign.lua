@@ -2160,13 +2160,13 @@ return {
 					path_index = 3,
 					spawns = {
 						{
-							interval = 13,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "eb_sarelgaz",
+							creep = "enemy_sarelgaz_small",
 							path = 1,
 							interval_next = 100,
-							max = 1
+							max = 10
 						}
 					}
 				},

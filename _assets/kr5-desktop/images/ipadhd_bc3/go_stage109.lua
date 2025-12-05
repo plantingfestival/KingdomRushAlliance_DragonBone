@@ -1,7852 +1,4376 @@
 return {
-	["boss_JT_0001"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0001 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			111,
-            66,
-            100,
-            52
+			113,
+			68,
+			102,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2767,
-			331,
-			312,
-			286
+			3195,
+			273,
+			308,
+			283
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0002"
+		}
 	},
-	["boss_JT_0002"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			111,
-            66,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2767,
-			331,
-			312,
-			286
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            60,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			584,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            60,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			584,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0005"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0003 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			118,
-            56,
-            104,
-            52
+			61,
+			104,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2036,
-			487,
+			2572,
+			273,
 			301,
-			296
+			290
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0004"
+		}
 	},
-	["boss_JT_0006"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            56,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2036,
-			487,
-			301,
-			296
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			120,
-            46,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2035,
-			785,
-			293,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0008"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			120,
-            46,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2035,
-			785,
-			293,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0009"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0005 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			121,
-            41,
-            114,
-            52
+			58,
+			107,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1068,
-			1246,
-			288,
-			311
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0010"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			121,
-            41,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			1246,
-			288,
-			311
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0011"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            46,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			760,
-			1158,
-			279,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0012"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            46,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			760,
-			1158,
-			279,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0013"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			128,
-            47,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			878,
-			278,
-			305
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0014"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			128,
-            47,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			878,
-			278,
-			305
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0015"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			134,
-            60,
-            121,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1987,
-			2215,
-			268,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0016"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			134,
-            60,
-            121,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1987,
-			2215,
-			268,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0017"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			137,
-            64,
-            123,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2942,
-			908,
-			263,
-			288
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0018"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			137,
-            64,
-            123,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2942,
-			908,
-			263,
-			288
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0019"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			134,
-            59,
-            121,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1717,
-			2184,
-			268,
+			386,
+			2402,
+			295,
 			293
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0006"
+		}
 	},
-	["boss_JT_0020"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			134,
-            59,
-            121,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1717,
-			2184,
-			268,
-			293
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0021"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			131,
-            56,
-            120,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			462,
-			987,
-			272,
-			296
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0022"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			131,
-            56,
-            120,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			462,
-			987,
-			272,
-			296
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0023"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            46,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			562,
-			2109,
-			284,
-			306
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0024"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            46,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			562,
-			2109,
-			284,
-			306
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0025"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            41,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1381,
-			1299,
-			287,
-			311
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0026"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            41,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1381,
-			1299,
-			287,
-			311
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0027"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0007 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			122,
-            46,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1067,
-			1827,
-			291,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0028"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            46,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1067,
-			1827,
-			291,
-			306
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0029"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            49,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			462,
-			682,
-			297,
-			303
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0030"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            49,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			462,
-			682,
-			297,
-			303
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0031"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			114,
-            56,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1375,
-			1882,
-			305,
-			296
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0032"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			114,
-            56,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1375,
-			1882,
-			305,
-			296
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0033"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
+			48,
 			111,
-            60,
-            102,
-            52
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1381,
-			1588,
-			310,
-			292
+			386,
+			867,
+			290,
+			303
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0008"
+		}
 	},
-	["boss_JT_0034"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            76,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			284,
-			2109,
-			308,
-			276
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0035"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            76,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			284,
-			2109,
-			308,
-			276
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0036"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            80,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			494,
-			1835,
-			308,
-			272
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0037"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1388,
-			1018,
-			315,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0038"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1388,
-			1018,
-			315,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0039"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1388,
-			1018,
-			315,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0040"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			98,
-            66,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1801,
-			199,
-			321,
-			286
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0041"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			98,
-            66,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1801,
-			199,
-			321,
-			286
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0042"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            63,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3236,
-			1,
-			328,
-			289
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0043"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            63,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3236,
-			1,
-			328,
-			289
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0044"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            63,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3236,
-			1,
-			328,
-			289
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0045"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			101,
-            71,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1715,
-			487,
-			319,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0046"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			101,
-            71,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1715,
-			487,
-			319,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0047"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            76,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1694,
-			1319,
-			311,
-			276
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0048"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            76,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1694,
-			1319,
-			311,
-			276
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0049"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            76,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1694,
-			1319,
-			311,
-			276
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0050"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			107,
-            77,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2005,
-			1644,
-			309,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0051"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			107,
-            77,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2005,
-			1644,
-			309,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0052"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			107,
-            80,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			202,
-			1547,
-			309,
-			272
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0053"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            74,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2007,
-			1364,
-			311,
-			278
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0054"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            74,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2007,
-			1364,
-			311,
-			278
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0055"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			105,
-            74,
-            107,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2007,
-			1364,
-			311,
-			278
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0056"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            67,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2124,
-			199,
-			320,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0057"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            67,
-            103,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2124,
-			199,
-			320,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0058"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            61,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3566,
-			1,
-			328,
-			291
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0059"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            61,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3566,
-			1,
-			328,
-			291
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0060"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			95,
-            61,
-            100,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3566,
-			1,
-			328,
-			291
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0061"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            71,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2446,
-			331,
-			319,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0062"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			100,
-            71,
-            104,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2446,
-			331,
-			319,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0063"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			755,
-			1439,
-			311,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0064"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			755,
-			1439,
-			311,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0065"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			104,
-            73,
-            108,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			755,
-			1439,
-			311,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0066"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2934,
-			1198,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0067"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2934,
-			1198,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0068"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2934,
-			1198,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0069"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            70,
-            88,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2022,
-			1080,
-			313,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0070"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            70,
-            88,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2022,
-			1080,
-			313,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0071"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			120,
-            68,
-            91,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			441,
-			1261,
-			312,
-			284
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0072"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			120,
-            68,
-            91,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			441,
-			1261,
-			312,
-			284
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0073"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            67,
-            95,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1693,
-			1597,
-			310,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0074"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            67,
-            95,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1693,
-			1597,
-			310,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0075"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            67,
-            95,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1693,
-			1597,
-			310,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0076"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			118,
-            67,
-            95,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1693,
-			1597,
-			310,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0077"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            67,
-            63,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2889,
-			1,
-			345,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0078"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            67,
-            63,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2889,
-			1,
-			345,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0079"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            73,
-            85,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			684,
-			321,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0080"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            73,
-            85,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			684,
-			321,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0081"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            73,
-            90,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			965,
-			318,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0082"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			115,
-            73,
-            90,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			965,
-			318,
-			279
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0083"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			121,
-            71,
-            87,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1705,
-			1036,
-			315,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0084"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			121,
-            71,
-            87,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1705,
-			1036,
-			315,
-			281
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0085"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0009 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			124,
-            63,
-            88,
-            52
+			44,
+			116,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1068,
-			1536,
-			311,
+			386,
+			1782,
+			283,
+			307
+		},
+		alias = {
+			"boss_JT_0010"
+		}
+	},
+	boss_JT_0011 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			47,
+			119,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			2319,
+			275,
+			304
+		},
+		alias = {
+			"boss_JT_0012"
+		}
+	},
+	boss_JT_0013 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			131,
+			50,
+			120,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			1132,
+			272,
+			301
+		},
+		alias = {
+			"boss_JT_0014"
+		}
+	},
+	boss_JT_0015 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			136,
+			62,
+			123,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3828,
+			273,
+			264,
 			289
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0016"
+		}
 	},
-	["boss_JT_0086"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0017 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			139,
+			67,
+			124,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3832,
+			1132,
+			260,
+			284
+		},
+		alias = {
+			"boss_JT_0018"
+		}
+	},
+	boss_JT_0019 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			136,
+			62,
+			123,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			3275,
+			264,
+			289
+		},
+		alias = {
+			"boss_JT_0020"
+		}
+	},
+	boss_JT_0021 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			134,
+			58,
+			121,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			1757,
+			268,
+			293
+		},
+		alias = {
+			"boss_JT_0022"
+		}
+	},
+	boss_JT_0023 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			130,
+			49,
+			114,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			1416,
+			279,
+			302
+		},
+		alias = {
+			"boss_JT_0024"
+		}
+	},
+	boss_JT_0025 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			128,
+			44,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			386,
+			2092,
+			282,
+			307
+		},
+		alias = {
+			"boss_JT_0026"
+		}
+	},
+	boss_JT_0027 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			124,
-            63,
-            88,
-            52
+			48,
+			112,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1068,
-			1536,
-			311,
-			289
+			386,
+			1476,
+			287,
+			303
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0028"
+		}
 	},
-	["boss_JT_0087"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0029 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			120,
-            56,
-            95,
-            52
+			121,
+			51,
+			110,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3530,
-			294,
-			308,
-			296
+			386,
+			1173,
+			292,
+			300
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0030"
+		}
 	},
-	["boss_JT_0088"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0031 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			120,
-            56,
-            95,
-            52
+			116,
+			59,
+			106,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3530,
-			294,
-			308,
-			296
+			1323,
+			273,
+			301,
+			292
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0032"
+		}
 	},
-	["boss_JT_0089"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0033 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			118,
-            54,
-            102,
-            52
+			113,
+			63,
+			105,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1682,
-			1884,
+			1946,
+			273,
+			305,
+			288
+		},
+		alias = {}
+	},
+	boss_JT_0034 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			107,
+			78,
+			112,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			3237,
+			304,
+			273
+		},
+		alias = {
+			"boss_JT_0035"
+		}
+	},
+	boss_JT_0036 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			107,
+			82,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3484,
+			569,
 			303,
-			298
+			269
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["boss_JT_0090"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0037 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			120,
-            60,
-            134,
-            52
+			102,
+			75,
+			110,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2316,
-			1764,
-			269,
-			292
+			1636,
+			569,
+			311,
+			276
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0038",
+			"boss_JT_0039"
+		}
 	},
-	["boss_JT_0091"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0040 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			120,
-            60,
-            134,
-            52
+			100,
+			67,
+			107,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2316,
-			1764,
-			269,
-			292
+			5,
+			3568,
+			316,
+			284
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0041"
+		}
 	},
-	["boss_JT_0092"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0042 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			97,
+			65,
+			102,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2668,
+			324,
+			286
+		},
+		alias = {
+			"boss_JT_0043",
+			"boss_JT_0044"
+		}
+	},
+	boss_JT_0045 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			103,
+			73,
+			104,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1627,
+			273,
+			316,
+			278
+		},
+		alias = {
+			"boss_JT_0046"
+		}
+	},
+	boss_JT_0047 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			107,
+			78,
+			110,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2568,
+			569,
+			306,
+			273
+		},
+		alias = {
+			"boss_JT_0048",
+			"boss_JT_0049"
+		}
+	},
+	boss_JT_0050 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			110,
+			79,
+			109,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			3513,
+			304,
+			272
+		},
+		alias = {
+			"boss_JT_0051"
+		}
+	},
+	boss_JT_0052 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			110,
+			82,
+			109,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3177,
+			569,
+			304,
+			269
+		},
+		alias = {}
+	},
+	boss_JT_0053 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			107,
+			76,
+			110,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2259,
+			569,
+			306,
+			275
+		},
+		alias = {
+			"boss_JT_0054",
+			"boss_JT_0055"
+		}
+	},
+	boss_JT_0056 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			103,
+			69,
+			105,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			694,
+			273,
+			315,
+			282
+		},
+		alias = {
+			"boss_JT_0057"
+		}
+	},
+	boss_JT_0058 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			97,
+			64,
+			102,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			2378,
+			324,
+			287
+		},
+		alias = {
+			"boss_JT_0059",
+			"boss_JT_0060"
+		}
+	},
+	boss_JT_0061 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			101,
+			73,
+			107,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2254,
+			273,
+			315,
+			278
+		},
+		alias = {
+			"boss_JT_0062"
+		}
+	},
+	boss_JT_0063 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			106,
+			75,
+			111,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1950,
+			569,
+			306,
+			276
+		},
+		alias = {
+			"boss_JT_0064",
+			"boss_JT_0065"
+		}
+	},
+	boss_JT_0066 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			73,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2447,
+			849,
+			281,
+			278
+		},
+		alias = {
+			"boss_JT_0067",
+			"boss_JT_0068",
+			"boss_JT_0105"
+		}
+	},
+	boss_JT_0069 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			125,
+			72,
+			91,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			999,
+			849,
+			307,
+			279
+		},
+		alias = {
+			"boss_JT_0070"
+		}
+	},
+	boss_JT_0071 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			121,
-            69,
-            138,
-            52
+			71,
+			94,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3791,
-			1166,
-			264,
-			283
+			688,
+			849,
+			308,
+			280
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0072"
+		}
 	},
-	["boss_JT_0093"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0073 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			120,
+			70,
+			99,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			1132,
+			304,
+			281
+		},
+		alias = {
+			"boss_JT_0074",
+			"boss_JT_0075",
+			"boss_JT_0076"
+		}
+	},
+	boss_JT_0077 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			117,
+			70,
+			66,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			1748,
+			340,
+			281
+		},
+		alias = {
+			"boss_JT_0078"
+		}
+	},
+	boss_JT_0079 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			118,
+			75,
+			89,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2876,
+			273,
+			316,
+			276
+		},
+		alias = {
+			"boss_JT_0080"
+		}
+	},
+	boss_JT_0081 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			118,
+			75,
+			93,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1321,
+			569,
+			312,
+			276
+		},
+		alias = {
+			"boss_JT_0082"
+		}
+	},
+	boss_JT_0083 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			122,
+			74,
+			89,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			569,
+			312,
+			277
+		},
+		alias = {
+			"boss_JT_0084"
+		}
+	},
+	boss_JT_0085 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			125,
+			65,
+			90,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1012,
+			273,
+			308,
+			286
+		},
+		alias = {
+			"boss_JT_0086"
+		}
+	},
+	boss_JT_0087 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			121,
-            69,
-            138,
-            52
+			58,
+			97,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3791,
-			1166,
-			264,
-			283
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0094"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			124,
-            77,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3504,
-			1461,
-			282,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0095"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			124,
-            77,
-            117,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3504,
-			1461,
-			282,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0096"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3170,
-			2056,
-			284,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0097"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3170,
-			2056,
-			284,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0098"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3170,
-			2056,
-			284,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0099"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3035,
-			619,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0100"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3035,
-			619,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0101"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3207,
-			906,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0102"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3221,
-			1193,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0103"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3221,
-			1193,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0104"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3221,
-			1193,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0105"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2934,
-			1198,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0106"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3319,
-			600,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0107"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3319,
-			600,
-			285,
-			282
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0108"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			144,
-            59,
-            93,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			199,
-			1821,
-			286,
+			386,
+			273,
+			305,
 			293
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0088"
+		}
 	},
-	["boss_JT_0109"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0089 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			152,
-            57,
-            91,
-            52
+			120,
+			56,
+			104,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2637,
-			1197,
-			280,
+			386,
+			569,
+			299,
 			295
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_JT_0110"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0090 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			148,
-            54,
-            104,
-            52
+			121,
+			62,
+			136,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2337,
-			1197,
-			271,
+			995,
+			2983,
+			266,
+			289
+		},
+		alias = {
+			"boss_JT_0091"
+		}
+	},
+	boss_JT_0092 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			124,
+			70,
+			141,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			1994,
+			258,
+			281
+		},
+		alias = {
+			"boss_JT_0093"
+		}
+	},
+	boss_JT_0094 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			126,
+			80,
+			119,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3582,
+			849,
+			278,
+			271
+		},
+		alias = {
+			"boss_JT_0095"
+		}
+	},
+	boss_JT_0096 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			74,
+			115,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3016,
+			849,
+			279,
+			277
+		},
+		alias = {
+			"boss_JT_0097",
+			"boss_JT_0098"
+		}
+	},
+	boss_JT_0099 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			72,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3548,
+			1132,
+			281,
+			279
+		},
+		alias = {
+			"boss_JT_0100"
+		}
+	},
+	boss_JT_0101 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			72,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1309,
+			849,
+			281,
+			279
+		},
+		alias = {}
+	},
+	boss_JT_0102 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			74,
+			112,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3790,
+			569,
+			282,
+			277
+		},
+		alias = {
+			"boss_JT_0103",
+			"boss_JT_0104"
+		}
+	},
+	boss_JT_0106 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			73,
+			112,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1877,
+			849,
+			282,
+			278
+		},
+		alias = {
+			"boss_JT_0107"
+		}
+	},
+	boss_JT_0108 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			145,
+			61,
+			96,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			1132,
+			282,
+			290
+		},
+		alias = {}
+	},
+	boss_JT_0109 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			154,
+			59,
+			94,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			1425,
+			275,
+			292
+		},
+		alias = {}
+	},
+	boss_JT_0110 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			151,
+			57,
+			106,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			2053,
+			266,
+			294
+		},
+		alias = {}
+	},
+	boss_JT_0111 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			114,
+			49,
+			153,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			2350,
+			256,
+			302
+		},
+		alias = {
+			"boss_JT_0112"
+		}
+	},
+	boss_JT_0113 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			118,
+			32,
+			170,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			3567,
+			235,
+			319
+		},
+		alias = {
+			"boss_JT_0114"
+		}
+	},
+	boss_JT_0115 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			97,
+			33,
+			170,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			1436,
+			256,
+			318
+		},
+		alias = {
+			"boss_JT_0116"
+		}
+	},
+	boss_JT_0117 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			91,
+			33,
+			170,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			2626,
+			262,
+			318
+		},
+		alias = {
+			"boss_JT_0118",
+			"boss_JT_0119",
+			"boss_JT_0120"
+		}
+	},
+	boss_JT_0121 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			175,
+			130,
+			42,
+			41
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1548,
+			1425,
+			306,
+			233
+		},
+		alias = {
+			"boss_JT_0122"
+		}
+	},
+	boss_JT_0123 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			175,
+			156,
+			32,
+			40
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2183,
+			1425,
+			316,
+			208
+		},
+		alias = {
+			"boss_JT_0124"
+		}
+	},
+	boss_JT_0125 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			175,
+			139,
+			28,
+			40
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3539,
+			5,
+			320,
+			225
+		},
+		alias = {
+			"boss_JT_0126"
+		}
+	},
+	boss_JT_0127 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			175,
+			148,
+			25,
+			40
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1857,
+			1425,
+			323,
+			216
+		},
+		alias = {
+			"boss_JT_0128",
+			"boss_JT_0129",
+			"boss_JT_0130",
+			"boss_JT_0131",
+			"boss_JT_0132",
+			"boss_JT_0133"
+		}
+	},
+	boss_JT_0134 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			175,
+			90,
+			94,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			2278,
+			254,
+			261
+		},
+		alias = {
+			"boss_JT_0135"
+		}
+	},
+	boss_JT_0136 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			129,
+			73,
+			112,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2162,
+			849,
+			282,
+			278
+		},
+		alias = {}
+	},
+	boss_JT_0137 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			127,
+			59,
+			114,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			3788,
+			282,
+			292
+		},
+		alias = {
+			"boss_JT_0138",
+			"boss_JT_0139"
+		}
+	},
+	boss_JT_0140 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			126,
+			55,
+			114,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			2020,
+			283,
+			296
+		},
+		alias = {
+			"boss_JT_0141",
+			"boss_JT_0142"
+		}
+	},
+	boss_JT_0143 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			126,
+			55,
+			113,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			688,
+			1721,
+			284,
+			296
+		},
+		alias = {
+			"boss_JT_0144",
+			"boss_JT_0145"
+		}
+	},
+	boss_JT_0146 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			523,
+			404
+		},
+		trim = {
+			126,
+			53,
+			112,
+			53
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			386,
+			3568,
+			285,
 			298
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0147",
+			"boss_JT_0148",
+			"boss_JT_0149",
+			"boss_JT_0150"
+		}
 	},
-	["boss_JT_0111"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0151 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			111,
-            46,
-            151,
-            52
+			128,
+			72,
+			114,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			804,
-			1720,
-			261,
-			306
+			1593,
+			849,
+			281,
+			279
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0152",
+			"boss_JT_0153"
+		}
 	},
-	["boss_JT_0112"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0154 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			111,
-            46,
-            151,
-            52
+			130,
+			74,
+			96,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			804,
-			1720,
-			261,
-			306
+			2877,
+			569,
+			297,
+			277
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0155",
+			"boss_JT_0156"
+		}
 	},
-	["boss_JT_0113"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0157 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			115,
-            30,
-            169,
-            52
+			132,
+			77,
+			76,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1068,
-			443,
-			239,
-			322
+			1003,
+			569,
+			315,
+			274
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0158",
+			"boss_JT_0159"
+		}
 	},
-	["boss_JT_0114"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0160 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			115,
-            30,
-            169,
-            52
+			132,
+			80,
+			72,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1068,
-			443,
-			239,
-			322
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0115"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			94,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1391,
-			756,
-			260,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0116"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			94,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1391,
-			756,
-			260,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0117"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			90,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1713,
-			770,
-			264,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0118"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			90,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1713,
-			770,
-			264,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0119"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			90,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1713,
-			770,
-			264,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0120"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			90,
-            32,
-            169,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1713,
-			770,
-			264,
-			320
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0121"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            128,
-            40,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			202,
-			1236,
-			309,
-			237
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0122"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            128,
-            40,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			202,
-			1236,
-			309,
-			237
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0123"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            154,
-            30,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			249,
-			738,
+			3506,
+			273,
 			319,
-			211
+			271
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0161"
+		}
 	},
-	["boss_JT_0124"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0162 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			174,
-            154,
-            30,
-            39
+			132,
+			80,
+			116,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			249,
-			738,
-			319,
-			211
+			1270,
+			1720,
+			275,
+			271
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0163",
+			"boss_JT_0164",
+			"boss_JT_0165",
+			"boss_JT_0166"
+		}
 	},
-	["boss_JT_0125"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0167 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			174,
-            137,
-            26,
-            37
+			129,
+			65,
+			113,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			529,
-			328,
-			323,
-			230
+			2979,
+			1132,
+			281,
+			286
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0168"
+		}
 	},
-	["boss_JT_0126"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0169 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			174,
-            137,
-            26,
-            37
+			129,
+			64,
+			113,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			529,
-			328,
-			323,
-			230
+			2695,
+			1132,
+			281,
+			287
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_JT_0127"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0170 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			174,
-            145,
-            23,
-            39
+			129,
+			78,
+			113,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			307,
-			354,
-			326,
-			220
+			3298,
+			849,
+			281,
+			273
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0171"
+		}
 	},
-	["boss_JT_0128"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0172 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			174,
-            145,
-            23,
-            39
+			129,
+			69,
+			112,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0129"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            145,
-            23,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0130"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            145,
-            23,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0131"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            145,
-            23,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0132"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            145,
-            23,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0133"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            145,
-            23,
-            39
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			307,
-			354,
-			326,
-			220
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0134"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            88,
-            93,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3791,
-			1451,
-			256,
-			264
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0135"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			174,
-            88,
-            93,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3791,
-			1451,
-			256,
-			264
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0136"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            70,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3603,
-			592,
-			285,
+			3263,
+			1132,
+			282,
 			282
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0173"
+		}
 	},
-	["boss_JT_0137"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            56,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2644,
-			908,
-			287,
-			296
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0138"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            56,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2644,
-			908,
-			287,
-			296
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0139"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            56,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2644,
-			908,
-			287,
-			296
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0140"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2734,
-			619,
-			287,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0141"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2734,
-			619,
-			287,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0142"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2734,
-			619,
-			287,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0143"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			124,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2343,
-			907,
-			288,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0144"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			124,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2343,
-			907,
-			288,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0145"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			124,
-            53,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2343,
-			907,
-			288,
-			299
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0146"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            50,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2430,
-			614,
-			291,
-			302
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0147"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            50,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2430,
-			614,
-			291,
-			302
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0148"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            50,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2430,
-			614,
-			291,
-			302
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0149"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            50,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2430,
-			614,
-			291,
-			302
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0150"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			122,
-            50,
-            110,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2430,
-			614,
-			291,
-			302
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0151"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            68,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2882,
-			2056,
-			286,
-			284
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0152"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            68,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2882,
-			2056,
-			286,
-			284
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0153"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			125,
-            68,
-            112,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2882,
-			2056,
-			286,
-			284
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0154"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			128,
-            73,
-            94,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1436,
-			2184,
-			301,
-			279
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0155"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			128,
-            73,
-            94,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1436,
-			2184,
-			301,
-			279
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0156"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			128,
-            73,
-            94,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1436,
-			2184,
-			301,
-			279
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0157"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0174 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			129,
-            74,
-            73,
-            52
+			74,
+			112,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1392,
-			476,
-			321,
-			278
+			2731,
+			849,
+			282,
+			277
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0175",
+			"boss_JT_0176",
+			"boss_JT_0177",
+			"boss_JT_0178",
+			"boss_JT_0179",
+			"boss_JT_0180",
+			"boss_JT_0181",
+			"boss_JT_0182",
+			"boss_JT_0183",
+			"boss_JT_0184",
+			"boss_JT_0185",
+			"boss_JT_0186",
+			"boss_JT_0187",
+			"boss_JT_0188",
+			"boss_JT_0189",
+			"boss_JT_0190",
+			"boss_JT_0191"
+		}
 	},
-	["boss_JT_0158"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0192 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			129,
-            74,
-            73,
-            52
+			74,
+			112,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1392,
-			476,
-			321,
-			278
+			1555,
+			1132,
+			282,
+			287
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0193"
+		}
 	},
-	["boss_JT_0159"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0194 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			129,
-            74,
-            73,
-            52
+			74,
+			112,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1392,
-			476,
-			321,
-			278
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0160"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            70,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1476,
-			199,
-			323,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0161"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            70,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1476,
-			199,
-			323,
-			275
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0162"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3204,
-			1482,
-			279,
-			275
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0163"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3204,
-			1482,
-			279,
-			275
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0164"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3204,
-			1482,
-			279,
-			275
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0165"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3204,
-			1482,
-			279,
-			275
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0166"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			130,
-            77,
-            114,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3204,
-			1482,
-			279,
-			275
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0167"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            63,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2904,
-			1769,
-			285,
-			289
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0168"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            63,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2904,
-			1769,
-			285,
-			289
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0169"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            61,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2911,
-			1482,
-			285,
-			291
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0170"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            76,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3491,
-			887,
-			285,
-			276
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0171"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            76,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3491,
-			887,
-			285,
-			276
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0172"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            67,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3504,
-			1174,
-			285,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0173"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            67,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3504,
-			1174,
-			285,
-			285
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0174"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0175"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0176"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0177"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0178"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0179"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0180"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0181"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0182"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0183"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0184"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0185"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0186"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0187"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0188"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0189"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0190"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0191"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3769,
-			879,
-			285,
-			281
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0192"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2617,
-			1479,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0193"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2617,
-			1479,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0194"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2610,
-			1766,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0195"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2610,
-			1766,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0196"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2294,
-			2035,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0197"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2294,
-			2035,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0198"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2588,
-			2053,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0199"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            111,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2588,
-			2053,
-			285,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0200"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2320,
-			1470,
-			295,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0201"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			127,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2320,
-			1470,
-			295,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0202"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1987,
-			1921,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0203"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1987,
-			1921,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0204"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			848,
-			2180,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0205"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
+			1840,
+			1132,
+			282,
+			287
 		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			848,
-			2180,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0206"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1142,
-			2180,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0207"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            71,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1142,
-			2180,
-			305,
-			292
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0208"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            57,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3081,
-			292,
-			305,
-			306
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0209"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            57,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3081,
-			292,
-			305,
-			306
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0210"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0211"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0212"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0213"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0214"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0215"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0216"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0217"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0218"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0219"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0220"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0221"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0222"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0223"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0195"
+		}
 	},
-	["boss_JT_0224"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0196 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            54,
-            101,
-            41
+			129,
+			74,
+			112,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0225"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
+			2125,
+			1132,
+			282,
+			287
 		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0197"
+		}
 	},
-	["boss_JT_0226"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0198 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            54,
-            101,
-            41
+			129,
+			74,
+			112,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0227"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
+			2410,
+			1132,
+			282,
+			287
 		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0199"
+		}
 	},
-	["boss_JT_0228"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0200 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            54,
-            101,
-            41
+			129,
+			74,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0229"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
+			688,
+			2947,
+			290,
+			287
 		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0201"
+		}
 	},
-	["boss_JT_0230"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0202 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            54,
-            101,
-            41
+			120,
+			74,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0231"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
+			386,
+			2698,
+			299,
+			287
 		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0203"
+		}
 	},
-	["boss_JT_0232"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0204 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            54,
-            101,
-            41
+			120,
+			74,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0233"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			117,
-            54,
-            101,
-            41
-		},
-		a_size = {
-			4056,
-			2486
+			386,
+			2988,
+			299,
+			287
 		},
-		f_quad = {
-			761,
-			273,
-			305,
-			309
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0205"
+		}
 	},
-	["boss_JT_0234"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0206 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			164,
-            24,
-            117,
-            52
+			120,
+			74,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1146,
-			199,
-			242,
-			328
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0235"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			164,
-            24,
-            117,
-            52
+			386,
+			3278,
+			299,
+			287
 		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1146,
-			199,
-			242,
-			328
-		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0207"
+		}
 	},
-	["boss_JT_0236"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0208 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			144,
-            6,
-            98,
-            52
+			120,
+			60,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			2109,
-			281,
-			346
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0237"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			144,
-            6,
-            98,
-            52
-		},
-		a_size = {
-			4056,
-			2486
+			5,
+			3264,
+			299,
+			301
 		},
-		f_quad = {
-			1,
-			2109,
-			281,
-			346
-		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0209"
+		}
 	},
-	["boss_JT_0238"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0210 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			117,
-            6,
-            78,
-            52
+			120,
+			57,
+			104,
+			43
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2541,
-			1,
-			328,
-			346
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0239"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
+			5,
+			2957,
+			299,
+			304
 		},
-		trim = {
-			117,
-            6,
-            78,
-            52
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2541,
-			1,
-			328,
-			346
-		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0211",
+			"boss_JT_0212",
+			"boss_JT_0213",
+			"boss_JT_0214",
+			"boss_JT_0215",
+			"boss_JT_0216",
+			"boss_JT_0217",
+			"boss_JT_0218",
+			"boss_JT_0219",
+			"boss_JT_0220",
+			"boss_JT_0221",
+			"boss_JT_0222",
+			"boss_JT_0223",
+			"boss_JT_0224",
+			"boss_JT_0225",
+			"boss_JT_0226",
+			"boss_JT_0227",
+			"boss_JT_0228",
+			"boss_JT_0229",
+			"boss_JT_0230",
+			"boss_JT_0231",
+			"boss_JT_0232",
+			"boss_JT_0233"
+		}
 	},
-	["boss_JT_0240"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0234 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			100,
-            27,
-            63,
-            52
+			166,
+			26,
+			120,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			380,
-			1,
-			360,
+			995,
+			2655,
+			237,
 			325
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0235"
+		}
 	},
-	["boss_JT_0241"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0236 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			100,
-            27,
-            63,
-            52
+			147,
+			8,
+			101,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			380,
-			1,
-			360,
-			325
+			5,
+			2032,
+			275,
+			343
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0237"
+		}
 	},
-	["boss_JT_0242"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0238 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			95,
-            27,
-            51,
-            26
+			118,
+			9,
+			80,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1,
-			377,
-			351
+			5,
+			1403,
+			325,
+			342
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0239"
+		}
 	},
-	["boss_JT_0243"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0240 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			95,
-            27,
-            51,
-            26
+			103,
+			30,
+			65,
+			53
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1,
-			377,
-			351
+			5,
+			776,
+			355,
+			321
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0241"
+		}
 	},
-	["boss_JT_0244"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0242 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
 			98,
-            71,
-            43,
-            29
+			30,
+			54,
+			27
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			354,
-			382,
-			304
+			5,
+			426,
+			371,
+			347
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0243"
+		}
 	},
-	["boss_JT_0245"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0244 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			98,
-            71,
-            43,
-            29
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1,
-			354,
-			382,
-			304
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0246"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			87,
-            108,
-            34,
-            26
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			742,
-			1,
-			402,
-			270
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0247"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			87,
-            108,
-            34,
-            26
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			742,
-			1,
-			402,
-			270
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0248"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
+			101,
 			74,
-            142,
-            19,
-            16
+			45,
+			30
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			738,
-			430,
-			246
+			5,
+			1100,
+			377,
+			300
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0245"
+		}
 	},
-	["boss_JT_0249"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0246 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			74,
-            142,
-            19,
-            16
+			90,
+			111,
+			37,
+			28
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			738,
-			430,
-			246
+			386,
+			5,
+			396,
+			265
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0247"
+		}
 	},
-	["boss_JT_0250"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0248 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			63,
-            191,
-            9,
-            17
+			76,
+			145,
+			22,
+			18
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2088,
-			1,
-			451,
-			196
+			785,
+			5,
+			425,
+			241
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0249"
+		}
 	},
-	["boss_JT_0251"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0250 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			63,
-            191,
-            9,
-            17
+			66,
+			193,
+			11,
+			20
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2088,
-			1,
-			451,
-			196
+			3090,
+			5,
+			446,
+			191
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0251"
+		}
 	},
-	["boss_JT_0252"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0252 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			57,
-            189,
-            0,
-            16
+			60,
+			192,
+			2,
+			18
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1170,
-			466,
-			199
+			1213,
+			5,
+			461,
+			194
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0253"
+		}
 	},
-	["boss_JT_0253"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0254 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			57,
-            189,
-            0,
-            16
+			55,
+			195,
+			0,
+			18
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1,
-			1170,
-			466,
-			199
+			1677,
+			5,
+			468,
+			191
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_0255"
+		}
 	},
-	["boss_JT_0254"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0256 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			54,
-            192,
-            0,
-            16
+			55,
+			195,
+			0,
+			18
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1146,
-			1,
-			469,
-			196
+			2148,
+			5,
+			468,
+			191
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0257"
+		}
 	},
-	["boss_JT_0255"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_0258 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			523,
 			404
 		},
 		trim = {
-			54,
-            192,
-            0,
-            16
+			55,
+			195,
+			0,
+			18
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			1146,
-			1,
-			469,
-			196
+			2619,
+			5,
+			468,
+			191
 		},
-		alias = {},
-		textureRotated = false
+		alias = {
+			"boss_JT_0259",
+			"boss_JT_0260",
+			"boss_JT_0261"
+		}
 	},
-	["boss_JT_0256"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1,
-			1638,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0257"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1,
-			1638,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_0258"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1617,
-			1,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0259"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1617,
-			1,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0260"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1617,
-			1,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_0261"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			523,
-			404
-		},
-		trim = {
-			54,
-            192,
-            0,
-            16
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1617,
-			1,
-			469,
-			196
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_decal_0001"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_decal_0001 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			302,
 			154
 		},
 		trim = {
-			19,
-            19,
-            19,
-            46
+			20,
+			20,
+			21,
+			49
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2339,
-			486,
-			264,
-			89
+			3233,
+			1985,
+			261,
+			85
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_hitground_decal_0002"
+		}
 	},
-	["boss_JT_hitground_decal_0002"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_decal_0003 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			302,
 			154
 		},
 		trim = {
-			19,
-            19,
-            19,
-            46
+			6,
+			12,
+			6,
+			29
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2339,
-			486,
-			264,
-			89
+			1927,
+			2315,
+			290,
+			113
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_hitground_decal_0004"
+		}
 	},
-	["boss_JT_hitground_decal_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			3,
-            10,
-            3,
-            27
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2281,
-			2322,
-			296,
-			117
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_decal_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			3,
-            10,
-            3,
-            27
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2281,
-			2322,
-			296,
-			117
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_decal_0005"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_decal_0005 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			302,
 			154
 		},
 		trim = {
 			0,
-            4,
-            0,
-            10
+			7,
+			2,
+			13
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3388,
-			292,
-			302,
-			140
+			1829,
+			1661,
+			300,
+			134
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_hitground_decal_0006"
+		}
 	},
-	["boss_JT_hitground_decal_0006"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_decal_0007 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			302,
 			154
 		},
 		trim = {
+			18,
+			5,
+			2,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2132,
+			1661,
+			282,
+			141
+		},
+		alias = {
+			"boss_JT_hitground_decal_0008"
+		}
+	},
+	boss_JT_hitground_decal_0009 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			302,
+			154
+		},
+		trim = {
+			18,
+			4,
+			6,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1548,
+			1661,
+			278,
+			148
+		},
+		alias = {
+			"boss_JT_hitground_decal_0010"
+		}
+	},
+	boss_JT_hitground_decal_0011 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			302,
+			154
+		},
+		trim = {
+			43,
 			0,
-            4,
-            0,
-            10
+			4,
+			0
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3388,
-			292,
-			302,
-			140
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_decal_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
+			1270,
+			2748,
+			255,
 			154
+		},
+		alias = {
+			"boss_JT_hitground_decal_0012"
+		}
+	},
+	boss_JT_hitground_smoke_0001 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
 		},
 		trim = {
-			16,
-            2,
-            0,
-            6
+			8,
+			21,
+			12,
+			3
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			513,
-			1547,
-			286,
-			146
+			1728,
+			2663,
+			193,
+			167
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_JT_hitground_decal_0008"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_smoke_0002 = {
+		a_name = "go_stage109-1.dds",
 		size = {
-			302,
-			154
+			213,
+			191
 		},
 		trim = {
-			16,
-            2,
-            0,
-            6
+			8,
+			21,
+			12,
+			3
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			513,
-			1547,
-			286,
-			146
+			1728,
+			2833,
+			193,
+			167
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_JT_hitground_decal_0009"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			16,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3896,
-			1,
-			283,
-			152
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_decal_0010"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			16,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3896,
-			1,
-			283,
-			152
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_decal_0011"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			42,
-            0,
-            2,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3840,
-			294,
-			258,
-			154
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_decal_0012"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			302,
-			154
-		},
-		trim = {
-			42,
-            0,
-            2,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3840,
-			294,
-			258,
-			154
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0001"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_smoke_0003 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			213,
 			191
 		},
 		trim = {
 			4,
-            19,
-            10,
-            0
+			16,
+			0,
+			5
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
+		},
+		f_quad = {
+			1548,
+			1812,
+			209,
+			170
+		},
+		alias = {
+			"boss_JT_hitground_smoke_0004"
+		}
+	},
+	boss_JT_hitground_smoke_0005 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
+		},
+		trim = {
+			2,
+			9,
+			3,
+			3
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			3688,
+			208,
+			179
+		},
+		alias = {
+			"boss_JT_hitground_smoke_0006"
+		}
+	},
+	boss_JT_hitground_smoke_0007 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
+		},
+		trim = {
+			1,
+			4,
+			6,
+			2
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			3500,
+			206,
+			185
+		},
+		alias = {
+			"boss_JT_hitground_smoke_0008"
+		}
+	},
+	boss_JT_hitground_smoke_0009 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
+		},
+		trim = {
+			0,
+			3,
+			6,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			3108,
+			207,
+			188
+		},
+		alias = {
+			"boss_JT_hitground_smoke_0010"
+		}
+	},
+	boss_JT_hitground_smoke_0011 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
+		},
+		trim = {
+			21,
+			0,
+			20,
+			99
+		},
+		a_size = {
+			4096,
+			4096
 		},
 		f_quad = {
 			3857,
-			2095,
-			199,
-			172
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0002"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			4,
-            19,
-            10,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3655,
-			2298,
-			199,
-			172
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			2,
-            14,
-            0,
-            2
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			249,
-			1059,
-			211,
-			175
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			2,
-            14,
-            0,
-            2
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			249,
-			1059,
-			211,
-			175
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0005"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            7,
-            0,
-            2
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3788,
-			1709,
-			213,
-			182
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0006"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            7,
-            0,
-            2
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3788,
-			1709,
-			213,
-			182
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3195,
-			1769,
-			210,
-			189
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0008"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            2,
-            3,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3195,
-			1769,
-			210,
-			189
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0009"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3386,
-			1763,
-			209,
-			191
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0010"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			0,
-            0,
-            4,
-            0
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3386,
-			1763,
-			209,
-			191
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_hitground_smoke_0011"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			19,
-            0,
-            19,
-            97
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3247,
-			2342,
-			175,
-			94
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0012"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			19,
-            0,
-            19,
-            97
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3247,
-			2342,
-			175,
-			94
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0013"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			23,
-            29,
-            20,
-            104
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			848,
-			2120,
-			170,
-			58
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_hitground_smoke_0014"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			191
-		},
-		trim = {
-			23,
-            29,
-            20,
-            104
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			848,
-			2120,
-			170,
-			58
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0001"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			10,
-            56,
-            3,
-            7
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			661,
-			1722,
-			118,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0002"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			10,
-            56,
-            3,
-            7
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			661,
-			1722,
-			118,
-			111
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			9,
-            53,
-            4,
-            7
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3655,
-			1940,
-			118,
-			114
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			24,
-            69,
-            0,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2771,
-			2340,
-			107,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0005"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			24,
-            69,
-            0,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2771,
-			2340,
-			107,
-			99
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0006"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			46,
-            76,
-            0,
-            4
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2343,
-			752,
-			85,
-			94
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tap_notxt_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			131,
-			174
-		},
-		trim = {
-			46,
-            76,
-            0,
-            4
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2343,
-			752,
-			85,
-			94
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0001"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			33,
-            40,
-            37,
-            64
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2889,
-			288,
-			118,
-			38
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0002"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			22,
-            12,
-            26,
-            80
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			1068,
-			273,
-			140,
-			50
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_JT_tapFeedback_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			14,
-            0,
-            19,
-            33
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3887,
-			736,
-			155,
-			109
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			14,
-            0,
-            12,
-            46
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3424,
-			2358,
-			162,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0005"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			3,
-            0,
-            7,
-            46
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3067,
-			2342,
-			178,
-			96
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0006"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			3,
-            19,
-            2,
-            46
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			804,
-			2028,
-			183,
-			77
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			1,
-            19,
-            2,
-            28
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2880,
-			2342,
-			185,
-			95
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0008"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			1,
-            48,
-            1,
-            28
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			284,
-			2419,
-			186,
-			66
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_JT_tapFeedback_0009"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			188,
-			142
-		},
-		trim = {
-			14,
-            48,
-            1,
-            2
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			661,
-			1547,
-			173,
+			1985,
+			172,
 			92
 		},
-		alias = {},
-		textureRotated = true
+		alias = {
+			"boss_JT_hitground_smoke_0012"
+		}
 	},
-	["boss_JT_tapFeedback_0010"] = {
-		a_name = "go_stage109.dds",
+	boss_JT_hitground_smoke_0013 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			191
+		},
+		trim = {
+			26,
+			31,
+			22,
+			107
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3788,
+			1929,
+			165,
+			53
+		},
+		alias = {
+			"boss_JT_hitground_smoke_0014"
+		}
+	},
+	boss_JT_tapFeedback_0001 = {
+		a_name = "go_stage109-1.dds",
 		size = {
 			188,
 			142
+		},
+		trim = {
+			35,
+			43,
+			40,
+			67
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3824,
+			1622,
+			113,
+			32
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0002 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			25,
+			15,
+			29,
+			83
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3956,
+			1929,
+			134,
+			44
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0003 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			17,
+			2,
+			20,
+			35
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3482,
+			151,
+			105
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0004 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			17,
+			1,
+			14,
+			48
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3683,
+			157,
+			93
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0005 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			5,
+			1,
+			10,
+			48
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3681,
+			1985,
+			173,
+			93
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0006 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			5,
+			22,
+			5,
+			48
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3863,
+			1055,
+			178,
+			72
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0007 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			2,
+			22,
+			5,
+			29
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3497,
+			1985,
+			181,
+			91
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0008 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			2,
+			49,
+			2,
+			29
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3862,
+			201,
+			184,
+			64
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0009 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			15,
+			49,
+			2,
+			3
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3590,
+			171,
+			90
+		},
+		alias = {}
+	},
+	boss_JT_tapFeedback_0010 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			188,
+			142
+		},
+		trim = {
+			28,
+			114,
+			29,
+			3
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			4066,
+			131,
+			25
+		},
+		alias = {}
+	},
+	boss_JT_tap_notxt_0001 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			131,
+			174
+		},
+		trim = {
+			12,
+			58,
+			6,
+			10
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3890,
+			113,
+			106
+		},
+		alias = {
+			"boss_JT_tap_notxt_0002"
+		}
+	},
+	boss_JT_tap_notxt_0003 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			131,
+			174
+		},
+		trim = {
+			10,
+			56,
+			7,
+			10
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3779,
+			114,
+			108
+		},
+		alias = {}
+	},
+	boss_JT_tap_notxt_0004 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			131,
+			174
+		},
+		trim = {
+			25,
+			70,
+			1,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2220,
+			2315,
+			105,
+			96
+		},
+		alias = {
+			"boss_JT_tap_notxt_0005"
+		}
+	},
+	boss_JT_tap_notxt_0006 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			131,
+			174
+		},
+		trim = {
+			48,
+			79,
+			1,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2328,
+			2315,
+			82,
+			88
+		},
+		alias = {
+			"boss_JT_tap_notxt_0007"
+		}
+	},
+	boss_jt_tower_freeze_0001 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			21,
+			131,
+			77,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3999,
+			115,
+			74
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0002 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			18,
+			74,
+			19,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3348,
+			176,
+			131
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0003 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			12,
+			67,
+			16,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3003,
+			185,
+			138
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0004 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			35,
+			16,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			2490,
+			191,
+			170
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0005 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			33,
+			11,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			2315,
+			196,
+			172
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0006 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			5,
+			11,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			2905,
+			196,
+			200
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0007 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			2,
+			11,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3863,
+			849,
+			196,
+			203
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0008 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			2,
+			12,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			2542,
+			195,
+			203
+		},
+		alias = {}
+	},
+	boss_jt_tower_freeze_0009 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			213,
+			213
+		},
+		trim = {
+			6,
+			7,
+			12,
+			8
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			3299,
+			195,
+			198
+		},
+		alias = {
+			"boss_jt_tower_freeze_0010"
+		}
+	},
+	boss_jt_tower_unfreeze_0001 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			81,
+			22,
+			131,
+			64
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1728,
+			3144,
+			126,
+			201
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0002 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			74,
+			16,
+			87,
+			77
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1548,
+			2092,
+			177,
+			194
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0003 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			67,
+			9,
+			79,
+			85
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1270,
+			3870,
+			192,
+			193
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0004 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			58,
+			4,
+			74,
+			89
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3824,
+			1425,
+			206,
+			194
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0005 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			47,
+			8,
+			66,
+			86
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3862,
+			5,
+			225,
+			193
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0006 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			42,
+			28,
+			59,
+			61
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3023,
+			1425,
+			237,
+			198
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0007 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			35,
+			43,
+			53,
+			37
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2502,
+			1425,
+			250,
+			207
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0008 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			32,
+			57,
+			48,
+			10
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			386,
+			3869,
+			258,
+			220
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0009 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			34,
+			71,
+			44,
+			17
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			995,
+			3889,
+			260,
+			199
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0010 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			35,
+			87,
+			38,
+			13
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2755,
+			1425,
+			265,
+			187
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0011 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			30,
+			103,
+			33,
+			16
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3263,
+			1425,
+			275,
+			168
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0012 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
 		},
 		trim = {
 			27,
-            113,
-            28,
-            2
+			120,
+			31,
+			15
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			529,
-			653,
-			133,
-			27
+			3541,
+			1425,
+			280,
+			152
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["boss_jt_tower_freeze_0001"] = {
-		a_name = "go_stage109.dds",
+	boss_jt_tower_unfreeze_0013 = {
+		a_name = "go_stage109-1.dds",
 		size = {
-			213,
-			213
+			338,
+			287
 		},
 		trim = {
 			19,
-            128,
-            75,
-            6
+			150,
+			29,
+			6
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			2446,
-			199,
-			119,
-			79
+			2417,
+			1661,
+			290,
+			131
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_jt_tower_freeze_0002"] = {
-		a_name = "go_stage109.dds",
+	boss_jt_tower_unfreeze_0014 = {
+		a_name = "go_stage109-1.dds",
 		size = {
-			213,
-			213
+			338,
+			287
 		},
 		trim = {
-			16,
-            71,
-            17,
-            6
+			18,
+			163,
+			22,
+			10
 		},
 		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3887,
-			554,
-			180,
-			136
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_jt_tower_freeze_0003"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			9,
-            64,
-            14,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			2579,
-			2342,
-			190,
-			143
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_jt_tower_freeze_0004"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			4,
-            33,
-            14,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3857,
-			2296,
-			195,
-			174
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_jt_tower_freeze_0005"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			4,
-            32,
-            9,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3453,
-			2181,
-			200,
-			175
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_jt_tower_freeze_0006"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			4,
-            2,
-            9,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3453,
-			1974,
-			200,
-			205
-		},
-		alias = {},
-		textureRotated = false
-	},
-	["boss_jt_tower_freeze_0007"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			4,
-            0,
-            9,
-            6
-		},
-		a_size = {
-			4056,
-			2486
-		},
-		f_quad = {
-			3579,
-			1738,
-			200,
-			207
-		},
-		alias = {},
-		textureRotated = true
-	},
-	["boss_jt_tower_freeze_0008"] = {
-		a_name = "go_stage109.dds",
-		size = {
-			213,
-			213
-		},
-		trim = {
-			4,
-            0,
-            9,
-            6
-		},
-		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
 			3788,
-			1893,
-			200,
-			207
+			1812,
+			298,
+			114
 		},
-		alias = {},
-		textureRotated = true
+		alias = {}
 	},
-	["boss_jt_tower_freeze_0009"] = {
-		a_name = "go_stage109.dds",
+	boss_jt_tower_unfreeze_0015 = {
+		a_name = "go_stage109-1.dds",
 		size = {
-			213,
-			213
+			338,
+			287
 		},
 		trim = {
-			4,
-            6,
-            9,
-            6
+			12,
+			170,
+			18,
+			8
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3655,
-			2095,
-			200,
-			201
+			1728,
+			2203,
+			308,
+			109
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
 	},
-	["boss_jt_tower_freeze_0010"] = {
-		a_name = "go_stage109.dds",
+	boss_jt_tower_unfreeze_0016 = {
+		a_name = "go_stage109-1.dds",
 		size = {
-			213,
-			213
+			338,
+			287
 		},
 		trim = {
-			4,
-            6,
-            9,
-            6
+			9,
+			170,
+			13,
+			9
 		},
 		a_size = {
-			4056,
-			2486
+			4096,
+			4096
 		},
 		f_quad = {
-			3655,
-			2095,
-			200,
-			201
+			1728,
+			2092,
+			316,
+			108
 		},
-		alias = {},
-		textureRotated = false
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0017 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			8,
+			168,
+			10,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3039,
+			1661,
+			320,
+			114
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0018 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			5,
+			170,
+			7,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2710,
+			1661,
+			326,
+			112
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0019 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			174,
+			3,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3362,
+			1661,
+			332,
+			108
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0020 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1760,
+			1812,
+			335,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0021 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			175,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3697,
+			1661,
+			335,
+			107
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0022 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2098,
+			1812,
+			335,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0023 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2436,
+			1812,
+			335,
+			104
+		},
+		alias = {
+			"boss_jt_tower_unfreeze_0024",
+			"boss_jt_tower_unfreeze_0025",
+			"boss_jt_tower_unfreeze_0026",
+			"boss_jt_tower_unfreeze_0027",
+			"boss_jt_tower_unfreeze_0028",
+			"boss_jt_tower_unfreeze_0029",
+			"boss_jt_tower_unfreeze_0030",
+			"boss_jt_tower_unfreeze_0031",
+			"boss_jt_tower_unfreeze_0032",
+			"boss_jt_tower_unfreeze_0033"
+		}
+	},
+	boss_jt_tower_unfreeze_0034 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2774,
+			1812,
+			335,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0035 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			1,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1548,
+			1985,
+			334,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0036 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3112,
+			1812,
+			335,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0037 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			1,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1885,
+			1985,
+			334,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0038 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			1,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2222,
+			1985,
+			334,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0039 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			1,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2559,
+			1985,
+			334,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0040 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			1,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2896,
+			1985,
+			334,
+			104
+		},
+		alias = {}
+	},
+	boss_jt_tower_unfreeze_0041 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			338,
+			287
+		},
+		trim = {
+			3,
+			178,
+			0,
+			5
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3450,
+			1812,
+			335,
+			104
+		},
+		alias = {}
+	},
+	stage9_boss_corpse = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			310,
+			233
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			3855,
+			310,
+			233
+		},
+		alias = {}
+	},
+	stage9_cave1 = {
+		a_name = "go_stage109-1.dds",
+		size = {
+			378,
+			418
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			5,
+			5,
+			378,
+			418
+		},
+		alias = {}
 	}
 }

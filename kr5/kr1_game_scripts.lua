@@ -6833,6 +6833,8 @@ function scripts.eb_moloch.update(this, store)
 
 			U.y_wait(store, this.second_phase.wait_time)
 
+			U.animation_start(this, "raise", nil, store.tick_ts)
+
 			this.ui.can_click = true
 		    this.health_bar_hidden = false
 			this.is_second_phase = true
@@ -7189,6 +7191,27 @@ function scripts.eb_blackburn.on_damage(this, store, damage)
 		return true
 	end
 
+	if not this.third_life then
+		local pd = U.predict_damage(this, damage)
+
+		if this.health.hp - pd <= 0 then
+			this.ui.can_click = false
+			this.second_death = true
+			this.vis._original_bans = this.vis.bans
+			this.vis.bans = F_ALL
+			this.health.ignore_damage = true
+			this.health.hp = 1
+			this.unit.is_stunned = true
+
+			SU.remove_modifiers(store, this)
+			U.unblock_all(store, this)
+
+			return false
+		end
+
+		return true
+	end
+
 	return true
 end
 
@@ -7223,6 +7246,8 @@ function scripts.eb_blackburn.update(this, store)
 			this.melee.attacks[1].damage_min = this.second_life_damage_min
 			this.motion.max_speed = this.second_life_max_speed
 			this.health.ignore_damage = nil
+			this.vis.bans = this.vis._original_bans
+			this.vis._original_bans = nil
 			this.render.sprites[1].prefix = this.second.sprites_prefix
 			this.render.sprites[1].scale = this.second.sprites_scale
 			sa.damage_max = sa.second_life_damage_max
@@ -7230,6 +7255,39 @@ function scripts.eb_blackburn.update(this, store)
 			this.ui.can_click = true
 			this.unit.is_stunned = nil
 			this.first_death = false
+		end
+
+		if this.second_death then
+			this.third_life = true
+
+			S:queue(this.sound_events.death)
+			U.y_animation_play(this, "death", nil, store.tick_ts)
+			U.animation_start(this, "death_end", nil, store.tick_ts, true)
+			U.y_wait(store, this.second_death_duration)
+			U.animation_start(this, "raise", nil, store.tick_ts)
+			S:queue(this.sound_events.death)
+			U.y_animation_wait(this)
+
+			this.health.hp_max = math.ceil(this.health.hp_max * this.third_life_hp_factor)
+			this.health.hp = this.health.hp_max
+			this.health.armor = this.third_life_armor
+			this.health.magic_armor = this.third_life_magic_armor
+			this.melee.attacks[1].damage_max = this.third_life_damage_max
+			this.melee.attacks[1].damage_min = this.third_life_damage_min
+			this.motion.max_speed = this.third_life_max_speed
+			this.health.ignore_damage = nil
+			this.vis.bans = this.vis._original_bans
+			this.vis._original_bans = nil
+			this.render.sprites[1].prefix = this.third.sprites_prefix
+			this.render.sprites[1].scale = this.third.sprites_scale
+			sa.damage_max = sa.third_life_damage_max
+			sa.damage_min = sa.third_life_damage_min
+			sa.damage_radius = sa.third_life_damage_radius
+			sa.max_range = sa.third_life_max_range
+			this.ui.can_click = true
+			this.unit.is_stunned = nil
+			this.first_death = false
+			this.second_death = false
 		end
 
 		if this.health.dead then
@@ -7291,6 +7349,25 @@ function scripts.eb_blackburn.update(this, store)
 					local spi = math.random(1, 3)
 
 					e.pos = P:node_pos(this.nav_path.pi, spi, km.clamp(1, #P:path(this.nav_path.pi), this.nav_path.ni + sa.entity_node_offset))
+					e.nav_path.pi = this.nav_path.pi
+					e.nav_path.spi = spi
+					e.nav_path.ni = this.nav_path.ni + sa.entity_node_offset + 1
+					e.render.sprites[1].name = "raise"
+
+					queue_insert(store, e)
+				end
+
+				if this.third_life then
+					local e = E:create_entity(sa.third_life_entity)
+
+					for i, s in ipairs(e.render.sprites) do
+						s.flip_x = true
+					end
+
+					local spi = math.random(1, 3)
+
+					e.pos = P:node_pos(this.nav_path.pi, spi,
+					km.clamp(1, #P:path(this.nav_path.pi), this.nav_path.ni + sa.entity_node_offset))
 					e.nav_path.pi = this.nav_path.pi
 					e.nav_path.spi = spi
 					e.nav_path.ni = this.nav_path.ni + sa.entity_node_offset + 1
@@ -7371,6 +7448,44 @@ function scripts.eb_blackburn.update(this, store)
 			end
 		end
 	end
+end
+
+scripts.blackburn_spawner_aura = {}
+
+function scripts.blackburn_spawner_aura.update(this, store)
+	local spawn_ts = {}
+
+	for i = 1, #this.spawn_data do
+		spawn_ts[i] = store.tick_ts
+	end
+
+	local owner = store.entities[this.aura.source_id]
+
+	if not owner then
+		log.error("owner %s was not found. baling out", this.aura.source_id)
+	else
+		while not owner.dying do
+			for i, v in ipairs(this.spawn_data) do
+				local template, cooldown, delay, pi, spi = unpack(v)
+
+				if store.tick_ts - spawn_ts[i] >= cooldown + delay then
+					local e = E:create_entity(template)
+
+					e.nav_path.pi = pi
+					e.nav_path.spi = spi
+					e.nav_path.ni = P:get_start_node(pi)
+
+					queue_insert(store, e)
+
+					spawn_ts[i] = store.tick_ts - delay
+				end
+			end
+
+			coroutine.yield()
+		end
+	end
+
+	queue_remove(store, this)
 end
 
 scripts.mod_blackburn_tower = {}

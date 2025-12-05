@@ -893,6 +893,105 @@ return {
 			"Sound_DemonPortal_Telein.ogg"
 		}
 	},
+	MusicBattlePrep_101 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_102 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_103 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_104 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_105 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_106 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsForest.ogg"
+		}
+	},
+	MusicBattlePrep_107 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsMountain.ogg"
+		}
+	},
+	MusicBattlePrep_108 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsMountain.ogg"
+		}
+	},
+	MusicBattlePrep_109 = {
+		source_group = "MUSIC",
+		gain = 0.8,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsMountain.ogg"
+		}
+	},
+	MusicBattlePrep_110 = {
+		source_group = "MUSIC",
+		gain = 0.9,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsWastelands.ogg"
+		}
+	},
+	MusicBattlePrep_111 = {
+		source_group = "MUSIC",
+		gain = 0.9,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattlePreparationsWastelands.ogg"
+		}
+	},
 	MusicBattlePrep_112 = {
 		source_group = "MUSIC",
 		gain = 0.9,
@@ -1026,6 +1125,105 @@ return {
 		source_group = "MUSIC",
 		files = {
 			"CB_PreBattle.ogg"
+		}
+	},
+	MusicBattle_101 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
+	MusicBattle_102 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest2.ogg"
+		}
+	},
+	MusicBattle_103 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
+	MusicBattle_104 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest2.ogg"
+		}
+	},
+	MusicBattle_105 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
+	MusicBattle_106 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackForest1.ogg"
+		}
+	},
+	MusicBattle_107 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackMountain.ogg"
+		}
+	},
+	MusicBattle_108 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackMountain.ogg"
+		}
+	},
+	MusicBattle_109 = {
+		source_group = "MUSIC",
+		gain = 0.7,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackMountain.ogg"
+		}
+	},
+	MusicBattle_110 = {
+		source_group = "MUSIC",
+		gain = 0.9,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackWastelands.ogg"
+		}
+	},
+	MusicBattle_111 = {
+		source_group = "MUSIC",
+		gain = 0.9,
+		loop = true,
+		stream = true,
+		files = {
+			"MusicBattleUnderAttackWastelands.ogg"
 		}
 	},
 	MusicBattle_112 = {

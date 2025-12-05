@@ -2620,7 +2620,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "eb_ulgukhai",
+							creep = "enemy_troll_brute",
 							path = 2,
 							interval_next = 0,
 							max = 1

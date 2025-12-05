@@ -12976,17 +12976,6 @@ return {
 			"Awok_02c.ogg"
 		}
 	},
-	ElvesEwokTaunt = {
-		ignore = 1,
-		mode = "sequence",
-		gain = 1,
-		loop = false,
-		source_group = "SPECIALS",
-		files = {
-			"Awok_01b.ogg",
-			"Awok_02c.ogg"
-		}
-	},
 	ElvesPlantMissile = {
 		loop = false,
 		gain = 0.3,

@@ -25,6 +25,17 @@ return {
 			"Level_up.ogg"
 		}
 	},
+	ElvesEwokTaunt = {
+		ignore = 1,
+		mode = "sequence",
+		gain = 1,
+		loop = false,
+		source_group = "SPECIALS",
+		files = {
+			"Awok_01b.ogg",
+			"Awok_02c.ogg"
+		}
+	},
 	ElvesHeroLynnCurseDespair = {
 		source_group = "SPECIALS",
 		gain = 1,
@@ -2945,6 +2956,141 @@ return {
 			"kro_sfx_bitteringrancor_whitetree-tap.ogg"
 		}
 	},
+	MusicBattlePrep_301 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle1_[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_302 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle2[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_303 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle1_[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_304 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle2[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_305 = {
+		source_group = "MUSIC",
+		gain = 0.6,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle1_[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_306 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_prebattle2[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_307 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_prebattle1[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_308 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_prebattle2[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_309 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_prebattle1[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_310 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_prebattle2[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_311 = {
+		source_group = "MUSIC",
+		gain = 0.5,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_prebattle1[master_30-09].mp3"
+		}
+	},
+	MusicBattlePrep_312 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_prebattle1[master_01-11].mp3"
+		}
+	},
+	MusicBattlePrep_313 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_prebattle2[master_25-08].mp3"
+		}
+	},
+	MusicBattlePrep_314 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_prebattle1[master_01-11].mp3"
+		}
+	},
+	MusicBattlePrep_315 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_prebattle2[master_25-08].mp3"
+		}
+	},
 	MusicBattlePrep_316 = {
 		source_group = "MUSIC",
 		gain = 0.6,
@@ -3006,6 +3152,141 @@ return {
 		stream = true,
 		files = {
 			"kro_bgmusic_t2_prebattle2[master_25-08].mp3"
+		}
+	},
+	MusicBattle_301 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle1_v4[master_03-11].mp3"
+		}
+	},
+	MusicBattle_302 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle2[master_25-08].mp3"
+		}
+	},
+	MusicBattle_303 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle1_v4[master_03-11].mp3"
+		}
+	},
+	MusicBattle_304 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle2[master_25-08].mp3"
+		}
+	},
+	MusicBattle_305 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle1_v4[master_03-11].mp3"
+		}
+	},
+	MusicBattle_306 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t1_battle2[master_25-08].mp3"
+		}
+	},
+	MusicBattle_307 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_battle1.mp3"
+		}
+	},
+	MusicBattle_308 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_battle2[master_03-09].mp3"
+		}
+	},
+	MusicBattle_309 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_battle1.mp3"
+		}
+	},
+	MusicBattle_310 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_battle2[master_03-09].mp3"
+		}
+	},
+	MusicBattle_311 = {
+		source_group = "MUSIC",
+		gain = 0.2,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t2_battle1.mp3"
+		}
+	},
+	MusicBattle_312 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_battle1[master_03-11].mp3"
+		}
+	},
+	MusicBattle_313 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_battle2[master_30-10].mp3"
+		}
+	},
+	MusicBattle_314 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_battle1[master_03-11].mp3"
+		}
+	},
+	MusicBattle_315 = {
+		source_group = "MUSIC",
+		gain = 0.3,
+		loop = true,
+		stream = true,
+		files = {
+			"kro_bgmusic_t3_battle2[master_30-10].mp3"
 		}
 	},
 	MusicBattle_316 = {

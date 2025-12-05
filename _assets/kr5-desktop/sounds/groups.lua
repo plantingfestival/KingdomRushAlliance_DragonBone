@@ -201,6 +201,19 @@ return {
 			"boss_umbra_tower.ogg"
 		}
 	},
+	SpecialVolcanoSounds = {
+		files = {
+			"volcano_lavaShot.ogg",
+			"volcano_lavaShotHit.ogg",
+			"volcano_splash.ogg",
+			"volcano_virginScream.ogg"
+		}
+	},
+	FrontiersJungleAmbienceSounds = {
+		files = {
+			"jungle_1.ogg"
+		}
+	},
 	kr1_common = {
 		files = {
 			"Sound_Sorcerer.ogg",
@@ -332,6 +345,46 @@ return {
 			"wasp_2.ogg",
 			"wasp_3.ogg",
 			"wilhelm_scream.ogg"
+		}
+	},
+	BossEfreeti = {
+		files = {
+			"boss_efreeti_clapping.ogg",
+			"boss_efreeti_death.ogg",
+			"boss_efreeti_evillaugh.ogg",
+			"boss_efreeti_snapping.ogg",
+			"boss_efreeti_summon.ogg",
+			"efreeti_doors.ogg",
+			"efreeti_towers_released.ogg"
+		}
+	},
+	BossMonkey = {
+		files = {
+			"boss_mono_attack.ogg",
+			"boss_mono_chestdrum.ogg",
+			"boss_mono_chimps_1.ogg",
+			"boss_mono_chimps_2.ogg",
+			"boss_mono_chimps_3.ogg",
+			"boss_mono_death.ogg",
+			"boss_mono_enterscene.ogg",
+			"boss_mono_saltototem.ogg",
+			"boss_mono_totem.ogg"
+		}
+	},
+	AmazonSounds = {
+		files = {
+			"amazon_taunt_1.ogg",
+			"amazon_taunt_2.ogg"
+		}
+	},
+	SpecialStargate = {
+		files = {
+			"stargate.ogg"
+		}
+	},
+	SpecialAlienSounds = {
+		files = {
+			"alien_egg_open.ogg"
 		}
 	},
 	splash = {
@@ -639,6 +692,74 @@ return {
 			"ElvesHeroVeznanSoulBurn"
 		}
 	},
+	music_stage01 = {
+		sounds = {
+			"MusicBattlePrep_101",
+			"MusicBattle_101"
+		}
+	},
+	music_stage02 = {
+		sounds = {
+			"MusicBattlePrep_102",
+			"MusicBattle_102"
+		}
+	},
+	music_stage103 = {
+		sounds = {
+			"MusicBattlePrep_103",
+			"MusicBattle_103"
+		}
+	},
+	music_stage04 = {
+		sounds = {
+			"MusicBattlePrep_104",
+			"MusicBattle_104"
+		}
+	},
+	music_stage105 = {
+		sounds = {
+			"MusicBattlePrep_105",
+			"MusicBattle_105"
+		}
+	},
+	music_stage106 = {
+		sounds = {
+			"MusicBattlePrep_106",
+			"MusicBattle_106",
+			"MusicBossFight"
+		}
+	},
+	music_stage107 = {
+		sounds = {
+			"MusicBattlePrep_107",
+			"MusicBattle_107"
+		}
+	},
+	music_stage108 = {
+		sounds = {
+			"MusicBattlePrep_108",
+			"MusicBattle_108"
+		}
+	},
+	music_stage109 = {
+		sounds = {
+			"MusicBattlePrep_109",
+			"MusicBattle_109",
+			"MusicBossFight"
+		}
+	},
+	music_stage110 = {
+		sounds = {
+			"MusicBattlePrep_110",
+			"MusicBattle_110"
+		}
+	},
+	music_stage111 = {
+		sounds = {
+			"MusicBattlePrep_111",
+			"MusicBattle_111"
+		}
+	},
 	music_stage112 = {
 		sounds = {
 			"MusicBattlePrep_112",
@@ -738,6 +859,92 @@ return {
 			"KR1_MusicBossFight"
 		}
 	},
+	music_stage201 = {
+		sounds = {
+			"MusicBattlePrep_201",
+			"MusicBattle_201"
+		}
+	},
+	music_stage202 = {
+		sounds = {
+			"MusicBattlePrep_202",
+			"MusicBattle_202"
+		}
+	},
+	music_stage203 = {
+		sounds = {
+			"MusicBattlePrep_203",
+			"MusicBattle_203"
+		}
+	},
+	music_stage204 = {
+		sounds = {
+			"MusicBattlePrep_204",
+			"MusicBattle_204"
+		}
+	},
+	music_stage205 = {
+		sounds = {
+			"MusicBattlePrep_205",
+			"MusicBattle_205"
+		}
+	},
+	music_stage206 = {
+		sounds = {
+			"MusicBattlePrep_206",
+			"MusicBattle_206",
+			"KR2_MusicBossFight"
+		}
+	},
+	music_stage207 = {
+		sounds = {
+			"MusicBattlePrep_207",
+			"MusicBattle_207"
+		}
+	},
+	music_stage208 = {
+		sounds = {
+			"MusicBattlePrep_208",
+			"MusicBattle_208"
+		}
+	},
+	music_stage209 = {
+		sounds = {
+			"MusicBattlePrep_209",
+			"MusicBattle_209"
+		}
+	},
+	music_stage210 = {
+		sounds = {
+			"MusicBattlePrep_210",
+			"MusicBattle_210"
+		}
+	},
+	music_stage211 = {
+		sounds = {
+			"MusicBattlePrep_211",
+			"MusicBattle_211",
+			"KR2_MusicBossFight"
+		}
+	},
+	music_stage212 = {
+		sounds = {
+			"MusicBattlePrep_212",
+			"MusicBattle_212"
+		}
+	},
+	music_stage213 = {
+		sounds = {
+			"MusicBattlePrep_213",
+			"MusicBattle_213"
+		}
+	},
+	music_stage214 = {
+		sounds = {
+			"MusicBattlePrep_214",
+			"MusicBattle_214"
+		}
+	},
 	music_stage215 = {
 		sounds = {
 			"MusicBattlePrep_215",
@@ -793,6 +1000,100 @@ return {
 			"MusicBattlePrep_222",
 			"MusicBattle_222",
 			"KR2_MusicBossFight"
+		}
+	},
+	music_stage301 = {
+		sounds = {
+			"MusicBattlePrep_301",
+			"MusicBattle_301"
+		}
+	},
+	music_stage302 = {
+		sounds = {
+			"MusicBattlePrep_302",
+			"MusicBattle_302"
+		}
+	},
+	music_stage303 = {
+		sounds = {
+			"MusicBattlePrep_303",
+			"MusicBattle_303"
+		}
+	},
+	music_stage304 = {
+		sounds = {
+			"MusicBattlePrep_304",
+			"MusicBattle_304"
+		}
+	},
+	music_stage305 = {
+		sounds = {
+			"MusicBattlePrep_305",
+			"MusicBattle_305",
+			"ElvesAchievementScissorFingers"
+		}
+	},
+	music_stage306 = {
+		sounds = {
+			"MusicBattlePrep_306",
+			"MusicBattle_306",
+			"KR3_MusicBossFight"
+		}
+	},
+	music_stage307 = {
+		sounds = {
+			"MusicBattlePrep_307",
+			"MusicBattle_307"
+		}
+	},
+	music_stage308 = {
+		sounds = {
+			"MusicBattlePrep_308",
+			"MusicBattle_308"
+		}
+	},
+	music_stage309 = {
+		sounds = {
+			"MusicBattlePrep_309",
+			"MusicBattle_309"
+		}
+	},
+	music_stage310 = {
+		sounds = {
+			"MusicBattlePrep_310",
+			"MusicBattle_310"
+		}
+	},
+	music_stage311 = {
+		sounds = {
+			"MusicBattlePrep_311",
+			"MusicBattle_311",
+			"KR3_MusicBossFight"
+		}
+	},
+	music_stage312 = {
+		sounds = {
+			"MusicBattlePrep_312",
+			"MusicBattle_312"
+		}
+	},
+	music_stage313 = {
+		sounds = {
+			"MusicBattlePrep_313",
+			"MusicBattle_313"
+		}
+	},
+	music_stage314 = {
+		sounds = {
+			"MusicBattlePrep_314",
+			"MusicBattle_314"
+		}
+	},
+	music_stage315 = {
+		sounds = {
+			"MusicBattlePrep_315",
+			"MusicBattle_315",
+			"KR3_MusicBossFight"
 		}
 	},
 	music_stage316 = {
@@ -1521,6 +1822,78 @@ return {
 			"Mage_blue_rain_charge.ogg",
 			"Mage_shadows.ogg",
 			"Sound_Teleport.ogg"
+		}
+	},
+	ElvesMalicia = {
+		files = {
+			"kro_sfx_mactans_webspin[towers].ogg",
+			"kro_sfx_malicia_comet-end_v3.ogg",
+			"kro_sfx_malicia_comet-start_v3[sinfuego].ogg",
+			"kro_sfx_malicia_death.ogg",
+			"kro_sfx_malicia_shieldbreak[op1].ogg",
+			"kro_sfx_malicia_spellcast_[op2].ogg",
+			"kro_sfx_malicia_spellcast_[op2]_nolaugh.ogg",
+			"kro_sfx_malicia_spiderin.ogg",
+			"kro_sfx_malicia_spiderout.ogg",
+			"kro_sfx_maliciazealot_summon[wololo_op1].ogg"
+		}
+	},
+	ElvesCreepRazorboar = {
+		files = {
+			"kro_sfx_razorboar_charge[sinpisadas].ogg"
+		}
+	},
+	ElvesCreepArachnomancerSpiderSpawn = {
+		files = {
+			"kro_sfx_arachnomancer_spiderspawn[op1].ogg"
+		}
+	},
+	ElvesLevelFourteen = {
+		files = {
+			"kr3_sfx_mactans_touch.ogg",
+			"kro_sfx_ambience_spiders_v2[op1].ogg",
+			"kro_sfx_spidereggs[huevo+aranias].ogg"
+		}
+	},
+	ElvesLevelFifteenSounds = {
+		files = {
+			"Drow_01c.ogg",
+			"Drow_02c.ogg",
+			"Drow_03b.ogg",
+			"kro_sfx_ambience_spiders_v2[op1].ogg"
+		}
+	},
+	ElvesCrystalPlant = {
+		files = {
+			"kro_sfx_crystalbuff.ogg",
+			"kro_sfx_crystalice.ogg",
+			"kro_sfx_crystalray[op1].ogg"
+		}
+	},
+	ElvesCreepSonOfMactans = {
+		files = {
+			"kro_sfx_sonofmactans[sinlanding].ogg"
+		}
+	},
+	ElvesFinalBoss = {
+		files = {
+			"kr3_sfx_mactans_touch.ogg",
+			"kro_sfx_finalboss_jump.ogg",
+			"kro_sfx_gemcrystalbreak[solo]_v1.ogg",
+			"kro_sfx_mactans_gemattack[op1].ogg",
+			"kro_sfx_mactans_webground[conhissing].ogg",
+			"kro_sfx_mactans_webspin[towers].ogg",
+			"kro_sfx_malicia_gemattack_v1B.ogg",
+			"kro_sfx_malicia_spiderin.ogg",
+			"kro_sfx_malicia_spiderout.ogg",
+			"kro_sfx_spidergoddess_castspell.ogg",
+			"kro_sfx_spidergoddess_castspellwithlaughter.ogg",
+			"kro_sfx_spidergoddess_death_v2[larga].ogg",
+			"kro_sfx_spidergoddess_fall_v2.ogg",
+			"kro_sfx_spidergoddess_killray[conprecarga].ogg",
+			"kro_sfx_spidergoddess_morph_v1.ogg",
+			"kro_sfx_spidergoddess_superray_v3[descarga].ogg",
+			"kro_sfx_spidergoddess_superray_v4[carga].ogg"
 		}
 	},
 	item_hero_ingvar = {
@@ -3091,6 +3464,12 @@ return {
 		files = {
 			"kro_sfx_shadowspawn_death[op1].ogg",
 			"kro_sfx_shadowspawn_spawn[op2].ogg"
+		}
+	},
+	ElvesSpecialEwoks = {
+		files = {
+			"Awok_01b.ogg",
+			"Awok_02c.ogg"
 		}
 	},
 	ElvesForgottenTreasureDarkSpitterSounds = {
