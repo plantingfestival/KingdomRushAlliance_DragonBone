@@ -4574,6 +4574,39 @@ local function get_entity_names_for_conditions(t, basic_key, is_hit, pos)
 	return names, status
 end
 
+local function set_entity_nav_rally(store, entity, rallyCenter, rallyPos, squadId)
+	if entity.nav_rally then
+		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
+		if rallyPos then
+			entity.nav_rally.pos = rallyPos
+			entity.nav_rally.new = true
+		else
+			entity.nav_rally.pos = V.vclone(entity.pos)
+			entity.nav_rally.new = false
+		end
+	end
+
+	if entity.nav_path then
+		local nearest_path = P:nearest_nodes(rallyPos.x, rallyPos.y, nil, { 1, 2, 3 }, true)[1]
+
+		if nearest_path then
+			entity.nav_path.pi = nearest_path[1]
+			entity.nav_path.spi = nearest_path[2]
+			entity.nav_path.ni = nearest_path[3]
+		end
+	end
+
+	if entity.reinforcement and squadId then
+		entity.reinforcement.squad_id = squadId
+	end
+
+	if entity.enemy then
+		U.unblock_all(store, entity)
+	elseif entity.soldier then
+		U.unblock_target(store, entity)
+	end
+end
+
 ---基础创建实体
 ---@param store table game.store
 ---@param name string 实体模板名
@@ -4587,12 +4620,8 @@ local function basic_create_entities(store, name, source_id, target_id, flip_x, 
 
 	local e = E:create_entity(name)
 	e.pos.x, e.pos.y = origin.x, origin.y
-	if e.nav_rally then
-		local npos = V.vclone(e.pos)
-		e.nav_rally.center = npos
-		e.nav_rally.pos = npos
-		e.nav_rally.new = false
-	end
+
+	set_entity_nav_rally(store, e, V.vclone(e.pos), V.vclone(e.pos))
 
 	if e.render then
 		for _, s in pairs(e.render.sprites) do
@@ -4841,22 +4870,6 @@ local function create_extra_entities(store, t, source_id, target_id, flip_x, is_
 	create_entity_payload(store, names.payload_names, source_id, target_id, flip_x, is_hit, custom)
 
 	return names, status
-end
-
-local function set_entity_nav_rally(entity, rallyCenter, rallyPos, squadId)
-	if entity.nav_rally then
-		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
-		if rallyPos then
-			entity.nav_rally.pos = rallyPos
-			entity.nav_rally.new = true
-		else
-			entity.nav_rally.pos = V.vclone(entity.pos)
-			entity.nav_rally.new = false
-		end
-	end
-	if entity.reinforcement and squadId then
-		entity.reinforcement.squad_id = squadId
-	end
 end
 
 local function hide_shadow(this, isHidden)
@@ -5110,8 +5123,8 @@ local function play_entity_action_combo(e, t, idx, ts, t_pos, not_wait, break_fn
 		animation = t.animations[idx]
 	end
 
-	local sound_return = entity_play_sound(sound)
-	local animation_return = mixed_entity_play_animation(e, animation, ts, t_pos, not_wait, break_fn)
+	local sound_return = {entity_play_sound(sound)}
+	local animation_return = {mixed_entity_play_animation(e, animation, ts, t_pos, not_wait, break_fn)}
 
 	return sound_return, animation_return
 end
@@ -5370,7 +5383,7 @@ local function entity_casts_spawner(store, this, a)
 			set_entity_level(e, a.level)
 			e.pos = a.custom_spawn_points[i]
 			e.pos.x, e.pos.y = e.pos.x + this.pos.x, e.pos.y + this.pos.y
-			set_entity_nav_rally(e)
+			set_entity_nav_rally(store, e)
 			queue_insert(store, e)
 		end
 		a.ts = start_ts
@@ -5451,7 +5464,7 @@ local function entity_casts_spawner(store, this, a)
 					summon.render.sprites[1].name = "raise"
 				end
 				set_entity_level(summon, a.level)
-				set_entity_nav_rally(summon)
+				set_entity_nav_rally(store, summon)
 				queue_insert(store, summon)
 			end
 		end
@@ -5946,7 +5959,7 @@ local function entity_casts_object_on_target(store, this, a)
 				set_entity_pos(target)
 			end
 			set_entity_level(e, a.level)
-			set_entity_nav_rally(e)
+			set_entity_nav_rally(store, e)
 			if e.aura then
 				e.aura.target_id = target.id
 				e.aura.source_id = this.id
@@ -6007,7 +6020,6 @@ end
 ---@param a table 攻击
 ---@return boolean 是否跳过此后的其他攻击, number 状态码
 local function entity_casts_jump_target(store, this, a)
-	local hit = false
 	local t = {}
 
 	local function get_target()
@@ -6020,8 +6032,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
 
-			entity_play_sound(a.sounds[2])
-			mixed_entity_play_animation(this, a.animations[2], a.ts, to)
+			play_entity_action_combo(this, a, 2, a.ts, to)
 			coroutine.yield()
 		end
 	end
@@ -6032,8 +6043,7 @@ local function entity_casts_jump_target(store, this, a)
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
 			this.pos = position_in_linear(store.tick_ts - a.ts, from, speed)
 
-			entity_play_sound(a.sounds[2])
-			mixed_entity_play_animation(this, a.animations[2], a.ts, to)
+			play_entity_action_combo(this, a, 2, a.ts, to)
 			coroutine.yield()
 		end
 	end
@@ -6065,8 +6075,7 @@ local function entity_casts_jump_target(store, this, a)
 					to, from = t[i - 1].from, t[i - 1].to
 				end
 
-				entity_play_sound(a.sounds[1])
-				mixed_entity_play_animation(this, a.animations[1], store.tick_ts, to)
+				play_entity_action_combo(this, a, 1, store.tick_ts, to)
 				a.ts = store.tick_ts
 
 				if a.jump_type == U.jump_type.parabola then
@@ -6075,10 +6084,11 @@ local function entity_casts_jump_target(store, this, a)
 					linear(a.speed, to, from)
 				end
 
-				entity_play_sound(a.sounds[3])
-				local _, af = mixed_entity_play_animation(this, a.animations[3], store.tick_ts, to, true)
+				local _, af = unpack(play_entity_action_combo(this, a, 3, store.tick_ts, to, true)[2])
 
 				if not entity_wait(store, this, a.cast_time) then
+					local hit = false
+
 					if not is_backed or a.need_back and is_backed and a.backed_attack then
 						if a.damage_radius then
 							local targets = mixed_find_targets_in_range(store, this, a, to, 0, a.damage_radius, a.filter_fn)
@@ -6089,8 +6099,6 @@ local function entity_casts_jump_target(store, this, a)
 									create_mods(store, a, t.id, this.id)
 									hit = true
 								end
-							else
-								hit = false
 							end
 						else
 							local target = get_target(a.prediction_time, a.use_range)
@@ -6099,32 +6107,13 @@ local function entity_casts_jump_target(store, this, a)
 								create_insert_attack_damage(store, a, target.id, this.id)
 								create_mods(store, a, target.id, this.id)
 								hit = true
-							else
-								hit = false
 							end
 						end
 					end
 
 					create_extra_entities(store, a, this.id, nil, af, hit, to)
 
-					-- 有集结点或集结路径则修改为落点附近节点
-					if this.nav_path then
-						local nearest_path = P:nearest_nodes(to.x, to.y, nil, { 1, 2, 3 }, true)[1]
-
-						if nearest_path then
-							this.nav_path.pi = nearest_path[1]
-							this.nav_path.spi = nearest_path[2]
-							this.nav_path.ni = nearest_path[3]
-						end
-					end
-
-					set_entity_nav_rally(this, V.vclone(to), V.vclone(to))
-
-					if this.enemy then
-						U.unblock_all(store, this)
-					elseif this.soldier then
-						U.unblock_target(store, this)
-					end
+					set_entity_nav_rally(store, this, V.vclone(to), V.vclone(to))
 
 					y_entity_animation_wait(this)
 				end
