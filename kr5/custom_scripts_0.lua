@@ -222,31 +222,6 @@ local function y_hero_ranged_attacks(store, hero)
 	end
 end
 
-scripts.basic_spawner = {}
-function scripts.basic_spawner.update(this, store, script)
-	local sp = this.spawner
-
-	while true do
-		SU.mixed_entity_play_animation(this, sp.animations[1], store.tick_ts,
-		sp.facing_point, true)
-
-		if sp.spawn_data then
-			sp.spawn_data = nil
-
-			SU.mixed_entity_play_animation(this, sp.animations[2], store.tick_ts,
-				sp.facing_point)
-			SU.mixed_entity_play_animation(this, sp.animations[3], store.tick_ts,
-				sp.facing_point)
-		else
-			SU.mixed_entity_animation_wait(this, sp.animations[1])
-		end
-
-		coroutine.yield()
-	end
-
-	queue_remove(store, this)
-end
-
 scripts.entities_delay_controller = {}
 function scripts.entities_delay_controller.update(this, store, script)
 	if not this.delays or not this.entities or #this.delays ~= #this.entities then
@@ -490,9 +465,11 @@ function scripts.custom_bolt.update(this, store, script)
 			if this.initial_impulse_angle_abs then
 				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_abs, 1, 0))
 			elseif this.initial_impulse_angle_relative then
-				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle_relative * (toRight and -1 or 1), iix, iiy))
+				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse,
+					V.rotate(this.initial_impulse_angle_relative * (toRight and -1 or 1), iix, iiy))
 			else
-				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse, V.rotate(this.initial_impulse_angle * (b.shot_index % 2 == 0 and 1 or -1), iix, iiy))
+				fm.a.x, fm.a.y = V.mul((1 - t) * this.initial_impulse,
+					V.rotate(this.initial_impulse_angle * (b.shot_index % 2 == 0 and 1 or -1), iix, iiy))
 			end
 		end
 
@@ -507,9 +484,10 @@ function scripts.custom_bolt.update(this, store, script)
 			flip_x = b.to.x < this.pos.x
 			this.render.sprites[1].flip_x = flip_x
 		end
-		
+
 		if b.align_with_trajectory then
-			this.render.sprites[1].r = V.angleTo(this.pos.x - last_pos.x, this.pos.y - last_pos.y) - (flip_x and math.pi or 0)
+			this.render.sprites[1].r = V.angleTo(this.pos.x - last_pos.x, this.pos.y - last_pos.y) -
+				(flip_x and math.pi or 0)
 		end
 
 		if ps then
@@ -634,7 +612,7 @@ function scripts.initial_bolt.update(this, store, script)
 			flip_x = b.to.x < this.pos.x
 			this.render.sprites[1].flip_x = flip_x
 		end
-		
+
 		if not b.ignore_rotation then
 			s.r = V.angleTo(b.to.x - this.pos.x, b.to.y - this.pos.y) - (flip_x and math.pi or 0)
 		end
@@ -705,7 +683,8 @@ function scripts.lightning_ray.update(this, store, script)
 
 	if damage_radius then
 		local pos = target and target.pos or this.pos
-		local enemies = U.find_enemies_in_range(store.entities, pos, 0, damage_radius, bullet.damage_flags, bullet.damage_bans)
+		local enemies = U.find_enemies_in_range(store.entities, pos, 0, damage_radius, bullet.damage_flags,
+			bullet.damage_bans)
 		if enemies then
 			for i, enemy in ipairs(enemies) do
 				SU.make_bullet_damage_targets(this, store, enemy)
@@ -766,13 +745,13 @@ function scripts.mobile_tower_mage.update(this, store, script)
 		local r = this.nav_rally
 		local n = this.nav_grid
 		local dest = r.pos
-	
+
 		while not V.veq(this.pos, dest) do
 			local w = table.remove(n.waypoints, 1) or dest
 			local unsnap = #n.waypoints > 0
-	
+
 			U.set_destination(this, w)
-	
+
 			local an = U.animation_name_facing_point(this, animation, this.motion.dest, tower_sid)
 			U.animation_start(this, an, nil, store.tick_ts, true, tower_sid)
 			an = U.animation_name_facing_point(this, animation, this.motion.dest, shooter_sid)
@@ -782,11 +761,11 @@ function scripts.mobile_tower_mage.update(this, store, script)
 				if r.new then
 					return false
 				end
-	
+
 				U.walk(this, store.tick_length, nil, unsnap)
 
 				coroutine.yield()
-	
+
 				this.motion.speed.x, this.motion.speed.y = 0, 0
 			end
 		end
@@ -847,7 +826,8 @@ function scripts.mobile_tower_mage.update(this, store, script)
 		end
 
 		if not skip and store.tick_ts - aa.ts > aa.cooldown then
-			enemy, enemies = U.find_foremost_enemy(store.entities, SU.get_entity_range_origin(this), 0, a.range, false, aa.vis_flags, aa.vis_bans)
+			enemy, enemies = U.find_foremost_enemy(store.entities, SU.get_entity_range_origin(this), 0, a.range, false,
+				aa.vis_flags, aa.vis_bans)
 
 			if enemy then
 				aa.ts = store.tick_ts
@@ -870,7 +850,8 @@ function scripts.mobile_tower_mage.update(this, store, script)
 				for i = 1, shots do
 					enemy = enemies[km.zmod(i, #enemies)]
 
-					local in_range = ignore_out_of_range_check or U.is_inside_ellipse(SU.get_entity_range_origin(this), enemy.pos, a.range * 1.1)
+					local in_range = ignore_out_of_range_check or
+						U.is_inside_ellipse(SU.get_entity_range_origin(this), enemy.pos, a.range * 1.1)
 					local bullet = E:create_entity(aa.bullet)
 
 					bullet.bullet.shot_index = i
@@ -878,7 +859,8 @@ function scripts.mobile_tower_mage.update(this, store, script)
 					bullet.bullet.source_id = this.id
 
 					if in_range then
-						bullet.bullet.to = V.v(enemy.pos.x + enemy.unit.hit_offset.x, enemy.pos.y + enemy.unit.hit_offset.y)
+						bullet.bullet.to = V.v(enemy.pos.x + enemy.unit.hit_offset.x,
+							enemy.pos.y + enemy.unit.hit_offset.y)
 						bullet.bullet.target_id = enemy.id
 					else
 						bullet.bullet.to = last_target_pos
@@ -899,7 +881,8 @@ function scripts.mobile_tower_mage.update(this, store, script)
 
 				U.animation_start(this, "idle", nil, store.tick_ts, -1, tower_sid)
 
-				local an = U.animation_name_facing_point(this, "idle", last_target_pos, shooter_sid, aa.bullet_start_offset[1])
+				local an = U.animation_name_facing_point(this, "idle", last_target_pos, shooter_sid,
+					aa.bullet_start_offset[1])
 
 				U.animation_start(this, an, nil, store.tick_ts, -1, shooter_sid)
 			end
@@ -1433,7 +1416,8 @@ function scripts.tower_with_shooters.update(this, store, script)
 				signal.emit("rally-point-changed", this)
 				local all_dead = true
 				for i, s in ipairs(barrack.soldiers) do
-					s.nav_rally.pos, s.nav_rally.center = U.rally_formation_position(i, barrack, barrack.max_soldiers, barrack.rally_angle_offset)
+					s.nav_rally.pos, s.nav_rally.center = U.rally_formation_position(i, barrack, barrack.max_soldiers,
+						barrack.rally_angle_offset)
 					s.nav_rally.new = true
 					all_dead = all_dead and s.health.dead
 				end
@@ -1484,7 +1468,7 @@ function scripts.tower_shooter.update(this, store, script)
 	if this.idle_flip then
 		U.animation_start(this, this.idle_flip.last_animation, nil, store.tick_ts, this.idle_flip.loop, nil, true)
 	end
-	
+
 	while true do
 		this.pos = tower.pos
 		if this.attacks.list[1] then
@@ -1496,7 +1480,7 @@ function scripts.tower_shooter.update(this, store, script)
 				SU.shooter_power_upgrade(this, pn, store)
 			end
 		end
-		
+
 		local interrupted, status = nil, nil
 		if tower.tower.blocked or tower.nav_rally and tower.nav_rally.new then
 			SU.entity_idle(store, this)
@@ -1595,26 +1579,30 @@ function scripts.follow_target.update(this, store, script)
 		local filter_fn = nil
 		if a.allowed_templates then
 			filter_fn = function(e)
-				return table.contains(a.allowed_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+				return table.contains(a.allowed_templates, e.template_name) and
+					(not a.filter_fn or a.filter_fn and a.filter_fn(e))
 			end
 		elseif a.excluded_templates then
 			filter_fn = function(e)
-				return not table.contains(a.excluded_templates, e.template_name) and (not a.filter_fn or a.filter_fn and a.filter_fn(e))
+				return not table.contains(a.excluded_templates, e.template_name) and
+					(not a.filter_fn or a.filter_fn and a.filter_fn(e))
 			end
 		else
 			filter_fn = a.filter_fn
 		end
 		if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
-			target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 0, a.vis_flags, a.vis_bans, 
-			filter_fn, a.search_type)
+			target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range,
+				0, a.vis_flags, a.vis_bans,
+				filter_fn, a.search_type)
 		elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, 0, 
-			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type)
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, 0,
+				a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type)
 		else
-			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, 0, 
-			a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type)
-			local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 0, 
-			a.vis_flags, a.vis_bans, filter_fn, a.search_type)
+			target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, 0,
+				a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type)
+			local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range,
+				a.max_range, 0,
+				a.vis_flags, a.vis_bans, filter_fn, a.search_type)
 			if targets then
 				if soldiers then
 					table.merge(targets, soldiers)
@@ -1837,34 +1825,37 @@ function scripts.mod_track_target_with_fade.update(this, store, script)
 				queue_remove(store, this)
 				return true
 			end
-	
+
 			if store.tick_ts - m.ts > duration then
 				break
 			end
-	
+
 			this.pos = target.pos
 			if this.render and target.unit then
 				local s = this.render.sprites[1]
 				local flip_sign = 1
-	
+
 				if not s._original_offset then
 					s._original_offset = V.vclone(s.offset)
 				end
 				if target.render then
 					flip_sign = target.render.sprites[1].flip_x and -1 or 1
 				end
-	
+
 				if m.use_head_offset and target.unit.head_offset and (target.unit.head_offset.x ~= 0 or target.unit.head_offset.y ~= 0) then
-					s.offset.x, s.offset.y = (s._original_offset.x + target.unit.head_offset.x) * flip_sign, target.unit.head_offset.y + s._original_offset.y
+					s.offset.x, s.offset.y = (s._original_offset.x + target.unit.head_offset.x) * flip_sign,
+						target.unit.head_offset.y + s._original_offset.y
 				elseif m.health_bar_offset and target.health_bar then
 					local hb = target.health_bar.offset
 					local hbo = m.health_bar_offset
-					s.offset.x, s.offset.y = hb.x + (s._original_offset.x + hbo.x) * flip_sign, hb.y + hbo.y + s._original_offset.y
+					s.offset.x, s.offset.y = hb.x + (s._original_offset.x + hbo.x) * flip_sign,
+						hb.y + hbo.y + s._original_offset.y
 				elseif m.use_mod_offset and target.unit.mod_offset then
-					s.offset.x, s.offset.y = (s._original_offset.x + target.unit.mod_offset.x) * flip_sign, target.unit.mod_offset.y + s._original_offset.y
+					s.offset.x, s.offset.y = (s._original_offset.x + target.unit.mod_offset.x) * flip_sign,
+						target.unit.mod_offset.y + s._original_offset.y
 				end
 			end
-	
+
 			coroutine.yield()
 		end
 		return false
@@ -2062,7 +2053,8 @@ function scripts.flame.update(this, store, script)
 				end
 			elseif flame_bullet.ts then
 				if store.tick_ts - flame_bullet.ts <= b.flight_time then
-					flame_bullet.pos.x, flame_bullet.pos.y = SU.position_in_parabola(store.tick_ts - flame_bullet.ts, b.from, b.speed, 0)
+					flame_bullet.pos.x, flame_bullet.pos.y = SU.position_in_parabola(store.tick_ts - flame_bullet.ts,
+						b.from, b.speed, 0)
 				else
 					queue_remove(store, flame_bullet)
 					flame_bullet.ts = false
@@ -2121,8 +2113,8 @@ function scripts.controller_teleport_enemies.update(this, store, script)
 
 	while true do
 		for id, e in pairs(store.entities) do
-			if not e.pending_removal and e.nav_path and e.health and not e.health.dead and e.nav_path.pi == this.path and 
-			(e.nav_path.ni > this.start_ni and e.nav_path.ni < this.end_ni) then
+			if not e.pending_removal and e.nav_path and e.health and not e.health.dead and e.nav_path.pi == this.path and
+				(e.nav_path.ni > this.start_ni and e.nav_path.ni < this.end_ni) then
 				table.insert(teleport_entities, e)
 				SU.remove_auras(store, e)
 				SU.remove_modifiers(store, e)
@@ -2177,7 +2169,8 @@ function scripts.common_aura.insert(this, store, script)
 			local source = store.entities[this.aura.source_id]
 			if source and source.unit and source.unit.mod_offset then
 				local flip_sign = source.render and source.render.sprites[1].flip_x and -1 or 1
-				this.render.sprites[1].offset.x, this.render.sprites[1].offset.y = source.unit.mod_offset.x * flip_sign, source.unit.mod_offset.y
+				this.render.sprites[1].offset.x, this.render.sprites[1].offset.y = source.unit.mod_offset.x * flip_sign,
+					source.unit.mod_offset.y
 			end
 		end
 	end
@@ -2235,13 +2228,13 @@ function scripts.aura_with_towers.update(this, store, script)
 					if not source.enemy then
 						goto label_93_0
 					end
-	
+
 					if this.render then
 						for _, s in pairs(this.render.sprites) do
 							s.hidden = not source.enemy.can_do_magic
 						end
 					end
-	
+
 					if not source.enemy.can_do_magic then
 						goto label_93_0
 					end
@@ -2269,11 +2262,11 @@ function scripts.aura_with_towers.update(this, store, script)
 					if this.aura.targets_per_cycle and i > this.aura.targets_per_cycle then
 						break
 					end
-	
+
 					if this.aura.max_count and victims_count >= this.aura.max_count then
 						break
 					end
-	
+
 					for i, mod_name in ipairs(mods) do
 						local new_mod = E:create_entity(mod_name)
 						new_mod.modifier.level = this.aura.level
@@ -2343,7 +2336,7 @@ function scripts.continuous_ray.update(this, store, script)
 		coroutine.yield()
 		update_sprite()
 	end
-	
+
 	U.animation_start(this, this.animation_travel, nil, store.tick_ts, true)
 	local mods_added = {}
 	if this.ray_duration then
@@ -2530,7 +2523,7 @@ function scripts.kr4_enemy_mixed.update(this, store, script)
 			SU.y_enemy_stun(store, this)
 		else
 			SU.y_enemy_mixed_walk_melee_ranged(store, this, false, walk_break_fn, melee_break_fn, ranged_break_fn)
-			
+
 			if ps and this.render then
 				for i, p in ipairs(ps) do
 					p.particle_system.flip_x = this.render.sprites[1].flip_x
@@ -2611,8 +2604,8 @@ function scripts.aura_wander.update(this, store, script)
 			this.nav_path.ni = nearest[1][3]
 		end
 		local next_pos = P:next_entity_node(this, store.tick_length)
-		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
-		GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+		if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or
+			GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
 			return true
 		end
 		U.set_destination(this, next_pos)
@@ -2636,7 +2629,11 @@ function scripts.aura_wander.update(this, store, script)
 			last_hit_ts = store.tick_ts
 
 			local targets = table.filter(store.entities, function(k, v)
-				return v.unit and v.vis and v.health and not v.health.dead and band(v.vis.flags, this.aura.vis_bans) == 0 and band(v.vis.bans, this.aura.vis_flags) == 0 and U.is_inside_ellipse(v.pos, this.pos, this.aura.radius) and (not this.aura.allowed_templates or table.contains(this.aura.allowed_templates, v.template_name)) and (not this.aura.excluded_templates or not table.contains(this.aura.excluded_templates, v.template_name)) and (not this.aura.excluded_entities or not table.contains(this.aura.excluded_entities, v.id))
+				return v.unit and v.vis and v.health and not v.health.dead and band(v.vis.flags, this.aura.vis_bans) == 0 and
+					band(v.vis.bans, this.aura.vis_flags) == 0 and U.is_inside_ellipse(v.pos, this.pos, this.aura.radius) and
+					(not this.aura.allowed_templates or table.contains(this.aura.allowed_templates, v.template_name)) and
+					(not this.aura.excluded_templates or not table.contains(this.aura.excluded_templates, v.template_name)) and
+					(not this.aura.excluded_entities or not table.contains(this.aura.excluded_entities, v.id))
 			end)
 
 			for _, target in pairs(targets) do
@@ -2775,7 +2772,7 @@ function scripts.mod_intimidation.insert(this, store, script)
 	if not target or target.health.dead or not target.unit then
 		return false
 	end
-	
+
 	if band(this.modifier.vis_flags, target.vis.bans) ~= 0 or band(this.modifier.vis_bans, target.vis.flags) ~= 0 then
 		return false
 	end
@@ -2933,7 +2930,7 @@ function scripts.soldier_wander.update(this, store, script)
 					SU.hide_shadow(this, false)
 				end
 			end
-			
+
 			if this.timed_actions then
 				brk, sta = SU.y_soldier_timed_actions(store, this)
 				if brk then
@@ -3001,8 +2998,8 @@ function scripts.soldier_wander.update(this, store, script)
 			end
 
 			local next_pos = P:next_entity_node(this, store.tick_length)
-			if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or 
-			GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+			if not next_pos or not P:is_node_valid(this.nav_path.pi, this.nav_path.ni) or not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) or
+				GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
 				SU.hide_shadow(this, true)
 				SU.y_soldier_death(store, this)
 				queue_remove(store, this)
@@ -3138,7 +3135,7 @@ function scripts.soldier_hover.update(this, store, script)
 					SU.hide_shadow(this, false)
 				end
 			end
-			
+
 			if this.timed_actions then
 				brk, sta = SU.y_soldier_timed_actions(store, this)
 				if brk then
@@ -3208,8 +3205,8 @@ function scripts.soldier_hover.update(this, store, script)
 					this.nav_path.spi = this.hover.random_subpath and math.random(1, 3) or this.nav_path.spi
 					this.nav_path.ni = this.hover.oni + math.random(this.hover.random_ni * -1, this.hover.random_ni)
 					local next_pos = P:node_pos(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
-					if next_pos and P:is_node_valid(this.nav_path.pi, this.nav_path.ni) and GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) and 
-					not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
+					if next_pos and P:is_node_valid(this.nav_path.pi, this.nav_path.ni) and GR:cell_is(next_pos.x, next_pos.y, TERRAIN_LAND) and
+						not GR:cell_is(next_pos.x, next_pos.y, TERRAIN_NOWALK) then
 						U.set_destination(this, next_pos)
 					end
 				end
@@ -3297,7 +3294,8 @@ function scripts.KR5Bomb.update(this, store, script)
 		end
 
 		if b.hide_radius then
-			this.render.sprites[1].hidden = V.dist(this.pos.x, this.pos.y, b.from.x, b.from.y) < b.hide_radius or V.dist(this.pos.x, this.pos.y, b.to.x, b.to.y) < b.hide_radius
+			this.render.sprites[1].hidden = V.dist(this.pos.x, this.pos.y, b.from.x, b.from.y) < b.hide_radius or
+				V.dist(this.pos.x, this.pos.y, b.to.x, b.to.y) < b.hide_radius
 		end
 	end
 
@@ -3313,20 +3311,20 @@ function scripts.KR5Bomb.update(this, store, script)
 			b.use_dist_factor = true
 		end
 	end
-	
+
 	local targets = U.find_targets_in_range(store.entities, b.to, 0, b.damage_radius, b.vis_flags, b.vis_bans)
 	if targets then
 		for _, target in ipairs(targets) do
 			local d = SU.create_bullet_damage(b, target.id, b.source_id, store)
 			queue_damage(store, d)
-	
-			if this.up_shock_and_awe_chance and band(target.vis.bans, F_STUN) == 0 and band(target.vis.flags, bor(F_BOSS, F_CLIFF, F_FLYING)) == 0 and 
-			math.random() < this.up_shock_and_awe_chance then
+
+			if this.up_shock_and_awe_chance and band(target.vis.bans, F_STUN) == 0 and band(target.vis.flags, bor(F_BOSS, F_CLIFF, F_FLYING)) == 0 and
+				math.random() < this.up_shock_and_awe_chance then
 				local mod = E:create_entity("mod_shock_and_awe")
 				mod.modifier.target_id = target.id
 				queue_insert(store, mod)
 			end
-	
+
 			if b.mod or b.mods then
 				local mods = b.mods or {
 					b.mod
@@ -3388,7 +3386,7 @@ function scripts.bullet_without_trajectory.update(this, store, script)
 	local b = this.bullet
 	b.ts = store.tick_ts
 	local source = store.entities[b.source_id]
-	
+
 	if b.hit_time and b.hit_time > 0 then
 		U.y_wait(store, b.hit_time)
 	end
@@ -3398,7 +3396,8 @@ function scripts.bullet_without_trajectory.update(this, store, script)
 		this.pos.x, this.pos.y = target.pos.x, target.pos.y
 		local flip_sign = target.render and target.render.sprites[1].flip_x and -1 or 1
 		if not b.ignore_hit_offset and target.unit and target.unit.hit_offset then
-			this.pos.x, this.pos.y = this.pos.x + target.unit.hit_offset.x * flip_sign, this.pos.y + target.unit.hit_offset.y
+			this.pos.x, this.pos.y = this.pos.x + target.unit.hit_offset.x * flip_sign,
+				this.pos.y + target.unit.hit_offset.y
 		end
 		b.to.x, b.to.y = this.pos.x, this.pos.y
 	else
@@ -3523,6 +3522,89 @@ function scripts.hero_basic.get_info_timed(this)
 		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
+end
+
+scripts.basic_spawner = {}
+function scripts.basic_spawner.update(this, store, script)
+	local sp = this.spawner
+
+	while true do
+		if sp.spawn_data then
+			sp.spawn_data = nil
+
+			SU.play_entity_action_combo(this, sp, 2, store.tick_ts, sp.facing_point)
+			SU.play_entity_action_combo(this, sp, 3, store.tick_ts, sp.facing_point)
+		else
+			SU.play_entity_action_combo(this, sp, 1, store.tick_ts, sp.facing_point, nil, function()
+				return sp.spawn_data
+			end)
+		end
+
+		coroutine.yield()
+	end
+end
+
+scripts.basic_click_play = {}
+
+function scripts.basic_click_play.update(this, store, script)
+	local c = this.click_play
+
+	while true do
+		if store.tick_ts - c.ts >= c.cooldown then
+			SU.play_entity_action_combo(this, c, 2, store.tick_ts, c.facing_point, nil, function()
+				return this.ui.clicked
+			end)
+
+			local trigger_targets, hit
+
+			if this.ui.clicked then
+				this.ui.clicked = nil
+				c.click_count = c.click_count + 1
+
+				if c.click_count >= c.need_click_times and (not c.require_fn or c.require_fn(store, this, click_count)) then
+					c.click_count = 0
+
+					if c.check_targets then
+						trigger_targets = SU.mixed_find_targets_in_range(store, this, c, this.pos,
+							c.min_range,
+							c.max_range, c.filter_fn)
+
+						if trigger_targets and #trigger_targets > 0 then
+							hit = true
+						end
+					end
+
+					SU.create_extra_entities(store, c, this.id, nil, af, hit, c.facing_point)
+
+					if not c.clicked_fn or c.clicked_fn(store, this, trigger_targets) then
+						SU.play_entity_action_combo(this, c, 3, store.tick_ts, c.facing_point)
+						SU.play_entity_action_combo(this, c, 4, store.tick_ts, c.facing_point)
+						c.ts = store.tick_ts
+					end
+
+					if c.achievement then
+						AC:got(c.achievement)
+					end
+					if c.achievement_flag then
+						AC:flag_check(unpack(c.achievement_flag))
+					end
+					if c.achievement_inc then
+						AC:inc_check(c.achievement_inc)
+					end
+
+					if c.play_once then
+						queue_remove(store, this)
+					end
+				end
+			end
+		else
+			SU.play_entity_action_combo(this, c, 1, store.tick_ts, c.facing_point, nil, function()
+				return this.ui.clicked or store.tick_ts - c.ts >= c.cooldown
+			end)
+		end
+
+		coroutine.yield()
+	end
 end
 
 return scripts

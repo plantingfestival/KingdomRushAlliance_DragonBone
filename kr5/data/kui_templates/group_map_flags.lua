@@ -281,13 +281,13 @@ return {
 			id = "flag_418",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1138, 460)
+			pos = v(1138, 420)
 		},
 		{
 			id = "flag_419",
 			class = "StageFlag5",
 			template_name = "button_map_stage_flag",
-			pos = v(1138, 420)
+			pos = v(1138, 340)
 		},
 		{
 			id = "flag_426",

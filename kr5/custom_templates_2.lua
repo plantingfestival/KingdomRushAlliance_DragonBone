@@ -1307,6 +1307,12 @@ tt.timed_attacks.list[2].extra_cooldowns = { { 1, 5 } }
 tt.timed_attacks.list[2].bullet = "infuser_cast_ray_speed"
 tt.timed_attacks.list[2].allowed_templates = { "enemy_amphiptere" }
 tt.timed_attacks.list[2].sound = nil
+tt.timed_attacks.list[3] = table.deepclone(tt.timed_attacks.list[1])
+tt.timed_attacks.list[3].skill_id = 2
+tt.timed_attacks.list[3].extra_cooldowns = { { 1, 5 } }
+tt.timed_attacks.list[3].bullet = "infuser_cast_ray_speed"
+tt.timed_attacks.list[3].allowed_templates = { "overcharge_crystal" }
+tt.timed_attacks.list[3].sound = nil
 tt.render.sprites[1].anchor = v(0.5, 0.106)
 tt.render.sprites[1].offset = v(0, 3)
 tt.render.sprites[1].prefix = "infuser"
@@ -1382,32 +1388,41 @@ tt.walk_animations = {
 	"speedWalkDown"
 }
 
-tt = RT("bullywag_spawner", "decal_scripted")
-AC(tt, "spawner", "editor")
+tt = RT("bullywag_spawner", "spawner")
 tt.render.sprites[1].prefix = "bullywag_spawner_layer1"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].group = 1
+tt.render.sprites[1].z = Z_OBJECTS - 1
 tt.render.sprites[2] = CC("sprite")
 tt.render.sprites[2].prefix = "bullywag_spawner_layer2"
 tt.render.sprites[2].animated = true
 tt.render.sprites[2].group = 1
+tt.render.sprites[2].z = Z_OBJECTS - 1
 tt.render.sprites[3] = CC("sprite")
 tt.render.sprites[3].prefix = "bullywag_spawner_splash"
 tt.render.sprites[3].anchor = v(0.5, 0.187)
 tt.render.sprites[3].offset = v(0, 0)
 tt.render.sprites[3].animated = true
 tt.spawner.animations = {
-	{
-		name = "idle",
-		group = 1
-	},
-	{
-		name = "active",
-		group = 1
-	},
-	{
-		name = "end",
-		sprite = 3
-	}
+	{ name = "idle",   group = 1 },
+	{ name = "active", group = 1 },
+	{ name = "end",    sprite = 3 }
 }
-tt.main_script.update = scripts.basic_spawner.update
+
+tt = RT("overcharge_crystal", "decal_scripted")
+tt.render.sprites[1].name = "overcharge_crystals_base_layer1_0001"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].anchor = v(0.5, 0.231)
+tt.render.sprites[2] = CC("sprite")
+tt.render.sprites[2].prefix = "overcharge_crystals_base_layer2"
+tt.render.sprites[2].animated = true
+tt.render.sprites[2].anchor = v(0.5, 0.231)
+tt.main_script.update = scripts.overcharge_crystal.update
+
+tt = RT("overcharge_crystal_block_mod", "modifier")
+AC(tt, "render")
+tt.render.sprites[1].name = "overcharge_crystals_modifier_run"
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.main_script.update = scripts.mod_tower_block.update
+
+

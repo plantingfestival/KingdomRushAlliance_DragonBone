@@ -6616,79 +6616,67 @@ function scripts.hero_jack_o_lantern_ultimate.update(this, store, script)
 	queue_remove(store, this)
 end
 
-scripts.kermit_stage417 = {}
+scripts.hypnotoad_stage418 = {}
 
-function scripts.kermit_stage417.update(this, store, script)
-	local s = this.render.sprites[1]
+function scripts.hypnotoad_stage418.clicked_fn(store, this, trigger_targets)
 	local c = this.click_play
 
-	local function play_sound(idx)
-		return SU.entity_play_sound(c.sounds, c.sounds_args, idx)
-	end
+	local aura = E:create_entity(c.aura)
+	aura.aura.source_id = this.id
 
-	while true do
-		play_sound(1)
-		SU.mixed_entity_play_animation(this, c.animations[1], store.tick_ts, nil, true)
+	queue_insert(store, aura)
 
-		if this.ui.clicked then
-			play_sound(2)
-			SU.mixed_entity_play_animation(this, c.animations[2], store.tick_ts)
-
-			play_sound(3)
-			SU.mixed_entity_play_animation(this, c.animations[3], store.tick_ts)
-
-			signal.emit("h_kermit_stage417")
-			this.ui.clicked = nil
-		else
-			SU.mixed_entity_animation_wait(this, c.animations[1])
-		end
-
-		coroutine.yield()
-	end
+	SU.mixed_entity_play_animation(this, c.animations[5], store.tick_ts)
 end
 
 scripts.hypnotoad_stage418 = {}
 
-function scripts.hypnotoad_stage418.update(this, store, script)
-	local s = this.render.sprites[1]
+function scripts.hypnotoad_stage418.clicked_fn(store, this, trigger_targets)
 	local c = this.click_play
 
-	while true do
-		SU.mixed_entity_play_animation(this, c.animations[1], store.tick_ts, nil, true)
+	SU.mixed_entity_play_animation(this, c.animations[5], store.tick_ts)
 
-		if this.ui.clicked then
-			this.ui.clicked = nil
-			SU.mixed_entity_play_animation(this, c.animations[2], store.tick_ts)
+	return true
+end
 
-			local all_entities = E:filter(store.entities, "unit")
+scripts.bullywag_bubble_crystal = {}
 
-			for ei = 1, #all_entities do
-				local e = all_entities[ei]
-
-				if not e.hero then
-					local m = E:create_entity(c.mod)
-					m.modifier.target_id = e.id
-					m.modifier.source_id = this.id
-
-					queue_insert(store, m)
-				end
-			end
-
-			for i = 1, 2 do
-				SU.mixed_entity_play_animation(this, c.animations[3], store.tick_ts)
-			end
-
-			SU.mixed_entity_play_animation(this, c.animations[4], store.tick_ts)
-
-			signal.emit("h_hypnotoad_stage418")
-
-			queue_remove(store, this)
-		else
-			SU.mixed_entity_animation_wait(this, c.animations[1])
-		end
-
-		coroutine.yield()
+function scripts.bullywag_bubble_crystal.clicked_fn(store, this, trigger_targets)
+	if not trigger_targets or #trigger_targets < 0 then
+		return false
 	end
+
+	return true
+end
+
+scripts.bullywag_bubble_crystal_immune_mod = {}
+
+function scripts.bullywag_bubble_crystal_immune_mod.insert(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target or target.health.dead then
+		return false
+	end
+
+	SU.set_mod_offset(store, this, target)
+
+	target.health.immune_to = m.immune_damage_type
+
+	return true
+end
+
+function scripts.bullywag_bubble_crystal_immune_mod.remove(this, store, script)
+	local m = this.modifier
+	local target = store.entities[m.target_id]
+
+	if not target or target.health.dead then
+		return false
+	end
+
+	target.health.immune_to = 0
+
+	return true
 end
 
 return scripts

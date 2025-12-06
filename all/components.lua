@@ -280,6 +280,18 @@ click_play.required_clicks = 1
 click_play.achievement = nil
 click_play.achievement_flag = nil
 click_play.play_once = false
+click_play.ts = 0
+click_play.cooldown = 0
+click_play.click_count = 0
+click_play.need_click_times = 0
+click_play.clicked_fn = nil
+click_play.require_fn = nil
+click_play.check_targets = false
+click_play.min_range = nil
+click_play.max_range = nil
+click_play.filter_fn = nil
+click_play.vis_bans = 0
+click_play.vis_flags = 0
 
 local sprite = E:register_c("sprite")
 

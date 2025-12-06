@@ -460,7 +460,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 
 	this.pos = target.pos
 
-	SU.set_mod_offset(store, this, m.target_id)
+	SU.set_mod_offset(store, this, target)
 
 	U.y_animation_play(this, this.animations[1], nil, store.tick_ts)
 
@@ -472,7 +472,7 @@ function scripts.infuser_cast_shield_mod.update(this, store, script)
 			return
 		end
 
-		SU.set_mod_offset(store, this, m.target_id)
+		SU.set_mod_offset(store, this, target)
 
 		U.y_animation_play(this, this.animations[2], nil, store.tick_ts)
 
@@ -555,6 +555,30 @@ function scripts.infuser_cast_speed_mod.remove(this, store, script)
 	end
 
 	return false
+end
+
+scripts.overcharge_crystal = {}
+
+function scripts.overcharge_crystal.update(this, store, script)
+	while true do
+		if this.charging then
+			this.charging = nil
+
+			SU.play_entity_action_combo(this, this, 2, store.tick_ts)
+
+			if this.charged then
+				this.charged = nil
+				SU.play_entity_action_combo(this, this, 3, store.tick_ts)
+				SU.play_entity_action_combo(this, this, 4, store.tick_ts)
+			end
+		else
+			SU.play_entity_action_combo(this, this, 3, store.tick_ts, nil, nil, function()
+				return this.charging
+			end)
+		end
+
+		coroutine.yield()
+	end
 end
 
 return scripts

@@ -392,6 +392,10 @@ tt.fade_in = nil
 tt.fade_out = nil
 tt.main_script.update = scripts.decal_fade.update
 
+tt = RT("spawner", "decal_scripted")
+AC(tt, "spawner", "editor")
+tt.main_script.update = scripts.basic_spawner.update
+
 -- custom_templates_1
 package.loaded.custom_templates_1 = nil
 require("custom_templates_1")

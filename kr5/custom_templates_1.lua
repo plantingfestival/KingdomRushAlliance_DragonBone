@@ -5772,10 +5772,11 @@ tt.render.sprites[1].prefix = "stage_17_kermit"
 tt.render.sprites[1].anchor = v(0.5, 0.246)
 tt.click_play.animations = {
 	"idle",
+	nil,
 	"drink",
 	"foot"
 }
-tt.main_script.update = scripts.kermit_stage417.update
+tt.main_script.update = scripts.basic_click_play.update
 tt.ui.can_click = true
 tt.ui.can_select = false
 tt.ui.click_rect = r(-10, -6, 18, 30)
@@ -5785,14 +5786,106 @@ tt.render.sprites[1].prefix = "stage_18_hypnotoad"
 tt.render.sprites[1].anchor = v(0.5, 0.411)
 tt.click_play.animations = {
 	"idle",
+	nil,
+	{name = "loop", times = 3},
+	"death",
 	"toLoop",
-	"loop",
-	"death"
 }
-tt.click_play.mod = "hypnotoad_stage418_stun_mod"
-tt.main_script.update = scripts.hypnotoad_stage418.update
+tt.click_play.payload = "hypnotoad_stage418_stun_aura"
+tt.click_play.clicked_fn = scripts.hypnotoad_stage418.clicked_fn
+tt.click_play.play_once = true
+tt.main_script.update = scripts.basic_click_play.update
 tt.ui.can_click = true
 tt.ui.can_select = false
 tt.ui.click_rect = r(-10, -6, 18, 30)
 
+tt = RT("hypnotoad_stage418_stun_aura", "aura")
+tt.aura.mod = "hypnotoad_stage418_stun_mod"
+tt.aura.radius = 9999
+tt.aura.duration = 0.05
+tt.aura.cycle_time = 0.01
+tt.aura.vis_bans = F_HERO
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
 tt = RT("hypnotoad_stage418_stun_mod", "mod_stun")
+
+tt = RT("bullywag_bubble_crystal", "decal_click_play")
+for i = 1, 10 do
+	tt.render.sprites[i] = CC("sprite")
+	tt.render.sprites[i].prefix = "bullywag_bubble_crystals_layer" .. i
+	tt.render.sprites[i].name = "cooldown"
+	tt.render.sprites[i].anchor = v(0.5, 0.2)
+	tt.render.sprites[i].group = 1
+end
+tt.click_play.animations = {
+	{name = "cooldown", group = 1},
+	{name = "ready", group = 1},
+	{name = "shoot", group = 1},
+}
+tt.click_play.hit_payload = "bullywag_bubble_crystal_aura"
+tt.click_play.cooldown = 30
+tt.click_play.min_range = 0
+tt.click_play.max_range = 175
+tt.click_play.vis_bans = F_ENEMY
+tt.click_play.decal = "bullywag_bubble_crystal_range_full_decal"
+tt.click_play.hit_fx = "bullywag_bubble_crystal_hit_fx"
+tt.click_play.clicked_fn = scripts.bullywag_bubble_crystal.clicked_fn
+tt.click_play.check_targets = true
+tt.main_script.update = scripts.basic_click_play.update
+tt.ui.can_click = true
+tt.ui.can_select = false
+tt.ui.click_rect = r(-37, -7, 73, 63)
+
+tt = RT("bullywag_bubble_crystal_range_full_decal", "decal_tween")
+tt.render.sprites[1].name = "bullywag_bubble_crystals_range_full"
+tt.render.sprites[1].animated = false
+tt.render.sprites[1].anchor = v(0.5, 0.5)
+tt.render.sprites[1].z = Z_OBJECTS_SKY
+tt.tween.props[1].name = "scale"
+tt.tween.props[1].keys = {
+	{
+		0,
+		v(1.7, 1.15)
+	},
+	{
+		0.35,
+		v(1.8, 1.25)
+	}
+}
+tt.tween.props[2] = CC("tween_prop")
+tt.tween.props[2].keys = {
+	{
+		0.5,
+		255
+	},
+	{
+		0.8,
+		55
+	}
+}
+
+tt = RT("bullywag_bubble_crystal_hit_fx", "fx")
+tt.render.sprites[1].name = "bullywag_bubble_crystals_blast_run"
+tt.render.sprites[1].scale = vv(1)
+tt.render.sprites[1].offset = v(0, 25)
+
+tt = RT("bullywag_bubble_crystal_aura", "aura")
+tt.aura.mod = "bullywag_bubble_crystal_immune_mod"
+tt.aura.radius = 175
+tt.aura.duration = fts(49)
+tt.aura.vis_bans = F_ENEMY
+tt.main_script.insert = scripts.aura_apply_mod.insert
+tt.main_script.update = scripts.aura_apply_mod.update
+
+tt = RT("bullywag_bubble_crystal_immune_mod", "modifier")
+AC(tt, "render")
+tt.render.sprites[1].name = "bullywag_bubble_crystals_shield_modifier_run"
+tt.render.sprites[1].loop = true
+tt.render.sprites[1].anchor = v(0.5, 0.4)
+tt.modifier.immune_damage_type = F_ALL
+tt.modifier.duration = 5
+tt.modifier.use_mod_offset = false
+tt.main_script.insert = scripts.bullywag_bubble_crystal_immune_mod.insert
+tt.main_script.remove = scripts.bullywag_bubble_crystal_immune_mod.remove
+tt.main_script.update = scripts.mod_track_target.update

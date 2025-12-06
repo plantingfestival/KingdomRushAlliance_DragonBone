@@ -53,5 +53,5 @@ return {
 		prefix = "infuser",
 		to = 188,
 		from = 167
-	},
+	}
 }

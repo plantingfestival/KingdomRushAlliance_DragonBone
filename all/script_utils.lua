@@ -66,7 +66,7 @@ end
 local function remove_modifiers(store, entity, mod_name, exclude_name)
 	local mods = table.filter(store.entities, function(k, v)
 		return v.modifier and v.modifier.target_id == entity.id and (not mod_name or mod_name == v.template_name) and
-		(not exclude_name or exclude_name ~= v.template_name)
+			(not exclude_name or exclude_name ~= v.template_name)
 	end)
 
 	for _, m in pairs(mods) do
@@ -77,7 +77,7 @@ end
 local function remove_modifiers_by_type(store, entity, mod_type, exclude_name)
 	local mods = table.filter(store.entities, function(k, v)
 		return v.modifier and v.modifier.target_id == entity.id and v.modifier.mod_type == mod_type and
-		(not exclude_name or exclude_name ~= v.template_name)
+			(not exclude_name or exclude_name ~= v.template_name)
 	end)
 
 	for _, m in pairs(mods) do
@@ -1992,7 +1992,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 
 	targets = table.filter(store.entities, function(k, v)
 		return v.enemy and v.vis and v.health and not v.health.dead and band(v.vis.flags, attack.damage_bans) == 0 and
-		band(v.vis.bans, attack.damage_flags) == 0 and U.is_inside_ellipse(v.pos, hit_pos, attack.damage_radius)
+			band(v.vis.bans, attack.damage_flags) == 0 and U.is_inside_ellipse(v.pos, hit_pos, attack.damage_radius)
 	end)
 
 	if attack.count then
@@ -2179,8 +2179,8 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 			if attack.type == "area" then
 				local targets = table.filter(store.entities, function(k, v)
 					return v.enemy and v.vis and v.health and not v.health.dead and
-					band(v.vis.flags, attack.damage_bans) == 0 and band(v.vis.bans, attack.damage_flags) == 0 and
-					U.is_inside_ellipse(v.pos, hit_pos, attack.damage_radius)
+						band(v.vis.flags, attack.damage_bans) == 0 and band(v.vis.bans, attack.damage_flags) == 0 and
+						U.is_inside_ellipse(v.pos, hit_pos, attack.damage_radius)
 				end)
 
 				if attack.include_blocked and target and this.soldier and this.soldier.target_id == target.id and not table.contains(targets, target) then
@@ -2555,22 +2555,22 @@ local function soldier_pick_melee_target(store, this)
 			target = U.find_nearest_enemy(store.entities, center, 0, this.melee.range, F_BLOCK, bit.bor(F_CLIFF),
 				function(e)
 					return (not e.enemy.max_blockers or #e.enemy.blockers == 0) and
-					band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0 and
-					(not this.melee.fn_can_pick or this.melee.fn_can_pick(this, e))
+						band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0 and
+						(not this.melee.fn_can_pick or this.melee.fn_can_pick(this, e))
 				end)
 		else
 			target = U.find_foremost_enemy(store.entities, center, 0, this.melee.range, false, F_BLOCK, bit.bor(F_CLIFF),
 				function(e)
 					return (not e.enemy.max_blockers or #e.enemy.blockers == 0) and
-					band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0 and
-					(not this.melee.fn_can_pick or this.melee.fn_can_pick(this, e))
+						band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0 and
+						(not this.melee.fn_can_pick or this.melee.fn_can_pick(this, e))
 				end)
 		end
 	elseif U.blocker_rank(store, this) ~= 1 then
 		local alt_target = U.find_foremost_enemy(store.entities, center, 0, this.melee.range, false, F_BLOCK,
 			bit.bor(F_FLYING, F_CLIFF), function(e)
-			return #e.enemy.blockers == 0 and band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0
-		end)
+				return #e.enemy.blockers == 0 and band(GR:cell_type(e.pos.x, e.pos.y), TERRAIN_NOWALK) == 0
+			end)
 
 		if alt_target then
 			target = alt_target
@@ -3100,7 +3100,7 @@ end
 
 local function can_melee_blocker(store, this, blocker)
 	return not this.health.dead and not this.unit.is_stunned and blocker and not blocker.health.dead and this.enemy and
-	table.contains(this.enemy.blockers, blocker.id) and store.entities[blocker.id]
+		table.contains(this.enemy.blockers, blocker.id) and store.entities[blocker.id]
 end
 
 local function can_range_soldier(store, this, soldier)
@@ -3369,8 +3369,9 @@ local function y_enemy_death(store, this)
 	end
 
 	local can_spawn = this.death_spawns and
-	band(this.health.last_damage_types, bor(DAMAGE_EAT, DAMAGE_NO_SPAWNS, this.death_spawns.no_spawn_damage_types or 0)) ==
-	0
+		band(this.health.last_damage_types,
+			bor(DAMAGE_EAT, DAMAGE_NO_SPAWNS, this.death_spawns.no_spawn_damage_types or 0)) ==
+		0
 
 	if can_spawn and this.death_spawns.concurrent_with_death then
 		do_death_spawns(store, this)
@@ -3878,7 +3879,7 @@ local function y_enemy_melee_attacks(store, this, target)
 							local hit_factor = ma.hit_damage_factor and ma.hit_damage_factor[i] or 1
 
 							d.value = math.ceil(this.unit.damage_factor * hit_factor *
-							math.random(ma.damage_min, ma.damage_max))
+								math.random(ma.damage_min, ma.damage_max))
 
 							queue_damage(store, d)
 						end
@@ -3900,9 +3901,9 @@ local function y_enemy_melee_attacks(store, this, target)
 					elseif ma.type == "area" then
 						local targets = table.filter(store.entities, function(_, e)
 							return e.soldier and e.vis and e.health and not e.health.dead and
-							band(e.vis.flags, ma.vis_bans) == 0 and band(e.vis.bans, ma.vis_flags) == 0 and
-							U.is_inside_ellipse(e.pos, hit_pos, ma.damage_radius) and
-							(not ma.fn_filter or ma.fn_filter(this, store, ma, e))
+								band(e.vis.flags, ma.vis_bans) == 0 and band(e.vis.bans, ma.vis_flags) == 0 and
+								U.is_inside_ellipse(e.pos, hit_pos, ma.damage_radius) and
+								(not ma.fn_filter or ma.fn_filter(this, store, ma, e))
 						end)
 
 						for i, e in ipairs(targets) do
@@ -4252,9 +4253,7 @@ end
 ---@param target table 目标
 ---@param sprite_idx integer 精灵索引
 ---@return boolean 是否成功, integer 是否镜像, table 血条偏移造成的偏移, table unit.mod_offset造成的偏移
-local function set_mod_offset(store, mod, target_id, sprite_idx)
-	local target = store.entities[target_id]
-
+local function set_mod_offset(store, mod, target, sprite_idx)
 	sprite_idx = sprite_idx or 1
 	local m = mod.modifier
 	local s = mod.render.sprites[sprite_idx]
@@ -4575,7 +4574,7 @@ local function get_entity_names_for_conditions(t, basic_key, is_hit, pos)
 	return names, status
 end
 
----基础创建所有实体
+---基础创建实体
 ---@param store table game.store
 ---@param name string 实体模板名
 ---@param source_id? integer 来源id
@@ -4587,23 +4586,19 @@ local function basic_create_entities(store, name, source_id, target_id, flip_x, 
 	origin = get_entity_range_origin(store.entities[source_id])
 
 	local e = E:create_entity(name)
-
-	if not e then
-		log.error("Not found template: %s", name)
-		return
-	end
-
 	e.pos.x, e.pos.y = origin.x, origin.y
-	if e.nav_rally and e.pos then
+	if e.nav_rally then
 		local npos = V.vclone(e.pos)
 		e.nav_rally.center = npos
 		e.nav_rally.pos = npos
 		e.nav_rally.new = false
 	end
 
-	for _, s in pairs(e.render.sprites) do
-		s.flip_x = flip_x
-		s.ts = store.tick_ts
+	if e.render then
+		for _, s in pairs(e.render.sprites) do
+			s.flip_x = flip_x
+			s.ts = store.tick_ts
+		end
 	end
 	if e.tween and not e.tween.disabled then
 		e.tween.ts = store.tick_ts
@@ -4729,27 +4724,16 @@ end
 ---@param store table game.store
 ---@param t table 包含贴图实体名称子表的表
 ---@param source_id? integer 来源id
----@param target_id? integer	目标id
+---@param target_id? integer 目标id
 ---@param flip_x? boolean 是否镜像
 ---@param is_hit? boolean 是否击中目标
 ---@param custom? function 自定义实体函数
----@param not_insert_queue? boolean 是否不插入队列
----@return table 创建的实体, table 状态
-local function create_entity_decal(store, t, source_id, target_id, flip_x, is_hit, custom, not_insert_queue)
-	local created_entities = {}
-	local names, status = get_entity_names_for_conditions(t, "decal", is_hit)
-
+local function create_entity_decal(store, names, source_id, target_id, flip_x, is_hit, custom)
 	for i = 1, #names do
 		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-		if not not_insert_queue then
-			queue_insert(store, e)
-		end
-
-		table.insert(created_entities, e)
+		queue_insert(store, e)
 	end
-
-	return created_entities, status
 end
 
 ---创建特效实体
@@ -4760,23 +4744,12 @@ end
 ---@param flip_x? boolean 是否镜像
 ---@param is_hit? boolean 是否击中目标
 ---@param custom? function 自定义实体函数
----@param not_insert_queue? boolean 是否不插入队列
----@return table 创建的实体, table 状态
-local function create_entity_fx(store, t, source_id, target_id, flip_x, is_hit, custom, not_insert_queue)
-	local created_entities = {}
-	local names, status = get_entity_names_for_conditions(t, "fx", is_hit)
-
+local function create_entity_fx(store, names, source_id, target_id, flip_x, is_hit, custom)
 	for i = 1, #names do
 		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-		if not not_insert_queue then
-			queue_insert(store, e)
-		end
-
-		table.insert(created_entities, e)
+		queue_insert(store, e)
 	end
-
-	return created_entities, status
 end
 
 ---创建伤害实体
@@ -4784,9 +4757,7 @@ end
 ---@param a table 攻击
 ---@param target_id table 目标id
 ---@param source_id table 来源id
----@param not_queue_insert boolean 是否禁止自动插入实体到队列
----@return boolean 是否成功, table 创建的mod
-local function create_insert_attack_damage(store, a, target_id, source_id, not_queue_insert)
+local function create_insert_attack_damage(store, a, target_id, source_id)
 	local vmax, vmin = a.damage_max, a.damage_min
 
 	if a.level and a.level > 0 then
@@ -4811,78 +4782,65 @@ local function create_insert_attack_damage(store, a, target_id, source_id, not_q
 	d.target_id = target_id
 	d.source_id = source_id
 
-	if not not_queue_insert then
-		queue_damage(store, d)
-	end
-
-	return d
+	queue_damage(store, d)
 end
 
----创建mod实体
+---创建状态效果实体
 ---@param store table game.store
----@param a table 攻击
----@param target_id table 目标id
----@param source_id table 来源id
----@param not_queue_insert boolean 是否禁止自动插入实体到队列
----@return boolean 是否成功, table 创建的mod
-local function create_mods(store, a, target_id, source_id, not_queue_insert)
-	local created_entities = {}
+---@param t table 包含状态效果实体名称子表的表
+---@param source_id? integer 来源id
+---@param target_id? integer 目标id
+---@param flip_x? boolean 是否镜像
+---@param is_hit? boolean 是否击中目标
+---@param custom? function 自定义实体函数
+---@return table 创建的实体, table 状态
+local function create_mods(store, t, source_id, target_id, flip_x, is_hit, custom)
+	local names = get_entity_names_for_conditions(t, "mod", is_hit)
 
-	if a.mods or a.mods then
-		local mods = a.mods or { a.mod }
+	for i = 1, #names do
+		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-		for _, mod_name in pairs(mods) do
-			local m = E:create_entity(mod_name)
-
-			m.modifier.source_id = source.id
-			m.modifier.target_id = target.id
-			m.modifier.level = a.level
-
-			if not not_queue_insert then
-				queue_insert(store, m)
-			end
-
-			table.insert(created_entities, m)
-		end
+		queue_insert(store, e)
 	end
-
-	return true, created_entities
 end
 
 ---检查并创建附带实体
 ---@param store table game.store
----@param source_id integer 来源id
----@param target_id integer 目标id
----@param a table 攻击
----@param origin? vec2 原点坐标，默认为实体位置
----@return table 创建的实体
-local function create_entity_payload(store, source_id, target_id, a, origin)
-	local created_entities = {}
+---@param t table 包含附带实体名称子表的表
+---@param source_id? integer 来源id
+---@param target_id? integer 目标id
+---@param flip_x? boolean 是否镜像
+---@param is_hit? boolean 是否击中目标
+---@param custom? function 自定义实体函数
+---@return table 创建的实体, table 状态
+local function create_entity_payload(store, names, source_id, target_id, flip_x, is_hit, custom)
+	for i = 1, #names do
+		local e = basic_create_entities(store, names[i], source_id, target_id, flip_x, custom)
 
-	if a.payloads or a.payloads then
-		if not origin then
-			origin = get_entity_range_origin(store.entities[source_id])
-		end
-
-		local payloads = a.payloads or { a.payload }
-
-		for _, e in pairs(payloads) do
-			local p = E:create_entity(e)
-
-			p.pos.x, p.pos.y = origin.x, origin.y
-			p.target_id = target_id
-			p.source_id = source_id
-
-			if p.aura then
-				p.aura.level = a.level
-			end
-
-			queue_insert(store, p)
-			table.insert(created_entities, p)
-		end
+		queue_insert(store, e)
 	end
+end
 
-	return created_entities
+local function create_extra_entities(store, t, source_id, target_id, flip_x, is_hit, pos, custom)
+	local names = {}
+	local keys = {
+		"decal",
+		"fx",
+		"payload"
+	}
+	local status
+
+	for i = 1, #keys do
+		local k = keys[i]
+
+		names[k .. "_names"], status = get_entity_names_for_conditions(t, k, is_hit, pos)
+	end
+	
+	create_entity_decal(store, names.decal_names, source_id, target_id, flip_x, is_hit, custom)
+	create_entity_fx(store, names.fx_names, source_id, target_id, flip_x, is_hit, custom)
+	create_entity_payload(store, names.payload_names, source_id, target_id, flip_x, is_hit, custom)
+
+	return names, status
 end
 
 local function set_entity_nav_rally(entity, rallyCenter, rallyPos, squadId)
@@ -4974,18 +4932,33 @@ local function y_entity_animation_wait(this, idx, times)
 	return false
 end
 
+---实体等待
+---@param store game.store
+---@param this table 实体
+---@param time number 等待时间
+---@param break_fn? function 中断函数
+---@return boolean 是否被中断
+local function entity_wait(store, this, time, break_fn)
+	return U.y_wait(store, time, function(store, time)
+		return entity_interrupted(this) or break_fn and break_fn(store, this, time)
+	end)
+end
+
 ---混合实体等待动画
 ---@param e table 实体
 ---@param animation table|string
----@return boolean 是否被中断, integer 等待的精灵, integer 播放次数
-local function mixed_entity_animation_wait(e, animation)
-	a = animation
+---@param break_fn? function 中断函数
+---@return boolean 是否被中断, integer 等待的精灵索引
+local function mixed_entity_animation_wait(e, animation, break_fn)
 	local times, sprite, group
 
-	if type(a) == "table" then
-		times = a.times
-		sprite = a.sprite
-		group = a.group
+	if type(animation) == "table" then
+		times = animation.times or 1
+		sprite = animation.sprite or 1
+		group = animation.group
+	elseif type(animation) == "string" then
+		times = 1
+		sprite = 1
 	end
 
 	if group then
@@ -5000,47 +4973,52 @@ local function mixed_entity_animation_wait(e, animation)
 		end
 	end
 
+	local is_interrupted = false
+
 	while not U.animation_finished(e, sprite, times) do
-		if entity_interrupted(e) then
-			return true
+		if entity_interrupted(e) or break_fn and break_fn(store, e, times) then
+			is_interrupted = true
+			break
 		end
 
 		coroutine.yield()
 	end
 
-	return false, sprite, times
+	return is_interrupted, sprite
+end
+
+local function get_animation_name_for_data(entity, name, t_pos, ignore_flip_x)
+	local an, af, ai = name, false, 1
+
+	if t_pos then
+		an, af, ai = U.animation_name_facing_point(entity, name, t_pos)
+	end
+
+	if ignore_flip_x then
+		af = false
+	end
+
+	return an, af, ai
 end
 
 ---播放实体的单个精灵动画
 ---@param entity table 实体
 ---@param name string 动画名称
 ---@param ts number 时间戳
----@param pos? table 目标位置，决定是否镜像
+---@param t_pos? table 目标位置，决定是否镜像
 ---@param ignore_flip_x boolean 是否禁止镜像
----@param not_wait boolean 是否不等待动画完成
 ---@param times? integer 播放次数，默认为1
 ---@param idx? integer 精灵索引，默认为1
----@return boolean 是否被中断等待, string 播放的动画名, boolean 是否镜像, integer 象限索引
-local function y_entity_animation_play(entity, name, ts, pos, ignore_flip_x, not_wait, times, idx)
+---@return string 动画名称, boolean 是否水平镜像, integer 象限索引
+local function entity_animation_start(entity, name, ts, t_pos, ignore_flip_x, times, idx)
 	times = times or 1
 	idx = idx or 1
 	local loop = times and times > 1
-	local an, af, ai = name, false, 1
-
-	if pos then
-		an, af, ai = U.animation_name_facing_point(entity, name, pos)
-	end
-	if ignore_flip_x then
-		af = false
-	end
+	local an, af, ai = get_animation_name_for_data(entity, name, t_pos, ignore_flip_x)
 
 	U.animation_start(entity, an, af, ts, loop, idx, true)
 
-	if not not_wait then
-		return y_entity_animation_wait(entity, idx, times), an, af, ai
-	end
-
-	return false, an, af, ai
+	return an, af, ai
 end
 
 ---播放实体动画组
@@ -5049,23 +5027,15 @@ end
 ---@param ts number 时间戳
 ---@param t_pos? vec2 目标位置，决定是否镜像
 ---@param ignore_flip_x boolean 是否禁止镜像
----@param not_wait boolean 是否不等待动画完成
 ---@param times? integer 播放次数，默认为1
 ---@param group? integer 动画组，默认为1
----@return boolean 是否被中断等待, string 播放的动画名, boolean 是否镜像, integer 象限索引
-local function y_entity_animation_play_group(entity, name, ts, t_pos, ignore_flip_x, not_wait, times, group)
+---@return string 动画名称, boolean 是否水平镜像, integer 象限索引
+local function entity_animation_group_start(entity, name, ts, t_pos, ignore_flip_x, times, group)
 	times = times or 1
 	group = group or 1
 	local loop = times and times > 1
 
-	local an, af, ai = name, false, 1
-
-	if t_pos then
-		an, af, ai = U.animation_name_facing_point(entity, name, t_pos)
-	end
-	if ignore_flip_x then
-		af = false
-	end
+	local an, af, ai = get_animation_name_for_data(entity, name, t_pos, ignore_flip_x)
 
 	U.animation_start_group(entity, an, af, ts, loop, group)
 
@@ -5080,11 +5050,7 @@ local function y_entity_animation_play_group(entity, name, ts, t_pos, ignore_fli
 		end
 	end
 
-	if idx and not not_wait then
-		return y_entity_animation_wait(entity, idx, times), an, af, ai
-	end
-
-	return false, an, af, ai
+	return an, af, ai
 end
 
 ---混合播放动画
@@ -5092,9 +5058,10 @@ end
 ---@param animation table|string 动画
 ---@param ts number 时间戳
 ---@param t_pos? vec2 目标位置，决定是否镜像
----@param not_wait boolean 是否不等待动画完成
----@return boolean 是否被中断等待, string 播放的动画名称, boolean 是否镜像, integer 象限索引, table 参数
-local function mixed_entity_play_animation(e, animation, ts, t_pos, not_wait)
+---@param not_wait? boolean 是否不等待动画完成
+---@param break_fn? function 中断函数
+---@return string 动画名称, boolean 是否水平镜像, integer 象限索引, boolean 是否中断等待, table 参数
+local function mixed_entity_play_animation(e, animation, ts, t_pos, not_wait, break_fn)
 	local keys = {
 		"times",
 		"sprite",
@@ -5108,7 +5075,7 @@ local function mixed_entity_play_animation(e, animation, ts, t_pos, not_wait)
 		name = animation
 	elseif type(animation) == "table" then
 		name = animation.name
-		
+
 		for i = 1, #keys do
 			local k = keys[i]
 			local v = animation[k]
@@ -5119,12 +5086,34 @@ local function mixed_entity_play_animation(e, animation, ts, t_pos, not_wait)
 		end
 	end
 
+	local an, af, ai, interrupted
+
 	if args.group then
-		return y_entity_animation_play_group(e, name, ts, t_pos, args.ignore_flip_x, not_wait, args.times, args.group),
-			args
+		an, af, ai = entity_animation_group_start(e, name, ts, t_pos, args.ignore_flip_x, args.times, args.group)
 	else
-		return y_entity_animation_play(e, name, ts, t_pos, args.ignore_flip_x, not_wait, args.times, args.sprite), args
+		an, af, ai = entity_animation_start(e, name, ts, t_pos, args.ignore_flip_x, args.times, args.sprite)
 	end
+
+	if not not_wait then
+		interrupted = mixed_entity_animation_wait(e, animation, break_fn)
+	end
+
+	return an, af, ai, interrupted, args
+end
+
+local function play_entity_action_combo(e, t, idx, ts, t_pos, not_wait, break_fn)
+	local sound, animation
+	if t.sounds then
+		sound = t.sounds[idx]
+	end
+	if t.animations then
+		animation = t.animations[idx]
+	end
+
+	local sound_return = entity_play_sound(sound)
+	local animation_return = mixed_entity_play_animation(e, animation, ts, t_pos, not_wait, break_fn)
+
+	return sound_return, animation_return
 end
 
 local function entity_idle(store, this, force_ts)
@@ -5196,12 +5185,12 @@ local function get_attack_filter_function(attack, this)
 	if attack.allowed_templates then
 		filter_fn = function(v, origin)
 			return table.contains(attack.allowed_templates, v.template_name) and
-			(not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
+				(not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	elseif attack.excluded_templates then
 		filter_fn = function(v, origin)
 			return not table.contains(attack.excluded_templates, v.template_name) and
-			(not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
+				(not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
 		end
 	else
 		filter_fn = attack.filter_fn
@@ -5264,7 +5253,7 @@ end
 ---@param max_range number 最大范围
 ---@param filter_fn? function 过滤函数
 ---@return table 范围内所有目标
-local function mixed_find_targets_in_range(store, this, a, min_range, max_range, origin, filter_fn)
+local function mixed_find_targets_in_range(store, this, a, origin, min_range, max_range, filter_fn)
 	if not filter_fn then
 		filter_fn = get_attack_filter_function(a, this)
 	end
@@ -6077,7 +6066,7 @@ local function entity_casts_jump_target(store, this, a)
 				end
 
 				entity_play_sound(a.sounds[1])
-				local an, af, ai = mixed_entity_play_animation(this, a.animations[1], store.tick_ts, to)
+				mixed_entity_play_animation(this, a.animations[1], store.tick_ts, to)
 				a.ts = store.tick_ts
 
 				if a.jump_type == U.jump_type.parabola then
@@ -6087,18 +6076,18 @@ local function entity_casts_jump_target(store, this, a)
 				end
 
 				entity_play_sound(a.sounds[3])
-				local an, af, ai = mixed_entity_play_animation(this, a.animations[3], store.tick_ts, to, true)
+				local _, af = mixed_entity_play_animation(this, a.animations[3], store.tick_ts, to, true)
 
-				if not y_entity_wait(store, this, a.cast_time) then
+				if not entity_wait(store, this, a.cast_time) then
 					if not is_backed or a.need_back and is_backed and a.backed_attack then
 						if a.damage_radius then
-							local targets = mixed_find_targets_in_range(store, this, a, 0, a.damage_radius, to,
-								a.filter_fn)
+							local targets = mixed_find_targets_in_range(store, this, a, to, 0, a.damage_radius, a.filter_fn)
 
 							if targets then
 								for _, t in pairs(targets) do
-									hit = create_insert_attack_damage(store, a, t.id, this.id)
+									create_insert_attack_damage(store, a, t.id, this.id)
 									create_mods(store, a, t.id, this.id)
+									hit = true
 								end
 							else
 								hit = false
@@ -6107,16 +6096,16 @@ local function entity_casts_jump_target(store, this, a)
 							local target = get_target(a.prediction_time, a.use_range)
 
 							if target then
-								hit = create_insert_attack_damage(store, a, target.id, this.id)
+								create_insert_attack_damage(store, a, target.id, this.id)
 								create_mods(store, a, target.id, this.id)
+								hit = true
 							else
 								hit = false
 							end
 						end
 					end
 
-					create_entity_fx(store, a, this.id, nil, af, hit)
-					create_entity_decal(store, a, this.id, nil, af, hit)
+					create_extra_entities(store, a, this.id, nil, af, hit, to)
 
 					-- 有集结点或集结路径则修改为落点附近节点
 					if this.nav_path then
@@ -6512,23 +6501,27 @@ local SU = {
 	check_entity_attack_available = check_entity_attack_available,
 	make_bullet_damage_targets = make_bullet_damage_targets,
 	get_entity_names_for_conditions = get_entity_names_for_conditions,
-	basic_create_entities,
-	basic_create_entities,
+	basic_create_entities = basic_create_entities,
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,
 	create_bullet_hit_decal = create_bullet_hit_decal,
 	create_entity_decal = create_entity_decal,
 	create_entity_fx = create_entity_fx,
+	create_entity_payload = create_entity_payload,
+	create_extra_entities = create_extra_entities,
 	set_entity_nav_rally = set_entity_nav_rally,
 	hide_shadow = hide_shadow,
 	entity_interrupted = entity_interrupted,
 	entity_play_sound = entity_play_sound,
 	y_entity_wait = y_entity_wait,
 	y_entity_animation_wait = y_entity_animation_wait,
+	entity_wait = entity_wait,
 	mixed_entity_animation_wait = mixed_entity_animation_wait,
-	y_entity_animation_play = y_entity_animation_play,
-	y_entity_animation_play_group = y_entity_animation_play_group,
+	get_animation_name_for_data = get_animation_name_for_data,
+	entity_animation_start = entity_animation_start,
+	entity_animation_group_start = entity_animation_group_start,
 	mixed_entity_play_animation = mixed_entity_play_animation,
+	play_entity_action_combo = play_entity_action_combo,
 	entity_idle = entity_idle,
 	get_entity_nearest_nodes = get_entity_nearest_nodes,
 	get_attack_filter_function = get_attack_filter_function,
