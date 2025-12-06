@@ -5493,10 +5493,13 @@ local function entity_casts_range_unit(store, this, a)
 		if a.target_id then
 			return
 		end
+
 		local oldTarget = target
 		target = store.entities[target.id]
+
 		if not target or target.health.dead then
 			local newTarget, newTargets, newPredPos
+
 			if not a.ignore_flip_x then
 				local new_filter_fn = function(v, origin)
 					return (af and v.pos.x < origin.x or not af and v.pos.x >= origin.x) and
@@ -5506,6 +5509,7 @@ local function entity_casts_range_unit(store, this, a)
 			else
 				newTarget, newTargets, newPredPos = get_target(prediction_time, filter_fn)
 			end
+
 			if newTarget then
 				target = newTarget
 				targets = newTargets
@@ -5521,12 +5525,15 @@ local function entity_casts_range_unit(store, this, a)
 
 	local function shoot_bullets(af, ai)
 		local max_bullets = a.precharge and #a.precharge.stored_bullets or a.max_bullets or 1
+		
 		for i = 1, max_bullets do
 			if i > 1 and not a.same_target then
 				target = targets[km.zmod(i, #targets)]
 				check_target(prediction_time, af)
 			end
+
 			local tpi, tspi, tni
+
 			if target.nav_path then
 				tpi, tspi, tni = target.nav_path.pi, target.nav_path.spi, target.nav_path.ni
 			else
@@ -5541,7 +5548,9 @@ local function entity_casts_range_unit(store, this, a)
 					tpi, tspi, tni = unpack(nodes[1])
 				end
 			end
+
 			local bullet
+
 			if not a.precharge then
 				bullet = E:create_entity(a.bullet)
 				bullet.bullet.source_id = this.id
@@ -5550,6 +5559,7 @@ local function entity_casts_range_unit(store, this, a)
 			else
 				bullet = a.precharge.stored_bullets[i]
 			end
+
 			if a.use_center then
 				tspi = 1
 				if tni then
@@ -5561,6 +5571,7 @@ local function entity_casts_range_unit(store, this, a)
 			else
 				bullet.bullet.target_id = target.id
 			end
+
 			if bullet.spawn_pos_offset then
 				bullet.pos = target.pos
 			elseif not a.precharge then
@@ -5569,6 +5580,7 @@ local function entity_casts_range_unit(store, this, a)
 				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
 				bullet.pos = V.vclone(bullet.bullet.from)
 			end
+
 			if not bullet.bullet.ignore_hit_offset and target.unit and target.unit.hit_offset then
 				local flipSign = target.render and target.render.sprites[1].flip_x and -1 or 1
 				bullet.bullet.to = V.v(pred_pos.x + target.unit.hit_offset.x * flipSign,
@@ -5576,21 +5588,26 @@ local function entity_casts_range_unit(store, this, a)
 			else
 				bullet.bullet.to = V.vclone(pred_pos)
 			end
+
 			if bullet.bullet.hit_payload then
 				local hit_payload = {}
 
 				local function create_hit_payload(hp_name)
 					local hp = E:create_entity(hp_name)
+
 					if hp.path_index then
 						hp.path_index = tpi
 					end
+
 					if hp.nav_path and tni then
 						hp.nav_path.pi = tpi
 						hp.nav_path.spi = tspi
 						hp.nav_path.ni = tni
 					end
+
 					if hp.direction == 0 then
 						local direction = -1
+
 						if tni then
 							if this.nav_path then
 								if this.nav_path.ni < tni then
@@ -5598,8 +5615,10 @@ local function entity_casts_range_unit(store, this, a)
 								end
 							else
 								local nodes = P:nearest_nodes(this.pos.x, this.pos.y, { tpi }, { tspi })
+								
 								if #nodes >= 1 then
 									local _, _, ni = unpack(nodes[1])
+									
 									if ni < tni then
 										direction = 1
 									end
@@ -5608,6 +5627,7 @@ local function entity_casts_range_unit(store, this, a)
 						end
 						hp.direction = direction
 					end
+
 					if hp.insert_delay then
 						local controller = E:create_entity("controller_bullet_hit_payload_delay")
 						controller.delays = { hp.insert_delay }
@@ -5628,10 +5648,13 @@ local function entity_casts_range_unit(store, this, a)
 				end
 				bullet.bullet.hit_payload = hit_payload
 			end
+
 			set_bullet_damage_factor(this, bullet.bullet)
+			
 			if a.set_bullet_vis_bans then
 				bullet.bullet.vis_bans = a.vis_bans
 			end
+
 			if not a.precharge then
 				queue_insert(store, bullet)
 			end
@@ -5650,12 +5673,15 @@ local function entity_casts_range_unit(store, this, a)
 		queue_insert(store, bullet)
 		a.ts = store.tick_ts
 		S:queue(a.precharge.sound, a.precharge.sound_args)
+
 		if a.precharge.animation then
 			U.animation_start(this, a.precharge.animation, nil, store.tick_ts)
+			
 			if y_entity_animation_wait(this) then
 				return true
 			end
 		end
+
 		return false
 	end
 
@@ -5663,7 +5689,9 @@ local function entity_casts_range_unit(store, this, a)
 		if not a.precharge.stored_bullets then
 			a.precharge.stored_bullets = {}
 		end
+
 		local stored_bullets = #a.precharge.stored_bullets
+
 		if stored_bullets < #a.precharge.bullet_start_offset then
 			if precharge(stored_bullets + 1) then
 				return true
@@ -5673,9 +5701,11 @@ local function entity_casts_range_unit(store, this, a)
 
 	if a.target_id then
 		target = store.entities[a.target_id]
+
 		if not target then
 			return false, A_NO_TARGET
 		end
+		
 		local offset = U.get_prediction_offset(target, a.cast_time + prediction_time)
 		pred_pos = V.v(target.pos.x + offset.x, target.pos.y + offset.y)
 		targets = { target }
@@ -5691,8 +5721,10 @@ local function entity_casts_range_unit(store, this, a)
 		if not check_attack_chance(store, a) then
 			return false
 		end
+
 		S:queue(a.sound, a.sound_args)
 		local start_ts = store.tick_ts
+
 		if a.animation_prepare then
 			if y_entity_animation_play(this, a.animation_prepare, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true
@@ -5703,56 +5735,75 @@ local function entity_casts_range_unit(store, this, a)
 			if y_entity_animation_play(this, a.animation_start, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true
 			end
+
 			for i = 1, a.loops do
 				local an, af, ai = U.animation_name_facing_point(this, a.animation_loop, pred_pos)
+				
 				if a.ignore_flip_x then
 					af = false
 				end
+
 				U.animation_start(this, an, af, store.tick_ts)
+				
 				for j, st in ipairs(a.shoot_times) do
 					if U.animation_finished(this) then
 						U.animation_start(this, an, af, store.tick_ts)
 					end
+
 					if y_entity_wait(store, this, st) then
 						return true
 					end
+
 					if i > 1 and a.different_targets then
 						target = targets[km.zmod(i, #targets)]
 					end
+
 					check_target(prediction_time, af)
 					shoot_bullets(af, ai)
 				end
+
 				if y_entity_animation_wait(this) then
 					return true
 				end
 			end
+
 			a.ts = start_ts
+
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
+
 			if y_entity_animation_play(this, a.animation_end, store.tick_ts, 1, nil, pred_pos, a.ignore_flip_x) then
 				return true, A_DONE
 			end
+
 			return nil, A_DONE
 		end
 
 		local an, af, ai = U.animation_name_facing_point(this, a.animation, pred_pos)
+		
 		if a.ignore_flip_x then
 			af = false
 		end
+
 		U.animation_start(this, an, af, store.tick_ts)
+
 		if not y_entity_wait(store, this, a.cast_time) then
 			check_target(prediction_time, af)
 			shoot_bullets(af, ai)
 			a.ts = start_ts
+
 			if a.xp_from_skill then
 				hero_gain_xp_from_skill(this, this.hero.skills[a.xp_from_skill])
 			end
+
 			if y_entity_animation_wait(this) then
 				return true, A_DONE
 			end
+
 			return nil, A_DONE
 		end
+
 		return true
 	end
 
