@@ -1040,9 +1040,6 @@ tt.timed_attacks.list[1].min_targets = 2
 tt.timed_attacks.list[1].node_limit = 80
 tt.timed_attacks.list[1].search_type = U.search_type.nearest
 tt.timed_attacks.list[1].search_stream = U.search_stream.only_upstream
-tt.timed_attacks.list[1].need_back = false
-tt.timed_attacks.list[1].backed_attack = true
-tt.timed_attacks.list[1].loops = 1
 tt.timed_attacks.list[1].animations = {
 	"jumpIn",
 	"loop",
@@ -1053,11 +1050,9 @@ tt.timed_attacks.list[1].sounds = {
 	nil,
 	"frog_chaser_jump"
 }
-tt.timed_attacks.list[1].hit_fx = {
-	"chaser_jump_hit_fx",
-	"chaser_jump_effect"
-}
-tt.timed_attacks.list[1].hit_decal = "chaser_decal"
+tt.timed_attacks.list[1].fx = "chaser_jump_effect"
+tt.timed_attacks.list[1].hit_fx = "chaser_jump_hit_fx"
+tt.timed_attacks.list[1].decal = "chaser_decal"
 tt.timed_attacks.list[1].vis_bans = bor(F_ENEMY, F_FLYING)
 tt.render.sprites[1].anchor = v(0.5, 0.132)
 tt.render.sprites[1].offset = v(0, 0)
@@ -1084,8 +1079,7 @@ tt.vis.flags = bor(F_ENEMY)
 tt.main_script.update = scripts.kr4_enemy_mixed.update
 
 tt = RT("chaser_jump_hit_fx", "fx")
-tt.render.sprites[1].prefix = "chaser_jump_hit_fx"
-tt.render.sprites[1].name = "run"
+tt.render.sprites[1].name = "chaser_jump_hit_fx_run"
 tt.render.sprites[1].animated = true
 tt.render.sprites[1].anchor = v(0.5, 0.475)
 

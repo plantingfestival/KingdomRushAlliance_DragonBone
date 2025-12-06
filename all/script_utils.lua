@@ -4307,7 +4307,7 @@ local function position_in_linear(t, from, speed)
 	local x = speed.x * t + from.x
 	local y = speed.y * t + from.y
 
-	return v(x, y)
+	return x, y
 end
 
 local function set_entity_level(entity, level)
@@ -6033,6 +6033,13 @@ local function entity_casts_jump_target(store, this, a)
 			this.pos.x, this.pos.y = position_in_parabola(store.tick_ts - a.ts, from, speed, a.g)
 
 			play_entity_action_combo(this, a, 2, a.ts, to)
+
+			if this.enemy then
+				U.unblock_all(store, this)
+			elseif this.soldier then
+				U.unblock_target(store, this)
+			end
+			
 			coroutine.yield()
 		end
 	end
@@ -6041,92 +6048,116 @@ local function entity_casts_jump_target(store, this, a)
 		speed = initial_linear_speed(from, to, a.flight_time) or speed
 
 		while store.tick_ts - a.ts + store.tick_length <= a.flight_time do
-			this.pos = position_in_linear(store.tick_ts - a.ts, from, speed)
+			this.pos.x, this.pos.y = position_in_linear(store.tick_ts - a.ts, from, speed)
 
 			play_entity_action_combo(this, a, 2, a.ts, to)
+
+			if this.enemy then
+				U.unblock_all(store, this)
+			elseif this.soldier then
+				U.unblock_target(store, this)
+			end
+
 			coroutine.yield()
 		end
 	end
 
-	local function jump(i)
-		local node_limit = P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
+	local function attack(to, is_backed, af)
+		to = V.vclone(to)
+		local hit = false
 
-		if a.node_limit_offset then
-			node_limit = node_limit + a.node_limit_offset
+		if is_backed and not a.backed_attack then
+			return hit
 		end
 
-		if node_limit > a.node_limit then
+		if a.damage_radius then
+			local targets = mixed_find_targets_in_range(store, this, a, to, 0, a.damage_radius, a.filter_fn)
+
+			if targets then
+				for _, t in pairs(targets) do
+					create_insert_attack_damage(store, a, t.id, this.id)
+					create_mods(store, a, t.id, this.id)
+					hit = true
+				end
+			end
+		else
+			local target = get_target(a.prediction_time, a.use_range)
+
+			if target then
+				create_insert_attack_damage(store, a, target.id, this.id)
+				create_mods(store, a, target.id, this.id)
+				hit = true
+			end
+		end
+
+		create_extra_entities(store, a, this.id, nil, af, hit, to)
+		set_entity_nav_rally(store, this, to, to)
+
+		return hit
+	end
+
+	local function jumping(to, from, is_backed)
+		play_entity_action_combo(this, a, 1, store.tick_ts, to)
+		a.ts = store.tick_ts
+
+		if a.jump_type == U.jump_type.parabola then
+			parabola(a.speed, to, from)
+		elseif a.jump_type == U.jump_type.linear then
+			linear(a.speed, to, from)
+		end
+
+		local _, af = unpack(play_entity_action_combo(this, a, 3, store.tick_ts, to, true)[2])
+
+		if not entity_wait(store, this, a.cast_time) then
+			local hit = attack(to, is_backed, af)
+
+			y_entity_animation_wait(this)
+		end
+	end
+
+	local function jump(i)
+		local to, from
+		local is_backed = a.need_back and i % 2 == 0 or false
+
+		if not is_backed then
+			local node_limit = P:nodes_to_defend_point(this.nav_path.pi, this.nav_path.spi, this.nav_path.ni)
+
+			if a.node_limit_offset then
+				node_limit = node_limit + a.node_limit_offset
+			end
+
+			if node_limit < a.node_limit then
+				return false, A_NO_TARGET
+			end
+
 			local trigger_target, trigger_targets, trigger_target_pos = get_target()
 
 			if a.target_id then
 				trigger_target = store.entities[a.target_id]
 			end
 
-			if trigger_target and #trigger_targets >= a.min_targets then
-				t[i] = {
-					from = V.vclone(this.pos),
-					to = V.vclone(trigger_target_pos)
-				}
-
-				local from, to = t[i].from, t[i].to
-				local is_backed = i % 2 == 0
-
-				if a.need_back and is_backed then
-					to, from = t[i - 1].from, t[i - 1].to
-				end
-
-				play_entity_action_combo(this, a, 1, store.tick_ts, to)
-				a.ts = store.tick_ts
-
-				if a.jump_type == U.jump_type.parabola then
-					parabola(a.speed, to, from)
-				elseif a.jump_type == U.jump_type.linear then
-					linear(a.speed, to, from)
-				end
-
-				local _, af = unpack(play_entity_action_combo(this, a, 3, store.tick_ts, to, true)[2])
-
-				if not entity_wait(store, this, a.cast_time) then
-					local hit = false
-
-					if not is_backed or a.need_back and is_backed and a.backed_attack then
-						if a.damage_radius then
-							local targets = mixed_find_targets_in_range(store, this, a, to, 0, a.damage_radius, a.filter_fn)
-
-							if targets then
-								for _, t in pairs(targets) do
-									create_insert_attack_damage(store, a, t.id, this.id)
-									create_mods(store, a, t.id, this.id)
-									hit = true
-								end
-							end
-						else
-							local target = get_target(a.prediction_time, a.use_range)
-
-							if target then
-								create_insert_attack_damage(store, a, target.id, this.id)
-								create_mods(store, a, target.id, this.id)
-								hit = true
-							end
-						end
-					end
-
-					create_extra_entities(store, a, this.id, nil, af, hit, to)
-
-					set_entity_nav_rally(store, this, V.vclone(to), V.vclone(to))
-
-					y_entity_animation_wait(this)
-				end
-
-				if i + 1 > a.loops then
-					return false, A_DONE
-				end
-
-				return jump(i + 1)
+			if not trigger_target or #trigger_targets < a.min_targets then
+				return false, A_NO_TARGET
 			end
+
+			to = V.vclone(trigger_target_pos)
+			from = V.vclone(this.pos)
+			t[i] = {
+				to = to,
+				from = from
+			}
+
+			jumping(to, from, is_backed)
+		else
+			from, to = t[i - 1].to, t[i - 1].from
+			jumping(to, from, is_backed)
 		end
 
-		return false, A_NO_TARGET
+		if i + 1 > a.loops then
+			return false, A_DONE
+		end
+
+		return jump(i + 1)
 	end
 
 	if not check_attack_chance(store, a) then
