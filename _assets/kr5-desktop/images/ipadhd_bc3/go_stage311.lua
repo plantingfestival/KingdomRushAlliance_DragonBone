@@ -3633,7 +3633,7 @@ return {
 		a_name = "go_stage311-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2259,
@@ -3657,7 +3657,7 @@ return {
 		a_name = "go_stage311-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2219,
@@ -3681,7 +3681,7 @@ return {
 		a_name = "go_stage311-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			1568,
@@ -3705,7 +3705,7 @@ return {
 		a_name = "go_stage311-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2089,
@@ -3729,7 +3729,7 @@ return {
 		a_name = "go_stage311-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2256,
@@ -12889,7 +12889,7 @@ return {
 		a_name = "go_stage311-2.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2233,

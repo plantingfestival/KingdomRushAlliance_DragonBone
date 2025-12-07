@@ -938,6 +938,32 @@ return {
 			}
 		},
 		{
+			template = "blackburn_controller",
+			["graveyard.pi"] = 4,
+			["graveyard.spawn_pos"] = {
+				{
+					x = 818,
+					y = 591
+				},
+				{
+					x = 442,
+					y = 95
+				},
+				{
+					x = 801,
+					y = 604
+				},
+				{
+					x = 448,
+					y = 95
+				}
+			},
+			pos = {
+				x = 0,
+				y = 0
+			}
+		},
+		{
 			["editor.r"] = 1.5707963267949,
 			["editor.len"] = 100,
 			template = "editor_wave_flag",

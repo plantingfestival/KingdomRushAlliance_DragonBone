@@ -26,28 +26,30 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage214",
+	"kr2_common",
 	"FrontiersUndergroundAmbienceSounds",
 	"DwarfSounds",
-	"DwarfHeroSounds",
 	"SpecialMountainDoor"
 }
 level.required_textures = {
 	"go_enemies_underground",
 	"go_stages_underground",
 	"go_stage214",
+	"go_stage214_bg",
+	"go_towers_dwarf",
 	"go_stage214_bg"
 }
 level.custom_spawn_pos = {
 	{
 		pos = {
-			x = 103,
-			y = 304
+			x = 68,
+			y = 498
 		}
 	},
 	{
 		pos = {
-			x = 709,
-			y = 184
+			x = 68,
+			y = 208
 		}
 	}
 }
@@ -332,7 +334,6 @@ function level:load(store)
 end
 
 function level:update(store)
-	LU.insert_hero(store, "hero_dwarf", store.level.locations.exits[2].pos)
 
 	while store.wave_group_number < 1 do
 		coroutine.yield()

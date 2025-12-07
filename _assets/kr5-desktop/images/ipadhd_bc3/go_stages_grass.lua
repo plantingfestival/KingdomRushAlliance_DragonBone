@@ -1,35 +1,30 @@
-﻿-- chunkname: @./_assets/kr1-desktop/images/fullhd/go_stages_grass.lua
-
 return {
 	boat1_0001 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
-			1,
 			0,
-			4,
-			2
+			0,
+			2,
+			3
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			401,
-			111,
-			39,
-			32
+			803,
+			185,
+			58,
+			45
 		},
 		alias = {
 			"boat1_0002",
 			"boat1_0003",
 			"boat1_0004",
-			"boat1_0014",
-			"boat1_0015",
-			"boat1_0016",
 			"boat2_0004",
 			"boat2_0005",
 			"boat2_0006",
@@ -40,26 +35,26 @@ return {
 		}
 	},
 	boat1_0005 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
-			1,
-			1,
-			4,
-			2
+			0,
+			0,
+			2,
+			3
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			581,
-			111,
-			39,
-			31
+			864,
+			185,
+			58,
+			45
 		},
 		alias = {
 			"boat1_0006",
@@ -76,26 +71,26 @@ return {
 		}
 	},
 	boat1_0008 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
 			0,
+			0,
 			1,
-			4,
-			2
+			3
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			355,
-			111,
-			40,
-			31
+			741,
+			185,
+			59,
+			45
 		},
 		alias = {
 			"boat1_0009",
@@ -105,16 +100,43 @@ return {
 			"boat2_0035"
 		}
 	},
-	boat1_0017 = {
-		a_name = "go_stages_grass.dds",
+	boat1_0014 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
-			1,
 			0,
-			4,
+			0,
+			2,
+			3
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			925,
+			185,
+			58,
+			45
+		},
+		alias = {
+			"boat1_0015",
+			"boat1_0016"
+		}
+	},
+	boat1_0017 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			60,
+			48
+		},
+		trim = {
+			0,
+			0,
+			2,
 			2
 		},
 		a_size = {
@@ -122,39 +144,28 @@ return {
 			1024
 		},
 		f_quad = {
-			446,
-			111,
-			39,
-			32
+			89,
+			959,
+			58,
+			46
 		},
 		alias = {
 			"boat1_0018",
 			"boat1_0019",
 			"boat1_0020",
-			"boat1_0021",
-			"boat1_0033",
-			"boat1_0034",
-			"boat1_0035",
-			"boat2_0007",
-			"boat2_0008",
-			"boat2_0009",
-			"boat2_0010",
-			"boat2_0011",
-			"boat2_0023",
-			"boat2_0024",
-			"boat2_0025"
+			"boat1_0021"
 		}
 	},
 	boat1_0022 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
-			2,
 			0,
-			3,
+			0,
+			2,
 			2
 		},
 		a_size = {
@@ -162,10 +173,10 @@ return {
 			1024
 		},
 		f_quad = {
-			491,
-			111,
-			39,
-			32
+			291,
+			233,
+			58,
+			46
 		},
 		alias = {
 			"boat1_0023",
@@ -184,15 +195,15 @@ return {
 		}
 	},
 	boat1_0025 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			44,
-			34
+			60,
+			48
 		},
 		trim = {
-			2,
 			0,
-			3,
+			0,
+			2,
 			2
 		},
 		a_size = {
@@ -200,10 +211,10 @@ return {
 			1024
 		},
 		f_quad = {
-			536,
-			111,
-			39,
-			32
+			352,
+			233,
+			58,
+			46
 		},
 		alias = {
 			"boat1_0026",
@@ -215,743 +226,17 @@ return {
 			"boat2_0018"
 		}
 	},
-	fish_0001 = {
-		a_name = "go_stages_grass.dds",
+	boat1_0033 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			68,
-			48
-		},
-		trim = {
-			45,
-			24,
-			8,
-			7
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			259,
-			135,
-			15,
-			17
-		},
-		alias = {}
-	},
-	fish_0002 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			44,
-			14,
-			8,
-			7
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			1004,
-			111,
-			16,
-			27
-		},
-		alias = {}
-	},
-	fish_0003 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			40,
-			8,
-			5,
-			5
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			999,
-			69,
-			23,
-			35
-		},
-		alias = {}
-	},
-	fish_0004 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			37,
-			5,
-			5,
-			5
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			859,
-			111,
-			26,
-			38
-		},
-		alias = {}
-	},
-	fish_0005 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			33,
-			1,
-			3,
-			4
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			359,
-			32,
-			43
-		},
-		alias = {}
-	},
-	fish_0006 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			28,
-			1,
-			3,
-			4
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			310,
-			37,
-			43
-		},
-		alias = {}
-	},
-	fish_0007 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			24,
-			0,
-			1,
-			3
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			259,
-			43,
-			45
-		},
-		alias = {}
-	},
-	fish_0008 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			19,
-			1,
-			1,
-			3
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			209,
-			48,
-			44
-		},
-		alias = {}
-	},
-	fish_0009 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			14,
-			1,
-			1,
-			3
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			159,
-			53,
-			44
-		},
-		alias = {}
-	},
-	fish_0010 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			12,
-			3,
-			1,
-			3
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			294,
-			111,
-			55,
-			42
-		},
-		alias = {}
-	},
-	fish_0011 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			10,
-			7,
-			43,
-			22
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			154,
-			359,
-			15,
-			19
-		},
-		alias = {}
-	},
-	fish_0012 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			9,
-			12,
-			45,
-			17
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			408,
-			14,
-			19
-		},
-		alias = {}
-	},
-	fish_0013 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			7,
-			16,
-			46,
-			14
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			238,
-			135,
-			15,
-			18
-		},
-		alias = {}
-	},
-	fish_0014 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			7,
-			18,
-			46,
-			14
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			950,
-			136,
-			15,
-			16
-		},
-		alias = {}
-	},
-	fish_0015 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			4,
-			13,
-			43,
-			12
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			923,
-			111,
-			21,
-			23
-		},
-		alias = {
-			"fish_0016"
-		}
-	},
-	fish_0017 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
-			1,
-			12,
-			41,
-			11
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			891,
-			111,
-			26,
-			25
-		},
-		alias = {
-			"fish_0018"
-		}
-	},
-	fish_0019 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
+			60,
 			48
 		},
 		trim = {
 			0,
-			12,
-			40,
-			10
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			626,
-			111,
-			28,
-			26
-		},
-		alias = {
-			"fish_0020"
-		}
-	},
-	fish_0021 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			68,
-			48
-		},
-		trim = {
 			0,
-			12,
-			40,
-			10
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			660,
-			111,
-			28,
-			26
-		},
-		alias = {
-			"fish_0022"
-		}
-	},
-	molino_big_0001 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
 			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			6,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0002"
-		}
-	},
-	molino_big_0003 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			122,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0004"
-		}
-	},
-	molino_big_0005 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			238,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0006"
-		}
-	},
-	molino_big_0007 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			354,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0008"
-		}
-	},
-	molino_big_0009 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			470,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0010"
-		}
-	},
-	molino_big_0011 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			586,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0012"
-		}
-	},
-	molino_big_0013 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			702,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0014"
-		}
-	},
-	molino_big_0015 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			112
-		},
-		trim = {
-			0,
-			1,
-			2,
-			1
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			6,
-			818,
-			104,
-			110
-		},
-		alias = {
-			"molino_big_0016"
-		}
-	},
-	molino_small_0001 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			94,
-			100
-		},
-		trim = {
-			0,
-			1,
-			1,
-			0
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			116,
-			6,
-			93,
-			99
-		},
-		alias = {
-			"molino_small_0002"
-		}
-	},
-	molino_small_0003 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			94,
-			100
-		},
-		trim = {
-			0,
-			1,
-			1,
-			0
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			215,
-			6,
-			93,
-			99
-		},
-		alias = {
-			"molino_small_0004"
-		}
-	},
-	molino_small_0005 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			94,
-			100
-		},
-		trim = {
-			0,
-			1,
-			1,
-			0
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			314,
-			6,
-			93,
-			99
-		},
-		alias = {
-			"molino_small_0006"
-		}
-	},
-	molino_small_0007 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			94,
-			100
-		},
-		trim = {
-			0,
-			1,
-			1,
-			0
+			2
 		},
 		a_size = {
 			1024,
@@ -959,77 +244,274 @@ return {
 		},
 		f_quad = {
 			413,
-			6,
-			93,
-			99
+			233,
+			58,
+			46
 		},
 		alias = {
-			"molino_small_0008"
+			"boat1_0034",
+			"boat1_0035",
+			"boat2_0007",
+			"boat2_0008",
+			"boat2_0009",
+			"boat2_0010",
+			"boat2_0011",
+			"boat2_0023",
+			"boat2_0024",
+			"boat2_0025"
 		}
 	},
-	molino_small_0009 = {
-		a_name = "go_stages_grass.dds",
+	fish_0001 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			100
+			96,
+			68
 		},
 		trim = {
-			0,
-			1,
-			1,
-			0
+			61,
+			32,
+			8,
+			8
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			512,
-			6,
-			93,
-			99
+			291,
+			460,
+			27,
+			28
 		},
-		alias = {
-			"molino_small_0010"
-		}
+		alias = {}
 	},
-	molino_small_0011 = {
-		a_name = "go_stages_grass.dds",
+	fish_0002 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			100
+			96,
+			68
 		},
 		trim = {
-			0,
-			1,
-			1,
-			0
+			60,
+			19,
+			8,
+			8
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			611,
-			6,
-			93,
-			99
+			883,
+			233,
+			28,
+			41
 		},
-		alias = {
-			"molino_small_0012"
-		}
+		alias = {}
 	},
-	molino_small_0013 = {
-		a_name = "go_stages_grass.dds",
+	fish_0003 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			100
+			96,
+			68
 		},
 		trim = {
+			54,
+			10,
+			5,
+			4
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			344,
+			37,
+			54
+		},
+		alias = {}
+	},
+	fish_0004 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			50,
+			5,
+			5,
+			4
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			282,
+			41,
+			59
+		},
+		alias = {}
+	},
+	fish_0005 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			44,
 			0,
-			1,
-			1,
-			0
+			2,
+			3
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			573,
+			164,
+			50,
+			65
+		},
+		alias = {}
+	},
+	fish_0006 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			38,
+			0,
+			2,
+			3
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			514,
+			164,
+			56,
+			65
+		},
+		alias = {}
+	},
+	fish_0007 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			31,
+			0,
+			0,
+			2
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			446,
+			164,
+			65,
+			66
+		},
+		alias = {}
+	},
+	fish_0008 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			25,
+			0,
+			0,
+			2
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			372,
+			164,
+			71,
+			66
+		},
+		alias = {}
+	},
+	fish_0009 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			18,
+			0,
+			0,
+			2
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			164,
+			78,
+			66
+		},
+		alias = {}
+	},
+	fish_0010 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			15,
+			4,
+			0,
+			2
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			959,
+			81,
+			62
+		},
+		alias = {}
+	},
+	fish_0011 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			12,
+			7,
+			58,
+			30
 		},
 		a_size = {
 			1024,
@@ -1037,24 +519,198 @@ return {
 		},
 		f_quad = {
 			710,
-			6,
-			93,
-			99
+			194,
+			26,
+			31
+		},
+		alias = {}
+	},
+	fish_0012 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			11,
+			15,
+			62,
+			22
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			523,
+			23,
+			31
+		},
+		alias = {}
+	},
+	fish_0013 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			8,
+			22,
+			63,
+			17
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			491,
+			25,
+			29
+		},
+		alias = {}
+	},
+	fish_0014 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			8,
+			24,
+			63,
+			17
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			291,
+			557,
+			25,
+			27
+		},
+		alias = {}
+	},
+	fish_0015 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			3,
+			17,
+			60,
+			15
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			986,
+			185,
+			33,
+			36
 		},
 		alias = {
-			"molino_small_0014"
+			"fish_0016"
 		}
 	},
-	molino_small_0015 = {
-		a_name = "go_stages_grass.dds",
+	fish_0017 = {
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			100
+			96,
+			68
 		},
 		trim = {
 			0,
-			1,
-			1,
+			15,
+			55,
+			14
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			715,
+			233,
+			41,
+			39
+		},
+		alias = {
+			"fish_0018"
+		}
+	},
+	fish_0019 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			0,
+			15,
+			54,
+			12
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			625,
+			233,
+			42,
+			41
+		},
+		alias = {
+			"fish_0020"
+		}
+	},
+	fish_0021 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			96,
+			68
+		},
+		trim = {
+			0,
+			16,
+			54,
+			12
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			670,
+			233,
+			42,
+			40
+		},
+		alias = {
+			"fish_0022"
+		}
+	},
+	molino_big_0001 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1062,25 +718,415 @@ return {
 			1024
 		},
 		f_quad = {
-			809,
-			6,
-			93,
-			99
+			5,
+			5,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0002"
+		}
+	},
+	molino_big_0003 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			164,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0004"
+		}
+	},
+	molino_big_0005 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			323,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0006"
+		}
+	},
+	molino_big_0007 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			482,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0008"
+		}
+	},
+	molino_big_0009 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			641,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0010"
+		}
+	},
+	molino_big_0011 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			5,
+			800,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0012"
+		}
+	},
+	molino_big_0013 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			156,
+			5,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0014"
+		}
+	},
+	molino_big_0015 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			156
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			307,
+			5,
+			148,
+			156
+		},
+		alias = {
+			"molino_big_0016"
+		}
+	},
+	molino_small_0001 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			458,
+			5,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0002"
+		}
+	},
+	molino_small_0003 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			593,
+			5,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0004"
+		}
+	},
+	molino_small_0005 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			728,
+			5,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0006"
+		}
+	},
+	molino_small_0007 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			863,
+			5,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0008"
+		}
+	},
+	molino_small_0009 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			156,
+			164,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0010"
+		}
+	},
+	molino_small_0011 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			156,
+			307,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0012"
+		}
+	},
+	molino_small_0013 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			156,
+			450,
+			132,
+			140
+		},
+		alias = {
+			"molino_small_0014"
+		}
+	},
+	molino_small_0015 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			132,
+			140
+		},
+		trim = {
+			0,
+			0,
+			0,
+			0
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			156,
+			593,
+			132,
+			140
 		},
 		alias = {
 			"molino_small_0016"
 		}
 	},
 	sheep_big_0001 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			30,
-			26
+			40,
+			36
 		},
 		trim = {
+			0,
+			0,
 			1,
-			1,
-			2,
 			1
 		},
 		a_size = {
@@ -1088,10 +1134,10 @@ return {
 			1024
 		},
 		f_quad = {
-			727,
-			111,
-			27,
-			24
+			626,
+			194,
+			39,
+			35
 		},
 		alias = {
 			"sheep_big_0002",
@@ -1109,15 +1155,15 @@ return {
 		}
 	},
 	sheep_big_0003 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			30,
-			26
+			40,
+			36
 		},
 		trim = {
-			1,
 			0,
-			2,
+			0,
+			1,
 			1
 		},
 		a_size = {
@@ -1125,25 +1171,25 @@ return {
 			1024
 		},
 		f_quad = {
-			694,
-			111,
-			27,
-			25
+			668,
+			194,
+			39,
+			35
 		},
 		alias = {
 			"sheep_big_0004"
 		}
 	},
 	sheep_big_0005 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			30,
-			26
+			40,
+			36
 		},
 		trim = {
+			0,
+			0,
 			1,
-			2,
-			2,
 			1
 		},
 		a_size = {
@@ -1151,10 +1197,10 @@ return {
 			1024
 		},
 		f_quad = {
-			760,
-			111,
-			27,
-			23
+			759,
+			233,
+			39,
+			35
 		},
 		alias = {
 			"sheep_big_0006",
@@ -1163,15 +1209,15 @@ return {
 		}
 	},
 	sheep_big_0007 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			30,
-			26
+			40,
+			36
 		},
 		trim = {
 			0,
+			0,
 			2,
-			3,
 			1
 		},
 		a_size = {
@@ -1179,10 +1225,10 @@ return {
 			1024
 		},
 		f_quad = {
-			793,
-			111,
-			27,
-			23
+			801,
+			233,
+			38,
+			35
 		},
 		alias = {
 			"sheep_big_0008",
@@ -1191,15 +1237,15 @@ return {
 		}
 	},
 	sheep_big_0009 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			30,
-			26
+			40,
+			36
 		},
 		trim = {
 			0,
-			3,
-			3,
+			1,
+			2,
 			1
 		},
 		a_size = {
@@ -1207,10 +1253,10 @@ return {
 			1024
 		},
 		f_quad = {
-			826,
-			111,
-			27,
-			22
+			842,
+			233,
+			38,
+			34
 		},
 		alias = {
 			"sheep_big_0010",
@@ -1219,15 +1265,15 @@ return {
 		}
 	},
 	sheep_small_0001 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			24,
-			20
+			32,
+			28
 		},
 		trim = {
-			2,
-			1,
-			1,
+			0,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1235,10 +1281,10 @@ return {
 			1024
 		},
 		f_quad = {
-			950,
-			111,
-			21,
-			19
+			914,
+			233,
+			32,
+			28
 		},
 		alias = {
 			"sheep_small_0002",
@@ -1256,15 +1302,15 @@ return {
 		}
 	},
 	sheep_small_0003 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			24,
-			20
+			32,
+			28
 		},
 		trim = {
-			1,
 			0,
-			1,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1272,25 +1318,25 @@ return {
 			1024
 		},
 		f_quad = {
-			1002,
-			6,
-			22,
-			20
+			949,
+			233,
+			32,
+			28
 		},
 		alias = {
 			"sheep_small_0004"
 		}
 	},
 	sheep_small_0005 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			24,
-			20
+			32,
+			28
 		},
 		trim = {
-			1,
-			1,
-			2,
+			0,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1298,10 +1344,10 @@ return {
 			1024
 		},
 		f_quad = {
-			977,
-			111,
-			21,
-			19
+			984,
+			233,
+			32,
+			28
 		},
 		alias = {
 			"sheep_small_0006",
@@ -1310,15 +1356,15 @@ return {
 		}
 	},
 	sheep_small_0007 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			24,
-			20
+			32,
+			28
 		},
 		trim = {
 			0,
-			2,
-			2,
+			1,
+			0,
 			0
 		},
 		a_size = {
@@ -1326,10 +1372,10 @@ return {
 			1024
 		},
 		f_quad = {
-			1002,
+			291,
+			401,
 			32,
-			22,
-			18
+			27
 		},
 		alias = {
 			"sheep_small_0008",
@@ -1338,15 +1384,15 @@ return {
 		}
 	},
 	sheep_small_0009 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			24,
-			20
+			32,
+			28
 		},
 		trim = {
 			0,
 			2,
-			2,
+			0,
 			0
 		},
 		a_size = {
@@ -1354,10 +1400,10 @@ return {
 			1024
 		},
 		f_quad = {
-			210,
-			135,
-			22,
-			18
+			291,
+			431,
+			32,
+			26
 		},
 		alias = {
 			"sheep_small_0010",
@@ -1366,15 +1412,15 @@ return {
 		}
 	},
 	water_sparks_0001 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			58
+			132,
+			80
 		},
 		trim = {
-			5,
-			1,
-			1,
+			4,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1382,10 +1428,10 @@ return {
 			1024
 		},
 		f_quad = {
-			908,
-			6,
-			88,
-			57
+			156,
+			819,
+			128,
+			80
 		},
 		alias = {
 			"water_sparks_0002",
@@ -1396,15 +1442,15 @@ return {
 		}
 	},
 	water_sparks_0007 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			58
+			132,
+			80
 		},
 		trim = {
 			0,
-			1,
-			1,
+			0,
+			0,
 			0
 		},
 		a_size = {
@@ -1412,10 +1458,10 @@ return {
 			1024
 		},
 		f_quad = {
-			6,
-			964,
-			93,
-			57
+			156,
+			736,
+			132,
+			80
 		},
 		alias = {
 			"water_sparks_0008",
@@ -1433,26 +1479,26 @@ return {
 		}
 	},
 	water_sparks_0014 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			94,
-			58
+			132,
+			80
 		},
 		trim = {
 			0,
 			7,
 			6,
-			9
+			10
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			116,
-			111,
-			88,
-			42
+			156,
+			902,
+			126,
+			63
 		},
 		alias = {
 			"water_sparks_0015",
@@ -1463,26 +1509,26 @@ return {
 		}
 	},
 	water_wave_0001 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			106,
-			20
+			148,
+			28
 		},
 		trim = {
 			0,
-			2,
-			2,
-			10
+			0,
+			0,
+			12
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			6,
-			934,
-			104,
-			8
+			474,
+			233,
+			148,
+			16
 		},
 		alias = {
 			"water_wave_0002",
@@ -1490,26 +1536,26 @@ return {
 		}
 	},
 	water_wave_0004 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			106,
-			20
+			148,
+			28
 		},
 		trim = {
-			1,
-			4,
-			4,
-			6
+			0,
+			3,
+			3,
+			7
 		},
 		a_size = {
 			1024,
 			1024
 		},
 		f_quad = {
-			6,
-			948,
-			101,
-			10
+			741,
+			164,
+			145,
+			18
 		},
 		alias = {
 			"water_wave_0005",
@@ -1517,15 +1563,15 @@ return {
 		}
 	},
 	water_wave_0007 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			106,
-			20
+			148,
+			28
 		},
 		trim = {
-			9,
-			6,
-			12,
+			10,
+			5,
+			13,
 			4
 		},
 		a_size = {
@@ -1533,10 +1579,10 @@ return {
 			1024
 		},
 		f_quad = {
-			908,
-			69,
-			85,
-			10
+			474,
+			252,
+			125,
+			19
 		},
 		alias = {
 			"water_wave_0008",
@@ -1544,42 +1590,15 @@ return {
 		}
 	},
 	water_wave_0010 = {
-		a_name = "go_stages_grass.dds",
+		a_name = "go_stages_grass-1.dds",
 		size = {
-			106,
-			20
+			148,
+			28
 		},
 		trim = {
 			7,
-			1,
-			17,
-			3
-		},
-		a_size = {
-			1024,
-			1024
-		},
-		f_quad = {
-			908,
-			85,
-			82,
-			16
-		},
-		alias = {
-			"water_wave_0011",
-			"water_wave_0012"
-		}
-	},
-	water_wave_0013 = {
-		a_name = "go_stages_grass.dds",
-		size = {
-			106,
-			20
-		},
-		trim = {
-			8,
 			0,
-			20,
+			22,
 			2
 		},
 		a_size = {
@@ -1587,10 +1606,37 @@ return {
 			1024
 		},
 		f_quad = {
-			210,
-			111,
-			78,
-			18
+			156,
+			968,
+			119,
+			26
+		},
+		alias = {
+			"water_wave_0011",
+			"water_wave_0012"
+		}
+	},
+	water_wave_0013 = {
+		a_name = "go_stages_grass-1.dds",
+		size = {
+			148,
+			28
+		},
+		trim = {
+			9,
+			0,
+			27,
+			1
+		},
+		a_size = {
+			1024,
+			1024
+		},
+		f_quad = {
+			626,
+			164,
+			112,
+			27
 		},
 		alias = {}
 	}

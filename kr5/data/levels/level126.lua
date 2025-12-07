@@ -1,6 +1,6 @@
 ﻿-- chunkname: @./kr3/data/levels/level22.lua
 
-local log = require("klua.log"):new("level26")
+local log = require("klua.log"):new("level09")
 local km = require("klua.macros")
 local signal = require("hump.signal")
 local E = require("entity_db")
@@ -42,31 +42,28 @@ function level:update(store)
 		LU.queue_insert(store, boss)
 		coroutine.yield()
 
-		self.boss = boss
-
-		U.y_wait(store, 4)
-
-		self.mega_spawner.manual_wave = "BOSS"
+		local megaspawner = LU.list_entities(store.entities, "mega_spawner")[1]
+		local spawn_nodes = table.deepclone(megaspawner.spawn_nodes)
+		local spawn_idx = 1
 
 		while not boss.health.dead do
-			if not store.entities[self.boss.id] then
-				break
+			if spawn_nodes[1] and boss.nav_path.ni >= spawn_nodes[1] then
+				table.remove(spawn_nodes, 1)
+
+				megaspawner.manual_wave = megaspawner.spawn_waves[spawn_idx]
+				spawn_idx = km.zmod(spawn_idx + 1, #megaspawner.spawn_waves)
 			end
 
 			coroutine.yield()
 		end
 
-		self.mega_spawner.interrupt = true
+		megaspawner.interrupt = true
 
 		while boss.phase ~= "death_end" do
 			coroutine.yield()
 		end
 
 		U.y_wait(store, 1)
-	end
-
-	while not store.waves_finished or LU.has_alive_enemies(store) do
-		coroutine.yield()
 	end
 end
 

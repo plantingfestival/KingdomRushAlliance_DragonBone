@@ -1707,9 +1707,14 @@ tower_dwaarp.tower.price = 375
 tower_dwaarp.tower.menu_offset = v(0, 25)
 tower_dwaarp.powers.drill = E:clone_c("power")
 tower_dwaarp.powers.drill.price = {
+	400,
 	300,
-	50,
-	50
+	300
+}
+tower_dwaarp.powers.drill.damage = {
+	1500,
+	2250,
+	3000
 }
 tower_dwaarp.powers.lava = E:clone_c("power")
 tower_dwaarp.powers.lava.price = {
@@ -1759,8 +1764,8 @@ tower_dwaarp.attacks.list[1].damage_type = DAMAGE_ELECTRICAL
 tower_dwaarp.attacks.list[1].cooldown = 3
 tower_dwaarp.attacks.list[1].hit_time = fts(13)
 tower_dwaarp.attacks.list[1].mod = "mod_slow_dwaarp"
-tower_dwaarp.attacks.list[1].damage_min = 25
-tower_dwaarp.attacks.list[1].damage_max = 45
+tower_dwaarp.attacks.list[1].damage_min = 28
+tower_dwaarp.attacks.list[1].damage_max = 52
 tower_dwaarp.attacks.list[1].sound = "EarthquakeAttack"
 tower_dwaarp.attacks.list[2] = E:clone_c("bullet_attack")
 tower_dwaarp.attacks.list[2].bullet = "lava"
@@ -1769,11 +1774,12 @@ tower_dwaarp.attacks.list[2].hit_time = fts(13)
 tower_dwaarp.attacks.list[2].sound = "EarthquakeLavaSmash"
 tower_dwaarp.attacks.list[3] = E:clone_c("bullet_attack")
 tower_dwaarp.attacks.list[3].vis_flags = bit.bor(F_DRILL, F_RANGED)
-tower_dwaarp.attacks.list[3].vis_bans = bit.bor(F_FLYING, F_CLIFF, F_BOSS, F_MINIBOSS, F_NIGHTMARE)
+tower_dwaarp.attacks.list[3].vis_bans = bit.bor(F_FLYING, F_CLIFF, F_NIGHTMARE)
 tower_dwaarp.attacks.list[3].bullet = "drill"
 tower_dwaarp.attacks.list[3].cooldown = b.drill.cooldown
-tower_dwaarp.attacks.list[3].cooldown_inc = -3
+tower_dwaarp.attacks.list[3].cooldown_inc = -5
 tower_dwaarp.attacks.list[3].hit_time = fts(46)
+tower_dwaarp.attacks.list[3].range = 320
 tower_dwaarp.attacks.list[3].sound = "EarthquakeDrillIn"
 tower_dwaarp.attacks.list[4] = table.deepclone(tower_dwaarp.attacks.list[1])
 tower_dwaarp.attacks.list[4].cooldown = b.batteries.cooldown
@@ -3879,6 +3885,7 @@ tt = E:register_t("drill", "bullet")
 tt.bullet.pop = {
 	"pop_splat"
 }
+tt.bullet.damage_type = DAMAGE_TRUE
 tt.render.sprites[1].anchor = v(0.5, 0.3)
 tt.render.sprites[1].prefix = "drill"
 tt.render.sprites[1].name = "ground"
@@ -4240,7 +4247,7 @@ E:add_comps(tt, "attacks")
 tt.tower.type = "archer_hammerhold"
 tt.tower.level = 1
 tt.tower.price = 0
-tt.info.portrait = (IS_PHONE_OR_TABLET and "portraits_towers_" or "info_portraits_towers_") .. "0019"
+tt.info.portrait = "portraits_towers_0126"
 tt.render.sprites[1].animated = false
 tt.render.sprites[1].name = "terrain_archer_%04i"
 tt.render.sprites[1].offset = v(0, 12)
@@ -4750,7 +4757,7 @@ E:add_comps(tt, "melee", "timed_attacks")
 
 image_y = 74
 anchor_y = 24 / image_y
-tt.health.armor = 0.8
+tt.health.armor = 0.9
 tt.health.dead_lifetime = 20
 tt.health.hp_max = 400
 tt.health_bar.offset = v(0, 34)
@@ -4766,7 +4773,7 @@ tt.main_script.update = kr2_scripts.hero_vampiress.update
 tt.motion.max_speed = 1.7 * FPS
 tt.motion.max_speed_bat = 3.7 * FPS
 tt.regen.cooldown = 1
-tt.regen.health = 40
+tt.regen.health = 50
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "hero_vampiress"
@@ -4808,8 +4815,8 @@ tt.melee.range = 83.2
 tt.timed_attacks.list[1] = E:clone_c("area_attack")
 tt.timed_attacks.list[1].animation = "slayer"
 tt.timed_attacks.list[1].cooldown = 10
-tt.timed_attacks.list[1].damage_max = 480
-tt.timed_attacks.list[1].damage_min = 320
+tt.timed_attacks.list[1].damage_max = 600
+tt.timed_attacks.list[1].damage_min = 400
 tt.timed_attacks.list[1].trigger_radius = 50
 tt.timed_attacks.list[1].damage_radius = 100
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE

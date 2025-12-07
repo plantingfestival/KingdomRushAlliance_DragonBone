@@ -1326,7 +1326,8 @@ function sys.wave_spawn:force_next_wave(store)
 
 				local names = {
 					"graveyard_controller",
-					"swamp_controller"
+					"swamp_controller",
+					"blackburn_controller"
 				}
 				local entities = table.filter(list, function(k, v)
 					return table.contains(names, v.template_name)

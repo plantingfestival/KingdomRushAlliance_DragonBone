@@ -1248,15 +1248,6 @@ return {
 							max = 1,
 							interval_next = 72,
 							path = 3
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_blackburn_guard",
-							max = 1,
-							interval_next = 0,
-							path = 2
 						}
 					}
 				},
@@ -1439,6 +1430,15 @@ return {
 							max = 1,
 							interval_next = 0,
 							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 1,
+							interval_next = 0,
+							path = 2
 						}
 					}
 				},
@@ -1460,7 +1460,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_halloween_zombie",
-							max = 5,
+							max = 10,
 							interval_next = 212,
 							path = 1
 						},
@@ -1469,7 +1469,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_halloween_zombie",
-							max = 7,
+							max = 12,
 							interval_next = 212,
 							path = 1
 						},
@@ -1478,7 +1478,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_halloween_zombie",
-							max = 7,
+							max = 14,
 							interval_next = 141,
 							path = 1
 						},
@@ -1487,7 +1487,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_halloween_zombie",
-							max = 7,
+							max = 14,
 							interval_next = 71,
 							path = 1
 						}
@@ -1629,7 +1629,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_abomination",
-							max = 0,
+							max = 1,
 							interval_next = 555,
 							path = 1
 						},
@@ -1653,7 +1653,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_abomination",
-							max = 0,
+							max = 1,
 							interval_next = 353,
 							path = 3
 						},
@@ -1725,16 +1725,16 @@ return {
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_abomination",
-							max = 0,
+							max = 1,
 							interval_next = 1000,
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 300,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_abomination",
-							max = 1,
+							max = 3,
 							interval_next = 1000,
 							path = 2
 						}
@@ -1886,29 +1886,29 @@ return {
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 50,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 3,
 							interval_next = 71,
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 50,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 3,
 							interval_next = 0,
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 50,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 4,
 							interval_next = 999,
 							path = 3
 						},
@@ -1922,29 +1922,29 @@ return {
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 3,
 							interval_next = 56,
 							path = 1
 						},
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 3,
 							interval_next = 56,
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_skeleton_big",
-							max = 1,
+							max = 3,
 							interval_next = 56,
 							path = 2
 						},
@@ -1992,6 +1992,15 @@ return {
 							max = 1,
 							interval_next = 56,
 							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 1,
+							interval_next = 0,
+							path = 2
 						}
 					}
 				},
@@ -2443,6 +2452,15 @@ return {
 							max = 1,
 							interval_next = 1410,
 							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 1,
+							interval_next = 0,
+							path = 2
 						}
 					}
 				},
@@ -2494,6 +2512,15 @@ return {
 							max = 1,
 							interval_next = 300,
 							path = 3
+						},
+						{
+							interval = 0,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 1,
+							interval_next = 0,
+							path = 2
 						}
 					}
 				},
@@ -2503,56 +2530,56 @@ return {
 					some_flying = true,
 					spawns = {
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 36,
 							path = 1
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 0,
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 1300,
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 36,
 							path = 1
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 0,
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 1410,
 							path = 3
 						}
@@ -2561,7 +2588,7 @@ return {
 			}
 		},
 		{
-			interval = 1300,
+			interval = 1800,
 			waves = {
 				{
 					delay = 0,
@@ -2577,11 +2604,11 @@ return {
 							path = 1
 						},
 						{
-							interval = 0,
+							interval = 50,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_lycan",
-							max = 1,
+							max = 3,
 							interval_next = 99,
 							path = 1
 						},
@@ -2590,7 +2617,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_lycan_werewolf",
-							max = 2,
+							max = 4,
 							interval_next = 141,
 							path = 1
 						},
@@ -2599,7 +2626,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_lycan_werewolf",
-							max = 3,
+							max = 4,
 							interval_next = 141,
 							path = 1
 						},
@@ -2608,7 +2635,7 @@ return {
 							max_same = 0,
 							fixed_sub_path = 0,
 							creep = "enemy_lycan_werewolf",
-							max = 3,
+							max = 4,
 							interval_next = 141,
 							path = 1
 						}
@@ -2668,7 +2695,7 @@ return {
 			}
 		},
 		{
-			interval = 1200,
+			interval = 1000,
 			waves = {
 				{
 					delay = 0,
@@ -2739,11 +2766,11 @@ return {
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 100,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 5,
 							interval_next = 71,
 							path = 1
 						},
@@ -2793,20 +2820,20 @@ return {
 							path = 2
 						},
 						{
-							interval = 0,
+							interval = 90,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 3,
 							interval_next = 71,
 							path = 3
 						},
 						{
-							interval = 0,
+							interval = 85,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_witch",
-							max = 1,
+							max = 10,
 							interval_next = 424,
 							path = 1
 						}
@@ -2866,6 +2893,51 @@ return {
 							fixed_sub_path = 1,
 							creep = "enemy_giant_rat",
 							max = 40,
+							interval_next = 0,
+							path = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 10,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_spider_tiny",
+							max = 120,
+							interval_next = 0,
+							path = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 10,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_spider_tiny",
+							max = 120,
+							interval_next = 0,
+							path = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 10,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_spider_tiny",
+							max = 120,
 							interval_next = 0,
 							path = 3
 						}
@@ -3072,6 +3144,56 @@ return {
 							creep = "enemy_witch",
 							max = 6,
 							interval_next = 2200,
+							path = 1
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 2100,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 1000,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 4,
+							interval_next = 0,
+							path = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 1000,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 4,
+							interval_next = 0,
+							path = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 1000,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_blackburn_guard",
+							max = 4,
+							interval_next = 0,
 							path = 1
 						}
 					}

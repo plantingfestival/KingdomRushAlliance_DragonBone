@@ -21,6 +21,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage208",
+	"kr2_common",
 	"FrontiersJungleAmbienceSounds",
 	"PiratesSounds",
 	"SpecialCarnivorePlantSounds",
@@ -28,6 +29,7 @@ level.required_sounds = {
 }
 level.required_textures = {
 	"go_enemies_jungle",
+	"go_enemies_common-1",
 	"go_stages_jungle",
 	"go_stage208",
 	"go_stage208_bg",

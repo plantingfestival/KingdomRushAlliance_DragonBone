@@ -759,7 +759,7 @@ return {
 		a_name = "go_stage304_1-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			1169,

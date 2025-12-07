@@ -26,6 +26,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage213",
+	"kr2_common",
 	"FrontiersUndergroundAmbienceSounds",
 	"SpecialBlackDragon"
 }

@@ -29,7 +29,7 @@ function level:update(store)
 			coroutine.yield()
 		end
 
-		U.y_wait(store, 30)
+		U.y_wait(store, 20)
 
 		local boss = E:create_entity("eb_myconid")
 

@@ -8133,7 +8133,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			59,
@@ -8157,7 +8157,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			217,
@@ -8181,7 +8181,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			231,
@@ -8205,7 +8205,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			276,
@@ -8229,7 +8229,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			349,
@@ -8253,7 +8253,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2299,
@@ -8277,7 +8277,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2476,
@@ -8301,7 +8301,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2630,
@@ -8325,7 +8325,7 @@ return {
 		a_name = "go_stage315-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			2290,

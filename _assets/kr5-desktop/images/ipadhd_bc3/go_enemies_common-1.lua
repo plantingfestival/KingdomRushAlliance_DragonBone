@@ -1,6 +1,6 @@
 return {
 	["wasp_hornet_0001"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -25,7 +25,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0002"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -50,7 +50,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0003"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -75,7 +75,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0004"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -100,7 +100,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0005"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -125,7 +125,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0006"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -150,7 +150,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0007"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -175,7 +175,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0008"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -200,7 +200,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0009"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -225,7 +225,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0010"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -250,7 +250,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0011"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -275,7 +275,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0012"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -300,7 +300,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0013"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -325,7 +325,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0014"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -350,7 +350,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0015"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -375,7 +375,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0016"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -400,7 +400,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0017"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -425,7 +425,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0018"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -450,7 +450,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0019"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -475,7 +475,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0020"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -500,7 +500,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0021"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -525,7 +525,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0022"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -550,7 +550,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0023"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -575,7 +575,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0024"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -600,7 +600,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0025"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -625,7 +625,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0026"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -650,7 +650,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0027"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -675,7 +675,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0028"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -700,7 +700,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0029"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -725,7 +725,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0030"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -750,7 +750,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0031"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -775,7 +775,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0032"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -800,7 +800,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0033"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -825,7 +825,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0034"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -850,7 +850,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0035"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -875,7 +875,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0036"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -900,7 +900,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0037"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -925,7 +925,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0038"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -950,7 +950,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0039"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -975,7 +975,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0040"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1000,7 +1000,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0041"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1025,7 +1025,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0042"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1050,7 +1050,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0043"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1075,7 +1075,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0044"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1100,7 +1100,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0045"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1125,7 +1125,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_hornet_0046"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1150,7 +1150,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0047"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1175,7 +1175,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0048"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1200,7 +1200,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0049"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1225,7 +1225,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0050"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1250,7 +1250,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0051"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1275,7 +1275,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_hornet_0052"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			80,
 			132
@@ -1300,7 +1300,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0001"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1325,7 +1325,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0002"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1350,7 +1350,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0003"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1375,7 +1375,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0004"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1400,7 +1400,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0005"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1425,7 +1425,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0006"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1450,7 +1450,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0007"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1475,7 +1475,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0008"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1500,7 +1500,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0009"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1525,7 +1525,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0010"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1550,7 +1550,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0011"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1575,7 +1575,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0012"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1600,7 +1600,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0013"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1625,7 +1625,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0014"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1650,7 +1650,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0015"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1675,7 +1675,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0016"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1700,7 +1700,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0017"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1725,7 +1725,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0018"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1750,7 +1750,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0019"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1775,7 +1775,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0020"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1800,7 +1800,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0021"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1825,7 +1825,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0022"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1850,7 +1850,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0023"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1875,7 +1875,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0024"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1900,7 +1900,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0025"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1925,7 +1925,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0026"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1950,7 +1950,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0027"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -1975,7 +1975,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0028"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2000,7 +2000,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0029"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2025,7 +2025,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0030"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2050,7 +2050,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0031"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2075,7 +2075,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0032"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2100,7 +2100,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0033"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2125,7 +2125,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0034"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2150,7 +2150,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0035"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2175,7 +2175,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0036"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2200,7 +2200,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0037"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2225,7 +2225,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0038"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2250,7 +2250,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0039"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2275,7 +2275,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0040"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2300,7 +2300,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0041"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2325,7 +2325,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0042"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2350,7 +2350,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0043"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2375,7 +2375,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0044"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2400,7 +2400,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0045"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2425,7 +2425,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0046"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2450,7 +2450,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0047"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2475,7 +2475,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0048"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2500,7 +2500,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0049"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2525,7 +2525,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0050"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2550,7 +2550,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0051"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2575,7 +2575,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0052"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2600,7 +2600,7 @@ return {
 		textureRotated = true
 	},
 	["wasp_queen_0053"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2625,7 +2625,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0054"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2650,7 +2650,7 @@ return {
 		textureRotated = false
 	},
 	["wasp_queen_0055"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			124,
 			188
@@ -2675,7 +2675,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0001"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2700,7 +2700,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0002"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2725,7 +2725,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0003"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2750,7 +2750,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0004"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2775,7 +2775,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0005"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2800,7 +2800,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0006"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2825,7 +2825,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0007"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2850,7 +2850,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0008"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2875,7 +2875,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0009"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2900,7 +2900,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0010"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2925,7 +2925,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0011"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2950,7 +2950,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0012"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -2975,7 +2975,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0013"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3000,7 +3000,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0014"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3025,7 +3025,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0015"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3050,7 +3050,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0016"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3075,7 +3075,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0017"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3100,7 +3100,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0018"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3125,7 +3125,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0019"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3150,7 +3150,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0020"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3175,7 +3175,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0021"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3200,7 +3200,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0022"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3225,7 +3225,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0023"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3250,7 +3250,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0024"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3275,7 +3275,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0025"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3300,7 +3300,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0026"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3325,7 +3325,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0027"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3350,7 +3350,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0028"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3375,7 +3375,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0029"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3400,7 +3400,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0030"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3425,7 +3425,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0031"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3450,7 +3450,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0032"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3475,7 +3475,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0033"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3500,7 +3500,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0034"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3525,7 +3525,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0035"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3550,7 +3550,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0036"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3575,7 +3575,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0037"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3600,7 +3600,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0038"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3625,7 +3625,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0039"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3650,7 +3650,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0040"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3675,7 +3675,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0041"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3700,7 +3700,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0042"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3725,7 +3725,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0043"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3750,7 +3750,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0044"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3775,7 +3775,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0045"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3800,7 +3800,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0046"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3825,7 +3825,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0047"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3850,7 +3850,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0048"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3875,7 +3875,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0049"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3900,7 +3900,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0050"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3925,7 +3925,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0051"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3950,7 +3950,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0052"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -3975,7 +3975,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0053"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4000,7 +4000,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0054"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4025,7 +4025,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0055"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4050,7 +4050,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0056"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4075,7 +4075,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0057"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4100,7 +4100,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0058"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4125,7 +4125,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0059"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4150,7 +4150,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0060"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4175,7 +4175,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0061"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4200,7 +4200,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0062"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4225,7 +4225,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0063"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4250,7 +4250,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0064"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4275,7 +4275,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0065"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4300,7 +4300,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0066"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4325,7 +4325,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0067"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4350,7 +4350,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0068"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4375,7 +4375,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0069"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4400,7 +4400,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0070"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4425,7 +4425,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0071"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4450,7 +4450,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0072"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4475,7 +4475,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0073"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4500,7 +4500,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0074"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4525,7 +4525,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0075"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4550,7 +4550,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0076"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4575,7 +4575,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0077"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4600,7 +4600,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0078"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4625,7 +4625,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0079"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4650,7 +4650,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0080"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4675,7 +4675,7 @@ return {
 		textureRotated = true
 	},
 	["wulf_0081"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4700,7 +4700,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0082"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4725,7 +4725,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0083"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4750,7 +4750,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0084"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56
@@ -4775,7 +4775,7 @@ return {
 		textureRotated = false
 	},
 	["wulf_0085"] = {
-		a_name = "go_enemies_common-3.dds",
+		a_name = "go_enemies_common-1.dds",
 		size = {
 			76,
 			56

@@ -18891,7 +18891,7 @@ function scripts.controller_item_veznan_wrath.update(this, store)
 				enemy.unit.death_animation = nil
 				enemy.unit.hide_during_death = true
 			else
-				d.damage_type = DAMAGE_PHYSICAL
+				d.damage_type = DAMAGE_TRUE
 			end
 
 			queue_damage(store, d)
@@ -93085,6 +93085,7 @@ function scripts.hero_basic.get_info_ranged_with_damage_factor(this)
 		damage_type = b.bullet.damage_type,
 		damage_icon = this.info.damage_icon,
 		armor = this.health.armor,
+		magic_armor = this.health.magic_armor,
 		respawn = this.health.dead_lifetime
 	}
 end

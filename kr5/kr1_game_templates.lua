@@ -4060,7 +4060,7 @@ E:add_comps(tt, "powers", "timed_actions", "nav_grid")
 
 tt.health.armor = 0.5
 tt.health.dead_lifetime = 14
-tt.health.hp_max = 200
+tt.health.hp_max = 220
 tt.health.armor_power_name = "shield"
 tt.health.armor_inc = 0.25
 tt.health_bar.offset = v(0, 33)
@@ -4083,10 +4083,10 @@ tt.melee.attacks[3].animation = "holystrike"
 tt.melee.attacks[3].chance = 0.1
 tt.melee.attacks[3].damage_max = 0
 tt.melee.attacks[3].damage_min = 0
-tt.melee.attacks[3].damage_max_inc = 45
-tt.melee.attacks[3].damage_min_inc = 25
+tt.melee.attacks[3].damage_max_inc = 60
+tt.melee.attacks[3].damage_min_inc = 30
 tt.melee.attacks[3].damage_radius = 50
-tt.melee.attacks[3].damage_type = DAMAGE_MAGICAL
+tt.melee.attacks[3].damage_type = DAMAGE_TRUE
 tt.melee.attacks[3].disabled = true
 tt.melee.attacks[3].hit_decal = "decal_paladin_holystrike"
 tt.melee.attacks[3].hit_offset = v(26, 0)
@@ -4144,8 +4144,8 @@ E:add_comps(tt, "hps", "render")
 tt.hps.heal_every = 1e+99
 tt.hps.heal_min = 0
 tt.hps.heal_max = 0
-tt.hps.heal_min_inc = 40
-tt.hps.heal_max_inc = 60
+tt.hps.heal_min_inc = 60
+tt.hps.heal_max_inc = 90
 
 function tt.main_script.insert(this, store, script)
 	local target = store.entities[this.modifier.target_id]
@@ -4206,7 +4206,7 @@ E:add_comps(tt, "nav_grid")
 
 tt.health.armor = 0.2
 tt.health.dead_lifetime = 10
-tt.health.hp_max = 125
+tt.health.hp_max = 150
 tt.health_bar.offset = v(0, 37)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.unit.hit_offset = v(0, 12)
@@ -4217,7 +4217,7 @@ tt.info.portrait = "bottom_info_image_soldiers_0024"
 tt.info.random_name_count = 20
 tt.info.random_name_format = "SOLDIER_BARBARIAN_RANDOM_%i_NAME"
 tt.motion.max_speed = 66
-tt.regen.health = 10
+tt.regen.health = 15
 tt.render.sprites[1].prefix = "northern_wildling"
 tt.render.sprites[1].anchor.y = 0.16
 tt.render.sprites[1].angles.walk = {
@@ -4285,8 +4285,8 @@ tt = RT("soldier_barbarian", "soldier_militia")
 E:add_comps(tt, "powers", "ranged", "nav_grid")
 
 tt.health.armor = 0.1
-tt.health.dead_lifetime = 8
-tt.health.hp_max = 250
+tt.health.dead_lifetime = 6
+tt.health.hp_max = 280
 tt.health_bar.offset = v(0, 42)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.unit.hit_offset = v(0, 12)
@@ -4387,9 +4387,9 @@ tt.render.sprites[1].prefix = "explosion"
 tt.render.sprites[1].name = "shrapnel"
 tt = RT("bomb_musketeer", "bombKR5")
 tt.bullet.damage_max = 0
-tt.bullet.damage_max_inc = 40
+tt.bullet.damage_max_inc = 60
 tt.bullet.damage_min = 0
-tt.bullet.damage_min_inc = 10
+tt.bullet.damage_min_inc = 20
 tt.bullet.damage_radius = 48
 tt.bullet.flight_time_min = fts(4)
 tt.bullet.flight_time_max = fts(8)
@@ -4400,22 +4400,32 @@ tt.sound_events.insert = "ShrapnelSound"
 tt.sound_events.hit = nil
 tt.sound_events.hit_water = nil
 tt = RT("shotgun_musketeer", "shotgun")
-tt.bullet.damage_max = 65
-tt.bullet.damage_min = 35
+tt.bullet.damage_max = 75
+tt.bullet.damage_min = 40
 tt.bullet.hit_blood_fx = "fx_blood_splat"
 tt.bullet.miss_fx = "fx_smoke_bullet"
 tt.bullet.start_fx = "fx_rifle_smoke"
 tt.bullet.min_speed = 20 * FPS
 tt.bullet.max_speed = 20 * FPS
 tt.sound_events.insert = "ShotgunSound"
-tt = RT("shotgun_musketeer_sniper", "shotgun_musketeer")
+tt = RT("shotgun_musketeer_sniper_boss", "shotgun_musketeer")
 tt.bullet.particles_name = "ps_shotgun_musketeer"
 tt.sound_events.insert = "SniperSound"
+
 tt.bullet.damage_type = bor(DAMAGE_EXPLOSION, DAMAGE_FX_EXPLODE)
 tt.bullet.pop = nil
 tt.bullet.ignore_upgrades = true
-tt = RT("shotgun_musketeer_sniper_instakill", "shotgun_musketeer_sniper")
+tt = RT("shotgun_musketeer_sniper", "shotgun_musketeer")
+tt.bullet.particles_name = "ps_shotgun_musketeer"
+tt.sound_events.insert = "SniperSound"
+tt.bullet.boss_damage_max = 750
+tt.bullet.boss_damage_min = 750
+tt.bullet.damage_type = bor(DAMAGE_EXPLOSION, DAMAGE_FX_EXPLODE)
+tt.bullet.pop = nil
+tt.bullet.ignore_upgrades = true
+tt = RT("shotgun_musketeer_sniper_instakill", "shotgun_musketeer")
 tt.bullet.damage_type = bor(DAMAGE_INSTAKILL, DAMAGE_FX_EXPLODE)
+tt.bullet.vis_bans = bor(F_MINIBOSS, F_BOSS)
 tt.bullet.pop = {
 	"pop_headshot"
 }
@@ -4437,7 +4447,7 @@ tt.powers.sniper.price = {
 	250,
 	250
 }
-tt.powers.sniper.damage_factor_inc = 0.2
+tt.powers.sniper.damage_factor_inc = 0.15
 tt.powers.sniper.instakill_chance_inc = 0.2
 tt.powers.shrapnel = CC("power")
 tt.powers.shrapnel.attack_idx = 3
@@ -4506,12 +4516,21 @@ tt.attacks.list[2].bullet_start_offset = tt.attacks.list[1].bullet_start_offset
 tt.attacks.list[2].cooldown = b.sniper.cooldown
 tt.attacks.list[2].power_name = "sniper"
 tt.attacks.list[2].shoot_time = fts(22)
-tt.attacks.list[2].vis_flags = bor(F_INSTAKILL)
-tt.attacks.list[2].vis_bans = bor(F_BOSS, F_MINIBOSS, F_NIGHTMARE)
-tt.attacks.list[2].range = tt.attacks.range * 1.5
-tt.attacks.list[3] = table.deepclone(tt.attacks.list[2])
-tt.attacks.list[3].chance = 0
+tt.attacks.list[2].vis_flags = bor(F_RANGED)
+tt.attacks.list[2].vis_bans = bor(F_NIGHTMARE)
+tt.attacks.list[2].range = tt.attacks.range * 2
+tt.attacks.list[3] = CC("bullet_attack")
+tt.attacks.list[3].cooldown = 10
+tt.attacks.list[3].chance = 1
+tt.attacks.list[3].power_name = "sniper"
+tt.attacks.list[3].shoot_time = fts(22)
+tt.attacks.list[3].vis_flags = bor(F_INSTAKILL)
+tt.attacks.list[3].vis_bans = bor(F_BOSS, F_MINIBOSS, F_NIGHTMARE)
+tt.attacks.list[3].animation = "sniper_shoot"
+tt.attacks.list[3].animation_seeker = "sniper_seek"
 tt.attacks.list[3].bullet = "shotgun_musketeer_sniper_instakill"
+tt.attacks.list[3].bullet_start_offset = tt.attacks.list[1].bullet_start_offset
+tt.attacks.list[3].range = tt.attacks.range * 2
 tt.attacks.list[4] = CC("bullet_attack")
 tt.attacks.list[4].animation = "cannon_shoot"
 tt.attacks.list[4].animation_seeker = "cannon_fuse"
@@ -6102,7 +6121,7 @@ tt.melee.attacks[1].sound_hit = "SpiderAttack"
 tt.motion.max_speed = 2 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "enemy_spider_tiny"
-tt.render.sprites[1].scale = vv(0.9)
+tt.render.sprites[1].scale = vv(0.7)
 tt.sound_events.death = "DeathEplosionShortA"
 tt.unit.blood_color = BLOOD_GREEN
 tt.unit.explode_fx = "fx_spider_explode"
@@ -6996,7 +7015,7 @@ tt.vis.bans = bor(F_BLOCK, F_THORN, F_SKELETON)
 tt.vis.flags = bor(F_ENEMY, F_FLYING)
 tt = RT("enemy_lava_elemental", "enemy_KR5")
 
-AC(tt, "melee")
+AC(tt, "melee", "mod_lava")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 108, 84
@@ -7012,6 +7031,7 @@ tt.info.portrait = "bottom_info_image_enemies_0037"
 tt.info.i18n_key = "ENEMY_LAVA_ELEMENTAL"
 tt.info.enc_icon = 30
 tt.melee.attacks[1] = CC("area_attack")
+tt.melee.attacks[1].mod = "mod_lava"
 tt.melee.attacks[1].cooldown = 1.5
 tt.melee.attacks[1].count = 99
 tt.melee.attacks[1].damage_max = 500
@@ -7368,19 +7388,20 @@ tt.vis.bans = bor(F_SKELETON, F_POISON, F_POLYMORPH)
 tt.unit.show_blood_pool = false
 tt = RT("enemy_blackburn_guard", "enemy_KR5")
 
-AC(tt, "melee")
+AC(tt, "melee", "timed_actions")
 
 anchor_x, anchor_y = 0.5, 0.19
 image_x, image_y = 108, 84
-tt.enemy.gold = 3500
+tt.enemy.gold = 4000
 tt.enemy.lives_cost = 10
 tt.enemy.melee_slot = v(25, 0)
-tt.health.immune_to = DAMAGE_PHYSICAL
-tt.health.hp_max = 80000
+tt.health.hp_max = 90000
+tt.health.armor = 1.35
 tt.health.magic_armor = 0.95
 tt.health_bar.offset = v(0, 62)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.portrait = "gui_bottom_info_image_soldiers_0044"
+tt.main_script.update = kr1_scripts.enemy_necromancer.update
 tt.info.i18n_key = "ENEMY_BLACKBURN_GUARD"
 tt.info.enc_icon = 30
 tt.melee.attacks[1] = CC("area_attack")
@@ -7395,6 +7416,66 @@ tt.melee.attacks[1].hit_fx = "fx_ground_hit"
 tt.melee.attacks[1].hit_offset = v(30, 0)
 tt.melee.attacks[1].hit_time = fts(15)
 tt.melee.attacks[1].sound_hit = "AreaAttack"
+tt.timed_actions.list[1] = E:clone_c("spawn_attack")
+tt.timed_actions.list[1].cooldown = 6
+tt.timed_actions.list[1].spawn_time = fts(12)
+tt.timed_actions.list[1].spawn_delay = fts(4)
+tt.timed_actions.list[1].entity_chances = {
+	0.1,
+	1
+}
+tt.timed_actions.list[1].entity_names = {
+	"enemy_fallen_knight",
+	"enemy_halloween_zombie"
+}
+tt.timed_actions.list[1].animation = "smash"
+tt.timed_actions.list[1].spawn_animation = "raise"
+tt.timed_actions.list[1].max_count = 10
+tt.timed_actions.list[1].count_group_name = "necromancer_skeletons"
+tt.timed_actions.list[1].count_group_type = COUNT_GROUP_CONCURRENT
+tt.timed_actions.list[1].count_group_max = 60
+tt.timed_actions.list[1].summon_offsets = {
+	{
+		2,
+		0,
+		0
+	},
+	{
+		3,
+		0,
+		0
+	},
+	{
+		1,
+		3,
+		8
+	},
+	{
+		2,
+		3,
+		8
+	},
+	{
+		3,
+		3,
+		8
+	},
+	{
+		1,
+		-3,
+		-8
+	},
+	{
+		2,
+		-3,
+		-8
+	},
+	{
+		3,
+		-3,
+		-8
+	}
+}
 tt.motion.max_speed = 0.5 * FPS
 tt.render.sprites[1].anchor = v(anchor_x, anchor_y)
 tt.render.sprites[1].prefix = "eb_blackburn"
@@ -7598,10 +7679,11 @@ AC(tt, "melee", "ranged", "timed_actions")
 
 anchor_x, anchor_y = 0.5, 0.2
 image_x, image_y = 44, 38
-tt.enemy.gold = 50
+tt.enemy.gold = 60
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(18, 0)
-tt.health.hp_max = 700
+tt.health.hp_max = 900
+tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, 30)
 tt.info.i18n_key = "ENEMY_NECROMANCER"
 tt.info.enc_icon = 29
@@ -7639,10 +7721,10 @@ tt.timed_actions.list[1].entity_names = {
 }
 tt.timed_actions.list[1].animation = "summon"
 tt.timed_actions.list[1].spawn_animation = "raise"
-tt.timed_actions.list[1].max_count = 5
+tt.timed_actions.list[1].max_count = 10
 tt.timed_actions.list[1].count_group_name = "necromancer_skeletons"
 tt.timed_actions.list[1].count_group_type = COUNT_GROUP_CONCURRENT
-tt.timed_actions.list[1].count_group_max = 35
+tt.timed_actions.list[1].count_group_max = 50
 tt.timed_actions.list[1].summon_offsets = {
 	{
 		2,
@@ -7793,10 +7875,10 @@ anchor_x, anchor_y = 0.5, 0.1595744680851064
 tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].cooldown = 0
 tt.auras.list[1].name = "aura_spectral_knight"
-tt.enemy.gold = 40
+tt.enemy.gold = 60
 tt.enemy.melee_slot = v(26, 0)
 tt.health.armor = 1
-tt.health.hp_max = 800
+tt.health.hp_max = 1200
 tt.health.immune_to = bor(DAMAGE_PHYSICAL, DAMAGE_EXPLOSION, DAMAGE_ELECTRICAL, DAMAGE_POISON)
 tt.health_bar.offset = v(0, 61)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -7838,11 +7920,11 @@ image_x, image_y = 128, 94
 tt.death_spawns.name = "enemy_spectral_knight_spawn"
 tt.death_spawns.spawn_animation = "raise"
 tt.death_spawns.delay = fts(11)
-tt.enemy.gold = 40
+tt.enemy.gold = 70
 tt.enemy.melee_slot = v(26, 0)
 tt.health.dead_lifetime = 1
-tt.health.hp_max = 1000
-tt.health.magic_armor = 0.9
+tt.health.hp_max = 1400
+tt.health.magic_armor = 0.95
 tt.health_bar.offset = v(0, 56)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.info.i18n_key = "ENEMY_FALLEN_KNIGHT"
@@ -8025,7 +8107,7 @@ tt.auras.list[1] = E:clone_c("aura_attack")
 tt.auras.list[1].name = "jt_spawner_aura"
 tt.auras.list[1].cooldown = 0
 tt.auras.list[2] = E:clone_c("aura_attack")
-tt.auras.list[2].name = "aura_troll_regen"
+tt.auras.list[2].name = "aura_jt_regen"
 tt.auras.list[2].cooldown = 0
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
@@ -8664,7 +8746,7 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 12
-tt.health.hp_max = 15000
+tt.health.hp_max = 21000
 tt.health_bar.offset = v(0, 125)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr1_scripts.eb_kingpin.get_info
@@ -8696,7 +8778,7 @@ tt.unit.fade_time_after_death = 2
 tt.unit.hit_offset = v(0, 80)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 82)
-tt.unit.size = UNIT_SIZE_MEDIUM
+tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.bans = bor(F_TELEPORT, F_THORN, F_POLYMORPH, F_BLOCK)
 tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt.melee.attacks[1] = CC("area_attack")
@@ -9036,9 +9118,9 @@ tt.second_life_max_speed = 3
 tt.second_death = false
 tt.second_death_duration = 5
 tt.third_life = false
-tt.third_life_hp_factor = 1000
-tt.third_life_armor = 0.99
-tt.third_life_magic_armor = 1.6
+tt.third_life_hp_factor = 200
+tt.third_life_armor = 1.6
+tt.third_life_magic_armor = 1
 tt.third_life_damage_max = 9999
 tt.third_life_damage_min = 6666
 tt.third_life_max_speed = 1
@@ -9047,7 +9129,7 @@ tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
 tt.health.dead_lifetime = 100
 tt.health.armor = 0.75
-tt.health.hp_max = 100000
+tt.health.hp_max = 150000
 tt.health_bar.offset = v(0, 125)
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.fn = kr1_scripts.eb_blackburn.get_info
@@ -9083,9 +9165,9 @@ tt.auras.list[2].name = "blackburn_aura"
 tt.auras.list[2].cooldown = 0
 tt.melee.attacks[1] = CC("area_attack")
 tt.melee.attacks[1].cooldown = 1.3 + fts(40)
-tt.melee.attacks[1].damage_max = 200
-tt.melee.attacks[1].damage_min = 100
-tt.melee.attacks[1].damage_radius = 63.829787234042556
+tt.melee.attacks[1].damage_max = 500
+tt.melee.attacks[1].damage_min = 300
+tt.melee.attacks[1].damage_radius = 72.829787234042556
 tt.melee.attacks[1].dodge_time = fts(13)
 tt.melee.attacks[1].hit_time = fts(15)
 tt.melee.attacks[1].sound_hit = "EnemyBlackburnBossSwing"
@@ -9096,25 +9178,25 @@ tt.timed_attacks.list[1].animation = "smash"
 tt.timed_attacks.list[1].aura_shake = "aura_screen_shake"
 tt.timed_attacks.list[1].cooldown = fts(300)
 tt.timed_attacks.list[1].after_cooldown = fts(450)
-tt.timed_attacks.list[1].damage_max = 50
-tt.timed_attacks.list[1].damage_min = 10
-tt.timed_attacks.list[1].second_life_damage_max = 200
-tt.timed_attacks.list[1].second_life_damage_min = 100
-tt.timed_attacks.list[1].third_life_damage_max = 9999
-tt.timed_attacks.list[1].third_life_damage_min = 6666
+tt.timed_attacks.list[1].damage_max = 500
+tt.timed_attacks.list[1].damage_min = 100
+tt.timed_attacks.list[1].second_life_damage_max = 2000
+tt.timed_attacks.list[1].second_life_damage_min = 1000
+tt.timed_attacks.list[1].third_life_damage_max = 99999
+tt.timed_attacks.list[1].third_life_damage_min = 66666
 tt.timed_attacks.list[1].second_life_entity = "enemy_fallen_knight"
 tt.timed_attacks.list[1].third_life_entity = "enemy_blackburn_guard"
 tt.timed_attacks.list[1].entity_node_offset = -5
 tt.timed_attacks.list[1].damage_type = DAMAGE_TRUE
 tt.timed_attacks.list[1].damage_radius = 106.38297872340426
-tt.timed_attacks.list[1].third_life_damage_radius = 3500
+tt.timed_attacks.list[1].third_life_damage_radius = 8000
 tt.timed_attacks.list[1].fx = "fx_blackburn_smash"
 tt.timed_attacks.list[1].fx_offset = v(26, 7)
 tt.timed_attacks.list[1].hit_decal = "decal_blackburn_smash_ground"
 tt.timed_attacks.list[1].hit_time = fts(24)
 tt.timed_attacks.list[1].min_range = 0
 tt.timed_attacks.list[1].max_range = 283.68794326241135
-tt.timed_attacks.list[1].third_life_max_range = 3500
+tt.timed_attacks.list[1].third_life_max_range = 8000
 tt.timed_attacks.list[1].mod = "mod_blackburn_stun"
 tt.timed_attacks.list[1].mod_towers = "mod_blackburn_tower"
 tt.timed_attacks.list[1].sound = "EnemyBlackburnBossSpecialStomp"
@@ -9982,7 +10064,7 @@ tt = RT("swamp_controller", "graveyard_controller")
 tt.graveyard.spawns_by_health = {
 	{
 		"enemy_zombie",
-		400
+		600
 	},
 	{
 		"enemy_swamp_thing",
@@ -9991,7 +10073,92 @@ tt.graveyard.spawns_by_health = {
 }
 tt.graveyard.excluded_templates = {
 	"soldier_alleria_wildcat",
-	"soldier_magnus_illusion"
+	"soldier_magnus_illusion",
+	"soldier_reinforcement_special_dark_army",
+	"soldier_reinforcement_special_linirea",
+	"soldier_reinforcement_shadow_archer",
+	"soldier_reinforcement_rebel_militia",
+	"soldier_tower_barrel_skill_warrior",
+	"soldier_tower_necromancer_skeleton_lvl1",
+	"soldier_tower_necromancer_skeleton_lvl2",
+	"soldier_tower_necromancer_skeleton_lvl3",
+	"soldier_tower_necromancer_skeleton_lvl4",
+	"soldier_tower_necromancer_skeleton_golem_lvl1",
+	"soldier_tower_necromancer_skeleton_golem_lvl2",
+	"soldier_tower_necromancer_skeleton_golem_lvl3",
+	"soldier_tower_necromancer_skeleton_golem_lvl4",
+	"soldier_tower_ghost_lvl1",
+	"soldier_tower_ghost_lvl2",
+	"soldier_tower_ghost_lvl3",
+	"soldier_tower_ghost_lvl4",
+	"soldier_hero_builder_worker",
+	"soldier_tower_demon_pit_basic_attack_lvl1",
+	"soldier_tower_demon_pit_basic_attack_lvl2",
+	"soldier_tower_demon_pit_basic_attack_lvl3",
+	"soldier_tower_demon_pit_basic_attack_lvl4",
+	"big_guy_tower_demon_pit_lvl4",
+	"soldier_tower_pandas_blue_lvl1",
+	"soldier_tower_pandas_red_lvl1",
+	"soldier_tower_pandas_green_lvl1",
+	"soldier_tower_pandas_blue_lvl2",
+	"soldier_tower_pandas_red_lvl2",
+	"soldier_tower_pandas_green_lvl2",
+	"soldier_tower_pandas_blue_lvl3",
+	"soldier_tower_pandas_red_lvl3",
+	"soldier_tower_pandas_green_lvl3",
+	"soldier_tower_pandas_blue_lvl4",
+	"soldier_tower_pandas_red_lvl4",
+	"soldier_tower_pandas_green_lvl4"
+}
+tt.graveyard.keep_gold = true
+tt.graveyard.vis_has = F_FRIEND
+tt.graveyard.vis_flags = 0
+tt.graveyard.vis_bans = F_HERO
+tt = RT("blackburn_controller", "graveyard_controller")
+tt.graveyard.spawns_by_health = {
+	{
+		"enemy_halloween_zombie",
+		200
+	},
+	{
+		"enemy_fallen_knight",
+		9e+99
+	}
+}
+tt.graveyard.excluded_templates = {
+	"soldier_alleria_wildcat",
+	"soldier_magnus_illusion",
+	"soldier_tower_barrel_skill_warrior",
+	"soldier_tower_necromancer_skeleton_lvl1",
+	"soldier_tower_necromancer_skeleton_lvl2",
+	"soldier_tower_necromancer_skeleton_lvl3",
+	"soldier_tower_necromancer_skeleton_lvl4",
+	"soldier_tower_necromancer_skeleton_golem_lvl1",
+	"soldier_tower_necromancer_skeleton_golem_lvl2",
+	"soldier_tower_necromancer_skeleton_golem_lvl3",
+	"soldier_tower_necromancer_skeleton_golem_lvl4",
+	"soldier_tower_ghost_lvl1",
+	"soldier_tower_ghost_lvl2",
+	"soldier_tower_ghost_lvl3",
+	"soldier_tower_ghost_lvl4",
+	"soldier_hero_builder_worker",
+	"soldier_tower_demon_pit_basic_attack_lvl1",
+	"soldier_tower_demon_pit_basic_attack_lvl2",
+	"soldier_tower_demon_pit_basic_attack_lvl3",
+	"soldier_tower_demon_pit_basic_attack_lvl4",
+	"big_guy_tower_demon_pit_lvl4",
+	"soldier_tower_pandas_blue_lvl1",
+	"soldier_tower_pandas_red_lvl1",
+	"soldier_tower_pandas_green_lvl1",
+	"soldier_tower_pandas_blue_lvl2",
+	"soldier_tower_pandas_red_lvl2",
+	"soldier_tower_pandas_green_lvl2",
+	"soldier_tower_pandas_blue_lvl3",
+	"soldier_tower_pandas_red_lvl3",
+	"soldier_tower_pandas_green_lvl3",
+	"soldier_tower_pandas_blue_lvl4",
+	"soldier_tower_pandas_red_lvl4",
+	"soldier_tower_pandas_green_lvl4"
 }
 tt.graveyard.keep_gold = false
 tt.graveyard.vis_has = F_FRIEND
@@ -10096,34 +10263,62 @@ tt.spawn_data = {
 	},
 	{
 		"enemy_fallen_knight",
-		8,
+		19,
 		0,
 		2,
 		1
 	},
 	{
 		"enemy_fallen_knight",
-		6,
+		18,
 		0,
 		2,
 		2
 	},
 	{
 		"enemy_abomination",
-		8,
+		15,
 		fts(40),
 		2,
 		2
 	},
 	{
 		"enemy_werewolf",
-		8,
+		9,
+		fts(40),
+		5,
+		1
+	},
+	{
+		"enemy_werewolf",
+		10,
 		fts(40),
 		5,
 		2
 	},
 	{
-		"enemy_lycan",
+		"enemy_necromancer",
+		12,
+		fts(40),
+		5,
+		2
+	},
+	{
+		"enemy_spider_big",
+		7,
+		fts(20),
+		5,
+		1
+	},
+	{
+		"enemy_spider_big",
+		7,
+		fts(20),
+		5,
+		2
+	},
+	{
+		"enemy_lycan_werewolf",
 		14,
 		0,
 		9,
@@ -10148,11 +10343,11 @@ tt = E:register_t("blackburn_aura", "aura")
 tt.main_script.update = kr1_scripts.blackburn_aura.update
 tt.aura.cycle_time = 0.5
 tt.aura.duration = -1
-tt.aura.radius = 106.38297872340426
+tt.aura.radius = 400
 tt.aura.raise_entity = "enemy_skeleton_big"
 tt.count_group_name = "blackburn_skeletons"
 tt.count_group_type = COUNT_GROUP_CONCURRENT
-tt.count_group_max = 15
+tt.count_group_max = 1500
 tt = RT("veznan_souls_aura", "aura")
 tt.main_script.update = kr1_scripts.veznan_souls_aura.update
 tt.aura.track_source = true
@@ -10685,8 +10880,8 @@ tt = E:register_t("mod_gulthak_heal", "mod_shaman_heal")
 tt.hps.heal_min = 300
 tt.hps.heal_max = 300
 tt = E:register_t("mod_kingpin_heal_self", "mod_shaman_heal")
-tt.hps.heal_min = 1000
-tt.hps.heal_max = 1000
+tt.hps.heal_min = 2000
+tt.hps.heal_max = 2000
 tt.render.sprites[1].anchor.y = 0.3
 tt = E:register_t("mod_kingpin_heal_others", "mod_shaman_heal")
 tt.hps.heal_min = 50

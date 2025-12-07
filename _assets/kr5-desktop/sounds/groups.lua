@@ -347,6 +347,15 @@ return {
 			"wilhelm_scream.ogg"
 		}
 	},
+	DwarfSounds = {
+		files = {
+			"dwarfArcher_taunt_1.ogg",
+			"dwarfArcher_taunt_2.ogg",
+			"dwarfBarracks_taunt_1.ogg",
+			"dwarf_taunt_1.ogg",
+			"dwarf_taunt_2.ogg"
+		}
+	},
 	BossEfreeti = {
 		files = {
 			"boss_efreeti_clapping.ogg",

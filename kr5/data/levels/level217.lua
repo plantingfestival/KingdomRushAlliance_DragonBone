@@ -14,6 +14,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage217",
+	"kr2_common",
 	"PirateBoatSounds",
 	"RisingTidesSounds",
 	"SpecialMermaid"

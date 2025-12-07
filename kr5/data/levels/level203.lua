@@ -13,6 +13,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage203",
+	"kr2_common",
 	"SpecialBanthaSounds",
 	"SpecialFrog",
 	"SpecialTusken"

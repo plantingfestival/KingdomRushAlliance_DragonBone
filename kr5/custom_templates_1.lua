@@ -463,16 +463,16 @@ b = balance.heroes.hero_eiskalt
 E:add_comps(tt, "ranged", "timed_attacks")
 
 tt.hero.level_stats.hp_max = {
-	500,
-	540,
-	580,
-	620,
-	660,
-	700,
-	750,
-	800,
-	850,
-	975
+	900,
+	990,
+	1080,
+	1180,
+	1280,
+	1400,
+	1520,
+	1640,
+	1800,
+	2000
 }
 tt.hero.level_stats.regen_health = {
 	82,
@@ -481,10 +481,10 @@ tt.hero.level_stats.regen_health = {
 	142,
 	162,
 	182,
-	202,
-	222,
+	212,
 	242,
-	272
+	272,
+	312
 }
 tt.hero.level_stats.armor = {
 	0.1,
@@ -642,8 +642,8 @@ tt.info.hero_portrait = "hero_portraits_0120"
 tt.info.i18n_key = "HERO_EISKALT"
 tt.info.portrait = "portraits_hero_0120"
 tt.info.ultimate_icon = "0120"
-tt.info.stat_hp = 8
-tt.info.stat_armor = 0
+tt.info.stat_hp = 9
+tt.info.stat_armor = 5
 tt.info.stat_damage = 10
 tt.info.stat_cooldown = 4
 tt.main_script.update = scripts.hero_eiskalt.update
@@ -658,6 +658,7 @@ tt.regen.cooldown = 2
 tt.render.sprites[1].anchor.y = 0.04
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].prefix = "hero_eiskalt"
+tt.render.sprites[1].scale = vv(1.15)
 tt.render.sprites[1].angles.walk = {
 	"idle"
 }
@@ -1593,7 +1594,7 @@ tt.hero.level_stats.armor = {
 	1,
 	1,
 	1,
-	1
+	2
 }
 tt.hero.level_stats.magic_armor = {
 	1,
@@ -1605,19 +1606,19 @@ tt.hero.level_stats.magic_armor = {
 	1,
 	1,
 	1,
-	1
+	2
 }
 tt.hero.level_stats.ranged_damage_min = {
 	20,
+	30,
 	40,
-	60,
+	50,
+	70,
 	90,
 	110,
 	130,
-	160,
-	180,
-	190,
-	210
+	150,
+	180
 }
 tt.hero.level_stats.ranged_damage_max = {
 	60,
@@ -1644,9 +1645,9 @@ tt.hero.skills.ricochet.damage_min = b.ricochet.damage_min
 tt.hero.skills.ricochet.damage_max = b.ricochet.damage_max
 tt.hero.skills.ricochet.bounce = b.ricochet.bounce
 tt.hero.skills.ricochet.cooldown = {
-	18,
-	18,
-	18
+	16,
+	16,
+	16
 }
 tt.hero.skills.ricochet.xp_gain = {
 	60,
@@ -1684,21 +1685,21 @@ tt.hero.skills.divine_rain.xp_gain = {
 	312
 }
 tt.hero.skills.divine_rain.cooldown = {
-	15,
-	15,
-	15
+	10,
+	10,
+	10
 }
 tt.hero.skills.divine_rain.duration = {
-	5,
-	5,
-	5
+	8,
+	10,
+	12
 }
 tt.hero.skills.divine_rain.healing_points_tick = b.divine_rain.healing_points_tick
 tt.hero.skills.divine_rain.key = "DIVINE_RAIN"
 -- supreme wave
 tt.hero.skills.supreme_wave = E:clone_c("hero_skill")
 tt.hero.skills.supreme_wave.hr_cost = {
-	3,
+	2,
 	2,
 	2
 }
@@ -1710,9 +1711,9 @@ tt.hero.skills.supreme_wave.cooldown = {
 	21
 }
 tt.hero.skills.supreme_wave.stun = {
-	2,
 	3,
-	4
+	5,
+	7
 }
 tt.hero.skills.supreme_wave.xp_gain = {
 	70,
@@ -1725,23 +1726,23 @@ tt.hero.skills.ultimate = E:clone_c("hero_skill")
 tt.hero.skills.ultimate.controller_name = "hero_dianyun_ultimate"
 tt.hero.skills.ultimate.hr_order = 5
 tt.hero.skills.ultimate.hr_cost = {
-	1,
-	6,
+	4,
+	4,
 	5,
 	5
 }
 tt.hero.skills.ultimate.hr_available = true
 tt.hero.skills.ultimate.key = "ULTIMATE"
 tt.hero.skills.ultimate.bullets_to_death = {
-	3000000,
-	5000000,
-	10000000,
-	15000000
+	30000000,
+	50000000,
+	100000000,
+	150000000
 }
 tt.hero.skills.ultimate.cooldown = b.ultimate.cooldown
 
 tt.hero.team = TEAM_DARK_ARMY
-tt.health.dead_lifetime = 30
+tt.health.dead_lifetime = 1
 tt.health_bar.draw_order = -1
 tt.health_bar.offset = v(0, 130)
 tt.health_bar.sort_y_offset = -200
@@ -1758,10 +1759,10 @@ tt.info.hero_portrait = "hero_portraits_0103"
 tt.info.i18n_key = "HERO_DIANYUN"
 tt.info.portrait = "portraits_hero_0103"
 tt.info.ultimate_icon = "0103"
-tt.info.stat_hp = 8
-tt.info.stat_armor = 0
-tt.info.stat_damage = 5
-tt.info.stat_cooldown = 4
+tt.info.stat_hp = 11
+tt.info.stat_armor = 11
+tt.info.stat_damage = 11
+tt.info.stat_cooldown = 3
 tt.main_script.insert = scripts.hero_dianyun.insert
 tt.main_script.update = scripts.hero_dianyun.update
 tt.motion.max_speed = 420
@@ -1879,7 +1880,7 @@ tt.vis.bans = bor(tt.vis.bans, F_EAT, F_NET)
 tt.vis.flags = bor(tt.vis.flags, F_FLYING)
 -- lord storm
 tt.ranged.attacks[1] = E:clone_c("spawn_attack")
-tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].cooldown = 1
 tt.ranged.attacks[1].entity = "controller_lord_storm"
 tt.ranged.attacks[1].bullet = "hero_dianyun_lightning"
 tt.ranged.attacks[1].min_range = b.basic_attack.min_range
@@ -1951,7 +1952,7 @@ tt.render.sprites[1].r = -math.pi / 2
 tt.bullet.hit_time = fts(2)
 tt.bullet.hit_fx = "fx_hero_dianyun_lightning_hit"
 tt.bullet.mod = "mod_hero_dianyun_lightning"
-tt.bullet.damage_type = DAMAGE_MAGICAL
+tt.bullet.damage_type = DAMAGE_TRUE
 tt.bullet.use_unit_damage_factor = true
 tt.sound_events.insert = "WarmongerMageAttack"
 
@@ -2081,7 +2082,7 @@ tt.aura.mods = {
 	"mod_supreme_wave_damage"
 }
 tt.aura.cycle_time = 1e+99
-tt.aura.radius = 50
+tt.aura.radius = 500
 tt.aura.vis_bans = bor(F_FRIEND)
 tt.aura.vis_flags = bor(F_MOD, F_AREA)
 tt.main_script.insert = scripts.aura_apply_mod.insert
@@ -2196,7 +2197,7 @@ tt.render.sprites[2].anchor = v(0.5, 0.16)
 tt.render.sprites[2].offset = v(0, 0)
 tt.ranged.attacks[1] = E:clone_c("bullet_attack")
 tt.ranged.attacks[1].animation = "attack"
-tt.ranged.attacks[1].cooldown = 2
+tt.ranged.attacks[1].cooldown = 1
 tt.ranged.attacks[1].max_range = b.ultimate.max_range
 tt.ranged.attacks[1].min_range = b.ultimate.min_range
 tt.ranged.attacks[1].bullet = "bolt_hero_dianyun_electric_son"
@@ -2208,8 +2209,8 @@ tt.ranged.attacks[1].bullet_start_offset = v(10, 40)
 tt = E:register_t("bolt_hero_dianyun_electric_son", "bolt")
 E:add_comps(tt, "force_motion")
 tt.bullet.damage_type = b.ultimate.damage_type
-tt.bullet.damage_min = 1200000
-tt.bullet.damage_max = 1800000
+tt.bullet.damage_min = 1200
+tt.bullet.damage_max = 18000000
 tt.bullet.hit_fx = "fx_hero_dianyun_lightning_hit"
 tt.bullet.mod = "mod_stun_electric_son"
 tt.bullet.max_speed = 600
@@ -4043,7 +4044,7 @@ tt.health.armor = 0.99
 tt.health.dead_lifetime = 10
 tt.health.hp_max = 9000
 tt.health_bar.offset = v(0, 60)
-tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.idle_flip.chance = 0.4
 tt.idle_flip.cooldown = 5
 tt.info.fn = scripts.soldier_barrack.get_info
@@ -4103,7 +4104,7 @@ tt.unit.fade_time_after_death = nil
 tt.unit.blood_color = BLOOD_ORANGE
 tt.unit.size = UNIT_SIZE_LARGE
 tt.vis.flags = F_HERO
-tt.vis.bans = bor(F_SKELETON, F_LYCAN, F_STUN, F_POISON, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED)
+tt.vis.bans = bor(F_SKELETON, F_EAT, F_LYCAN, F_STUN, F_POISON, F_TELEPORT, F_THORN, F_POLYMORPH, F_DISINTEGRATED)
 tt.ui.click_rect = r(-25, -2, 50, 52)
 tt.sound_events.insert = nil
 tt.sound_events.insert_args = nil
@@ -4358,8 +4359,8 @@ tt = E:register_t("shooter_musketeer", "decal_scripted_shooter")
 b = balance.towers.musketeer
 tt.main_script.update = scripts.shooter_musketeer.update
 tt.powers.sniper = CC("power")
-tt.powers.sniper.damage_factor_inc = 0.2
-tt.powers.sniper.instakill_chance_inc = 0.2
+tt.powers.sniper.damage_factor_inc = 0.15
+tt.powers.sniper.instakill_chance_inc = 0
 tt.powers.shrapnel = CC("power")
 tt.render.sprites[1].prefix = "tower_musketeer_shooter"
 tt.render.sprites[1].name = "idleDown"
@@ -4412,11 +4413,12 @@ tt.attacks.list[2].bullet_start_offset = tt.attacks.list[1].bullet_start_offset
 tt.attacks.list[2].cooldown = b.sniper.cooldown
 tt.attacks.list[2].power_name = "sniper"
 tt.attacks.list[2].shoot_time = fts(22)
-tt.attacks.list[2].vis_flags = bor(F_INSTAKILL)
-tt.attacks.list[2].vis_bans = bor(F_BOSS, F_MINIBOSS, F_NIGHTMARE)
+tt.attacks.list[2].vis_flags = bor(F_RANGED)
+tt.attacks.list[2].vis_bans = bor(F_BOSS, F_NIGHTMARE)
 tt.attacks.list[2].range = tt.attacks.range * 1.5
 tt.attacks.list[3] = table.deepclone(tt.attacks.list[2])
-tt.attacks.list[3].chance = 0
+tt.attacks.list[3].chance = 1
+tt.attacks.list[3].vis_bans = bor(F_BOSS, F_MINIBOSS, F_NIGHTMARE)
 tt.attacks.list[3].bullet = "shotgun_musketeer_sniper_instakill"
 tt.attacks.list[4] = CC("bullet_attack")
 tt.attacks.list[4].ts = nil

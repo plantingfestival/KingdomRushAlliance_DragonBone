@@ -8595,7 +8595,7 @@ return {
 		a_name = "go_stage306-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			1147,
@@ -8619,7 +8619,7 @@ return {
 		a_name = "go_stage306-1.dds",
 		size = {
 			2732,
-			1490
+			1536
 		},
 		trim = {
 			1097,

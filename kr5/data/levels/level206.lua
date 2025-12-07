@@ -13,6 +13,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage206",
+	"kr2_common",
 	"BossEfreeti"
 }
 level.required_textures = {

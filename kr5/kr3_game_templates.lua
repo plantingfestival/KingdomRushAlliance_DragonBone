@@ -14544,6 +14544,7 @@ tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 25)
 tt.unit.size = UNIT_SIZE_LARGE
+tt.vis.bans = F_INSTAKILL
 tt.vis.flags = bor(tt.vis.flags, F_SPELLCASTER)
 tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = RT("enemy_ogre_magi_custody_ettin", "enemy_ettin")

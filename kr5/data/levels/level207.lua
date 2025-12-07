@@ -21,12 +21,14 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage207",
+	"kr2_common",
 	"FrontiersJungleAmbienceSounds",
 	"AmazonSounds",
 	"SpecialCutTreeSounds"
 }
 level.required_textures = {
 	"go_enemies_jungle",
+	"go_enemies_common-1",
 	"go_stages_jungle",
 	"go_towers_ignis_altar",
 	"go_stage207",

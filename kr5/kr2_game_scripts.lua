@@ -1,4 +1,4 @@
-﻿-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\kr2_game_scripts.lua
+-- chunkname: @C:\\Users\\dev02\\Desktop\\Customized KR5\\Kingdom Rush Alliance\\kr5\\kr2_game_scripts.lua
 
 local log = require("klua.log"):new("game_scripts")
 local km = require("klua.macros")
@@ -3821,6 +3821,8 @@ function scripts.tower_dwaarp.update(this, store, script)
 
 							drill.bullet.target_id = enemy.id
 							drill.pos.x, drill.pos.y = enemy.pos.x, enemy.pos.y
+							drill.level = pow_d.level
+							drill.damage = pow_d.damage[pow_d.level]
 
 							queue_insert(store, drill)
 						end
@@ -4383,12 +4385,17 @@ function scripts.drill.update(this, store, script)
 
 	local d = E:create_entity("damage")
 
-	d.damage_type = DAMAGE_INSTAKILL
-	d.source_id = this.id
-	d.target_id = target.id
-	d.pop = b.pop
-	d.pop_conds = b.pop_conds
-	d.pop_chance = b.pop_chance
+	if U.flag_has(target.vis.flags, bor(F_BOSS, F_MINIBOSS)) then
+	    d.damage_type = b.damage_type
+		d.value = this.damage
+	else
+	    d.damage_type = DAMAGE_INSTAKILL
+	end
+	    d.source_id = this.id
+	    d.target_id = target.id
+	    d.pop = b.pop
+	    d.pop_conds = b.pop_conds
+	    d.pop_chance = b.pop_chance
 
 	queue_damage(store, d)
 

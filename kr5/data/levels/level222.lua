@@ -19,6 +19,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage222",
+	"kr2_common",
 	"FrontiersUndergroundAmbienceSounds",
 	"SaurianKingBoss",
 	"SaurianSniperSounds",

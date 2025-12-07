@@ -1814,6 +1814,30 @@ return {
 					"enemy_halloween_zombie"
 				},
 				{
+					10,
+					0,
+					1,
+					nil,
+					0,
+					false,
+					true,
+					1,
+					1,
+					"enemy_halloween_zombie"
+				},
+				{
+					20,
+					0,
+					1,
+					nil,
+					0,
+					false,
+					true,
+					1,
+					1,
+					"enemy_halloween_zombie"
+				},
+				{
 					40,
 					0,
 					1,

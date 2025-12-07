@@ -26,6 +26,7 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage212",
+	"kr2_common",
 	"FrontiersUndergroundAmbienceSounds"
 }
 level.required_textures = {

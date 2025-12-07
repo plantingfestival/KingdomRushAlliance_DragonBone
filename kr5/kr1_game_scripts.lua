@@ -473,11 +473,16 @@ function scripts.tower_musketeer.update(this, store)
 		b.bullet.damage_factor = this.tower.damage_factor
 
 		if attack == asn then
+			if U.flag_has(enemy.vis.flags, F_BOSS) then
+				b.bullet.damage_max = b.bullet.boss_damage_max * pow_sn.level
+				b.bullet.damage_min = b.bullet.boss_damage_min * pow_sn.level
+			else
 			local extra_damage = pow_sn.damage_factor_inc * pow_sn.level * enemy.health.hp_max
 
-			b.bullet.damage_max = b.bullet.damage_max + extra_damage
-			b.bullet.damage_min = b.bullet.damage_min + extra_damage
+			b.bullet.damage_max = extra_damage
+			b.bullet.damage_min = extra_damage
 		end
+	end
 
 		queue_insert(store, b)
 
@@ -7061,6 +7066,8 @@ function scripts.eb_myconid.update(this, store)
 			signal.emit("boss-killed", this)
 			SU.fade_out_entity(store, this, this.unit.fade_time_after_death)
 
+			this.phase = "dead_end"
+
 			return
 		end
 
@@ -7276,6 +7283,7 @@ function scripts.eb_blackburn.update(this, store)
 			this.melee.attacks[1].damage_min = this.third_life_damage_min
 			this.motion.max_speed = this.third_life_max_speed
 			this.health.ignore_damage = nil
+			this.health.immune_to = DAMAGE_PHYSICAL
 			this.vis.bans = this.vis._original_bans
 			this.vis._original_bans = nil
 			this.render.sprites[1].prefix = this.third.sprites_prefix
@@ -7308,6 +7316,9 @@ function scripts.eb_blackburn.update(this, store)
 			U.animation_start(this, "death_end", nil, store.tick_ts, true)
 			signal.emit("boss-killed", this)
 			LU.kill_all_enemies(store, true)
+			S:stop_all()
+
+			this.phase = "dead_end"
 
 			return
 		end
@@ -7464,7 +7475,10 @@ function scripts.blackburn_spawner_aura.update(this, store)
 	if not owner then
 		log.error("owner %s was not found. baling out", this.aura.source_id)
 	else
-		while not owner.dying do
+		while true do
+			if owner.health.dead then
+				queue_remove(store, this)
+			end
 			for i, v in ipairs(this.spawn_data) do
 				local template, cooldown, delay, pi, spi = unpack(v)
 

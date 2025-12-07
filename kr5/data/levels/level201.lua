@@ -19,13 +19,15 @@ local level = {}
 
 level.required_sounds = {
 	"music_stage201",
+	"kr2_common",
 	"Level1SpecialEnding"
 }
 level.required_textures = {
 	"go_enemies_desert",
 	"go_stages_desert",
 	"go_stage201",
-	"go_stage201_bg"
+	"go_stage201_bg",
+	"go_towers_sand"
 }
 level.custom_spawn_pos = {
 	{

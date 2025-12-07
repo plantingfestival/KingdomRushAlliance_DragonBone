@@ -18,6 +18,13 @@ return {
 			}
 		}
 	},
+	custom_start_pos = {
+		zoom = 1.3,
+		pos = {
+			x = 512,
+			y = 384
+		}
+	},
 	entities_list = {
 		{
 			template = "decal_background",

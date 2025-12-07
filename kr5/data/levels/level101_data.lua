@@ -7,7 +7,7 @@ return {
 	custom_spawn_pos = {
 		{
 			pos = {
-				x = 671,
+				x = 1006,
 				y = 304
 			}
 		},
@@ -16,6 +16,13 @@ return {
 				x = 510,
 				y = 224
 			}
+		}
+	},
+	custom_start_pos = {
+		zoom = 1.3,
+		pos = {
+			x = 512,
+			y = 384
 		}
 	},
 	entities_list = {
