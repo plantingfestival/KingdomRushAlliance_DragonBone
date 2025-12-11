@@ -2037,7 +2037,7 @@ return {
 							interval = 192,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_sarelgaz_small",
+							creep = "enemy_sarelgaz_medium",
 							path = 1,
 							interval_next = 100,
 							max = 1
@@ -2050,7 +2050,7 @@ return {
 							max_same = 4,
 							path = 1,
 							interval_next = 100,
-							max = 5
+							max = 7
 						},
 						{
 							interval = 64,
@@ -2060,7 +2060,7 @@ return {
 							max_same = 4,
 							path = 1,
 							interval_next = 100,
-							max = 5
+							max = 7
 						},
 						{
 							interval = 64,
@@ -2070,7 +2070,16 @@ return {
 							max_same = 4,
 							path = 1,
 							interval_next = 100,
-							max = 5
+							max = 7
+						},
+						{
+							interval = 36,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_spider_big",
+							path = 1,
+							interval_next = 100,
+							max = 10
 						},
 						{
 							interval = 128,
@@ -2079,16 +2088,25 @@ return {
 							creep = "enemy_sarelgaz_small",
 							path = 1,
 							interval_next = 100,
-							max = 5
+							max = 7
 						},
 						{
-							interval = 64,
+							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_spider_big",
 							path = 1,
 							interval_next = 100,
-							max = 10
+							max = 20
+						},
+						{
+							interval = 392,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_sarelgaz_medium",
+							path = 1,
+							interval_next = 0,
+							max = 3
 						}
 					}
 				},
@@ -2151,8 +2169,17 @@ return {
 							creep = "enemy_spider_big",
 							path = 1,
 							interval_next = 100,
-							max = 10
-						}
+							max = 15
+						},
+						{
+							interval = 164,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_sarelgaz_medium",
+							path = 1,
+							interval_next = 0,
+							max = 3
+						},
 					}
 				},
 				{
@@ -2167,6 +2194,15 @@ return {
 							path = 1,
 							interval_next = 100,
 							max = 10
+						},
+						{
+							interval = 30,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_sarelgaz_small",
+							path = 1,
+							interval_next = 100,
+							max = 15
 						}
 					}
 				},
@@ -2175,10 +2211,10 @@ return {
 					path_index = 4,
 					spawns = {
 						{
-							interval = 192,
+							interval = 162,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_sarelgaz_small",
+							creep = "enemy_sarelgaz_medium",
 							path = 1,
 							interval_next = 100,
 							max = 1
@@ -2223,13 +2259,22 @@ return {
 							max = 5
 						},
 						{
-							interval = 64,
+							interval = 32,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_spider_big",
 							path = 1,
 							interval_next = 100,
-							max = 10
+							max = 20
+						},
+						{
+							interval = 192,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_sarelgaz_medium",
+							path = 1,
+							interval_next = 0,
+							max = 3
 						}
 					}
 				}

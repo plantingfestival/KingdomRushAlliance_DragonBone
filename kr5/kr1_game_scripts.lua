@@ -6070,8 +6070,8 @@ function scripts.eb_veznan.update(this, store)
 	U.y_animation_play(this, "demonTransform", nil, store.tick_ts, 1)
 
 	this.enemy.melee_slot = this.demon.melee_slot
-	this.health.hp = initial_hp*100
-	this.health.hp_max = initial_hp*100
+	this.health.hp = initial_hp*1000
+	this.health.hp_max = initial_hp*1000
 	this.health.armor = this.demon.armor
 	this.health.magic_armor = this.demon.magic_armor
 	this.health_bar.offset = this.demon.health_bar_offset

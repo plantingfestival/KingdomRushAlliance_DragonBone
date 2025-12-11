@@ -253,19 +253,19 @@ return {
 							max = 1
 						},
 						{
-							interval = 0,
+							interval = 20,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_demon",
 							path = 2,
 							interval_next = 0,
-							max = 1
+							max = 10
 						},
 						{
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_demon",
+							creep = "enemy_demon_mage",
 							path = 3,
 							interval_next = 200,
 							max = 1
@@ -525,7 +525,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_demon_imp",
 							path = 1,
 							interval_next = 0,
 							max = 1
@@ -543,7 +543,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_demon_imp",
 							path = 2,
 							interval_next = 0,
 							max = 1
@@ -552,7 +552,7 @@ return {
 							interval = 0,
 							max_same = 0,
 							fixed_sub_path = 1,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_demon_imp",
 							path = 3,
 							interval_next = 300,
 							max = 1
@@ -586,19 +586,28 @@ return {
 							interval = 102,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_demon_imp",
-							path = 1,
-							interval_next = 0,
-							max = 6
-						},
-						{
-							interval = 0,
-							max_same = 0,
-							fixed_sub_path = 1,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_demon_mage",
 							path = 1,
 							interval_next = 0,
 							max = 1
+						},
+						{
+							interval = 20,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_demon",
+							path = 1,
+							interval_next = 0,
+							max = 18
+						},
+						{
+							interval = 102,
+							max_same = 0,
+							fixed_sub_path = 0,
+							creep = "enemy_demon_mage",
+							path = 1,
+							interval_next = 0,
+							max = 3
 						},
 						{
 							interval = 38,

@@ -6670,6 +6670,10 @@ tt = RT("fx_bullet_dark_spitters_miss", "fx")
 tt.render.sprites[1].name = "fx_bullet_dark_spitters_miss"
 tt.render.sprites[1].anchor.y = 0.26666666666666666
 tt.render.sprites[1].z = Z_OBJECTS
+tt = RT("fx_bullet_balrog_hit_boss", "fx")
+tt.render.sprites[1].name = "balrog_aura_splash"
+tt.render.sprites[1].scale = vv(3)
+tt.render.sprites[1].anchor.y = 0.43636363636363634
 tt = RT("fx_bullet_balrog_hit", "fx")
 tt.render.sprites[1].name = "balrog_aura_splash"
 tt.render.sprites[1].anchor.y = 0.43636363636363634
@@ -14766,7 +14770,7 @@ tt.death_spawns.no_spawn_damage_types = bor(DAMAGE_EXPLOSION, DAMAGE_FX_EXPLODE)
 tt.enemy.gold = 140
 tt.enemy.lives_cost = 3
 tt.enemy.melee_slot = v(40, 0)
-tt.health.armor = 0.95
+tt.health.armor = 0.9
 tt.health.hp_max = 3000
 tt.health_bar.offset = v(0, 55)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -14775,12 +14779,12 @@ tt.info.portrait = "bottom_info_image_enemies_0154"
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_mixed.update
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].cooldown = 1.25
 tt.melee.attacks[1].count = 50
 tt.melee.attacks[1].damage_max = 96
 tt.melee.attacks[1].damage_min = 64
 tt.melee.attacks[1].damage_radius = 45
-tt.melee.attacks[1].damage_type = DAMAGE_PHYSICAL
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.attacks[1].hit_time = fts(10)
 tt.melee.attacks[1].hit_offset = v(40, 0)
 tt.melee.attacks[1].sound_hit = "ElvesShadowChampionAttack"
@@ -14794,7 +14798,50 @@ tt.unit.hit_offset = v(0, 27)
 tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 27)
 tt.unit.size = UNIT_SIZE_MEDIUM
-tt.vis.bans = bor(F_INSTAKILL, DAMAGE_TRUE)
+tt.vis.bans = bor(F_INSTAKILL, F_EAT)
+tt = RT("enemy_balrog_son", "enemy")
+
+AC(tt, "melee", "ranged")
+
+tt.enemy.lives_cost = 5
+tt.enemy.gold = 1000
+tt.enemy.melee_slot = v(27, 0)
+tt.health.armor = 0.95
+tt.health.hp_max = 18600
+tt.health_bar.offset = v(0, 53)
+tt.info.enc_icon = 45
+tt.info.i18n_key = "ENEMY_BALROG_SON"
+tt.info.portrait = "bottom_info_image_enemies_0155"
+tt.main_script.insert = kr3_scripts.enemy_basic.insert
+tt.main_script.update = kr3_scripts.enemy_mixed.update
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 250
+tt.melee.attacks[1].damage_min = 100
+tt.melee.attacks[1].damage_type = DAMAGE_TRUE
+tt.melee.attacks[1].hit_time = fts(17)
+tt.motion.max_speed = 1 * FPS
+tt.ranged.attacks[1].bullet = "bullet_balrog"
+tt.ranged.attacks[1].animation = "spit"
+tt.ranged.attacks[1].bullet_start_offset = {
+	v(8, 36)
+}
+tt.ranged.attacks[1].cooldown = 1.5 + fts(19)
+tt.ranged.attacks[1].hold_advance = true
+tt.ranged.attacks[1].max_range = 195
+tt.ranged.attacks[1].min_range = 60
+tt.ranged.attacks[1].shoot_time = fts(11)
+tt.ranged.attacks[1].vis_flags = bor(F_RANGED, F_BURN)
+tt.render.sprites[1].anchor = v(0.5, 0.12857142857142856)
+tt.render.sprites[1].prefix = "eb_balrog"
+tt.render.sprites[1].scale = vv(1.15)
+tt.sound_events.death = "ElvesBalrogDeath"
+tt.ui.click_rect = r(-15, 0, 30, 40)
+tt.unit.blood_color = BLOOD_ORANGE
+tt.unit.hit_offset = v(0, 18)
+tt.unit.marker_offset = v(0, 0)
+tt.unit.mod_offset = v(0, 16)
+tt.vis.bans = bor(F_TELEPORT, F_POLYMORPH, F_INSTAKILL, F_EAT)
+tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt = RT("enemy_gnoll_warleader", "enemy")
 
 AC(tt, "melee", "death_spawns")
@@ -14882,7 +14929,7 @@ tt.auras.list[1].cooldown = 0
 tt.enemy.gold = 1
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(40, 0)
-tt.health.armor = 0.6
+tt.health.armor = 0.7
 tt.health.dead_lifetime = 100
 tt.health.hp_max = 10000
 tt.health_bar.offset = v(0, 100)
@@ -15503,10 +15550,10 @@ tt.timed_attacks.list[2].hit_time = fts(13)
 tt.timed_attacks.list[2].power_block_duration = 5
 tt.timed_attacks.list[2].hit_sound = "ElvesFinalBossCastSpell"
 tt.timed_attacks.list[2].tower_count = {
-	1,
+	2,
 	2,
 	3,
-	3
+	4
 }
 tt.timed_attacks.list[2].mod = "mod_eb_spider_tower_block"
 tt.timed_attacks.list[3] = CC("bullet_attack")
@@ -15526,8 +15573,8 @@ tt.timed_attacks.list[3].bullet_start_offset = {
 	v(19, 42)
 }
 tt = RT("ray_eb_spider", "bullet")
-tt.bullet.damage_max = 120
-tt.bullet.damage_min = 80
+tt.bullet.damage_max = 240
+tt.bullet.damage_min = 160
 tt.bullet.damage_radius = 45
 tt.bullet.damage_type = bor(DAMAGE_TRUE, DAMAGE_NO_DODGE)
 tt.bullet.hit_fx = "fx_ray_eb_spider_explosion"
@@ -15883,19 +15930,19 @@ tt.timed_attacks.list[1].nodes_limit = 0
 tt.timed_attacks.list[1].vis_flags = bor(F_RANGED, F_MOD)
 tt.timed_attacks.list[1].sound = "ElvesBossBramGroundStomp"
 tt.second_phase = {}
-tt.second_phase.damage_max = 4500
-tt.second_phase.damage_min = 1000
+tt.second_phase.damage_max = 1000
+tt.second_phase.damage_min = 800
 tt.second_phase.armor = 1
 tt.second_phase.magic_armor = 0
 tt.second_phase.wait_time = 5
-tt.second_phase.hp_factor = 200
+tt.second_phase.hp_factor = 20
 tt.second_phase.max_speed = 10
 tt.second_phase.max_range = 350
 tt.second_phase.max_count = 100
 tt.second_phase.min_count = 10
 tt.bram = {}
 tt.bram.sprites_prefix = "eb_bram"
-tt.bram.sprites_scale = vv(18)
+tt.bram.sprites_scale = vv(7.5)
 tt.taunts.delay_min = 15
 tt.taunts.delay_max = 20
 tt.taunts.duration = 3.7
@@ -16083,10 +16130,11 @@ tt.enemy.gold = 0
 tt.enemy.lives_cost = 999
 tt.enemy.melee_slot = v(60, 0)
 tt.health.dead_lifetime = 100
-tt.health.hp_max = 800000
+tt.health.hp_max = 240000
 tt.health.armor = 1.6
+tt.health.magic_armor = 0.75
 tt.health_bar.offset = v(0, 100)
-tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.enc_icon = 48
 tt.info.i18n_key = "ENEMY_BOSS_BALROG"
 tt.info.portrait = "bottom_info_image_enemies_0155"
@@ -16101,7 +16149,7 @@ tt.render.sprites[1].angles.walk = {
 	"walkingDown"
 }
 tt.render.sprites[1].prefix = "eb_balrog"
-tt.render.sprites[1].scale = vv(5.5)
+tt.render.sprites[1].scale = vv(6)
 tt.sound_events.death = "ElvesBalrogDeath"
 tt.ui.click_rect = r(-35, 0, 70, 80)
 tt.unit.blood_color = BLOOD_ORANGE
@@ -16111,11 +16159,11 @@ tt.unit.marker_offset = v(0, 0)
 tt.unit.mod_offset = v(0, 45)
 tt.unit.show_blood_pool = false
 tt.unit.size = UNIT_SIZE_LARGE
-tt.vis.bans = bor(F_SKELETON, F_POLYMORPH)
+tt.vis.bans = bor(F_SKELETON, F_TELEPORT, F_POLYMORPH, F_INSTAKILL, F_EAT)
 tt.melee.attacks[1] = CC("area_attack")
-tt.melee.attacks[1].cooldown = 1.5
+tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 1250
-tt.melee.attacks[1].damage_min = 500
+tt.melee.attacks[1].damage_min = 300
 tt.melee.attacks[1].damage_radius = 45
 tt.melee.attacks[1].damage_type = DAMAGE_TRUE
 tt.melee.attacks[1].count = 99
@@ -16124,13 +16172,13 @@ tt.melee.attacks[1].hit_offset = v(60, -2)
 tt.melee.attacks[1].sound = "ElvesBalrogAttack"
 tt.melee.attacks[1].uninterruptible = true
 tt.timed_attacks.list[1] = CC("bullet_attack")
-tt.timed_attacks.list[1].bullet = "bullet_balrog"
+tt.timed_attacks.list[1].bullet = "bullet_balrog_boss"
 tt.timed_attacks.list[1].animation = "spit"
 tt.timed_attacks.list[1].cooldown = {
-	10,
-	10,
-	10,
-	9
+	9,
+	9,
+	7,
+	5
 }
 tt.timed_attacks.list[1].shoot_time = fts(9)
 tt.timed_attacks.list[1].max_range = 1e+99
@@ -16139,8 +16187,20 @@ tt.timed_attacks.list[1].bullet_start_offset = {
 	v(23, 82)
 }
 tt.timed_attacks.list[1].sound = "ElvesBalrogSpit"
-tt.timed_attacks.list[1].vis_bans = bor(F_ENEMY, F_FLYING)
+tt.timed_attacks.list[1].vis_bans = F_ENEMY
 tt.timed_attacks.list[1].vis_flag = F_RANGED
+tt.second_phase = {}
+tt.second_phase.damage_max = 4000
+tt.second_phase.damage_min = 800
+tt.second_phase.armor = 0.95
+tt.second_phase.magic_armor = 1.6
+tt.second_phase.wait_time = 5
+tt.second_phase.hp_factor = 25
+tt.second_phase.max_speed = 10
+tt.second_phase.cooldown = 3
+tt.balrog = {}
+tt.balrog.sprites_prefix = "eb_balrog"
+tt.balrog.sprites_scale = vv(15)
 tt = RT("eb_hee_haw", "decal_scripted")
 
 AC(tt, "taunts", "attacks")
@@ -16887,12 +16947,30 @@ tt.bullet.pop = nil
 tt.render.sprites[1].name = "dark_spitters_proy"
 tt.render.sprites[1].animated = true
 tt.sound_events.insert = "ElvesDarkSpitterSpit"
-tt = RT("bullet_balrog", "bomb")
-tt.bullet.damage_max = 400
-tt.bullet.damage_min = 200
+tt = RT("bullet_balrog_boss", "bomb")
+tt.bullet.damage_max = 500
+tt.bullet.damage_min = 250
 tt.bullet.align_with_trajectory = true
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_bans = bor(F_ENEMY, F_FRIEND)
+tt.bullet.damage_bans = F_ENEMY
+tt.bullet.hit_fx = "fx_bullet_balrog_hit_boss"
+tt.bullet.hit_decal = "aura_bullet_balrog_boss"
+tt.bullet.flight_time_base = fts(3)
+tt.bullet.flight_time_factor = fts(0.04)
+tt.bullet.particles_name = "ps_bullet_balrog"
+tt.render.sprites[1].name = "bullet_balrog"
+tt.render.sprites[1].scale = vv(5)
+tt.render.sprites[1].animated = true
+tt.main_script.insert = kr3_scripts.enemy_bomb.insert
+tt.main_script.update = kr3_scripts.enemy_bomb.update
+tt.sound_events.insert = nil
+tt.sound_events.hit = "ElvesBalrogBloodpool"
+tt = RT("bullet_balrog", "bomb")
+tt.bullet.damage_max = 150
+tt.bullet.damage_min = 70
+tt.bullet.align_with_trajectory = true
+tt.bullet.damage_type = DAMAGE_TRUE
+tt.bullet.damage_bans = F_ENEMY
 tt.bullet.hit_fx = "fx_bullet_balrog_hit"
 tt.bullet.hit_decal = "aura_bullet_balrog"
 tt.bullet.flight_time_base = fts(3)
@@ -17381,14 +17459,95 @@ tt.aura.include_enemies = {
 	"enemy_dark_spitters",
 	"enemy_grim_devourers"
 }
+tt = RT("aura_bullet_balrog_boss", "aura")
+
+AC(tt, "render", "tween")
+
+tt.aura.cycle_time = fts(10)
+tt.aura.duration = 45
+tt.aura.mod = "mod_balrog_boss"
+tt.aura.radius = 60
+tt.aura.vis_bans = F_ENEMY
+tt.aura.vis_flags = bor(F_MOD)
+tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
+tt.main_script.update = kr3_scripts.aura_apply_mod.update
+tt.render.sprites[1].name = "balrog_aura_loop"
+tt.render.sprites[1].scale = vv(3)
+tt.render.sprites[1].anchor.y = 0.41818181818181815
+tt.render.sprites[2] = CC("sprite")
+tt.render.sprites[2].name = "balrog_aura_bubble_pop"
+tt.render.sprites[2].scale = vv(1)
+tt.render.sprites[2].loop = true
+tt.tween.props[1].keys = {
+	{
+		0,
+		0
+	},
+	{
+		fts(12),
+		255
+	},
+	{
+		10,
+		255
+	},
+	{
+		10.5,
+		0
+	}
+}
+tt.tween.props[2] = CC("tween_prop")
+tt.tween.props[2].name = "scale"
+tt.tween.props[2].keys = {
+	{
+		0,
+		vv(0.42)
+	},
+	{
+		fts(12),
+		vv(1)
+	}
+}
+tt.tween.props[3] = CC("tween_prop")
+tt.tween.props[3].name = "offset"
+tt.tween.props[3].keys = {
+	{
+		0,
+		v(0, -10)
+	},
+	{
+		fts(55),
+		v(30, -20)
+	},
+	{
+		fts(110),
+		v(35, -5)
+	},
+	{
+		fts(165),
+		v(-35, -8)
+	},
+	{
+		fts(220),
+		v(25, -20)
+	},
+	{
+		fts(275),
+		v(-30, -20)
+	}
+}
+tt.tween.props[3].loop = true
+tt.tween.props[3].sprite_id = 2
+tt.tween.props[3].interp = "step"
+tt.tween.remove = false
 tt = RT("aura_bullet_balrog", "aura")
 
 AC(tt, "render", "tween")
 
 tt.aura.cycle_time = fts(10)
-tt.aura.duration = 20
+tt.aura.duration = 12
 tt.aura.mod = "mod_balrog"
-tt.aura.radius = 150
+tt.aura.radius = 50
 tt.aura.vis_bans = bor(F_ENEMY, F_FLYING)
 tt.aura.vis_flags = bor(F_MOD)
 tt.main_script.insert = kr3_scripts.aura_apply_mod.insert
@@ -18456,6 +18615,24 @@ tt.dps.damage_every = fts(11)
 tt.dps.damage_max = 10
 tt.dps.damage_min = 10
 tt.dps.damage_type = DAMAGE_POISON
+tt = RT("mod_dark_spitters_boss", "modifier")
+
+AC(tt, "render", "dps")
+
+tt.explode_fx = "fx_unit_explode"
+tt.modifier.duration = 3 - fts(11)
+tt.modifier.vis_flags = bor(F_MOD, F_BURN)
+tt.nodes_limit = 20
+tt.spawn_entity = "enemy_shadow_champion"
+tt.render.sprites[1].name = "mod_dark_spitters"
+tt.render.sprites[1].scale = vv(2)
+tt.render.sprites[1].draw_order = 10
+tt.main_script.insert = kr3_scripts.mod_dps.insert
+tt.main_script.update = kr3_scripts.mod_dark_spitters_boss.update
+tt.dps.damage_every = fts(11)
+tt.dps.damage_max = 30
+tt.dps.damage_min = 30
+tt.dps.damage_type = DAMAGE_TRUE
 tt = RT("mod_shadow_champion", "mod_gnoll_boss")
 tt.main_script.insert = kr3_scripts.mod_shadow_champion.insert
 tt.main_script.remove = kr3_scripts.mod_shadow_champion.remove
@@ -18464,6 +18641,8 @@ tt.modifier.duration = 120
 tt.inflicted_damage_factor = 1.2
 tt.heal_factor = 1
 tt = RT("mod_balrog", "mod_dark_spitters")
+tt.modifier.duration = 5 - fts(11)
+tt = RT("mod_balrog_boss", "mod_dark_spitters_boss")
 tt.modifier.duration = 5 - fts(11)
 tt = RT("mod_snare_hee_haw", "mod_spider_web")
 tt.render.sprites[1].prefix = "mod_snare_hee_haw"

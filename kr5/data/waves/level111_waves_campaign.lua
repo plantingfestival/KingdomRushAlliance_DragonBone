@@ -1387,10 +1387,10 @@ return {
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_demon",
 							path = 1,
 							interval_next = 150,
-							max = 1
+							max = 6
 						},
 						{
 							interval = 38,
@@ -1405,7 +1405,7 @@ return {
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_necromancer",
 							path = 1,
 							interval_next = 50,
 							max = 1
@@ -1456,7 +1456,7 @@ return {
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_necromancer",
 							path = 1,
 							interval_next = 150,
 							max = 1
@@ -1474,7 +1474,7 @@ return {
 							interval = 128,
 							max_same = 0,
 							fixed_sub_path = 0,
-							creep = "enemy_lava_elemental",
+							creep = "enemy_necromancer",
 							path = 1,
 							interval_next = 50,
 							max = 1

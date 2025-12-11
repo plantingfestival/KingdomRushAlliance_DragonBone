@@ -11527,9 +11527,9 @@ tt.auras.list[1].cooldown = 0
 tt.enemy.gold = 20
 tt.enemy.melee_slot = v(20, 0)
 tt.cannibalize = {}
-tt.cannibalize.extra_hp = 50
+tt.cannibalize.extra_hp = 100
 tt.cannibalize.hps = 3 * FPS
-tt.cannibalize.max_hp = 600
+tt.cannibalize.max_hp = 900
 tt.health.armor = 0.2
 tt.health.hp_max = 400
 tt.health.magic_armor = 0
@@ -12249,21 +12249,17 @@ tt.attacks.list[5].limit_ni = 50
 tt.attacks.list[5].cooldown = 30
 tt.attacks.list[5].callback_pieces = {
 	7,
-	4,
-	2,
+	5,
+	3,
 	1
 }
-tt.attacks.list[5].min_pieces_to_respawn = 3
+tt.attacks.list[5].min_pieces_to_respawn = 2
 tt.enemy.gold = 0
-tt.enemy.lives_cost = 999
+tt.enemy.lives_cost = 0
 tt.enemy.melee_slot = v(25, 0)
 tt.health.dead_lifetime = fts(1000)
 tt.health.armor = 0.8
-tt.health.hp_max = {
-	168000,
-	224000,
-	300000
-}
+tt.health.hp_max = 300000
 tt.health.magic_armor = 0.8
 tt.health_bar.offset = v(0, ady(166))
 tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
@@ -12358,8 +12354,8 @@ tt.render.sprites[1].name = "ray_umbra"
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].anchor = v(0, 1)
 tt.bullet.damage_type = DAMAGE_TRUE
-tt.bullet.damage_min = 1500
-tt.bullet.damage_max = 3000
+tt.bullet.damage_min = 6666
+tt.bullet.damage_max = 9999
 tt.bullet.damage_radius = 200
 tt.bullet.max_track_distance = 50
 tt.bullet.vis_bans = bor(F_ENEMY)
@@ -12376,6 +12372,7 @@ tt = E:register_t("fx_ray_umbra_explosion_smoke", "fx")
 tt.render.sprites[1].name = "ray_umbra_explosion_smoke"
 tt = E:register_t("fx_umbra_death_blast", "fx")
 tt.render.sprites[1].prefix = "umbra_death_blast"
+tt.render.sprites[1].scale = vv(4)
 tt.render.sprites[1].name = "short"
 tt.render.sprites[1].anchor.y = 0.18
 tt = E:register_t("mod_umbra", "modifier")
@@ -12393,6 +12390,7 @@ E:add_comps(tt, "render", "spawner")
 
 tt.main_script.update = kr2_scripts.umbra_portal.update
 tt.render.sprites[1].prefix = "umbra_portal"
+tt.render.sprites[1].scale = vv(1.25)
 tt.render.sprites[1].z = Z_DECALS
 tt.spawner.count = 0
 tt.spawner.cycle_time = fts(6)
@@ -12414,7 +12412,7 @@ image_y = 66
 tt.enemy.gold = 5
 tt.enemy.melee_slot = v(26, 0)
 tt.health.armor = 0
-tt.health.hp_max = 450
+tt.health.hp_max = 750
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(62))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
@@ -12456,11 +12454,11 @@ tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.info.portrait = "bottom_info_image_enemies_0111"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_umbra_piece.update
-tt.melee.attacks[1].cooldown = 2
+tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 100
 tt.melee.attacks[1].damage_min = 100
 tt.melee.attacks[1].hit_time = fts(12)
-tt.motion.max_speed = 1.28 * FPS
+tt.motion.max_speed = 1.88 * FPS
 tt.motion.max_speed_called = 6.656000000000001 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
 tt.render.sprites[1].name = "idle"
@@ -13515,20 +13513,20 @@ E:add_comps(tt, "melee", "tween")
 
 anchor_y = 0.15
 image_y = 100
-tt.info.portrait = IS_PHONE_OR_TABLET and "portraits_sc_0044" or "info_portraits_enemies_0027"
+tt.info.portrait = "bottom_info_image_enemies_0185"
 tt.enemy.gold = 0
 tt.enemy.lives_cost = 0
 tt.enemy.melee_slot = v(24, 0)
 tt.health.armor = 0
-tt.health.hp_max = 400
+tt.health.hp_max = 1200
 tt.health.magic_armor = 0
 tt.health_bar.offset = v(0, ady(70))
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_cannibal_volcano.update
 tt.melee.attacks[1].cooldown = 1
-tt.melee.attacks[1].damage_max = 6
-tt.melee.attacks[1].damage_min = 3
+tt.melee.attacks[1].damage_max = 60
+tt.melee.attacks[1].damage_min = 30
 tt.melee.attacks[1].hit_time = fts(12)
 tt.motion.max_speed = 1.28 * FPS
 tt.render.sprites[1].anchor.y = anchor_y
@@ -14331,7 +14329,7 @@ tt.health.hp_max = 1000
 tt.health_bar.offset = v(7, 85)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM_LARGE
 tt.info.fn = kr2_scripts.enemy_gunboat.get_info
-tt.info.portrait = "bottom_info_image_enemies_0112"
+tt.info.portrait = "bottom_info_image_enemies_0186"
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_gunboat.update
 tt.motion.max_speed = 1.024 * FPS

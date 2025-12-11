@@ -1595,6 +1595,15 @@ return {
 							max = 1
 						},
 						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
 							interval = 38,
 							path = 1,
 							fixed_sub_path = 0,
@@ -1602,6 +1611,15 @@ return {
 							max_same = 0,
 							interval_next = 225,
 							max = 5
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
 						},
 						{
 							interval = 0,
@@ -1683,12 +1701,30 @@ return {
 						},
 						{
 							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
+							interval = 0,
 							path = 3,
 							fixed_sub_path = 1,
 							creep = "enemy_myrmidon",
 							max_same = 0,
 							interval_next = 225,
 							max = 1
+						},
+						{
+							interval = 0,
+							max = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
 						},
 						{
 							interval = 38,
@@ -1751,13 +1787,22 @@ return {
 							max = 1
 						},
 						{
+							interval = 40,
+							max = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
 							interval = 38,
 							path = 1,
 							fixed_sub_path = 0,
 							creep = "enemy_broodguard",
 							max_same = 0,
 							interval_next = 225,
-							max = 5
+							max = 10
 						}
 					}
 				}
@@ -1830,6 +1875,15 @@ return {
 							max_same = 0,
 							interval_next = 50,
 							max = 6
+						},
+						{
+							interval = 40,
+							max = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
 						},
 						{
 							interval = 0,
@@ -2030,6 +2084,15 @@ return {
 							max = 1
 						},
 						{
+							interval = 40,
+							max = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
 							interval = 0,
 							path = 2,
 							fixed_sub_path = 1,
@@ -2188,6 +2251,15 @@ return {
 							max_same = 0,
 							interval_next = 400,
 							max = 1
+						},
+						{
+							interval = 0,
+							max = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
 						},
 						{
 							interval = 0,
@@ -2546,6 +2618,15 @@ return {
 							max = 1
 						},
 						{
+							interval = 30,
+							max = 5,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
 							interval = 0,
 							path = 1,
 							fixed_sub_path = 0,
@@ -2579,6 +2660,15 @@ return {
 							max = 1
 						}, 
 						{
+							interval = 30,
+							max = 5,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 50,
+							path = 1
+						},
+						{
 							interval = 0,
 							path = 1,
 							fixed_sub_path = 0,
@@ -2599,6 +2689,746 @@ return {
 					}
 				}
 			}
+		},
+		{
+			interval = 2000,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 5
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 6
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 50,
+							max = 6
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 5
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 6
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 50,
+							max = 6
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 1500,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 5
+						},
+						{
+							interval = 200,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 100,
+							max = 4
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 50,
+							max = 4
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 6
+						},
+						{
+							interval = 300,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 5
+						},
+						{
+							interval = 200,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 100,
+							max = 4
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 50,
+							max = 4
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 6
+						},
+						{
+							interval = 200,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 100,
+							max = 12
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 100,
+							max = 12
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 100,
+							max = 12
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 100,
+							max = 12
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 1500,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 200,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 0,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 0,
+							max = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 16
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 16
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 200,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 4
+						},
+						{
+							interval = 0,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 0,
+							max = 1
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 16
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 100,
+							max = 16
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 1500,
+			waves = {
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 100,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 500,
+							max = 12
+						},
+						{
+							interval = 600,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 2000,
+							max = 2
+						},
+						{
+							interval = 600,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 2000,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 16
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 16
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 20,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_broodguard",
+							max_same = 0,
+							interval_next = 0,
+							max = 120
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 20,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_broodguard",
+							max_same = 0,
+							interval_next = 0,
+							max = 120
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 0,
+							max = 20
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 0,
+							max = 20
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 100,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 500,
+							max = 12
+						},
+						{
+							interval = 600,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 2000,
+							max = 2
+						},
+						{
+							interval = 600,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 0,
+							max = 2
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 0,
+							max = 12
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_brute",
+							max_same = 0,
+							interval_next = 0,
+							max = 12
+						},
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_savant",
+							max_same = 0,
+							interval_next = 0,
+							max = 8
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 20,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_broodguard",
+							max_same = 0,
+							interval_next = 0,
+							max = 120
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 20,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_broodguard",
+							max_same = 0,
+							interval_next = 0,
+							max = 120
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 1,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 0,
+							max = 20
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 50,
+							path = 3,
+							fixed_sub_path = 1,
+							creep = "enemy_sniper",
+							max_same = 0,
+							interval_next = 0,
+							max = 20
+						}
+					}
+				}
+			}
+		},
+		{
+			interval = 2000,
+			waves = {
+				{
+					delay = 0,
+					path_index = 1,
+					spawns = {
+						{
+							interval = 1000,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 2,
+					spawns = {
+						{
+							interval = 1000,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king",
+							max_same = 0,
+							interval_next = 0,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 3,
+					spawns = {
+						{
+							interval = 1000,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 500,
+							max = 3
+						}
+					}
+				},
+				{
+					delay = 0,
+					path_index = 4,
+					spawns = {
+						{
+							interval = 1000,
+							path = 2,
+							fixed_sub_path = 1,
+							creep = "enemy_saurian_king_plus",
+							max_same = 0,
+							interval_next = 500,
+							max = 3
+						}
+					}
+				}
+			}
 		}
 	}
 }
+

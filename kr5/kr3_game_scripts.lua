@@ -15240,6 +15240,34 @@ function scripts.eb_balrog.update(this, store)
 
 	while true do
 		if this.health.dead then
+			game.store.force_next_wave = true
+			if not this.is_second_phase then
+				this.ui.can_click = false
+				this.health_bar_hidden = true
+
+				U.animation_start(this, "death", nil, store.tick_ts, false)
+
+				U.y_wait(store, this.second_phase.wait_time)
+
+				this.ui.can_click = true
+				this.health_bar_hidden = false
+				this.is_second_phase = true
+				this.health.dead = false
+
+				this.health.hp_max = math.ceil(this.health.hp_max * this.second_phase.hp_factor)
+				this.health.hp = this.health.hp_max
+				this.health.armor = this.second_phase.armor
+				this.health.magic_armor = this.second_phase.magic_armor
+				this.motion.max_speed = this.second_phase.max_speed
+				this.melee.attacks[1].damage_max = this.second_phase.damage_max
+				this.melee.attacks[1].damage_min = this.second_phase.damage_min
+				this.timed_attacks.list[1].cooldown = this.second_phase.cooldown
+				this.render.sprites[1].prefix = this.balrog.sprites_prefix
+				this.render.sprites[1].scale = this.balrog.sprites_scale
+
+				goto label_395_0
+			end
+
 			this.phase = "dead"
 
 			LU.kill_all_enemies(store, true)
@@ -19488,6 +19516,87 @@ function scripts.mod_dark_spitters.update(this, store)
 			e.pos.x, e.pos.y = target.pos.x, target.pos.y
 			n.pi, n.spi, n.ni = pi, spi, ni + 2
 			e.render.sprites[1].name = "raise"
+			e.enemy.gold = 0
+			e.enemy.gold_bag = 0
+			e.enemy.gems = 0
+
+			queue_insert(store, e)
+
+			break
+		end
+
+		if store.tick_ts - dps.ts >= dps.damage_every then
+			dps.ts = store.tick_ts
+
+			local d = E:create_entity("damage")
+
+			d.source_id = this.id
+			d.target_id = target.id
+			d.value = dps.damage_max
+			d.damage_type = dps.damage_type
+
+			queue_damage(store, d)
+		end
+
+		coroutine.yield()
+	end
+
+	queue_remove(store, this)
+end
+
+scripts.mod_dark_spitters_boss = {}
+
+function scripts.mod_dark_spitters_boss.update(this, store)
+	local m = this.modifier
+	local dps = this.dps
+	local target, generation
+
+	while store.tick_ts - m.ts < m.duration do
+		target = store.entities[m.target_id]
+
+		if not target then
+			break
+		end
+
+		this.pos = target.pos
+
+		if this.render and m.use_mod_offset and target.unit.mod_offset then
+			local flip_sign = target.render.sprites[1].flip_x and -1 or 1
+
+			this.render.sprites[1].offset.x = target.unit.mod_offset.x * flip_sign
+			this.render.sprites[1].offset.y = target.unit.mod_offset.y
+		end
+
+		if target.health.dead then
+			coroutine.yield()
+			coroutine.yield()
+
+			if target.hero or not target.health.dead or target.reinforcement and target.reinforcement.hp_before_timeout then
+				break
+			end
+
+			U.sprites_hide(target)
+			SU.insert_sprite(store, this.explode_fx, target.pos)
+
+			local nodes = P:nearest_nodes(target.pos.x, target.pos.y, nil, nil, true, NF_RALLY)
+
+			if #nodes < 1 then
+				log.error("(%s) mod_dark_spitters: could not find valid node nearby to spawn enemy. %s,%s", this.id, target.pos.x, target.pos.y)
+
+				break
+			end
+
+			local pi, spi, ni = nodes[1][1], nodes[1][2], nodes[1][3]
+
+			if P:nodes_to_defend_point(pi, spi, ni) < this.nodes_limit then
+				break
+			end
+
+			local e = E:create_entity(this.spawn_entity)
+			local n = e.nav_path
+
+			e.pos.x, e.pos.y = target.pos.x, target.pos.y
+			n.pi, n.spi, n.ni = pi, spi, ni + 2
 			e.enemy.gold = 0
 			e.enemy.gold_bag = 0
 			e.enemy.gems = 0

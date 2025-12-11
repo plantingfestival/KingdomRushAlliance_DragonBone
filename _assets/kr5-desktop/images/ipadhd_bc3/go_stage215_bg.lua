@@ -6,7 +6,7 @@ return {
 		textureRotated = false,
 		size = {
 			2733,
-			1491
+			1536
 		},
 		trim = {
 			0,
@@ -16,13 +16,13 @@ return {
 		},
 		a_size = {
 			2733,
-			1491
+			1536
 		},
 		f_quad = {
 			0,
 			0,
 			2733,
-			1491
+			1536
 		},
 		alias = {}
 	}

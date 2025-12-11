@@ -3478,6 +3478,7 @@ tt.powers.promotion.price = {
 	150
 }
 tt.powers.promotion.max_level = 1
+tt.powers.promotion.enc_icon = 105
 tt.main_script.update = scripts.tower_warmongers_barrack.update
 tt.sound_events.insert = "warmonger_barrack_build_taunt_4"
 tt.sound_events.change_rally_point = "warmonger_barrack_move_taunt"
@@ -4009,6 +4010,7 @@ tt.powers.burning_elemental.price = {
 	1200
 }
 tt.powers.burning_elemental.max_level = 1
+tt.powers.burning_elemental.enc_icon = 108
 tt.powers.burning_elemental.sound = "dinos_ignis_altar_summon_elemental"
 tt.powers.burning_elemental.sound_args = {
 	delay = fts(37)
@@ -5337,14 +5339,14 @@ tt.powers.tentangles.price = {
 	120
 }
 tt.powers.tentangles.max_level = 2
-tt.powers.tentangles.enc_icon = 108
+tt.powers.tentangles.enc_icon = 109
 tt.powers.storm = E:clone_c("power")
 tt.powers.storm.price = {
 	180,
 	180,
 	180
 }
-tt.powers.storm.enc_icon = 109
+tt.powers.storm.enc_icon = 110
 tt.powers.storm.cooldown = b.storm.cooldowns
 tt.tower.level = 4
 tt.tower.price = 330

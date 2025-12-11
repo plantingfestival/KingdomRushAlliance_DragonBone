@@ -9371,8 +9371,8 @@ function scripts.eb_umbra.get_info(this)
 		type = STATS_TYPE_ENEMY,
 		hp = this.health.hp,
 		hp_max = this.health.hp_max,
-		damage_min = 2 * min,
-		damage_max = 2 * max,
+		damage_min = min,
+		damage_max = max,
 		armor = this.health.armor,
 		magic_armor = this.health.magic_armor,
 		lives = this.enemy.lives_cost
@@ -9401,7 +9401,7 @@ function scripts.eb_umbra.update(this, store, script)
 	local teleport_jumps = 0
 	local last_jump_center = false
 	local last_ray_towers_inner = false
-	local piece_arrival_node = 4
+	local piece_arrival_node = 3
 	local hp_per_piece = this.health.hp_max / max_pieces
 	local body_sid = 1
 	local eyes_sid = 2
@@ -9524,7 +9524,7 @@ function scripts.eb_umbra.update(this, store, script)
 
 	while true do
 		if is_in_pieces then
-			local callback_pieces = ap.callback_pieces[km.clamp(1, 3, death_cycles)]
+			local callback_pieces = ap.callback_pieces[km.clamp(1, 4, death_cycles)]
 
 			while store.tick_ts - ap.ts < ap.cooldown do
 				coroutine.yield()
@@ -9586,12 +9586,12 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = this.health.hp_max/ pieces_alive*50
+						recovered_hp = this.health.hp_max * 15
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")
 
-						if this.render.sprites[1].hidden and #pieces_returned == 2 then
+						if this.render.sprites[1].hidden and #pieces_returned == 1 then
 							for _, pr in pairs(pieces_returned) do
 								pr.recovered = true
 								pr.health.dead = true
@@ -9599,13 +9599,13 @@ function scripts.eb_umbra.update(this, store, script)
 							end
 
 							this.render.sprites[1].hidden = false
-							this.render.sprites[1].scale = V.v(2, 2)
+							this.render.sprites[1].scale = V.v(5, 10)
 
 							U.animation_start(this, "ball_idle", nil, store.tick_ts, true)
-						elseif #pieces_returned > 2 then
+						elseif #pieces_returned > 1 then
 							local scale = this.render.sprites[1].scale.x
 
-							scale = km.clamp(2, 4, scale + 0.5)
+							scale = km.clamp(2, 4, scale + 1)
 							this.render.sprites[1].scale.x = scale
 							this.render.sprites[1].scale.y = scale
 							p.recovered = true
@@ -9623,8 +9623,10 @@ function scripts.eb_umbra.update(this, store, script)
 			log.debug("transform")
 			S:queue("FrontiersFinalBossRespawn")
 
-			this.render.sprites[1].scale.x = 4
-			this.render.sprites[1].scale.y = 4
+			local scale = this.render.sprites[1].scale.x
+			scale = km.clamp(3, 6, scale + 1)
+			this.render.sprites[1].scale.x = scale
+			this.render.sprites[1].scale.y = scale
 
 			U.y_animation_play(this, "transform", nil, store.tick_ts, 1)
 

@@ -2534,7 +2534,7 @@ return {
 							interval = 35,
 							max = 1,
 							fixed_sub_path = 1,
-							creep = "eb_saurian_king",
+							creep = "enemy_brute",
 							max_same = 0,
 							interval_next = 480,
 							path = 1

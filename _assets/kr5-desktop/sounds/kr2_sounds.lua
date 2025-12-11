@@ -26,19 +26,6 @@ return {
 			"dwarf_taunt_2.ogg"
 		}
 	},
-	SaurianKingBoss = {
-		files = {
-			"KRF_sfx_saurianboss_martillo_1t.ogg",
-			"KRF_sfx_saurianboss_muerte.ogg",
-			"KRF_sfx_saurianboss_op1.ogg",
-			"KRF_sfx_saurianboss_temblor.ogg"
-		}
-	},
-	SaurianSniperSounds = {
-		files = {
-			"KRF_sfx_suarian_sniper.ogg"
-		}
-	},
 	FrontiersUndergroundAmbienceSounds = {
 		files = {
 			"ambience_underground_1.ogg",

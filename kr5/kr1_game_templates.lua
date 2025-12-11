@@ -6186,7 +6186,7 @@ tt.sound_events.death = "DeathEplosion"
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[1].bullet = "enemy_spider_egg"
 tt.timed_attacks.list[1].max_cooldown = 10
-tt.timed_attacks.list[1].max_count = 8
+tt.timed_attacks.list[1].max_count = 10
 tt.timed_attacks.list[1].min_cooldown = 5
 tt.ui.click_rect = r(-20, -5, 40, 30)
 tt.unit.blood_color = BLOOD_GREEN
@@ -7092,6 +7092,46 @@ tt.unit.hit_offset = v(0, 23)
 tt.unit.mod_offset = v(adx(45), ady(35))
 tt.unit.size = UNIT_SIZE_MEDIUM
 tt.vis.bans = bor(F_POISON, F_SKELETON)
+tt = RT("enemy_sarelgaz_medium", "enemy_KR5")
+
+AC(tt, "melee", "timed_attacks")
+
+anchor_x, anchor_y = 0.5, 0.19
+image_x, image_y = 96, 68
+tt.enemy.gold = 750
+tt.enemy.lives_cost = 7
+tt.enemy.melee_slot = v(35, 0)
+tt.health.armor = 0.8
+tt.health.hp_max = 18000
+tt.health.magic_armor = 0.8
+tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
+tt.health_bar.offset = v(0, 51)
+tt.info.portrait = "bottom_info_image_enemies_0109"
+tt.info.i18n_key = "ENEMY_SARELGAZ_MEDIUM"
+tt.info.enc_icon = 31
+tt.melee.attacks[1].cooldown = 1
+tt.melee.attacks[1].damage_max = 350
+tt.melee.attacks[1].damage_min = 150
+tt.melee.attacks[1].hit_time = fts(11)
+tt.melee.attacks[1].sound = "SpiderAttack"
+tt.motion.max_speed = 0.3 * FPS
+tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
+tt.timed_attacks.list[1].bullet = "enemy_spider_egg_big"
+tt.timed_attacks.list[1].max_cooldown = 10
+tt.timed_attacks.list[1].max_count = 8
+tt.timed_attacks.list[1].min_cooldown = 5
+tt.render.sprites[1].anchor = v(0.5, 0.19)
+tt.render.sprites[1].prefix = "eb_sarelgaz"
+tt.sound_events.death = "DeathEplosion"
+tt.ui.click_rect.size = v(54, 50)
+tt.ui.click_rect.pos.x = -27
+tt.unit.blood_color = BLOOD_GREEN
+tt.unit.can_explode = false
+tt.unit.hit_offset = v(0, 23)
+tt.unit.mod_offset = v(adx(45), ady(35))
+tt.unit.size = UNIT_SIZE_LARGE
+tt.vis.bans = bor(F_POISON, F_SKELETON)
+tt.vis.flags = bor(F_ENEMY, F_BOSS)
 tt = RT("enemy_rotten_lesser", "enemy_KR5")
 
 AC(tt, "melee", "death_spawns")
@@ -8434,7 +8474,7 @@ tt.timed_attacks.list[3].excluded_templates = {
 	"mod_veznan_tower"
 }
 tt.timed_attacks.list[3].shoot_time = fts(8)
-tt.timed_attacks.list[3].cooldown = 10
+tt.timed_attacks.list[3].cooldown = 9
 tt.timed_attacks.list[3].disabled = true
 tt.timed_attacks.list[3].bullet_start_offset = {
 	v(19, 42)
@@ -8467,7 +8507,7 @@ tt.demon.armor = 0.9
 tt.demon.magic_armor = 0.9
 tt.demon.speed = 0.1 * FPS
 tt.demon.sprites_prefix = "eb_veznan_demon"
-tt.demon.sprites_scale = vv(16)
+tt.demon.sprites_scale = vv(16.5)
 tt.demon.transform_sound = "VeznanToDemon"
 tt.demon.ui_click_rect = r(-25, -5, 50, 110)
 tt.demon.unit_hit_offset = v(0, 55)
@@ -9621,6 +9661,39 @@ tt.render.sprites[1].loop = false
 tt.spawner.count = 3
 tt.spawner.cycle_time = fts(6)
 tt.spawner.entity = "enemy_spider_rotten_tiny"
+tt.spawner.node_offset = 5
+tt.spawner.pos_offset = v(0, 1)
+tt.spawner.allowed_subpaths = {
+	1,
+	2,
+	3
+}
+tt.spawner.random_subpath = false
+tt.spawner.animation_start = "start"
+tt.tween.disabled = true
+tt.tween.props[1].keys = {
+	{
+		0,
+		255
+	},
+	{
+		4,
+		0
+	}
+}
+tt.tween.remove = true
+tt = E:register_t("enemy_spider_egg_big", "decal_scripted")
+
+E:add_comps(tt, "render", "spawner", "tween")
+
+tt.main_script.update = kr1_scripts.enemies_spawner.update
+tt.render.sprites[1].anchor.y = 0.22
+tt.render.sprites[1].prefix = "enemy_spider_egg"
+tt.render.sprites[1].scale = vv(2)
+tt.render.sprites[1].loop = false
+tt.spawner.count = 4
+tt.spawner.cycle_time = fts(6)
+tt.spawner.entity = "enemy_spider_big"
 tt.spawner.node_offset = 5
 tt.spawner.pos_offset = v(0, 1)
 tt.spawner.allowed_subpaths = {

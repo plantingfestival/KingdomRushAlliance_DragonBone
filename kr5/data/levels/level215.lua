@@ -29,6 +29,8 @@ level.required_sounds = {
 	"music_stage215",
 	"kr2_common",
 	"FrontiersUndergroundAmbienceSounds",
+	"SaurianKingBoss",
+	"SaurianSniperSounds",
 	"FrontiersFinalBoss"
 }
 level.required_textures = {
