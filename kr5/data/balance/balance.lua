@@ -7082,7 +7082,7 @@ local enemies = {
 				damage_min = 1200,
 				damage_radius = 80,
 				damage_max = 1200,
-				damage_type = DAMAGE_MAGICAL
+				damage_type = DAMAGE_TRUE
 			},
 			life_threshold_teleport = {
 				away_duration = 8,
@@ -7102,9 +7102,9 @@ local enemies = {
 			spawn_nodes_limit = 60,
 			magic_armor = 0,
 			melee_attack = {
-				cooldown = 0.8,
-				damage_max = 14,
-				damage_min = 10
+				cooldown = 0.6,
+				damage_max = 25,
+				damage_min = 15
 			},
 			ranged_attack = {
 				max_range = 250,
@@ -7249,7 +7249,7 @@ local enemies = {
 		boss_navira = {
 			speed = 16,
 			armor = 0,
-			hp = 28000,
+			hp = 32000,
 			magic_armor = 1.5,
 			melee_attack = {
 				damage_radius = 60,
@@ -7270,11 +7270,11 @@ local enemies = {
 					0.15
 				},
 				fire_balls = {
-					3,
 					5,
-					7
+					7,
+					9
 				},
-				damage_type = DAMAGE_MAGICAL
+				damage_type = DAMAGE_TRUE
 			},
 			fire_balls = {
 				wait_between_balls = 5,
@@ -7316,7 +7316,7 @@ local enemies = {
 			},
 			armor = 0.3,
 			hp = 400,
-			gold = 8,
+			gold = 7,
 			magic_armor = 0,
 			water_fixed_speed = {
 				[9000] = 50,
@@ -7423,16 +7423,16 @@ local enemies = {
 			magic_armor = 0.8,
 			speed = 28,
 			armor = 0,
-			hp = 1180,
+			hp = 1200,
 			water_fixed_speed = {
 				[9000] = 50,
 				[21] = 80,
 				[22] = 50
 			},
 			melee_attack = {
-				cooldown = 2,
-				damage_min = 20,
-				damage_max = 40
+				cooldown = 1.5,
+				damage_min = 30,
+				damage_max = 60
 			},
 			ranged_attack = {
 				max_range = 120,
@@ -7444,11 +7444,11 @@ local enemies = {
 			healing = {
 				cooldown = 10,
 				range = 150,
-				heal_min = 45,
+				heal_min = 50,
 				min_targets = 1,
 				heal_every = 0.5,
 				duration = 2,
-				heal_max = 165,
+				heal_max = 200,
 				max_targets = 5
 			},
 			debuff_towers = {
@@ -7597,8 +7597,10 @@ local enemies = {
 				needs_arborean_mages_to_clean = false,
 				waves = {
 					2,
+					3,
 					5,
 					7,
+					9,
 					11,
 					13,
 					14,
@@ -7629,11 +7631,13 @@ local enemies = {
 				max_casts = {
 					1,
 					1,
+					2,
 					1,
 					2,
 					1,
 					1,
-					3
+					3,
+					4
 				},
 				low_priority_holders = {
 					"4",
@@ -7700,7 +7704,7 @@ local enemies = {
 					16,
 					14,
 					10,
-					7
+					6
 				},
 				max_range = {
 					200,
@@ -8117,7 +8121,7 @@ local enemies = {
 		boss_machinist = {
 			speed = 16,
 			armor = 0,
-			hp = 10000,
+			hp = 12000,
 			stop_cooldown = 5,
 			magic_armor = 0,
 			attacks_count = 1,
@@ -8167,7 +8171,7 @@ local enemies = {
 				0,
 				0.5
 			},
-			hp = 120000,
+			hp = 300000,
 			magic_armor = {
 				0,
 				0,
@@ -8266,7 +8270,7 @@ local enemies = {
 					2.5,
 					2.5,
 					2.5,
-					3.5
+					1.5
 				}
 			},
 			melee_attack = {
@@ -8298,12 +8302,7 @@ local enemies = {
 			gold = 50,
 			spawn_time = 2,
 			magic_armor = 0,
-			speed = {
-				58,
-				58,
-				58,
-				58
-			},
+			speed = 58,
 			basic_attack = {
 				cooldown = 1,
 				damage_min = 16,
@@ -8355,7 +8354,12 @@ local enemies = {
 			}
 		},
 		spidead = {
-			speed = 36,
+			speed = {
+				36,
+				36,
+				36,
+				58
+			},
 			armor = 0,
 			hp = 600,
 			gold = 25,
@@ -8379,7 +8383,7 @@ local enemies = {
 			spawn_path = 1,
 			speed = 13,
 			armor = 0,
-			hp = 42000,
+			hp = 50000,
 			magic_armor = {
 				0.3,
 				0.3,
@@ -8858,7 +8862,7 @@ local enemies = {
 			},
 			stun_towers = {
 				max_range = 200,
-				max_targets = 4,
+				max_targets = 5,
 				min_targets = 3,
 				required_clics_desktop = 3,
 				cooldown = 22,
@@ -8929,41 +8933,46 @@ local enemies = {
 			drain_life = {
 				max_range = 106,
 				min_targets = 1,
-				cooldown = 21,
+				cooldown = 18,
 				cooldown_init = 30,
 				nodes_limit = 50,
 				max_targets = 1e+99,
 				loop_duration = 5,
 				lifesteal_loop = {
-					damage_every = 0.3,
+					damage_every = 0.2,
 					fixed_heal = 0,
 					damage_factor = {
 						1,
 						1,
 						1,
-						1
+						3
 					},
 					damage_min = {
-						3,
-						3,
-						3,
-						5
+						4,
+						4,
+						4,
+						6
 					},
 					damage_max = {
-						5,
-						5,
-						5,
-						7
+						8,
+						8,
+						8,
+						12
 					},
 					damage_type = DAMAGE_MAGICAL
 				},
 				lifesteal_end = {
-					damage_factor = 1,
+					damage_factor = {
+						1,
+						1,
+						1,
+						3
+					},
 					fixed_heal = {
 						1500,
-						1750,
 						2000,
-						2750
+						2500,
+						4000
 					},
 					damage_max = {
 						750,
@@ -9263,7 +9272,7 @@ local enemies = {
 			}
 		},
 		storm_elemental = {
-			gold = 100,
+			gold = 90,
 			magic_armor = 0,
 			speed = 20,
 			armor = 0.75,
@@ -9445,7 +9454,7 @@ local enemies = {
 			speed = 42,
 			armor = 0.25,
 			hp = 185,
-			gold = 6,
+			gold = 5,
 			magic_armor = 0,
 			basic_attack = {
 				cooldown = 3,
@@ -9944,10 +9953,10 @@ local enemies = {
 			}
 		},
 		boss_redboy_teen = {
-			magic_armor = 0.15,
+			magic_armor = 0.25,
 			speed = 11,
-			armor = 0.15,
-			hp = 20000,
+			armor = 0.25,
+			hp = 30000,
 			spawn_pos = {
 				path = 2,
 				node_pos = v(137, 413)
@@ -9992,7 +10001,7 @@ local enemies = {
 				damage_min = 400,
 				cooldown = 5,
 				damage_max = 500,
-				damage_type = DAMAGE_PHYSICAL
+				damage_type = DAMAGE_TRUE
 			},
 			fireabsorb = {
 				absorb_radius = 100,
@@ -10161,9 +10170,9 @@ local enemies = {
 			},
 			bossfight = {
 				magic_armor = 0.5,
-				speed = 21,
+				speed = 24,
 				armor = 0.5,
-				hp = 12000,
+				hp = 20000,
 				spawn_pos = {
 					path = 13,
 					node_pos = v(605, 355)
@@ -10177,7 +10186,7 @@ local enemies = {
 				area_attack = {
 					radius = 100,
 					damage_min = 200,
-					cooldown = 2.5,
+					cooldown = 1.5,
 					damage_max = 330,
 					damage_type = DAMAGE_PHYSICAL
 				},
@@ -10262,7 +10271,7 @@ local enemies = {
 						magic_armor = 0,
 						speed = 15,
 						armor = 0,
-						hp = 10000,
+						hp = 16000,
 						spawn_pos = {
 							{
 								path = 9,
@@ -10709,7 +10718,7 @@ local towers = {
 				aura_duration = 12,
 				aura_range = 70,
 				armor = 0.95,
-				hp = 1800,
+				hp = 1880,
 				aura_damage_buff_factor = 1.5,
 				regen_hp = 150,
 				basic_attack = {
@@ -10725,9 +10734,9 @@ local towers = {
 			duration = 4,
 			heal_every = 0.25,
 			price = {
-				140,
-				140,
-				140
+				180,
+				180,
+				180
 			},
 			health_trigger_factor = {
 				0.25,
@@ -10736,13 +10745,13 @@ local towers = {
 			},
 			heal = {
 				6,
-				10,
-				18
+				12,
+				20
 			},
 			invincibility_duration = {
-				3,
-				5,
-				7
+				4,
+				6,
+				8
 			},
 			healing_duration = {
 				5,
@@ -10751,13 +10760,13 @@ local towers = {
 			},
 			s_healing = {
 				24,
-				40,
-				72
+				48,
+				80
 			},
 			cooldown = {
-				20,
-				16,
-				10
+				18,
+				14,
+				9
 			}
 		}
 	},
@@ -10771,7 +10780,7 @@ local towers = {
 			50,
 			80,
 			130,
-			200
+			190
 		},
 		basic_attack = {
 			cooldown = 0.8,
@@ -10931,8 +10940,8 @@ local towers = {
 			},
 			slow_factor = {
 				0.5,
-				0.5,
-				0.5
+				0.4,
+				0.3
 			},
 			duration = {
 				2,
@@ -12240,16 +12249,16 @@ local towers = {
 				range = 70,
 				cooldown = 1,
 				damage_min = {
-					5,
-					9,
-					14,
-					19
+					6,
+					10,
+					17,
+					26
 				},
 				damage_max = {
-					10,
-					16,
-					22,
-					30
+					12,
+					18,
+					28,
+					42
 				},
 				damage_type = DAMAGE_TRUE
 			}
@@ -12453,19 +12462,19 @@ local towers = {
 					24,
 					34
 				},
-				damage_type = DAMAGE_PHYSICAL
+				damage_type = DAMAGE_TRUE
 			},
 			dodge_chance = {
+				0.4,
 				0.6,
-				0.6,
-				0.6
+				0.8
 			}
 		},
 		price = {
 			90,
 			130,
 			180,
-			240
+			260
 		},
 		basic_attack = {
 			cooldown = 2,
@@ -12505,20 +12514,20 @@ local towers = {
 			max_armor_reduction = 100,
 			max_fps = 90,
 			price = {
-				300,
-				600
+				350,
+				800
 			},
 			extra_damage_min = {
-				12,
-				12
+				15,
+				24
 			},
 			extra_damage_max = {
-				12,
-				12
+				15,
+				24
 			},
 			s_extra_damage_total = {
-				12,
-				12
+				15,
+				24
 			},
 			fps_increment = {
 				0,
@@ -12526,7 +12535,7 @@ local towers = {
 			},
 			armor_reduction = {
 				0,
-				2
+				1
 			}
 		}
 	},
@@ -14422,7 +14431,7 @@ local specials = {
 		}
 	},
 	stage22_tower_destroyed = {
-		repair_cost = 220
+		repair_cost = 400
 	},
 	stage23_roboboots = {
 		wave_config = {

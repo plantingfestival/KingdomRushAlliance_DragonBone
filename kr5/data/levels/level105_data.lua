@@ -13,8 +13,8 @@ return {
 		},
 		{
 			pos = {
-				x = 580,
-				y = 714
+				x = 880,
+				y = 624
 			}
 		}
 	},
@@ -608,12 +608,13 @@ return {
 	},
 	required_sounds = {
 		"kr1_common",
-		"music_stage05"
+		"music_stage105"
 	},
 	required_textures = {
 		"kr1_enemies_common",
 		"go_enemies_grass",
 		"go_stages_grass",
+		"go_towers_elven_stargazers",
 		"go_stage105",
 		"go_stage105_bg"
 	}

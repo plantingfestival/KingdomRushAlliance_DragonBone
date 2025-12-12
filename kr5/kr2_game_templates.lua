@@ -1966,8 +1966,8 @@ tower_templar.tower.price = 230
 tower_templar.powers.holygrail = E:clone_c("power")
 tower_templar.powers.holygrail.price = {
 	250,
-	150,
-	150
+	250,
+	250
 }
 tower_templar.powers.holygrail.name = "HOLY"
 tower_templar.powers.extralife = E:clone_c("power")
@@ -2023,11 +2023,11 @@ tt.melee.attacks[1].damage_min = 25
 tt.melee.attacks[1].shared_cooldown = true
 tt.melee.attacks[2] = E:clone_c("melee_attack")
 tt.melee.attacks[2].animation = "blood"
-tt.melee.attacks[2].chance = 0.07
+tt.melee.attacks[2].chance = 0.08
 tt.melee.attacks[2].chance_inc = 0.08
-tt.melee.attacks[2].damage_max = 60
+tt.melee.attacks[2].damage_max = 80
 tt.melee.attacks[2].damage_min = 40
-tt.melee.attacks[2].damage_inc = 25
+tt.melee.attacks[2].damage_inc = 30
 tt.melee.attacks[2].disabled = true
 tt.melee.attacks[2].hit_time = fts(20)
 tt.melee.attacks[2].mod = "mod_blood"
@@ -2044,7 +2044,7 @@ tt.motion.max_speed = 75
 tt.powers.blood = E:clone_c("power")
 tt.powers.extralife = E:clone_c("power")
 tt.powers.holygrail = E:clone_c("power")
-tt.regen.health = 70
+tt.regen.health = 75
 tt.render.sprites[1].prefix = "soldiertemplar"
 tt.render.sprites[1].anchor.y = 0.19
 tt.revive.animation = "holygrail"

@@ -3525,13 +3525,13 @@ tt.powers.unknown1 = E:clone_c("power")
 tt.powers.unknown1.price = {
 	0
 }
-tt.powers.unknown1.enc_icon = 105
+tt.powers.unknown1.enc_icon = 112
 tt.powers.unknown1.max_level = 1
 tt.powers.unknown2 = E:clone_c("power")
 tt.powers.unknown2.price = {
 	0
 }
-tt.powers.unknown2.enc_icon = 105
+tt.powers.unknown2.enc_icon = 112
 tt.powers.unknown2.max_level = 1
 tt.sound_events.tower_room_select = nil
 tt = E:register_t("tower_hammerhold_archer", "tower_royal_archers_lvl1")
@@ -5333,6 +5333,7 @@ tt.powers.chosen.price = {
 	200
 }
 tt.powers.chosen.max_level = 1
+tt.powers.chosen.enc_icon = 111
 tt.powers.tentangles = E:clone_c("power")
 tt.powers.tentangles.price = {
 	120,

@@ -2919,7 +2919,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1669,
 			3431,
 			172,
 			160
@@ -2943,8 +2943,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1466,
-			3431,
+			1291,
+			3620,
 			172,
 			160
 		},
@@ -2967,8 +2967,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1641,
-			3431,
+			1291,
+			3783,
 			172,
 			160
 		},
@@ -2991,8 +2991,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
-			3594,
+			1466,
+			3620,
 			172,
 			160
 		},
@@ -3015,8 +3015,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
-			3757,
+			1641,
+			3620,
 			172,
 			160
 		},
@@ -3039,8 +3039,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
-			3920,
+			1466,
+			3783,
 			172,
 			160
 		},
@@ -3063,134 +3063,14 @@ return {
 			4096
 		},
 		f_quad = {
-			1466,
-			3594,
+			1641,
+			3783,
 			172,
 			160
 		},
 		alias = {}
 	},
 	quickmenu_main_icons_main_icons_0013_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1641,
-			3594,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_main_icons_main_icons_0015_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1466,
-			3757,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_main_icons_main_icons_0016_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1466,
-			3920,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_main_icons_main_icons_0017_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1641,
-			3757,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_main_icons_main_icons_0018_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1641,
-			3920,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_main_icons_main_icons_0019_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -3214,7 +3094,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_main_icons_main_icons_0023_0001 = {
+	quickmenu_main_icons_main_icons_0015_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -3238,7 +3118,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_main_icons_main_icons_0024_0001 = {
+	quickmenu_main_icons_main_icons_0016_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -3262,7 +3142,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_main_icons_main_icons_0025_0001 = {
+	quickmenu_main_icons_main_icons_0017_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -3286,7 +3166,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_main_icons_main_icons_0111_0001 = {
+	quickmenu_main_icons_main_icons_0018_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -3308,9 +3188,103 @@ return {
 			172,
 			160
 		},
-		alias = {
-			"quickmenu_tower_icons_0111_0001"
-		}
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0019_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2808,
+			5,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0023_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2983,
+			5,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0024_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3158,
+			5,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_main_icons_main_icons_0025_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3333,
+			5,
+			172,
+			160
+		},
+		alias = {}
 	},
 	quickmenu_special_icons_0004_0001 = {
 		a_name = "room_tower-2.dds",
@@ -3593,8 +3567,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1673,
-			1350,
+			1291,
+			1541,
 			187,
 			186
 		},
@@ -3617,7 +3591,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1481,
 			1541,
 			187,
 			186
@@ -3641,7 +3615,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1481,
+			1671,
 			1541,
 			187,
 			186
@@ -3665,8 +3639,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1671,
-			1541,
+			1291,
+			1730,
 			187,
 			186
 		},
@@ -3689,7 +3663,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1481,
 			1730,
 			187,
 			186
@@ -3713,7 +3687,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1481,
+			1671,
 			1730,
 			187,
 			186
@@ -3737,8 +3711,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1671,
-			1730,
+			1291,
+			1919,
 			187,
 			186
 		},
@@ -3761,38 +3735,14 @@ return {
 			4096
 		},
 		f_quad = {
-			1671,
-			1919,
+			1291,
+			2108,
 			186,
 			186
 		},
 		alias = {}
 	},
 	quickmenu_special_icons_0025_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			200,
-			200
-		},
-		trim = {
-			8,
-			7,
-			5,
-			7
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			1291,
-			1919,
-			187,
-			186
-		},
-		alias = {}
-	},
-	quickmenu_special_icons_0026_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			200,
@@ -3816,6 +3766,30 @@ return {
 		},
 		alias = {}
 	},
+	quickmenu_special_icons_0026_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			8,
+			7,
+			5,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1671,
+			1919,
+			187,
+			186
+		},
+		alias = {}
+	},
 	quickmenu_special_icons_0027_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
@@ -3833,7 +3807,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			2108,
 			186,
 			186
@@ -3857,7 +3831,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			2108,
 			186,
 			186
@@ -3881,8 +3855,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			2108,
+			1291,
+			2297,
 			186,
 			186
 		},
@@ -3905,7 +3879,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			2297,
 			186,
 			186
@@ -3929,7 +3903,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			2297,
 			186,
 			186
@@ -3953,8 +3927,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			2297,
+			1291,
+			2486,
 			186,
 			186
 		},
@@ -3977,7 +3951,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			2486,
 			186,
 			186
@@ -4001,7 +3975,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			2486,
 			186,
 			186
@@ -4025,8 +3999,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			2486,
+			1291,
+			2675,
 			186,
 			186
 		},
@@ -4049,7 +4023,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			2675,
 			186,
 			186
@@ -4073,7 +4047,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			2675,
 			186,
 			186
@@ -4097,8 +4071,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			2675,
+			1291,
+			2864,
 			186,
 			186
 		},
@@ -4121,7 +4095,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			2864,
 			186,
 			186
@@ -4145,7 +4119,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			2864,
 			186,
 			186
@@ -4169,8 +4143,8 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			2864,
+			1291,
+			3053,
 			186,
 			186
 		},
@@ -4193,7 +4167,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1291,
+			1480,
 			3053,
 			186,
 			186
@@ -4217,7 +4191,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1480,
+			1669,
 			3053,
 			186,
 			186
@@ -4241,30 +4215,6 @@ return {
 			4096
 		},
 		f_quad = {
-			1669,
-			3053,
-			186,
-			186
-		},
-		alias = {}
-	},
-	quickmenu_special_icons_0104_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			200,
-			200
-		},
-		trim = {
-			7,
-			7,
-			7,
-			7
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
 			1291,
 			3242,
 			186,
@@ -4272,7 +4222,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_special_icons_0106_0001 = {
+	quickmenu_special_icons_0104_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			200,
@@ -4296,7 +4246,7 @@ return {
 		},
 		alias = {}
 	},
-	quickmenu_special_icons_0107_0001 = {
+	quickmenu_special_icons_0106_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			200,
@@ -4315,6 +4265,30 @@ return {
 		f_quad = {
 			1669,
 			3242,
+			186,
+			186
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0107_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			7,
+			7,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1291,
+			3431,
 			186,
 			186
 		},
@@ -4368,103 +4342,55 @@ return {
 		},
 		alias = {}
 	},
+	quickmenu_special_icons_0111_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			6,
+			6,
+			6,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1482,
+			1350,
+			188,
+			188
+		},
+		alias = {}
+	},
+	quickmenu_special_icons_0112_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			200,
+			200
+		},
+		trim = {
+			7,
+			7,
+			7,
+			7
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1480,
+			3431,
+			186,
+			186
+		},
+		alias = {}
+	},
 	quickmenu_tower_icons_0106_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			2808,
-			5,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_tower_icons_0107_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			2983,
-			5,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_tower_icons_0108_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			3158,
-			5,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_tower_icons_0109_0001 = {
-		a_name = "room_tower-2.dds",
-		size = {
-			172,
-			172
-		},
-		trim = {
-			0,
-			6,
-			0,
-			6
-		},
-		a_size = {
-			4096,
-			4096
-		},
-		f_quad = {
-			3333,
-			5,
-			172,
-			160
-		},
-		alias = {}
-	},
-	quickmenu_tower_icons_0110_0001 = {
 		a_name = "room_tower-2.dds",
 		size = {
 			172,
@@ -4488,6 +4414,126 @@ return {
 		},
 		alias = {}
 	},
+	quickmenu_tower_icons_0107_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3683,
+			5,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_tower_icons_0108_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			3858,
+			5,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_tower_icons_0109_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			1933,
+			168,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_tower_icons_0110_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2108,
+			168,
+			172,
+			160
+		},
+		alias = {}
+	},
+	quickmenu_tower_icons_0111_0001 = {
+		a_name = "room_tower-2.dds",
+		size = {
+			172,
+			172
+		},
+		trim = {
+			0,
+			6,
+			0,
+			6
+		},
+		a_size = {
+			4096,
+			4096
+		},
+		f_quad = {
+			2283,
+			168,
+			172,
+			160
+		},
+		alias = {}
+	},
 	tower_room_9slice_tower_room_skill_tooltip_bg_ = {
 		a_name = "room_tower-2.dds",
 		size = {
@@ -4505,8 +4551,8 @@ return {
 			4096
 		},
 		f_quad = {
-			3683,
-			5,
+			2458,
+			168,
 			160,
 			160
 		},
@@ -4530,7 +4576,7 @@ return {
 		},
 		f_quad = {
 			1816,
-			3548,
+			3737,
 			102,
 			114
 		},
@@ -4554,7 +4600,7 @@ return {
 		},
 		f_quad = {
 			1933,
-			168,
+			331,
 			148,
 			167
 		},
@@ -4578,7 +4624,7 @@ return {
 		},
 		f_quad = {
 			1816,
-			3431,
+			3620,
 			103,
 			114
 		},
@@ -4601,8 +4647,8 @@ return {
 			4096
 		},
 		f_quad = {
-			2084,
-			168,
+			1291,
+			3946,
 			602,
 			30
 		},
@@ -4625,8 +4671,8 @@ return {
 			4096
 		},
 		f_quad = {
-			3846,
-			5,
+			2621,
+			168,
 			150,
 			154
 		},
@@ -4649,7 +4695,7 @@ return {
 			4096
 		},
 		f_quad = {
-			1482,
+			1673,
 			1350,
 			188,
 			188

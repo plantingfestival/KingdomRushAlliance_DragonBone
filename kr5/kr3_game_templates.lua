@@ -13800,8 +13800,13 @@ tt.info.enc_icon = 9
 tt.info.portrait = "bottom_info_image_enemies_0145"
 tt.enemy.gold = 30
 tt.enemy.melee_slot = v(30, 0)
-tt.health.armor = 0.6
-tt.health.hp_max = 1400
+tt.health.armor = 0.4
+tt.health.hp_max = {
+	980,
+	1120,
+	1400,
+	2100
+}
 tt.health_bar.offset = v(0, 47)
 tt.health_bar.type = HEALTH_BAR_SIZE_MEDIUM
 tt.main_script.insert = kr3_scripts.enemy_basic.insert
@@ -13866,16 +13871,16 @@ tt.main_script.insert = kr3_scripts.enemy_basic.insert
 tt.main_script.update = kr3_scripts.enemy_twilight_scourger.update
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = {
-	95,
-	95,
 	125,
-	165
+	125,
+	165,
+	200
 }
 tt.melee.attacks[1].damage_min = {
-	35,
-	35,
 	55,
-	95
+	55,
+	75,
+	100
 }
 tt.melee.attacks[1].hit_time = fts(23)
 tt.timed_attacks.list[1] = E:clone_c("custom_attack")

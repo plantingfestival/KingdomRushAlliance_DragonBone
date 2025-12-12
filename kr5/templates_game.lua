@@ -41611,6 +41611,7 @@ tt.render.sprites[2].draw_order = DO_TOWER_MODS
 tt.render.sprites[2].sort_y_offset = -10
 tt.sound_eat = "Stage22AbominorEatTower"
 tt.sound_fist_remove = "Stage22AbominorEatTowerFistRemove"
+tt.broken_tower_mod = "mod_stage_22_tower_destroyed"
 tt.fade_duration = 0.4
 tt.offset_y_per_tower = {
 	necromancer = 16,

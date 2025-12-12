@@ -1142,7 +1142,7 @@ return {
 	},
 	required_sounds = {
 		"kr1_common",
-		"music_stage06"
+		"music_stage106"
 	},
 	required_textures = {
 		"kr1_enemies_common",

@@ -16445,7 +16445,12 @@ function scripts.boss_crocs.update(this, store, script)
 	end
 
 	local function attack_is_tower_valid(v, a)
-		local is_tower = v.tower and not v.pending_removal and (not a.excluded_templates or not table.contains(a.excluded_templates, v.template_name)) and v.vis and band(v.vis.flags, a.vis_bans) == 0 and band(v.vis.bans, a.vis_flags) == 0 and (not a.exclude_tower_kind or not table.contains(a.exclude_tower_kind, v.tower.kind)) and v.tower.can_be_mod and U.is_inside_ellipse(v.pos, this.pos, a.max_range)
+		local is_tower = v.tower and not v.pending_removal and
+		(not a.excluded_templates or not table.contains(a.excluded_templates, v.template_name)) and v.vis and
+		band(v.vis.flags, a.vis_bans) == 0 and band(v.vis.bans, a.vis_flags) == 0 and
+		(not a.exclude_tower_kind or not table.contains(a.exclude_tower_kind, v.tower.kind)) and v.tower.can_be_mod and
+		not U.has_modifiers(store, v, "mod_stage_22_tower_destroyed") and
+		U.is_inside_ellipse(v.pos, this.pos, a.max_range)
 
 		return is_tower
 	end
@@ -17170,24 +17175,12 @@ function scripts.mod_boss_crocs_tower_eat.update(this, store)
 		return
 	end
 
-	local h_id = target.tower.holder_id
+	local broken_tower_mod = E:create_entity(this.broken_tower_mod)
 
-	target.tower.destroy = true
+	broken_tower_mod.modifier.target_id = target.id
 
+	queue_insert(store, broken_tower_mod)
 	coroutine.yield()
-
-	local holder = table.filter(store.entities, function(_, v)
-		return v.tower and v.tower.holder_id == h_id
-	end)
-
-	if holder and #holder > 0 then
-		holder = holder[1]
-		holder.ui.can_click = false
-		holder.tower.can_hover = false
-	else
-		holder = nil
-	end
-
 	U.y_wait(store, this.use_secondary_anim and fts(113) or fts(40))
 	S:queue(this.sound_fist_remove)
 
@@ -17199,9 +17192,12 @@ function scripts.mod_boss_crocs_tower_eat.update(this, store)
 		coroutine.yield()
 	end
 
-	if holder then
-		holder.ui.can_click = true
-		holder.tower.can_hover = true
+	SU.tower_block_dec(target)
+
+	if target.ui and target.tower.block_count <= 1 then
+		target.ui.can_click = true
+		target.tower.can_hover = true
+		target.trigger_deselect = nil
 	end
 
 	queue_remove(store, this)
@@ -73343,9 +73339,11 @@ function scripts.boss_cult_leader.update(this, store)
 		if is_protected then
 			this.health.armor = this.close_armor
 			this.health.magic_armor = this.close_magic_armor
+			this.health.ignore_damage = true
 		else
 			this.health.armor = this.open_armor
 			this.health.magic_armor = this.open_magic_armor
+			this.health.ignore_damage = false
 		end
 	end
 
@@ -75973,7 +75971,11 @@ function scripts.controller_stage_22_boss_crocs.update(this, store)
 
 	local function get_towers_to_eat()
 		local towers = table.filter(store.entities, function(k, v)
-			local is_tower = v.tower and not v.pending_removal and (not this.excluded_templates or not table.contains(this.excluded_templates, v.template_name)) and v.vis and band(v.vis.flags, this.vis_bans) == 0 and band(v.vis.bans, this.vis_flags) == 0 and (not this.exclude_tower_kind or not table.contains(this.exclude_tower_kind, v.tower.kind)) and v.tower.can_be_mod
+			local is_tower = v.tower and not v.pending_removal and
+			(not this.excluded_templates or not table.contains(this.excluded_templates, v.template_name)) and v.vis and
+			band(v.vis.flags, this.vis_bans) == 0 and band(v.vis.bans, this.vis_flags) == 0 and
+			(not this.exclude_tower_kind or not table.contains(this.exclude_tower_kind, v.tower.kind)) and
+			v.tower.can_be_mod and not U.has_modifiers(store, v, "mod_stage_22_tower_destroyed")
 
 			return is_tower
 		end)
