@@ -7,13 +7,13 @@ return {
 	custom_spawn_pos = {
 		{
 			pos = {
-				x = 671,
+				x = 696,
 				y = 714
 			}
 		},
 		{
 			pos = {
-				x = 880,
+				x = 675,
 				y = 624
 			}
 		}
