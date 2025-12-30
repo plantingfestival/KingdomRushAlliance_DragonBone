@@ -4574,6 +4574,14 @@ local function get_entity_names_for_conditions(t, basic_key, is_hit, pos)
 	return names, status
 end
 
+local function unblock_entity(store, e)
+	if e.enemy then
+		U.unblock_all(store, e)
+	elseif e.soldier then
+		U.unblock_target(store, e)
+	end
+end
+
 local function set_entity_nav_rally(store, entity, rallyCenter, rallyPos, squadId)
 	if entity.nav_rally then
 		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
@@ -4600,11 +4608,7 @@ local function set_entity_nav_rally(store, entity, rallyCenter, rallyPos, squadI
 		entity.reinforcement.squad_id = squadId
 	end
 
-	if entity.enemy then
-		U.unblock_all(store, entity)
-	elseif entity.soldier then
-		U.unblock_target(store, entity)
-	end
+	unblock_entity(store, entity)
 end
 
 ---基础创建实体
@@ -6085,11 +6089,7 @@ local function entity_casts_jump_target(store, this, a)
 
 			play_entity_action_combo(this, a, 2, a.ts, to)
 
-			if this.enemy then
-				U.unblock_all(store, this)
-			elseif this.soldier then
-				U.unblock_target(store, this)
-			end
+			unblock_entity(store, this)
 			
 			coroutine.yield()
 		end
@@ -6103,11 +6103,7 @@ local function entity_casts_jump_target(store, this, a)
 
 			play_entity_action_combo(this, a, 2, a.ts, to)
 
-			if this.enemy then
-				U.unblock_all(store, this)
-			elseif this.soldier then
-				U.unblock_target(store, this)
-			end
+			unblock_entity(store, this)
 
 			coroutine.yield()
 		end
@@ -6572,6 +6568,7 @@ local SU = {
 	check_entity_attack_available = check_entity_attack_available,
 	make_bullet_damage_targets = make_bullet_damage_targets,
 	get_entity_names_for_conditions = get_entity_names_for_conditions,
+	unblock_entity = unblock_entity,
 	basic_create_entities = basic_create_entities,
 	create_bullet_hit_payload = create_bullet_hit_payload,
 	create_bullet_hit_fx = create_bullet_hit_fx,

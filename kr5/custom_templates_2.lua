@@ -1411,6 +1411,7 @@ tt.render.sprites[2] = CC("sprite")
 tt.render.sprites[2].prefix = "overcharge_crystals_base_layer2"
 tt.render.sprites[2].animated = true
 tt.render.sprites[2].anchor = v(0.5, 0.231)
+tt.mod = "overcharge_crystal_block_mod"
 tt.main_script.update = scripts.overcharge_crystal.update
 
 tt = RT("overcharge_crystal_block_mod", "modifier")

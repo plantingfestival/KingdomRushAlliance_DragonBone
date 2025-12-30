@@ -570,6 +570,20 @@ function scripts.overcharge_crystal.update(this, store, script)
 				this.charged = nil
 				SU.play_entity_action_combo(this, this, 3, store.tick_ts)
 				SU.play_entity_action_combo(this, this, 4, store.tick_ts)
+
+				local towers = table.filter(store.entities, function(_, e)
+					return e.tower and e.tower.can_be_mod and not U.has_modifiers(store, e, this.mod)
+				end)
+
+				if towers and #towers > 0 then
+					local random_tower = table.random_order(towers)
+
+					local m = E:create_entity(this.mod)
+					m.target_id = random_tower.id
+					m.source_id = this.id
+
+					queue_insert(store, e)
+				end
 			end
 		else
 			SU.play_entity_action_combo(this, this, 3, store.tick_ts, nil, nil, function()
