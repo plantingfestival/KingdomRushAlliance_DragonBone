@@ -5051,6 +5051,26 @@ return {
 			}
 		}
 	},
+	sasquash = {
+		{
+			{
+				check = "main_icons_0019",
+				action_arg = "soldier_sasquash",
+				action = "tw_buy_soldier",
+				halo = "glow_ico_main",
+				image = "main_icons_0017",
+				place = 5,
+				tt_title = _("SPECIAL_SASQUASH_NAME"),
+				tt_desc = _("SPECIAL_SASQUASH_DESCRIPTION")
+			},
+			{
+				halo = "ingame_ui_sub_icons_0001_hover",
+				image = "ingame_ui_sub_icons_0001",
+				action = "tw_rally",
+				place = 8
+			}
+		}
+	},
 	special_elf = {
 		{
 			{

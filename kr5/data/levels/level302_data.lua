@@ -1168,7 +1168,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "27",
-			template = "tower_barrack_1",
+			template = "tower_elven_barrack_lvl2",
 			["editor.game_mode"] = 1,
 			["tower.terrain_style"] = 301,
 			["ui.nav_mesh_id"] = "27",
@@ -1187,7 +1187,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "28",
-			template = "tower_barrack_1",
+			template = "tower_elven_barrack_lvl2",
 			["editor.game_mode"] = 3,
 			["tower.terrain_style"] = 301,
 			["ui.nav_mesh_id"] = "28",
@@ -1206,7 +1206,7 @@ return {
 		},
 		{
 			["tower.holder_id"] = "29",
-			template = "tower_barrack_1",
+			template = "tower_elven_barrack_lvl2",
 			["editor.game_mode"] = 3,
 			["tower.terrain_style"] = 301,
 			["ui.nav_mesh_id"] = "29",
@@ -1507,8 +1507,8 @@ return {
 		}
 	},
 	pan_extension = {
-		bottom = -40,
-		top = 40
+		bottom = 0,
+		top = 0
 	},
 	required_sounds = {
 		"music_stage302",
@@ -1516,6 +1516,7 @@ return {
 	},
 	required_textures = {
 		"go_enemies_elven_woods",
+		"go_towers_elven_stargazers",
 		"go_stage302",
 		"go_stage302_bg",
 		"go_stages_elven_woods"

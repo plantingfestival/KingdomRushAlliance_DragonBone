@@ -19,6 +19,7 @@ level.required_sounds = {
 	"SpecialWorm"
 }
 level.required_textures = {
+	"go_towers_random",
 	"go_enemies_desert",
 	"go_enemies_common-1",
 	"go_stages_desert",

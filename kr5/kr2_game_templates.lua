@@ -10519,8 +10519,8 @@ tt.info.portrait = "bottom_info_image_enemies_0120"
 tt.info.enc_icon = 5
 tt.main_script.insert = kr2_scripts.enemy_basic.insert
 tt.main_script.update = kr2_scripts.enemy_mixed.update
-tt.melee.attacks[1].damage_max = 60
-tt.melee.attacks[1].damage_min = 30
+tt.melee.attacks[1].damage_max = 100
+tt.melee.attacks[1].damage_min = 40
 tt.melee.attacks[1].dodge_time = fts(11)
 tt.melee.attacks[1].hit_decal = "decal_ground_hit"
 tt.melee.attacks[1].hit_fx = "fx_ground_hit"
@@ -10545,6 +10545,7 @@ tt.unit.pop_offset = v(0, 20)
 tt.unit.marker_offset = v(0, ady(16))
 tt.unit.mod_offset = v(0, ady(39))
 tt.unit.size = UNIT_SIZE_MEDIUM
+tt.vis.flags = bor(F_ENEMY, F_MINIBOSS)
 tt = E:register_t("enemy_munra", "enemy_KR5")
 
 E:add_comps(tt, "melee", "ranged", "timed_attacks", "count_group")

@@ -556,8 +556,8 @@ return {
 		}
 	},
 	pan_extension = {
-		bottom = -40,
-		top = 40
+		bottom = 0,
+		top = 0
 	},
 	required_sounds = {
 		"music_stage318",

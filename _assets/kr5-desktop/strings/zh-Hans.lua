@@ -2996,6 +2996,8 @@ return {
 	["Earn huge bonus points and gold by calling waves earlier!"] = "提前召唤敌人能获得大量额外分数和金币！",
 	HERO_10YR_BUFFED_DESCRIPTION_2 = "天十化身为无敌的肌肉猛男，每次攻击造成48-72点范围性真实伤害，持续9秒。10秒冷却。",
 	SPECIAL_SUNRAY_UPGRADE_DESCRIPTION_1 = "召唤一名术士为日光之塔蓄能，为其增加攻击力和减少冷却时间。",
+	SPECIAL_SASQUASH_REPAIR_NAME = "大脚怪洞穴",
+	SOLDIER_SASQUASH_NAME = "大脚怪",
 	SPECIAL_SASQUASH_NAME = "大脚怪",
 	SPECIAL_SASQUASH_DESCRIPTION = "大脚怪会帮助你战斗，只要提供食物、金币.....",
 	SPECIAL_SASQUASH_REPAIR_DESCRIPTION = "这个洞穴很早以前就冻得结结实实...",

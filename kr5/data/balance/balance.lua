@@ -2214,16 +2214,16 @@ local heroes = {
 			38
 		},
 		regen_health = {
-			18,
-			19,
-			21,
-			22,
 			24,
-			26,
 			27,
-			29,
 			30,
-			32
+			33,
+			36,
+			39,
+			42,
+			45,
+			48,
+			52
 		},
 		basic_melee = {
 			cooldown = 2,
@@ -2387,21 +2387,21 @@ local heroes = {
 					16,
 					28,
 					46,
-					73
+					80
 				},
 				damage_type = DAMAGE_TRUE,
 				spiked_armor_damage_type = DAMAGE_TRUE,
 				hp_max = {
-					210,
-					290,
-					370,
-					450
+					500,
+					750,
+					1000,
+					1500
 				},
 				regen_health = {
-					5,
-					8,
-					12,
-					17
+					50,
+					80,
+					120,
+					170
 				},
 				spiked_armor_damage = {
 					0,
@@ -2410,10 +2410,10 @@ local heroes = {
 					45
 				},
 				armor = {
-					0.2,
-					0.3,
 					0.45,
-					0.65
+					0.6,
+					0.75,
+					0.95
 				}
 			}
 		}
@@ -12519,15 +12519,15 @@ local towers = {
 			},
 			extra_damage_min = {
 				15,
-				24
+				15
 			},
 			extra_damage_max = {
 				15,
-				24
+				15
 			},
 			s_extra_damage_total = {
 				15,
-				24
+				15
 			},
 			fps_increment = {
 				0,

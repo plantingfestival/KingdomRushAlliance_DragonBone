@@ -4488,7 +4488,7 @@ end
 
 scripts.hero_10yr_ultimate = {}
 
-function scripts.hero_10yr_ultimate.can_fire_fn(this, x, y, store)
+function scripts.hero_10yr_ultimate.can_fire_fn(this, x, y)
 	return (GR:cell_is(x, y, TERRAIN_LAND) or GR:cell_is(x, y, TERRAIN_WATER)) and SU5.valid_node_interval(x, y, this.offset_back, 0, 1, NF_RALLY)
 end
 

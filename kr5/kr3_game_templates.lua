@@ -14808,11 +14808,11 @@ tt = RT("enemy_balrog_son", "enemy")
 
 AC(tt, "melee", "ranged")
 
-tt.enemy.lives_cost = 5
+tt.enemy.lives_cost = 7
 tt.enemy.gold = 1000
 tt.enemy.melee_slot = v(27, 0)
 tt.health.armor = 0.95
-tt.health.hp_max = 18600
+tt.health.hp_max = 22000
 tt.health_bar.offset = v(0, 53)
 tt.info.enc_icon = 45
 tt.info.i18n_key = "ENEMY_BALROG_SON"
@@ -14838,7 +14838,7 @@ tt.ranged.attacks[1].shoot_time = fts(11)
 tt.ranged.attacks[1].vis_flags = bor(F_RANGED, F_BURN)
 tt.render.sprites[1].anchor = v(0.5, 0.12857142857142856)
 tt.render.sprites[1].prefix = "eb_balrog"
-tt.render.sprites[1].scale = vv(1.15)
+tt.render.sprites[1].scale = vv(1.25)
 tt.sound_events.death = "ElvesBalrogDeath"
 tt.ui.click_rect = r(-15, 0, 30, 40)
 tt.unit.blood_color = BLOOD_ORANGE

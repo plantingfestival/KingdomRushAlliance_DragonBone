@@ -51,33 +51,17 @@ level.custom_spawn_pos = {
 function level:init(store)
 	store.level_terrain_type = TERRAIN_STYLE_JUNGLE
 	self.locations = LU.load_locations(store, self)
-
-	if store.level_mode == GAME_MODE_CAMPAIGN then
-		self.locked_hero = false
-		self.locked_powers = {}
-		self.max_upgrade_level = 5
-		self.locked_towers = {
-			"tower_totem",
+	self.locked_hero = false
+	self.locked_powers = {}
+	self.max_upgrade_level = 5
+	self.locked_towers = {
 			"tower_necromancer",
 			"tower_mech"
 		}
-	elseif store.level_mode == GAME_MODE_HEROIC then
-		self.locked_hero = false
-		self.locked_powers = {}
-		self.max_upgrade_level = 3
-		self.locked_towers = {
-			"tower_totem",
-			"tower_necromancer",
-			"tower_mech"
-		}
-	elseif store.level_mode == GAME_MODE_IRON then
-		self.locked_hero = false
-		self.locked_powers = {}
-		self.max_upgrade_level = 3
-		self.locked_towers = {
-			"tower_build_archer",
-			"tower_necromancer",
-			"tower_build_engineer"
+	if store.level_mode == GAME_MODE_IRON then
+		self.available_towers = {
+			"tower_build_paladin_covenant",
+			"tower_build_dark_elf"
 		}
 	end
 end

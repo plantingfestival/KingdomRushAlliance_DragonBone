@@ -1375,7 +1375,7 @@ tt.info.stat_damage = 7
 tt.info.stat_cooldown = 6
 tt.main_script.update = kr1_scripts.hero_10yr.update
 tt.motion.max_speed_normal = 1.6 * FPS
-tt.motion.max_speed_buffed = 2.2 * FPS
+tt.motion.max_speed_buffed = 3.2 * FPS
 tt.motion.max_speed = tt.motion.max_speed_normal
 tt.particles_aura = "aura_10yr_idle"
 tt.regen.cooldown = 1
@@ -5295,7 +5295,7 @@ tt = RT("tower_sasquash", "tower")
 
 AC(tt, "barrack")
 
-tt.info.portrait = (IS_PHONE_OR_TABLET and "portraits_towers" or "info_portraits_towers") .. "_0014"
+tt.info.portrait = "gui_bottom_info_image_soldiers_0106"
 tt.barrack.max_soldiers = 1
 tt.barrack.rally_range = 288
 tt.barrack.respawn_offset = v(-60, 0)
@@ -7108,13 +7108,15 @@ tt.health_bar.type = HEALTH_BAR_SIZE_LARGE
 tt.health_bar.offset = v(0, 51)
 tt.info.portrait = "bottom_info_image_enemies_0109"
 tt.info.i18n_key = "ENEMY_SARELGAZ_MEDIUM"
+tt.main_script.insert = kr1_scripts.enemy_basic.insert
+tt.main_script.update = kr1_scripts.enemy_spider_big.update
 tt.info.enc_icon = 31
 tt.melee.attacks[1].cooldown = 1
 tt.melee.attacks[1].damage_max = 350
 tt.melee.attacks[1].damage_min = 150
 tt.melee.attacks[1].hit_time = fts(11)
 tt.melee.attacks[1].sound = "SpiderAttack"
-tt.motion.max_speed = 0.3 * FPS
+tt.motion.max_speed = 0.6 * FPS
 tt.timed_attacks.list[1] = E:clone_c("bullet_attack")
 tt.timed_attacks.list[1].bullet = "enemy_spider_egg_big"
 tt.timed_attacks.list[1].max_cooldown = 10

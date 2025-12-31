@@ -386,6 +386,12 @@ return {
 			"amazon_taunt_2.ogg"
 		}
 	},
+	GenieSounds = {
+		files = {
+			"genie_taunt_1.ogg",
+			"genie_taunt_2.ogg"
+		}
+	},
 	SpecialStargate = {
 		files = {
 			"stargate.ogg"
@@ -1139,12 +1145,14 @@ return {
 	},
 	music_stage319 = {
 		sounds = {
+			"WolfAttack",
 			"MusicBattlePrep_319",
 			"MusicBattle_319"
 		}
 	},
 	music_stage320 = {
 		sounds = {
+			"WolfAttack",
 			"MusicBattlePrep_320",
 			"MusicBattle_320",
 			"KR3_MusicBossFight"

@@ -19,7 +19,7 @@ return {
 		}
 	},
 	custom_start_pos = {
-		zoom = 1.3,
+		zoom = 1.2,
 		pos = {
 			x = 512,
 			y = 384
@@ -807,8 +807,8 @@ return {
 		}
 	},
 	pan_extension = {
-		bottom = -40,
-		top = 40
+		bottom = 0,
+		top = 0
 	},
 	required_sounds = {
 		"music_stage308",

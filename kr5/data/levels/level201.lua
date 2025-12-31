@@ -78,6 +78,10 @@ function level:init(store)
 			"tower_build_archer",
 			"tower_build_mage",
 			"tower_engineer_2"
+		},
+		self.available_towers = {
+			"tower_build_archer",
+			"tower_build_barrack"
 		}
 	end
 
