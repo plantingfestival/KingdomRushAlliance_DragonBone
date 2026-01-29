@@ -10307,7 +10307,7 @@ AC(tt, "regen")
 
 tt.main_script.update = scripts.aura_unit_regen.update
 tt.regen.cooldown = 0.1
-tt.regen.health = 30
+tt.regen.health = 40
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = false
 tt = E:register_t("aura_gator_regen", "aura")
@@ -10316,7 +10316,7 @@ AC(tt, "regen")
 
 tt.main_script.update = scripts.aura_unit_regen.update
 tt.regen.cooldown = 0.1
-tt.regen.health = 120
+tt.regen.health = 10000
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = true
 tt = E:register_t("aura_gator5_regen", "aura")
@@ -10325,7 +10325,7 @@ AC(tt, "regen")
 
 tt.main_script.update = scripts.aura_unit_regen.update
 tt.regen.cooldown = 0.1
-tt.regen.health = 25000
+tt.regen.health = 1000000
 tt.regen.ignore_stun = true
 tt.regen.ignore_freeze = true
 tt = E:register_t("decal_stage_27_clone_alive", "decal_timed")

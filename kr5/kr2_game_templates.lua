@@ -12249,6 +12249,8 @@ tt.attacks.list[5].initial_ni = 20
 tt.attacks.list[5].limit_ni = 50
 tt.attacks.list[5].cooldown = 30
 tt.attacks.list[5].callback_pieces = {
+	9,
+	8,
 	7,
 	5,
 	3,

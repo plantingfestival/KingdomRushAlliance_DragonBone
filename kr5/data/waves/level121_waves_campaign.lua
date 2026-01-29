@@ -4012,7 +4012,7 @@ return {
 							creep = "enemy_demon_flareon",
 							path = 1,
 							interval_next = 400,
-							max = 5
+							max = 15
 						},
 						{
 							interval = 30,
@@ -4021,16 +4021,25 @@ return {
 							creep = "enemy_demon_flareon",
 							path = 1,
 							interval_next = 800,
-							max = 5
+							max = 15
 						},
 						{
 							interval = 80,
 							max_same = 0,
 							fixed_sub_path = 0,
+							creep = "enemy_demon_cerberus_big",
+							path = 1,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 20,
+							max_same = 0,
+							fixed_sub_path = 0,
 							creep = "enemy_demon_legion",
 							path = 1,
 							interval_next = 0,
-							max = 15
+							max = 25
 						}
 					}
 				},
@@ -4039,49 +4048,67 @@ return {
 					path_index = 4,
 					spawns = {
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_demon_legion",
 							path = 1,
-							interval_next = 75,
-							max = 1
+							interval_next = 45,
+							max = 10
 						},
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_demon_legion",
 							path = 2,
-							interval_next = 0,
-							max = 1
+							interval_next = 20,
+							max = 10
 						},
 						{
-							interval = 0,
+							interval = 20,
+							max_same = 0,
+							fixed_sub_path = 1,
+							creep = "enemy_demon_mage",
+							path = 1,
+							interval_next = 100,
+							max = 2
+						},
+						{
+							interval = 20,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_demon_legion",
 							path = 3,
 							interval_next = 75,
-							max = 1
+							max = 10
 						},
 						{
-							interval = 0,
+							interval = 30,
 							max_same = 0,
 							fixed_sub_path = 1,
 							creep = "enemy_demon_mage",
 							path = 1,
-							interval_next = 1400,
-							max = 1
+							interval_next = 300,
+							max = 3
 						},
 						{
 							interval = 80,
 							max_same = 0,
 							fixed_sub_path = 0,
+							creep = "enemy_demon_cerberus_big",
+							path = 1,
+							interval_next = 0,
+							max = 1
+						},
+						{
+							interval = 20,
+							max_same = 0,
+							fixed_sub_path = 0,
 							creep = "enemy_demon_legion",
 							path = 1,
 							interval_next = 0,
-							max = 15
+							max = 25
 						}
 					}
 				}

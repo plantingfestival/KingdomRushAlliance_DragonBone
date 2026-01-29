@@ -9524,7 +9524,7 @@ function scripts.eb_umbra.update(this, store, script)
 
 	while true do
 		if is_in_pieces then
-			local callback_pieces = ap.callback_pieces[km.clamp(1, 4, death_cycles)]
+			local callback_pieces = ap.callback_pieces[km.clamp(1, 6, death_cycles)]
 
 			while store.tick_ts - ap.ts < ap.cooldown do
 				coroutine.yield()
@@ -9586,7 +9586,7 @@ function scripts.eb_umbra.update(this, store, script)
 						table.remove(pieces, i)
 						table.insert(pieces_returned, p)
 
-						recovered_hp = this.health.hp_max * 15
+						recovered_hp = this.health.hp_max * 5
 						p.motion.max_speed = 0
 
 						S:queue("FrontiersFinalBossPiecesRegroup")
