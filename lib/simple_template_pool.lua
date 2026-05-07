@@ -68,8 +68,8 @@ function SimpleTemplatePool.new(template, max_size, prefill)
 		_items = items,
 		_max_size = max_size,
 		_trim_timer = 0,
-		_trim_interval = 2.0,
-		_trim_count = 256,
+		_trim_interval = 1.0,
+		_trim_count = 128,
 	}
 	setmetatable(pool, { __index = SimpleTemplatePool })
 	return pool
