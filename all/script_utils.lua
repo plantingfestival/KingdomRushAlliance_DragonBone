@@ -134,7 +134,7 @@ local function unit_dodges(store, this, ranged_attack, attack, source)
 	this.dodge.last_check_ts = store.tick_ts
 
 	if not this.unit.is_stunned and (not this.dodge.requires_magic or this.enemy and this.enemy.can_do_magic) and (not ranged_attack or this.dodge.ranged) and (not this.dodge.cooldown or store.tick_ts - this.dodge.ts > this.dodge.cooldown) and (not attack or not attack.damage_type or band(attack.damage_type, DAMAGE_NO_DODGE) == 0) and math.random() <= this.dodge.chance and (not this.dodge.can_dodge or this.dodge.can_dodge(store, this, ranged_attack, attack, source)) then
-		this.dodge.last_doge_ts = store.tick_ts
+		this.dodge.last_dodge_ts = store.tick_ts
 		this.dodge.last_attack = attack
 		this.dodge.active = true
 
@@ -147,7 +147,7 @@ end
 local function show_dodge_pop(store, this)
 	local pop = E:create_entity(this.dodge.pop or "pop_miss")
 
-	pop.pos = V.v(this.pos.x, this.pos.y)
+	pop.pos.x, pop.pos.y = this.pos.x, this.pos.y
 
 	if this.unit and this.unit.pop_offset then
 		pop.pos.y = pop.pos.y + this.unit.pop_offset.y
@@ -280,7 +280,7 @@ local function do_death_spawns(store, this)
 	if this.death_spawns.fx then
 		local fx = E:create_entity(this.death_spawns.fx)
 
-		fx.pos = V.vclone(this.pos)
+		fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 		fx.render.sprites[1].ts = store.tick_ts
 
 		if this.death_spawns.fx_flip_to_source and this.render and this.render.sprites[1] then
@@ -293,7 +293,7 @@ local function do_death_spawns(store, this)
 	for i = 1, this.death_spawns.quantity do
 		local s = E:create_entity(this.death_spawns.name)
 
-		s.pos = V.vclone(this.pos)
+		s.pos.x, s.pos.y = this.pos.x, this.pos.y
 
 		if this.death_spawns.spawn_animation and s.render then
 			s.render.sprites[1].name = this.death_spawns.spawn_animation
@@ -396,7 +396,7 @@ local function create_pop(store, pos, pop)
 	local name = pop[math.random(1, #pop)]
 	local e = E:create_entity(name)
 
-	e.pos = V.v(pos.x, pos.y + e.pop_y_offset)
+	e.pos.x, e.pos.y = pos.x, pos.y + e.pop_y_offset
 	e.render.sprites[1].r = math.random(-21, 21) * math.pi / 180
 	e.render.sprites[1].ts = store.tick_ts
 
@@ -1004,7 +1004,7 @@ local function y_hero_death_and_respawn(store, this)
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
 
-			decal.pos = V.vclone(this.pos)
+			decal.pos.x, decal.pos.y = this.pos.x, this.pos.y
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
@@ -1150,7 +1150,7 @@ local function y_hero_death_and_respawn_kr5(store, this)
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
 
-			decal.pos = V.vclone(this.pos)
+			decal.pos.x, decal.pos.y = this.pos.x, this.pos.y
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
@@ -1194,9 +1194,9 @@ local function y_hero_death_and_respawn_kr5(store, this)
 				3
 			}, true)
 			local pi, spi, ni = unpack(nodes[1])
-			local npos = P:node_pos(pi, spi, ni)
+			local npos = P:node_pos(pi, spi, ni, true)
 
-			tombstone.pos = npos
+			tombstone.pos.x, tombstone.pos.y = npos.x, npos.y
 		else
 			tombstone.pos = this.pos
 		end
@@ -1299,9 +1299,8 @@ local function y_reinforcement_fade_out(store, this)
 		offset = -1 * offset
 	end
 
-	local o = V.v(this.pos.x + offset, this.pos.y)
-
-	U.set_destination(this, o)
+	this.motion.dest.x, this.motion.dest.y = this.pos.x + offset, this.pos.y
+	this.motion.arrived = false
 
 	local t_angle = offset > 0 and 0 or math.pi
 	local an, af, ai = U.animation_name_for_angle(this, "walk", t_angle)
@@ -1472,7 +1471,7 @@ local function y_soldier_death(store, this)
 		if this.unit.show_blood_pool and this.unit.blood_color ~= BLOOD_NONE then
 			local decal = E:create_entity("decal_blood_pool")
 
-			decal.pos = V.vclone(this.pos)
+			decal.pos.x, decal.pos.y = this.pos.x, this.pos.y
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = this.unit.blood_color
 
@@ -1561,7 +1560,7 @@ local function y_soldier_do_loopable_ranged_attack(store, this, target, attack)
 			end
 
 			b = E:create_entity(attack.bullet)
-			b.pos = V.vclone(this.pos)
+			b.pos.x, b.pos.y = this.pos.x, this.pos.y
 
 			if attack.bullet_start_offset then
 				local offset = attack.bullet_start_offset[ai]
@@ -1676,7 +1675,7 @@ local function y_soldier_do_ranged_attack(store, this, target, attack, pred_pos)
 		S:queue(attack.sound_shoot)
 
 		bullet = E:create_entity(attack.bullet)
-		bullet.pos = V.vclone(this.pos)
+		bullet.pos.x, bullet.pos.y = this.pos.x, this.pos.y
 
 		if attack.bullet_start_offset then
 			local offset = attack.bullet_start_offset[ai]
@@ -1847,7 +1846,7 @@ local function y_soldier_do_timed_action(store, this, action)
 
 			e.aura.source_id = this.id
 			e.aura.level = action.level
-			e.pos = V.vclone(this.pos)
+			e.pos.x, e.pos.y = this.pos.x, this.pos.y
 
 			queue_insert(store, e)
 		end
@@ -2028,7 +2027,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 	if attack.hit_aura then
 		local a = E:create_entity(attack.hit_aura)
 
-		a.pos = V.vclone(hit_pos)
+		a.pos.x, a.pos.y = hit_pos.x, hit_pos.y
 		a.aura.target_id = target.id
 		a.aura.source_id = this.id
 
@@ -2038,7 +2037,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 	if attack.hit_fx then
 		local fx = E:create_entity(attack.hit_fx)
 
-		fx.pos = V.vclone(hit_pos)
+		fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 		for i = 1, #fx.render.sprites do
 			fx.render.sprites[i].ts = store.tick_ts
@@ -2050,7 +2049,7 @@ local function y_soldier_do_single_area_attack(store, this, target, attack)
 	if attack.hit_decal then
 		local fx = E:create_entity(attack.hit_decal)
 
-		fx.pos = V.vclone(hit_pos)
+		fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 		for i = 1, #fx.render.sprites do
 			fx.render.sprites[i].ts = store.tick_ts
@@ -2210,7 +2209,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				if attack.hit_fx then
 					local fx = E:create_entity(attack.hit_fx)
 
-					fx.pos = V.vclone(hit_pos)
+					fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 					for i = 1, #fx.render.sprites do
 						fx.render.sprites[i].ts = store.tick_ts
@@ -2222,7 +2221,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				if attack.hit_decal then
 					local fx = E:create_entity(attack.hit_decal)
 
-					fx.pos = V.vclone(hit_pos)
+					fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 					for i = 1, #fx.render.sprites do
 						fx.render.sprites[i].ts = store.tick_ts
@@ -2273,7 +2272,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				if attack.hit_fx then
 					local fx = E:create_entity(attack.hit_fx)
 
-					fx.pos = V.vclone(hit_pos)
+					fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 					for i = 1, #fx.render.sprites do
 						fx.render.sprites[i].ts = store.tick_ts
@@ -2285,7 +2284,7 @@ local function y_soldier_do_loopable_melee_attack(store, this, target, attack)
 				if attack.hit_decal then
 					local fx = E:create_entity(attack.hit_decal)
 
-					fx.pos = V.vclone(hit_pos)
+					fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 					for i = 1, #fx.render.sprites do
 						fx.render.sprites[i].ts = store.tick_ts
@@ -2443,7 +2442,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 		if attack.hit_aura then
 			local a = E:create_entity(attack.hit_aura)
 
-			a.pos = V.vclone(hit_pos)
+			a.pos.x, a.pos.y = hit_pos.x, hit_pos.y
 			a.aura.target_id = target.id
 			a.aura.source_id = this.id
 
@@ -2453,7 +2452,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 		if attack.hit_fx then
 			local fx = E:create_entity(attack.hit_fx)
 
-			fx.pos = V.vclone(hit_pos)
+			fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 			for i = 1, #fx.render.sprites do
 				fx.render.sprites[i].ts = store.tick_ts
@@ -2465,7 +2464,7 @@ local function y_soldier_do_single_melee_attack(store, this, target, attack)
 		if attack.hit_decal then
 			local fx = E:create_entity(attack.hit_decal)
 
-			fx.pos = V.vclone(hit_pos)
+			fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 			for i = 1, #fx.render.sprites do
 				fx.render.sprites[i].ts = store.tick_ts
@@ -3126,7 +3125,7 @@ local function enemy_water_change(store, this)
 
 			fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 			fx.render.sprites[1].ts = store.tick_ts
-			fx.pos = V.vclone(this.pos)
+			fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 
 			queue_insert(store, fx)
 
@@ -3329,7 +3328,7 @@ local function y_enemy_death(store, this)
 		if e.unit.show_blood_pool and e.unit.blood_color ~= BLOOD_NONE and band(terrain_type, TERRAIN_WATER) == 0 then
 			local decal = E:create_entity("decal_blood_pool")
 
-			decal.pos = V.vclone(e.pos)
+			decal.pos.x, decal.pos.y = e.pos.x, e.pos.y
 			decal.render.sprites[1].ts = store.tick_ts
 			decal.render.sprites[1].name = e.unit.blood_color
 			decal.render.sprites[1].z = e.render.sprites[1].z
@@ -3355,7 +3354,7 @@ local function y_enemy_death(store, this)
 
 		local fx = E:create_entity(this.unit.explode_fx)
 
-		fx.pos = V.vclone(this.pos)
+		fx.pos.x, fx.pos.y = this.pos.x, this.pos.y
 		fx.render.sprites[1].ts = store.tick_ts
 		fx.render.sprites[1].name = fx.render.sprites[1].size_names[this.unit.size]
 
@@ -3584,7 +3583,7 @@ local function y_enemy_do_ranged_attack(store, this, target, attack)
 	if band(target.vis.bans, attack.vis_flags) == 0 and band(target.vis.flags, attack.vis_bans) == 0 then
 		local bullet = E:create_entity(attack.bullet)
 
-		bullet.pos = V.vclone(this.pos)
+		bullet.pos.x, bullet.pos.y = this.pos.x, this.pos.y
 
 		if attack.bullet_start_offset then
 			local offset = attack.bullet_start_offset[ai]
@@ -3656,7 +3655,7 @@ local function y_enemy_do_loopable_ranged_attack(store, this, target, attack)
 			end
 
 			b = E:create_entity(attack.bullet)
-			b.pos = V.vclone(this.pos)
+			b.pos.x, b.pos.y = this.pos.x, this.pos.y
 
 			if attack.bullet_start_offset then
 				local offset = attack.bullet_start_offset[ai]
@@ -3910,7 +3909,7 @@ local function y_enemy_melee_attacks(store, this, target)
 					if ma.hit_fx and (not ma.hit_fx_once or i == 1) then
 						local fx = E:create_entity(ma.hit_fx)
 
-						fx.pos = V.vclone(hit_pos)
+						fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 						if ma.hit_fx_offset then
 							fx.pos.x = fx.pos.x + (af and -1 or 1) * ma.hit_fx_offset.x
@@ -3931,7 +3930,7 @@ local function y_enemy_melee_attacks(store, this, target)
 					if ma.hit_decal then
 						local fx = E:create_entity(ma.hit_decal)
 
-						fx.pos = V.vclone(hit_pos)
+						fx.pos.x, fx.pos.y = hit_pos.x, hit_pos.y
 
 						for i = 1, #fx.render.sprites do
 							fx.render.sprites[i].ts = store.tick_ts
@@ -4007,7 +4006,7 @@ local function y_show_taunt_set(store, taunts, set_name, index, pos, duration, w
 	duration = duration or taunts.duration
 	pos = pos or set.pos or taunts.pos
 
-	local offset = set.offset or taunts.offset or v(0, 0)
+	local offset = set.offset or taunts.offset or V.v(0, 0)
 	local t = E:create_entity(decal or set.decal_name or taunts.decal_name)
 
 	t.texts.list[1].text = _(string.format(set.format, index))
@@ -4404,9 +4403,8 @@ local function create_bullet_hit_payload(this, store, flip_x)
 				hp.source_id = b.source_id
 			end
 			if hp.nav_rally and hp.pos then
-				local npos = V.vclone(hp.pos)
-				hp.nav_rally.center = npos
-				hp.nav_rally.pos = npos
+				hp.nav_rally.pos.x, hp.nav_rally.pos.y = hp.pos.x, hp.pos.y
+				hp.nav_rally.center = hp.nav_rally.pos
 				hp.nav_rally.new = false
 			end
 			queue_insert(store, hp)
@@ -4474,13 +4472,21 @@ end
 
 local function set_entity_nav_rally(entity, rallyCenter, rallyPos, squadId)
 	if entity.nav_rally then
-		entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
-		if rallyPos then
-			entity.nav_rally.pos = rallyPos
-			entity.nav_rally.new = true
+		if entity.nav_rally.center then
+			if not rallyCenter then
+				entity.nav_rally.center.x, entity.nav_rally.center.y = entity.pos.x, entity.pos.y
+			else
+				entity.nav_rally.center.x, entity.nav_rally.center.y = rallyCenter.x, rallyCenter.y
+			end
 		else
-			entity.nav_rally.pos = V.vclone(entity.pos)
+			entity.nav_rally.center = rallyCenter or V.vclone(entity.pos)
+		end
+		if not rallyPos then
+			entity.nav_rally.pos.x, entity.nav_rally.pos.y = entity.pos.x, entity.pos.y
 			entity.nav_rally.new = false
+		else
+			entity.nav_rally.pos.x, entity.nav_rally.pos.y = rallyPos.x, rallyPos.y
+			entity.nav_rally.new = true
 		end
 	end
 	if entity.reinforcement and squadId then
@@ -4566,54 +4572,40 @@ local function entity_idle(store, this, force_ts)
 	end
 end
 
-local function get_attack_filter_function(attack)
-	local filter_fn
-	if attack.allowed_templates then
-		filter_fn = function(v, origin)
-			return table.contains(attack.allowed_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
-		end
-	elseif attack.excluded_templates then
-		filter_fn = function(v, origin)
-			return not table.contains(attack.excluded_templates, v.template_name) and (not attack.filter_fn or attack.filter_fn and attack.filter_fn(v, origin))
-		end
-	else
-		filter_fn = attack.filter_fn
-	end
-	return filter_fn
-end
-
 local function find_targets_in_range(store, this, a, origin, filter_fn)
-	if not filter_fn then
-		filter_fn = get_attack_filter_function(a)
-	end
-	if not origin then
+	if origin then
+		-- block empty
+	else
 		origin = get_entity_range_origin(this)
 	end
+	filter_fn = filter_fn or a.filter_fn
+
 	local vis_flags = a.vis_flags or 0
 	local vis_bans = a.vis_bans or 0
-	return U.find_targets_in_range(store.entities, origin, 0, a.range, vis_flags, vis_bans, filter_fn)
+	return U.find_targets_in_range(store.entities, origin, 0, a.range, vis_flags, vis_bans, filter_fn, a.allowed_templates, a.excluded_templates)
 end
 
 local function find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
-	if not filter_fn then
-		filter_fn = get_attack_filter_function(a)
-	end
-	if not origin then
+	if origin then
+		-- block empty
+	else
 		origin = get_entity_range_origin(this)
 	end
 	prediction_time = prediction_time or a.node_prediction or 0
+	filter_fn = filter_fn or a.filter_fn
+
 	local target, targets, pred_pos
 	if a.vis_bans and band(a.vis_bans, F_ENEMY) ~= 0 then
 		target, targets, pred_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
+		a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func, a.allowed_templates, a.excluded_templates)
 	elseif a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
 		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func, a.allowed_templates, a.excluded_templates)
 	else
 		target, targets, pred_pos = U.find_enemy_with_search_type(store.entities, origin, a.min_range, a.max_range, prediction_time, 
-		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
+		a.vis_flags, a.vis_bans, filter_fn, F_FLYING, a.search_type, a.crowd_range, a.min_targets, a.sort_func, a.allowed_templates, a.excluded_templates)
 		local soldier, soldiers, soldier_pos = U.find_soldier_with_search_type(store.entities, origin, a.min_range, a.max_range, 
-		prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func)
+		prediction_time, a.vis_flags, a.vis_bans, filter_fn, a.search_type, a.crowd_range, a.min_targets, a.sort_func, a.allowed_templates, a.excluded_templates)
 		if targets then
 			if soldiers then
 				table.merge(targets, soldiers)
@@ -4626,12 +4618,11 @@ local function find_target_with_search_type(store, this, a, origin, prediction_t
 end
 
 local function entity_casts_spawner(store, this, a)
-	local filter_fn = get_attack_filter_function(a)
 	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
+		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn, a.allowed_templates, a.excluded_templates)
 	elseif a.range and a.range > 0 then
-		targets = find_targets_in_range(store, this, a, nil, filter_fn)
+		targets = find_targets_in_range(store, this, a, nil, a.filter_fn)
 	else
 		unconditional = true
 	end
@@ -4720,7 +4711,8 @@ local function entity_casts_spawner(store, this, a)
 				nav_path.spi = tspi
 			end
 			nav_path.ni = km.clamp(1, P:get_end_node(tpi), tni + math.random(min_nodes, max_nodes))
-			e.pos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni)
+			local npos = P:node_pos(nav_path.pi, nav_path.spi, nav_path.ni, true)
+			e.pos.x, e.pos.y = npos.x, npos.y
 			return e, nav_path
 		end
 
@@ -4774,7 +4766,7 @@ end
 local function entity_casts_range_unit(store, this, a)
 	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
-	local filter_fn, origin
+	local origin
 
 	local function get_target(prediction_time, filter_fn)
 		return find_target_with_search_type(store, this, a, origin, prediction_time, filter_fn)
@@ -4791,11 +4783,11 @@ local function entity_casts_range_unit(store, this, a)
 			if not a.ignore_flip_x then
 				local new_filter_fn = function(v, origin)
 					return (af and v.pos.x < origin.x or not af and v.pos.x >= origin.x) and 
-					(not filter_fn or filter_fn and filter_fn(v, origin))
+					(not a.filter_fn or a.filter_fn(v, origin))
 				end
 				newTarget, newTargets, newPredPos = get_target(prediction_time, new_filter_fn)
 			else
-				newTarget, newTargets, newPredPos = get_target(prediction_time, filter_fn)
+				newTarget, newTargets, newPredPos = get_target(prediction_time, a.filter_fn)
 			end
 			if newTarget then
 				target = newTarget
@@ -4858,7 +4850,7 @@ local function entity_casts_range_unit(store, this, a)
 				local start_offset = a.bullet_start_offset[ai]
 				local flipSign = af and -1 or 1
 				bullet.bullet.from = V.v(this.pos.x + start_offset.x * flipSign, this.pos.y + start_offset.y)
-				bullet.pos = V.vclone(bullet.bullet.from)
+				bullet.pos.x, bullet.pos.y = bullet.bullet.from.x, bullet.bullet.from.y
 			end
 			if not bullet.bullet.ignore_hit_offset and target.unit and target.unit.hit_offset then
 				local flipSign = target.render and target.render.sprites[1].flip_x and -1 or 1
@@ -4972,9 +4964,8 @@ local function entity_casts_range_unit(store, this, a)
 		goto label_start
 	end
 
-	filter_fn = get_attack_filter_function(a)
 	origin = get_entity_range_origin(this)
-	target, targets, pred_pos = get_target(a.cast_time + prediction_time, filter_fn)
+	target, targets, pred_pos = get_target(a.cast_time + prediction_time, a.filter_fn)
 
 	::label_start::
 	if target then
@@ -5050,12 +5041,11 @@ local function entity_casts_range_unit(store, this, a)
 end
 
 local function entity_casts_range_at_path(store, this, a)
-	local filter_fn = get_attack_filter_function(a)
 	local targets, unconditional
 	if a.range_nodes and a.range_nodes > 0 and a.vis_bans and band(a.vis_bans, F_FRIEND) ~= 0 then
-		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, filter_fn)
+		targets = U.find_enemies_in_paths(store.entities, this.pos, 0, a.range_nodes, nil, 0, a.vis_bans, true, a.filter_fn, a.allowed_templates, a.excluded_templates)
 	elseif a.range and a.range > 0 then
-		targets = find_targets_in_range(store, this, a, nil, filter_fn)
+		targets = find_targets_in_range(store, this, a, nil, a.filter_fn)
 	else
 		unconditional = true
 	end
@@ -5119,7 +5109,7 @@ local function entity_casts_range_at_path(store, this, a)
 				local flipSign = af and -1 or 1
 				origin = get_entity_range_origin(this)
 				bullet.bullet.from = V.v(origin.x + start_offset.x * flipSign, origin.y + start_offset.y)
-				bullet.pos = V.vclone(bullet.bullet.from)
+				bullet.pos.x, bullet.pos.y = bullet.bullet.from.x, bullet.bullet.from.y
 			end
 			if bullet.bullet.hit_payload then
 				local hit_payload = {}
@@ -5180,7 +5170,7 @@ end
 local function entity_casts_object_on_target(store, this, a)
 	local target, targets, pred_pos
 	local prediction_time = a.node_prediction or 0
-	local filter_fn, origin
+	local origin
 
 	if a.target_id then
 		target = store.entities[a.target_id]
@@ -5193,9 +5183,8 @@ local function entity_casts_object_on_target(store, this, a)
 		goto label_start
 	end
 
-	filter_fn = get_attack_filter_function(a)
 	origin = get_entity_range_origin(this)
-	target, targets, pred_pos =	find_target_with_search_type(store, this, a, origin, a.cast_time + prediction_time, filter_fn)
+	target, targets, pred_pos =	find_target_with_search_type(store, this, a, origin, a.cast_time + prediction_time, a.filter_fn)
 
 	::label_start::
 	if target then
@@ -5232,12 +5221,14 @@ local function entity_casts_object_on_target(store, this, a)
 				e.pos.x, e.pos.y = t.pos.x, t.pos.y
 				if a.use_center then
 					if t.nav_path then
-						e.pos = P:node_pos(t.nav_path.pi, 1, t.nav_path.ni)
+						local npos = P:node_pos(t.nav_path.pi, 1, t.nav_path.ni, true)
+						e.pos.x, e.pos.y = npos.x, npos.y
 					else
 						local nodes = P:nearest_nodes(t.pos.x, t.pos.y, { tpi }, { 1 })
 						if #nodes >= 1 then
 							local _, _, ni = unpack(nodes[1])
-							e.pos = P:node_pos(tpi, 1, ni)
+							local npos = P:node_pos(tpi, 1, ni, true)
+							e.pos.x, e.pos.y = npos.x, npos.y
 						end
 					end
 				end
@@ -5655,7 +5646,6 @@ local SU = {
 	y_entity_animation_wait = y_entity_animation_wait,
 	y_entity_animation_play = y_entity_animation_play,
 	entity_idle = entity_idle,
-	get_attack_filter_function = get_attack_filter_function,
 	find_targets_in_range = find_targets_in_range,
 	find_target_with_search_type = find_target_with_search_type,
 	entity_casts_spawner = entity_casts_spawner,

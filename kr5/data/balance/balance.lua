@@ -6369,7 +6369,6 @@ local enemies = {
 	-- 额外的敌人，1代表敌人数量多1倍，血量多0.15倍，赏金为原来的0.6倍(原有的敌人不受影响)。
 	-- 2代表敌人数量多2倍，血量多0.15*2倍，赏金为原来的0.6*0.85倍，如此类推。
 	extra_enemies = 2,
-	frame_splitting = nil,
 	werebeasts = {
 		hog_invader = {
 			speed = 36,

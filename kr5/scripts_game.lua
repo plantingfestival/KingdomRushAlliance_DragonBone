@@ -36579,6 +36579,14 @@ function scripts.hero_dragon_arb.update(this, store)
 			SU.remove_modifiers(store, this, s_ult.mod)
 		end
 
+		local interrupted
+		if not this.unit.is_stunned then
+			-- block empty
+		else
+			SU.soldier_idle(store, this)
+			goto label_819_1
+		end
+
 		while this.nav_rally.new do
 			local r = this.nav_rally
 			local start_pos = V.vclone(this.pos)
@@ -36595,7 +36603,6 @@ function scripts.hero_dragon_arb.update(this, store)
 			U.y_animation_play_group(this, "lvlup", nil, store.tick_ts, 1, this.render.sprites[1].group)
 		end
 
-		local interrupted
 		for _, i in pairs(this.ranged.order) do
 			local a = this.ranged.attacks[i]
 
@@ -43212,7 +43219,7 @@ function scripts.tower_arcane_wizard.remove(this, store)
 	if pow_e.level > 0 then
 		local towers = U.find_towers_in_range(store.entities, this.pos, ae, function(t)
 			return U.has_modifiers(store, t, ae.mod)
-		end)
+		end, false)
 
 		if towers then
 			for _, tower in ipairs(towers) do

@@ -6,7 +6,6 @@ local E = require("entity_db")
 local i18n = require("i18n")
 local log = require("klua.log"):new("test_case")
 
-
 local anchor_y = 0
 local image_y = 0
 local tt, b
@@ -4065,7 +4064,7 @@ tt.render.sprites[1].exo = true
 tt.render.sprites[1].loop = false
 tt.render.sprites[1].offset = v(28, 33)
 tt.render.sprites[1].anchor = v(0.5, 0.5)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 tt.attacks.list[1] = E:clone_c("spell_attack")
 tt.attacks.list[1].disabled = true
 tt.attacks.list[1].spell_prefix = "mod_ignis_altar_single_extinction_"
@@ -4408,20 +4407,20 @@ tt.render.sprites[1].angles.shoot = {
 }
 tt.render.sprites[1].offset = v(12, 70)
 tt.render.sprites[1].scale = v(0.915, 0.915)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].name = "royal_archer_tower_lvl4_tower_rapacious_hunter_base"
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].offset = v(-1, 13)
 tt.render.sprites[2].flip_x = true
-tt.render.sprites[2].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[2].draw_order = DO_MOD_FX - 1
 tt.render.sprites[3] = CC("sprite")
 tt.render.sprites[3].prefix = "tower_ranger_druid"
 tt.render.sprites[3].name = "idle"
 tt.render.sprites[3].hidden = true
 tt.render.sprites[3].offset = v(-41, 15)
 tt.render.sprites[3].scale = v(1.05, 1.05)
-tt.render.sprites[3].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[3].draw_order = DO_MOD_FX - 1
 tt.attacks.range = 200
 tt.attacks.list[1] = CC("bullet_attack")
 tt.attacks.list[1].vis_bans = bor(F_NIGHTMARE)
@@ -4444,7 +4443,7 @@ tt.tower.level = 1
 tt.tower.price = 0
 tt.tower.type = "archer_and_longbow"
 table.remove(tt.render.sprites, 4)
-tt.render.sprites[4].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[4].draw_order = DO_MOD_FX - 1
 tt.sid_rapacious_hunter = 5
 tt.shooters = {
 	"shooter_longbow"
@@ -4604,7 +4603,7 @@ tt.render.sprites[1].angles.sentence = {
 	"instakillDown"
 }
 tt.render.sprites[1].offset = v(12, 70)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 
 tt = E:register_t("veznan_crystal", "decal_scripted")
 E:add_comps(tt, "ui", "attacks", "tween")
@@ -4947,7 +4946,7 @@ tt.render.sprites[1].angles.shoot = {
 }
 tt.render.sprites[1].anchor.y = 0.08
 tt.render.sprites[1].offset = v(0, 37)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 tt.attacks.range = 150
 tt.attacks.list[1] = CC("bullet_attack")
 tt.attacks.list[1].skill = "range_unit"
@@ -5574,7 +5573,7 @@ tt.render.sprites[1].angles.skillEnd = {
 }
 tt.render.sprites[1].anchor.y = 0.133
 tt.render.sprites[1].offset = v(0, 15)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 tt.attacks.range = 160
 tt.attacks.list[1] = CC("bullet_attack")
 tt.attacks.list[1].skill = "range_unit"
@@ -5689,7 +5688,7 @@ tt.render.sprites[1].prefix = "goblin_bomber"
 tt.render.sprites[1].name = "idle"
 tt.render.sprites[1].anchor.y = 0.222
 tt.render.sprites[1].offset = v(-39, 26)
-tt.render.sprites[1].draw_order = DO_TOWER_MODS - 1
+tt.render.sprites[1].draw_order = DO_MOD_FX - 1
 tt.attacks.range = 200
 tt.attacks.list[1] = CC("bullet_attack")
 tt.attacks.list[1].skill = "range_unit"

@@ -21985,10 +21985,12 @@ tt.render.sprites[1].angles.walk = {
 }
 tt.render.sprites[1].prefix = "babyAshbite"
 tt.render.sprites[1].sync_idx = 8
+tt.render.sprites[1].z = Z_FLYING_HEROES
 tt.render.sprites[2] = E:clone_c("sprite")
 tt.render.sprites[2].animated = false
 tt.render.sprites[2].name = "babyAshbite_0099"
 tt.render.sprites[2].anchor.y = 0.0625
+tt.render.sprites[2].z = Z_DECALS + 1
 tt.soldier.melee_slot_offset = v(0, 0)
 tt.drag_line_origin_offset = v(0, 80)
 tt.ui.click_rect = r(-40, 70, 80, 30)

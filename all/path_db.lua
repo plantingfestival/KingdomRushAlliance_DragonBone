@@ -15,6 +15,8 @@ path_db.path_valid_margin = 1
 path_db.path_valid_margin_top = 2
 path_db.average_node_dist = 6
 
+local myExtension = require("myExtension")
+
 function path_db:load(name, visible_coords)
 	self.paths = {}
 	self.path_connections = {}
@@ -126,6 +128,32 @@ function path_db:load(name, visible_coords)
 			self:set_visible_end_node(j, km.clamp(1, #p[1], ni_out - (visible_end and 0 or margin_end)))
 		end
 	end
+
+	local pathDB = myExtension.pathDB
+	self.pathDB_ptr = pathDB.new_path_db()
+	local paths_ptr = pathDB.new_paths()
+	self.pathDB_ptr:path_db_set_paths(paths_ptr)
+	for _, path in pairs(self.paths) do
+		local subpaths = {}
+		for i = 1, 3 do
+			subpaths[i] = pathDB.new_vector_point(path[i])
+		end
+		pathDB.paths_push(paths_ptr, pathDB.new_path(subpaths[1], subpaths[2], subpaths[3]))
+	end
+
+	self.pathDB_ptr:path_db_set_path_connections(pathDB.new_path_connections(self.path_connections))
+	self.pathDB_ptr:path_db_set_path_start_node(pathDB.new_path_start_node(self.path_start_node))
+	self.pathDB_ptr:path_db_set_path_end_node(pathDB.new_path_end_node(self.path_end_node))
+	self.pathDB_ptr:path_db_set_visible_path_start_node(pathDB.new_visible_path_start_node(self.visible_path_start_node))
+	self.pathDB_ptr:path_db_set_visible_path_end_node(pathDB.new_visible_path_end_node(self.visible_path_end_node))
+	self.pathDB_ptr:path_db_set_active_paths(pathDB.new_active_paths(self.active_paths))
+
+	local invalid_ranges_ptr = pathDB.new_invalid_ranges()
+	self.pathDB_ptr:path_db_set_invalid_ranges(invalid_ranges_ptr)
+	for _, invalid_ranges_of_path in pairs(self.invalid_ranges) do
+		pathDB.invalid_ranges_push(invalid_ranges_ptr, pathDB.new_invalid_ranges_of_path(invalid_ranges_of_path))
+	end
+	self.pathDB_ptr:path_db_set_defend_point_node(pathDB.new_defend_point_node(self.defend_point_node))
 end
 
 function path_db:path(index, subindex)
@@ -155,10 +183,10 @@ function path_db:node_pos(p1, p2, p3, return_ref)
 
 	ni = km.clamp(1, #path, ni)
 
-	if return_ref then
-		return path[ni]
-	else
+	if not return_ref then
 		return V.vclone(path[ni])
+	else
+		return path[ni]
 	end
 end
 
@@ -182,10 +210,16 @@ end
 
 function path_db:set_visible_start_node(pi, ni)
 	self.visible_path_start_node[pi] = ni
+	if self.pathDB_ptr then
+		myExtension.pathDB.visible_path_start_node_set(self.pathDB_ptr:path_db_get_visible_path_start_node(), pi, ni)
+	end
 end
 
 function path_db:set_visible_end_node(pi, node)
 	self.visible_path_end_node[pi] = node
+	if self.pathDB_ptr then
+		myExtension.pathDB.visible_path_end_node_set(self.pathDB_ptr:path_db_get_visible_path_end_node(), pi, node)
+	end
 end
 
 function path_db:get_visible_start_node(pi)
@@ -206,10 +240,16 @@ end
 
 function path_db:set_start_node(pi, ni)
 	self.path_start_node[pi] = ni
+	if self.pathDB_ptr then
+		myExtension.pathDB.path_start_node_set(self.pathDB_ptr:path_db_get_path_start_node(), pi, ni)
+	end
 end
 
 function path_db:set_end_node(pi, node)
 	self.path_end_node[pi] = node
+	if self.pathDB_ptr then
+		myExtension.pathDB.path_end_node_set(self.pathDB_ptr:path_db_get_path_end_node(), pi, node)
+	end
 end
 
 function path_db:get_start_node(pi)
@@ -271,6 +311,7 @@ end
 
 function path_db:set_defend_point_node(pi, ni)
 	self.defend_point_node[pi] = ni
+	myExtension.pathDB.defend_point_node_set(self.pathDB_ptr:path_db_get_defend_point_node(), pi, ni)
 end
 
 function path_db:nodes_to_defend_point(p1, p2, p3)
@@ -373,10 +414,12 @@ end
 
 function path_db:activate_path(index)
 	self.active_paths[index] = true
+	myExtension.pathDB.active_paths_set(self.pathDB_ptr:path_db_get_active_paths(), index, true)
 end
 
 function path_db:deactivate_path(index)
 	self.active_paths[index] = false
+	myExtension.pathDB.active_paths_set(self.pathDB_ptr:path_db_get_active_paths(), index, false)
 end
 
 function path_db:is_path_active(index)
@@ -393,6 +436,8 @@ function path_db:add_invalid_range(index, from, to, flags)
 		to,
 		flags
 	})
+
+	self.pathDB_ptr:add_invalid_range(index, from, to, flags)
 end
 
 function path_db:remove_invalid_range(index, from, to)
@@ -410,6 +455,8 @@ function path_db:remove_invalid_range(index, from, to)
 			break
 		end
 	end
+
+	self.pathDB_ptr:remove_invalid_range(index, from, to)
 end
 
 function path_db:is_node_valid(pi, ni, flags)
@@ -541,8 +588,7 @@ function path_db:predict_enemy_node_advance(e, flight_time, custom_delay)
 	end
 
 	local speed = (e.motion.speed.x ~= 0 or e.motion.speed.y ~= 0) and e.motion.max_speed or 0
-	local threshold = 3
-	local fDist = flight_time * speed
+	local fDist = flight_time * speed - 3
 	local path = self:path(e.nav_path.pi)
 	local x, y = e.pos.x, e.pos.y
 	local dist = 0
@@ -552,7 +598,7 @@ function path_db:predict_enemy_node_advance(e, flight_time, custom_delay)
 	for i = e.nav_path.ni, endIndex, step do
 		local nodePos = self:node_pos(e.nav_path.pi, e.nav_path.spi, i)
 		dist = dist + V.dist(x, y, nodePos.x, nodePos.y)
-		if fDist - dist < threshold then
+		if fDist < dist then
 			node_offset = i - e.nav_path.ni
 			break
 		end
@@ -732,6 +778,9 @@ function path_db:load_curves(name)
 		if self.active_paths[i] == nil then
 			self.active_paths[i] = true
 		end
+	end
+	if self.pathdb_ptr then
+		self.pathdb_ptr:path_db_set_active_paths(myExtension.pathDB.new_active_paths(self.active_paths))
 	end
 end
 

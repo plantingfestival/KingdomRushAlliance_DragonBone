@@ -540,6 +540,12 @@ function love.draw()
 end
 
 function love.keypressed(key, scancode, isrepeat)
+	if not lldebugger then
+		-- block empty
+	elseif key == "f6" then
+		lldebugger.requestBreak()
+	end
+
 	if main.profiler then
 		if key == "f1" then
 			main.profiler.start()

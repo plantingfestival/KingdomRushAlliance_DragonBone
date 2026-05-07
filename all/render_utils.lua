@@ -5,7 +5,7 @@ local EXO = require("exoskeleton")
 local RU = {}
 
 RU.BATCHES_COUNT = 30
-RU.BATCH_SIZE = 50
+RU.BATCH_SIZE = 64
 RU.batches = {}
 RU.bi = 1
 

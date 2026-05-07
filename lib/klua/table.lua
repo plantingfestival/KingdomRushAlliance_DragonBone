@@ -1,4 +1,8 @@
 -- customization
+function table.isEmpty(table)
+	return next(table) == nil
+end
+
 function table.getTableLength(table)
 	local count = 0
 	for k, v in pairs(table) do
